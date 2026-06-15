@@ -1,0 +1,12 @@
+/node_modules
+/.next
+/out
+.wrangler
+.dev.vars
+*.log
+.DS_Store
+.vercel
+.env*.local
+
+# Tooling locks
+.claude/

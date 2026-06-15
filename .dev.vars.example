@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local development with `wrangler pages dev`.
+# AUTH_SECRET signs/identifies sessions (any random string works locally).
+AUTH_SECRET=dev-only-change-me
+
+# Optional — enables real Claude-generated example sentences.
+# Leave unset to use the built-in mock (the app still works fully).
+# ANTHROPIC_API_KEY=sk-ant-...

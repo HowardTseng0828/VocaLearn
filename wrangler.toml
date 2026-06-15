@@ -1,0 +1,22 @@
+name = "vocalearn"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "out"
+
+# Cloudflare D1 binding. Create the database with:
+#   wrangler d1 create vocalearn-db
+# then paste the returned database_id below.
+[[d1_databases]]
+binding = "DB"
+database_name = "vocalearn-db"
+database_id = "075bbac0-642e-4677-8409-def40041ff24"
+
+# --- Secrets / environment variables ---
+# ANTHROPIC_API_KEY enables AI example-sentence & cloze generation.
+# Leave it unset to run in mock mode (the app still works end-to-end).
+# Set it for production with:
+#   wrangler pages secret put ANTHROPIC_API_KEY
+[vars]
+# AUTH_SECRET signs session tokens. Override in production via:
+#   wrangler pages secret put AUTH_SECRET
+AUTH_SECRET = "dev-only-change-me-in-production"
