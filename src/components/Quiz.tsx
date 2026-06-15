@@ -119,19 +119,19 @@ export function Quiz() {
   if (phase === "loading") {
     return (
       <div className="flex justify-center py-24">
-        <div className="h-8 w-8 animate-spin rounded-full border-2 border-brand-500 border-t-transparent" />
+        <div className="h-10 w-10 animate-spin rounded-full border-4 border-brand-500 border-t-transparent" />
       </div>
     );
   }
 
   if (phase === "empty") {
     return (
-      <div className="card mx-auto max-w-md p-8 text-center animate-fade-in">
-        <div className="text-4xl">🎉</div>
-        <h2 className="mt-3 text-lg font-bold">
+      <div className="card mx-auto max-w-md p-8 text-center animate-bounce-in">
+        <div className="text-5xl">🎉</div>
+        <h2 className="mt-3 text-xl font-extrabold">
           {review ? "沒有待複習的錯題！" : "目前沒有題目"}
         </h2>
-        <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+        <p className="mt-1 text-sm font-medium text-slate-500 dark:text-slate-400">
           {review ? "錯題本是空的，太厲害了。" : "請先匯入單字或稍後再試。"}
         </p>
         <Link href="/" className="btn btn-primary mt-5">
@@ -144,13 +144,18 @@ export function Quiz() {
   if (phase === "done") {
     const pct = Math.round((score / questions.length) * 100);
     return (
-      <div className="card mx-auto max-w-md p-8 text-center animate-pop">
-        <div className="text-5xl">{pct >= 80 ? "🏆" : pct >= 50 ? "👍" : "💪"}</div>
-        <h2 className="mt-3 text-2xl font-bold">完成！</h2>
-        <p className="mt-2 text-slate-500 dark:text-slate-400">
-          答對 <span className="font-bold text-brand-600 dark:text-brand-300">{score}</span> /{" "}
-          {questions.length} 題（{pct}%）
-        </p>
+      <div className="card mx-auto max-w-md p-8 text-center animate-bounce-in">
+        <div className="text-6xl">{pct >= 80 ? "🏆" : pct >= 50 ? "🎉" : "💪"}</div>
+        <h2 className="mt-3 text-2xl font-extrabold">完成！</h2>
+        <div className="mx-auto mt-4 w-fit rounded-2xl bg-brand-50 px-6 py-3 dark:bg-brand-900/30">
+          <div className="text-3xl font-extrabold text-brand-600 dark:text-brand-300">
+            {score}
+            <span className="text-lg font-bold text-slate-400"> / {questions.length}</span>
+          </div>
+          <div className="text-xs font-bold text-slate-500 dark:text-slate-400">
+            正確率 {pct}%
+          </div>
+        </div>
         <div className="mt-6 flex gap-3">
           <button
             onClick={() => {
@@ -197,11 +202,8 @@ export function Quiz() {
           {index + 1} / {questions.length}
         </span>
       </div>
-      <div className="mb-6 h-2 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
-        <div
-          className="h-full rounded-full bg-brand-500 transition-all"
-          style={{ width: `${progress}%` }}
-        />
+      <div className="progress-track shimmer mb-6">
+        <div className="progress-fill" style={{ width: `${progress}%` }} />
       </div>
 
       <div key={index} className="animate-fade-in">
@@ -258,12 +260,12 @@ function QuestionBody({
     return (
       <div>
         <div className="card mb-5 p-8 text-center">
-          <div className="text-3xl font-bold break-words">{prompt}</div>
+          <div className="text-3xl font-extrabold break-words">{prompt}</div>
           {q.mode === "en2zh" && q.pos && (
-            <div className="mt-1 text-sm text-slate-400">{q.pos}</div>
+            <div className="mt-1 text-sm font-bold text-slate-400">{q.pos}</div>
           )}
           {q.mode === "zh2en" && (
-            <div className="mt-1 text-sm text-slate-400">{sub}</div>
+            <div className="mt-1 text-sm font-bold text-slate-400">{sub}</div>
           )}
         </div>
         <div className="grid gap-3">
@@ -279,12 +281,8 @@ function QuestionBody({
                   setTyped(choice);
                   onSubmit(choice);
                 }}
-                className={`card p-4 text-left text-base transition disabled:cursor-default ${
-                  isExpected
-                    ? "!border-green-400 !bg-green-50 dark:!bg-green-950/30"
-                    : isWrongPick
-                      ? "!border-red-400 !bg-red-50 dark:!bg-red-950/30"
-                      : "hover:border-brand-300 dark:hover:border-brand-700"
+                className={`choice ${locked ? "choice-locked" : ""} ${
+                  isExpected ? "choice-correct" : isWrongPick ? "choice-wrong" : ""
                 }`}
               >
                 {choice}
@@ -318,11 +316,11 @@ function QuestionBody({
   // Cloze (AI sentence with a blank)
   return (
     <div>
-      <div className="card mb-5 p-6">
-        <div className="mb-2 flex items-center gap-2 text-xs font-medium text-brand-600 dark:text-brand-300">
+      <div className="card mb-5 border-pink-200 p-6 dark:border-pink-900/40">
+        <div className="mb-2 flex items-center gap-2 text-xs font-extrabold text-mode-pink">
           <span>🤖 AI 例句填空</span>
           {aiCard?.source === "mock" && (
-            <span className="rounded bg-slate-100 px-1.5 py-0.5 text-slate-500 dark:bg-slate-800">
+            <span className="rounded-full bg-slate-100 px-2 py-0.5 text-slate-500 dark:bg-slate-800">
               示範模式
             </span>
           )}
@@ -376,8 +374,8 @@ function TypePrompt(props: {
   return (
     <div>
       <div className="card mb-5 p-8 text-center">
-        <div className="text-2xl font-bold break-words">{props.title}</div>
-        <div className="mt-1 text-sm text-slate-400">{props.subtitle}</div>
+        <div className="text-2xl font-extrabold break-words">{props.title}</div>
+        <div className="mt-1 text-sm font-bold text-slate-400">{props.subtitle}</div>
       </div>
       <InlineTypeInput {...props} />
     </div>
@@ -440,31 +438,41 @@ function Feedback({
 }) {
   return (
     <div
-      className={`mt-5 rounded-2xl border p-5 animate-fade-in ${
+      className={`mt-5 rounded-2xl border-2 p-5 animate-fade-in ${
         result.correct
-          ? "border-green-200 bg-green-50 dark:border-green-900/50 dark:bg-green-950/20"
+          ? "border-brand-200 bg-brand-50 dark:border-brand-900/50 dark:bg-brand-950/20"
           : "border-red-200 bg-red-50 dark:border-red-900/50 dark:bg-red-950/20"
       }`}
     >
-      <div className="flex items-center gap-2 font-bold">
+      <div className="flex items-center gap-2">
         {result.correct ? (
-          <span className="text-green-600 dark:text-green-400">✓ 答對了！</span>
+          <span className="flex items-center gap-2 text-lg font-extrabold text-brand-600 dark:text-brand-400">
+            <span className="grid h-8 w-8 place-items-center rounded-full bg-brand-500 text-white">
+              ✓
+            </span>
+            答對了！
+          </span>
         ) : (
-          <span className="text-red-600 dark:text-red-400">✗ 答錯了</span>
+          <span className="flex items-center gap-2 text-lg font-extrabold text-red-600 dark:text-red-400">
+            <span className="grid h-8 w-8 place-items-center rounded-full bg-mode-red text-white">
+              ✗
+            </span>
+            答錯了
+          </span>
         )}
         {result.mastered && (
-          <span className="rounded-full bg-brand-100 px-2 py-0.5 text-xs font-medium text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
+          <span className="ml-auto animate-bounce-in rounded-full bg-mode-gold px-2.5 py-1 text-xs font-extrabold text-white">
             ⭐ 已精熟
           </span>
         )}
       </div>
-      <div className="mt-2 text-sm">
+      <div className="mt-3 text-sm font-medium">
         <div>
-          <span className="font-semibold">{result.word}</span> — {result.meaning}
+          <span className="font-extrabold">{result.word}</span> — {result.meaning}
         </div>
         {!result.correct && (
           <div className="mt-1 text-slate-500 dark:text-slate-400">
-            正解：<span className="font-medium">{result.expected}</span>
+            正解：<span className="font-extrabold text-brand-600 dark:text-brand-300">{result.expected}</span>
           </div>
         )}
       </div>

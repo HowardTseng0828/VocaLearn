@@ -46,10 +46,10 @@ export default function WordsPage() {
   return (
     <div className="space-y-4 animate-fade-in">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-bold">單字庫</h1>
+        <h1 className="text-xl font-extrabold">單字庫</h1>
         <button
           onClick={() => setShowImport((s) => !s)}
-          className="btn btn-ghost !py-2 text-sm"
+          className="btn btn-ghost !py-2 text-xs"
         >
           {showImport ? "關閉匯入" : "📥 匯入 CSV"}
         </button>
@@ -61,16 +61,16 @@ export default function WordsPage() {
         className="input"
         value={q}
         onChange={(e) => setQ(e.target.value)}
-        placeholder="搜尋單字或中文意思…"
+        placeholder="🔍 搜尋單字或中文意思…"
       />
 
-      <div className="text-sm text-slate-500 dark:text-slate-400">
+      <div className="text-sm font-bold text-slate-500 dark:text-slate-400">
         共 {total.toLocaleString()} 個單字
       </div>
 
       {loading ? (
         <div className="flex justify-center py-16">
-          <div className="h-7 w-7 animate-spin rounded-full border-2 border-brand-500 border-t-transparent" />
+          <div className="h-9 w-9 animate-spin rounded-full border-4 border-brand-500 border-t-transparent" />
         </div>
       ) : (
         <ul className="grid gap-2 sm:grid-cols-2">
@@ -78,19 +78,19 @@ export default function WordsPage() {
             <li key={w.id} className="card flex items-start justify-between gap-2 p-3">
               <div className="min-w-0">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold">{w.word}</span>
-                  {w.pos && <span className="text-xs text-slate-400">{w.pos}</span>}
+                  <span className="font-extrabold">{w.word}</span>
+                  {w.pos && <span className="text-xs font-bold text-slate-400">{w.pos}</span>}
                 </div>
-                <div className="truncate text-sm text-slate-500 dark:text-slate-400">
+                <div className="truncate text-sm font-medium text-slate-500 dark:text-slate-400">
                   {w.meaning}
                 </div>
               </div>
               {w.mastered === 1 ? (
-                <span title="已精熟" className="shrink-0 text-brand-500">
+                <span title="已精熟" className="shrink-0 text-lg">
                   ⭐
                 </span>
               ) : w.seen > 0 ? (
-                <span title="練習中" className="shrink-0 text-slate-300 dark:text-slate-600">
+                <span title="練習中" className="shrink-0 text-brand-300 dark:text-brand-700">
                   ●
                 </span>
               ) : null}

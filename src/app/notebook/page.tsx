@@ -37,15 +37,15 @@ export default function NotebookPage() {
   return (
     <div className="space-y-4 animate-fade-in">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-bold">錯題本</h1>
+        <h1 className="text-xl font-extrabold">錯題本</h1>
         {items.length > 0 && (
-          <Link href="/practice?mode=random&review=1" className="btn btn-primary !py-2 text-sm">
+          <Link href="/practice?mode=random&review=1" className="btn btn-blue !py-2 text-xs">
             複習錯題 →
           </Link>
         )}
       </div>
 
-      <div className="flex rounded-xl bg-slate-100 p-1 dark:bg-slate-800">
+      <div className="flex rounded-2xl bg-slate-100 p-1.5 dark:bg-slate-800">
         {[
           { v: false, label: "待複習" },
           { v: true, label: "全部" },
@@ -53,10 +53,10 @@ export default function NotebookPage() {
           <button
             key={String(t.v)}
             onClick={() => setShowAll(t.v)}
-            className={`flex-1 rounded-lg py-1.5 text-sm font-medium transition ${
+            className={`flex-1 rounded-xl py-2 text-sm font-extrabold transition ${
               showAll === t.v
-                ? "bg-white text-brand-700 shadow-sm dark:bg-slate-700 dark:text-brand-200"
-                : "text-slate-500"
+                ? "bg-white text-brand-600 shadow-sm dark:bg-slate-700 dark:text-brand-300"
+                : "text-slate-400"
             }`}
           >
             {t.label}
@@ -66,15 +66,15 @@ export default function NotebookPage() {
 
       {loading ? (
         <div className="flex justify-center py-16">
-          <div className="h-7 w-7 animate-spin rounded-full border-2 border-brand-500 border-t-transparent" />
+          <div className="h-9 w-9 animate-spin rounded-full border-4 border-brand-500 border-t-transparent" />
         </div>
       ) : items.length === 0 ? (
-        <div className="card p-10 text-center">
-          <div className="text-4xl">📕</div>
-          <p className="mt-3 font-semibold">
+        <div className="card p-10 text-center animate-bounce-in">
+          <div className="text-5xl">{showAll ? "📕" : "🎉"}</div>
+          <p className="mt-3 font-extrabold">
             {showAll ? "還沒有任何錯題紀錄" : "沒有待複習的錯題"}
           </p>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+          <p className="mt-1 text-sm font-medium text-slate-500 dark:text-slate-400">
             做幾題練習後，答錯的單字會自動收進這裡。
           </p>
         </div>
@@ -86,25 +86,25 @@ export default function NotebookPage() {
               className="card flex items-center justify-between gap-3 p-4"
             >
               <div className="min-w-0">
-                <div className="flex items-center gap-2">
-                  <span className="font-bold">{it.word}</span>
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="font-extrabold">{it.word}</span>
                   {it.pos && (
-                    <span className="text-xs text-slate-400">{it.pos}</span>
+                    <span className="text-xs font-bold text-slate-400">{it.pos}</span>
                   )}
-                  <span className="rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-500 dark:bg-slate-800">
+                  <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-bold text-slate-500 dark:bg-slate-800">
                     {MODE_LABEL[it.mode]}
                   </span>
                   {it.resolved === 1 && (
-                    <span className="rounded bg-green-100 px-1.5 py-0.5 text-xs text-green-700 dark:bg-green-900/40 dark:text-green-300">
-                      已訂正
+                    <span className="rounded-full bg-brand-100 px-2 py-0.5 text-xs font-bold text-brand-700 dark:bg-brand-900/40 dark:text-brand-300">
+                      ✓ 已訂正
                     </span>
                   )}
                 </div>
-                <div className="mt-0.5 truncate text-sm text-slate-500 dark:text-slate-400">
+                <div className="mt-0.5 truncate text-sm font-medium text-slate-500 dark:text-slate-400">
                   {it.meaning}
                 </div>
                 {it.your_answer && (
-                  <div className="mt-0.5 text-xs text-red-500">
+                  <div className="mt-0.5 text-xs font-bold text-mode-red">
                     你的答案：{it.your_answer}
                   </div>
                 )}

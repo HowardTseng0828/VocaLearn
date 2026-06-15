@@ -12,37 +12,154 @@ html {
 
 body {
   @apply bg-slate-50 text-slate-900 antialiased;
+  font-feature-settings: "ss01";
 }
 
 .dark body {
   @apply bg-slate-950 text-slate-100;
 }
 
-/* Reusable surface card */
+/* ---------- 卡片：Duolingo 風的粗邊框 + 底邊陰影 ---------- */
 .card {
-  @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+  @apply rounded-2xl border-2 border-slate-200 bg-white;
+  box-shadow: 0 2px 0 0 rgb(226 232 240); /* slate-200 底邊 */
 }
 .dark .card {
   @apply border-slate-800 bg-slate-900;
+  box-shadow: 0 2px 0 0 rgb(30 41 59); /* slate-800 底邊 */
 }
 
-/* Primary button */
+/* ---------- 3D 立體按鈕 ---------- */
+/* 底部有實心陰影、按下時往下壓，模擬實體按鍵手感 */
 .btn {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  @apply inline-flex select-none items-center justify-center gap-2 rounded-2xl border-2 border-transparent px-5 py-3 text-sm font-extrabold uppercase tracking-wide transition-all;
+  transition-property: transform, box-shadow, background-color, filter;
+  transition-duration: 100ms;
 }
+.btn:active {
+  @apply translate-y-0.5;
+}
+.btn:disabled {
+  @apply cursor-not-allowed opacity-50;
+}
+
+/* 主要按鈕（綠） */
 .btn-primary {
-  @apply bg-brand-600 text-white hover:bg-brand-700;
+  @apply bg-brand-500 text-white;
+  box-shadow: 0 4px 0 0 #46a302;
 }
+.btn-primary:hover:not(:disabled) {
+  @apply brightness-105;
+}
+.btn-primary:active:not(:disabled) {
+  box-shadow: 0 1px 0 0 #46a302;
+}
+
+/* 次要按鈕（白底 / 深色底，灰邊） */
 .btn-ghost {
-  @apply bg-slate-100 text-slate-700 hover:bg-slate-200;
+  @apply border-slate-200 bg-white text-slate-600;
+  box-shadow: 0 4px 0 0 rgb(226 232 240);
+}
+.btn-ghost:hover:not(:disabled) {
+  @apply bg-slate-50;
+}
+.btn-ghost:active:not(:disabled) {
+  box-shadow: 0 1px 0 0 rgb(226 232 240);
 }
 .dark .btn-ghost {
-  @apply bg-slate-800 text-slate-200 hover:bg-slate-700;
+  @apply border-slate-700 bg-slate-800 text-slate-200;
+  box-shadow: 0 4px 0 0 rgb(15 23 42);
+}
+.dark .btn-ghost:hover:not(:disabled) {
+  @apply bg-slate-700;
+}
+.dark .btn-ghost:active:not(:disabled) {
+  box-shadow: 0 1px 0 0 rgb(15 23 42);
 }
 
+/* 藍色按鈕（用於次要動作，如複習） */
+.btn-blue {
+  @apply text-white;
+  background-color: #1cb0f6;
+  box-shadow: 0 4px 0 0 #1387c4;
+}
+.btn-blue:hover:not(:disabled) {
+  @apply brightness-105;
+}
+.btn-blue:active:not(:disabled) {
+  box-shadow: 0 1px 0 0 #1387c4;
+}
+
+/* ---------- 輸入框 ---------- */
 .input {
-  @apply w-full rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-200;
+  @apply w-full rounded-2xl border-2 border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium outline-none transition focus:border-brand-400 focus:bg-white focus:ring-4 focus:ring-brand-100;
 }
 .dark .input {
-  @apply border-slate-700 bg-slate-800 text-slate-100 focus:ring-brand-900;
+  @apply border-slate-700 bg-slate-800 text-slate-100 focus:border-brand-500 focus:bg-slate-800 focus:ring-brand-900/40;
+}
+
+/* ---------- 選項卡（練習多選題用）：未選 / 選中 / 對 / 錯 ---------- */
+.choice {
+  @apply rounded-2xl border-2 border-slate-200 bg-white px-4 py-4 text-left text-base font-bold text-slate-700 transition-all;
+  box-shadow: 0 3px 0 0 rgb(226 232 240);
+}
+.choice:hover:not(:disabled):not(.choice-locked) {
+  @apply border-mode-blue/60 bg-sky-50;
+}
+.choice:active:not(:disabled):not(.choice-locked) {
+  @apply translate-y-0.5;
+  box-shadow: 0 1px 0 0 rgb(226 232 240);
+}
+.dark .choice {
+  @apply border-slate-700 bg-slate-900 text-slate-200;
+  box-shadow: 0 3px 0 0 rgb(15 23 42);
+}
+.dark .choice:hover:not(:disabled):not(.choice-locked) {
+  @apply border-mode-blue/50 bg-sky-950/30;
+}
+
+.choice-correct {
+  @apply border-brand-400 bg-brand-50 text-brand-700;
+  box-shadow: 0 3px 0 0 theme("colors.brand.200");
+}
+.dark .choice-correct {
+  @apply border-brand-500 bg-brand-900/30 text-brand-200;
+}
+.choice-wrong {
+  @apply border-mode-red bg-red-50 text-red-600;
+  box-shadow: 0 3px 0 0 rgb(254 202 202);
+}
+.dark .choice-wrong {
+  @apply bg-red-950/30 text-red-300;
+}
+
+/* ---------- 進度條 ---------- */
+.progress-track {
+  @apply h-4 overflow-hidden rounded-full bg-slate-200;
+}
+.dark .progress-track {
+  @apply bg-slate-800;
+}
+.progress-fill {
+  @apply h-full rounded-full bg-brand-500 transition-all duration-500;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.35), transparent 60%);
+}
+
+/* 進度條上的流光 */
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.25),
+    transparent
+  );
+  animation: shimmer 2s infinite;
 }
