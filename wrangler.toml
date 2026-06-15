@@ -12,10 +12,10 @@ database_name = "vocalearn-db"
 database_id = "075bbac0-642e-4677-8409-def40041ff24"
 
 # --- Secrets / environment variables ---
-# ANTHROPIC_API_KEY enables AI example-sentence & cloze generation.
+# GEMINI_API_KEY enables AI example-sentence & cloze generation.
 # Leave it unset to run in mock mode (the app still works end-to-end).
 # Set it for production with:
-#   wrangler pages secret put ANTHROPIC_API_KEY
+#   wrangler pages secret put GEMINI_API_KEY
 [vars]
 # AUTH_SECRET signs session tokens. Override in production via:
 #   wrangler pages secret put AUTH_SECRET

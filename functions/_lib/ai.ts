@@ -1,7 +1,7 @@
-// Claude-backed example-sentence & cloze generation.
-// Calls the Anthropic Messages API over raw fetch (the official SDK isn't a good
-// fit for the Workers runtime). When ANTHROPIC_API_KEY is unset, returns a
-// deterministic mock so the whole app works without a key.
+// Gemini-backed example-sentence & cloze generation.
+// Calls the Google Gemini REST API over raw fetch.
+// When GEMINI_API_KEY is unset, returns a deterministic mock
+// so the whole app works without a key.
 
 import type { Env } from "./types";
 
@@ -12,9 +12,9 @@ export interface AiCard {
   source: "ai" | "mock";
 }
 
-const MODEL = "claude-opus-4-8";
+const MODEL = "gemini-1.5-flash";
 
-// JSON schema constraining Claude's output for a reliable shape.
+// JSON schema constraining Gemini's output for a reliable shape.
 const OUTPUT_SCHEMA = {
   type: "object",
   properties: {
@@ -22,12 +22,11 @@ const OUTPUT_SCHEMA = {
     translation: { type: "string" },
   },
   required: ["sentence", "translation"],
-  additionalProperties: false,
 };
 
 function makeCloze(sentence: string, word: string): string {
   // Replace the first whole-word, case-insensitive occurrence with a blank.
-  const re = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+  const re = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}\\b`, "i");
   if (re.test(sentence)) return sentence.replace(re, "_____");
   // Fallback: if the exact word isn't present (e.g. inflected), blank nothing.
   return sentence + " (_____)";
@@ -49,7 +48,7 @@ export async function generateCard(
   pos: string,
   meaning: string
 ): Promise<AiCard> {
-  const apiKey = env.ANTHROPIC_API_KEY;
+  const apiKey = env.GEMINI_API_KEY;
   if (!apiKey) return mockCard(word, meaning);
 
   const system =
@@ -66,36 +65,43 @@ export async function generateCard(
     "Write the example sentence and its Traditional Chinese translation.";
 
   try {
-    const resp = await fetch("https://api.anthropic.com/v1/messages", {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${apiKey}`;
+    const resp = await fetch(url, {
       method: "POST",
       headers: {
-        "content-type": "application/json",
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: MODEL,
-        max_tokens: 1024,
-        thinking: { type: "adaptive" },
-        system,
-        messages: [{ role: "user", content: userPrompt }],
-        output_config: {
-          format: { type: "json_schema", schema: OUTPUT_SCHEMA },
+        system_instruction: {
+          parts: [{ text: system }]
+        },
+        contents: [
+          { role: "user", parts: [{ text: userPrompt }] }
+        ],
+        generationConfig: {
+          responseMimeType: "application/json",
+          responseSchema: OUTPUT_SCHEMA,
         },
       }),
     });
 
-    if (!resp.ok) return mockCard(word, meaning);
+    if (!resp.ok) {
+      console.error("Gemini API Error:", await resp.text());
+      return mockCard(word, meaning);
+    }
+
     const data = (await resp.json()) as {
-      content?: { type: string; text?: string }[];
-      stop_reason?: string;
+      candidates?: {
+        content?: {
+          parts?: { text?: string }[];
+        };
+      }[];
     };
-    if (data.stop_reason === "refusal") return mockCard(word, meaning);
 
-    const textBlock = (data.content ?? []).find((b) => b.type === "text");
-    if (!textBlock?.text) return mockCard(word, meaning);
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!text) return mockCard(word, meaning);
 
-    const parsed = JSON.parse(textBlock.text) as {
+    const parsed = JSON.parse(text) as {
       sentence: string;
       translation: string;
     };
@@ -106,7 +112,8 @@ export async function generateCard(
       translation: parsed.translation?.trim() ?? "",
       source: "ai",
     };
-  } catch {
+  } catch (err) {
+    console.error("Failed to parse Gemini response:", err);
     return mockCard(word, meaning);
   }
 }

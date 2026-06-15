@@ -60,7 +60,7 @@ Build 成功後，進專案設定：
 
 2. **Settings → Environment variables and Secrets**（Production）
    - `AUTH_SECRET` = 一組你自己的隨機字串（**必填**，用來簽 session）
-   - `ANTHROPIC_API_KEY` = Claude 金鑰（**選填**，要真 AI 例句才加；不填會用示範例句）
+   - `GEMINI_API_KEY` = Gemini 金鑰（**選填**，要真 AI 例句才加；不填會用示範例句）
 
 3. **Deployments** → 最新一筆 → **Retry deployment**（讓綁定生效）
 
@@ -95,4 +95,4 @@ npm run db:seed:remote
 - **網站打得開但登入/練習失敗**：D1 沒初始化，回步驟 4。
 - **`npm install` 失敗、出現 `UNABLE_TO_VERIFY_LEAF_SIGNATURE`**：防毒軟體（如 Avast）攔截 HTTPS，
   Node 不信任它的憑證。到防毒設定關閉「網頁防護 / Web Shield 的 HTTPS 掃描」，再重跑 `npm install`。
-- **AI 例句顯示「示範模式」**：正常，代表沒設 `ANTHROPIC_API_KEY`。要真 AI 例句就到步驟 3 加上金鑰。
+- **AI 例句顯示「示範模式」**：正常，代表沒設 `GEMINI_API_KEY`。要真 AI 例句就到步驟 3 加上金鑰。

@@ -5,7 +5,7 @@
 - **前端**：Next.js（App Router，靜態匯出）+ Tailwind CSS
 - **後端**：Cloudflare Pages Functions（`/functions`）
 - **資料庫**：Cloudflare D1（SQLite）
-- **AI**：Anthropic Claude（`claude-opus-4-8`）— *未設定金鑰時自動以示範模式運作*
+- **AI**：Google Gemini（`gemini-1.5-flash`）— *未設定金鑰時自動以示範模式運作*
 
 ---
 
@@ -16,7 +16,7 @@
 | 🎲 隨機抽考 | 混合四種題型出題 |
 | 🇬🇧 英翻中 / 🇹🇼 中翻英 | 四選一卡片式選擇題 |
 | ⌨️ 拼字測驗 | 看中文意思拼出英文 |
-| 🤖 AI 例句填空 | Claude 生成例句，挖空讓你填入單字 |
+| 🤖 AI 例句填空 | Gemini 生成例句，挖空讓你填入單字 |
 | 📕 錯題本 | 答錯自動收錄，答對自動訂正 |
 | 📊 學習進度 | 精熟度、正確率、連續天數、90 天練習熱力圖 |
 | 📚 單字庫 | 瀏覽 / 搜尋題庫，支援 **CSV 匯入** 擴充 |
@@ -67,21 +67,21 @@ npm run preview
 
 未設定金鑰時，AI 填空題會以**示範模式**運作（固定示範例句），App 全功能仍可正常使用。
 
-要啟用真正的 Claude 生成例句：
+要啟用真正的 Gemini 生成例句：
 
 **本機**：在專案根目錄建立 `.dev.vars`
 
 ```
-ANTHROPIC_API_KEY=sk-ant-...
+GEMINI_API_KEY=AIzaSy...
 ```
 
 **正式部署**：
 
 ```bash
-npx wrangler pages secret put ANTHROPIC_API_KEY
+npx wrangler pages secret put GEMINI_API_KEY
 ```
 
-金鑰可於 https://console.anthropic.com 取得。模型固定使用 `claude-opus-4-8`。
+金鑰可於 Google AI Studio 取得。模型固定使用 `gemini-1.5-flash`。
 
 ---
 
@@ -118,7 +118,7 @@ npm run deploy
 - **Build command**：`npm run build`
 - **Build output directory**：`out`
 - 在 Pages 專案的 **Settings → Functions → D1 database bindings** 綁定 `DB` → `vocalearn-db`
-- 在 **Settings → Environment variables** 設定 `AUTH_SECRET`（必填）與 `ANTHROPIC_API_KEY`（選填）
+- 在 **Settings → Environment variables** 設定 `AUTH_SECRET`（必填）與 `GEMINI_API_KEY`（選填）
 
 ---
 
@@ -162,5 +162,5 @@ resilient,adj.有彈性的；適應力強的
 
 - 密碼以 **PBKDF2-SHA256（100k 迭代）** 雜湊，Session 採 HttpOnly Cookie。
 - 作答正確與否由**伺服器端驗證**，前端無法作弊。
-- AI 呼叫使用 Anthropic Messages API 的 **structured output**（JSON schema）確保回傳格式穩定；無金鑰時回退至示範例句。
+- AI 呼叫使用 Gemini REST API 的 **structured output**（JSON schema）確保回傳格式穩定；無金鑰時回退至示範例句。
 - 靜態前端 + Pages Functions 的架構讓 D1 綁定可原生運作，部署簡單。

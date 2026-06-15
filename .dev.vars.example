@@ -2,6 +2,6 @@
 # AUTH_SECRET signs/identifies sessions (any random string works locally).
 AUTH_SECRET=dev-only-change-me
 
-# Optional — enables real Claude-generated example sentences.
+# Optional — enables real Gemini-generated example sentences.
 # Leave unset to use the built-in mock (the app still works fully).
-# ANTHROPIC_API_KEY=sk-ant-...
+# GEMINI_API_KEY=AIzaSy...
