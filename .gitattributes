@@ -1,0 +1,5 @@
+# Normalize line endings: store text as LF in the repo, check out native on Windows.
+* text=auto eol=lf
+
+# The original source list is Big5-encoded — keep it byte-for-byte, never convert.
+7000vocs.csv -text

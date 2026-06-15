@@ -1,0 +1,33 @@
+{
+  "name": "vocalearn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "高中 7000 單字英文學習 Web App — Next.js + Tailwind on Cloudflare Pages + D1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "seed:gen": "node scripts/csv-to-utf8.mjs",
+    "db:migrate:local": "wrangler d1 execute vocalearn-db --local --file=./migrations/0001_init.sql",
+    "db:seed:local": "wrangler d1 execute vocalearn-db --local --file=./data/seed-words.sql",
+    "db:migrate:remote": "wrangler d1 execute vocalearn-db --remote --file=./migrations/0001_init.sql",
+    "db:seed:remote": "wrangler d1 execute vocalearn-db --remote --file=./data/seed-words.sql",
+    "preview": "npm run build && wrangler pages dev out --compatibility-date=2024-09-23 --d1=DB=vocalearn-db",
+    "deploy": "npm run build && wrangler pages deploy out"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20241004.0",
+    "@types/node": "20.14.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.14",
+    "typescript": "5.6.3",
+    "wrangler": "3.80.0"
+  }
+}
