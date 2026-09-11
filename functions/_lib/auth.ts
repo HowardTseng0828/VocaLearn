@@ -21,6 +21,14 @@ function randomHex(bytes: number): string {
   return [...arr].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
+export function randomToken(bytes = 32): string {
+  return randomHex(bytes);
+}
+
+export async function sha256Hex(value: string): Promise<string> {
+  return toHex(await crypto.subtle.digest("SHA-256", enc.encode(value)));
+}
+
 async function pbkdf2(password: string, saltHex: string): Promise<string> {
   const key = await crypto.subtle.importKey(
     "raw",
@@ -102,7 +110,7 @@ export async function getUser(
   const token = readCookie(request, SESSION_COOKIE);
   if (!token) return null;
   const row = await env.DB.prepare(
-    `SELECT u.id, u.email, u.display_name, s.expires_at
+    `SELECT u.id, u.email, u.display_name, u.role, s.expires_at
        FROM sessions s JOIN users u ON u.id = s.user_id
       WHERE s.token = ?`
   )
@@ -111,6 +119,7 @@ export async function getUser(
       id: number;
       email: string;
       display_name: string;
+      role: "admin" | "user";
       expires_at: number;
     }>();
   if (!row) return null;
@@ -118,7 +127,7 @@ export async function getUser(
     await env.DB.prepare("DELETE FROM sessions WHERE token = ?").bind(token).run();
     return null;
   }
-  return { id: row.id, email: row.email, display_name: row.display_name };
+  return { id: row.id, email: row.email, display_name: row.display_name, role: row.role };
 }
 
 export async function destroySession(request: Request, env: Env): Promise<void> {

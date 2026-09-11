@@ -4,9 +4,38 @@ export interface User {
   id: number;
   email: string;
   displayName: string;
+  role?: "admin" | "user";
 }
 
-export type QuizMode = "en2zh" | "zh2en" | "spell" | "cloze";
+const POS_LABELS: Record<string, string> = {
+  adj: "形容詞",
+  a: "形容詞",
+  adv: "副詞",
+  n: "名詞",
+  v: "動詞",
+  prep: "介系詞",
+  pron: "代名詞",
+  conj: "連接詞",
+  aux: "助動詞",
+  phr: "片語",
+};
+
+/** Convert source abbreviations such as adj./n. into complete Chinese labels. */
+export function formatPartOfSpeech(pos: string, meaning = ""): string {
+  const tokens = pos.toLowerCase().split(/[\/、,，\s]+/).map((token) => token.replace(/\.$/, "")).filter(Boolean);
+  if (/^\s*a\.?\s/i.test(meaning) && !tokens.includes("adj") && !tokens.includes("a")) tokens.push("adj");
+  const labels = tokens.map((token) => POS_LABELS[token] ?? token).filter((label, index, all) => all.indexOf(label) === index);
+  return labels.join("／");
+}
+
+declare global {
+  interface Window {
+    onVocaLearnTurnstile?: (token: string) => void;
+    turnstile?: { reset: () => void };
+  }
+}
+
+export type QuizMode = "en2zh" | "zh2en" | "spell" | "cloze" | "speech";
 
 async function request<T>(
   path: string,
@@ -29,22 +58,38 @@ async function request<T>(
 
 export const api = {
   me: () => request<{ user: User | null }>("/auth/me"),
-  register: (email: string, password: string, displayName: string) =>
+  learningPath: () => request<{ lessons: PathLesson[]; lessonSize: number; lessonsPerUnit: number }>("/path"),
+  updateProfile: (displayName: string) =>
+    request<{ user: User }>("/auth/profile", {
+      method: "PATCH",
+      body: JSON.stringify({ displayName }),
+    }),
+  register: (email: string, password: string, displayName: string, turnstileToken: string) =>
     request<{ user: User }>("/auth/register", {
       method: "POST",
-      body: JSON.stringify({ email, password, displayName }),
+      body: JSON.stringify({ email, password, displayName, turnstileToken }),
     }),
-  login: (email: string, password: string) =>
+  login: (email: string, password: string, turnstileToken: string) =>
     request<{ user: User }>("/auth/login", {
       method: "POST",
-      body: JSON.stringify({ email, password }),
+      body: JSON.stringify({ email, password, turnstileToken }),
     }),
   logout: () => request<{ ok: true }>("/auth/logout", { method: "POST" }),
+  forgotPassword: (email: string, turnstileToken: string) => request<{ ok: true }>("/auth/forgot-password", {
+    method: "POST", body: JSON.stringify({ email, turnstileToken }),
+  }),
+  resetPassword: (token: string, password: string) => request<{ ok: true }>("/auth/reset-password", {
+    method: "POST", body: JSON.stringify({ token, password }),
+  }),
+  leaderboard: () => request<{ items: LeaderboardItem[]; currentUserId: number }>("/leaderboard"),
 
-  generateQuiz: (mode: string, count: number, review = false) =>
+  generateQuiz: (mode: string, count: number, review = false, chapter = "", reviewCorrect = false) =>
     request<{ questions: QuizQuestion[] }>(
-      `/quiz/generate?mode=${mode}&count=${count}${review ? "&review=1" : ""}`
+      `/quiz/generate?mode=${mode}&count=${count}${review ? "&review=1" : ""}${reviewCorrect ? "&reviewCorrect=1" : ""}${chapter ? `&chapter=${encodeURIComponent(chapter)}` : ""}`
     ),
+  chapterProgress: (chapter: string) => request<{ questionIndex: number }>(`/chapter-progress?chapter=${encodeURIComponent(chapter)}`),
+  saveChapterProgress: (chapter: string, questionIndex: number, completed = false) =>
+    request<{ ok: true }>("/chapter-progress", { method: "PUT", body: JSON.stringify({ chapter, questionIndex, completed }) }),
   answer: (wordId: number, mode: QuizMode, answer: string) =>
     request<AnswerResult>("/quiz/answer", {
       method: "POST",
@@ -76,6 +121,27 @@ export const api = {
       body: JSON.stringify({ wordId }),
     }),
 };
+
+export interface LeaderboardItem {
+  userId: number;
+  displayName: string;
+  answered: number;
+  correct: number;
+  mastered: number;
+  score: number;
+  rank: number;
+}
+
+export interface PathLesson {
+  key: string;
+  unit: number;
+  lesson: number;
+  total: number;
+  mastered: number;
+  practiced: number;
+  completed: boolean;
+  unlocked: boolean;
+}
 
 export interface QuizQuestion {
   wordId: number;
@@ -132,6 +198,8 @@ export interface AiCard {
   cloze: string;
   translation: string;
   source: "ai" | "mock";
+  synonyms: string[];
+  antonyms: string[];
   word: string;
   meaning: string;
 }

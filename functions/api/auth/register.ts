@@ -1,11 +1,13 @@
 import type { Env } from "../../_lib/types";
 import { json, error, readJson } from "../../_lib/http";
 import { hashPassword, createSession, sessionCookie } from "../../_lib/auth";
+import { verifyTurnstile } from "../../_lib/turnstile";
 
 interface Body {
   email?: string;
   password?: string;
   displayName?: string;
+  turnstileToken?: string;
 }
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
@@ -13,6 +15,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const email = body?.email?.trim().toLowerCase();
   const password = body?.password ?? "";
   const displayName = body?.displayName?.trim() || email?.split("@")[0] || "";
+  if (!(await verifyTurnstile(env, body?.turnstileToken ?? "", request))) return error("安全驗證失敗，請重新驗證", 403);
 
   if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
     return error("請輸入有效的電子郵件");
@@ -38,7 +41,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const token = await createSession(env, userId);
 
   return json(
-    { user: { id: userId, email, displayName } },
+    { user: { id: userId, email, displayName, role: "user" } },
     { headers: { "set-cookie": sessionCookie(token) } }
   );
 };

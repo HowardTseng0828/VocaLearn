@@ -3,6 +3,7 @@
 /out
 .wrangler
 .dev.vars
+.env
 *.log
 .DS_Store
 .vercel
@@ -10,3 +11,6 @@
 
 # Tooling locks
 .claude/
+
+# Temporary scratch folder
+/scratch/

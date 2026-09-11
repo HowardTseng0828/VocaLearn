@@ -5,7 +5,7 @@
 - **前端**：Next.js（App Router，靜態匯出）+ Tailwind CSS
 - **後端**：Cloudflare Pages Functions（`/functions`）
 - **資料庫**：Cloudflare D1（SQLite）
-- **AI**：Anthropic Claude（`claude-opus-4-8`）— *未設定金鑰時自動以示範模式運作*
+- **AI**：Google Gemini（預設 `gemini-3.1-flash-lite`）— *未設定金鑰時自動以示範模式運作*
 
 ---
 
@@ -16,7 +16,7 @@
 | 🎲 隨機抽考 | 混合四種題型出題 |
 | 🇬🇧 英翻中 / 🇹🇼 中翻英 | 四選一卡片式選擇題 |
 | ⌨️ 拼字測驗 | 看中文意思拼出英文 |
-| 🤖 AI 例句填空 | Claude 生成例句，挖空讓你填入單字 |
+| 🤖 AI 例句填空 | Gemini 生成例句，挖空讓你填入單字 |
 | 📕 錯題本 | 答錯自動收錄，答對自動訂正 |
 | 📊 學習進度 | 精熟度、正確率、連續天數、90 天練習熱力圖 |
 | 📚 單字庫 | 瀏覽 / 搜尋題庫，支援 **CSV 匯入** 擴充 |
@@ -41,13 +41,14 @@ npm install
 # 建立 D1 資料庫（會輸出一個 database_id，正式部署時需填入 wrangler.toml）
 npx wrangler d1 create vocalearn-db
 
-# 套用 schema + 匯入 5,548 個單字（本機）
+# 套用 schema + 匯入 6,170 個官方拼字詞條（本機）
 npm run db:migrate:local
 npm run db:seed:local
 ```
 
-> `data/seed-words.sql` 由 `7000vocs.csv`（Big5）自動轉檔產生。
-> 若要重新產生：`npm run seed:gen`。
+> 正式題庫依大考中心「高中英文參考詞彙表（111 學年度起適用）」整理，共 6,170 個拼字詞條及六級分級。
+> 現有繁中釋義不足的項目會由 Gemini 補充；若金鑰不可用，則以 MIT 授權 ECDICT 釋義轉為台灣繁體。重新產生：`npm run seed:ceec`。
+> 本專案僅供個人、非營利學術訓練使用。原表著作權屬大考中心基金會；轉載已註明來源，營利用途須另取得書面授權。
 
 ### 3. 啟動
 
@@ -67,21 +68,21 @@ npm run preview
 
 未設定金鑰時，AI 填空題會以**示範模式**運作（固定示範例句），App 全功能仍可正常使用。
 
-要啟用真正的 Claude 生成例句：
+要啟用真正的 Gemini 生成例句：
 
 **本機**：在專案根目錄建立 `.dev.vars`
 
 ```
-ANTHROPIC_API_KEY=sk-ant-...
+GEMINI_API_KEY=AIzaSy...
 ```
 
 **正式部署**：
 
 ```bash
-npx wrangler pages secret put ANTHROPIC_API_KEY
+npx wrangler pages secret put GEMINI_API_KEY
 ```
 
-金鑰可於 https://console.anthropic.com 取得。模型固定使用 `claude-opus-4-8`。
+金鑰可於 Google AI Studio 取得。預設模型為 `gemini-3.1-flash-lite`，也可用 `GEMINI_MODEL` 覆寫。
 
 ---
 
@@ -98,12 +99,14 @@ database_name = "vocalearn-db"
 database_id = "你的-database-id"
 ```
 
-並把 `AUTH_SECRET` 改成一組隨機字串（或用 `wrangler pages secret put AUTH_SECRET`）。
+`AUTH_SECRET` 不可寫入設定檔，請用 `wrangler pages secret put AUTH_SECRET` 設為 Pages Secret。
 
 ### 2. 初始化正式資料庫
 
 ```bash
 npm run db:migrate:remote
+npm run db:migrate:ceec:remote # 舊資料庫升級一次即可
+npm run db:migrate:auth:remote # OAuth、忘記密碼與排行榜升級
 npm run db:seed:remote
 ```
 
@@ -118,7 +121,21 @@ npm run deploy
 - **Build command**：`npm run build`
 - **Build output directory**：`out`
 - 在 Pages 專案的 **Settings → Functions → D1 database bindings** 綁定 `DB` → `vocalearn-db`
-- 在 **Settings → Environment variables** 設定 `AUTH_SECRET`（必填）與 `ANTHROPIC_API_KEY`（選填）
+- 在 **Settings → Environment variables** 設定 `AUTH_SECRET`（必填）與 `GEMINI_API_KEY`（選填）
+
+### 社群登入與忘記密碼
+
+Google OAuth Redirect URI：`https://vocalearn.pages.dev/api/auth/oauth-callback?provider=google`
+
+Facebook OAuth Redirect URI：`https://vocalearn.pages.dev/api/auth/oauth-callback?provider=facebook`
+
+以下值必須透過 Pages Secret 設定，不可提交到 Git：
+
+- `GOOGLE_CLIENT_ID`、`GOOGLE_CLIENT_SECRET`
+- `FACEBOOK_CLIENT_ID`、`FACEBOOK_CLIENT_SECRET`
+- `RESEND_API_KEY`、`RESET_EMAIL_FROM`
+
+Turnstile 驗證端點與網站網址分別使用 `TURNSTILE_VERIFY_URL`、`APP_BASE_URL`。忘記密碼連結有效 30 分鐘，使用後會使現有工作階段失效。
 
 ---
 
@@ -148,9 +165,9 @@ resilient,adj.有彈性的；適應力強的
 ├── scripts/csv-to-utf8.mjs  # Big5 → UTF-8 / seed 產生器
 ├── functions/               # Cloudflare Pages Functions（後端 API）
 │   ├── _lib/                # auth / quiz / ai / csv 共用模組
-│   └── api/                 # 路由：auth, quiz, ai, stats, words, wrong-answers
+│   └── api/                 # 路由：auth, quiz, ai, stats, leaderboard, words, wrong-answers
 ├── src/
-│   ├── app/                 # Next.js 頁面（首頁 / 練習 / 錯題本 / 進度 / 單字庫）
+│   ├── app/                 # Next.js 頁面（首頁 / 練習 / 錯題本 / 進度 / 排行榜 / 單字庫）
 │   ├── components/          # Shell / AuthScreen / Quiz
 │   └── lib/                 # API client + 全域狀態
 └── wrangler.toml
@@ -161,6 +178,7 @@ resilient,adj.有彈性的；適應力強的
 ## 技術備註
 
 - 密碼以 **PBKDF2-SHA256（100k 迭代）** 雜湊，Session 採 HttpOnly Cookie。
+- 登入、註冊與忘記密碼由 Cloudflare Turnstile 前後端雙重流程保護。
 - 作答正確與否由**伺服器端驗證**，前端無法作弊。
-- AI 呼叫使用 Anthropic Messages API 的 **structured output**（JSON schema）確保回傳格式穩定；無金鑰時回退至示範例句。
+- AI 呼叫使用 Gemini REST API 的 **structured output**（JSON schema）確保回傳格式穩定；無金鑰時回退至示範例句。
 - 靜態前端 + Pages Functions 的架構讓 D1 綁定可原生運作，部署簡單。

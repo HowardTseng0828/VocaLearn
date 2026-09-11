@@ -20,6 +20,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const user = await getUser(request, env);
   if (!user) return error("未登入", 401);
 
+  if (user.role !== "admin") return error("只有管理員可以匯入單字", 403);
+
   const body = await readJson<Body>(request);
   const csv = body?.csv;
   if (!csv || csv.trim().length === 0) return error("CSV 內容為空");

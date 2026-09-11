@@ -5,9 +5,12 @@ CREATE TABLE IF NOT EXISTS words (
   id      INTEGER PRIMARY KEY AUTOINCREMENT,
   word    TEXT NOT NULL UNIQUE,
   pos     TEXT NOT NULL DEFAULT '',
-  meaning TEXT NOT NULL
+  meaning TEXT NOT NULL,
+  level   INTEGER,
+  source  TEXT NOT NULL DEFAULT 'legacy'
 );
 CREATE INDEX IF NOT EXISTS idx_words_word ON words(word);
+CREATE INDEX IF NOT EXISTS idx_words_level ON words(level);
 
 -- User accounts. Passwords are PBKDF2-hashed (see functions/_lib/auth.ts).
 CREATE TABLE IF NOT EXISTS users (

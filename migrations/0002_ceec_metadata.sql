@@ -1,0 +1,3 @@
+ALTER TABLE words ADD COLUMN level INTEGER;
+ALTER TABLE words ADD COLUMN source TEXT NOT NULL DEFAULT 'legacy';
+CREATE INDEX IF NOT EXISTS idx_words_level ON words(level);

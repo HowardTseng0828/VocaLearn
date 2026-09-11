@@ -9,10 +9,10 @@ interface Body {
   answer?: string; // the user's submitted answer (choice text or typed text)
 }
 
-const VALID_MODES: QuizMode[] = ["en2zh", "zh2en", "spell", "cloze"];
+const VALID_MODES: QuizMode[] = ["en2zh", "zh2en", "spell", "cloze", "speech"];
 
 function norm(s: string): string {
-  return s.trim().toLowerCase().replace(/\s+/g, " ");
+  return s.trim().toLowerCase().replace(/[.,!?]/g, "").replace(/[’‘]/g, "'").replace(/\s+/g, " ");
 }
 
 // POST /api/quiz/answer — server-side validation + progress recording.

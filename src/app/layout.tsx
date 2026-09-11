@@ -7,12 +7,16 @@ export const metadata: Metadata = {
   title: "VocaLearn — 高中 7000 單字學習",
   description:
     "以高中 7000 單字為核心的英文單字學習 App：隨機抽考、英翻中、中翻英、拼字、AI 例句與填空、錯題本與學習進度統計。",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.png",
+  },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#4f46e5",
+  themeColor: "#58cc02",
 };
 
 // Set the theme class before hydration to avoid a flash of the wrong theme.

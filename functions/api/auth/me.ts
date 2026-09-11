@@ -7,6 +7,6 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
   const user = await getUser(request, env);
   if (!user) return json({ user: null });
   return json({
-    user: { id: user.id, email: user.email, displayName: user.display_name },
+    user: { id: user.id, email: user.email, displayName: user.display_name, role: user.role },
   });
 };

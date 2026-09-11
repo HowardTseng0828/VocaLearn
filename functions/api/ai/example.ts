@@ -8,7 +8,7 @@ interface Body {
 }
 
 // POST /api/ai/example — generate an AI example sentence + cloze for a word.
-// Falls back to a mock when ANTHROPIC_API_KEY is unset.
+// Falls back to a mock when GEMINI_API_KEY is unset.
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const user = await getUser(request, env);
   if (!user) return error("未登入", 401);
