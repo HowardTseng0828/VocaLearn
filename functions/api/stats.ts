@@ -1,6 +1,7 @@
 import type { Env } from "../_lib/types";
 import { json, error } from "../_lib/http";
 import { getUser } from "../_lib/auth";
+import { DAY_OFFSET_MS } from "../_lib/quiz";
 
 // GET /api/stats — learning progress summary, streak, and a 90-day activity map.
 export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
@@ -36,10 +37,11 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     .bind(user.id)
     .all<{ day: string; answered: number; correct: number }>();
 
-  // Compute the current consecutive-day streak (UTC) from activity days.
+  // Compute the current consecutive-day streak from activity days.
+  // Days are Asia/Taipei days (see activityDay), so shift "now" the same way.
   const days = new Set((activity ?? []).map((a) => a.day));
   let streak = 0;
-  const cursor = new Date();
+  const cursor = new Date(Date.now() + DAY_OFFSET_MS);
   // Allow today to be empty without breaking the streak (count from yesterday).
   for (let i = 0; i < 400; i++) {
     const key = cursor.toISOString().slice(0, 10);

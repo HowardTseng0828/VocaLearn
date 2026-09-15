@@ -11,8 +11,13 @@ export interface WordRow {
   meaning: string;
 }
 
-function utcDay(ts: number): string {
-  return new Date(ts).toISOString().slice(0, 10);
+// Activity days use Asia/Taipei (UTC+8, no DST), not UTC. With UTC, anything
+// studied between 00:00 and 08:00 local time counts as the previous day, which
+// breaks both the streak and the heatmap for users in Taiwan.
+export const DAY_OFFSET_MS = 8 * 60 * 60 * 1000;
+
+export function activityDay(ts: number): string {
+  return new Date(ts + DAY_OFFSET_MS).toISOString().slice(0, 10);
 }
 
 // Records one quiz answer: updates progress, daily activity, and the wrong-answer
@@ -26,7 +31,7 @@ export async function recordAnswer(
   yourAnswer: string
 ): Promise<{ mastered: boolean }> {
   const now = Date.now();
-  const day = utcDay(now);
+  const day = activityDay(now);
 
   // Read current progress to compute the new streak/mastered values.
   const prog = await env.DB.prepare(
@@ -81,15 +86,18 @@ export async function recordAnswer(
 }
 
 // Picks `count` random meanings distinct from the given word, for multiple choice.
+// Meanings are de-duplicated and the correct meaning is excluded, so a choice
+// list never contains two identical options.
 export async function distractorMeanings(
   env: Env,
   excludeWordId: number,
+  excludeMeaning: string,
   count: number
 ): Promise<string[]> {
   const { results } = await env.DB.prepare(
-    "SELECT meaning FROM words WHERE id != ? ORDER BY RANDOM() LIMIT ?"
+    "SELECT DISTINCT meaning FROM words WHERE id != ? AND meaning != ? ORDER BY RANDOM() LIMIT ?"
   )
-    .bind(excludeWordId, count)
+    .bind(excludeWordId, excludeMeaning, count)
     .all<{ meaning: string }>();
   return (results ?? []).map((r) => r.meaning);
 }

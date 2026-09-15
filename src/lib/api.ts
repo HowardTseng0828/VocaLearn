@@ -90,10 +90,11 @@ export const api = {
   chapterProgress: (chapter: string) => request<{ questionIndex: number }>(`/chapter-progress?chapter=${encodeURIComponent(chapter)}`),
   saveChapterProgress: (chapter: string, questionIndex: number, completed = false) =>
     request<{ ok: true }>("/chapter-progress", { method: "PUT", body: JSON.stringify({ chapter, questionIndex, completed }) }),
-  answer: (wordId: number, mode: QuizMode, answer: string) =>
+  // record=false grades the answer without writing progress — used by retries.
+  answer: (wordId: number, mode: QuizMode, answer: string, record = true) =>
     request<AnswerResult>("/quiz/answer", {
       method: "POST",
-      body: JSON.stringify({ wordId, mode, answer }),
+      body: JSON.stringify({ wordId, mode, answer, record }),
     }),
 
   stats: () => request<Stats>("/stats"),

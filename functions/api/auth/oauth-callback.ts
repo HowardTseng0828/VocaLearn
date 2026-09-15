@@ -2,7 +2,7 @@ import type { Env } from "../../_lib/types";
 import { createSession, randomToken, sessionCookie } from "../../_lib/auth";
 import { consumeOAuthState, providerConfig, type OAuthProvider } from "../../_lib/oauth";
 
-interface Profile { id: string; email: string; name: string; picture?: string }
+interface Profile { id: string; email: string; name: string; picture?: string; emailVerified: boolean }
 
 async function getProfile(provider: OAuthProvider, accessToken: string): Promise<Profile | null> {
   const endpoint = provider === "google"
@@ -13,7 +13,12 @@ async function getProfile(provider: OAuthProvider, accessToken: string): Promise
   const data = await response.json<Record<string, any>>();
   const id = provider === "google" ? data.sub : data.id;
   const picture = provider === "google" ? data.picture : data.picture?.data?.url;
-  return id && data.email ? { id: String(id), email: String(data.email).toLowerCase(), name: String(data.name ?? ""), picture } : null;
+  // Google reports email_verified explicitly. Facebook only returns the email
+  // field once the address is confirmed, so its presence is the verification.
+  const emailVerified = provider === "google" ? data.email_verified === true : Boolean(data.email);
+  return id && data.email
+    ? { id: String(id), email: String(data.email).toLowerCase(), name: String(data.name ?? ""), picture, emailVerified }
+    : null;
 }
 
 export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
@@ -42,8 +47,16 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     "SELECT u.id FROM oauth_accounts o JOIN users u ON u.id=o.user_id WHERE o.provider=? AND o.provider_user_id=?"
   ).bind(provider, profile.id).first<{ id: number }>();
   if (!account) {
-    account = await env.DB.prepare("SELECT id FROM users WHERE email=?").bind(profile.email).first<{ id: number }>();
+    // Linking by email alone lets an unverified address take over an existing
+    // password account, so only a verified address may be matched that way.
+    account = profile.emailVerified
+      ? await env.DB.prepare("SELECT id FROM users WHERE email=?").bind(profile.email).first<{ id: number }>()
+      : null;
     if (!account) {
+      const clash = await env.DB.prepare("SELECT id FROM users WHERE email=?").bind(profile.email).first<{ id: number }>();
+      if (clash) {
+        return Response.redirect(`${url.origin}/?authError=${encodeURIComponent("此電子郵件尚未通過社群帳號驗證，請改用密碼登入")}`, 302);
+      }
       const created = await env.DB.prepare("INSERT INTO users (email,password_hash,display_name,created_at,avatar_url) VALUES (?,?,?,?,?)")
         .bind(profile.email, `oauth$${randomToken()}`, profile.name || profile.email.split("@")[0], Date.now(), profile.picture ?? null).run();
       account = { id: created.meta.last_row_id as number };

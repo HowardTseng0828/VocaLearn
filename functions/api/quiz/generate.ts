@@ -48,10 +48,16 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     words = results ?? [];
     if (words.length === 0) return json({ questions: [] });
   } else if (reviewOnly) {
+    // One row per word: DISTINCT with wa.mode would repeat a word once per mode
+    // it was missed in. Keep the mode of the most recent miss.
     const { results } = await env.DB.prepare(
-      `SELECT DISTINCT w.id, w.word, w.pos, w.meaning, wa.mode AS review_mode
+      `SELECT w.id, w.word, w.pos, w.meaning,
+              (SELECT wa2.mode FROM wrong_answers wa2
+                WHERE wa2.user_id = wa.user_id AND wa2.word_id = wa.word_id AND wa2.resolved = 0
+                ORDER BY wa2.created_at DESC LIMIT 1) AS review_mode
          FROM wrong_answers wa JOIN words w ON w.id = wa.word_id
         WHERE wa.user_id = ? AND wa.resolved = 0
+        GROUP BY w.id
         ORDER BY RANDOM() LIMIT ?`
     )
       .bind(user.id, count)
@@ -60,6 +66,8 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     if (words.length === 0) return json({ questions: [] });
   } else if (chapterIndex >= 0) {
     const offset = chapterIndex * 20;
+    // Chapter order must be stable: chapter_progress.question_index is an index
+    // into this list, so a random order would skip words when resuming.
     const { results } = await env.DB.prepare(
       `WITH ordered AS (
          SELECT w.id, w.word, w.pos, w.meaning,
@@ -68,12 +76,11 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
        )
        SELECT o.id, o.word, o.pos, o.meaning
          FROM ordered o
-         LEFT JOIN progress p ON p.word_id = o.id AND p.user_id = ?
         WHERE o.word_index >= ? AND o.word_index < ?
-        ORDER BY COALESCE(p.mastered, 0) ASC, COALESCE(p.seen, 0) ASC, RANDOM()
+        ORDER BY o.word_index
         LIMIT ?`
     )
-      .bind(user.id, offset, offset + 20, count)
+      .bind(offset, offset + 20, count)
       .all<WordRow>();
     words = results ?? [];
   } else {
@@ -107,8 +114,8 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     };
 
     if (mode === "en2zh") {
-      const distractors = await distractorMeanings(env, w.id, 3);
-      q.choices = shuffle([w.meaning, ...distractors]);
+      const distractors = await distractorMeanings(env, w.id, w.meaning, 3);
+      q.choices = shuffle([...new Set([w.meaning, ...distractors])]);
     } else if (mode === "zh2en") {
       const { results } = await env.DB.prepare(
         "SELECT word FROM words WHERE id != ? ORDER BY RANDOM() LIMIT 3"
@@ -116,7 +123,7 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
         .bind(w.id)
         .all<{ word: string }>();
       const distractors = (results ?? []).map((r) => r.word);
-      q.choices = shuffle([w.word, ...distractors]);
+      q.choices = shuffle([...new Set([w.word, ...distractors])]);
     }
     // spell & cloze are free-text — no choices.
     questions.push(q);

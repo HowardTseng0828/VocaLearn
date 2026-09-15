@@ -41,12 +41,17 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     "SELECT chapter FROM chapter_progress WHERE user_id = ? AND completed_at IS NOT NULL"
   ).bind(user.id).all<{ chapter: string }>();
   const completedChapters = new Set((completedRows.results ?? []).map((row) => row.chapter));
+  // A chapter counts as completed only when it was finished inside the chapter
+  // quiz (chapter_progress.completed_at). Practising the same words elsewhere
+  // (daily challenge, random practice, notebook review) must not complete or
+  // unlock a chapter the user never opened.
+  const chapterKey = (lessonIndex: number) =>
+    `${Math.floor(lessonIndex / LESSONS_PER_UNIT) + 1}-${(lessonIndex % LESSONS_PER_UNIT) + 1}`;
   const lessons = rows.map((row, index) => {
-    const key = `${Math.floor(row.lessonIndex / LESSONS_PER_UNIT) + 1}-${(row.lessonIndex % LESSONS_PER_UNIT) + 1}`;
-    const completed = completedChapters.has(key) || (row.total > 0 && row.practiced >= row.total);
+    const key = chapterKey(row.lessonIndex);
+    const completed = completedChapters.has(key);
     const previous = rows[index - 1];
-    const previousKey = previous ? `${Math.floor(previous.lessonIndex / LESSONS_PER_UNIT) + 1}-${(previous.lessonIndex % LESSONS_PER_UNIT) + 1}` : "";
-    const previousCompleted = !previous || completedChapters.has(previousKey) || (previous.total > 0 && previous.practiced >= previous.total);
+    const previousCompleted = !previous || completedChapters.has(chapterKey(previous.lessonIndex));
     return {
       key,
       unit: Math.floor(row.lessonIndex / LESSONS_PER_UNIT) + 1,
@@ -55,7 +60,9 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
       mastered: row.mastered,
       practiced: row.practiced,
       completed,
-      unlocked: index === 0 || previousCompleted,
+      // A chapter already finished stays playable even if an earlier chapter is
+      // not marked completed, so it can always be replayed.
+      unlocked: index === 0 || previousCompleted || completed,
     };
   });
 

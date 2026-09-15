@@ -11,11 +11,15 @@ interface ParsedWord {
   word: string;
   pos: string;
   meaning: string;
+  level: number | null;
+  source: string;
 }
 
 // POST /api/words/import — bulk-import vocabulary from CSV text.
-// Accepts either a 3-column file (word,pos,meaning) or a 2-column file
-// (word,"<pos><meaning>"); a header row is auto-detected and skipped.
+// Accepts a 2-column file (word,"<pos><meaning>") or a file of 3 columns or
+// more (word,pos,meaning[,level[,source]]); a header row is auto-detected and
+// skipped. level drives the learning-path order, so data/words.utf8.csv keeps
+// it — importing without it would push those words to the end of the path.
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const user = await getUser(request, env);
   if (!user) return error("未登入", 401);
@@ -49,7 +53,10 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       meaning = split.meaning;
     }
     if (!meaning) continue;
-    parsed.push({ word, pos, meaning });
+    const levelRaw = parseInt((row[3] ?? "").trim(), 10);
+    const level = Number.isFinite(levelRaw) ? levelRaw : null;
+    const source = (row[4] ?? "").trim() || "import";
+    parsed.push({ word, pos, meaning, level, source });
   }
 
   if (parsed.length === 0) return error("沒有可匯入的有效資料");
@@ -62,8 +69,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     const chunk = parsed.slice(i, i + batchSize);
     const statements = chunk.map((w) =>
       env.DB.prepare(
-        "INSERT OR IGNORE INTO words (word, pos, meaning) VALUES (?, ?, ?)"
-      ).bind(w.word, w.pos, w.meaning)
+        "INSERT OR IGNORE INTO words (word, pos, meaning, level, source) VALUES (?, ?, ?, ?, ?)"
+      ).bind(w.word, w.pos, w.meaning, w.level, w.source)
     );
     const results = await env.DB.batch(statements);
     imported += results.reduce(

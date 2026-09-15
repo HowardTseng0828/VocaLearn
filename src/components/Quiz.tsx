@@ -58,6 +58,9 @@ export function Quiz() {
   const [aiLoading, setAiLoading] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  // Question indexes already written to progress. A retry of the same question
+  // must be graded but not recorded a second time.
+  const recordedRef = useRef<Set<number>>(new Set());
 
   const current = questions[index];
 
@@ -73,9 +76,13 @@ export function Quiz() {
           setPhase("empty");
         } else {
           setQuestions(questions);
+          recordedRef.current = new Set();
           if (chapter) {
             const progress = await api.chapterProgress(chapter).catch(() => ({ questionIndex: 0 }));
-            if (!cancelled) setIndex(Math.min(progress.questionIndex, questions.length - 1));
+            // A finished chapter (index past the last question) restarts at 0.
+            const resumeAt =
+              progress.questionIndex >= questions.length ? 0 : progress.questionIndex;
+            if (!cancelled) setIndex(Math.max(resumeAt, 0));
           } else {
             setIndex(0);
           }
@@ -112,10 +119,14 @@ export function Quiz() {
     async (answer: string) => {
       if (!current || submitting) return;
       setSubmitting(true);
+      const record = !recordedRef.current.has(index);
       try {
-        const res = await api.answer(current.wordId, current.mode, answer);
+        const res = await api.answer(current.wordId, current.mode, answer, record);
         setResult(res);
-        if (res.correct) setScore((s) => s + 1);
+        if (record) {
+          recordedRef.current.add(index);
+          if (res.correct) setScore((s) => s + 1);
+        }
         setPhase("feedback");
       } catch {
         /* ignore — let the user retry */
@@ -123,7 +134,7 @@ export function Quiz() {
         setSubmitting(false);
       }
     },
-    [current, submitting]
+    [current, submitting, index]
   );
 
   const next = useCallback(() => {
@@ -198,6 +209,8 @@ export function Quiz() {
               setScore(0);
               setResult(null);
               setPhase("loading");
+              recordedRef.current = new Set();
+              if (chapter) void api.saveChapterProgress(chapter, 0);
               api
                 .generateQuiz(mode, count, review, chapter, reviewCorrect)
                 .then(({ questions }) => {

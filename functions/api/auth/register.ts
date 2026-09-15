@@ -1,6 +1,6 @@
 import type { Env } from "../../_lib/types";
 import { json, error, readJson } from "../../_lib/http";
-import { hashPassword, createSession, sessionCookie } from "../../_lib/auth";
+import { hashPassword, createSession, sessionCookie, MIN_PASSWORD_LENGTH } from "../../_lib/auth";
 import { verifyTurnstile } from "../../_lib/turnstile";
 
 interface Body {
@@ -20,8 +20,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
     return error("請輸入有效的電子郵件");
   }
-  if (password.length < 6) {
-    return error("密碼至少需 6 個字元");
+  if (password.length < MIN_PASSWORD_LENGTH) {
+    return error(`密碼至少需 ${MIN_PASSWORD_LENGTH} 個字元`);
   }
 
   const existing = await env.DB.prepare("SELECT id FROM users WHERE email = ?")

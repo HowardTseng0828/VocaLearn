@@ -3,6 +3,11 @@
 
 import type { Env, UserRow } from "./types";
 
+// Minimum password length, shared by registration and password reset so the two
+// flows cannot disagree (a 6-char password accepted at registration used to be
+// rejected by the reset form).
+export const MIN_PASSWORD_LENGTH = 8;
+
 const SESSION_COOKIE = "vl_session";
 const SESSION_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
 const PBKDF2_ITERATIONS = 100_000;

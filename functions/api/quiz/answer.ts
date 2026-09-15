@@ -7,6 +7,9 @@ interface Body {
   wordId?: number;
   mode?: QuizMode;
   answer?: string; // the user's submitted answer (choice text or typed text)
+  // false = grade only, do not touch progress / daily activity / the notebook.
+  // Used by the "再試一次" retry, which must not record a second attempt.
+  record?: boolean;
 }
 
 const VALID_MODES: QuizMode[] = ["en2zh", "zh2en", "spell", "cloze", "speech"];
@@ -24,6 +27,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const wordId = body?.wordId;
   const mode = body?.mode;
   const answer = body?.answer ?? "";
+  const record = body?.record !== false;
 
   if (!wordId || !mode || !VALID_MODES.includes(mode)) {
     return error("無效的作答資料");
@@ -41,14 +45,24 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const expected = mode === "en2zh" ? word.meaning : word.word;
   const isCorrect = norm(answer) === norm(expected);
 
-  const { mastered } = await recordAnswer(
-    env,
-    user.id,
-    word.id,
-    mode,
-    isCorrect,
-    answer
-  );
+  let mastered = false;
+  if (record) {
+    ({ mastered } = await recordAnswer(
+      env,
+      user.id,
+      word.id,
+      mode,
+      isCorrect,
+      answer
+    ));
+  } else {
+    const prog = await env.DB.prepare(
+      "SELECT mastered FROM progress WHERE user_id = ? AND word_id = ?"
+    )
+      .bind(user.id, word.id)
+      .first<{ mastered: number }>();
+    mastered = prog?.mastered === 1;
+  }
 
   return json({
     correct: isCorrect,

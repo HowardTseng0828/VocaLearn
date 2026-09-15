@@ -90,19 +90,33 @@ value = rawValue;
 
 ## 6. Git / Commit 規約（我的日常實際風格）/ Commit convention (my real day-to-day style)
 
-- **標題用日期開頭：** `YYYY-MM-DD`。
-  *Subject starts with the date: `YYYY-MM-DD`.*
-- **內文用編號條列，每項用【中文模組名】標記，繁中描述：** `1.【模組】動作 2.【模組】動作 …`
-  *Body is a numbered list, each item tagged with a 【module name】 in Traditional Chinese: `1.【Module】action 2.【Module】action …`*
+- **標題用日期開頭：** `YYYY-MM-DD`，**第 1 項接在日期後面同一行**。
+  *Subject starts with the date `YYYY-MM-DD`, **with item 1 on that same line**.*
+- **編號條列，每項用【中文模組名】標記，繁中描述：** `1.【模組】動作 2.【模組】動作 …`
+  *Numbered list, each item tagged with a 【module name】 in Traditional Chinese: `1.【Module】action 2.【Module】action …`*
+- **第 2 項以後每項各自一行，放在內文。** 標題與內文之間空一行（Git 以第一個空行切標題／內文；不空行的話 `git log --oneline` 會把整段擠成一行）。
+  *Item 2 onward each go on their own line in the body, separated from the subject by one blank line (Git splits subject and body at the first blank line; without it, `git log --oneline` collapses everything into one line).*
 - **常用動詞：** 新增 / 修正 / 優化 / 移除 / 協助 XXX。
   *Common verbs: 新增 (add) / 修正 (fix) / 優化 (improve) / 移除 (remove) / 協助 XXX (help XXX).*
+- **改動原因寫在 `=>` 後面。** 例如 `寫死 => 動態讀取 config.ini`。
+  *Put the resulting change after `=>`, e.g. `寫死 => 動態讀取 config.ini`.*
 - **不要加 `Co-Authored-By`（AI 標註）。**
   *Do not add a `Co-Authored-By` (AI) trailer.*
 
 實際範例 / Real example：
 
 ```
-2026-06-12 1.【eCOA 產出】紀錄解鎖到 MIS_SQL_LOG 2.【Fr_ErrLog】優化 Excel 未被釋放 or 跳錯 3.【IQC】點檢完畢 DGV_IQC 要整列反綠
+2026-09-15 1.【章節出題】修正 隨機排序導致續作跳題 => 改依 word_index 固定順序
+
+2.【章節進度】修正 已完成章節重進時卡在最後一題 => 從第 1 題重新開始
+3.【學習歷程】修正 在其他模式練到同批單字就自動完成並解鎖 => 只認 completed_at
+4.【出題選項】修正 英翻中的干擾選項可能與正解相同 => 排除相同釋義並去重
+```
+
+只有一項時就只有標題一行 / A single-item commit is just the subject line：
+
+```
+2026-06-12 1.【eCOA 產出】紀錄解鎖到 MIS_SQL_LOG
 ```
 
 ```

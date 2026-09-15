@@ -63,7 +63,7 @@ CREATE INDEX IF NOT EXISTS idx_wrong_user ON wrong_answers(user_id, resolved);
 -- Daily activity log — one row per user per day, for streaks & the heatmap.
 CREATE TABLE IF NOT EXISTS daily_activity (
   user_id   INTEGER NOT NULL,
-  day       TEXT NOT NULL,                  -- 'YYYY-MM-DD' (UTC)
+  day       TEXT NOT NULL,                  -- 'YYYY-MM-DD' (Asia/Taipei, see activityDay)
   answered  INTEGER NOT NULL DEFAULT 0,
   correct   INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (user_id, day),

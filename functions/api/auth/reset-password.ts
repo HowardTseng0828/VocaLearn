@@ -1,12 +1,14 @@
 import type { Env } from "../../_lib/types";
 import { json, error, readJson } from "../../_lib/http";
-import { hashPassword, sha256Hex } from "../../_lib/auth";
+import { hashPassword, sha256Hex, MIN_PASSWORD_LENGTH } from "../../_lib/auth";
 
 interface Body { token?: string; password?: string }
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const body = await readJson<Body>(request);
-  if (!body?.token || !body.password || body.password.length < 8) return error("重設連結無效，或密碼少於 8 個字元");
+  if (!body?.token || !body.password || body.password.length < MIN_PASSWORD_LENGTH) {
+    return error(`重設連結無效，或密碼少於 ${MIN_PASSWORD_LENGTH} 個字元`);
+  }
   const tokenHash = await sha256Hex(body.token);
   const row = await env.DB.prepare(
     "SELECT user_id FROM password_reset_tokens WHERE token_hash = ? AND used_at IS NULL AND expires_at > ?"

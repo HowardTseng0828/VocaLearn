@@ -28,11 +28,27 @@ const OUTPUT_SCHEMA = {
   required: ["sentence", "translation"],
 };
 
+// Escapes a string for literal use inside a RegExp.
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// Matches the target word as a whole word, allowing the common English
+// inflections (-s, -es, -ed, -ing, -d) so a natural sentence is not rejected.
+// \b only applies where the entry actually starts or ends with a word
+// character: entries such as "a.m." end in punctuation, where a trailing \b
+// would never match.
+function targetWordPattern(word: string): RegExp {
+  const head = /^\w/.test(word) ? "\\b" : "";
+  const tail = /\w$/.test(word) ? "(?:s|es|ed|ing|d)?\\b" : "";
+  return new RegExp(`${head}${escapeRegExp(word)}${tail}`, "i");
+}
+
 function makeCloze(sentence: string, word: string): string {
   // Replace the first whole-word, case-insensitive occurrence with a blank.
-  const re = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}\\b`, "i");
+  const re = targetWordPattern(word);
   if (re.test(sentence)) return sentence.replace(re, "_____");
-  // Fallback: if the exact word isn't present (e.g. inflected), blank nothing.
+  // Fallback: if the word is not present at all, blank nothing.
   return sentence + " (_____)";
 }
 
@@ -119,9 +135,12 @@ export async function generateCard(
     };
     const sentence = parsed.sentence?.trim();
     const translation = parsed.translation?.trim();
-    const targetPattern = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\\\]/g, "\\\\$&")}\\b`, "i");
+    const targetPattern = targetWordPattern(word);
     const wordCount = sentence?.split(/\s+/).filter(Boolean).length ?? 0;
-    if (!sentence || !translation || !targetPattern.test(sentence) || wordCount < 8 || wordCount > 16) {
+    // Keep some slack around the 8-16 word instruction. Rejecting a sentence
+    // that is a couple of words over falls back to the mock card, which makes
+    // every AI example look identical.
+    if (!sentence || !translation || !targetPattern.test(sentence) || wordCount < 6 || wordCount > 22) {
       console.error("Gemini response failed vocabulary-card validation");
       return mockCard(word, meaning);
     }

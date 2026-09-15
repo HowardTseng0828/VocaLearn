@@ -155,7 +155,8 @@ export function AuthScreen() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="至少 6 個字元"
+            placeholder={mode === "register" ? "至少 8 個字元" : "密碼"}
+            minLength={mode === "register" ? 8 : undefined}
             autoComplete={mode === "login" ? "current-password" : "new-password"}
             required
           />

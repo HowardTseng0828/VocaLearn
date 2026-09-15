@@ -31,9 +31,11 @@ export const onRequestPut: PagesFunction<Env> = async ({ request, env }) => {
     return json({ ok: true });
   }
   const questionIndex = Math.max(0, Math.min(Number(body?.questionIndex) || 0, 19));
+  // Keep completed_at untouched: replaying a finished chapter must not un-complete
+  // it, which would re-lock every chapter after it.
   await env.DB.prepare(
     `INSERT INTO chapter_progress (user_id, chapter, question_index, updated_at, completed_at) VALUES (?, ?, ?, ?, NULL)
-     ON CONFLICT(user_id, chapter) DO UPDATE SET question_index = excluded.question_index, updated_at = excluded.updated_at, completed_at = NULL`
+     ON CONFLICT(user_id, chapter) DO UPDATE SET question_index = excluded.question_index, updated_at = excluded.updated_at`
   ).bind(user.id, chapter, questionIndex, Date.now()).run();
   return json({ ok: true });
 };
