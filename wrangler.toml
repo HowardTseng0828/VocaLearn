@@ -10,6 +10,7 @@ pages_build_output_dir = "out"
 binding = "DB"
 database_name = "vocalearn-db"
 database_id = "075bbac0-642e-4677-8409-def40041ff24"
+migrations_dir = "migrations"
 
 # --- Secrets / environment variables ---
 # GEMINI_API_KEY enables AI example-sentence & cloze generation.

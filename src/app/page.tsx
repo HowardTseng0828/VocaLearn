@@ -7,16 +7,16 @@ import { useApp } from "@/lib/store";
 
 // 各題型的專屬配色（Duolingo 風）
 const MODES = [
-  { key: "random", label: "隨機抽考", desc: "混合所有題型", icon: "🎲", color: "#58cc02", shadow: "#46a302" },
-  { key: "en2zh", label: "英翻中", desc: "看英文選中文", icon: "🇬🇧", color: "#1cb0f6", shadow: "#1387c4" },
-  { key: "zh2en", label: "中翻英", desc: "看中文選英文", icon: "🇹🇼", color: "#ff9600", shadow: "#cc7800" },
-  { key: "spell", label: "拼字測驗", desc: "聽意思拼單字", icon: "⌨️", color: "#ce82ff", shadow: "#a855e0" },
-  { key: "cloze", label: "AI 填空", desc: "AI 例句填空", icon: "🤖", color: "#ff86d0", shadow: "#e05cae" },
-  { key: "speech", label: "口說練習", desc: "聽發音並跟著念", icon: "🎤", color: "#22c3a6", shadow: "#168b77" },
-];
+  { key: "random", icon: "🎲", color: "#58cc02", shadow: "#46a302" },
+  { key: "en2zh", icon: "🔤", color: "#1cb0f6", shadow: "#1387c4" },
+  { key: "zh2en", icon: "💬", color: "#ff9600", shadow: "#cc7800" },
+  { key: "spell", icon: "⌨️", color: "#ce82ff", shadow: "#a855e0" },
+  { key: "cloze", icon: "🤖", color: "#ff86d0", shadow: "#e05cae" },
+  { key: "speech", icon: "🎤", color: "#22c3a6", shadow: "#168b77" },
+] as const;
 
 export default function HomePage() {
-  const { user } = useApp();
+  const { user, t, course } = useApp();
   const [stats, setStats] = useState<Stats | null>(null);
 
   useEffect(() => {
@@ -34,15 +34,16 @@ export default function HomePage() {
 
           <div className="relative flex items-start justify-between gap-3">
             <div>
-              <p className="text-sm font-bold opacity-90">歡迎回來，</p>
-              <h1 className="text-2xl font-extrabold">{user?.displayName || "同學"} 👋</h1>
-              <p className="mt-1 text-sm font-medium opacity-90">今天也來練幾個單字吧！</p>
+              <p className="text-sm font-bold opacity-90">{t("home.welcome")}</p>
+              <h1 className="text-2xl font-extrabold">{user?.displayName || t("home.defaultName")} 👋</h1>
+              <p className="mt-1 text-sm font-medium opacity-90">{t("home.cta")}</p>
+              {course && <p className="mt-1 text-xs font-bold opacity-80">{t("home.course", { name: course.name })}</p>}
             </div>
             {stats && stats.streak > 0 && (
               <div className="flex shrink-0 flex-col items-center rounded-2xl bg-white/15 px-3 py-2 backdrop-blur">
                 <span className="animate-flame text-2xl">🔥</span>
                 <span className="text-lg font-extrabold leading-none">{stats.streak}</span>
-                <span className="text-[10px] font-bold opacity-90">連續天數</span>
+                <span className="text-[10px] font-bold opacity-90">{t("home.streak")}</span>
               </div>
             )}
           </div>
@@ -51,22 +52,26 @@ export default function HomePage() {
             href="/practice?mode=random&daily=1"
             className="mt-5 inline-flex items-center gap-2 rounded-2xl bg-white px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-brand-600 shadow-[0_4px_0_0_rgba(0,0,0,0.12)] transition active:translate-y-0.5"
           >
-            開始每日練習 →
+            {t("home.startDaily")}
           </Link>
         </div>
       </section>
 
+      {!course?.wordCount && (
+        <p className="card p-4 text-sm font-bold text-mode-orange">{t("home.noCourse")}</p>
+      )}
+
       {/* Quick stats */}
       <section className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <StatCard icon="📖" label="已學單字" value={stats?.seen} suffix={`/${stats?.totalWords ?? "—"}`} />
-        <StatCard icon="⭐" label="已精熟" value={stats?.mastered} accent />
-        <StatCard icon="🎯" label="正確率" value={stats ? `${stats.accuracy}%` : undefined} />
-        <StatCard icon="🔁" label="待複習" value={stats?.openWrong} warn />
+        <StatCard icon="📖" label={t("home.learned")} value={stats?.seen} suffix={`/${stats?.totalWords ?? "—"}`} />
+        <StatCard icon="⭐" label={t("home.mastered")} value={stats?.mastered} accent />
+        <StatCard icon="🎯" label={t("home.accuracy")} value={stats ? `${stats.accuracy}%` : undefined} />
+        <StatCard icon="🔁" label={t("home.toReview")} value={stats?.openWrong} warn />
       </section>
 
       {/* Practice modes */}
       <section>
-        <h2 className="mb-3 text-lg font-extrabold">選擇練習模式</h2>
+        <h2 className="mb-3 text-lg font-extrabold">{t("home.chooseMode")}</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {MODES.map((m) => (
             <Link
@@ -81,8 +86,8 @@ export default function HomePage() {
                 {m.icon}
               </span>
               <div>
-                <div className="font-extrabold">{m.label}</div>
-                <div className="text-sm font-medium text-slate-500 dark:text-slate-400">{m.desc}</div>
+                <div className="font-extrabold">{t(`mode.${m.key}`)}</div>
+                <div className="text-sm font-medium text-slate-500 dark:text-slate-400">{t(`mode.${m.key}.desc`)}</div>
               </div>
             </Link>
           ))}
@@ -95,9 +100,9 @@ export default function HomePage() {
                 🔁
               </span>
               <div>
-                <div className="font-extrabold">複習錯題</div>
+                <div className="font-extrabold">{t("home.reviewWrong")}</div>
                 <div className="text-sm font-medium text-slate-500 dark:text-slate-400">
-                  {stats.openWrong} 個待複習
+                  {t("home.reviewCount", { n: stats.openWrong })}
                 </div>
               </div>
             </Link>

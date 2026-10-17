@@ -5,24 +5,15 @@ import { usePathname } from "next/navigation";
 import { useApp } from "@/lib/store";
 import { AuthScreen } from "./AuthScreen";
 import { type ReactNode } from "react";
-
-const NAV = [
-  { href: "/path", label: "學習歷程", icon: "path" },
-  { href: "/", label: "首頁", icon: "🏠" },
-  { href: "/practice", label: "練習", icon: "✏️" },
-  { href: "/notebook", label: "錯題本", icon: "📕" },
-  { href: "/stats", label: "進度", icon: "📊" },
-  { href: "/leaderboard", label: "排行榜", icon: "🏆" },
-  { href: "/words", label: "單字庫", icon: "📚" },
-];
+import { LocalePicker, ThemeToggle } from "./Controls";
 
 const PRIMARY_NAV = [
-  { href: "/", label: "首頁", icon: "home" },
-  { href: "/path", label: "學習歷程", icon: "path" },
-  { href: "/practice", label: "練習", icon: "practice" },
-  { href: "/notebook", label: "複習中心", icon: "review" },
-  { href: "/stats", label: "進度", icon: "stats" },
-];
+  { href: "/", label: "nav.home", icon: "home" },
+  { href: "/path", label: "nav.path", icon: "path" },
+  { href: "/practice", label: "nav.practice", icon: "practice" },
+  { href: "/notebook", label: "nav.review", icon: "review" },
+  { href: "/stats", label: "nav.stats", icon: "stats" },
+] as const;
 
 function MenuIcon({ href }: { href: string }) {
   const path = href === "/" ? "M3 10.5 12 3l9 7.5M5.5 9v10h13V9M9 19v-5h6v5" :
@@ -35,22 +26,8 @@ function MenuIcon({ href }: { href: string }) {
   return <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d={path} /></svg>;
 }
 
-function ThemeToggle() {
-  const { theme, toggleTheme } = useApp();
-  return (
-    <button
-      onClick={toggleTheme}
-      className="btn btn-ghost !px-3 !py-2"
-      aria-label="切換深色模式"
-      title="切換深色模式"
-    >
-      {theme === "dark" ? "🌙" : "☀️"}
-    </button>
-  );
-}
-
 export function Shell({ children }: { children: ReactNode }) {
-  const { user, loading, logout } = useApp();
+  const { user, loading, logout, t } = useApp();
   const pathname = usePathname();
 
   if (loading) {
@@ -97,26 +74,27 @@ export function Shell({ children }: { children: ReactNode }) {
                   }`}
                 >
                   <MenuIcon href={item.href} />
-                  {item.label}
+                  {t(item.label)}
                 </Link>
               );
             })}
           </nav>
 
           <div className="flex items-center gap-2">
-            <Link href="/profile" className="hidden max-w-32 truncate text-sm font-extrabold text-slate-600 hover:text-brand-600 dark:text-slate-200 dark:hover:text-brand-300 sm:block" title="個人資料">
-              {user.displayName || "個人資料"}
+            <Link href="/profile" className="hidden max-w-32 truncate text-sm font-extrabold text-slate-600 hover:text-brand-600 dark:text-slate-200 dark:hover:text-brand-300 sm:block" title={t("nav.profile")}>
+              {user.displayName || t("nav.profile")}
             </Link>
-            <Link href="/profile" className="grid h-9 w-9 place-items-center rounded-xl text-lg hover:bg-slate-100 dark:hover:bg-slate-800 sm:hidden" aria-label="個人資料" title="個人資料">
+            <Link href="/profile" className="grid h-9 w-9 place-items-center rounded-xl text-lg hover:bg-slate-100 dark:hover:bg-slate-800 sm:hidden" aria-label={t("nav.profile")} title={t("nav.profile")}>
               👤
             </Link>
+            <span className="hidden sm:block"><LocalePicker /></span>
             <ThemeToggle />
             <button
               onClick={logout}
               className="btn btn-ghost !px-3 !py-2 text-xs"
-              title="登出"
+              title={t("nav.logout")}
             >
-              登出
+              {t("nav.logout")}
             </button>
           </div>
         </div>
@@ -154,7 +132,7 @@ export function Shell({ children }: { children: ReactNode }) {
                       : "text-slate-400 dark:text-slate-500"
                   }
                 >
-                  {item.label}
+                  {t(item.label)}
                 </span>
               </Link>
             );

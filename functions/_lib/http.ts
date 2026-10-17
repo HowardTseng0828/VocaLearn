@@ -10,8 +10,32 @@ export function json(data: unknown, init: ResponseInit = {}): Response {
   });
 }
 
-export function error(message: string, status = 400): Response {
-  return json({ error: message }, { status });
+// Machine-readable error codes. The client translates them (src/lib/i18n), so
+// the API never returns user-facing text in a fixed language.
+export type ErrorCode =
+  | "UNAUTHORIZED"
+  | "BAD_REQUEST"
+  | "NOT_FOUND"
+  | "RATE_LIMITED"
+  | "TURNSTILE_FAILED"
+  | "INVALID_EMAIL"
+  | "PASSWORD_TOO_SHORT"
+  | "EMAIL_TAKEN"
+  | "INVALID_CREDENTIALS"
+  | "RESET_NOT_CONFIGURED"
+  | "RESET_LINK_INVALID"
+  | "NAME_REQUIRED"
+  | "NAME_TOO_LONG"
+  | "INVALID_CHAPTER"
+  | "QUIZ_EXPIRED"
+  | "CSV_EMPTY"
+  | "CSV_NO_ROWS"
+  | "ADMIN_ONLY"
+  | "UNSUPPORTED_LANGUAGE"
+  | "CONFIRM_MISMATCH";
+
+export function error(code: ErrorCode, status = 400): Response {
+  return json({ error: code }, { status });
 }
 
 export async function readJson<T = Record<string, unknown>>(
@@ -22,4 +46,8 @@ export async function readJson<T = Record<string, unknown>>(
   } catch {
     return null;
   }
+}
+
+export function clientIp(request: Request): string {
+  return request.headers.get("CF-Connecting-IP") ?? "unknown";
 }

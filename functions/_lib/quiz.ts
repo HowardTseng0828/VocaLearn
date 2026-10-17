@@ -1,4 +1,4 @@
-// Quiz helpers shared across routes: distractor generation, progress recording.
+// Quiz helpers shared across routes: grading, progress recording, day keys.
 
 import type { Env, QuizMode } from "./types";
 
@@ -11,39 +11,64 @@ export interface WordRow {
   meaning: string;
 }
 
-// Activity days use Asia/Taipei (UTC+8, no DST), not UTC. With UTC, anything
-// studied between 00:00 and 08:00 local time counts as the previous day, which
-// breaks both the streak and the heatmap for users in Taiwan.
-export const DAY_OFFSET_MS = 8 * 60 * 60 * 1000;
-
-export function activityDay(ts: number): string {
-  return new Date(ts + DAY_OFFSET_MS).toISOString().slice(0, 10);
+// Activity days are calendar days in the learner's own time zone. With a fixed
+// offset, anything studied around local midnight lands on the wrong day, which
+// breaks both the streak and the heatmap.
+export function activityDay(ts: number, timeZone: string): string {
+  try {
+    // en-CA formats as YYYY-MM-DD.
+    return new Intl.DateTimeFormat("en-CA", { timeZone, year: "numeric", month: "2-digit", day: "2-digit" }).format(ts);
+  } catch {
+    return new Date(ts).toISOString().slice(0, 10);
+  }
 }
 
-// Records one quiz answer: updates progress, daily activity, and the wrong-answer
-// notebook in a single batch. Returns the resulting mastered flag.
+// Shifts a YYYY-MM-DD key by whole days.
+export function addDays(day: string, delta: number): string {
+  const date = new Date(`${day}T00:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + delta);
+  return date.toISOString().slice(0, 10);
+}
+
+// Normalizes an answer for comparison: Unicode width (NFKC), case, curly
+// quotes, whitespace, and trailing Latin or CJK punctuation.
+export function normalizeAnswer(value: string): string {
+  return value
+    .normalize("NFKC")
+    .trim()
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[.,!?。、！？]/g, "")
+    .replace(/\s+/g, " ");
+}
+
+// Records one graded answer: updates progress, the per-course counters, daily
+// activity, and the wrong-answer notebook in a single batch. Returns the
+// resulting mastered flag.
 export async function recordAnswer(
   env: Env,
-  userId: number,
+  user: { id: number; timezone: string },
   wordId: number,
+  lang: string,
   mode: QuizMode,
   isCorrect: boolean,
   yourAnswer: string
 ): Promise<{ mastered: boolean }> {
   const now = Date.now();
-  const day = activityDay(now);
+  const day = activityDay(now, user.timezone);
 
-  // Read current progress to compute the new streak/mastered values.
   const prog = await env.DB.prepare(
-    "SELECT seen, correct, streak FROM progress WHERE user_id = ? AND word_id = ?"
+    "SELECT seen, correct, streak, mastered FROM progress WHERE user_id = ? AND word_id = ?"
   )
-    .bind(userId, wordId)
-    .first<{ seen: number; correct: number; streak: number }>();
+    .bind(user.id, wordId)
+    .first<{ seen: number; correct: number; streak: number; mastered: number }>();
 
   const seen = (prog?.seen ?? 0) + 1;
   const correct = (prog?.correct ?? 0) + (isCorrect ? 1 : 0);
   const streak = isCorrect ? (prog?.streak ?? 0) + 1 : 0;
   const mastered = streak >= MASTER_STREAK ? 1 : 0;
+  const masteredDelta = mastered - (prog?.mastered ?? 0);
+  const correctInc = isCorrect ? 1 : 0;
 
   const statements = [
     env.DB.prepare(
@@ -55,14 +80,23 @@ export async function recordAnswer(
          streak = excluded.streak,
          mastered = excluded.mastered,
          last_seen = excluded.last_seen`
-    ).bind(userId, wordId, seen, correct, streak, mastered, now),
+    ).bind(user.id, wordId, seen, correct, streak, mastered, now),
+    env.DB.prepare(
+      `INSERT INTO user_stats (user_id, lang, seen, answered, correct, mastered)
+       VALUES (?, ?, ?, 1, ?, ?)
+       ON CONFLICT(user_id, lang) DO UPDATE SET
+         seen = seen + excluded.seen,
+         answered = answered + 1,
+         correct = correct + excluded.correct,
+         mastered = MAX(mastered + excluded.mastered, 0)`
+    ).bind(user.id, lang, prog ? 0 : 1, correctInc, masteredDelta),
     env.DB.prepare(
       `INSERT INTO daily_activity (user_id, day, answered, correct)
        VALUES (?, ?, 1, ?)
        ON CONFLICT(user_id, day) DO UPDATE SET
          answered = answered + 1,
-         correct = correct + ?`
-    ).bind(userId, day, isCorrect ? 1 : 0, isCorrect ? 1 : 0),
+         correct = correct + excluded.correct`
+    ).bind(user.id, day, correctInc),
   ];
 
   if (isCorrect) {
@@ -70,36 +104,19 @@ export async function recordAnswer(
     statements.push(
       env.DB.prepare(
         "UPDATE wrong_answers SET resolved = 1 WHERE user_id = ? AND word_id = ? AND resolved = 0"
-      ).bind(userId, wordId)
+      ).bind(user.id, wordId)
     );
   } else {
     statements.push(
       env.DB.prepare(
         `INSERT INTO wrong_answers (user_id, word_id, mode, your_answer, created_at, resolved)
          VALUES (?, ?, ?, ?, ?, 0)`
-      ).bind(userId, wordId, mode, yourAnswer.slice(0, 200), now)
+      ).bind(user.id, wordId, mode, yourAnswer.slice(0, 200), now)
     );
   }
 
   await env.DB.batch(statements);
   return { mastered: mastered === 1 };
-}
-
-// Picks `count` random meanings distinct from the given word, for multiple choice.
-// Meanings are de-duplicated and the correct meaning is excluded, so a choice
-// list never contains two identical options.
-export async function distractorMeanings(
-  env: Env,
-  excludeWordId: number,
-  excludeMeaning: string,
-  count: number
-): Promise<string[]> {
-  const { results } = await env.DB.prepare(
-    "SELECT DISTINCT meaning FROM words WHERE id != ? AND meaning != ? ORDER BY RANDOM() LIMIT ?"
-  )
-    .bind(excludeWordId, excludeMeaning, count)
-    .all<{ meaning: string }>();
-  return (results ?? []).map((r) => r.meaning);
 }
 
 export function shuffle<T>(arr: T[]): T[] {
@@ -109,4 +126,22 @@ export function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+// Distinct random integers in [0, max), at most `count` of them.
+export function randomIndexes(max: number, count: number): number[] {
+  const picked = new Set<number>();
+  const target = Math.min(count, max);
+  while (picked.size < target) picked.add(Math.floor(Math.random() * max));
+  return [...picked];
+}
+
+// Hint data for typed answers: the first letters plus a mask of the length,
+// so the client never receives the full answer before it is graded.
+export function hintFor(word: string): { hint: string; mask: string } {
+  const chars = Array.from(word);
+  return {
+    hint: chars.slice(0, Math.min(3, chars.length)).join(""),
+    mask: chars.map((char) => (char === " " ? " " : "_")).join(""),
+  };
 }

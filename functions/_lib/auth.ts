@@ -80,11 +80,13 @@ export async function verifyPassword(
 export async function createSession(env: Env, userId: number): Promise<string> {
   const token = randomHex(32);
   const now = Date.now();
-  await env.DB.prepare(
-    "INSERT INTO sessions (token, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
-  )
-    .bind(token, userId, now, now + SESSION_TTL_MS)
-    .run();
+  // Expired sessions are otherwise only removed when their cookie comes back.
+  await env.DB.batch([
+    env.DB.prepare("DELETE FROM sessions WHERE user_id = ? AND expires_at < ?").bind(userId, now),
+    env.DB.prepare(
+      "INSERT INTO sessions (token, user_id, created_at, expires_at) VALUES (?, ?, ?, ?)"
+    ).bind(token, userId, now, now + SESSION_TTL_MS),
+  ]);
   return token;
 }
 
@@ -115,24 +117,49 @@ export async function getUser(
   const token = readCookie(request, SESSION_COOKIE);
   if (!token) return null;
   const row = await env.DB.prepare(
-    `SELECT u.id, u.email, u.display_name, u.role, s.expires_at
+    `SELECT u.id, u.email, u.display_name, u.role, u.locale, u.timezone, u.target_lang,
+            u.leaderboard_visible, s.expires_at
        FROM sessions s JOIN users u ON u.id = s.user_id
       WHERE s.token = ?`
   )
     .bind(token)
-    .first<{
-      id: number;
-      email: string;
-      display_name: string;
-      role: "admin" | "user";
-      expires_at: number;
-    }>();
+    .first<UserRow & { expires_at: number }>();
   if (!row) return null;
   if (row.expires_at < Date.now()) {
     await env.DB.prepare("DELETE FROM sessions WHERE token = ?").bind(token).run();
     return null;
   }
-  return { id: row.id, email: row.email, display_name: row.display_name, role: row.role };
+  const { expires_at: _expiresAt, ...user } = row;
+  return { ...user, role: isAdminEmail(env, user.email) ? "admin" : user.role };
+}
+
+export async function getUserById(env: Env, id: number): Promise<UserRow | null> {
+  const row = await env.DB.prepare(
+    `SELECT id, email, display_name, role, locale, timezone, target_lang, leaderboard_visible
+       FROM users WHERE id = ?`
+  ).bind(id).first<UserRow>();
+  return row && { ...row, role: isAdminEmail(env, row.email) ? "admin" : row.role };
+}
+
+function isAdminEmail(env: Env, email: string): boolean {
+  return (env.ADMIN_EMAILS ?? "")
+    .split(",")
+    .map((value) => value.trim().toLowerCase())
+    .includes(email.toLowerCase());
+}
+
+// The user shape returned to the client by every auth endpoint.
+export function publicUser(user: UserRow) {
+  return {
+    id: user.id,
+    email: user.email,
+    displayName: user.display_name,
+    role: user.role,
+    locale: user.locale,
+    timezone: user.timezone,
+    targetLang: user.target_lang,
+    leaderboardVisible: user.leaderboard_visible === 1,
+  };
 }
 
 export async function destroySession(request: Request, env: Env): Promise<void> {

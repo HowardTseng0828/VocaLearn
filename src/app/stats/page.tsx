@@ -2,8 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { api, type Stats } from "@/lib/api";
+import { useApp } from "@/lib/store";
+import type { MessageKey } from "@/lib/i18n";
 
 export default function StatsPage() {
+  const { t, errorText } = useApp();
   const [stats, setStats] = useState<Stats | null>(null);
   const [error, setError] = useState("");
 
@@ -11,8 +14,8 @@ export default function StatsPage() {
     api
       .stats()
       .then(setStats)
-      .catch((e) => setError(e instanceof Error ? e.message : "載入失敗"));
-  }, []);
+      .catch((e) => setError(errorText(e)));
+  }, [errorText]);
 
   if (error)
     return <p className="text-sm font-bold text-mode-red">{error}</p>;
@@ -30,7 +33,7 @@ export default function StatsPage() {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      <h1 className="text-xl font-extrabold">學習進度</h1>
+      <h1 className="text-xl font-extrabold">{t("stats.title")}</h1>
 
       {/* 連續天數大卡 + 精熟進度環 */}
       <div className="grid gap-3 sm:grid-cols-2">
@@ -41,7 +44,7 @@ export default function StatsPage() {
               {stats.streak}
             </div>
             <div className="text-sm font-bold text-slate-500 dark:text-slate-400">
-              連續練習天數
+              {t("stats.streak")}
             </div>
           </div>
         </div>
@@ -50,7 +53,7 @@ export default function StatsPage() {
           <Ring pct={masteredPct} />
           <div>
             <div className="text-sm font-bold text-slate-500 dark:text-slate-400">
-              精熟進度
+              {t("stats.mastery")}
             </div>
             <div className="text-lg font-extrabold">
               {stats.mastered}
@@ -65,16 +68,16 @@ export default function StatsPage() {
 
       {/* 四格數據 */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <Metric icon="🎯" label="正確率" value={`${stats.accuracy}%`} />
-        <Metric icon="📝" label="總作答" value={stats.attempts} />
-        <Metric icon="✅" label="答對" value={stats.correct} />
-        <Metric icon="📖" label="已學單字" value={stats.seen} />
+        <Metric icon="🎯" label={t("stats.accuracy")} value={`${stats.accuracy}%`} />
+        <Metric icon="📝" label={t("stats.attempts")} value={stats.attempts} />
+        <Metric icon="✅" label={t("stats.correct")} value={stats.correct} />
+        <Metric icon="📖" label={t("stats.seen")} value={stats.seen} />
       </div>
 
       {/* 精熟進度條 */}
       <div className="card p-5">
         <div className="mb-2 flex items-center justify-between">
-          <h2 className="font-extrabold">精熟進度</h2>
+          <h2 className="font-extrabold">{t("stats.mastery")}</h2>
           <span className="text-sm font-bold text-slate-500">
             {masteredPct}%
           </span>
@@ -83,15 +86,14 @@ export default function StatsPage() {
           <div className="progress-fill" style={{ width: `${masteredPct}%` }} />
         </div>
         <p className="mt-3 text-sm font-medium text-slate-500 dark:text-slate-400">
-          已接觸 {stats.seen} 個單字，其中 {stats.mastered} 個達到精熟（連續答對 3
-          次）。
+          {t("stats.summary", { seen: stats.seen, mastered: stats.mastered })}
         </p>
       </div>
 
       {/* 活動熱力圖 */}
       <div className="card p-5">
-        <h2 className="mb-3 font-extrabold">近期練習</h2>
-        <Heatmap activity={stats.activity} />
+        <h2 className="mb-3 font-extrabold">{t("stats.recent")}</h2>
+        <Heatmap activity={stats.activity} today={stats.today} t={t} />
       </div>
     </div>
   );
@@ -153,14 +155,20 @@ function Metric({
 }
 
 // GitHub 風格貢獻熱力圖（近 90 天）
+// Days are YYYY-MM-DD keys in the learner's time zone, ending at the server's
+// `today` so the grid matches how the streak is counted.
 function Heatmap({
   activity,
+  today,
+  t,
 }: {
   activity: { day: string; answered: number; correct: number }[];
+  today: string;
+  t: (key: MessageKey, vars?: Record<string, string | number>) => string;
 }) {
   const map = new Map(activity.map((a) => [a.day, a.answered]));
   const days: { day: string; count: number }[] = [];
-  const cursor = new Date();
+  const cursor = new Date(`${today}T00:00:00Z`);
   cursor.setUTCDate(cursor.getUTCDate() - 90);
   for (let i = 0; i <= 90; i++) {
     const key = cursor.toISOString().slice(0, 10);
@@ -183,18 +191,18 @@ function Heatmap({
         {days.map((d) => (
           <div
             key={d.day}
-            title={`${d.day}：${d.count} 題`}
+            title={t("stats.dayCount", { day: d.day, n: d.count })}
             className={`h-3.5 w-3.5 rounded-[4px] ${level(d.count)}`}
           />
         ))}
       </div>
       <div className="mt-3 flex items-center gap-1.5 text-xs font-bold text-slate-400">
-        <span>少</span>
+        <span>{t("stats.less")}</span>
         <span className="h-3 w-3 rounded-[4px] bg-slate-100 dark:bg-slate-800" />
         <span className="h-3 w-3 rounded-[4px] bg-brand-200 dark:bg-brand-900" />
         <span className="h-3 w-3 rounded-[4px] bg-brand-400 dark:bg-brand-700" />
         <span className="h-3 w-3 rounded-[4px] bg-brand-500" />
-        <span>多</span>
+        <span>{t("stats.more")}</span>
       </div>
     </div>
   );

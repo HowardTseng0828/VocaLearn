@@ -3,9 +3,9 @@ import { createOAuthState, providerConfig, type OAuthProvider } from "../../../_
 
 export const onRequestGet: PagesFunction<Env> = async ({ request, env, params }) => {
   const provider = String(params.provider) as OAuthProvider;
-  if (provider !== "google" && provider !== "facebook") return new Response("不支援的登入方式", { status: 404 });
+  if (provider !== "google" && provider !== "facebook") return Response.redirect(`${new URL(request.url).origin}/?authError=OAUTH_FAILED`, 302);
   const config = providerConfig(env, provider);
-  if (!config.clientId || !config.clientSecret) return new Response("此登入方式尚未完成管理員設定", { status: 503 });
+  if (!config.clientId || !config.clientSecret) return Response.redirect(`${new URL(request.url).origin}/?authError=OAUTH_NOT_CONFIGURED`, 302);
   const state = await createOAuthState(env, provider);
   const origin = new URL(request.url).origin;
   const redirectUri = `${origin}/api/auth/oauth-callback?provider=${provider}`;

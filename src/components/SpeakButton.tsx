@@ -1,17 +1,19 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useApp } from "@/lib/store";
 
 const SPEECH_RATES = [0.85, 1, 1.15] as const;
 
-export function speakEnglish(text: string, rate = 0.85): void {
+// Speaks text with the browser voice for `lang` (a BCP 47 locale such as ja-JP).
+export function speak(text: string, lang: string, rate = 0.85): void {
   if (!("speechSynthesis" in window)) return;
   try {
     const synthesis = window.speechSynthesis;
     synthesis.cancel();
     synthesis.resume();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
+    utterance.lang = lang;
     utterance.rate = rate;
     utterance.onerror = () => synthesis.cancel();
     synthesis.speak(utterance);
@@ -21,6 +23,8 @@ export function speakEnglish(text: string, rate = 0.85): void {
 }
 
 export function PronunciationText({ text, className = "" }: { text: string; className?: string }) {
+  const { course, t } = useApp();
+  const lang = course?.speechLocale ?? "en-US";
   const [speaking, setSpeaking] = useState(false);
   const [rate, setRate] = useState<(typeof SPEECH_RATES)[number]>(0.85);
   const [boundary, setBoundary] = useState({ start: -1, length: 0 });
@@ -37,7 +41,7 @@ export function PronunciationText({ text, className = "" }: { text: string; clas
       synthesis.cancel();
       synthesis.resume();
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "en-US";
+      utterance.lang = lang;
       utterance.rate = rate;
       utteranceRef.current = utterance;
       setBoundary({ start: -1, length: 0 });
@@ -61,7 +65,7 @@ export function PronunciationText({ text, className = "" }: { text: string; clas
 
   return (
     <div className={`inline-flex max-w-full flex-col items-center gap-2 ${className}`}>
-      <button type="button" onClick={play} className="inline-flex max-w-full items-center gap-3" aria-label={`播放 ${text} 的英文發音`}>
+      <button type="button" onClick={play} className="inline-flex max-w-full items-center gap-3" aria-label={t("speak.play", { text })}>
         <span className={`break-words text-left ${speaking ? "border-b-2 border-brand-500" : ""}`}>
           {Array.from(text).map((character, index) => {
             const active = speaking && boundary.start >= 0 && index >= boundary.start && index < boundary.start + boundary.length;
@@ -70,8 +74,8 @@ export function PronunciationText({ text, className = "" }: { text: string; clas
         </span>
         <span aria-hidden="true" className="shrink-0 text-xl">🔊</span>
       </button>
-      <span className="flex items-center gap-1 text-xs font-bold text-slate-400" aria-label="播放速度">
-        速度
+      <span className="flex items-center gap-1 text-xs font-bold text-slate-400" aria-label={t("speak.speed")}>
+        {t("speak.speed")}
         {SPEECH_RATES.map((option) => (
           <button key={option} type="button" onClick={() => setRate(option)} className={`rounded px-1.5 py-0.5 ${rate === option ? "bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200" : "hover:bg-slate-100 dark:hover:bg-slate-800"}`}>
             {option}x
@@ -83,15 +87,16 @@ export function PronunciationText({ text, className = "" }: { text: string; clas
 }
 
 export function SpeakButton({ text, compact = false }: { text: string; compact?: boolean }) {
+  const { course, t } = useApp();
   return (
     <button
       type="button"
-      onClick={() => speakEnglish(text)}
+      onClick={() => speak(text, course?.speechLocale ?? "en-US")}
       className={compact ? "shrink-0 rounded-lg px-2 py-1 hover:bg-slate-100 dark:hover:bg-slate-800" : "btn btn-ghost"}
-      aria-label={`播放 ${text} 的英文發音`}
-      title="播放英文發音"
+      aria-label={t("speak.play", { text })}
+      title={t("speak.playShort")}
     >
-      🔊{compact ? "" : " 播放發音"}
+      🔊{compact ? "" : ` ${t("speak.playShort")}`}
     </button>
   );
 }

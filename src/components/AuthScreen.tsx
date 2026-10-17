@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import { api } from "@/lib/api";
 import { useApp } from "@/lib/store";
+import { isMessageKey } from "@/lib/i18n";
+import { LocalePicker, ThemeToggle } from "./Controls";
 
 function GoogleIcon() {
   return (
@@ -17,7 +19,7 @@ function GoogleIcon() {
 }
 
 export function AuthScreen() {
-  const { setUser, theme, toggleTheme } = useApp();
+  const { setUser, refreshUser, theme, locale, t, errorText } = useApp();
   const [mode, setMode] = useState<"login" | "register" | "forgot">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -30,8 +32,11 @@ export function AuthScreen() {
   useEffect(() => {
     window.onVocaLearnTurnstile = (token: string) => setTurnstileToken(token);
     const authError = new URLSearchParams(window.location.search).get("authError");
-    if (authError) setError(authError);
+    const key = `error.${authError}`;
+    if (authError) setError(t(isMessageKey(key) ? key : "error.GENERIC"));
     return () => { delete window.onVocaLearnTurnstile; };
+    // Read the redirect error once, in the locale active at mount.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function resetChallenge() {
@@ -43,22 +48,24 @@ export function AuthScreen() {
     e.preventDefault();
     setError("");
     setNotice("");
-    if (!turnstileToken) { setError("請先完成安全驗證"); return; }
+    if (!turnstileToken) { setError(t("auth.turnstileRequired")); return; }
     setBusy(true);
     try {
       if (mode === "forgot") {
         await api.forgotPassword(email, turnstileToken);
-        setNotice("若此信箱已註冊，重設密碼信將在幾分鐘內送達。");
+        setNotice(t("auth.resetSent"));
         resetChallenge();
         return;
       }
       const { user } =
         mode === "login"
           ? await api.login(email, password, turnstileToken)
-          : await api.register(email, password, displayName, turnstileToken);
+          : await api.register(email, password, displayName, turnstileToken, locale);
       setUser(user);
+      // Also loads the course list for the new session.
+      await refreshUser();
     } catch (err) {
-      setError(err instanceof Error ? err.message : "發生錯誤");
+      setError(errorText(err));
     } finally {
       setBusy(false);
       if (mode !== "forgot") resetChallenge();
@@ -72,13 +79,10 @@ export function AuthScreen() {
       <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-brand-300/40 blur-3xl dark:bg-brand-800/30" />
       <div className="pointer-events-none absolute -bottom-24 -right-24 h-72 w-72 rounded-full bg-mode-blue/20 blur-3xl" />
 
-      <button
-        onClick={toggleTheme}
-        className="btn btn-ghost absolute right-4 top-4 !px-3 !py-2"
-        aria-label="切換深色模式"
-      >
-        {theme === "dark" ? "🌙" : "☀️"}
-      </button>
+      <div className="absolute right-4 top-4 flex items-center gap-2">
+        <LocalePicker />
+        <ThemeToggle />
+      </div>
 
       <div className="mb-7 text-center">
         <div className="mx-auto mb-3 grid h-20 w-20 animate-bounce-in place-items-center rounded-[28px] bg-brand-500 text-5xl shadow-[0_5px_0_0_#46a302]">
@@ -86,7 +90,7 @@ export function AuthScreen() {
         </div>
         <h1 className="text-3xl font-extrabold tracking-tight">VocaLearn</h1>
         <p className="mt-1 text-sm font-bold text-slate-500 dark:text-slate-400">
-          高中 7000 單字 · 每日練習
+          {t("app.tagline")}
         </p>
       </div>
 
@@ -111,7 +115,7 @@ export function AuthScreen() {
                   : "text-slate-400"
               }`}
             >
-              {m === "login" ? "登入" : "註冊"}
+              {m === "login" ? t("auth.login") : t("auth.register")}
             </button>
           ))}
         </div>
@@ -119,13 +123,13 @@ export function AuthScreen() {
         {mode === "register" && (
           <div className="mb-3">
             <label className="mb-1 block text-xs font-extrabold uppercase tracking-wide text-slate-400">
-              暱稱（可選）
+              {t("auth.nickname")}
             </label>
             <input
               className="input"
               value={displayName}
               onChange={(e) => setDisplayName(e.target.value)}
-              placeholder="你的名字"
+              placeholder={t("auth.nicknamePlaceholder")}
               autoComplete="nickname"
             />
           </div>
@@ -133,7 +137,7 @@ export function AuthScreen() {
 
         <div className="mb-3">
           <label className="mb-1 block text-xs font-extrabold uppercase tracking-wide text-slate-400">
-            電子郵件
+            {t("auth.email")}
           </label>
           <input
             className="input"
@@ -148,14 +152,14 @@ export function AuthScreen() {
 
         {mode !== "forgot" && <div className="mb-4">
           <label className="mb-1 block text-xs font-extrabold uppercase tracking-wide text-slate-400">
-            密碼
+            {t("auth.password")}
           </label>
           <input
             className="input"
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder={mode === "register" ? "至少 8 個字元" : "密碼"}
+            placeholder={mode === "register" ? t("auth.passwordNew") : t("auth.password")}
             minLength={mode === "register" ? 8 : undefined}
             autoComplete={mode === "login" ? "current-password" : "new-password"}
             required
@@ -168,6 +172,7 @@ export function AuthScreen() {
           data-action="turnstile-spin-v1"
           data-callback="onVocaLearnTurnstile"
           data-theme={theme}
+          data-language={locale === "zh-Hant" ? "zh-tw" : locale}
         />
 
         {error && (
@@ -179,17 +184,17 @@ export function AuthScreen() {
         {notice && <p className="mb-3 rounded-xl bg-green-50 px-3 py-2.5 text-sm font-bold text-green-700 dark:bg-green-950/40 dark:text-green-300">{notice}</p>}
 
         <button className="btn btn-primary w-full" disabled={busy || !turnstileToken}>
-          {busy ? "處理中…" : mode === "login" ? "登入" : mode === "register" ? "建立帳號" : "寄送重設信"}
+          {busy ? t("auth.busy") : mode === "login" ? t("auth.login") : mode === "register" ? t("auth.createAccount") : t("auth.sendReset")}
         </button>
 
-        {mode === "login" && <button type="button" onClick={() => { setMode("forgot"); setError(""); setNotice(""); resetChallenge(); }} className="mt-3 w-full text-sm font-extrabold text-brand-600">忘記密碼？</button>}
-        {mode === "forgot" && <button type="button" onClick={() => { setMode("login"); setError(""); setNotice(""); resetChallenge(); }} className="mt-3 w-full text-sm font-extrabold text-brand-600">返回登入</button>}
+        {mode === "login" && <button type="button" onClick={() => { setMode("forgot"); setError(""); setNotice(""); resetChallenge(); }} className="mt-3 w-full text-sm font-extrabold text-brand-600">{t("auth.forgot")}</button>}
+        {mode === "forgot" && <button type="button" onClick={() => { setMode("login"); setError(""); setNotice(""); resetChallenge(); }} className="mt-3 w-full text-sm font-extrabold text-brand-600">{t("auth.backToLogin")}</button>}
 
         {mode !== "forgot" && <>
-          <div className="my-5 flex items-center gap-3 text-xs font-bold text-slate-400"><span className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />或使用<span className="h-px flex-1 bg-slate-200 dark:bg-slate-700" /></div>
+          <div className="my-5 flex items-center gap-3 text-xs font-bold text-slate-400"><span className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />{t("auth.or")}<span className="h-px flex-1 bg-slate-200 dark:bg-slate-700" /></div>
           <a href="/api/auth/oauth/google" className="btn btn-ghost w-full justify-center gap-3 border-2 border-slate-200 dark:border-slate-700">
             <GoogleIcon />
-            使用 Google 登入
+            {t("auth.google")}
           </a>
         </>}
       </form>

@@ -7,13 +7,13 @@ interface Body { token?: string; password?: string }
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const body = await readJson<Body>(request);
   if (!body?.token || !body.password || body.password.length < MIN_PASSWORD_LENGTH) {
-    return error(`重設連結無效，或密碼少於 ${MIN_PASSWORD_LENGTH} 個字元`);
+    return error(body?.token ? "PASSWORD_TOO_SHORT" : "RESET_LINK_INVALID");
   }
   const tokenHash = await sha256Hex(body.token);
   const row = await env.DB.prepare(
     "SELECT user_id FROM password_reset_tokens WHERE token_hash = ? AND used_at IS NULL AND expires_at > ?"
   ).bind(tokenHash, Date.now()).first<{ user_id: number }>();
-  if (!row) return error("重設連結已失效，請重新申請", 400);
+  if (!row) return error("RESET_LINK_INVALID", 400);
   const now = Date.now();
   const passwordHash = await hashPassword(body.password);
   await env.DB.batch([

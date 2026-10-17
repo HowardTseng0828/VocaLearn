@@ -6,3 +6,6 @@ AUTH_SECRET=dev-only-change-me
 # Leave unset to use the built-in mock (the app still works fully).
 # GEMINI_API_KEY=AIzaSy...
 # GEMINI_MODEL=gemini-3.1-flash-lite
+
+# Comma-separated emails treated as admins (CSV import).
+# ADMIN_EMAILS=you@example.com

@@ -4,9 +4,9 @@ import { AppProvider } from "@/lib/store";
 import { Shell } from "@/components/Shell";
 
 export const metadata: Metadata = {
-  title: "VocaLearn — 高中 7000 單字學習",
+  title: "VocaLearn",
   description:
-    "以高中 7000 單字為核心的英文單字學習 App：隨機抽考、英翻中、中翻英、拼字、AI 例句與填空、錯題本與學習進度統計。",
+    "Multilingual vocabulary practice · 多語言單字練習 · 多言語の単語練習",
   icons: {
     icon: "/icon.svg",
     apple: "/apple-icon.png",

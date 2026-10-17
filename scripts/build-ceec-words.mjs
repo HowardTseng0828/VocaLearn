@@ -2,28 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
+import { cleanMeaning } from "./lib/clean-meaning.mjs";
+import { parseCsv, writeWordFiles } from "./lib/word-files.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CEEC_JSON = "https://raw.githubusercontent.com/EngTW/English-for-Programmers/main/lists/Taiwan-high-school-6K-108-edition/Data/Taiwan-high-school-english-reference-vocabulary-list-108-edition.json";
 const MODEL = "gemini-3.1-flash-lite";
 const ECDICT_CSV = "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv";
-
-function parseCsv(text) {
-  const rows = [];
-  let row = [], field = "", quoted = false;
-  for (let i = 0; i < text.length; i++) {
-    const ch = text[i];
-    if (quoted && ch === '"' && text[i + 1] === '"') { field += '"'; i++; }
-    else if (ch === '"') quoted = !quoted;
-    else if (ch === "," && !quoted) { row.push(field); field = ""; }
-    else if ((ch === "\n" || ch === "\r") && !quoted) {
-      if (ch === "\r" && text[i + 1] === "\n") i++;
-      row.push(field); if (row.some(Boolean)) rows.push(row); row = []; field = "";
-    } else field += ch;
-  }
-  row.push(field); if (row.some(Boolean)) rows.push(row);
-  return rows;
-}
 
 function loadDevKey() {
   const file = path.join(root, ".dev.vars");
@@ -113,12 +98,5 @@ const rows = official.map((entry) => {
 });
 const unresolved = rows.filter((row) => !row.meaning);
 if (unresolved.length) throw new Error(`Missing meanings for ${unresolved.length} entries: ${unresolved.slice(0, 30).map((row) => row.word).join(", ")}`);
-const csvEscape = (value) => /[",\n]/.test(String(value)) ? `"${String(value).replace(/"/g, '""')}"` : String(value);
-fs.writeFileSync(path.join(root, "data", "words.utf8.csv"), "word,pos,meaning,level,source\n" + rows.map((row) => [row.word, row.pos, row.meaning, row.level, "CEEC-108"].map(csvEscape).join(",")).join("\n") + "\n");
-const sqlEscape = (value) => String(value).replace(/'/g, "''");
-let sql = "-- Generated from the CEEC senior-high reference vocabulary list (108 curriculum).\n-- Non-commercial academic use; source: https://www.ceec.edu.tw/xmdoc?xsmsid=0K213553204833715309\n\n";
-for (let i = 0; i < rows.length; i += 200) {
-  sql += "INSERT INTO words (word, pos, meaning, level, source) VALUES\n" + rows.slice(i, i + 200).map((row) => `  ('${sqlEscape(row.word)}', '${sqlEscape(row.pos)}', '${sqlEscape(row.meaning)}', ${row.level}, 'CEEC-108')`).join(",\n") + "\nON CONFLICT(word) DO UPDATE SET pos=excluded.pos, meaning=excluded.meaning, level=excluded.level, source=excluded.source;\n\n";
-}
-fs.writeFileSync(path.join(root, "data", "seed-words.sql"), sql);
+writeWordFiles(root, rows.map((row) => ({ ...row, meaning: cleanMeaning(row.meaning, row.word), source: "CEEC-108" })));
 console.log(`Wrote ${rows.length} official CEEC spellings.`);

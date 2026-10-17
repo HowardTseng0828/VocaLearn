@@ -79,13 +79,46 @@ npx wrangler d1 create vocalearn-db
 
 # 2. 把上一步的 database_id 填進 wrangler.toml 的 [[d1_databases]] → database_id
 
-# 3. 建表 + 匯入 5,548 個單字到正式資料庫
+# 3. 建表 + 匯入 6,170 個單字到正式資料庫
 npm run db:migrate:remote
 npm run db:seed:remote
 ```
 
 完成後，打開 Cloudflare 給你的網址（`https://vocalearn.pages.dev` 或自訂網域），
 就能註冊帳號、開始練習了。
+
+---
+
+## 升級到多語言版本（既有正式資料庫，只做一次）
+
+這版加入 migration `0009`：多語言課程、伺服器出題 session（防刷分）、AI 例句快取、統計計數表、限流。
+它會重建 `words`、`progress`、`wrong_answers` 三張表，所以**一定要先備份**。
+
+```bash
+# 1. 備份（檔案含使用者資料，已被 .gitignore 排除，不要提交）
+npm run db:backup:remote
+
+# 2. 只有 d1_migrations 表不存在或沒有 0001–0008 時才需要（先查：npx wrangler d1 execute vocalearn-db --remote --command "SELECT name FROM d1_migrations"）
+npm run db:baseline:remote
+
+# 3. 套用 0009（之後所有 migration 都用這個指令）
+npm run db:migrate:remote
+
+# 4. 寫入清理過的題庫釋義並重算課程順序
+npm run db:seed:remote
+```
+
+接著在 Pages 設定：
+
+- `ADMIN_EMAILS` = 管理員 email（逗號分隔）
+
+再部署新版前端（`npm run deploy` 或 push 觸發）。
+
+注意：
+
+- 舊版前端與新版 API 不相容（出題改成 session），所以 migration 和部署要接著做。
+- 既有使用者的排行榜公開設定不變；新註冊使用者預設不公開。
+- 若 migration 失敗：D1 會整個檔案 rollback；必要時用 `wrangler d1 time-travel restore` 或步驟 1 的備份還原。
 
 ---
 

@@ -1,31 +1,32 @@
 // Thin client-side fetch wrapper for the Pages Functions API.
 
+import type { Locale } from "./i18n";
+
 export interface User {
   id: number;
   email: string;
   displayName: string;
   role?: "admin" | "user";
+  locale: Locale;
+  timezone: string;
+  targetLang: string;
+  leaderboardVisible: boolean;
 }
 
-const POS_LABELS: Record<string, string> = {
-  adj: "形容詞",
-  a: "形容詞",
-  adv: "副詞",
-  n: "名詞",
-  v: "動詞",
-  prep: "介系詞",
-  pron: "代名詞",
-  conj: "連接詞",
-  aux: "助動詞",
-  phr: "片語",
-};
+export interface Language {
+  code: string;
+  name: string;
+  speechLocale: string;
+  spaced: boolean;
+  wordCount: number;
+}
 
-/** Convert source abbreviations such as adj./n. into complete Chinese labels. */
-export function formatPartOfSpeech(pos: string, meaning = ""): string {
-  const tokens = pos.toLowerCase().split(/[\/、,，\s]+/).map((token) => token.replace(/\.$/, "")).filter(Boolean);
-  if (/^\s*a\.?\s/i.test(meaning) && !tokens.includes("adj") && !tokens.includes("a")) tokens.push("adj");
-  const labels = tokens.map((token) => POS_LABELS[token] ?? token).filter((label, index, all) => all.indexOf(label) === index);
-  return labels.join("／");
+// Error carrying the API's machine-readable code (see functions/_lib/http.ts).
+// Pages translate it with t(`error.${code}`).
+export class ApiError extends Error {
+  constructor(public code: string, public status: number) {
+    super(code);
+  }
 }
 
 declare global {
@@ -51,23 +52,28 @@ async function request<T>(
   });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) {
-    throw new Error((data as { error?: string }).error ?? "請求失敗");
+    throw new ApiError((data as { error?: string }).error ?? "GENERIC", res.status);
   }
   return data as T;
 }
 
 export const api = {
-  me: () => request<{ user: User | null }>("/auth/me"),
+  me: () => request<{ user: User | null; languages: Language[] }>("/auth/me"),
   learningPath: () => request<{ lessons: PathLesson[]; lessonSize: number; lessonsPerUnit: number }>("/path"),
-  updateProfile: (displayName: string) =>
+  updateProfile: (changes: Partial<Pick<User, "displayName" | "locale" | "timezone" | "targetLang" | "leaderboardVisible">>) =>
     request<{ user: User }>("/auth/profile", {
       method: "PATCH",
-      body: JSON.stringify({ displayName }),
+      body: JSON.stringify(changes),
     }),
-  register: (email: string, password: string, displayName: string, turnstileToken: string) =>
+  deleteAccount: (confirmEmail: string) =>
+    request<{ ok: true }>("/auth/account", {
+      method: "DELETE",
+      body: JSON.stringify({ confirmEmail }),
+    }),
+  register: (email: string, password: string, displayName: string, turnstileToken: string, locale: Locale) =>
     request<{ user: User }>("/auth/register", {
       method: "POST",
-      body: JSON.stringify({ email, password, displayName, turnstileToken }),
+      body: JSON.stringify({ email, password, displayName, turnstileToken, locale, timezone: browserTimeZone() }),
     }),
   login: (email: string, password: string, turnstileToken: string) =>
     request<{ user: User }>("/auth/login", {
@@ -81,20 +87,20 @@ export const api = {
   resetPassword: (token: string, password: string) => request<{ ok: true }>("/auth/reset-password", {
     method: "POST", body: JSON.stringify({ token, password }),
   }),
-  leaderboard: () => request<{ items: LeaderboardItem[]; currentUserId: number }>("/leaderboard"),
+  leaderboard: () => request<{ items: LeaderboardItem[]; currentUserId: number; visible: boolean }>("/leaderboard"),
 
   generateQuiz: (mode: string, count: number, review = false, chapter = "", reviewCorrect = false) =>
-    request<{ questions: QuizQuestion[] }>(
+    request<{ quizId: string; questions: QuizQuestion[] }>(
       `/quiz/generate?mode=${mode}&count=${count}${review ? "&review=1" : ""}${reviewCorrect ? "&reviewCorrect=1" : ""}${chapter ? `&chapter=${encodeURIComponent(chapter)}` : ""}`
     ),
   chapterProgress: (chapter: string) => request<{ questionIndex: number }>(`/chapter-progress?chapter=${encodeURIComponent(chapter)}`),
   saveChapterProgress: (chapter: string, questionIndex: number, completed = false) =>
     request<{ ok: true }>("/chapter-progress", { method: "PUT", body: JSON.stringify({ chapter, questionIndex, completed }) }),
-  // record=false grades the answer without writing progress — used by retries.
-  answer: (wordId: number, mode: QuizMode, answer: string, record = true) =>
+  // Only the first answer to an item is recorded; the server decides.
+  answer: (quizId: string, position: number, answer: string) =>
     request<AnswerResult>("/quiz/answer", {
       method: "POST",
-      body: JSON.stringify({ wordId, mode, answer, record }),
+      body: JSON.stringify({ quizId, position, answer }),
     }),
 
   stats: () => request<Stats>("/stats"),
@@ -110,18 +116,26 @@ export const api = {
     request<{ items: WordItem[]; total: number; page: number; size: number }>(
       `/words/list?q=${encodeURIComponent(q)}&page=${page}&size=${size}`
     ),
-  importCsv: (csv: string) =>
+  importCsv: (csv: string, lang: string, locale?: Locale) =>
     request<{ parsed: number; imported: number; skipped: number; total: number }>(
       "/words/import",
-      { method: "POST", body: JSON.stringify({ csv }) }
+      { method: "POST", body: JSON.stringify({ csv, lang, locale }) }
     ),
 
-  aiExample: (wordId: number) =>
+  aiExample: (quizId: string, position: number) =>
     request<AiCard>("/ai/example", {
       method: "POST",
-      body: JSON.stringify({ wordId }),
+      body: JSON.stringify({ quizId, position }),
     }),
 };
+
+export function browserTimeZone(): string {
+  try {
+    return Intl.DateTimeFormat().resolvedOptions().timeZone || "Asia/Taipei";
+  } catch {
+    return "Asia/Taipei";
+  }
+}
 
 export interface LeaderboardItem {
   userId: number;
@@ -144,13 +158,16 @@ export interface PathLesson {
   unlocked: boolean;
 }
 
+// Fields depend on the mode; the answer to a typed question is never sent.
 export interface QuizQuestion {
-  wordId: number;
-  word: string;
-  pos: string;
-  meaning: string;
+  position: number;
   mode: QuizMode;
+  pos: string;
+  word?: string;
+  meaning?: string;
   choices?: string[];
+  hint?: string;
+  mask?: string;
 }
 
 export interface AnswerResult {
@@ -159,6 +176,7 @@ export interface AnswerResult {
   word: string;
   meaning: string;
   mastered: boolean;
+  recorded: boolean;
 }
 
 export interface Stats {
@@ -170,6 +188,7 @@ export interface Stats {
   accuracy: number;
   openWrong: number;
   streak: number;
+  today: string;
   activity: { day: string; answered: number; correct: number }[];
 }
 
@@ -195,12 +214,9 @@ export interface WordItem {
 }
 
 export interface AiCard {
-  sentence: string;
   cloze: string;
   translation: string;
-  source: "ai" | "mock";
+  source: "ai" | "mock" | "cache";
   synonyms: string[];
   antonyms: string[];
-  word: string;
-  meaning: string;
 }

@@ -2,17 +2,12 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { api, type WrongAnswer, type QuizMode } from "@/lib/api";
-
-const MODE_LABEL: Record<QuizMode, string> = {
-  en2zh: "英翻中",
-  zh2en: "中翻英",
-  spell: "拼字",
-  cloze: "AI 填空",
-  speech: "口說練習",
-};
+import { api, type WrongAnswer } from "@/lib/api";
+import { formatPartOfSpeech } from "@/lib/i18n";
+import { useApp } from "@/lib/store";
 
 export default function NotebookPage() {
+  const { t, locale } = useApp();
   const [items, setItems] = useState<WrongAnswer[]>([]);
   const [showAll, setShowAll] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -38,30 +33,30 @@ export default function NotebookPage() {
   return (
     <div className="space-y-4 animate-fade-in">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-extrabold">錯題本</h1>
+        <h1 className="text-xl font-extrabold">{t("notebook.title")}</h1>
         {items.length > 0 && (<>
-          <Link href="/practice?mode=random&reviewCorrect=1" className="btn btn-ghost !py-2 text-xs">複習答對</Link>
+          <Link href="/practice?mode=random&reviewCorrect=1" className="btn btn-ghost !py-2 text-xs">{t("notebook.reviewCorrect")}</Link>
           <Link href="/practice?mode=random&review=1" className="btn btn-blue !py-2 text-xs">
-            複習錯題 →
+            {t("notebook.reviewWrongCta")}
           </Link>
         </>)}
       </div>
 
       <section className="grid gap-3 sm:grid-cols-2">
         <Link href="/practice?mode=random&review=1" className="card border-red-200 bg-red-50 p-4 dark:border-red-900/50 dark:bg-red-950/20">
-          <div className="font-extrabold text-red-700 dark:text-red-300">複習錯題</div>
-          <div className="mt-1 text-sm text-slate-600 dark:text-slate-300">隨機出題，保留當時答錯的題型。</div>
+          <div className="font-extrabold text-red-700 dark:text-red-300">{t("notebook.reviewWrong")}</div>
+          <div className="mt-1 text-sm text-slate-600 dark:text-slate-300">{t("notebook.reviewWrongDesc")}</div>
         </Link>
         <Link href="/practice?mode=random&reviewCorrect=1" className="card border-brand-200 bg-brand-50 p-4 dark:border-brand-900/50 dark:bg-brand-950/20">
-          <div className="font-extrabold text-brand-700 dark:text-brand-300">複習答對</div>
-          <div className="mt-1 text-sm text-slate-600 dark:text-slate-300">從先前答對或熟練的單字隨機複習。</div>
+          <div className="font-extrabold text-brand-700 dark:text-brand-300">{t("notebook.reviewCorrect")}</div>
+          <div className="mt-1 text-sm text-slate-600 dark:text-slate-300">{t("notebook.reviewCorrectDesc")}</div>
         </Link>
       </section>
 
       <div className="flex rounded-2xl bg-slate-100 p-1.5 dark:bg-slate-800">
         {[
-          { v: false, label: "待複習" },
-          { v: true, label: "全部" },
+          { v: false, label: t("notebook.open") },
+          { v: true, label: t("notebook.all") },
         ].map((t) => (
           <button
             key={String(t.v)}
@@ -85,10 +80,10 @@ export default function NotebookPage() {
         <div className="card p-10 text-center animate-bounce-in">
           <div className="text-5xl">{showAll ? "📕" : "🎉"}</div>
           <p className="mt-3 font-extrabold">
-            {showAll ? "還沒有任何錯題紀錄" : "沒有待複習的錯題"}
+            {showAll ? t("notebook.emptyAll") : t("notebook.emptyOpen")}
           </p>
           <p className="mt-1 text-sm font-medium text-slate-500 dark:text-slate-400">
-            做幾題練習後，答錯的單字會自動收進這裡。
+            {t("notebook.emptyHint")}
           </p>
         </div>
       ) : (
@@ -102,14 +97,14 @@ export default function NotebookPage() {
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="font-extrabold">{it.word}</span>
                   {it.pos && (
-                    <span className="text-xs font-bold text-slate-400">{it.pos}</span>
+                    <span className="text-xs font-bold text-slate-400">{formatPartOfSpeech(it.pos, locale)}</span>
                   )}
                   <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-bold text-slate-500 dark:bg-slate-800">
-                    {MODE_LABEL[it.mode]}
+                    {t(`mode.${it.mode}`)}
                   </span>
                   {it.resolved === 1 && (
                     <span className="rounded-full bg-brand-100 px-2 py-0.5 text-xs font-bold text-brand-700 dark:bg-brand-900/40 dark:text-brand-300">
-                      ✓ 已訂正
+                      {t("notebook.fixed")}
                     </span>
                   )}
                 </div>
@@ -118,15 +113,15 @@ export default function NotebookPage() {
                 </div>
                 {it.your_answer && (
                   <div className="mt-0.5 text-xs font-bold text-mode-red">
-                    你的答案：{it.your_answer}
+                    {t("notebook.yourAnswer", { text: it.your_answer })}
                   </div>
                 )}
               </div>
               <button
                 onClick={() => remove(it.id)}
                 className="shrink-0 rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-red-500 dark:hover:bg-slate-800"
-                title="移除"
-                aria-label="移除"
+                title={t("notebook.remove")}
+                aria-label={t("notebook.remove")}
               >
                 🗑️
               </button>

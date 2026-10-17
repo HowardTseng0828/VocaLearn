@@ -1,5 +1,6 @@
 import type { Env } from "../../_lib/types";
 import { createSession, randomToken, sessionCookie } from "../../_lib/auth";
+import { DEFAULT_LOCALE, localeFromCookie } from "../../_lib/i18n";
 import { consumeOAuthState, providerConfig, type OAuthProvider } from "../../_lib/oauth";
 
 interface Profile { id: string; email: string; name: string; picture?: string; emailVerified: boolean }
@@ -27,10 +28,10 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
   const code = url.searchParams.get("code") ?? "";
   const state = url.searchParams.get("state") ?? "";
   if ((provider !== "google" && provider !== "facebook") || !code || !(await consumeOAuthState(env, state, provider))) {
-    return Response.redirect(`${url.origin}/?authError=${encodeURIComponent("社群登入驗證失敗")}`, 302);
+    return Response.redirect(`${url.origin}/?authError=OAUTH_FAILED`, 302);
   }
   const config = providerConfig(env, provider);
-  if (!config.clientId || !config.clientSecret) return Response.redirect(`${url.origin}/?authError=${encodeURIComponent("社群登入尚未設定")}`, 302);
+  if (!config.clientId || !config.clientSecret) return Response.redirect(`${url.origin}/?authError=OAUTH_NOT_CONFIGURED`, 302);
   const redirectUri = `${url.origin}/api/auth/oauth-callback?provider=${provider}`;
   const tokenUrl = provider === "google" ? "https://oauth2.googleapis.com/token" : "https://graph.facebook.com/oauth/access_token";
   const tokenResponse = await fetch(tokenUrl, {
@@ -38,10 +39,10 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     headers: { "content-type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams({ client_id: config.clientId, client_secret: config.clientSecret, code, redirect_uri: redirectUri, grant_type: "authorization_code" }),
   });
-  if (!tokenResponse.ok) return Response.redirect(`${url.origin}/?authError=${encodeURIComponent("無法取得社群登入授權")}`, 302);
+  if (!tokenResponse.ok) return Response.redirect(`${url.origin}/?authError=OAUTH_FAILED`, 302);
   const tokenData = await tokenResponse.json<{ access_token?: string }>();
   const profile = tokenData.access_token ? await getProfile(provider, tokenData.access_token) : null;
-  if (!profile) return Response.redirect(`${url.origin}/?authError=${encodeURIComponent("社群帳號未提供電子郵件")}`, 302);
+  if (!profile) return Response.redirect(`${url.origin}/?authError=OAUTH_NO_EMAIL`, 302);
 
   let account = await env.DB.prepare(
     "SELECT u.id FROM oauth_accounts o JOIN users u ON u.id=o.user_id WHERE o.provider=? AND o.provider_user_id=?"
@@ -55,10 +56,15 @@ export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
     if (!account) {
       const clash = await env.DB.prepare("SELECT id FROM users WHERE email=?").bind(profile.email).first<{ id: number }>();
       if (clash) {
-        return Response.redirect(`${url.origin}/?authError=${encodeURIComponent("此電子郵件尚未通過社群帳號驗證，請改用密碼登入")}`, 302);
+        return Response.redirect(`${url.origin}/?authError=OAUTH_EMAIL_UNVERIFIED`, 302);
       }
-      const created = await env.DB.prepare("INSERT INTO users (email,password_hash,display_name,created_at,avatar_url) VALUES (?,?,?,?,?)")
-        .bind(profile.email, `oauth$${randomToken()}`, profile.name || profile.email.split("@")[0], Date.now(), profile.picture ?? null).run();
+      // New accounts stay off the public leaderboard until the user opts in.
+      const created = await env.DB.prepare(
+        "INSERT INTO users (email,password_hash,display_name,created_at,avatar_url,locale,leaderboard_visible) VALUES (?,?,?,?,?,?,0)"
+      ).bind(
+        profile.email, `oauth$${randomToken()}`, (profile.name || profile.email.split("@")[0]).slice(0, 30),
+        Date.now(), profile.picture ?? null, localeFromCookie(request) ?? DEFAULT_LOCALE
+      ).run();
       account = { id: created.meta.last_row_id as number };
     }
     await env.DB.prepare("INSERT OR IGNORE INTO oauth_accounts (provider,provider_user_id,user_id,created_at) VALUES (?,?,?,?)")

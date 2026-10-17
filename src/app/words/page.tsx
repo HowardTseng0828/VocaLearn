@@ -1,12 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { api, formatPartOfSpeech, type WordItem } from "@/lib/api";
+import { api, type WordItem } from "@/lib/api";
+import { formatPartOfSpeech, LOCALES, type Locale } from "@/lib/i18n";
 import { SpeakButton } from "@/components/SpeakButton";
 import { useApp } from "@/lib/store";
 
 export default function WordsPage() {
-  const { user } = useApp();
+  const { user, t, locale, course } = useApp();
   const [q, setQ] = useState("");
   const [page, setPage] = useState(1);
   const [items, setItems] = useState<WordItem[]>([]);
@@ -41,20 +42,21 @@ export default function WordsPage() {
 
   useEffect(() => {
     load(q, page);
+    // Reload when the page or the course / meaning language changes.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page]);
+  }, [page, user?.targetLang, locale]);
 
   const pages = Math.max(Math.ceil(total / size), 1);
 
   return (
     <div className="space-y-4 animate-fade-in">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-extrabold">單字庫</h1>
+        <h1 className="text-xl font-extrabold">{t("words.title")}{course ? ` · ${course.name}` : ""}</h1>
         {user?.role === "admin" && <button
           onClick={() => setShowImport((s) => !s)}
           className="btn btn-ghost !py-2 text-xs"
         >
-          {showImport ? "關閉匯入" : "📥 匯入 CSV"}
+          {showImport ? t("words.closeImport") : t("words.import")}
         </button>}
       </div>
 
@@ -64,11 +66,11 @@ export default function WordsPage() {
         className="input"
         value={q}
         onChange={(e) => setQ(e.target.value)}
-        placeholder="🔍 搜尋單字或中文意思…"
+        placeholder={t("words.search")}
       />
 
       <div className="text-sm font-bold text-slate-500 dark:text-slate-400">
-        共 {total.toLocaleString()} 個單字
+        {t("words.total", { n: total.toLocaleString() })}
       </div>
 
       {loading ? (
@@ -82,7 +84,7 @@ export default function WordsPage() {
               <div className="min-w-0">
                 <div className="flex items-center gap-2">
                   <span className="font-extrabold">{w.word}</span>
-                  {w.pos && <span className="text-xs font-bold text-slate-400">{formatPartOfSpeech(w.pos, w.meaning)}</span>}
+                  {w.pos && <span className="text-xs font-bold text-slate-400">{formatPartOfSpeech(w.pos, locale)}</span>}
                 </div>
                 <div className="truncate text-sm font-medium text-slate-500 dark:text-slate-400">
                   {w.meaning}
@@ -90,11 +92,11 @@ export default function WordsPage() {
               </div>
               <SpeakButton text={w.word} compact />
               {w.mastered === 1 ? (
-                <span title="已精熟" className="shrink-0 text-lg">
+                <span title={t("words.mastered")} className="shrink-0 text-lg">
                   ⭐
                 </span>
               ) : w.seen > 0 ? (
-                <span title="練習中" className="shrink-0 text-brand-300 dark:text-brand-700">
+                <span title={t("words.practicing")} className="shrink-0 text-brand-300 dark:text-brand-700">
                   ●
                 </span>
               ) : null}
@@ -110,7 +112,7 @@ export default function WordsPage() {
             disabled={page <= 1}
             onClick={() => setPage((p) => Math.max(p - 1, 1))}
           >
-            ← 上一頁
+            {t("words.prev")}
           </button>
           <span className="text-sm text-slate-500">
             {page} / {pages}
@@ -120,7 +122,7 @@ export default function WordsPage() {
             disabled={page >= pages}
             onClick={() => setPage((p) => Math.min(p + 1, pages))}
           >
-            下一頁 →
+            {t("words.next")}
           </button>
         </div>
       )}
@@ -129,6 +131,10 @@ export default function WordsPage() {
 }
 
 function ImportPanel({ onDone }: { onDone: () => void }) {
+  const { t, errorText, languages, user } = useApp();
+  const [lang, setLang] = useState(user?.targetLang ?? "en");
+  // "" = new words; otherwise translations for that learner locale.
+  const [meaningLocale, setMeaningLocale] = useState<Locale | "">("");
   const [csv, setCsv] = useState("");
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState("");
@@ -144,14 +150,12 @@ function ImportPanel({ onDone }: { onDone: () => void }) {
     setBusy(true);
     setMsg("");
     try {
-      const r = await api.importCsv(csv);
-      setMsg(
-        `解析 ${r.parsed} 筆，新增 ${r.imported} 筆，略過 ${r.skipped} 筆重複。題庫現有 ${r.total} 字。`
-      );
+      const r = await api.importCsv(csv, lang, meaningLocale || undefined);
+      setMsg(t("words.importResult", r));
       setCsv("");
       onDone();
     } catch (err) {
-      setMsg(err instanceof Error ? err.message : "匯入失敗");
+      setMsg(errorText(err));
     } finally {
       setBusy(false);
     }
@@ -159,18 +163,30 @@ function ImportPanel({ onDone }: { onDone: () => void }) {
 
   return (
     <div className="card space-y-3 p-4">
+      <div className="grid gap-3 sm:grid-cols-2">
+        <label className="text-xs font-extrabold text-slate-500">
+          {t("words.importCourse")}
+          <select className="input mt-1" value={lang} onChange={(e) => setLang(e.target.value)}>
+            {languages.map((l) => <option key={l.code} value={l.code}>{l.name}</option>)}
+          </select>
+        </label>
+        <label className="text-xs font-extrabold text-slate-500">
+          {t("words.importKind")}
+          <select className="input mt-1" value={meaningLocale} onChange={(e) => setMeaningLocale(e.target.value as Locale | "")}>
+            <option value="">{t("words.importKindWords")}</option>
+            {LOCALES.map((l) => <option key={l.code} value={l.code}>{t("words.importKindMeanings", { locale: l.label })}</option>)}
+          </select>
+        </label>
+      </div>
       <p className="text-sm text-slate-500 dark:text-slate-400">
-        支援 <code className="rounded bg-slate-100 px-1 dark:bg-slate-800">word,pos,meaning</code>{" "}
-        三欄，或{" "}
-        <code className="rounded bg-slate-100 px-1 dark:bg-slate-800">word,詞性+中文意思</code>{" "}
-        兩欄格式（會自動跳過重複單字）。
+        {meaningLocale ? t("words.importHelpMeanings") : t("words.importHelp")}
       </p>
       <input type="file" accept=".csv,text/csv" onChange={handleFile} className="text-sm" />
       <textarea
         className="input min-h-[120px] font-mono text-xs"
         value={csv}
         onChange={(e) => setCsv(e.target.value)}
-        placeholder={"word,pos,meaning\nresilient,adj.,有彈性的；適應力強的"}
+        placeholder={meaningLocale ? "word,meaning\nresilient,resilient; able to recover" : "word,pos,meaning,level\nresilient,adj.,有彈性的；適應力強的,5"}
       />
       <div className="flex items-center gap-3">
         <button
@@ -178,7 +194,7 @@ function ImportPanel({ onDone }: { onDone: () => void }) {
           disabled={busy || !csv.trim()}
           onClick={doImport}
         >
-          {busy ? "匯入中…" : "匯入"}
+          {busy ? t("words.importing") : t("words.importButton")}
         </button>
         {msg && <span className="text-sm text-slate-600 dark:text-slate-300">{msg}</span>}
       </div>

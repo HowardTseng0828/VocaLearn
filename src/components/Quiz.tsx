@@ -6,25 +6,19 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   api,
+  ApiError,
   type AiCard,
   type AnswerResult,
-  type QuizMode,
   type QuizQuestion,
-  formatPartOfSpeech,
 } from "@/lib/api";
+import { formatPartOfSpeech } from "@/lib/i18n";
+import { useApp } from "@/lib/store";
 import { PronunciationText } from "@/components/SpeakButton";
 
 type Phase = "loading" | "active" | "feedback" | "done" | "empty";
 
-const MODE_LABEL: Record<QuizMode, string> = {
-  en2zh: "英翻中",
-  zh2en: "中翻英",
-  spell: "拼字測驗",
-  cloze: "AI 填空",
-  speech: "口說練習",
-};
-
 export function Quiz() {
+  const { t, errorText } = useApp();
   const params = useSearchParams();
   const router = useRouter();
   const mode = params.get("mode") ?? "random";
@@ -48,7 +42,9 @@ export function Quiz() {
   };
 
   const [phase, setPhase] = useState<Phase>("loading");
+  const [quizId, setQuizId] = useState("");
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
+  const [error, setError] = useState("");
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [result, setResult] = useState<AnswerResult | null>(null);
@@ -58,9 +54,6 @@ export function Quiz() {
   const [aiLoading, setAiLoading] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
-  // Question indexes already written to progress. A retry of the same question
-  // must be graded but not recorded a second time.
-  const recordedRef = useRef<Set<number>>(new Set());
 
   const current = questions[index];
 
@@ -70,13 +63,14 @@ export function Quiz() {
     setPhase("loading");
     api
       .generateQuiz(mode, count, review, chapter, reviewCorrect)
-      .then(async ({ questions }) => {
+      .then(async ({ quizId, questions }) => {
         if (cancelled) return;
         if (questions.length === 0) {
           setPhase("empty");
         } else {
+          setQuizId(quizId);
           setQuestions(questions);
-          recordedRef.current = new Set();
+          setError("");
           if (chapter) {
             const progress = await api.chapterProgress(chapter).catch(() => ({ questionIndex: 0 }));
             // A finished chapter (index past the last question) restarts at 0.
@@ -104,7 +98,7 @@ export function Quiz() {
     if (current?.mode === "cloze") {
       setAiLoading(true);
       api
-        .aiExample(current.wordId)
+        .aiExample(quizId, current.position)
         .then(setAiCard)
         .catch(() => setAiCard(null))
         .finally(() => setAiLoading(false));
@@ -113,28 +107,30 @@ export function Quiz() {
     if (current && (current.mode === "spell" || current.mode === "zh2en")) {
       setTimeout(() => inputRef.current?.focus(), 50);
     }
+    // quizId changes together with questions, so `current` covers it.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current]);
 
   const submit = useCallback(
     async (answer: string) => {
       if (!current || submitting) return;
       setSubmitting(true);
-      const record = !recordedRef.current.has(index);
+      setError("");
       try {
-        const res = await api.answer(current.wordId, current.mode, answer, record);
+        // The server records only the first answer to each item; a retry is
+        // graded without being counted again.
+        const res = await api.answer(quizId, current.position, answer);
         setResult(res);
-        if (record) {
-          recordedRef.current.add(index);
-          if (res.correct) setScore((s) => s + 1);
-        }
+        if (res.recorded && res.correct) setScore((s) => s + 1);
         setPhase("feedback");
-      } catch {
-        /* ignore — let the user retry */
+      } catch (err) {
+        setError(errorText(err));
+        if (err instanceof ApiError && err.code === "QUIZ_EXPIRED") setPhase("done");
       } finally {
         setSubmitting(false);
       }
     },
-    [current, submitting, index]
+    [current, submitting, quizId, errorText]
   );
 
   const next = useCallback(() => {
@@ -170,13 +166,13 @@ export function Quiz() {
       <div className="card mx-auto max-w-md p-8 text-center animate-bounce-in">
         <div className="text-5xl">🎉</div>
         <h2 className="mt-3 text-xl font-extrabold">
-          {review ? "沒有待複習的錯題！" : "目前沒有題目"}
+          {review ? t("quiz.emptyReviewTitle") : t("quiz.emptyTitle")}
         </h2>
         <p className="mt-1 text-sm font-medium text-slate-500 dark:text-slate-400">
-          {review ? "錯題本是空的，太厲害了。" : "請先匯入單字或稍後再試。"}
+          {review ? t("quiz.emptyReviewBody") : t("quiz.emptyBody")}
         </p>
         <Link href="/" className="btn btn-primary mt-5">
-          回首頁
+          {t("common.backHome")}
         </Link>
       </div>
     );
@@ -187,20 +183,21 @@ export function Quiz() {
     return (
       <div className="card mx-auto max-w-md p-8 text-center animate-bounce-in">
         <div className="text-6xl">{pct >= 80 ? "🏆" : pct >= 50 ? "🎉" : "💪"}</div>
-        <h2 className="mt-3 text-2xl font-extrabold">完成！</h2>
+        <h2 className="mt-3 text-2xl font-extrabold">{t("quiz.done")}</h2>
+        {error && <p className="mt-2 text-sm font-bold text-red-500">{error}</p>}
         <div className="mx-auto mt-4 w-fit rounded-2xl bg-brand-50 px-6 py-3 dark:bg-brand-900/30">
           <div className="text-3xl font-extrabold text-brand-600 dark:text-brand-300">
             {score}
             <span className="text-lg font-bold text-slate-400"> / {questions.length}</span>
           </div>
           <div className="text-xs font-bold text-slate-500 dark:text-slate-400">
-            正確率 {pct}%
+            {t("quiz.accuracy", { pct })}
           </div>
         </div>
         <div className="mt-6 flex gap-3">
           {nextChapter && (
             <Link href={`/practice?mode=${chapterMode(nextChapter)}&chapter=${nextChapter}`} className="btn btn-primary flex-1">
-              下一章節 →
+              {t("quiz.nextChapter")}
             </Link>
           )}
           <button
@@ -209,11 +206,12 @@ export function Quiz() {
               setScore(0);
               setResult(null);
               setPhase("loading");
-              recordedRef.current = new Set();
+              setError("");
               if (chapter) void api.saveChapterProgress(chapter, 0);
               api
                 .generateQuiz(mode, count, review, chapter, reviewCorrect)
-                .then(({ questions }) => {
+                .then(({ quizId, questions }) => {
+                  setQuizId(quizId);
                   setQuestions(questions);
                   setPhase(questions.length ? "active" : "empty");
                 })
@@ -221,10 +219,10 @@ export function Quiz() {
             }}
             className="btn btn-ghost flex-1"
           >
-            再來一組
+            {t("quiz.again")}
           </button>
           <Link href="/" className="btn btn-ghost flex-1">
-            回首頁
+            {t("common.backHome")}
           </Link>
         </div>
       </div>
@@ -240,11 +238,11 @@ export function Quiz() {
       {/* Progress header */}
       <div className="mb-4 flex items-center justify-between text-sm">
         <Link href="/" className="text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
-          ← 離開
+          {t("quiz.leave")}
         </Link>
         <span className="font-medium">
-          {MODE_LABEL[current.mode]}
-          {review && " · 複習"}
+          {t(`mode.${current.mode}`)}
+          {review && t("quiz.reviewSuffix")}
         </span>
         <span className="text-slate-500">
           {index + 1} / {questions.length}
@@ -271,6 +269,8 @@ export function Quiz() {
           onSwitchSpeech={review ? () => router.replace(`/practice?mode=en2zh&review=1${chapter ? `&chapter=${encodeURIComponent(chapter)}` : ""}`) : undefined}
         />
       </div>
+
+      {error && <p className="mt-4 text-sm font-bold text-red-500">{error}</p>}
 
       {phase === "feedback" && result && (
         <Feedback result={result} onNext={next} onRetry={() => { setResult(null); setTyped(""); setPhase("active"); }} />
@@ -308,23 +308,23 @@ function QuestionBody({
   onSubmit: (answer: string) => void;
   onSwitchSpeech?: () => void;
 }) {
+  const { t, locale } = useApp();
   const locked = phase === "feedback";
+  const pos = q.pos ? formatPartOfSpeech(q.pos, locale) : "";
 
-  // Multiple choice (en2zh / zh2en)
+  // Multiple choice (en2zh: word -> meaning, zh2en: meaning -> word)
   if (q.mode === "en2zh" || q.mode === "zh2en") {
-    const prompt = q.mode === "en2zh" ? q.word : q.meaning;
-    const sub = q.mode === "en2zh" ? q.pos : "請選出對應的英文單字";
     return (
       <div>
         <div className="card mb-5 p-8 text-center">
           <div className="flex flex-wrap items-center justify-center gap-3">
-            {q.mode === "en2zh" ? <PronunciationText text={q.word} className="text-3xl font-extrabold" /> : <div className="text-3xl font-extrabold break-words">{prompt}</div>}
+            {q.mode === "en2zh" ? <PronunciationText text={q.word ?? ""} className="text-3xl font-extrabold" /> : <div className="text-3xl font-extrabold break-words">{q.meaning}</div>}
           </div>
-          {q.mode === "en2zh" && q.pos && (
-            <div className="mt-1 text-sm font-bold text-slate-400">{formatPartOfSpeech(q.pos, q.meaning)}</div>
+          {q.mode === "en2zh" && pos && (
+            <div className="mt-1 text-sm font-bold text-slate-400">{pos}</div>
           )}
           {q.mode === "zh2en" && (
-            <div className="mt-1 text-sm font-bold text-slate-400">{sub}</div>
+            <div className="mt-1 text-sm font-bold text-slate-400">{t("quiz.chooseWord")}</div>
           )}
         </div>
         <div className="grid gap-3">
@@ -355,22 +355,22 @@ function QuestionBody({
     );
   }
 
-  // Spell (type the English word from the meaning)
+  const hintProps = { hint: q.hint ?? "", mask: q.mask ?? "", hintCount, setHintCount };
+
+  // Spell (type the word from the meaning)
   if (q.mode === "spell") {
     return (
       <TypePrompt
-        title={q.meaning}
-        subtitle={q.pos ? `${q.pos} · 請拼出英文單字` : "請拼出英文單字"}
-        placeholder="輸入英文單字…"
+        title={q.meaning ?? ""}
+        subtitle={pos ? `${pos} · ${t("quiz.spellPrompt")}` : t("quiz.spellPrompt")}
+        placeholder={t("quiz.spellPlaceholder")}
         typed={typed}
         setTyped={setTyped}
         locked={locked}
         submitting={submitting}
-        hintCount={hintCount}
-        setHintCount={setHintCount}
-        hintWord={q.word}
         inputRef={inputRef}
         onSubmit={onSubmit}
+        {...hintProps}
       />
     );
   }
@@ -384,42 +384,26 @@ function QuestionBody({
     <div>
       <div className="card mb-5 border-pink-200 p-6 dark:border-pink-900/40">
         <div className="mb-2 flex items-center gap-2 text-xs font-extrabold text-mode-pink">
-          <span>🤖 AI 例句填空</span>
+          <span>{t("quiz.clozeTitle")}</span>
           {aiCard?.source === "mock" && (
             <span className="rounded-full bg-slate-100 px-2 py-0.5 text-slate-500 dark:bg-slate-800">
-              示範模式
+              {t("quiz.demo")}
             </span>
           )}
         </div>
         {aiLoading ? (
           <div className="flex items-center gap-2 py-4 text-sm text-slate-400">
             <div className="h-4 w-4 animate-spin rounded-full border-2 border-brand-400 border-t-transparent" />
-            AI 產生例句中…
+            {t("quiz.aiLoading")}
           </div>
         ) : (
           <>
             <p className="text-lg leading-relaxed">
-              {aiCard?.cloze ?? `Fill in the blank: _____ (${q.meaning})`}
+              {aiCard?.cloze ?? `_____ (${q.meaning})`}
             </p>
             <p className="mt-2 text-sm text-slate-400">
-              提示：{q.meaning}
-              {q.pos && ` (${q.pos})`}
+              {t("quiz.hint", { text: pos ? `${q.meaning} (${pos})` : q.meaning ?? "" })}
             </p>
-            <div className="mt-4 flex flex-wrap items-center gap-3">
-              <button
-                type="button"
-                className="btn btn-ghost !py-2 text-xs"
-                disabled={locked || hintCount >= Math.min(q.word.length, 3)}
-                onClick={() => setHintCount(Math.min(hintCount + 1, Math.min(q.word.length, 3)))}
-              >
-                💡 顯示提示字母
-              </button>
-              {hintCount > 0 && (
-                <span className="rounded-lg bg-amber-50 px-3 py-2 font-mono text-sm font-bold tracking-widest text-amber-700 dark:bg-amber-950/30 dark:text-amber-300">
-                  {Array.from(q.word).map((char, i) => (char === " " ? " " : i < hintCount ? char : "_"))}
-                </span>
-              )}
-            </div>
             {locked && aiCard?.translation && (
               <p className="mt-3 border-t border-slate-100 pt-3 text-sm text-slate-500 dark:border-slate-800">
                 {aiCard.translation}
@@ -427,24 +411,22 @@ function QuestionBody({
             )}
             {(aiCard?.synonyms?.length || aiCard?.antonyms?.length) ? (
               <div className="mt-3 grid gap-2 border-t border-slate-100 pt-3 text-sm dark:border-slate-800 sm:grid-cols-2">
-                {aiCard.synonyms?.length ? <div><span className="font-extrabold text-brand-600 dark:text-brand-300">同義詞：</span>{aiCard.synonyms.join(", ")}</div> : null}
-                {aiCard.antonyms?.length ? <div><span className="font-extrabold text-red-600 dark:text-red-300">反義詞：</span>{aiCard.antonyms.join(", ")}</div> : null}
+                {aiCard.synonyms?.length ? <div><span className="font-extrabold text-brand-600 dark:text-brand-300">{t("quiz.synonyms")}</span>{aiCard.synonyms.join(", ")}</div> : null}
+                {aiCard.antonyms?.length ? <div><span className="font-extrabold text-red-600 dark:text-red-300">{t("quiz.antonyms")}</span>{aiCard.antonyms.join(", ")}</div> : null}
               </div>
             ) : null}
           </>
         )}
       </div>
       <InlineTypeInput
-        placeholder="填入缺少的單字…"
+        placeholder={t("quiz.clozePlaceholder")}
         typed={typed}
         setTyped={setTyped}
         locked={locked}
         submitting={submitting || aiLoading}
         inputRef={inputRef}
         onSubmit={onSubmit}
-        hintCount={hintCount}
-        setHintCount={setHintCount}
-        hintWord={q.word}
+        {...hintProps}
       />
     </div>
   );
@@ -475,6 +457,7 @@ function SpeechPrompt({ q, locked, submitting, onSubmit, onSwitchMode }: {
   onSubmit: (answer: string) => void;
   onSwitchMode?: () => void;
 }) {
+  const { t, locale, course } = useApp();
   const [isListening, setIsListening] = useState(false);
   const [speechError, setSpeechError] = useState("");
   const [transcriptPreview, setTranscriptPreview] = useState("");
@@ -505,7 +488,7 @@ function SpeechPrompt({ q, locked, submitting, onSubmit, onSwitchMode }: {
     };
     const Recognition = speechWindow.SpeechRecognition ?? speechWindow.webkitSpeechRecognition;
     if (!Recognition) {
-      setSpeechError("這個瀏覽器不支援語音辨識，請改用 Chrome、Edge 或 Android 瀏覽器。");
+      setSpeechError(t("quiz.speechUnsupported"));
       return;
     }
 
@@ -516,7 +499,7 @@ function SpeechPrompt({ q, locked, submitting, onSubmit, onSwitchMode }: {
     startedAtRef.current = Date.now();
     const recognition = new Recognition();
     recognitionRef.current = recognition;
-    recognition.lang = "en-US";
+    recognition.lang = course?.speechLocale ?? "en-US";
     recognition.interimResults = true;
     recognition.maxAlternatives = 1;
     recognition.onresult = (event) => {
@@ -532,7 +515,6 @@ function SpeechPrompt({ q, locked, submitting, onSubmit, onSwitchMode }: {
       setIsListening(false);
       onSubmit(transcript);
     };
-    recognition.onerror = () => setSpeechError("沒有辨識到聲音，請允許麥克風權限後再試一次。");
     recognition.onend = () => {
       if (recognitionRef.current === recognition) recognitionRef.current = null;
       setIsListening(false);
@@ -540,39 +522,48 @@ function SpeechPrompt({ q, locked, submitting, onSubmit, onSwitchMode }: {
     recognition.onerror = () => {
       recognitionRef.current = null;
       setIsListening(false);
-      setSpeechError("語音辨識失敗，請確認 iPhone 麥克風權限後再試一次。");
+      setSpeechError(t("quiz.speechFailed"));
     };
     try {
       recognition.start();
     } catch {
       recognitionRef.current = null;
       setIsListening(false);
-      setSpeechError("語音辨識目前無法啟動，請重新點擊或改用 Safari/Chrome。");
+      setSpeechError(t("quiz.speechStartFailed"));
     }
   }
 
+  const verdict = speechRate === null ? "" : speechRate >= 3 ? t("quiz.rateFast") : speechRate >= 1.2 ? t("quiz.rateOk") : t("quiz.rateSlow");
+
   return (
     <div className="card p-8 text-center">
-      <div className="text-sm font-bold text-slate-400">請先聽發音，再念出這個單字</div>
-      <PronunciationText text={q.word} className="mt-3 text-4xl font-extrabold" />
-      <div className="mt-2 text-sm font-medium text-slate-500 dark:text-slate-400">{q.pos} · {q.meaning}</div>
+      <div className="text-sm font-bold text-slate-400">{t("quiz.speechPrompt")}</div>
+      <PronunciationText text={q.word ?? ""} className="mt-3 text-4xl font-extrabold" />
+      <div className="mt-2 text-sm font-medium text-slate-500 dark:text-slate-400">{q.pos ? `${formatPartOfSpeech(q.pos, locale)} · ` : ""}{q.meaning}</div>
       <div className="mt-6 flex justify-center gap-3">
         <button type="button" className="btn btn-primary" disabled={locked || submitting} onClick={isListening ? stopListening : startListening}>
-          {isListening ? "🎙️ 聆聽中…" : "🎤 開始口說"}
+          {isListening ? t("quiz.listening") : t("quiz.startSpeaking")}
         </button>
       </div>
-      {onSwitchMode && <button type="button" className="btn btn-ghost mt-3 !py-2 text-xs" onClick={onSwitchMode}>現在不方便講話，改用英翻中</button>}
+      {onSwitchMode && <button type="button" className="btn btn-ghost mt-3 !py-2 text-xs" onClick={onSwitchMode}>{t("quiz.speechSwitch")}</button>}
       <div className="mt-5 rounded-2xl bg-slate-50 p-4 text-left dark:bg-slate-800">
-        <div className="text-xs font-extrabold text-slate-400">即時辨識預覽</div>
-        <p className="mt-2 min-h-6 text-lg font-bold text-slate-700 dark:text-slate-200">{transcriptPreview || "按下開始口說後，這裡會顯示辨識文字"}</p>
-        {speechRate !== null && <p className="mt-2 text-xs font-bold text-slate-500 dark:text-slate-400">語速約 {speechRate.toFixed(1)} 字元／秒・{speechRate >= 3 ? "速度偏快" : speechRate >= 1.2 ? "速度適中" : "可以再加快"}</p>}
+        <div className="text-xs font-extrabold text-slate-400">{t("quiz.preview")}</div>
+        <p className="mt-2 min-h-6 text-lg font-bold text-slate-700 dark:text-slate-200">{transcriptPreview || t("quiz.previewPlaceholder")}</p>
+        {speechRate !== null && <p className="mt-2 text-xs font-bold text-slate-500 dark:text-slate-400">{t("quiz.speechRate", { rate: speechRate.toFixed(1), verdict })}</p>}
       </div>
       {speechError && <p className="mt-4 text-sm font-bold text-red-500">{speechError}</p>}
     </div>
   );
 }
 
-function TypePrompt(props: {
+interface HintProps {
+  hint: string; // first letters of the answer, revealed one per click
+  mask: string; // "_" per character of the answer, spaces kept
+  hintCount: number;
+  setHintCount: (count: number) => void;
+}
+
+function TypePrompt(props: HintProps & {
   title: string;
   subtitle: string;
   placeholder: string;
@@ -580,9 +571,6 @@ function TypePrompt(props: {
   setTyped: (s: string) => void;
   locked: boolean;
   submitting: boolean;
-  hintCount: number;
-  setHintCount: (count: number) => void;
-  hintWord: string;
   inputRef: React.RefObject<HTMLInputElement>;
   onSubmit: (a: string) => void;
 }) {
@@ -603,28 +591,29 @@ function InlineTypeInput({
   setTyped,
   locked,
   submitting,
-  hintWord,
-  hintCount = 0,
+  hint,
+  mask,
+  hintCount,
   setHintCount,
   inputRef,
   onSubmit,
-}: {
+}: HintProps & {
   placeholder: string;
   typed: string;
   setTyped: (s: string) => void;
   locked: boolean;
   submitting: boolean;
-  hintCount?: number;
-  setHintCount?: (count: number) => void;
-  hintWord?: string;
   inputRef: React.RefObject<HTMLInputElement>;
   onSubmit: (a: string) => void;
 }) {
+  const { t } = useApp();
+  const hintChars = Array.from(hint);
+  const revealed = Array.from(mask).map((char, i) => (char === " " ? " " : i < hintCount ? hintChars[i] ?? "_" : "_")).join("");
   return (
     <div>
-    {setHintCount && <div className="mb-3 flex items-center gap-3">
-      <button type="button" className="btn btn-ghost !py-1.5 text-xs" disabled={locked || hintCount >= Math.min(hintWord?.length ?? 0, 3)} onClick={() => setHintCount(Math.min(hintCount + 1, 3))}>💡 顯示提示字母</button>
-      {hintCount > 0 && <span className="font-mono text-sm font-bold tracking-widest text-amber-700 dark:text-amber-300">提示：{Array.from(hintWord ?? "").map((char, i) => char === " " ? " " : i < hintCount ? char : "_").join("")}</span>}
+    {hintChars.length > 0 && <div className="mb-3 flex items-center gap-3">
+      <button type="button" className="btn btn-ghost !py-1.5 text-xs" disabled={locked || hintCount >= hintChars.length} onClick={() => setHintCount(Math.min(hintCount + 1, hintChars.length))}>{t("quiz.showHint")}</button>
+      {hintCount > 0 && <span className="font-mono text-sm font-bold tracking-widest text-amber-700 dark:text-amber-300">{t("quiz.hint", { text: revealed })}</span>}
     </div>}
     <form
       onSubmit={(e) => {
@@ -649,7 +638,7 @@ function InlineTypeInput({
         className="btn btn-primary"
         disabled={locked || submitting || !typed.trim()}
       >
-        送出
+        {t("quiz.submit")}
       </button>
     </form></div>
   );
@@ -664,6 +653,7 @@ function Feedback({
   onNext: () => void;
   onRetry: () => void;
 }) {
+  const { t } = useApp();
   return (
     <div
       className={`mt-5 rounded-2xl border-2 p-5 animate-fade-in ${
@@ -678,19 +668,19 @@ function Feedback({
             <span className="grid h-8 w-8 place-items-center rounded-full bg-brand-500 text-white">
               ✓
             </span>
-            答對了！
+            {t("quiz.correct")}
           </span>
         ) : (
           <span className="flex items-center gap-2 text-lg font-extrabold text-red-600 dark:text-red-400">
             <span className="grid h-8 w-8 place-items-center rounded-full bg-mode-red text-white">
               ✗
             </span>
-            答錯了
+            {t("quiz.wrong")}
           </span>
         )}
         {result.mastered && (
           <span className="ml-auto animate-bounce-in rounded-full bg-mode-gold px-2.5 py-1 text-xs font-extrabold text-white">
-            ⭐ 已精熟
+            {t("quiz.mastered")}
           </span>
         )}
       </div>
@@ -700,14 +690,14 @@ function Feedback({
         </div>
         {!result.correct && (
           <div className="mt-1 text-slate-500 dark:text-slate-400">
-            正解：<span className="font-extrabold text-brand-600 dark:text-brand-300">{result.expected}</span>
+            {t("quiz.answer")}<span className="font-extrabold text-brand-600 dark:text-brand-300">{result.expected}</span>
           </div>
         )}
       </div>
       <div className="mt-4 flex gap-3">
-        {!result.correct && <button onClick={onRetry} className="btn btn-ghost flex-1">再試一次</button>}
+        {!result.correct && <button onClick={onRetry} className="btn btn-ghost flex-1">{t("quiz.retry")}</button>}
       <button onClick={onNext} className="btn btn-primary mt-4 flex-1">
-        下一題 →
+        {t("quiz.next")}
       </button></div>
     </div>
   );

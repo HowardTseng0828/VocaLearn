@@ -4,9 +4,9 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "VocaLearn 英文單字學習",
+    name: "VocaLearn",
     short_name: "VocaLearn",
-    description: "高中 7000 單字與口說練習",
+    description: "Multilingual vocabulary practice",
     start_url: "/",
     display: "standalone",
     background_color: "#f8fafc",

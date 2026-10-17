@@ -1,68 +1,59 @@
 import type { Env } from "../_lib/types";
 import { error, json } from "../_lib/http";
 import { getUser } from "../_lib/auth";
+import { chapterKeyOf, getLanguage, LESSON_SIZE, LESSONS_PER_UNIT } from "../_lib/courses";
 
-const LESSON_SIZE = 20;
-const LESSONS_PER_UNIT = 10;
-
-export interface PathLessonRow {
-  lessonIndex: number;
-  total: number;
-  mastered: number;
-  practiced: number;
-}
-
-// GET /api/path — the user's Duolingo-style learning path.
+// GET /api/path — the user's Duolingo-style learning path for their course.
+// Chapter sizes come from languages.word_count and the user's own progress
+// rows, so this never scans the whole word list.
 export const onRequestGet: PagesFunction<Env> = async ({ request, env }) => {
   const user = await getUser(request, env);
-  if (!user) return error("未登入", 401);
+  if (!user) return error("UNAUTHORIZED", 401);
+
+  const language = await getLanguage(env, user.target_lang);
+  const wordCount = language?.word_count ?? 0;
+  const lang = user.target_lang;
 
   const { results } = await env.DB.prepare(
-    `WITH ordered AS (
-       SELECT w.id,
-              ROW_NUMBER() OVER (ORDER BY COALESCE(w.level, 99), w.id) - 1 AS word_index
-         FROM words w
-     ), lessons AS (
-       SELECT CAST(o.word_index / ? AS INTEGER) AS lessonIndex,
-              COUNT(*) AS total,
-              SUM(CASE WHEN COALESCE(p.mastered, 0) = 1 THEN 1 ELSE 0 END) AS mastered,
-              SUM(CASE WHEN COALESCE(p.seen, 0) > 0 THEN 1 ELSE 0 END) AS practiced
-         FROM ordered o
-         LEFT JOIN progress p ON p.word_id = o.id AND p.user_id = ?
-        GROUP BY lessonIndex
-     )
-     SELECT lessonIndex, total, mastered, practiced FROM lessons ORDER BY lessonIndex`
+    `SELECT CAST(w.word_index / ? AS INTEGER) AS lessonIndex,
+            SUM(p.mastered) AS mastered,
+            COUNT(*) AS practiced
+       FROM progress p JOIN words w ON w.id = p.word_id
+      WHERE p.user_id = ? AND w.lang = ? AND p.seen > 0
+      GROUP BY lessonIndex`
   )
-    .bind(LESSON_SIZE, user.id)
-    .all<PathLessonRow>();
+    .bind(LESSON_SIZE, user.id, lang)
+    .all<{ lessonIndex: number; mastered: number; practiced: number }>();
+  const progressByLesson = new Map((results ?? []).map((row) => [row.lessonIndex, row]));
 
-  const rows = results ?? [];
   const completedRows = await env.DB.prepare(
-    "SELECT chapter FROM chapter_progress WHERE user_id = ? AND completed_at IS NOT NULL"
-  ).bind(user.id).all<{ chapter: string }>();
-  const completedChapters = new Set((completedRows.results ?? []).map((row) => row.chapter));
+    "SELECT chapter FROM chapter_progress WHERE user_id = ? AND chapter LIKE ? AND completed_at IS NOT NULL"
+  ).bind(user.id, `${lang}:%`).all<{ chapter: string }>();
+  const completedChapters = new Set(
+    (completedRows.results ?? []).map((row) => row.chapter.slice(lang.length + 1))
+  );
+
   // A chapter counts as completed only when it was finished inside the chapter
   // quiz (chapter_progress.completed_at). Practising the same words elsewhere
   // (daily challenge, random practice, notebook review) must not complete or
   // unlock a chapter the user never opened.
-  const chapterKey = (lessonIndex: number) =>
-    `${Math.floor(lessonIndex / LESSONS_PER_UNIT) + 1}-${(lessonIndex % LESSONS_PER_UNIT) + 1}`;
-  const lessons = rows.map((row, index) => {
-    const key = chapterKey(row.lessonIndex);
+  const lessonCount = Math.ceil(wordCount / LESSON_SIZE);
+  const lessons = Array.from({ length: lessonCount }, (_, lessonIndex) => {
+    const key = chapterKeyOf(lessonIndex);
     const completed = completedChapters.has(key);
-    const previous = rows[index - 1];
-    const previousCompleted = !previous || completedChapters.has(chapterKey(previous.lessonIndex));
+    const previousCompleted = lessonIndex === 0 || completedChapters.has(chapterKeyOf(lessonIndex - 1));
+    const progress = progressByLesson.get(lessonIndex);
     return {
       key,
-      unit: Math.floor(row.lessonIndex / LESSONS_PER_UNIT) + 1,
-      lesson: (row.lessonIndex % LESSONS_PER_UNIT) + 1,
-      total: row.total,
-      mastered: row.mastered,
-      practiced: row.practiced,
+      unit: Math.floor(lessonIndex / LESSONS_PER_UNIT) + 1,
+      lesson: (lessonIndex % LESSONS_PER_UNIT) + 1,
+      total: Math.min(LESSON_SIZE, wordCount - lessonIndex * LESSON_SIZE),
+      mastered: progress?.mastered ?? 0,
+      practiced: progress?.practiced ?? 0,
       completed,
       // A chapter already finished stays playable even if an earlier chapter is
       // not marked completed, so it can always be replayed.
-      unlocked: index === 0 || previousCompleted || completed,
+      unlocked: previousCompleted || completed,
     };
   });
 

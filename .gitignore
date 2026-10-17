@@ -14,3 +14,7 @@
 
 # Temporary scratch folder
 /scratch/
+
+# D1 exports may contain user data
+backup-*.sql
+*.tsbuildinfo
