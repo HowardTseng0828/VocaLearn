@@ -1,0 +1,5001 @@
+word,pos,meaning,meaning_en,level
+ich,pron.,我,I,1
+sie,pron.,她；他們；（Sie）您,she; they; (Sie) you (formal),1
+das,art.,（中性定冠詞）；那個,the (neuter); that,1
+sein,v.,是；在,to be,1
+du,pron.,你,you,1
+nicht,adv.,不,not,1
+die,art.,（陰性／複數定冠詞）,the (fem./plural),1
+es,pron.,它,it,1
+und,conj.,和,and,1
+der,art.,（陽性定冠詞）,the (masc.),1
+wir,pron.,我們,we,1
+was,pron.,什麼,what,1
+zu,prep.,到；太,to; too,1
+er,pron.,他,he,1
+ein,art.,一個,a; an,1
+in,prep.,在…裡,in,1
+ja,adv.,是的,yes,1
+mit,prep.,和；用,with,1
+wie,adv.,如何；像,how; like,1
+auf,prep.,在…上,on,1
+dass,conj.,（引導子句）,that,1
+aber,conj.,但是,but,1
+so,adv.,這樣；如此,so; like this,1
+haben,v.,有,to have,1
+hier,adv.,這裡,here,1
+für,prep.,為了,for,1
+von,prep.,從；…的,from; of,1
+wenn,conj.,如果；當,if; when,1
+ihr,pron.,你們；她的,you (plural); her,1
+nein,adv.,不,no,1
+an,prep.,在…旁；到,at; on; to,1
+noch,adv.,還,still; yet,1
+nur,adv.,只,only,1
+da,adv.,那裡；因為,there; since,1
+sich,pron.,自己（反身）,oneself,1
+uns,pron.,我們（受格）,us,1
+können,v.,能,can,1
+gut,adj.,好的,good,1
+auch,adv.,也,also,1
+schon,adv.,已經,already,1
+als,conj.,當…時；比,when; than; as,1
+mal,adv.,一下；次,just; times,1
+jetzt,adv.,現在,now,1
+dann,adv.,然後,then,1
+aus,prep.,從…出來,out of; from,1
+mein,pron.,我的,my,1
+um,prep.,圍繞；在（幾點）,around; at (time),1
+werden,v.,成為；將,to become; will,1
+wissen,v.,知道,to know,1
+doch,adv.,然而；（反駁）是的,yet; yes (contradicting),1
+alles,pron.,一切,everything,1
+kein,art.,沒有（否定冠詞）,no; not a,1
+oder,conj.,或,or,1
+nach,prep.,往；之後,to; after,1
+nichts,pron.,什麼都沒有,nothing,1
+man,pron.,人們（泛指）,one; people,1
+müssen,v.,必須,must,1
+wollen,v.,想要,to want,1
+gehen,v.,走；去,to go,1
+wo,adv.,哪裡,where,1
+etwas,pron.,某事,something,1
+mehr,adv.,更多,more,1
+bei,prep.,在…處,at; near; with,1
+also,adv.,所以,so; therefore,1
+bitte,adv.,請；不客氣,please; you're welcome,1
+immer,adv.,總是,always,1
+warum,adv.,為什麼,why,1
+vor,prep.,在…前,before; in front of,1
+los,adv.,出發；發生,off; going on,1
+wieder,adv.,再次,again,1
+sagen,v.,說,to say,1
+machen,v.,做,to make; to do,1
+danke,int.,謝謝,thanks,1
+sehr,adv.,很,very,1
+denn,conj.,因為；（語氣詞）,because; then,1
+Mann,n.,der｜男人；丈夫,man; husband,1
+tun,v.,做,to do,1
+sehen,v.,看,to see,1
+vielleicht,adv.,也許,maybe,1
+wer,pron.,誰,who,1
+dieser,pron.,這個,this,1
+kommen,v.,來,to come,1
+über,prep.,在…上方；關於,over; about,1
+geben,v.,給,to give,1
+okay,int.,好,okay,1
+sollen,v.,應該,should,1
+nie,adv.,從不,never,1
+wirklich,adv.,真的,really,1
+hey,int.,嘿,hey,1
+viel,adj.,很多,much; a lot,1
+weg,adv.,離開；不見,away; gone,1
+einfach,adj.,簡單的；就是,simple; simply,1
+Leben,n.,das｜生命；生活,life,1
+Zeit,n.,die｜時間,time,1
+weil,conj.,因為,because,1
+heute,adv.,今天,today,1
+damit,conj.,以便,so that,1
+ganz,adj.,整個；完全,whole; quite,1
+sicher,adj.,確定的；安全的,sure; safe,1
+Frau,n.,die｜女人；妻子；女士,woman; wife; Mrs.,1
+nun,adv.,現在,now,1
+bis,prep.,直到,until,1
+leid,adj.,（tut mir leid 對不起）,(es tut mir leid) sorry,1
+lassen,v.,讓；留下,to let; to leave,1
+zurück,adv.,回來,back,1
+hallo,int.,你好,hello,1
+Gott,n.,der｜神,God,1
+zwei,n.,二,two,1
+genau,adv.,正是,exactly,1
+klar,adj.,清楚的；當然,clear; of course,1
+morgen,adv.,明天,tomorrow,1
+Leute,n.,die｜人們（複數）,people,1
+Vater,n.,der｜父親,father,1
+schön,adj.,美的；好的,beautiful; nice,1
+glauben,v.,相信,to believe,1
+gerade,adv.,剛剛；正在,just; right now,1
+Tag,n.,der｜天,day,1
+reden,v.,說話,to talk,1
+wohl,adv.,大概；好,probably; well,1
+Liebe,n.,die｜愛,love,1
+jemand,pron.,某人,someone,1
+Geld,n.,das｜錢,money,1
+durch,prep.,穿過；透過,through,1
+ob,conj.,是否,whether,1
+Mutter,n.,die｜母親,mother,1
+raus,adv.,出去,out,1
+paar,adj.,（ein paar 幾個）,a few,1
+passieren,v.,發生,to happen,1
+denken,v.,想,to think,1
+besser,adj.,更好的,better,1
+wieso,adv.,為什麼,why,1
+selbst,pron.,自己,self; even,1
+gehören,v.,屬於,to belong,1
+möchten,v.,想要（客氣）,would like,1
+ohne,prep.,沒有,without,1
+hören,v.,聽,to hear,1
+helfen,v.,幫助,to help,1
+Nacht,n.,die｜夜晚,night,1
+finden,v.,找到；認為,to find; to think,1
+lange,adv.,長久,long (time),1
+natürlich,adv.,當然,of course; naturally,1
+ach,int.,啊,oh,1
+gar,adv.,（gar nicht 一點也不）,at all,1
+dort,adv.,那裡,there,1
+weiter,adv.,繼續；更遠,further; on,1
+seit,prep.,自從,since,1
+gleich,adv.,馬上；相同的,right away; same,1
+Recht,n.,das｜權利；（recht haben 對）,right,1
+richtig,adj.,正確的,right; correct,1
+Ordnung,n.,die｜秩序（in Ordnung 沒問題）,order; (in Ordnung) okay,1
+davon,adv.,從那；關於那,of it; from it,1
+dafür,adv.,為此,for it,1
+wegen,prep.,由於,because of,1
+Haus,n.,das｜房子（zu Hause 在家）,house; (zu Hause) at home,1
+Mädchen,n.,das｜女孩,girl,1
+hin,adv.,往那裡,there (direction),1
+Abend,n.,der｜晚上,evening,1
+drei,n.,三,three,1
+Freund,n.,der｜朋友；男友,friend; boyfriend,1
+unser,pron.,我們的,our,1
+warten,v.,等,to wait,1
+Mensch,n.,der｜人,human; person,1
+essen,v.,吃,to eat,1
+Angst,n.,die｜恐懼,fear,1
+bleiben,v.,留下,to stay,1
+zusammen,adv.,一起,together,1
+Welt,n.,die｜世界,world,1
+unter,prep.,在…下,under,1
+schnell,adj.,快的,fast,1
+andere,adj.,其他的,other,1
+tot,adj.,死的,dead,1
+dürfen,v.,可以；被允許,may; to be allowed,1
+erst,adv.,才；首先,only; first,1
+rein,adv.,進來,in,1
+stimmen,v.,正確；投票,to be right; to vote,1
+nehmen,v.,拿,to take,1
+Kind,n.,das｜小孩,child,1
+bringen,v.,帶來,to bring,1
+genug,adv.,足夠,enough,1
+brauchen,v.,需要,to need,1
+gegen,prep.,反對；對抗,against,1
+Moment,n.,der｜時刻,moment,1
+Junge,n.,der｜男孩,boy,1
+stehen,v.,站,to stand,1
+sonst,adv.,否則,otherwise,1
+Musik,n.,die｜音樂,music,1
+Arbeit,n.,die｜工作,work,1
+fragen,v.,問,to ask,1
+Herr,n.,der｜先生,Mr.; gentleman,1
+dabei,adv.,在旁；同時,there; at the same time,1
+heißen,v.,叫做,to be called,1
+Familie,n.,die｜家庭,family,1
+niemand,pron.,沒有人,nobody,1
+sofort,adv.,立刻,immediately,1
+bevor,conj.,在…之前,before,1
+Jahr,n.,das｜年,year,1
+einmal,adv.,一次；曾經,once,1
+Problem,n.,das｜問題,problem,1
+Sohn,n.,der｜兒子,son,1
+wann,adv.,何時,when,1
+fertig,adj.,完成的；準備好的,finished; ready,1
+halt,int.,停；（語氣詞）,stop; just,1
+allein,adj.,單獨的,alone,1
+sprechen,v.,說,to speak,1
+beide,pron.,兩者,both,1
+Sache,n.,die｜東西；事情,thing; matter,1
+Hilfe,n.,die｜幫助,help,1
+verdammt,adj.,該死的,damn,1
+jeder,pron.,每個,every; each,1
+halten,v.,握；停,to hold; to stop,1
+verstehen,v.,理解,to understand,1
+kennen,v.,認識,to know (be acquainted),1
+wahr,adj.,真的,true,1
+Bruder,n.,der｜兄弟,brother,1
+daran,adv.,在那上面；關於那,on it; about it,1
+Dank,n.,der｜感謝,thanks,1
+lieber,adv.,寧願,rather,1
+Fall,n.,der｜情況；案件,case,1
+egal,adj.,無所謂,doesn't matter,1
+vergessen,v.,忘記,to forget,1
+Frage,n.,die｜問題,question,1
+mögen,v.,喜歡,to like,1
+echt,adj.,真的,real; really,1
+eigentlich,adv.,其實,actually,1
+Uhr,n.,die｜鐘；點鐘,clock; o'clock,1
+Stadt,n.,die｜城市,city,1
+Baby,n.,das｜嬰兒,baby,1
+fahren,v.,開車；搭乘,to drive; to ride,1
+Name,n.,der｜名字,name,1
+bekommen,v.,得到,to get; to receive,1
+Kopf,n.,der｜頭,head,1
+klein,adj.,小的,small,1
+später,adv.,稍後,later,1
+Glück,n.,das｜幸運；幸福,luck; happiness,1
+letzte,adj.,最後的,last,1
+bald,adv.,很快,soon,1
+Ende,n.,das｜結束,end,1
+töten,v.,殺,to kill,1
+Ding,n.,das｜東西,thing,1
+meinen,v.,認為；意思是,to think; to mean,1
+toll,adj.,很棒的,great,1
+eins,n.,一,one,1
+Minute,n.,die｜分鐘,minute,1
+bereit,adj.,準備好的,ready,1
+weit,adj.,遠的,far,1
+Ahnung,n.,die｜概念（keine Ahnung 不知道）,idea; clue,1
+bisschen,adv.,一點,a bit,1
+Tür,n.,die｜門,door,1
+Auto,n.,das｜汽車,car,1
+Auge,n.,das｜眼睛,eye,1
+Polizei,n.,die｜警察,police,1
+sterben,v.,死,to die,1
+draußen,adv.,外面,outside,1
+fast,adv.,幾乎,almost,1
+runter,adv.,下來,down,1
+vorbei,adv.,過去；結束,over; past,1
+treffen,v.,遇見,to meet,1
+gern,adv.,樂意地,gladly,1
+arbeiten,v.,工作,to work,1
+verrückt,adj.,瘋的,crazy,1
+neu,adj.,新的,new,1
+hinter,prep.,在…後,behind,1
+Sorge,n.,die｜擔憂,worry,1
+einzig,adj.,唯一的,only; sole,1
+Tochter,n.,die｜女兒,daughter,1
+Idee,n.,die｜主意,idea,1
+Schwester,n.,die｜姊妹,sister,1
+drin,adv.,在裡面,inside,1
+ruhig,adj.,安靜的,quiet; calm,1
+spät,adj.,晚的,late,1
+ziemlich,adv.,相當,quite; pretty,1
+sogar,adv.,甚至,even,1
+kurz,adj.,短的,short,1
+Kerl,n.,der｜傢伙,guy,1
+liegen,v.,躺；位於,to lie; to be located,1
+suchen,v.,尋找,to look for,1
+woher,adv.,從哪裡,where from,1
+lang,adj.,長的,long,1
+Job,n.,der｜工作,job,1
+spielen,v.,玩；演奏,to play,1
+überhaupt,adv.,根本,at all,1
+Teufel,n.,der｜魔鬼,devil,1
+verlieren,v.,失去,to lose,1
+groß,adj.,大的,big,1
+Hand,n.,die｜手,hand,1
+Grund,n.,der｜理由,reason,1
+Mama,n.,die｜媽媽,mom,1
+Ruhe,n.,die｜安靜,peace; quiet,1
+Tod,n.,der｜死亡,death,1
+Stunde,n.,die｜小時,hour,1
+hoffen,v.,希望,to hope,1
+oben,adv.,上面,above; upstairs,1
+gestern,adv.,昨天,yesterday,1
+versuchen,v.,嘗試,to try,1
+Art,n.,die｜種類；方式,kind; way,1
+Schatz,n.,der｜寶貝；寶藏,darling; treasure,1
+endlich,adv.,終於,finally,1
+etwa,adv.,大約,about,1
+erzählen,v.,講述,to tell,1
+laufen,v.,跑；走,to run; to walk,1
+schwer,adj.,重的；困難的,heavy; difficult,1
+anders,adv.,不同地,differently,1
+fünf,n.,五,five,1
+Wasser,n.,das｜水,water,1
+Geschichte,n.,die｜故事；歷史,story; history,1
+wenig,adj.,少的,little; few,1
+holen,v.,去拿,to fetch,1
+bedeuten,v.,意味著,to mean,1
+nett,adj.,親切的,nice,1
+Wahrheit,n.,die｜真相,truth,1
+Woche,n.,die｜週,week,1
+deshalb,adv.,因此,therefore,1
+welche,pron.,哪個,which,1
+bestimmt,adv.,一定,certainly,1
+hoch,adj.,高的,high,1
+Alter,n.,das｜年齡,age,1
+schauen,v.,看,to look,1
+Land,n.,das｜國家；鄉下,country; land,1
+Zimmer,n.,das｜房間,room,1
+Wagen,n.,der｜車,car; wagon,1
+vier,n.,四,four,1
+gefallen,v.,喜歡（令人喜歡）,to please; to like,1
+Spaß,n.,der｜樂趣,fun,1
+niemals,adv.,永不,never,1
+Schuld,n.,die｜罪過；債務,guilt; debt,1
+verlassen,v.,離開,to leave,1
+zeigen,v.,展示,to show,1
+beste,adj.,最好的,best,1
+ernst,adj.,認真的,serious,1
+Ort,n.,der｜地方,place,1
+manchmal,adv.,有時,sometimes,1
+Seite,n.,die｜邊；頁,side; page,1
+zwischen,prep.,在…之間,between,1
+eben,adv.,剛才；就是,just,1
+während,prep.,在…期間,during; while,1
+Spiel,n.,das｜遊戲；比賽,game,1
+Chance,n.,die｜機會,chance,1
+Freundin,n.,die｜女性朋友；女友,friend (female); girlfriend,1
+Krieg,n.,der｜戰爭,war,1
+entschuldigen,v.,原諒；道歉,to excuse; to apologize,1
+wichtig,adj.,重要的,important,1
+Bett,n.,das｜床,bed,1
+Schule,n.,die｜學校,school,1
+schlecht,adj.,壞的,bad,1
+Entschuldigung,n.,die｜抱歉,apology; sorry,1
+Wort,n.,das｜字,word,1
+Typ,n.,der｜傢伙；類型,guy; type,1
+schlafen,v.,睡覺,to sleep,1
+Kapitän,n.,der｜船長,captain,1
+Gesicht,n.,das｜臉,face,1
+falls,conj.,萬一,in case,1
+bloß,adv.,只是,merely; just,1
+unten,adv.,下面,below; downstairs,1
+Teil,n.,der｜部分,part,1
+stellen,v.,放（豎）,to put; to place,1
+oft,adv.,常常,often,1
+trinken,v.,喝,to drink,1
+einige,pron.,一些,some,1
+kriegen,v.,得到（口語）,to get,1
+Blut,n.,das｜血,blood,1
+ehrlich,adj.,誠實的,honest,1
+Eltern,n.,die｜父母（複數）,parents,1
+scheinen,v.,似乎；照耀,to seem; to shine,1
+Herz,n.,das｜心,heart,1
+glücklich,adj.,快樂的,happy,1
+alt,adj.,老的,old,1
+frei,adj.,自由的；空閒的,free,1
+möglich,adj.,可能的,possible,1
+irgendwie,adv.,不知怎的,somehow,1
+reichen,v.,足夠；遞,to be enough; to hand,1
+fest,adj.,堅固的,firm,1
+Waffe,n.,die｜武器,weapon,1
+kaum,adv.,幾乎不,hardly,1
+klingen,v.,聽起來,to sound,1
+Platz,n.,der｜位置；廣場,place; seat; square,1
+Papa,n.,der｜爸爸,dad,1
+falsch,adj.,錯的,wrong,1
+sondern,conj.,而是,but rather,1
+Nummer,n.,die｜號碼,number,1
+früher,adv.,以前,earlier; formerly,1
+wohin,adv.,去哪裡,where to,1
+außer,prep.,除了,except,1
+früh,adj.,早的,early,1
+setzen,v.,放（坐）,to set; to put,1
+zuerst,adv.,首先,first,1
+wahrscheinlich,adv.,可能,probably,1
+Arsch,n.,der｜屁股（粗）,backside (vulgar),1
+Telefon,n.,das｜電話,telephone,1
+willkommen,adj.,歡迎的,welcome,1
+Plan,n.,der｜計畫,plan,1
+retten,v.,拯救,to save,1
+hierher,adv.,到這裡,over here,1
+Fehler,n.,der｜錯誤,mistake,1
+zehn,n.,十,ten,1
+passen,v.,適合,to fit,1
+nächste,adj.,下一個,next,1
+langsam,adj.,慢的,slow,1
+bereits,adv.,已經,already,1
+sechs,n.,六,six,1
+lieben,v.,愛,to love,1
+Büro,n.,das｜辦公室,office,1
+leider,adv.,可惜,unfortunately,1
+schaffen,v.,完成；做到,to manage,1
+Hölle,n.,die｜地獄,hell,1
+trotzdem,adv.,儘管如此,nevertheless,1
+Doktor,n.,der｜醫生；博士,doctor,1
+voll,adj.,滿的,full,1
+Film,n.,der｜電影,film,1
+überall,adv.,到處,everywhere,1
+Hund,n.,der｜狗,dog,1
+direkt,adj.,直接的,direct,1
+Schiff,n.,das｜船,ship,1
+König,n.,der｜國王,king,1
+danach,adv.,之後,afterwards,1
+funktionieren,v.,運作,to work; to function,1
+lernen,v.,學,to learn,1
+deswegen,adv.,因此,that's why,1
+nennen,v.,稱呼,to call; to name,1
+Feuer,n.,das｜火,fire,1
+erinnern,v.,提醒；（sich）記得,to remind; to remember,1
+völlig,adv.,完全,completely,1
+Stelle,n.,die｜地點；職位,place; position,1
+Kumpel,n.,der｜哥們,buddy,1
+verschwinden,v.,消失,to disappear,1
+Luft,n.,die｜空氣,air,1
+Kaffee,n.,der｜咖啡,coffee,1
+ziehen,v.,拉；搬,to pull; to move,1
+aufhören,v.,停止,to stop,1
+eigen,adj.,自己的,own,1
+zwar,adv.,雖然,admittedly,1
+Buch,n.,das｜書,book,1
+krank,adj.,生病的,sick,1
+fühlen,v.,感覺,to feel,1
+Wert,n.,der｜價值,value,1
+Arzt,n.,der｜醫生,doctor,1
+froh,adj.,高興的,glad,1
+Straße,n.,die｜街道,street,1
+rufen,v.,叫,to call,1
+heiraten,v.,結婚,to marry,1
+super,adj.,超棒的,great,1
+Onkel,n.,der｜叔叔,uncle,1
+Party,n.,die｜派對,party,1
+erklären,v.,解釋,to explain,1
+Wahl,n.,die｜選擇；選舉,choice; election,1
+vertrauen,v.,信任,to trust,1
+damals,adv.,當時,back then,1
+leicht,adj.,輕的；容易的,light; easy,1
+nachdem,conj.,在…之後,after,1
+Gefühl,n.,das｜感覺,feeling,1
+kaufen,v.,買,to buy,1
+interessieren,v.,使感興趣,to interest,1
+irgendwo,adv.,某處,somewhere,1
+Stück,n.,das｜塊,piece,1
+genauso,adv.,同樣地,just as,1
+Zukunft,n.,die｜未來,future,1
+weniger,adv.,較少,less,1
+cool,adj.,酷的,cool,1
+Licht,n.,das｜光,light,1
+Himmel,n.,der｜天空,sky; heaven,1
+Nachricht,n.,die｜消息,message; news,1
+drüben,adv.,在那邊,over there,1
+kümmern,v.,（sich）照顧,to take care of,1
+laut,adj.,大聲的,loud,1
+anrufen,v.,打電話,to call,1
+sitzen,v.,坐,to sit,1
+Erde,n.,die｜地球；泥土,earth,1
+Schlüssel,n.,der｜鑰匙,key,1
+Rest,n.,der｜剩餘,rest,1
+Gefängnis,n.,das｜監獄,prison,1
+Opfer,n.,das｜受害者；犧牲,victim; sacrifice,1
+Körper,n.,der｜身體,body,1
+solche,pron.,這樣的,such,1
+Mist,n.,der｜糞；糟糕,crap,1
+schreiben,v.,寫,to write,1
+böse,adj.,壞的；生氣的,evil; angry,1
+vorstellen,v.,介紹；想像,to introduce; to imagine,1
+sobald,conj.,一旦,as soon as,1
+nochmal,adv.,再一次,once more,1
+Sex,n.,der｜性,sex,1
+Wohnung,n.,die｜公寓,apartment,1
+weh,adj.,（weh tun 痛）,(weh tun) to hurt,1
+Krankenhaus,n.,das｜醫院,hospital,1
+Million,n.,die｜百萬,million,1
+Klasse,n.,die｜班級；等級,class,1
+hart,adj.,硬的；艱難的,hard,1
+Sinn,n.,der｜意義,sense; meaning,1
+außerdem,adv.,此外,besides,1
+verletzt,adj.,受傷的,injured,1
+ändern,v.,改變,to change,1
+erfahren,v.,得知,to learn; to find out,1
+tragen,v.,搬；穿,to carry; to wear,1
+wenigstens,adv.,至少,at least,1
+vorsichtig,adj.,小心的,careful,1
+stolz,adj.,驕傲的,proud,1
+stark,adj.,強的,strong,1
+fallen,v.,掉落,to fall,1
+besonders,adv.,特別地,especially,1
+schicken,v.,寄,to send,1
+Person,n.,die｜人,person,1
+schätzen,v.,估計；珍視,to estimate; to value,1
+solange,conj.,只要,as long as,1
+großartig,adj.,極好的,great,1
+lachen,v.,笑,to laugh,1
+erwarten,v.,期待,to expect,1
+Boden,n.,der｜地面,floor; ground,1
+Boss,n.,der｜老闆,boss,1
+Stimme,n.,die｜聲音,voice,1
+still,adj.,安靜的,quiet,1
+Sicherheit,n.,die｜安全,safety; security,1
+Mund,n.,der｜嘴,mouth,1
+kämpfen,v.,戰鬥,to fight,1
+Zeug,n.,das｜東西（口語）,stuff,1
+lustig,adj.,有趣的,funny,1
+umbringen,v.,殺死,to kill,1
+schlimm,adj.,糟糕的,bad,1
+unglaublich,adj.,難以置信的,unbelievable,1
+hassen,v.,恨,to hate,1
+führen,v.,帶領,to lead,1
+Meinung,n.,die｜意見,opinion,1
+lesen,v.,讀,to read,1
+Mörder,n.,der｜兇手,murderer,1
+geschehen,v.,發生,to happen,1
+Geschäft,n.,das｜生意；商店,business; shop,1
+Idiot,n.,der｜白痴,idiot,1
+Verzeihung,n.,die｜原諒；抱歉,pardon,1
+fliegen,v.,飛,to fly,1
+Team,n.,das｜團隊,team,1
+General,n.,der｜將軍,general,1
+vorher,adv.,之前,before,1
+Schluss,n.,der｜結束,end,1
+perfekt,adj.,完美的,perfect,1
+versprechen,v.,承諾,to promise,1
+Handy,n.,das｜手機,mobile phone,1
+hinten,adv.,後面,at the back,1
+Monat,n.,der｜月,month,1
+acht,n.,八,eight,1
+nötig,adj.,必要的,necessary,1
+heraus,adv.,出來,out,1
+unmöglich,adj.,不可能的,impossible,1
+Liebling,n.,der｜親愛的,darling,1
+tatsächlich,adv.,確實,actually; indeed,1
+folgen,v.,跟隨,to follow,1
+bitten,v.,請求,to ask; to request,1
+behalten,v.,保留,to keep,1
+Nähe,n.,die｜附近,vicinity,1
+plötzlich,adv.,突然,suddenly,1
+Tisch,n.,der｜桌子,table,1
+jemals,adv.,曾經,ever,1
+verkaufen,v.,賣,to sell,1
+gefährlich,adj.,危險的,dangerous,1
+anfangen,v.,開始,to begin,1
+Hotel,n.,das｜飯店,hotel,1
+Meister,n.,der｜大師；師傅,master,1
+Kampf,n.,der｜戰鬥,fight,1
+Antwort,n.,die｜回答,answer,1
+obwohl,conj.,雖然,although,1
+sieben,n.,七,seven,1
+komisch,adj.,奇怪的；好笑的,strange; funny,1
+gewinnen,v.,贏,to win,1
+unterwegs,adv.,在路上,on the way,1
+dumm,adj.,笨的,stupid,1
+Ärger,n.,der｜麻煩；怒氣,trouble; anger,1
+Bild,n.,das｜圖片,picture,1
+bezahlen,v.,付錢,to pay,1
+dagegen,adv.,反對,against it,1
+Leiche,n.,die｜屍體,corpse,1
+verheiratet,adj.,已婚的,married,1
+Traum,n.,der｜夢,dream,1
+Entscheidung,n.,die｜決定,decision,1
+Regel,n.,die｜規則,rule,1
+Fenster,n.,das｜窗戶,window,1
+fangen,v.,抓,to catch,1
+ständig,adv.,不斷地,constantly,1
+Gefahr,n.,die｜危險,danger,1
+absolut,adv.,絕對,absolutely,1
+Augenblick,n.,der｜瞬間,moment,1
+Bescheid,n.,der｜通知（Bescheid sagen 告知）,notice; information,1
+Gedanke,n.,der｜想法,thought,1
+Ziel,n.,das｜目標,goal,1
+benutzen,v.,使用,to use,1
+Bewegung,n.,die｜運動；動作,movement,1
+Anfang,n.,der｜開始,beginning,1
+legen,v.,放（平）,to lay; to put,1
+Anwalt,n.,der｜律師,lawyer,1
+offen,adj.,開著的,open,1
+arm,adj.,貧窮的；可憐的,poor,1
+Bier,n.,das｜啤酒,beer,1
+Partner,n.,der｜夥伴,partner,1
+süß,adj.,甜的；可愛的,sweet; cute,1
+Finger,n.,der｜手指,finger,1
+Ehe,n.,die｜婚姻,marriage,1
+Rolle,n.,die｜角色,role,1
+Hochzeit,n.,die｜婚禮,wedding,1
+wach,adj.,醒著的,awake,1
+Chef,n.,der｜老闆,boss,1
+Information,n.,die｜資訊,information,1
+erledigen,v.,處理完,to take care of; to finish,1
+hoffentlich,adv.,但願,hopefully,1
+tanzen,v.,跳舞,to dance,1
+ansehen,v.,觀看,to look at,1
+wunderbar,adj.,美妙的,wonderful,1
+Reise,n.,die｜旅行,trip,1
+irgendwann,adv.,某時,sometime,1
+stecken,v.,插；卡住,to put; to be stuck,1
+jedenfalls,adv.,無論如何,in any case,1
+schreien,v.,叫喊,to scream,1
+tschüss,int.,再見,bye,1
+Raum,n.,der｜空間；房間,room; space,1
+heiß,adj.,熱的,hot,1
+Foto,n.,das｜照片,photo,1
+kalt,adj.,冷的,cold,1
+Weile,n.,die｜一會兒,while,1
+bisher,adv.,迄今,so far,1
+unbedingt,adv.,一定,absolutely; necessarily,1
+Zug,n.,der｜火車,train,1
+Sekunde,n.,die｜秒,second,1
+Beweis,n.,der｜證據,proof,1
+Seele,n.,die｜靈魂,soul,1
+schießen,v.,射擊,to shoot,1
+müde,adj.,累的,tired,1
+dauern,v.,持續,to last,1
+Brief,n.,der｜信,letter,1
+bekannt,adj.,有名的；熟悉的,known; familiar,1
+Unfall,n.,der｜意外,accident,1
+Kontrolle,n.,die｜控制,control,1
+Beispiel,n.,das｜例子,example,1
+Dame,n.,die｜女士,lady,1
+schlagen,v.,打,to hit,1
+wütend,adj.,生氣的,furious,1
+Weise,n.,die｜方式,way; manner,1
+fehlen,v.,缺少,to be missing,1
+Vorsicht,n.,die｜小心,caution,1
+beweisen,v.,證明,to prove,1
+zumindest,adv.,至少,at least,1
+vermissen,v.,想念,to miss,1
+hübsch,adj.,漂亮的,pretty,1
+Verbindung,n.,die｜連結,connection,1
+tief,adj.,深的,deep,1
+Richtung,n.,die｜方向,direction,1
+Lage,n.,die｜情況；位置,situation; location,1
+sowieso,adv.,反正,anyway,1
+Kraft,n.,die｜力量,strength,1
+normal,adj.,正常的,normal,1
+Ehre,n.,die｜榮譽,honor,1
+Geschenk,n.,das｜禮物,gift,1
+Bar,n.,die｜酒吧,bar,1
+Tasche,n.,die｜包包；口袋,bag; pocket,1
+stehlen,v.,偷,to steal,1
+Hunger,n.,der｜飢餓,hunger,1
+lügen,v.,說謊,to lie,1
+Beziehung,n.,die｜關係,relationship,1
+Preis,n.,der｜價格；獎,price; prize,1
+Witz,n.,der｜笑話,joke,1
+Liste,n.,die｜清單,list,1
+Geist,n.,der｜精神；鬼,spirit; ghost,1
+neben,prep.,在…旁邊,next to,1
+Firma,n.,die｜公司,company,1
+Rücken,n.,der｜背,back,1
+schrecklich,adj.,可怕的,terrible,1
+verliebt,adj.,戀愛中的,in love,1
+öffnen,v.,打開,to open,1
+seltsam,adj.,奇怪的,strange,1
+verstecken,v.,藏,to hide,1
+fürchten,v.,害怕,to fear,1
+erwischen,v.,抓到,to catch,1
+Tante,n.,die｜阿姨；姑姑,aunt,1
+Pferd,n.,das｜馬,horse,1
+Wunder,n.,das｜奇蹟,miracle; wonder,1
+sauer,adj.,酸的；生氣的,sour; annoyed,1
+vermutlich,adv.,大概,presumably,1
+nah,adj.,近的,near,1
+jung,adj.,年輕的,young,1
+Majestät,n.,die｜陛下,majesty,1
+aussehen,v.,看起來,to look (like),1
+links,adv.,左邊,left,1
+beschützen,v.,保護,to protect,1
+geboren,adj.,出生的,born,1
+erreichen,v.,達到,to reach,1
+Punkt,n.,der｜點,point,1
+Kirche,n.,die｜教堂,church,1
+verraten,v.,背叛；洩漏,to betray; to reveal,1
+selber,pron.,自己,oneself,1
+Befehl,n.,der｜命令,order; command,1
+Geburtstag,n.,der｜生日,birthday,1
+Haut,n.,die｜皮膚,skin,1
+wetten,v.,打賭,to bet,1
+reich,adj.,富有的,rich,1
+schwören,v.,發誓,to swear,1
+eigene,adj.,自己的,own,1
+traurig,adj.,傷心的,sad,1
+Anruf,n.,der｜來電,call,1
+Frieden,n.,der｜和平,peace,1
+Karte,n.,die｜卡片；地圖；票,card; map; ticket,1
+Güte,n.,die｜善良（meine Güte 天啊）,goodness,1
+diesmal,adv.,這次,this time,1
+schade,adj.,可惜,a pity,1
+persönlich,adj.,個人的,personal,1
+Sonne,n.,die｜太陽,sun,1
+lieb,adj.,可愛的；親愛的,dear; kind,1
+nämlich,adv.,即；因為,namely,1
+Professor,n.,der｜教授,professor,1
+Gericht,n.,das｜法院；菜餚,court; dish,1
+Nase,n.,die｜鼻子,nose,1
+ewig,adj.,永遠的,eternal,1
+singen,v.,唱,to sing,1
+Bank,n.,die｜銀行；長椅,bank; bench,1
+beschäftigt,adj.,忙的,busy,1
+Computer,n.,der｜電腦,computer,1
+Weihnachten,n.,das｜聖誕節,Christmas,1
+offensichtlich,adv.,顯然,obviously,1
+Fuß,n.,der｜腳,foot,1
+Überraschung,n.,die｜驚喜,surprise,1
+Geheimnis,n.,das｜秘密,secret,1
+Kontakt,n.,der｜聯繫,contact,1
+Gold,n.,das｜金,gold,1
+Droge,n.,die｜毒品,drug,1
+Regierung,n.,die｜政府,government,1
+Wein,n.,der｜葡萄酒,wine,1
+ermorden,v.,謀殺,to murder,1
+entfernt,adj.,遙遠的,distant,1
+manche,pron.,某些,some,1
+gegenüber,prep.,對面,opposite,1
+Schlaf,n.,der｜睡眠,sleep,1
+Lust,n.,die｜興致（Lust haben 想要）,desire; (Lust haben) to feel like,1
+wunderschön,adj.,非常美的,gorgeous,1
+witzig,adj.,好笑的,funny,1
+zerstören,v.,摧毀,to destroy,1
+übrigens,adv.,順便,by the way,1
+Wille,n.,der｜意志,will,1
+Blick,n.,der｜目光,look; view,1
+Besuch,n.,der｜拜訪,visit,1
+bewegen,v.,移動,to move,1
+Haar,n.,das｜頭髮,hair,1
+antworten,v.,回答,to answer,1
+Präsident,n.,der｜總統,president,1
+Hoffnung,n.,die｜希望,hope,1
+rechts,adv.,右邊,right,1
+interessant,adj.,有趣的,interesting,1
+entscheiden,v.,決定,to decide,1
+miteinander,adv.,互相,with each other,1
+indem,conj.,藉由,by (doing),1
+wohnen,v.,居住,to live; to reside,1
+weder,conj.,既不（weder…noch）,neither,1
+Möglichkeit,n.,die｜可能性,possibility,1
+kaputt,adj.,壞的,broken,1
+Flugzeug,n.,das｜飛機,airplane,1
+Vergangenheit,n.,die｜過去,past,1
+zweite,adj.,第二,second,1
+Armee,n.,die｜軍隊,army,1
+Tee,n.,der｜茶,tea,1
+entweder,conj.,要麼（entweder…oder）,either,1
+aufhalten,v.,阻擋,to stop; to hold up,1
+überrascht,adj.,驚訝的,surprised,1
+sauber,adj.,乾淨的,clean,1
+Schlag,n.,der｜打擊,blow,1
+nervös,adj.,緊張的,nervous,1
+Gesellschaft,n.,die｜社會；陪伴,society; company,1
+schuldig,adj.,有罪的,guilty,1
+Hals,n.,der｜脖子；喉嚨,neck; throat,1
+schützen,v.,保護,to protect,1
+besuchen,v.,拜訪,to visit,1
+überleben,v.,生存,to survive,1
+erhalten,v.,收到,to receive,1
+teilen,v.,分享,to share,1
+Gebäude,n.,das｜建築物,building,1
+Schicksal,n.,das｜命運,fate,1
+Zeichen,n.,das｜符號；信號,sign,1
+Richter,n.,der｜法官,judge,1
+besorgt,adj.,擔心的,worried,1
+Küche,n.,die｜廚房,kitchen,1
+Vergnügen,n.,das｜樂趣,pleasure,1
+Volk,n.,das｜民族；人民,people; nation,1
+herausfinden,v.,查明,to find out,1
+Königin,n.,die｜女王,queen,1
+Soldat,n.,der｜士兵,soldier,1
+feiern,v.,慶祝,to celebrate,1
+Situation,n.,die｜情況,situation,1
+allerdings,adv.,不過,however,1
+soweit,adv.,到目前,so far,1
+Verstand,n.,der｜理智,mind; reason,1
+Rat,n.,der｜建議,advice,1
+Kamera,n.,die｜相機,camera,1
+Achtung,n.,die｜注意,attention,1
+Schuh,n.,der｜鞋,shoe,1
+Glückwunsch,n.,der｜祝賀,congratulations,1
+statt,prep.,代替,instead of,1
+übernehmen,v.,接管,to take over,1
+Gegend,n.,die｜地區,area,1
+Wald,n.,der｜森林,forest,1
+erkennen,v.,認出,to recognize,1
+Glas,n.,das｜玻璃；杯,glass,1
+verantwortlich,adj.,負責的,responsible,1
+Kleid,n.,das｜洋裝,dress,1
+Abendessen,n.,das｜晚餐,dinner,1
+Gesetz,n.,das｜法律,law,1
+gemeinsam,adj.,共同的,common; together,1
+Schritt,n.,der｜步,step,1
+beginnen,v.,開始,to begin,1
+ungefähr,adv.,大約,approximately,1
+Aufgabe,n.,die｜任務,task,1
+neun,n.,九,nine,1
+furchtbar,adj.,可怕的,awful,1
+drinnen,adv.,在裡面,inside,1
+zuvor,adv.,之前,before,1
+übrig,adj.,剩下的,left over,1
+Spur,n.,die｜痕跡,trace; track,1
+melden,v.,報告,to report,1
+werfen,v.,丟,to throw,1
+Freude,n.,die｜喜悅,joy,1
+Ehemann,n.,der｜丈夫,husband,1
+verzeihen,v.,原諒,to forgive,1
+Schwein,n.,das｜豬,pig,1
+Monster,n.,das｜怪物,monster,1
+Mission,n.,die｜任務,mission,1
+Adresse,n.,die｜地址,address,1
+Unsinn,n.,der｜胡說,nonsense,1
+Messer,n.,das｜刀,knife,1
+gesund,adj.,健康的,healthy,1
+Respekt,n.,der｜尊重,respect,1
+leisten,v.,完成；負擔得起,to achieve; to afford,1
+Ball,n.,der｜球,ball,1
+mitnehmen,v.,帶走,to take along,1
+Schwierigkeit,n.,die｜困難,difficulty,1
+Hälfte,n.,die｜一半,half,1
+Planet,n.,der｜行星,planet,1
+schwanger,adj.,懷孕的,pregnant,1
+Gruppe,n.,die｜團體,group,1
+verhaften,v.,逮捕,to arrest,1
+drehen,v.,轉,to turn,1
+Eis,n.,das｜冰；冰淇淋,ice; ice cream,1
+danken,v.,感謝,to thank,1
+Erfolg,n.,der｜成功,success,1
+zufrieden,adj.,滿意的,satisfied,1
+schließen,v.,關閉,to close,1
+besorgen,v.,取得,to get; to obtain,1
+Wochenende,n.,das｜週末,weekend,1
+Verbrechen,n.,das｜罪行,crime,1
+Bericht,n.,der｜報告,report,1
+nachts,adv.,夜裡,at night,1
+Prinzessin,n.,die｜公主,princess,1
+Schmerz,n.,der｜疼痛,pain,1
+klingeln,v.,響鈴,to ring,1
+Position,n.,die｜位置,position,1
+Fernsehen,n.,das｜電視,television,1
+wünschen,v.,希望；祝,to wish,1
+schließlich,adv.,最後,finally,1
+gefangen,adj.,被俘的,captured,1
+schwierig,adj.,困難的,difficult,1
+Angebot,n.,das｜提議；供應,offer,1
+Ring,n.,der｜戒指,ring,1
+rennen,v.,奔跑,to run,1
+Lied,n.,das｜歌,song,1
+Ei,n.,das｜蛋,egg,1
+fantastisch,adj.,很棒的,fantastic,1
+Falle,n.,die｜陷阱,trap,1
+Insel,n.,die｜島,island,1
+daher,adv.,因此,hence,1
+zufällig,adv.,偶然地,by chance,1
+Dorf,n.,das｜村莊,village,1
+einverstanden,adj.,同意的,agreed,1
+Feind,n.,der｜敵人,enemy,1
+bauen,v.,建造,to build,1
+hängen,v.,掛,to hang,1
+halb,adj.,一半的,half,1
+verpassen,v.,錯過,to miss,1
+leise,adj.,小聲的,quiet,1
+Unternehmen,n.,das｜企業,company,1
+kosten,v.,花費,to cost,1
+Tier,n.,das｜動物,animal,1
+Freiheit,n.,die｜自由,freedom,1
+verdienen,v.,賺；值得,to earn; to deserve,1
+unterhalten,v.,（sich）聊天,to chat,1
+einladen,v.,邀請,to invite,1
+Schaden,n.,der｜損害,damage,1
+beenden,v.,結束,to end,1
+lächerlich,adj.,可笑的,ridiculous,1
+Park,n.,der｜公園,park,1
+Energie,n.,die｜能量,energy,1
+Fleisch,n.,das｜肉,meat,1
+bestehen,v.,存在；通過,to exist; to pass,1
+Zeitung,n.,die｜報紙,newspaper,1
+nachdenken,v.,思考,to think about,1
+betrunken,adj.,喝醉的,drunk,1
+Patient,n.,der｜病人,patient,1
+Gespräch,n.,das｜談話,conversation,1
+leiden,v.,受苦,to suffer,1
+Taxi,n.,das｜計程車,taxi,1
+See,n.,der｜湖；die｜海,lake; sea,1
+Unterschied,n.,der｜差異,difference,1
+Wind,n.,der｜風,wind,1
+Wand,n.,die｜牆,wall,1
+Bus,n.,der｜公車,bus,1
+Angriff,n.,der｜攻擊,attack,1
+Verhalten,n.,das｜行為,behavior,1
+Loch,n.,das｜洞,hole,1
+Interesse,n.,das｜興趣,interest,1
+treten,v.,踩；踢,to step; to kick,1
+Quatsch,n.,der｜胡說,nonsense,1
+Polizist,n.,der｜警察,police officer,1
+Blume,n.,die｜花,flower,1
+Neuigkeit,n.,die｜新消息,news,1
+Flasche,n.,die｜瓶子,bottle,1
+Schuss,n.,der｜槍聲；一槍,shot,1
+fassen,v.,抓住；理解,to grasp,1
+Meer,n.,das｜海,sea,1
+Maschine,n.,die｜機器,machine,1
+Bein,n.,das｜腿,leg,1
+verbringen,v.,度過,to spend (time),1
+blöd,adj.,蠢的,stupid,1
+Frühstück,n.,das｜早餐,breakfast,1
+Meter,n.,der｜公尺,meter,1
+aufpassen,v.,注意；照看,to pay attention; to look after,1
+freuen,v.,（sich）高興,to be glad,1
+Engel,n.,der｜天使,angel,1
+offenbar,adv.,顯然,apparently,1
+Gelegenheit,n.,die｜機會,opportunity,1
+Lüge,n.,die｜謊言,lie,1
+Ohr,n.,das｜耳朵,ear,1
+beeilen,v.,（sich）趕快,to hurry,1
+brechen,v.,打破,to break,1
+Zeitpunkt,n.,der｜時間點,point in time,1
+Ecke,n.,die｜角落,corner,1
+Brücke,n.,die｜橋,bridge,1
+Druck,n.,der｜壓力,pressure,1
+Haufen,n.,der｜一堆,heap; pile,1
+Oma,n.,die｜奶奶,grandma,1
+Auftrag,n.,der｜委託；任務,order; assignment,1
+leer,adj.,空的,empty,1
+entkommen,v.,逃脫,to escape,1
+weiß,adj.,白色的,white,1
+Lösung,n.,die｜解答,solution,1
+Pause,n.,die｜休息,break,1
+irre,adj.,瘋狂的；超,crazy; awesome,1
+Keller,n.,der｜地下室,basement,1
+weinen,v.,哭,to cry,1
+nutzen,v.,利用,to use,1
+Maul,n.,das｜（動物）嘴；閉嘴（粗）,mouth (animal; rude),1
+Verantwortung,n.,die｜責任,responsibility,1
+Schloss,n.,das｜城堡；鎖,castle; lock,1
+Hut,n.,der｜帽子,hat,1
+lächeln,v.,微笑,to smile,1
+mitkommen,v.,一起來,to come along,1
+vorhin,adv.,剛才,a while ago,1
+Fahrt,n.,die｜行程,ride; journey,1
+ernsthaft,adv.,認真地,seriously,1
+Bombe,n.,die｜炸彈,bomb,1
+Operation,n.,die｜手術；行動,operation,1
+Dach,n.,das｜屋頂,roof,1
+Folge,n.,die｜後果；集,consequence; episode,1
+schwarz,adj.,黑色的,black,1
+dankbar,adj.,感激的,grateful,1
+Gehirn,n.,das｜大腦,brain,1
+Mut,n.,der｜勇氣,courage,1
+heilig,adj.,神聖的,holy,1
+System,n.,das｜系統,system,1
+Wahnsinn,n.,der｜瘋狂,madness,1
+Thema,n.,das｜主題,topic,1
+Urlaub,n.,der｜假期,vacation,1
+steigen,v.,上升；爬,to climb; to rise,1
+vorwärts,adv.,向前,forward,1
+überprüfen,v.,檢查,to check,1
+Baum,n.,der｜樹,tree,1
+anscheinend,adv.,似乎,apparently,1
+Lehrer,n.,der｜老師,teacher,1
+Nachmittag,n.,der｜下午,afternoon,1
+Risiko,n.,das｜風險,risk,1
+Held,n.,der｜英雄,hero,1
+daraus,adv.,從中,from it,1
+Gewalt,n.,die｜暴力,violence,1
+Tor,n.,das｜大門；球門,gate; goal,1
+Erfahrung,n.,die｜經驗,experience,1
+jagen,v.,追捕,to hunt,1
+Katze,n.,die｜貓,cat,1
+Runde,n.,die｜一輪,round,1
+deutsch,adj.,德國的,German,1
+Schwanz,n.,der｜尾巴,tail,1
+dringend,adj.,緊急的,urgent,1
+Großvater,n.,der｜祖父,grandfather,1
+Sommer,n.,der｜夏天,summer,1
+hinterlassen,v.,留下,to leave behind,1
+Gewissen,n.,das｜良心,conscience,1
+Kunde,n.,der｜顧客,customer,1
+Zeuge,n.,der｜證人,witness,1
+planen,v.,計畫,to plan,1
+stören,v.,打擾,to disturb,1
+Stein,n.,der｜石頭,stone,1
+atmen,v.,呼吸,to breathe,1
+Hose,n.,die｜褲子,trousers,1
+Prinz,n.,der｜王子,prince,1
+behandeln,v.,對待；治療,to treat,1
+überlegen,v.,考慮,to consider,1
+Restaurant,n.,das｜餐廳,restaurant,1
+Natur,n.,die｜大自然,nature,1
+Streit,n.,der｜爭吵,argument,1
+küssen,v.,親吻,to kiss,1
+längst,adv.,早就,long ago,1
+erlauben,v.,允許,to allow,1
+Bad,n.,das｜浴室,bathroom,1
+schmecken,v.,嚐起來,to taste,1
+Kugel,n.,die｜球；子彈,ball; bullet,1
+normalerweise,adv.,通常,normally,2
+rauf,adv.,上去,up,2
+Flug,n.,der｜航班,flight,2
+beruhigen,v.,安撫,to calm,2
+entdecken,v.,發現,to discover,2
+morgens,adv.,早上,in the morning,2
+vollkommen,adv.,完全,completely,2
+verfolgen,v.,追蹤,to follow; to pursue,2
+Schwert,n.,das｜劍,sword,2
+riechen,v.,聞,to smell,2
+Labor,n.,das｜實驗室,laboratory,2
+mindestens,adv.,至少,at least,2
+Fisch,n.,der｜魚,fish,2
+erschießen,v.,槍殺,to shoot dead,2
+Kuchen,n.,der｜蛋糕,cake,2
+Zustand,n.,der｜狀態,condition,2
+Wunsch,n.,der｜願望,wish,2
+Gast,n.,der｜客人,guest,2
+erwähnen,v.,提及,to mention,2
+Farbe,n.,die｜顏色,color,2
+Zufall,n.,der｜巧合,coincidence,2
+Garten,n.,der｜花園,garden,2
+abgesehen,adv.,（abgesehen von 除了）,apart from,2
+fair,adj.,公平的,fair,2
+Koffer,n.,der｜行李箱,suitcase,2
+Kurs,n.,der｜課程；航向,course,2
+wirken,v.,起作用；看起來,to have an effect; to seem,2
+seitdem,adv.,從那以後,since then,2
+ähnlich,adj.,相似的,similar,2
+aufgeben,v.,放棄,to give up,2
+entführen,v.,綁架,to kidnap,2
+Lager,n.,das｜倉庫；營,warehouse; camp,2
+besprechen,v.,討論,to discuss,2
+Reihe,n.,die｜排；系列,row; series,2
+Vogel,n.,der｜鳥,bird,2
+Strand,n.,der｜海灘,beach,2
+Amerikaner,n.,der｜美國人,American,2
+fern,adj.,遠的,far,2
+Scherz,n.,der｜玩笑,joke,2
+langweilig,adj.,無聊的,boring,2
+verlangen,v.,要求,to demand,2
+überzeugt,adj.,確信的,convinced,2
+rot,adj.,紅色的,red,2
+vorbereiten,v.,準備,to prepare,2
+reisen,v.,旅行,to travel,2
+Termin,n.,der｜約會；預約,appointment,2
+Gang,n.,der｜走廊；步伐,corridor; gait,2
+Rache,n.,die｜復仇,revenge,2
+bemerken,v.,注意到,to notice,2
+Radio,n.,das｜收音機,radio,2
+Vertrag,n.,der｜合約,contract,2
+Dienst,n.,der｜服務；值勤,service; duty,2
+Wesen,n.,das｜生物；本質,creature; nature,2
+Bürgermeister,n.,der｜市長,mayor,2
+Fluss,n.,der｜河,river,2
+Durcheinander,n.,das｜混亂,mess,2
+Test,n.,der｜測試,test,2
+Direktor,n.,der｜主任,director,2
+Karriere,n.,die｜事業,career,2
+Akte,n.,die｜檔案,file,2
+Erinnerung,n.,die｜回憶,memory,2
+Großmutter,n.,die｜祖母,grandmother,2
+lösen,v.,解決,to solve,2
+Griff,n.,der｜把手；抓,handle; grip,2
+Zweifel,n.,der｜懷疑,doubt,2
+Sprache,n.,die｜語言,language,2
+Nerv,n.,der｜神經,nerve,2
+entlassen,v.,解僱；出院,to dismiss; to discharge,2
+zweimal,adv.,兩次,twice,2
+abholen,v.,接（人）,to pick up,2
+Kollege,n.,der｜同事,colleague,2
+Szene,n.,die｜場景,scene,2
+Pflicht,n.,die｜義務,duty,2
+Wache,n.,die｜警衛,guard,2
+neulich,adv.,最近,recently,2
+Knie,n.,das｜膝蓋,knee,2
+unschuldig,adj.,無辜的,innocent,2
+Schutz,n.,der｜保護,protection,2
+weshalb,adv.,為何,why,2
+woanders,adv.,別處,elsewhere,2
+Kuss,n.,der｜吻,kiss,2
+verhindern,v.,阻止,to prevent,2
+Erklärung,n.,die｜解釋,explanation,2
+Video,n.,das｜影片,video,2
+klug,adj.,聰明的,clever,2
+außerhalb,prep.,在…之外,outside,2
+Opa,n.,der｜爺爺,grandpa,2
+selbstverständlich,adv.,理所當然,of course,2
+aufstehen,v.,起床,to get up,2
+gebrauchen,v.,使用,to use,2
+Milch,n.,die｜牛奶,milk,2
+feuern,v.,開火；解僱,to fire,2
+kochen,v.,煮,to cook,2
+schwach,adj.,弱的,weak,2
+Schulden,n.,die｜債務（複數）,debts,2
+hinein,adv.,進去,in; into,2
+Grenze,n.,die｜邊界,border,2
+Braut,n.,die｜新娘,bride,2
+peinlich,adj.,尷尬的,embarrassing,2
+klappen,v.,成功；順利,to work out,2
+Aufmerksamkeit,n.,die｜注意力,attention,2
+Form,n.,die｜形狀,form; shape,2
+umsonst,adv.,免費；白費,for free; in vain,2
+nirgendwo,adv.,任何地方都不,nowhere,2
+Meile,n.,die｜英里,mile,2
+Mond,n.,der｜月亮,moon,2
+ergeben,v.,產生,to result in,2
+Daten,n.,die｜資料（複數）,data,2
+merken,v.,注意到；記住,to notice; to remember,2
+Schande,n.,die｜恥辱,shame,2
+Sieg,n.,der｜勝利,victory,2
+satt,adj.,飽的,full (food),2
+Blödsinn,n.,der｜胡說,nonsense,2
+Pfund,n.,das｜磅,pound,2
+handeln,v.,行動；交易,to act; to trade,2
+enden,v.,結束,to end,2
+warm,adj.,溫暖的,warm,2
+raten,v.,猜；建議,to guess; to advise,2
+Übersetzung,n.,die｜翻譯,translation,2
+Kunst,n.,die｜藝術,art,2
+desto,adv.,越（je…desto）,the (more…the more),2
+Einsatz,n.,der｜投入；行動,deployment; effort,2
+schweigen,v.,沉默,to be silent,2
+Krankheit,n.,die｜疾病,illness,2
+Schatten,n.,der｜影子,shadow,2
+Tatsache,n.,die｜事實,fact,2
+Stock,n.,der｜樓層；棍子,floor; stick,2
+verboten,adj.,禁止的,forbidden,2
+Anzug,n.,der｜西裝,suit,2
+Freitag,n.,der｜星期五,Friday,2
+dunkel,adj.,暗的,dark,2
+enttäuscht,adj.,失望的,disappointed,2
+klopfen,v.,敲,to knock,2
+Dreck,n.,der｜污垢,dirt,2
+Mühe,n.,die｜努力,effort,2
+Knochen,n.,der｜骨頭,bone,2
+kontrollieren,v.,檢查；控制,to check; to control,2
+Programm,n.,das｜節目；程式,program,2
+Grab,n.,das｜墳墓,grave,2
+ebenso,adv.,同樣,likewise,2
+Nachbar,n.,der｜鄰居,neighbor,2
+bieten,v.,提供,to offer,2
+freundlich,adj.,友善的,friendly,2
+dennoch,adv.,然而,nevertheless,2
+rauchen,v.,抽菸,to smoke,2
+dick,adj.,胖的；厚的,fat; thick,2
+Stuhl,n.,der｜椅子,chair,2
+vergeben,v.,原諒,to forgive,2
+ausgehen,v.,出門,to go out,2
+trotz,prep.,儘管,despite,2
+Toilette,n.,die｜廁所,toilet,2
+annehmen,v.,接受；假設,to accept; to assume,2
+Hexe,n.,die｜女巫,witch,2
+erwachsen,adj.,成年的,adult,2
+Pistole,n.,die｜手槍,pistol,2
+Aussage,n.,die｜陳述；證詞,statement,2
+genießen,v.,享受,to enjoy,2
+eifersüchtig,adj.,嫉妒的,jealous,2
+teuer,adj.,貴的,expensive,2
+Zahn,n.,der｜牙齒,tooth,2
+beobachten,v.,觀察,to observe,2
+wählen,v.,選擇；投票,to choose; to vote,2
+Theater,n.,das｜劇院,theater,2
+Regen,n.,der｜雨,rain,2
+zulassen,v.,允許,to allow,2
+schnappen,v.,抓住,to grab,2
+komplett,adv.,完全,completely,2
+Panik,n.,die｜恐慌,panic,2
+Flughafen,n.,der｜機場,airport,2
+bewusst,adj.,有意識的,conscious,2
+voraus,adv.,在前面,ahead,2
+begleiten,v.,陪同,to accompany,2
+einander,pron.,互相,each other,2
+erleben,v.,經歷,to experience,2
+weiterhin,adv.,繼續,still; further,2
+konzentrieren,v.,（sich）專心,to concentrate,2
+streiten,v.,吵架,to argue,2
+überzeugen,v.,說服,to convince,2
+Alkohol,n.,der｜酒精,alcohol,2
+Post,n.,die｜郵件；郵局,mail; post office,2
+Botschaft,n.,die｜訊息；大使館,message; embassy,2
+aufgeregt,adj.,興奮的,excited,2
+Selbstmord,n.,der｜自殺,suicide,2
+zurückkommen,v.,回來,to come back,2
+Flucht,n.,die｜逃亡,escape,2
+untersuchen,v.,調查,to examine,2
+Gegenteil,n.,das｜相反,opposite,2
+betreffen,v.,涉及,to concern,2
+scharf,adj.,鋒利的；辣的,sharp; spicy,2
+Projekt,n.,das｜計畫,project,2
+Trottel,n.,der｜笨蛋,idiot,2
+immerhin,adv.,畢竟,after all,2
+mehrere,pron.,幾個,several,2
+schwimmen,v.,游泳,to swim,2
+zählen,v.,數,to count,2
+innerhalb,prep.,在…之內,within,2
+blind,adj.,瞎的,blind,2
+Code,n.,der｜代碼,code,2
+schlau,adj.,聰明的,smart,2
+Absicht,n.,die｜意圖,intention,2
+zuletzt,adv.,最後,last,2
+Englisch,n.,das｜英語,English,2
+verletzen,v.,傷害,to injure,2
+Schüler,n.,der｜學生,pupil,2
+merkwürdig,adj.,奇怪的,strange,2
+Größe,n.,die｜大小；尺寸,size,2
+trauen,v.,信任；敢,to trust; to dare,2
+Sonntag,n.,der｜星期日,Sunday,2
+zwölf,n.,十二,twelve,2
+Vorstellung,n.,die｜想像；演出,idea; performance,2
+Unterstützung,n.,die｜支持,support,2
+antun,v.,對…做（壞事）,to do to,2
+Rechnung,n.,die｜帳單,bill,2
+verändern,v.,改變,to change,2
+möglicherweise,adv.,可能,possibly,2
+definitiv,adv.,肯定,definitely,2
+locker,adj.,輕鬆的；鬆的,relaxed; loose,2
+frisch,adj.,新鮮的,fresh,2
+Kohle,n.,die｜煤；錢（口語）,coal; money,2
+Cousin,n.,der｜表兄弟,cousin,2
+einsam,adj.,孤單的,lonely,2
+lebendig,adj.,活的,alive,2
+knapp,adj.,勉強的；短缺的,scarce; narrow,2
+ebenfalls,adv.,同樣,likewise,2
+Artikel,n.,der｜文章；冠詞,article,2
+jederzeit,adv.,隨時,anytime,2
+kompliziert,adj.,複雜的,complicated,2
+spüren,v.,感覺到,to feel; to sense,2
+Signal,n.,das｜信號,signal,2
+Stich,n.,der｜刺；叮,sting; stab,2
+Kino,n.,das｜電影院,cinema,2
+probieren,v.,嘗試,to try,2
+wundervoll,adj.,美妙的,wonderful,2
+Tanz,n.,der｜舞,dance,2
+begraben,v.,埋葬,to bury,2
+Prozent,n.,das｜百分比,percent,2
+stoppen,v.,停止,to stop,2
+Hoheit,n.,die｜殿下,highness,2
+Riese,n.,der｜巨人,giant,2
+Zugang,n.,der｜入口；存取,access,2
+aufmachen,v.,打開,to open,2
+Erlaubnis,n.,die｜許可,permission,2
+Priester,n.,der｜神父,priest,2
+packen,v.,打包；抓,to pack; to grab,2
+dritte,adj.,第三,third,2
+inzwischen,adv.,同時；此時,meanwhile,2
+Presse,n.,die｜新聞界,press,2
+Geduld,n.,die｜耐心,patience,2
+Bühne,n.,die｜舞台,stage,2
+reparieren,v.,修理,to repair,2
+Gerechtigkeit,n.,die｜正義,justice,2
+selten,adv.,很少,rarely,2
+unterschreiben,v.,簽名,to sign,2
+drücken,v.,按；推,to press; to push,2
+Lügner,n.,der｜騙子,liar,2
+Medizin,n.,die｜醫學；藥,medicine,2
+Prozess,n.,der｜過程；審判,process; trial,2
+Samstag,n.,der｜星期六,Saturday,2
+Motor,n.,der｜引擎,engine,2
+abhauen,v.,溜走,to clear off,2
+Chaos,n.,das｜混亂,chaos,2
+Schönheit,n.,die｜美,beauty,2
+beinahe,adv.,幾乎,almost,2
+anhalten,v.,停下,to stop,2
+fremd,adj.,陌生的,foreign; strange,2
+Hof,n.,der｜院子；宮廷,yard; court,2
+akzeptieren,v.,接受,to accept,2
+Norden,n.,der｜北方,north,2
+anziehen,v.,穿上；吸引,to put on; to attract,2
+umgehen,v.,處理,to deal with,2
+Bauch,n.,der｜肚子,belly,2
+ertragen,v.,忍受,to bear,2
+Kiste,n.,die｜箱子,box; crate,2
+brennen,v.,燃燒,to burn,2
+Deckung,n.,die｜掩護,cover,2
+landen,v.,降落,to land,2
+Berg,n.,der｜山,mountain,2
+Untersuchung,n.,die｜調查；檢查,investigation; examination,2
+Alarm,n.,der｜警報,alarm,2
+extra,adv.,額外；特地,extra; on purpose,2
+entspannen,v.,放鬆,to relax,2
+Eindruck,n.,der｜印象,impression,2
+wehtun,v.,痛,to hurt,2
+springen,v.,跳,to jump,2
+nackt,adj.,裸的,naked,2
+existieren,v.,存在,to exist,2
+befreien,v.,解放,to free,2
+Gerät,n.,das｜裝置,device,2
+Montag,n.,der｜星期一,Monday,2
+zwingen,v.,強迫,to force,2
+fliehen,v.,逃跑,to flee,2
+Freundschaft,n.,die｜友誼,friendship,2
+Papier,n.,das｜紙,paper,2
+Beruf,n.,der｜職業,profession,2
+Gebiet,n.,das｜區域,area,2
+jedoch,adv.,然而,however,2
+beten,v.,祈禱,to pray,2
+Verräter,n.,der｜叛徒,traitor,2
+Brust,n.,die｜胸,chest,2
+Jacke,n.,die｜夾克,jacket,2
+bestellen,v.,訂購,to order,2
+wild,adj.,野生的,wild,2
+zuhören,v.,聆聽,to listen,2
+trennen,v.,分開,to separate,2
+Schlafzimmer,n.,das｜臥室,bedroom,2
+Vorschlag,n.,der｜建議,suggestion,2
+Gift,n.,das｜毒,poison,2
+Ton,n.,der｜聲音；語氣,sound; tone,2
+ankommen,v.,抵達,to arrive,2
+beantworten,v.,回答,to answer,2
+deutlich,adj.,清楚的,clear,2
+träumen,v.,做夢,to dream,2
+verwirrt,adj.,困惑的,confused,2
+riskieren,v.,冒險,to risk,2
+Beerdigung,n.,die｜葬禮,funeral,2
+Müll,n.,der｜垃圾,garbage,2
+Mitte,n.,die｜中間,middle,2
+Geburt,n.,die｜出生,birth,2
+Decke,n.,die｜毯子；天花板,blanket; ceiling,2
+Mittagessen,n.,das｜午餐,lunch,2
+vernichten,v.,消滅,to destroy,2
+Gewehr,n.,das｜步槍,rifle,2
+Spiegel,n.,der｜鏡子,mirror,2
+geraten,v.,陷入,to get into,2
+Wetter,n.,das｜天氣,weather,2
+schwul,adj.,同性戀的,gay,2
+Einheit,n.,die｜單位,unit,2
+anstatt,prep.,代替,instead of,2
+Champagner,n.,der｜香檳,champagne,2
+Strafe,n.,die｜懲罰,punishment,2
+Zelle,n.,die｜牢房；細胞,cell,2
+ruinieren,v.,毀掉,to ruin,2
+Kleidung,n.,die｜衣服,clothing,2
+Gras,n.,das｜草,grass,2
+Agent,n.,der｜探員,agent,2
+Brot,n.,das｜麵包,bread,2
+erfreut,adj.,高興的,pleased,2
+Staat,n.,der｜國家,state,2
+Hemd,n.,das｜襯衫,shirt,2
+praktisch,adj.,實用的,practical,2
+Theorie,n.,die｜理論,theory,2
+Zunge,n.,die｜舌頭,tongue,2
+Notfall,n.,der｜緊急情況,emergency,2
+Winter,n.,der｜冬天,winter,2
+Anführer,n.,der｜領袖,leader,2
+schief,adj.,歪的,crooked,2
+blau,adj.,藍色的,blue,2
+Unrecht,n.,das｜不公,injustice; wrong,2
+entwickeln,v.,發展,to develop,2
+Bedeutung,n.,die｜意義,meaning,2
+Strom,n.,der｜電流,electricity; current,2
+Krebs,n.,der｜癌症；螃蟹,cancer; crab,2
+gemein,adj.,卑鄙的,mean,2
+Minister,n.,der｜部長,minister,2
+Quelle,n.,die｜來源；泉,source; spring,2
+Zahl,n.,die｜數字,number,2
+Talent,n.,das｜才能,talent,2
+Spitze,n.,die｜尖端,tip; top,2
+Fernseher,n.,der｜電視機,TV set,2
+ausgezeichnet,adj.,優秀的,excellent,2
+Tatort,n.,der｜犯罪現場,crime scene,2
+Detail,n.,das｜細節,detail,2
+Täter,n.,der｜犯人,perpetrator,2
+Dieb,n.,der｜小偷,thief,2
+offiziell,adj.,官方的,official,2
+dienen,v.,服務,to serve,2
+Westen,n.,der｜西方,west,2
+dauernd,adv.,一直,constantly,2
+Geschmack,n.,der｜味道；品味,taste,2
+gegenseitig,adj.,互相的,mutual,2
+Pech,n.,das｜倒楣,bad luck,2
+verteidigen,v.,防衛,to defend,2
+Schauspieler,n.,der｜演員,actor,2
+überlassen,v.,留給,to leave to,2
+Publikum,n.,das｜觀眾,audience,2
+wechseln,v.,換,to change,2
+begegnen,v.,遇到,to encounter,2
+betrügen,v.,欺騙,to cheat,2
+loswerden,v.,擺脫,to get rid of,2
+bestätigen,v.,確認,to confirm,2
+Gas,n.,das｜瓦斯；油門,gas,2
+Sturm,n.,der｜暴風,storm,2
+null,n.,零,zero,2
+festhalten,v.,抓牢,to hold on,2
+geheim,adj.,秘密的,secret,2
+übergeben,v.,交付,to hand over,2
+Abteilung,n.,die｜部門,department,2
+verschieden,adj.,不同的,different,2
+gleichzeitig,adv.,同時,at the same time,2
+Genie,n.,das｜天才,genius,2
+hungrig,adj.,餓的,hungry,2
+Kuh,n.,die｜母牛,cow,2
+unterstützen,v.,支持,to support,2
+Süden,n.,der｜南方,south,2
+Menschheit,n.,die｜人類,humanity,2
+Versteck,n.,das｜藏身處,hiding place,2
+Fähigkeit,n.,die｜能力,ability,2
+rechtzeitig,adv.,及時,in time,2
+streng,adj.,嚴格的,strict,2
+Sendung,n.,die｜節目；寄件,broadcast; shipment,2
+Treppe,n.,die｜樓梯,stairs,2
+aufnehmen,v.,錄製；接收,to record; to take in,2
+Wolf,n.,der｜狼,wolf,2
+Dämon,n.,der｜惡魔,demon,2
+Wut,n.,die｜憤怒,rage,2
+Schlange,n.,die｜蛇；隊伍,snake; queue,2
+Medikament,n.,das｜藥物,medication,2
+anfassen,v.,觸摸,to touch,2
+Pizza,n.,die｜披薩,pizza,2
+Hütte,n.,die｜小屋,hut,2
+Mantel,n.,der｜大衣,coat,2
+behaupten,v.,聲稱,to claim,2
+Kilometer,n.,der｜公里,kilometer,2
+angeblich,adv.,據說,allegedly,2
+reiten,v.,騎（馬）,to ride,2
+Mittag,n.,der｜中午,noon,2
+warnen,v.,警告,to warn,2
+Dunkelheit,n.,die｜黑暗,darkness,2
+spazieren,v.,散步,to stroll,2
+tausend,n.,千,thousand,2
+Sack,n.,der｜袋子,sack,2
+eindeutig,adv.,明確地,clearly,2
+Unterhaltung,n.,die｜談話；娛樂,conversation; entertainment,2
+zugeben,v.,承認,to admit,2
+Mittel,n.,das｜手段；藥劑,means; remedy,2
+Explosion,n.,die｜爆炸,explosion,2
+Gefangene,n.,der｜囚犯,prisoner,2
+verdächtig,adj.,可疑的,suspicious,2
+neugierig,adj.,好奇的,curious,2
+Leitung,n.,die｜管線；領導,line; management,2
+kennenlernen,v.,結識,to get to know,2
+menschlich,adj.,人類的；人性的,human; humane,2
+auseinander,adv.,分開,apart,2
+fressen,v.,（動物）吃,to eat (animals),2
+Stoff,n.,der｜布料；物質,fabric; substance,2
+eilig,adj.,匆忙的,hurried,2
+stammen,v.,來自,to come from,2
+Schrank,n.,der｜櫃子,cupboard,2
+Gnade,n.,die｜仁慈,mercy,2
+Virus,n.,das｜病毒,virus,2
+Einladung,n.,die｜邀請,invitation,2
+Krieger,n.,der｜戰士,warrior,2
+vernünftig,adj.,理智的,sensible,2
+fein,adj.,細的；好的,fine,2
+greifen,v.,抓,to grab,2
+Mitglied,n.,das｜成員,member,2
+zurückkehren,v.,返回,to return,2
+Feld,n.,das｜田地,field,2
+erschaffen,v.,創造,to create,2
+Stärke,n.,die｜力量,strength,2
+Vermögen,n.,das｜財產,fortune,2
+waschen,v.,洗,to wash,2
+Schrei,n.,der｜叫聲,scream,2
+Mitternacht,n.,die｜午夜,midnight,2
+lecker,adj.,好吃的,tasty,2
+Klinik,n.,die｜診所,clinic,2
+dicht,adj.,密的；緊的,dense; tight,2
+befinden,v.,（sich）位於,to be located,2
+Bürger,n.,der｜公民,citizen,2
+verursachen,v.,造成,to cause,2
+Hammer,n.,der｜鎚子,hammer,2
+Internet,n.,das｜網路,internet,2
+aufregend,adj.,刺激的,exciting,2
+Politik,n.,die｜政治,politics,2
+Besitz,n.,der｜財產,property; possession,2
+irren,v.,（sich）弄錯,to be mistaken,2
+Kommando,n.,das｜指揮,command,2
+Krankenwagen,n.,der｜救護車,ambulance,2
+richten,v.,調整；對準,to direct; to fix,2
+erfinden,v.,發明,to invent,2
+Schnee,n.,der｜雪,snow,2
+entfernen,v.,移除,to remove,2
+Träne,n.,die｜眼淚,tear,2
+erfolgreich,adj.,成功的,successful,2
+Heimat,n.,die｜故鄉,homeland,2
+Brille,n.,die｜眼鏡,glasses,2
+Leiter,n.,der｜主管；die｜梯子,leader; ladder,2
+Werk,n.,das｜作品；工廠,work; plant,2
+Cent,n.,der｜分,cent,2
+Schlacht,n.,die｜戰役,battle,2
+Offizier,n.,der｜軍官,officer,2
+Zweck,n.,der｜目的,purpose,2
+Affäre,n.,die｜外遇；事件,affair,2
+empfangen,v.,接收；接待,to receive,2
+heutzutage,adv.,如今,nowadays,2
+Schnitt,n.,der｜切口,cut,2
+Holz,n.,das｜木頭,wood,2
+Kaiser,n.,der｜皇帝,emperor,2
+Scheidung,n.,die｜離婚,divorce,2
+Bart,n.,der｜鬍子,beard,2
+beschließen,v.,決定,to decide,2
+begeistert,adj.,熱衷的,enthusiastic,2
+beeindruckt,adj.,印象深刻的,impressed,2
+aufgrund,prep.,由於,due to,2
+momentan,adv.,目前,at the moment,2
+meistens,adv.,大多,mostly,2
+Stress,n.,der｜壓力,stress,2
+Stern,n.,der｜星星,star,2
+heilen,v.,治癒,to heal,2
+stattdessen,adv.,反而,instead,2
+Stimmung,n.,die｜氣氛,mood,2
+Geräusch,n.,das｜聲響,noise,2
+Künstler,n.,der｜藝術家,artist,2
+wachsen,v.,生長,to grow,2
+verurteilen,v.,判刑,to sentence,2
+Urteil,n.,das｜判決,verdict,2
+Verlust,n.,der｜損失,loss,2
+Schulter,n.,die｜肩膀,shoulder,2
+anbieten,v.,提供,to offer,2
+verwenden,v.,使用,to use,2
+gratulieren,v.,祝賀,to congratulate,2
+Fluch,n.,der｜詛咒,curse,2
+grün,adj.,綠色的,green,2
+Unterricht,n.,der｜課,lesson,2
+gewöhnt,adj.,習慣的,used to,2
+Anklage,n.,die｜起訴,charge,2
+Lippe,n.,die｜嘴唇,lip,2
+fett,adj.,肥的,fat,2
+Feigling,n.,der｜懦夫,coward,2
+achten,v.,注意,to pay attention,2
+Käse,n.,der｜起司,cheese,2
+aufwachen,v.,醒來,to wake up,2
+Verfügung,n.,die｜支配（zur Verfügung 可用）,disposal,2
+Uniform,n.,die｜制服,uniform,2
+zusehen,v.,觀看,to watch,2
+Gesundheit,n.,die｜健康,health,2
+Abenteuer,n.,das｜冒險,adventure,2
+Scheck,n.,der｜支票,check,2
+täglich,adj.,每日的,daily,2
+wiederholen,v.,重複,to repeat,2
+freiwillig,adj.,自願的,voluntary,2
+Universum,n.,das｜宇宙,universe,2
+fähig,adj.,有能力的,capable,2
+Revier,n.,das｜轄區,precinct; territory,2
+Reifen,n.,der｜輪胎,tire,2
+schenken,v.,送,to give (a gift),2
+Schädel,n.,der｜頭骨,skull,2
+Realität,n.,die｜現實,reality,2
+April,n.,der｜四月,April,2
+albern,adj.,傻的,silly,2
+brav,adj.,乖的,good; well-behaved,2
+Jagd,n.,die｜打獵,hunt,2
+versagen,v.,失敗,to fail,2
+sicherlich,adv.,肯定,certainly,2
+Öffentlichkeit,n.,die｜大眾,public,2
+Verbrecher,n.,der｜罪犯,criminal,2
+Maske,n.,die｜面具,mask,2
+Verstärkung,n.,die｜增援,reinforcement,2
+liefern,v.,交付,to deliver,2
+Führer,n.,der｜領導者,leader,2
+loslassen,v.,放開,to let go,2
+berichten,v.,報導,to report,2
+verabschieden,v.,（sich）告別,to say goodbye,2
+Antrag,n.,der｜申請；求婚,application; proposal,2
+benehmen,v.,（sich）表現,to behave,2
+Verdacht,n.,der｜懷疑,suspicion,2
+Schreibtisch,n.,der｜書桌,desk,2
+Vampir,n.,der｜吸血鬼,vampire,2
+Probe,n.,die｜樣本；排練,sample; rehearsal,2
+Zucker,n.,der｜糖,sugar,2
+stinken,v.,發臭,to stink,2
+Klamotten,n.,die｜衣服（口語）,clothes,2
+Besitzer,n.,der｜擁有者,owner,2
+Tasse,n.,die｜杯子,cup,2
+Hinweis,n.,der｜提示,hint,2
+Verteidigung,n.,die｜防禦,defense,2
+Magen,n.,der｜胃,stomach,2
+Tunnel,n.,der｜隧道,tunnel,2
+Serie,n.,die｜影集,series,2
+Applaus,n.,der｜掌聲,applause,2
+Markt,n.,der｜市場,market,2
+korrekt,adj.,正確的,correct,2
+besessen,adj.,著迷的,obsessed,2
+bewahren,v.,保存,to preserve,2
+angreifen,v.,攻擊,to attack,2
+Truppe,n.,die｜部隊,troop,2
+Kommandant,n.,der｜指揮官,commander,2
+Osten,n.,der｜東方,east,2
+elf,n.,十一,eleven,2
+beeindruckend,adj.,令人印象深刻的,impressive,2
+clever,adj.,聰明的,clever,2
+Hass,n.,der｜恨,hatred,2
+Posten,n.,der｜職位；崗位,post,2
+schneiden,v.,切,to cut,2
+sammeln,v.,收集,to collect,2
+Wissenschaft,n.,die｜科學,science,2
+Ursache,n.,die｜原因,cause,2
+gewiss,adv.,確定,certainly,2
+Bereich,n.,der｜領域,area; field,2
+verzweifelt,adj.,絕望的,desperate,2
+Anteil,n.,der｜份額,share,2
+stets,adv.,總是,always,2
+Ritter,n.,der｜騎士,knight,2
+Viertel,n.,das｜四分之一；街區,quarter; district,2
+Roman,n.,der｜小說,novel,2
+pünktlich,adj.,準時的,punctual,2
+erfüllen,v.,實現,to fulfill,2
+Basis,n.,die｜基礎,basis,2
+Schock,n.,der｜震驚,shock,2
+Empfang,n.,der｜接待；收訊,reception,2
+Titel,n.,der｜標題,title,2
+Stil,n.,der｜風格,style,2
+Fingerabdruck,n.,der｜指紋,fingerprint,2
+Einfluss,n.,der｜影響,influence,2
+Anweisung,n.,die｜指示,instruction,2
+sparen,v.,節省,to save,2
+Farm,n.,die｜農場,farm,2
+erstaunlich,adj.,驚人的,amazing,2
+Miete,n.,die｜房租,rent,2
+Wüste,n.,die｜沙漠,desert,2
+prüfen,v.,檢查,to check,2
+Gabe,n.,die｜天賦,gift,2
+hundert,n.,百,hundred,2
+erscheinen,v.,出現,to appear,2
+besiegen,v.,擊敗,to defeat,2
+Umstand,n.,der｜情況,circumstance,2
+Angelegenheit,n.,die｜事務,matter,2
+Dienstag,n.,der｜星期二,Tuesday,2
+Training,n.,das｜訓練,training,2
+Suppe,n.,die｜湯,soup,2
+Vorteil,n.,der｜優勢,advantage,2
+rosa,adj.,粉紅色的,pink,2
+amerikanisch,adj.,美國的,American,2
+Französisch,n.,das｜法語,French,2
+Gouverneur,n.,der｜州長,governor,2
+Gedächtnis,n.,das｜記憶力,memory,2
+Wirklichkeit,n.,die｜現實,reality,2
+bestrafen,v.,懲罰,to punish,2
+Kreis,n.,der｜圓；圈,circle,2
+Staatsanwalt,n.,der｜檢察官,prosecutor,2
+Ewigkeit,n.,die｜永恆,eternity,2
+Störung,n.,die｜干擾,disturbance,2
+hässlich,adj.,醜的,ugly,2
+Tiger,n.,der｜老虎,tiger,2
+Zigarette,n.,die｜香菸,cigarette,2
+mutig,adj.,勇敢的,brave,2
+ausruhen,v.,休息,to rest,2
+Hauptmann,n.,der｜上尉,captain,2
+Unglück,n.,das｜不幸,misfortune,2
+eng,adj.,窄的,narrow; tight,2
+üben,v.,練習,to practice,2
+Wissenschaftler,n.,der｜科學家,scientist,2
+Reaktion,n.,die｜反應,reaction,2
+Mord,n.,der｜謀殺,murder,2
+Dusche,n.,die｜淋浴,shower,2
+Mitarbeiter,n.,der｜員工,employee,2
+bedrohen,v.,威脅,to threaten,2
+Identität,n.,die｜身分,identity,2
+Fieber,n.,das｜發燒,fever,2
+Hirn,n.,das｜腦,brain,2
+leiten,v.,領導,to lead,2
+Donnerstag,n.,der｜星期四,Thursday,2
+unheimlich,adj.,陰森的,creepy,2
+Jahrhundert,n.,das｜世紀,century,2
+Diener,n.,der｜僕人,servant,2
+extrem,adj.,極端的,extreme,2
+Ausweis,n.,der｜證件,ID card,2
+Sicht,n.,die｜視野,view; sight,2
+Sport,n.,der｜運動,sport,2
+studieren,v.,讀大學,to study,2
+Text,n.,der｜文本,text,2
+nebenan,adv.,隔壁,next door,2
+Lektion,n.,die｜課,lesson,2
+Maus,n.,die｜老鼠,mouse,2
+Staub,n.,der｜灰塵,dust,2
+Dutzend,n.,das｜一打,dozen,2
+Ratte,n.,die｜大老鼠,rat,2
+Mitleid,n.,das｜同情,pity,2
+testen,v.,測試,to test,2
+Auftritt,n.,der｜登場,appearance; performance,2
+Gegner,n.,der｜對手,opponent,2
+Wunde,n.,die｜傷口,wound,2
+Linie,n.,die｜線,line,2
+Bedrohung,n.,die｜威脅,threat,2
+Bauer,n.,der｜農夫,farmer,2
+Kreuz,n.,das｜十字,cross,2
+einkaufen,v.,購物,to shop,2
+Leidenschaft,n.,die｜熱情,passion,2
+bereuen,v.,後悔,to regret,2
+Spieler,n.,der｜玩家；球員,player,2
+steuern,v.,駕駛；控制,to steer,2
+Verabredung,n.,die｜約會,date; appointment,2
+überfallen,v.,突襲,to raid; to mug,2
+umdrehen,v.,轉身,to turn around,2
+Kilo,n.,das｜公斤,kilo,2
+negativ,adj.,負面的,negative,2
+Schild,n.,das｜招牌,sign,2
+verbrennen,v.,燒掉,to burn,2
+Kühlschrank,n.,der｜冰箱,refrigerator,2
+identifizieren,v.,識別,to identify,2
+Zentrale,n.,die｜總部,headquarters,2
+Jäger,n.,der｜獵人,hunter,2
+wenden,v.,轉向,to turn,2
+Start,n.,der｜開始；起飛,start; takeoff,2
+unglücklich,adj.,不快樂的,unhappy,2
+Sand,n.,der｜沙,sand,2
+Pfarrer,n.,der｜牧師,pastor,2
+Zauber,n.,der｜魔法,magic,2
+berühren,v.,觸摸,to touch,2
+Rückkehr,n.,die｜返回,return,2
+Hafen,n.,der｜港口,harbor,2
+verschwenden,v.,浪費,to waste,2
+Stahl,n.,der｜鋼,steel,2
+Affe,n.,der｜猴子,monkey,2
+Kindheit,n.,die｜童年,childhood,2
+vermeiden,v.,避免,to avoid,2
+Fabrik,n.,die｜工廠,factory,2
+aussagen,v.,作證,to testify,2
+Jungfrau,n.,die｜處女,virgin,2
+angenehm,adj.,愉快的,pleasant,2
+daheim,adv.,在家,at home,2
+klauen,v.,偷（口語）,to steal,2
+Geruch,n.,der｜氣味,smell,2
+ablehnen,v.,拒絕,to reject,2
+erstens,adv.,首先,firstly,2
+Abmachung,n.,die｜約定,deal,2
+Appetit,n.,der｜食慾,appetite,2
+verbergen,v.,隱藏,to hide,2
+berühmt,adj.,有名的,famous,2
+aussteigen,v.,下車,to get off,2
+betreten,v.,進入,to enter,2
+Manager,n.,der｜經理,manager,2
+Stellung,n.,die｜職位；姿勢,position,2
+Höhle,n.,die｜洞穴,cave,2
+Schokolade,n.,die｜巧克力,chocolate,2
+Belohnung,n.,die｜獎勵,reward,2
+Garage,n.,die｜車庫,garage,2
+Gepäck,n.,das｜行李,luggage,2
+telefonieren,v.,打電話,to phone,2
+informieren,v.,通知,to inform,2
+Jugend,n.,die｜青春,youth,2
+Feier,n.,die｜慶祝會,celebration,2
+Benzin,n.,das｜汽油,gasoline,2
+Mauer,n.,die｜牆,wall,2
+erneut,adv.,再次,again,2
+Flügel,n.,der｜翅膀,wing,2
+Abschluss,n.,der｜結束；畢業,conclusion; degree,2
+Gerücht,n.,das｜謠言,rumor,2
+Technik,n.,die｜技術,technology,2
+bezweifeln,v.,懷疑,to doubt,2
+Anzeige,n.,die｜廣告；報案,ad; report,2
+Ergebnis,n.,das｜結果,result,2
+Bedingung,n.,die｜條件,condition,2
+Eile,n.,die｜匆忙,hurry,2
+innen,adv.,在裡面,inside,2
+einig,adj.,一致的,agreed,2
+verhandeln,v.,談判,to negotiate,2
+nützlich,adj.,有用的,useful,2
+Warnung,n.,die｜警告,warning,2
+Gemeinde,n.,die｜社區；鄉鎮,community; municipality,2
+Diamant,n.,der｜鑽石,diamond,2
+gewöhnlich,adj.,普通的,ordinary,2
+Seil,n.,das｜繩子,rope,2
+Bär,n.,der｜熊,bear,2
+Euro,n.,der｜歐元,euro,2
+Ware,n.,die｜商品,goods,2
+Figur,n.,die｜身材；人物,figure,2
+Roboter,n.,der｜機器人,robot,2
+kürzlich,adv.,最近,recently,2
+Material,n.,das｜材料,material,2
+Käfig,n.,der｜籠子,cage,2
+Fantasie,n.,die｜想像力,imagination,2
+Satz,n.,der｜句子,sentence,2
+Kommissar,n.,der｜警探,inspector,2
+nass,adj.,濕的,wet,2
+rächen,v.,（sich）報仇,to take revenge,2
+begrüßen,v.,問候；歡迎,to greet; to welcome,2
+überraschen,v.,使驚訝,to surprise,2
+Führung,n.,die｜領導；導覽,leadership; guided tour,2
+gestehen,v.,坦白,to confess,2
+Unterlagen,n.,die｜文件,documents,2
+Palast,n.,der｜宮殿,palace,2
+graben,v.,挖,to dig,2
+Kette,n.,die｜鏈子,chain,2
+auftauchen,v.,出現,to turn up,2
+Terrorist,n.,der｜恐怖分子,terrorist,2
+bekämpfen,v.,對抗,to fight,2
+Lärm,n.,der｜噪音,noise,2
+flehen,v.,懇求,to beg,2
+aufwachsen,v.,長大,to grow up,2
+Arbeiter,n.,der｜工人,worker,2
+Humor,n.,der｜幽默,humor,2
+betrachten,v.,觀看；認為,to look at; to regard,2
+Organisation,n.,die｜組織,organization,2
+Widerstand,n.,der｜抵抗,resistance,2
+Studio,n.,das｜工作室,studio,2
+Hausaufgabe,n.,die｜家庭作業,homework,2
+Teller,n.,der｜盤子,plate,2
+Original,n.,das｜原版,original,2
+Revolution,n.,die｜革命,revolution,2
+verbinden,v.,連接,to connect,2
+Ermittlung,n.,die｜調查,investigation,2
+Wäsche,n.,die｜洗的衣物,laundry,2
+Rätsel,n.,das｜謎,riddle,2
+versetzen,v.,調職；移動,to transfer; to move,2
+Bibel,n.,die｜聖經,Bible,2
+Kopie,n.,die｜副本,copy,2
+besitzen,v.,擁有,to own,2
+ungewöhnlich,adj.,不尋常的,unusual,2
+Höhe,n.,die｜高度,height,2
+beschreiben,v.,描述,to describe,2
+notwendig,adj.,必要的,necessary,2
+ignorieren,v.,忽視,to ignore,2
+Narr,n.,der｜傻瓜,fool,2
+höchstens,adv.,最多,at most,2
+übersehen,v.,忽略,to overlook,2
+darunter,adv.,在下面；其中,under it; among them,2
+außen,adv.,在外面,outside,2
+Fahrrad,n.,das｜腳踏車,bicycle,2
+bequem,adj.,舒適的,comfortable,2
+Rauch,n.,der｜煙,smoke,2
+Hubschrauber,n.,der｜直升機,helicopter,2
+Kollegin,n.,die｜女同事,colleague (female),2
+Konto,n.,das｜帳戶,account,2
+Haken,n.,der｜鉤子,hook,2
+Munition,n.,die｜彈藥,ammunition,2
+Sünde,n.,die｜罪,sin,2
+Militär,n.,das｜軍方,military,2
+Hintergrund,n.,der｜背景,background,2
+Tipp,n.,der｜提示,tip,2
+reißen,v.,撕,to tear,2
+genial,adj.,天才的,brilliant,2
+Kram,n.,der｜雜物,stuff,2
+umziehen,v.,搬家；換衣服,to move; to change clothes,2
+zunächst,adv.,首先,first,2
+typisch,adj.,典型的,typical,2
+Technologie,n.,die｜技術,technology,2
+unhöflich,adj.,無禮的,rude,2
+Universität,n.,die｜大學,university,2
+Mai,n.,der｜五月,May,2
+heben,v.,舉起,to lift,2
+Koch,n.,der｜廚師,cook,2
+Katastrophe,n.,die｜災難,catastrophe,2
+Prüfung,n.,die｜考試,exam,2
+Versicherung,n.,die｜保險,insurance,2
+Ehefrau,n.,die｜妻子,wife,2
+mitmachen,v.,參加,to join in,2
+tauschen,v.,交換,to exchange,2
+einstellen,v.,雇用；調整,to hire; to adjust,2
+reagieren,v.,反應,to react,2
+senden,v.,發送,to send,2
+Reporter,n.,der｜記者,reporter,2
+anhören,v.,聽,to listen to,2
+Bibliothek,n.,die｜圖書館,library,2
+Motiv,n.,das｜動機,motive,2
+schalten,v.,切換,to switch,2
+Gewicht,n.,das｜重量,weight,2
+Badezimmer,n.,das｜浴室,bathroom,2
+schieben,v.,推,to push,2
+weich,adj.,軟的,soft,2
+Drache,n.,der｜龍,dragon,2
+Bahnhof,n.,der｜火車站,train station,2
+erschöpft,adj.,筋疲力盡的,exhausted,2
+Spanisch,n.,das｜西班牙語,Spanish,2
+Verrat,n.,der｜背叛,betrayal,2
+Legende,n.,die｜傳說,legend,2
+taub,adj.,聾的,deaf,2
+Konzert,n.,das｜音樂會,concert,2
+doppelt,adj.,雙倍的,double,2
+Vergleich,n.,der｜比較,comparison,2
+herzlich,adj.,熱誠的,warm; cordial,2
+genügen,v.,足夠,to suffice,2
+Besucher,n.,der｜訪客,visitor,2
+großzügig,adj.,慷慨的,generous,2
+leihen,v.,借,to lend; to borrow,2
+Einstellung,n.,die｜態度；設定,attitude; setting,2
+köstlich,adj.,美味的,delicious,2
+Sklave,n.,der｜奴隸,slave,2
+Laune,n.,die｜心情,mood,2
+Stille,n.,die｜寂靜,silence,2
+Asche,n.,die｜灰燼,ash,2
+Spion,n.,der｜間諜,spy,2
+Weihnachtsmann,n.,der｜聖誕老人,Santa Claus,2
+hervorragend,adj.,傑出的,excellent,2
+verärgert,adj.,生氣的,annoyed,2
+Puppe,n.,die｜玩偶,doll,2
+Überfall,n.,der｜搶劫,robbery; raid,2
+unwichtig,adj.,不重要的,unimportant,2
+link,adj.,左的,left,2
+Übung,n.,die｜練習,exercise,2
+Schwäche,n.,die｜弱點,weakness,2
+Couch,n.,die｜沙發,couch,2
+Cousine,n.,die｜表姊妹,cousin (female),2
+Ausdruck,n.,der｜表達,expression,2
+pleite,adj.,破產的,broke,2
+beleidigt,adj.,被冒犯的,offended,2
+Knopf,n.,der｜按鈕,button,2
+heimlich,adj.,秘密的,secret,2
+eingehen,v.,接受；涉及,to accept; to go into,2
+Rad,n.,das｜輪子；腳踏車,wheel; bike,2
+mächtig,adj.,強大的,powerful,2
+sinnlos,adj.,無意義的,pointless,2
+versauen,v.,搞砸,to mess up,2
+Netz,n.,das｜網,net; network,2
+Atem,n.,der｜呼吸,breath,2
+anstellen,v.,雇用；做（傻事）,to hire; to get up to,2
+Milliarde,n.,die｜十億,billion,2
+Flotte,n.,die｜艦隊,fleet,2
+Umgebung,n.,die｜周圍環境,surroundings,2
+mitbringen,v.,帶來,to bring along,2
+beteiligt,adj.,參與的,involved,2
+schämen,v.,（sich）羞愧,to be ashamed,2
+Erwachsene,n.,der｜成年人,adult,2
+durchsuchen,v.,搜查,to search,2
+rollen,v.,滾動,to roll,2
+Trick,n.,der｜把戲,trick,2
+Sender,n.,der｜電台；發射器,station; transmitter,2
+räumen,v.,清理,to clear,2
+Ausrede,n.,die｜藉口,excuse,2
+Jahreszeit,n.,die｜季節,season,2
+romantisch,adj.,浪漫的,romantic,2
+flüstern,v.,低語,to whisper,2
+bedanken,v.,（sich）道謝,to thank,2
+Pilot,n.,der｜飛行員,pilot,2
+reizend,adj.,迷人的,charming,2
+Leib,n.,der｜身體,body,2
+Ärztin,n.,die｜女醫生,doctor (female),2
+vergewaltigen,v.,強暴,to rape,2
+Lieferung,n.,die｜交貨,delivery,2
+Botschafter,n.,der｜大使,ambassador,2
+duschen,v.,淋浴,to shower,2
+Kopfschmerzen,n.,die｜頭痛,headache,2
+Öl,n.,das｜油,oil,2
+Sekretärin,n.,die｜祕書,secretary,2
+Phase,n.,die｜階段,phase,2
+Handschellen,n.,die｜手銬,handcuffs,2
+Bande,n.,die｜幫派,gang,2
+treu,adj.,忠誠的,loyal,2
+positiv,adj.,正面的,positive,2
+Museum,n.,das｜博物館,museum,2
+Albtraum,n.,der｜惡夢,nightmare,2
+verlobt,adj.,訂婚的,engaged,2
+Personal,n.,das｜員工,staff,2
+bewaffnet,adj.,武裝的,armed,2
+wecken,v.,叫醒,to wake (someone),2
+Wirkung,n.,die｜效果,effect,2
+Therapie,n.,die｜治療,therapy,2
+amüsieren,v.,（sich）玩得開心,to have fun,2
+ordentlich,adj.,整齊的,tidy; proper,2
+weglaufen,v.,逃跑,to run away,2
+nähern,v.,（sich）接近,to approach,2
+Leutnant,n.,der｜中尉,lieutenant,2
+Zauberer,n.,der｜魔法師,wizard,2
+Ankunft,n.,die｜抵達,arrival,2
+Abstand,n.,der｜距離,distance,2
+Bewusstsein,n.,das｜意識,consciousness,2
+Nation,n.,die｜國家,nation,2
+Treffer,n.,der｜命中,hit,2
+abnehmen,v.,減重；接（電話）,to lose weight; to answer,2
+Tempel,n.,der｜寺廟,temple,2
+vergiften,v.,下毒,to poison,2
+August,n.,der｜八月,August,2
+Ausrüstung,n.,die｜裝備,equipment,2
+Segen,n.,der｜祝福,blessing,2
+Kehle,n.,die｜喉嚨,throat,2
+Krone,n.,die｜王冠,crown,2
+garantieren,v.,保證,to guarantee,2
+Ladung,n.,die｜貨物；電荷,load; charge,2
+hell,adj.,明亮的,bright,2
+Kapitel,n.,das｜章,chapter,2
+Alibi,n.,das｜不在場證明,alibi,2
+Bestie,n.,die｜野獸,beast,2
+nirgends,adv.,無處,nowhere,2
+Wohnzimmer,n.,das｜客廳,living room,2
+Beute,n.,die｜獵物；贓物,prey; loot,2
+Durst,n.,der｜口渴,thirst,2
+schmutzig,adj.,髒的,dirty,2
+Liebhaber,n.,der｜情人；愛好者,lover; enthusiast,2
+ersetzen,v.,取代,to replace,2
+Juli,n.,der｜七月,July,2
+Verfahren,n.,das｜程序；訴訟,procedure; proceedings,2
+Stiefel,n.,der｜靴子,boot,2
+Hitze,n.,die｜熱,heat,2
+Spielzeug,n.,das｜玩具,toy,2
+Wolle,n.,die｜羊毛,wool,2
+Zone,n.,die｜區域,zone,2
+trocken,adj.,乾的,dry,2
+heulen,v.,嚎哭,to howl; to cry,2
+entschlossen,adj.,堅決的,determined,2
+Paket,n.,das｜包裹,package,2
+Ausweg,n.,der｜出路,way out,2
+Schmuck,n.,der｜珠寶,jewelry,2
+Ausgang,n.,der｜出口,exit,2
+illegal,adj.,非法的,illegal,2
+Ferien,n.,die｜假期（複數）,holidays,2
+Geisel,n.,die｜人質,hostage,2
+segnen,v.,祝福,to bless,2
+Steuer,n.,die｜稅；das｜方向盤,tax; steering wheel,2
+Raumschiff,n.,das｜太空船,spaceship,2
+Ausbildung,n.,die｜培訓,training; education,2
+Klavier,n.,das｜鋼琴,piano,2
+Hauptsache,n.,die｜重點,main thing,2
+Admiral,n.,der｜海軍上將,admiral,2
+entgegen,prep.,迎著；違反,towards; contrary to,2
+Strecke,n.,die｜路段；距離,route; distance,2
+Version,n.,die｜版本,version,2
+hilfreich,adj.,有幫助的,helpful,2
+jahrelang,adv.,多年,for years,2
+Küste,n.,die｜海岸,coast,2
+Behörde,n.,die｜當局,authority,2
+Gruß,n.,der｜問候,greeting,3
+Puls,n.,der｜脈搏,pulse,3
+Rettung,n.,die｜救援,rescue,3
+widerlich,adj.,噁心的,disgusting,3
+Flur,n.,der｜走廊,hallway,3
+Parkplatz,n.,der｜停車場,parking lot,3
+Laster,n.,der｜卡車；das｜惡習,truck; vice,3
+sozusagen,adv.,可以說,so to speak,3
+Mittwoch,n.,der｜星期三,Wednesday,3
+abwarten,v.,等待,to wait and see,3
+Vision,n.,die｜願景,vision,3
+Schauspielerin,n.,die｜女演員,actress,3
+Friedhof,n.,der｜墓地,cemetery,3
+Irrtum,n.,der｜錯誤,error,3
+Klient,n.,der｜委託人,client,3
+nerven,v.,惹惱,to annoy,3
+trainieren,v.,訓練,to train,3
+Gegenwart,n.,die｜現在,present,3
+zurückbringen,v.,帶回,to bring back,3
+Protokoll,n.,das｜紀錄,record; minutes,3
+Student,n.,der｜大學生,student,3
+durchaus,adv.,完全,absolutely,3
+grausam,adj.,殘忍的,cruel,3
+verwickelt,adj.,捲入的,involved,3
+apropos,adv.,說到,speaking of,3
+ansonsten,adv.,否則,otherwise,3
+Missverständnis,n.,das｜誤會,misunderstanding,3
+Motorrad,n.,das｜摩托車,motorcycle,3
+blicken,v.,看,to look,3
+diskutieren,v.,討論,to discuss,3
+pinkeln,v.,小便,to pee,3
+Huhn,n.,das｜雞,chicken,3
+erheben,v.,舉起,to raise,3
+Paradies,n.,das｜天堂,paradise,3
+Tagebuch,n.,das｜日記,diary,3
+jenseits,prep.,在…另一邊,beyond,3
+pfeifen,v.,吹口哨,to whistle,3
+enttäuschen,v.,使失望,to disappoint,3
+Konsequenz,n.,die｜後果,consequence,3
+Fleck,n.,der｜污點,stain,3
+Führerschein,n.,der｜駕照,driver's license,3
+Enkel,n.,der｜孫子,grandson,3
+Stift,n.,der｜筆,pen,3
+Interview,n.,das｜訪談,interview,3
+riesig,adj.,巨大的,huge,3
+Aussicht,n.,die｜景色；前景,view; prospect,3
+wiederkommen,v.,再來,to come back,3
+Werbung,n.,die｜廣告,advertising,3
+Anblick,n.,der｜景象,sight,3
+einzeln,adj.,單獨的,individual,3
+Teppich,n.,der｜地毯,carpet,3
+Handel,n.,der｜貿易,trade,3
+Trainer,n.,der｜教練,coach,3
+Kämpfer,n.,der｜戰士,fighter,3
+Bedenken,n.,das｜顧慮,concern,3
+Sitzung,n.,die｜會議,meeting; session,3
+tapfer,adj.,勇敢的,brave,3
+Experiment,n.,das｜實驗,experiment,3
+Tiefe,n.,die｜深度,depth,3
+abhalten,v.,阻止；舉行,to keep from; to hold,3
+löschen,v.,刪除；熄滅,to delete; to extinguish,3
+mies,adj.,糟糕的,lousy,3
+Sarg,n.,der｜棺材,coffin,3
+vertragen,v.,忍受；（sich）和睦,to tolerate; to get along,3
+beißen,v.,咬,to bite,3
+Tradition,n.,die｜傳統,tradition,3
+soeben,adv.,剛剛,just now,3
+attraktiv,adj.,有吸引力的,attractive,3
+Begriff,n.,der｜概念,concept; term,3
+versichern,v.,保證；投保,to assure; to insure,3
+mitteilen,v.,通知,to inform,3
+gemütlich,adj.,舒適的,cozy,3
+Muster,n.,das｜圖案；模式,pattern,3
+überwachen,v.,監視,to monitor,3
+einschlafen,v.,入睡,to fall asleep,3
+vorbeikommen,v.,順道拜訪,to drop by,3
+Sandwich,n.,das｜三明治,sandwich,3
+Gewinner,n.,der｜贏家,winner,3
+Verständnis,n.,das｜理解,understanding,3
+Papst,n.,der｜教宗,pope,3
+Toast,n.,der｜吐司；祝酒,toast,3
+einsteigen,v.,上車,to get in,3
+Löwe,n.,der｜獅子,lion,3
+einsetzen,v.,使用；投入,to use; to deploy,3
+Gewinn,n.,der｜利潤,profit,3
+schüchtern,adj.,害羞的,shy,3
+Pflanze,n.,die｜植物,plant,3
+Modell,n.,das｜模型,model,3
+heftig,adj.,激烈的,violent; intense,3
+Vorfall,n.,der｜事件,incident,3
+Motel,n.,das｜汽車旅館,motel,3
+Zirkus,n.,der｜馬戲團,circus,3
+Ruhm,n.,der｜名聲,fame,3
+zurzeit,adv.,目前,currently,3
+ausmachen,v.,關掉；介意,to turn off; to mind,3
+Rezept,n.,das｜食譜；處方,recipe; prescription,3
+Geschwindigkeit,n.,die｜速度,speed,3
+beliebt,adj.,受歡迎的,popular,3
+verpflichtet,adj.,有義務的,obliged,3
+Betrüger,n.,der｜騙子,fraudster,3
+lohnen,v.,（sich）值得,to be worth it,3
+Märchen,n.,das｜童話,fairy tale,3
+Hügel,n.,der｜山丘,hill,3
+Königreich,n.,das｜王國,kingdom,3
+kehren,v.,轉；掃,to turn; to sweep,3
+Chinese,n.,der｜中國人,Chinese person,3
+malen,v.,畫,to paint,3
+Kofferraum,n.,der｜後車廂,trunk (car),3
+Bursche,n.,der｜小伙子,lad,3
+Geständnis,n.,das｜供詞,confession,3
+begreifen,v.,理解,to comprehend,3
+Blitz,n.,der｜閃電,lightning,3
+Furcht,n.,die｜恐懼,fear,3
+verteilen,v.,分發,to distribute,3
+bezüglich,prep.,關於,regarding,3
+faszinierend,adj.,迷人的,fascinating,3
+aufmerksam,adj.,專注的,attentive,3
+Aufregung,n.,die｜激動,excitement,3
+Entführung,n.,die｜綁架,kidnapping,3
+keuchen,v.,喘息,to pant,3
+Felsen,n.,der｜岩石,rock,3
+Zorn,n.,der｜憤怒,wrath,3
+tauchen,v.,潛水,to dive,3
+bestimmen,v.,決定,to determine,3
+Verkehr,n.,der｜交通,traffic,3
+Generation,n.,die｜世代,generation,3
+ausrichten,v.,轉達,to pass on (a message),3
+Ausnahme,n.,die｜例外,exception,3
+Ebene,n.,die｜平原；層面,plain; level,3
+herrlich,adj.,美好的,wonderful,3
+stürzen,v.,跌倒；衝,to fall; to rush,3
+Herausforderung,n.,die｜挑戰,challenge,3
+gefälligst,adv.,（不耐煩地）請,kindly (impatient),3
+Tempo,n.,das｜速度,pace,3
+unterbrechen,v.,打斷,to interrupt,3
+täuschen,v.,欺騙,to deceive,3
+Tal,n.,das｜山谷,valley,3
+Witwe,n.,die｜寡婦,widow,3
+sichern,v.,保護；確保,to secure,3
+Gerede,n.,das｜閒話,gossip,3
+Betrug,n.,der｜詐欺,fraud,3
+Trauer,n.,die｜哀悼,grief,3
+Anwesenheit,n.,die｜出席,presence,3
+bilden,v.,形成,to form,3
+Ausflug,n.,der｜郊遊,excursion,3
+Rand,n.,der｜邊緣,edge,3
+rechnen,v.,計算,to calculate,3
+Aufzug,n.,der｜電梯,elevator,3
+befragen,v.,詢問,to question,3
+wegnehmen,v.,拿走,to take away,3
+Abschied,n.,der｜告別,farewell,3
+benötigen,v.,需要,to need,3
+Amt,n.,das｜機關；職位,office,3
+Beginn,n.,der｜開始,beginning,3
+Daumen,n.,der｜拇指,thumb,3
+Koma,n.,das｜昏迷,coma,3
+bewusstlos,adj.,失去知覺的,unconscious,3
+höflich,adj.,有禮貌的,polite,3
+absichtlich,adv.,故意地,deliberately,3
+vermasseln,v.,搞砸,to mess up,3
+verschlossen,adj.,鎖著的,locked,3
+sowie,conj.,以及,as well as,3
+Gesang,n.,der｜歌唱,singing,3
+Religion,n.,die｜宗教,religion,3
+Unterschrift,n.,die｜簽名,signature,3
+Rose,n.,die｜玫瑰,rose,3
+Fortschritt,n.,der｜進步,progress,3
+Eingang,n.,der｜入口,entrance,3
+Kultur,n.,die｜文化,culture,3
+Patientin,n.,die｜女病人,patient (female),3
+explodieren,v.,爆炸,to explode,3
+Nichte,n.,die｜姪女,niece,3
+verzichten,v.,放棄,to do without,3
+Existenz,n.,die｜存在,existence,3
+Drehbuch,n.,das｜劇本,screenplay,3
+ohnmächtig,adj.,昏厥的,unconscious,3
+Zaun,n.,der｜籬笆,fence,3
+privat,adj.,私人的,private,3
+Wächter,n.,der｜守衛,guard,3
+Eimer,n.,der｜桶,bucket,3
+blasen,v.,吹,to blow,3
+Rakete,n.,die｜火箭,rocket,3
+Salz,n.,das｜鹽,salt,3
+unfair,adj.,不公平的,unfair,3
+Esel,n.,der｜驢子,donkey,3
+Krankenschwester,n.,die｜護士,nurse,3
+Symbol,n.,das｜符號,symbol,3
+Fahrzeug,n.,das｜車輛,vehicle,3
+Unterwäsche,n.,die｜內衣,underwear,3
+Engländer,n.,der｜英國人,Englishman,3
+Tropfen,n.,der｜滴,drop,3
+Café,n.,das｜咖啡館,café,3
+verhungern,v.,餓死,to starve,3
+September,n.,der｜九月,September,3
+Aktion,n.,die｜行動,action,3
+übertrieben,adj.,誇張的,exaggerated,3
+Heilmittel,n.,das｜藥物,remedy,3
+Apparat,n.,der｜裝置,device,3
+friedlich,adj.,和平的,peaceful,3
+Zuschauer,n.,der｜觀眾,spectator,3
+Teenager,n.,der｜青少年,teenager,3
+lediglich,adv.,僅僅,merely,3
+Charakter,n.,der｜性格,character,3
+Staffel,n.,die｜季（影集）；接力,season; relay,3
+putzen,v.,打掃,to clean,3
+Einbruch,n.,der｜闖空門,burglary,3
+Kostüm,n.,das｜服裝,costume,3
+verschieben,v.,延後,to postpone,3
+Verspätung,n.,die｜延誤,delay,3
+Thron,n.,der｜王位,throne,3
+Zelt,n.,das｜帳篷,tent,3
+Akzent,n.,der｜口音,accent,3
+übertragen,v.,轉播；轉移,to broadcast; to transfer,3
+Kompliment,n.,das｜讚美,compliment,3
+Flamme,n.,die｜火焰,flame,3
+erschrecken,v.,嚇到,to frighten,3
+Gemälde,n.,das｜畫作,painting,3
+Mannschaft,n.,die｜隊,team,3
+Loyalität,n.,die｜忠誠,loyalty,3
+vertreten,v.,代表,to represent,3
+Verhandlung,n.,die｜審理；談判,hearing; negotiation,3
+brüllen,v.,吼,to roar,3
+füllen,v.,填滿,to fill,3
+letztendlich,adv.,最終,ultimately,3
+Krise,n.,die｜危機,crisis,3
+Verlierer,n.,der｜輸家,loser,3
+Keks,n.,der｜餅乾,cookie,3
+ausschalten,v.,關掉,to switch off,3
+Profi,n.,der｜專業人士,pro,3
+Gelächter,n.,das｜笑聲,laughter,3
+Einspruch,n.,der｜異議,objection,3
+angeln,v.,釣魚,to fish,3
+Kaution,n.,die｜保釋金；押金,bail; deposit,3
+Summe,n.,die｜總額,sum,3
+billig,adj.,便宜的,cheap,3
+Juni,n.,der｜六月,June,3
+festnehmen,v.,逮捕,to arrest,3
+befehlen,v.,命令,to order,3
+Koordinaten,n.,die｜座標,coordinates,3
+Herzinfarkt,n.,der｜心臟病發,heart attack,3
+hinlegen,v.,放下；躺下,to put down; to lie down,3
+Nahrung,n.,die｜食物,food,3
+nebenbei,adv.,順便,incidentally,3
+Nebel,n.,der｜霧,fog,3
+Front,n.,die｜前線,front,3
+Veränderung,n.,die｜變化,change,3
+kontaktieren,v.,聯繫,to contact,3
+Brand,n.,der｜火災,fire,3
+Zwischenzeit,n.,die｜期間,meantime,3
+anlegen,v.,穿戴；投資,to put on; to invest,3
+Kreatur,n.,die｜生物,creature,3
+verderben,v.,腐壞；破壞,to spoil,3
+medizinisch,adj.,醫學的,medical,3
+besetzt,adj.,佔用的,occupied,3
+Zugriff,n.,der｜存取,access,3
+Kanal,n.,der｜頻道；運河,channel; canal,3
+Blutdruck,n.,der｜血壓,blood pressure,3
+ausgeben,v.,花費,to spend,3
+Clown,n.,der｜小丑,clown,3
+Hühnchen,n.,das｜雞肉,chicken,3
+aufbauen,v.,建立,to build up,3
+glatt,adj.,光滑的,smooth,3
+Indien,n.,das｜印度,India,3
+Autor,n.,der｜作者,author,3
+Verletzung,n.,die｜傷,injury,3
+Zwilling,n.,der｜雙胞胎,twin,3
+Praxis,n.,die｜診所；實踐,practice,3
+gründlich,adj.,徹底的,thorough,3
+Tragödie,n.,die｜悲劇,tragedy,3
+vollständig,adj.,完整的,complete,3
+Psychiater,n.,der｜精神科醫生,psychiatrist,3
+Rasse,n.,die｜種族；品種,race; breed,3
+Kummer,n.,der｜憂愁,sorrow,3
+Partei,n.,die｜政黨,party,3
+Zentrum,n.,das｜中心,center,3
+Testament,n.,das｜遺囑,will,3
+Entfernung,n.,die｜距離,distance,3
+verlegen,adj.,尷尬的,embarrassed,3
+Heroin,n.,das｜海洛因,heroin,3
+Gelände,n.,das｜地區,grounds; terrain,3
+Kutsche,n.,die｜馬車,carriage,3
+stabil,adj.,穩定的,stable,3
+ausgeschlossen,adj.,不可能的,out of the question,3
+Regisseur,n.,der｜導演,director,3
+vielmals,adv.,非常（感謝）,very much,3
+Erbe,n.,das｜遺產；der｜繼承人,inheritance; heir,3
+zuständig,adj.,負責的,responsible,3
+losgehen,v.,出發；開始,to set off; to start,3
+husten,v.,咳嗽,to cough,3
+brutal,adj.,殘暴的,brutal,3
+Bargeld,n.,das｜現金,cash,3
+zusammenarbeiten,v.,合作,to cooperate,3
+beunruhigt,adj.,不安的,worried,3
+innere,adj.,內部的,inner,3
+Kanone,n.,die｜大砲,cannon,3
+eklig,adj.,噁心的,gross,3
+öffentlich,adj.,公開的,public,3
+brillant,adj.,傑出的,brilliant,3
+Köder,n.,der｜誘餌,bait,3
+vorgehen,v.,進行；（錶）快,to proceed; to be fast,3
+Kleinigkeit,n.,die｜小事,trifle,3
+Kissen,n.,das｜枕頭,pillow,3
+gerecht,adj.,公平的,fair,3
+Trost,n.,der｜安慰,comfort,3
+Spinner,n.,der｜怪人,weirdo,3
+Vergebung,n.,die｜寬恕,forgiveness,3
+Vieh,n.,das｜牲畜,livestock,3
+fesseln,v.,綑綁,to tie up,3
+ekelhaft,adj.,噁心的,disgusting,3
+Salat,n.,der｜沙拉,salad,3
+Schicht,n.,die｜層；班,layer; shift,3
+intelligent,adj.,聰明的,intelligent,3
+Verhältnis,n.,das｜關係；比例,relationship; ratio,3
+Socke,n.,die｜襪子,sock,3
+Brieftasche,n.,die｜皮夾,wallet,3
+eventuell,adv.,可能,possibly,3
+Methode,n.,die｜方法,method,3
+gelangen,v.,到達,to reach,3
+gespannt,adj.,期待的,eager; curious,3
+Vernunft,n.,die｜理智,reason,3
+regnen,v.,下雨,to rain,3
+Drama,n.,das｜戲劇,drama,3
+Sprung,n.,der｜跳躍,jump,3
+anständig,adj.,正派的,decent,3
+Gangster,n.,der｜歹徒,gangster,3
+Aufzeichnung,n.,die｜紀錄,record; note,3
+Ofen,n.,der｜爐子,oven,3
+endgültig,adj.,最終的,final,3
+Wodka,n.,der｜伏特加,vodka,3
+respektieren,v.,尊重,to respect,3
+riskant,adj.,冒險的,risky,3
+Lohn,n.,der｜工資,wage,3
+zustimmen,v.,同意,to agree,3
+Schnaps,n.,der｜烈酒,schnapps,3
+Stufe,n.,die｜階段；台階,level; step,3
+erleichtert,adj.,鬆一口氣的,relieved,3
+Scheune,n.,die｜穀倉,barn,3
+Spaziergang,n.,der｜散步,walk,3
+Zettel,n.,der｜紙條,note; slip,3
+kotzen,v.,嘔吐（粗）,to puke,3
+Symptom,n.,das｜症狀,symptom,3
+Vorfahr,n.,der｜祖先,ancestor,3
+nutzlos,adj.,無用的,useless,3
+Telefonnummer,n.,die｜電話號碼,phone number,3
+nochmals,adv.,再一次,once again,3
+Medien,n.,die｜媒體,media,3
+faul,adj.,懶的；腐爛的,lazy; rotten,3
+Ereignis,n.,das｜事件,event,3
+aussuchen,v.,挑選,to choose,3
+verprügeln,v.,痛打,to beat up,3
+fabelhaft,adj.,極好的,fabulous,3
+Klinge,n.,die｜刀刃,blade,3
+Leistung,n.,die｜表現；成績,performance; achievement,3
+Beileid,n.,das｜慰問,condolence,3
+durchführen,v.,執行,to carry out,3
+eröffnen,v.,開設,to open,3
+Unschuld,n.,die｜無辜,innocence,3
+stoßen,v.,推；撞,to push; to bump,3
+genügend,adv.,足夠,enough,3
+Sofa,n.,das｜沙發,sofa,3
+gestatten,v.,允許,to permit,3
+Biest,n.,das｜野獸,beast,3
+auslösen,v.,觸發,to trigger,3
+Butter,n.,die｜奶油,butter,3
+Nachbarschaft,n.,die｜鄰里,neighborhood,3
+Villa,n.,die｜別墅,villa,3
+golden,adj.,金色的,golden,3
+Saft,n.,der｜果汁,juice,3
+begehen,v.,犯（罪）,to commit,3
+Hauptquartier,n.,das｜總部,headquarters,3
+Werkstatt,n.,die｜工坊,workshop,3
+überreden,v.,說服,to persuade,3
+Gemüse,n.,das｜蔬菜,vegetables,3
+Schläger,n.,der｜打手；球拍,thug; racket,3
+bewundern,v.,欽佩,to admire,3
+geschieden,adj.,離婚的,divorced,3
+Assistentin,n.,die｜女助理,assistant (female),3
+Wettbewerb,n.,der｜比賽；競爭,competition,3
+Sieger,n.,der｜勝利者,winner,3
+Verfassung,n.,die｜憲法；狀態,constitution; condition,3
+Fußball,n.,der｜足球,soccer,3
+füttern,v.,餵,to feed,3
+Gürtel,n.,der｜腰帶,belt,3
+eigenartig,adj.,奇特的,peculiar,3
+Kabel,n.,das｜電纜,cable,3
+Leine,n.,die｜繩；狗繩,line; leash,3
+Beschreibung,n.,die｜描述,description,3
+beschädigt,adj.,受損的,damaged,3
+Grundstück,n.,das｜地產,property; plot,3
+Bahn,n.,die｜鐵路；軌道,railway; track,3
+Turm,n.,der｜塔,tower,3
+Mine,n.,die｜礦；地雷,mine,3
+Sauerstoff,n.,der｜氧氣,oxygen,3
+angesichts,prep.,鑑於,in view of,3
+Versager,n.,der｜失敗者,failure; loser,3
+deinetwegen,adv.,因為你,because of you,3
+anklagen,v.,起訴,to charge,3
+baden,v.,洗澡,to bathe,3
+knacken,v.,破解,to crack,3
+Panzer,n.,der｜坦克,tank,3
+Bach,n.,der｜小溪,stream,3
+Zerstörung,n.,die｜破壞,destruction,3
+Stirn,n.,die｜額頭,forehead,3
+sanft,adj.,溫柔的,gentle,3
+Kloster,n.,das｜修道院,monastery,3
+charmant,adj.,迷人的,charming,3
+Anlass,n.,der｜場合,occasion,3
+verlieben,v.,（sich）愛上,to fall in love,3
+Atmosphäre,n.,die｜氣氛,atmosphere,3
+Leber,n.,die｜肝,liver,3
+jener,pron.,那個,that,3
+dämlich,adj.,愚蠢的,stupid,3
+Krawatte,n.,die｜領帶,tie,3
+Tarnung,n.,die｜偽裝,camouflage; cover,3
+Kanada,n.,das｜加拿大,Canada,3
+Tablette,n.,die｜藥片,tablet,3
+Faust,n.,die｜拳頭,fist,3
+auftreten,v.,出現；表演,to appear; to perform,3
+Blatt,n.,das｜葉子；一張,leaf; sheet,3
+Dschungel,n.,der｜叢林,jungle,3
+niedlich,adj.,可愛的,cute,3
+Klage,n.,die｜訴訟；抱怨,lawsuit; complaint,3
+Schießerei,n.,die｜槍戰,shootout,3
+Anwältin,n.,die｜女律師,lawyer (female),3
+Frisur,n.,die｜髮型,hairstyle,3
+Spruch,n.,der｜格言；台詞,saying; line,3
+Moral,n.,die｜道德,morality,3
+Dokument,n.,das｜文件,document,3
+fröhlich,adj.,快樂的,cheerful,3
+Spezies,n.,die｜物種,species,3
+Oktober,n.,der｜十月,October,3
+Schachtel,n.,die｜盒子,box,3
+Note,n.,die｜成績；音符,grade; note,3
+Brunnen,n.,der｜井；噴泉,well; fountain,3
+Lampe,n.,die｜燈,lamp,3
+Eigentum,n.,das｜財產,property,3
+Diebstahl,n.,der｜竊盜,theft,3
+spenden,v.,捐贈,to donate,3
+Betrieb,n.,der｜企業；運作,business; operation,3
+absurd,adj.,荒謬的,absurd,3
+Gegensatz,n.,der｜對比,contrast,3
+Frühling,n.,der｜春天,spring,3
+dünn,adj.,瘦的；薄的,thin,3
+Ausland,n.,das｜國外,abroad,3
+Entwicklung,n.,die｜發展,development,3
+vergehen,v.,流逝,to pass (time),3
+ahnen,v.,預感,to suspect; to sense,3
+verbessern,v.,改善,to improve,3
+Herzog,n.,der｜公爵,duke,3
+Diskussion,n.,die｜討論,discussion,3
+Gehalt,n.,das｜薪水,salary,3
+Glocke,n.,die｜鐘,bell,3
+Forschung,n.,die｜研究,research,3
+geradeaus,adv.,直走,straight ahead,3
+Kasse,n.,die｜收銀台,cash register; checkout,3
+tödlich,adj.,致命的,deadly,3
+Oberfläche,n.,die｜表面,surface,3
+Gitarre,n.,die｜吉他,guitar,3
+bedienen,v.,服務；操作,to serve; to operate,3
+Zwang,n.,der｜強迫,compulsion,3
+Politiker,n.,der｜政治家,politician,3
+vereint,adj.,聯合的,united,3
+Werkzeug,n.,das｜工具,tool,3
+Neffe,n.,der｜姪子,nephew,3
+Bevölkerung,n.,die｜人口,population,3
+Service,n.,der｜服務,service,3
+Vorschrift,n.,die｜規定,regulation,3
+beherrschen,v.,掌握；控制,to master; to control,3
+auswählen,v.,選擇,to select,3
+herunter,adv.,下來,down,3
+Schriftsteller,n.,der｜作家,writer,3
+andererseits,adv.,另一方面,on the other hand,3
+üblich,adj.,通常的,usual,3
+Jury,n.,die｜評審團,jury,3
+ausdenken,v.,想出,to think up,3
+feige,adj.,膽小的,cowardly,3
+Möbel,n.,das｜家具,furniture,3
+Bewährung,n.,die｜緩刑,probation,3
+umgeben,v.,圍繞,to surround,3
+Berater,n.,der｜顧問,advisor,3
+Zoo,n.,der｜動物園,zoo,3
+Gedicht,n.,das｜詩,poem,3
+bellen,v.,吠,to bark,3
+vorschlagen,v.,建議,to suggest,3
+Trennung,n.,die｜分離,separation,3
+Lautsprecher,n.,der｜喇叭,loudspeaker,3
+Ticket,n.,das｜票,ticket,3
+umwerfend,adj.,驚艷的,stunning,3
+Kanzlei,n.,die｜事務所,law office,3
+zufolge,prep.,根據,according to,3
+Anschlag,n.,der｜襲擊,attack,3
+Etage,n.,die｜樓層,floor,3
+dazwischen,adv.,在中間,in between,3
+Objekt,n.,das｜物體,object,3
+bedauern,v.,遺憾,to regret,3
+Kokain,n.,das｜古柯鹼,cocaine,3
+Strategie,n.,die｜策略,strategy,3
+Wolke,n.,die｜雲,cloud,3
+Gräfin,n.,die｜伯爵夫人,countess,3
+Fuchs,n.,der｜狐狸,fox,3
+aktiv,adj.,活躍的,active,3
+Reis,n.,der｜米,rice,3
+logisch,adj.,合邏輯的,logical,3
+Bekannte,n.,der｜熟人,acquaintance,3
+engagiert,adj.,投入的,committed,3
+manipulieren,v.,操縱,to manipulate,3
+schmeißen,v.,扔,to throw,3
+unterrichten,v.,教,to teach,3
+verschaffen,v.,提供；取得,to provide; to obtain,3
+Persönlichkeit,n.,die｜個性,personality,3
+streichen,v.,塗；刪除,to paint; to cancel,3
+Weisheit,n.,die｜智慧,wisdom,3
+zielen,v.,瞄準,to aim,3
+erhöhen,v.,提高,to raise,3
+Kamerad,n.,der｜同志,comrade,3
+Premierminister,n.,der｜首相,prime minister,3
+übernachten,v.,過夜,to stay overnight,3
+infiziert,adj.,受感染的,infected,3
+Kredit,n.,der｜貸款,loan,3
+Jubel,n.,der｜歡呼,cheering,3
+bewachen,v.,看守,to guard,3
+lehren,v.,教,to teach,3
+präsentieren,v.,展示,to present,3
+Nacken,n.,der｜後頸,neck,3
+auflegen,v.,掛斷,to hang up,3
+sprengen,v.,炸毀,to blow up,3
+einsperren,v.,關起來,to lock up,3
+Zusammenhang,n.,der｜關聯,connection; context,3
+breit,adj.,寬的,wide,3
+Pfeife,n.,die｜哨子；菸斗,whistle; pipe,3
+beschuldigen,v.,指責,to accuse,3
+Nadel,n.,die｜針,needle,3
+Apfel,n.,der｜蘋果,apple,3
+behilflich,adj.,有幫助的,helpful,3
+Mitgefühl,n.,das｜同情,sympathy,3
+Heirat,n.,die｜婚姻,marriage,3
+exakt,adj.,精確的,exact,3
+widerstehen,v.,抵抗,to resist,3
+Sau,n.,die｜母豬,sow,3
+Notaufnahme,n.,die｜急診室,emergency room,3
+Verwandte,n.,der｜親戚,relative,3
+Trinkgeld,n.,das｜小費,tip,3
+ermitteln,v.,調查,to investigate,3
+Sorte,n.,die｜種類,kind; sort,3
+Kartoffel,n.,die｜馬鈴薯,potato,3
+Elefant,n.,der｜大象,elephant,3
+sämtlich,adj.,所有的,all,3
+kündigen,v.,辭職；解約,to quit; to cancel,3
+Vereinbarung,n.,die｜協議,agreement,3
+harmlos,adj.,無害的,harmless,3
+Datum,n.,das｜日期,date,3
+Kerze,n.,die｜蠟燭,candle,3
+Marsch,n.,der｜行軍,march,3
+unbekannt,adj.,未知的,unknown,3
+Manieren,n.,die｜禮貌,manners,3
+enthalten,v.,包含,to contain,3
+Rasen,n.,der｜草坪,lawn,3
+empfehlen,v.,推薦,to recommend,3
+befördern,v.,晉升；運送,to promote; to transport,3
+Reiter,n.,der｜騎士,rider,3
+empfinden,v.,感受,to feel,3
+absagen,v.,取消,to cancel,3
+quasi,adv.,幾乎,virtually,3
+hinunter,adv.,向下,down,3
+ausdrücken,v.,表達,to express,3
+Rebell,n.,der｜叛軍,rebel,3
+hauptsächlich,adv.,主要地,mainly,3
+Schuppen,n.,der｜棚屋,shed,3
+zwanzig,n.,二十,twenty,3
+Einrichtung,n.,die｜設施；家具,facility; furnishings,3
+November,n.,der｜十一月,November,3
+Sensor,n.,der｜感測器,sensor,3
+Alternative,n.,die｜替代方案,alternative,3
+Experte,n.,der｜專家,expert,3
+Prinzip,n.,das｜原則,principle,3
+Ozean,n.,der｜海洋,ocean,3
+Abschaum,n.,der｜人渣,scum,3
+Notruf,n.,der｜緊急電話,emergency call,3
+Bremse,n.,die｜煞車,brake,3
+häufig,adv.,經常,frequently,3
+aktivieren,v.,啟動,to activate,3
+anstrengend,adj.,累人的,strenuous,3
+Verschwörung,n.,die｜陰謀,conspiracy,3
+Kellner,n.,der｜服務生,waiter,3
+Lkw,n.,der｜卡車,truck,3
+Fürst,n.,der｜王侯,prince,3
+Gebet,n.,das｜禱告,prayer,3
+Tüte,n.,die｜袋子,bag,3
+operieren,v.,動手術,to operate,3
+unfassbar,adj.,難以置信的,incomprehensible,3
+Herrin,n.,die｜女主人,mistress,3
+fordern,v.,要求,to demand,3
+fischen,v.,捕魚,to fish,3
+Dezember,n.,der｜十二月,December,3
+Anspruch,n.,der｜權利；要求,claim,3
+unsichtbar,adj.,看不見的,invisible,3
+Handtuch,n.,das｜毛巾,towel,3
+doof,adj.,蠢的,stupid,3
+wertvoll,adj.,有價值的,valuable,3
+Kardinal,n.,der｜樞機主教,cardinal,3
+Kommunikation,n.,die｜溝通,communication,3
+unnötig,adj.,不必要的,unnecessary,3
+Analyse,n.,die｜分析,analysis,3
+Hochzeitstag,n.,der｜結婚紀念日,wedding anniversary,3
+Melodie,n.,die｜旋律,melody,3
+wehren,v.,（sich）抵抗,to defend oneself,3
+Rente,n.,die｜退休金,pension,3
+Zeremonie,n.,die｜典禮,ceremony,3
+Ersatz,n.,der｜替代品,replacement,3
+Mütze,n.,die｜帽子,cap,3
+Zeugin,n.,die｜女證人,witness (female),3
+Russisch,n.,das｜俄語,Russian,3
+Passagier,n.,der｜乘客,passenger,3
+Elend,n.,das｜苦難,misery,3
+andauernd,adv.,一直,constantly,3
+Ungeheuer,n.,das｜怪物,monster,3
+fit,adj.,健康的,fit,3
+Zeitverschwendung,n.,die｜浪費時間,waste of time,3
+Ansicht,n.,die｜看法,view; opinion,3
+vierte,adj.,第四,fourth,3
+Zentimeter,n.,der｜公分,centimeter,3
+politisch,adj.,政治的,political,3
+Anlage,n.,die｜設備；附件,facility; attachment,3
+Autounfall,n.,der｜車禍,car accident,3
+Aufstand,n.,der｜起義,uprising,3
+Schaf,n.,das｜綿羊,sheep,3
+Notiz,n.,die｜筆記,note,3
+versorgen,v.,供應；照顧,to supply; to look after,3
+Pirat,n.,der｜海盜,pirate,3
+sowohl,conj.,既（sowohl…als auch）,both...and,3
+Muskel,n.,der｜肌肉,muscle,3
+unwahrscheinlich,adj.,不太可能的,unlikely,3
+Steak,n.,das｜牛排,steak,3
+Spritze,n.,die｜注射器,syringe; injection,3
+umarmen,v.,擁抱,to hug,3
+Musiker,n.,der｜音樂家,musician,3
+Reichweite,n.,die｜範圍,range,3
+beleidigen,v.,侮辱,to insult,3
+Schach,n.,das｜西洋棋,chess,3
+Kater,n.,der｜公貓；宿醉,tomcat; hangover,3
+wundern,v.,（sich）驚訝,to be surprised,3
+beeinflussen,v.,影響,to influence,3
+ärgern,v.,惹惱,to annoy,3
+Konkurrenz,n.,die｜競爭,competition,3
+erfordern,v.,需要,to require,3
+unsicher,adj.,不安全的；不確定的,unsafe; unsure,3
+Festung,n.,die｜堡壘,fortress,3
+Detektiv,n.,der｜偵探,detective,3
+Kratzer,n.,der｜刮痕,scratch,3
+gruselig,adj.,恐怖的,creepy,3
+Intelligenz,n.,die｜智力,intelligence,3
+Rückzug,n.,der｜撤退,retreat,3
+reservieren,v.,預訂,to reserve,3
+Metall,n.,das｜金屬,metal,3
+nüchtern,adj.,清醒的,sober,3
+Handschuh,n.,der｜手套,glove,3
+verwundet,adj.,受傷的,wounded,3
+egoistisch,adj.,自私的,selfish,3
+Temperatur,n.,die｜溫度,temperature,3
+ablenken,v.,分散注意,to distract,3
+anwesend,adj.,在場的,present,3
+gehorchen,v.,服從,to obey,3
+Räuber,n.,der｜強盜,robber,3
+Adler,n.,der｜老鷹,eagle,3
+Süßigkeit,n.,die｜糖果,sweet,3
+Lunge,n.,die｜肺,lung,3
+zurückziehen,v.,撤回,to withdraw,3
+Sonnenuntergang,n.,der｜日落,sunset,3
+Oper,n.,die｜歌劇,opera,3
+Agentur,n.,die｜代理處,agency,3
+aufräumen,v.,整理,to tidy up,3
+Krach,n.,der｜噪音；爭吵,noise; row,3
+Pfeil,n.,der｜箭,arrow,3
+aussprechen,v.,發音；說出,to pronounce; to express,3
+emotional,adj.,情緒的,emotional,3
+belästigen,v.,騷擾,to harass,3
+Kälte,n.,die｜寒冷,cold,3
+Sektor,n.,der｜區域,sector,3
+blockieren,v.,封鎖,to block,3
+Häuptling,n.,der｜酋長,chief,3
+März,n.,der｜三月,March,3
+Frosch,n.,der｜青蛙,frog,3
+vorübergehend,adj.,暫時的,temporary,3
+anfangs,adv.,起初,at first,3
+verwandt,adj.,有親戚關係的,related,3
+gefährdet,adj.,受威脅的,endangered,3
+Republik,n.,die｜共和國,republic,3
+Silber,n.,das｜銀,silver,3
+Umschlag,n.,der｜信封,envelope,3
+Hinsicht,n.,die｜方面,respect; regard,3
+Ente,n.,die｜鴨子,duck,3
+Kommentar,n.,der｜評論,comment,3
+Zivilisation,n.,die｜文明,civilization,3
+Verhaftung,n.,die｜逮捕,arrest,3
+Meldung,n.,die｜報告；消息,report; message,3
+Bohne,n.,die｜豆子,bean,3
+Ziege,n.,die｜山羊,goat,3
+Privatsphäre,n.,die｜隱私,privacy,3
+büßen,v.,贖罪,to atone,3
+Eid,n.,der｜誓言,oath,3
+unterscheiden,v.,區分,to distinguish,3
+Telegramm,n.,das｜電報,telegram,3
+Pfad,n.,der｜小徑,path,3
+Welle,n.,die｜波浪,wave,3
+abschalten,v.,關閉,to switch off,3
+abschließen,v.,鎖上；完成,to lock; to complete,3
+Assistent,n.,der｜助理,assistant,3
+Pille,n.,die｜藥丸,pill,3
+Korb,n.,der｜籃子,basket,3
+aufrichtig,adj.,真誠的,sincere,3
+sperren,v.,封鎖,to block,3
+naiv,adj.,天真的,naive,3
+feststellen,v.,確定,to establish,3
+Quartier,n.,das｜住處,quarters,3
+neidisch,adj.,嫉妒的,envious,3
+weiblich,adj.,女性的,female,3
+Vorwurf,n.,der｜指責,reproach,3
+aushalten,v.,忍受,to endure,3
+Transport,n.,der｜運輸,transport,3
+Laptop,n.,der｜筆電,laptop,3
+arrangieren,v.,安排,to arrange,3
+Status,n.,der｜狀態,status,3
+zweifellos,adv.,無疑,undoubtedly,3
+rückwärts,adv.,向後,backwards,3
+Skandal,n.,der｜醜聞,scandal,3
+angebracht,adj.,適當的,appropriate,3
+Papierkram,n.,der｜文書工作,paperwork,3
+Gemeinschaft,n.,die｜共同體,community,3
+Instinkt,n.,der｜本能,instinct,3
+Flitterwochen,n.,die｜蜜月,honeymoon,3
+Narbe,n.,die｜疤,scar,3
+Kombination,n.,die｜組合,combination,3
+Vorgesetzte,n.,der｜上司,superior,3
+ausprobieren,v.,試用,to try out,3
+sexuell,adj.,性的,sexual,3
+Zahnarzt,n.,der｜牙醫,dentist,3
+Zutritt,n.,der｜進入,admittance,3
+Vergewaltigung,n.,die｜強暴,rape,3
+Streich,n.,der｜惡作劇,prank,3
+kichern,v.,咯咯笑,to giggle,3
+reif,adj.,成熟的,ripe; mature,3
+übermorgen,adv.,後天,the day after tomorrow,3
+Nest,n.,das｜巢,nest,3
+verklagen,v.,控告,to sue,3
+Helm,n.,der｜頭盔,helmet,3
+vergleichen,v.,比較,to compare,3
+Schweiz,n.,die｜瑞士,Switzerland,3
+Herbst,n.,der｜秋天,autumn,3
+Stamm,n.,der｜部落；樹幹,tribe; trunk,3
+Auswahl,n.,die｜選擇,selection,3
+antreten,v.,上任；參賽,to take up; to compete,3
+Vorstand,n.,der｜董事會,board,3
+Tank,n.,der｜油箱,tank,3
+Besprechung,n.,die｜會議,meeting,3
+Studium,n.,das｜大學學業,studies,3
+Kreditkarte,n.,die｜信用卡,credit card,3
+Profil,n.,das｜個人資料,profile,3
+Donner,n.,der｜雷,thunder,3
+Schrecken,n.,der｜驚嚇,fright,3
+Stall,n.,der｜畜舍,stable,3
+quitt,adj.,兩清的,even; quits,3
+Kandidat,n.,der｜候選人,candidate,3
+Geschäftsmann,n.,der｜商人,businessman,3
+Champion,n.,der｜冠軍,champion,3
+Betracht,n.,der｜考慮（in Betracht ziehen）,consideration,3
+regeln,v.,處理,to settle,3
+Einzelheit,n.,die｜細節,detail,3
+anlügen,v.,對…說謊,to lie to,3
+stattfinden,v.,舉行,to take place,3
+gelingen,v.,成功,to succeed,3
+Feierabend,n.,der｜下班,end of work,3
+spannend,adj.,刺激的,exciting,3
+einnehmen,v.,服用；佔領,to take; to occupy,3
+Passwort,n.,das｜密碼,password,3
+Würstchen,n.,das｜香腸,sausage,3
+mittlerweile,adv.,此時,meanwhile,3
+Zivilist,n.,der｜平民,civilian,3
+Emotion,n.,die｜情緒,emotion,3
+beurteilen,v.,評判,to judge,3
+Käufer,n.,der｜買家,buyer,3
+Kätzchen,n.,das｜小貓,kitten,3
+Option,n.,die｜選項,option,3
+aufstellen,v.,設立,to set up,3
+Schublade,n.,die｜抽屜,drawer,3
+Buchstabe,n.,der｜字母,letter,3
+abfahren,v.,出發,to depart,3
+Anzahl,n.,die｜數量,number,3
+Anhänger,n.,der｜支持者；拖車,follower; trailer,3
+Erfindung,n.,die｜發明,invention,3
+Autopsie,n.,die｜驗屍,autopsy,3
+Rucksack,n.,der｜背包,backpack,3
+Einsamkeit,n.,die｜孤獨,loneliness,3
+T-Shirt,n.,das｜T恤,T-shirt,3
+opfern,v.,犧牲,to sacrifice,3
+beiseite,adv.,一旁,aside,3
+umgekehrt,adj.,相反的,reverse,3
+beseitigen,v.,消除,to eliminate,3
+Burg,n.,die｜城堡,castle,3
+ausführen,v.,執行,to carry out,3
+frech,adj.,無禮的,cheeky,3
+Genehmigung,n.,die｜許可,permit,3
+Tankstelle,n.,die｜加油站,gas station,3
+Schneider,n.,der｜裁縫,tailor,3
+gelb,adj.,黃色的,yellow,3
+gefährden,v.,危害,to endanger,3
+Handtasche,n.,die｜手提包,handbag,3
+urteilen,v.,判斷,to judge,3
+gelten,v.,有效；被視為,to be valid; to be considered,3
+Münze,n.,die｜硬幣,coin,3
+Saison,n.,die｜季節,season,3
+Haltung,n.,die｜態度；姿勢,attitude; posture,3
+Ruhestand,n.,der｜退休,retirement,3
+Anhörung,n.,die｜聽證會,hearing,3
+dreckig,adj.,髒的,dirty,3
+verbreiten,v.,傳播,to spread,3
+erholen,v.,（sich）恢復,to recover,3
+bluten,v.,流血,to bleed,3
+beschweren,v.,（sich）抱怨,to complain,3
+Gauner,n.,der｜騙子,crook,3
+Produkt,n.,das｜產品,product,3
+Tafel,n.,die｜黑板,blackboard,3
+versammeln,v.,聚集,to gather,3
+regelmäßig,adj.,規律的,regular,3
+Ruder,n.,das｜槳；舵,oar; rudder,3
+Kaninchen,n.,das｜兔子,rabbit,3
+befolgen,v.,遵守,to follow,3
+veröffentlichen,v.,發表,to publish,3
+Mahlzeit,n.,die｜餐,meal,3
+aufbrechen,v.,出發；撬開,to set off; to break open,3
+Kenntnis,n.,die｜知識,knowledge,3
+Sanitäter,n.,der｜醫護員,paramedic,3
+überraschend,adj.,出乎意料的,surprising,3
+drohen,v.,威脅,to threaten,3
+Italienisch,n.,das｜義大利語,Italian,3
+Verhör,n.,das｜審訊,interrogation,3
+Dichter,n.,der｜詩人,poet,3
+gratis,adv.,免費,free,3
+beschäftigen,v.,使忙碌；雇用,to occupy; to employ,3
+Funkgerät,n.,das｜無線電,radio set,3
+angemessen,adj.,適當的,appropriate,3
+ohnehin,adv.,反正,anyway,3
+Chinesisch,n.,das｜中文,Chinese,3
+Orden,n.,der｜勳章；修會,medal; order,3
+anheuern,v.,雇用,to hire,3
+zögern,v.,猶豫,to hesitate,3
+bezeichnen,v.,稱為,to call; to designate,3
+beruflich,adj.,職業的,professional,3
+bedeckt,adj.,覆蓋的；陰天的,covered; overcast,3
+verständlich,adj.,可理解的,understandable,3
+Infektion,n.,die｜感染,infection,3
+entsprechen,v.,符合,to correspond,3
+Winkel,n.,der｜角度,angle,3
+Torte,n.,die｜蛋糕,cake; gateau,3
+Austausch,n.,der｜交換,exchange,3
+aufregen,v.,（sich）激動,to get upset,3
+vermuten,v.,猜測,to suspect,3
+Geheimdienst,n.,der｜情報局,secret service,3
+überzeugend,adj.,有說服力的,convincing,3
+Genick,n.,das｜後頸,neck,3
+Autorität,n.,die｜權威,authority,3
+Schinken,n.,der｜火腿,ham,3
+Hai,n.,der｜鯊魚,shark,3
+binden,v.,綁,to tie,3
+Erpressung,n.,die｜勒索,blackmail,3
+derzeit,adv.,目前,currently,3
+Sammlung,n.,die｜收藏,collection,3
+ergreifen,v.,抓住,to seize,3
+Bewohner,n.,der｜居民,resident,3
+Supermarkt,n.,der｜超市,supermarket,3
+Schwachkopf,n.,der｜笨蛋,idiot,3
+Januar,n.,der｜一月,January,3
+Priorität,n.,die｜優先,priority,3
+Beförderung,n.,die｜升遷,promotion,3
+Eifersucht,n.,die｜嫉妒,jealousy,3
+erbärmlich,adj.,可悲的,pathetic,3
+Ufer,n.,das｜岸,shore; bank,3
+Bezirk,n.,der｜區,district,3
+beauftragen,v.,委託,to commission,3
+Qualität,n.,die｜品質,quality,3
+Henker,n.,der｜劊子手,executioner,3
+Scheibe,n.,die｜片；玻璃,slice; pane,3
+Konferenz,n.,die｜會議,conference,3
+Sonnenaufgang,n.,der｜日出,sunrise,3
+braun,adj.,棕色的,brown,3
+Diagnose,n.,die｜診斷,diagnosis,3
+Weltraum,n.,der｜太空,space,3
+Vorbild,n.,das｜榜樣,role model,3
+Halle,n.,die｜大廳,hall,3
+wandern,v.,健行,to hike,3
+Kabine,n.,die｜艙房,cabin,3
+Datenbank,n.,die｜資料庫,database,3
+teilnehmen,v.,參加,to take part,3
+Bunker,n.,der｜碉堡,bunker,3
+Löffel,n.,der｜湯匙,spoon,3
+abhängig,adj.,依賴的,dependent,3
+hindern,v.,阻止,to prevent,3
+Fahrstuhl,n.,der｜電梯,elevator,3
+Flagge,n.,die｜旗,flag,3
+Disziplin,n.,die｜紀律,discipline,3
+erziehen,v.,教育；撫養,to raise; to educate,3
+Kongress,n.,der｜大會；國會,congress,3
+Schirm,n.,der｜傘,umbrella,3
+Charme,n.,der｜魅力,charm,3
+vorlesen,v.,朗讀,to read aloud,3
+parken,v.,停車,to park,3
+empfindlich,adj.,敏感的,sensitive,3
+reichlich,adv.,豐富地,plenty,3
+Mode,n.,die｜時尚,fashion,3
+Hahn,n.,der｜公雞；水龍頭,rooster; tap,3
+Versammlung,n.,die｜集會,assembly,3
+Folter,n.,die｜酷刑,torture,3
+Speck,n.,der｜培根,bacon,3
+Vorrat,n.,der｜存貨,supply; stock,3
+Saal,n.,der｜大廳,hall,3
+Wirtschaft,n.,die｜經濟,economy,3
+mehrmals,adv.,多次,several times,3
+Seife,n.,die｜肥皂,soap,3
+Herde,n.,die｜群,herd,3
+Zwerg,n.,der｜矮人,dwarf,3
+Ablenkung,n.,die｜分心,distraction,3
+Herrscher,n.,der｜統治者,ruler,3
+überstehen,v.,度過,to get through,3
+Sprengstoff,n.,der｜炸藥,explosive,3
+Erdbeben,n.,das｜地震,earthquake,3
+Australien,n.,das｜澳洲,Australia,3
+Gleichgewicht,n.,das｜平衡,balance,3
+Schalter,n.,der｜開關；櫃檯,switch; counter,3
+Zuneigung,n.,die｜好感,affection,3
+Rollstuhl,n.,der｜輪椅,wheelchair,3
+Biene,n.,die｜蜜蜂,bee,3
+mischen,v.,混合,to mix,3
+Hauptstadt,n.,die｜首都,capital,3
+Bandit,n.,der｜強盜,bandit,3
+Dosis,n.,die｜劑量,dose,3
+somit,adv.,因此,thus,3
+ernähren,v.,養活,to feed; to nourish,3
+Kammer,n.,die｜小房間,chamber,3
+bezaubernd,adj.,迷人的,enchanting,3
+Tattoo,n.,das｜刺青,tattoo,3
+einschließlich,prep.,包括,including,3
+Finsternis,n.,die｜黑暗,darkness,3
+klettern,v.,攀爬,to climb,3
+Geste,n.,die｜手勢,gesture,3
+Privatleben,n.,das｜私生活,private life,3
+Zusammenarbeit,n.,die｜合作,cooperation,3
+Kaugummi,n.,der｜口香糖,chewing gum,3
+Weltkrieg,n.,der｜世界大戰,world war,3
+kommunizieren,v.,溝通,to communicate,3
+technisch,adj.,技術的,technical,3
+frühstücken,v.,吃早餐,to have breakfast,3
+Standort,n.,der｜位置,location,3
+leugnen,v.,否認,to deny,3
+Landung,n.,die｜降落,landing,3
+schockiert,adj.,震驚的,shocked,3
+Begleitung,n.,die｜陪同,company; escort,3
+Allianz,n.,die｜聯盟,alliance,3
+Echo,n.,das｜回音,echo,3
+herstellen,v.,製造,to produce,3
+Lokal,n.,das｜餐館,pub; restaurant,3
+Honig,n.,der｜蜂蜜,honey,3
+Göttin,n.,die｜女神,goddess,3
+segeln,v.,航行,to sail,3
+Februar,n.,der｜二月,February,3
+Begegnung,n.,die｜相遇,encounter,3
+Feuerwehr,n.,die｜消防隊,fire brigade,3
+Grauen,n.,das｜恐怖,horror,3
+Wärter,n.,der｜看守,warden,3
+Vertreter,n.,der｜代表,representative,3
+servieren,v.,上菜,to serve,3
+gewaltig,adj.,巨大的,enormous,3
+Knoten,n.,der｜結,knot,3
+Hinrichtung,n.,die｜處決,execution,3
+überwinden,v.,克服,to overcome,3
+ablegen,v.,放下；參加（考試）,to put down; to take (exam),3
+Hausmeister,n.,der｜管理員,janitor,3
+Juwel,n.,das｜寶石,jewel,3
+Bogen,n.,der｜弓；弧,bow; arc,3
+Duft,n.,der｜香味,scent,3
+Kellnerin,n.,die｜女服務生,waitress,3
+vertraulich,adj.,機密的,confidential,3
+insgesamt,adv.,總共,in total,3
+Mangel,n.,der｜缺乏,lack,3
+Hobby,n.,das｜嗜好,hobby,3
+Nachtisch,n.,der｜甜點,dessert,3
+Reichtum,n.,der｜財富,wealth,3
+Eisen,n.,das｜鐵,iron,3
+Haftbefehl,n.,der｜逮捕令,arrest warrant,3
+buchstäblich,adv.,字面上,literally,3
+Ernte,n.,die｜收成,harvest,3
+Kamin,n.,der｜壁爐,fireplace,3
+Weste,n.,die｜背心,vest,3
+Kennzeichen,n.,das｜車牌；特徵,license plate; feature,3
+würdig,adj.,值得的,worthy,3
+Schwager,n.,der｜姊夫；妹夫,brother-in-law,3
+Dose,n.,die｜罐,can,3
+Wärme,n.,die｜溫暖,warmth,3
+Magazin,n.,das｜雜誌；彈匣,magazine,3
+Klemme,n.,die｜困境；夾子,fix; clip,3
+verstoßen,v.,違反,to violate,3
+kräftig,adj.,強壯的,strong,3
+Nachbarin,n.,die｜女鄰居,neighbor (female),4
+Formel,n.,die｜公式,formula,4
+Wohnwagen,n.,der｜露營車,caravan,4
+wegwerfen,v.,丟掉,to throw away,4
+Spinne,n.,die｜蜘蛛,spider,4
+Tumor,n.,der｜腫瘤,tumor,4
+Bezahlung,n.,die｜付款,payment,4
+Päckchen,n.,das｜小包,small package,4
+grob,adj.,粗糙的,rough,4
+Nagel,n.,der｜釘子；指甲,nail,4
+starren,v.,盯,to stare,4
+vertreiben,v.,驅逐,to drive away,4
+Gitter,n.,das｜格柵,bars; grid,4
+erobern,v.,征服,to conquer,4
+Gestalt,n.,die｜形體,figure; shape,4
+Liter,n.,der｜公升,liter,4
+Illusion,n.,die｜幻覺,illusion,4
+plaudern,v.,閒聊,to chat,4
+Haft,n.,die｜拘留,custody,4
+Spannung,n.,die｜緊張；電壓,tension; voltage,4
+Bestimmung,n.,die｜規定；命運,regulation; destiny,4
+Tresor,n.,der｜保險箱,safe,4
+Fischer,n.,der｜漁夫,fisherman,4
+Revolver,n.,der｜左輪槍,revolver,4
+Schrott,n.,der｜廢鐵,scrap,4
+Vorhang,n.,der｜窗簾,curtain,4
+Lagerhaus,n.,das｜倉庫,warehouse,4
+Raub,n.,der｜搶劫,robbery,4
+Produktion,n.,die｜生產,production,4
+schräg,adj.,斜的,slanted,4
+Beamte,n.,der｜公務員,civil servant,4
+einmischen,v.,（sich）干涉,to interfere,4
+Futter,n.,das｜飼料,feed,4
+Aktie,n.,die｜股票,share; stock,4
+Dummheit,n.,die｜愚蠢,stupidity,4
+Inhalt,n.,der｜內容,content,4
+Dankbarkeit,n.,die｜感激,gratitude,4
+Messe,n.,die｜彌撒；展覽會,mass; trade fair,4
+Anwesen,n.,das｜莊園,estate,4
+Anerkennung,n.,die｜認可,recognition,4
+Galaxie,n.,die｜星系,galaxy,4
+Vermutung,n.,die｜猜測,assumption,4
+inklusive,prep.,包含,including,4
+Überwachung,n.,die｜監視,surveillance,4
+unabhängig,adj.,獨立的,independent,4
+Statue,n.,die｜雕像,statue,4
+Bestätigung,n.,die｜確認,confirmation,4
+Finale,n.,das｜決賽,final,4
+Verzweiflung,n.,die｜絕望,despair,4
+deprimiert,adj.,沮喪的,depressed,4
+Rahmen,n.,der｜框架,frame,4
+klassisch,adj.,古典的,classical,4
+außergewöhnlich,adj.,非凡的,extraordinary,4
+Niederlage,n.,die｜失敗,defeat,4
+Zeh,n.,der｜腳趾,toe,4
+fotografieren,v.,拍照,to photograph,4
+weltweit,adv.,全球,worldwide,4
+bemühen,v.,（sich）努力,to make an effort,4
+Logik,n.,die｜邏輯,logic,4
+kooperieren,v.,合作,to cooperate,4
+summen,v.,嗡嗡響；哼唱,to buzz; to hum,4
+Blutung,n.,die｜出血,bleeding,4
+hilflos,adj.,無助的,helpless,4
+Staatsanwaltschaft,n.,die｜檢察署,public prosecutor's office,4
+Ehrlichkeit,n.,die｜誠實,honesty,4
+messen,v.,測量,to measure,4
+stur,adj.,固執的,stubborn,4
+aufspüren,v.,追查,to track down,4
+rückgängig,adj.,（rückgängig machen 撤銷）,(undo),4
+fünfte,adj.,第五,fifth,4
+mieten,v.,租,to rent,4
+speziell,adj.,特別的,special,4
+Neugier,n.,die｜好奇心,curiosity,4
+verkleidet,adj.,喬裝的,disguised,4
+Entdeckung,n.,die｜發現,discovery,4
+betteln,v.,乞討,to beg,4
+blond,adj.,金髮的,blond,4
+Herkunft,n.,die｜出身,origin,4
+Annahme,n.,die｜假設；接受,assumption; acceptance,4
+Gestank,n.,der｜臭味,stench,4
+Hintertür,n.,die｜後門,back door,4
+Truthahn,n.,der｜火雞,turkey,4
+tagsüber,adv.,白天,during the day,4
+feucht,adj.,潮濕的,damp,4
+Jeans,n.,die｜牛仔褲,jeans,4
+Befragung,n.,die｜詢問,questioning,4
+Tourist,n.,der｜觀光客,tourist,4
+Busch,n.,der｜灌木,bush,4
+Abwesenheit,n.,die｜缺席,absence,4
+Studie,n.,die｜研究,study,4
+Bestellung,n.,die｜訂單,order,4
+Heiligkeit,n.,die｜聖潔,holiness,4
+Sehnsucht,n.,die｜渴望,longing,4
+Demokratie,n.,die｜民主,democracy,4
+aggressiv,adj.,好鬥的,aggressive,4
+ausleihen,v.,借,to borrow,4
+schlucken,v.,吞,to swallow,4
+wesentlich,adj.,重要的,essential,4
+erben,v.,繼承,to inherit,4
+Horn,n.,das｜角；號角,horn,4
+eiskalt,adj.,冰冷的,ice-cold,4
+Sirene,n.,die｜警笛,siren,4
+Ritual,n.,das｜儀式,ritual,4
+investieren,v.,投資,to invest,4
+bescheiden,adj.,謙虛的,modest,4
+Garderobe,n.,die｜衣帽間,cloakroom,4
+Streifen,n.,der｜條紋,stripe,4
+Wirt,n.,der｜店主,landlord; host,4
+Kasten,n.,der｜箱子,box,4
+zeichnen,v.,畫,to draw,4
+backen,v.,烘焙,to bake,4
+scheitern,v.,失敗,to fail,4
+Salon,n.,der｜沙龍,salon,4
+demnächst,adv.,不久,soon,4
+Lebensmittel,n.,das｜食品,food; groceries,4
+Durchsuchungsbefehl,n.,der｜搜索令,search warrant,4
+allmählich,adv.,漸漸地,gradually,4
+benommen,adj.,昏沉的,dazed,4
+Vortrag,n.,der｜演講,lecture,4
+erpressen,v.,勒索,to blackmail,4
+ängstlich,adj.,膽怯的,anxious,4
+Durchbruch,n.,der｜突破,breakthrough,4
+Chor,n.,der｜合唱團,choir,4
+zuschlagen,v.,出手；關上,to strike; to slam,4
+Schere,n.,die｜剪刀,scissors,4
+Kampagne,n.,die｜運動；活動,campaign,4
+reinigen,v.,清潔,to clean,4
+quälen,v.,折磨,to torment,4
+Berufung,n.,die｜上訴；使命,appeal; calling,4
+Knöchel,n.,der｜腳踝,ankle,4
+Zeitplan,n.,der｜時間表,schedule,4
+Weichei,n.,das｜膽小鬼,wimp,4
+Versuchung,n.,die｜誘惑,temptation,4
+Beitrag,n.,der｜貢獻；文章,contribution; article,4
+Picknick,n.,das｜野餐,picnic,4
+Argument,n.,das｜論點,argument,4
+Fähnrich,n.,der｜少尉,ensign,4
+Türklingel,n.,die｜門鈴,doorbell,4
+Dynamit,n.,das｜炸藥,dynamite,4
+Organ,n.,das｜器官,organ,4
+Fell,n.,das｜毛皮,fur,4
+Sonnenschein,n.,der｜陽光,sunshine,4
+Bräutigam,n.,der｜新郎,bridegroom,4
+Schottland,n.,das｜蘇格蘭,Scotland,4
+Drohung,n.,die｜威脅,threat,4
+Wende,n.,die｜轉折,turn,4
+foltern,v.,拷打,to torture,4
+einzigartig,adj.,獨特的,unique,4
+übertreiben,v.,誇大,to exaggerate,4
+Ressource,n.,die｜資源,resource,4
+Bischof,n.,der｜主教,bishop,4
+national,adj.,國家的,national,4
+Geschwister,n.,die｜兄弟姊妹,siblings,4
+zurücktreten,v.,辭職；後退,to resign; to step back,4
+Axt,n.,die｜斧頭,axe,4
+Händler,n.,der｜商人,dealer,4
+Ägypten,n.,das｜埃及,Egypt,4
+überdenken,v.,重新考慮,to reconsider,4
+Dampf,n.,der｜蒸氣,steam,4
+missbrauchen,v.,濫用,to abuse,4
+loyal,adj.,忠誠的,loyal,4
+Wurzel,n.,die｜根,root,4
+aufhängen,v.,掛起,to hang up,4
+Wurm,n.,der｜蟲,worm,4
+Besatzung,n.,die｜船員,crew,4
+zustoßen,v.,發生（不幸）,to happen to,4
+befürchten,v.,擔心,to fear,4
+schmerzhaft,adj.,痛苦的,painful,4
+zittern,v.,發抖,to tremble,4
+Standpunkt,n.,der｜立場,point of view,4
+Rang,n.,der｜等級,rank,4
+theoretisch,adv.,理論上,theoretically,4
+Beutel,n.,der｜袋子,pouch; bag,4
+drängen,v.,催促,to urge,4
+Veranda,n.,die｜陽台,porch,4
+Strahlung,n.,die｜輻射,radiation,4
+unendlich,adj.,無限的,infinite,4
+Schwangerschaft,n.,die｜懷孕,pregnancy,4
+zweifeln,v.,懷疑,to doubt,4
+Nonne,n.,die｜修女,nun,4
+lecken,v.,舔；漏,to lick; to leak,4
+Feuerwerk,n.,das｜煙火,fireworks,4
+Abwechslung,n.,die｜變化,change; variety,4
+Kleingeld,n.,das｜零錢,change (coins),4
+gelegentlich,adv.,偶爾,occasionally,4
+Braten,n.,der｜烤肉,roast,4
+entstehen,v.,產生,to arise,4
+Herzschlag,n.,der｜心跳,heartbeat,4
+glücklicherweise,adv.,幸運地,fortunately,4
+Heilung,n.,die｜治癒,healing,4
+Profit,n.,der｜利潤,profit,4
+Stadtrat,n.,der｜市議會,city council,4
+Pressekonferenz,n.,die｜記者會,press conference,4
+Boot,n.,das｜小船,boat,4
+allergisch,adj.,過敏的,allergic,4
+Gasse,n.,die｜小巷,alley,4
+Außerirdische,n.,der｜外星人,alien,4
+ehemalig,adj.,以前的,former,4
+Radar,n.,das｜雷達,radar,4
+Gefecht,n.,das｜戰鬥,battle; skirmish,4
+Pension,n.,die｜退休金；民宿,pension; guesthouse,4
+Strich,n.,der｜線,line; stroke,4
+Lippenstift,n.,der｜口紅,lipstick,4
+Stab,n.,der｜棍；幕僚,staff; rod,4
+Maler,n.,der｜畫家,painter,4
+verweigern,v.,拒絕,to refuse,4
+Windel,n.,die｜尿布,diaper,4
+Ausstellung,n.,die｜展覽,exhibition,4
+tragisch,adj.,悲劇的,tragic,4
+rasch,adv.,迅速,quickly,4
+Polizistin,n.,die｜女警,police officer (female),4
+aufheben,v.,撿起；保留,to pick up; to keep,4
+fleißig,adj.,勤奮的,hard-working,4
+Freizeit,n.,die｜空閒時間,free time,4
+elegant,adj.,優雅的,elegant,4
+Dolch,n.,der｜匕首,dagger,4
+eindringen,v.,侵入,to break in,4
+Auszeit,n.,die｜暫停,time-out; break,4
+international,adj.,國際的,international,4
+vergeuden,v.,浪費,to waste,4
+blass,adj.,蒼白的,pale,4
+Konzept,n.,das｜概念,concept,4
+keineswegs,adv.,絕不,by no means,4
+Faden,n.,der｜線,thread,4
+ertrinken,v.,淹死,to drown,4
+Blase,n.,die｜泡泡；膀胱,bubble; bladder,4
+Treffpunkt,n.,der｜會合點,meeting point,4
+Schrift,n.,die｜文字,writing; script,4
+Mathe,n.,die｜數學（口語）,math,4
+britisch,adj.,英國的,British,4
+körperlich,adj.,身體的,physical,4
+Konzentration,n.,die｜專注,concentration,4
+Draht,n.,der｜鐵絲,wire,4
+Reinigung,n.,die｜清潔；乾洗店,cleaning; dry cleaner's,4
+ersticken,v.,窒息,to suffocate,4
+Batterie,n.,die｜電池,battery,4
+Obst,n.,das｜水果,fruit,4
+Badewanne,n.,die｜浴缸,bathtub,4
+Nickerchen,n.,das｜小睡,nap,4
+abschneiden,v.,剪掉,to cut off,4
+Anfänger,n.,der｜初學者,beginner,4
+ungerecht,adj.,不公平的,unfair,4
+Reue,n.,die｜悔恨,remorse,4
+Rhythmus,n.,der｜節奏,rhythm,4
+Siegel,n.,das｜印章,seal,4
+stechen,v.,刺；叮,to stab; to sting,4
+Prostituierte,n.,die｜妓女,prostitute,4
+umgehend,adv.,立即,immediately,4
+hoffnungslos,adj.,絕望的,hopeless,4
+checken,v.,檢查,to check,4
+nützen,v.,有用,to be of use,4
+Schüssel,n.,die｜碗,bowl,4
+wiegen,v.,稱重,to weigh,4
+beraten,v.,建議,to advise,4
+Mitbewohner,n.,der｜室友,roommate,4
+Verlobung,n.,die｜訂婚,engagement,4
+Funke,n.,der｜火花,spark,4
+gleichfalls,adv.,同樣,likewise,4
+Ex-Frau,n.,die｜前妻,ex-wife,4
+vereinbaren,v.,約定,to agree,4
+Prügel,n.,die｜毆打,beating,4
+Balkon,n.,der｜陽台,balcony,4
+flüchten,v.,逃跑,to flee,4
+umkehren,v.,掉頭,to turn back,4
+rechtfertigen,v.,辯護,to justify,4
+belügen,v.,欺騙,to lie to,4
+verdächtigen,v.,懷疑,to suspect,4
+inspirieren,v.,啟發,to inspire,4
+sorgfältig,adj.,仔細的,careful,4
+spucken,v.,吐,to spit,4
+Überreste,n.,die｜遺骸,remains,4
+unerträglich,adj.,難以忍受的,unbearable,4
+vorerst,adv.,暫時,for now,4
+verirren,v.,（sich）迷路,to get lost,4
+Liga,n.,die｜聯賽,league,4
+wertlos,adj.,無價值的,worthless,4
+Netzwerk,n.,das｜網絡,network,4
+faszinieren,v.,吸引,to fascinate,4
+Akademie,n.,die｜學院,academy,4
+Branche,n.,die｜行業,industry,4
+Soße,n.,die｜醬汁,sauce,4
+Entführer,n.,der｜綁匪,kidnapper,4
+erzeugen,v.,產生,to produce,4
+registrieren,v.,登記,to register,4
+Basketball,n.,der｜籃球,basketball,4
+Vorsitzende,n.,der｜主席,chairperson,4
+Bedürfnis,n.,das｜需求,need,4
+regieren,v.,統治,to govern,4
+Barkeeper,n.,der｜酒保,bartender,4
+Datei,n.,die｜檔案,file,4
+gründen,v.,創立,to found,4
+Umgang,n.,der｜交往,dealings,4
+Erziehung,n.,die｜教育,upbringing,4
+Institut,n.,das｜研究所,institute,4
+hinrichten,v.,處決,to execute,4
+lenken,v.,駕駛；引導,to steer,4
+angewiesen,adj.,依賴的,dependent,4
+lahm,adj.,跛的；無聊的,lame,4
+basieren,v.,基於,to be based,4
+rasieren,v.,刮鬍子,to shave,4
+anordnen,v.,下令,to order,4
+gewalttätig,adj.,暴力的,violent,4
+Untergang,n.,der｜毀滅；沉沒,downfall; sinking,4
+flach,adj.,平的,flat,4
+Autogramm,n.,das｜簽名,autograph,4
+Kompanie,n.,die｜連（軍）,company (military),4
+Sackgasse,n.,die｜死巷,dead end,4
+Einbrecher,n.,der｜闖空門者,burglar,4
+Erwartung,n.,die｜期望,expectation,4
+Flüssigkeit,n.,die｜液體,liquid,4
+erraten,v.,猜中,to guess,4
+Verkäufer,n.,der｜售貨員,salesperson,4
+Kurve,n.,die｜彎道,curve,4
+Invasion,n.,die｜入侵,invasion,4
+herrschen,v.,統治；盛行,to rule; to prevail,4
+Outfit,n.,das｜裝扮,outfit,4
+entzückend,adj.,迷人的,delightful,4
+Höhepunkt,n.,der｜高潮,climax,4
+geduldig,adj.,有耐心的,patient,4
+Pest,n.,die｜瘟疫,plague,4
+fürchterlich,adj.,可怕的,terrible,4
+Ratschlag,n.,der｜建議,advice,4
+Zoll,n.,der｜海關；吋,customs; inch,4
+Region,n.,die｜地區,region,4
+zuliebe,prep.,為了…,for the sake of,4
+Wachmann,n.,der｜保全,security guard,4
+Gipfel,n.,der｜山頂,summit,4
+Jammer,n.,der｜可惜,pity,4
+Galerie,n.,die｜畫廊,gallery,4
+Enkelin,n.,die｜孫女,granddaughter,4
+Mönch,n.,der｜修道士,monk,4
+Tinte,n.,die｜墨水,ink,4
+Journalist,n.,der｜記者,journalist,4
+platzen,v.,爆裂,to burst,4
+Frucht,n.,die｜果實,fruit,4
+gewähren,v.,給予,to grant,4
+Prophezeiung,n.,die｜預言,prophecy,4
+winzig,adj.,微小的,tiny,4
+Tonne,n.,die｜噸,ton,4
+Lizenz,n.,die｜執照,license,4
+Maßnahme,n.,die｜措施,measure,4
+Schwindel,n.,der｜暈眩；騙局,dizziness; swindle,4
+arbeitslos,adj.,失業的,unemployed,4
+Getränk,n.,das｜飲料,drink,4
+Pfote,n.,die｜爪子,paw,4
+Ausländer,n.,der｜外國人,foreigner,4
+Kalender,n.,der｜日曆,calendar,4
+Überstunden,n.,die｜加班,overtime,4
+langweilen,v.,使無聊,to bore,4
+deuten,v.,解釋；指,to interpret; to point,4
+Friseur,n.,der｜理髮師,hairdresser,4
+Ermordung,n.,die｜謀殺,murder,4
+kriechen,v.,爬,to crawl,4
+Zauberei,n.,die｜魔法,magic,4
+Hotelzimmer,n.,das｜旅館房間,hotel room,4
+Biss,n.,der｜咬,bite,4
+beängstigend,adj.,令人害怕的,frightening,4
+Frequenz,n.,die｜頻率,frequency,4
+Verband,n.,der｜繃帶；協會,bandage; association,4
+buchen,v.,預訂,to book,4
+Diät,n.,die｜節食,diet,4
+zukünftig,adj.,未來的,future,4
+aufklären,v.,闡明,to clear up,4
+unauffällig,adj.,不顯眼的,inconspicuous,4
+gefälscht,adj.,偽造的,fake,4
+Geier,n.,der｜禿鷹,vulture,4
+Anschuldigung,n.,die｜指控,accusation,4
+Tomate,n.,die｜番茄,tomato,4
+Philosophie,n.,die｜哲學,philosophy,4
+programmieren,v.,編程,to program,4
+fällig,adj.,到期的,due,4
+Kneipe,n.,die｜酒館,pub,4
+Sumpf,n.,der｜沼澤,swamp,4
+Apotheke,n.,die｜藥局,pharmacy,4
+nördlich,adj.,北方的,northern,4
+Schal,n.,der｜圍巾,scarf,4
+Gegenzug,n.,der｜回報（im Gegenzug）,in return,4
+Enttäuschung,n.,die｜失望,disappointment,4
+Unterkunft,n.,die｜住處,accommodation,4
+freilassen,v.,釋放,to release,4
+grau,adj.,灰色的,gray,4
+Verlobte,n.,der/die｜未婚夫／妻,fiancé(e),4
+Niere,n.,die｜腎,kidney,4
+kratzen,v.,抓,to scratch,4
+Altar,n.,der｜祭壇,altar,4
+erstaunt,adj.,驚訝的,astonished,4
+Ausbruch,n.,der｜爆發；越獄,outbreak; escape,4
+Tuch,n.,das｜布,cloth,4
+Fahne,n.,die｜旗,flag,4
+Beleidigung,n.,die｜侮辱,insult,4
+unsterblich,adj.,不朽的,immortal,4
+evakuieren,v.,疏散,to evacuate,4
+produzieren,v.,生產,to produce,4
+Nachfolger,n.,der｜繼任者,successor,4
+Chauffeur,n.,der｜司機,chauffeur,4
+Ironie,n.,die｜諷刺,irony,4
+ausreichend,adj.,足夠的,sufficient,4
+anderthalb,n.,一個半,one and a half,4
+Erlösung,n.,die｜救贖,redemption,4
+Käfer,n.,der｜甲蟲,beetle,4
+auslöschen,v.,消滅,to wipe out,4
+Limonade,n.,die｜汽水,lemonade,4
+Schlachtfeld,n.,das｜戰場,battlefield,4
+gemäß,prep.,根據,according to,4
+Angreifer,n.,der｜攻擊者,attacker,4
+Schale,n.,die｜碗；殼,bowl; shell,4
+ausfindig,adj.,（ausfindig machen 找到）,(locate),4
+Motto,n.,das｜座右銘,motto,4
+Eintritt,n.,der｜入場,admission,4
+BH,n.,der｜胸罩,bra,4
+betroffen,adj.,受影響的,affected,4
+misstrauisch,adj.,多疑的,suspicious,4
+verwirrend,adj.,令人困惑的,confusing,4
+Kapelle,n.,die｜小教堂；樂隊,chapel; band,4
+einrichten,v.,佈置,to furnish; to set up,4
+ausnutzen,v.,利用,to exploit,4
+Kinn,n.,das｜下巴,chin,4
+quatschen,v.,閒聊,to chat,4
+automatisch,adj.,自動的,automatic,4
+Körperverletzung,n.,die｜傷害罪,assault,4
+Einwohner,n.,der｜居民,inhabitant,4
+steif,adj.,僵硬的,stiff,4
+Rekord,n.,der｜紀錄,record,4
+durchgeknallt,adj.,瘋掉的,crazy,4
+ersparen,v.,省去,to spare,4
+Kuba,n.,das｜古巴,Cuba,4
+Überdosis,n.,die｜過量,overdose,4
+Armband,n.,das｜手鍊,bracelet,4
+adoptieren,v.,收養,to adopt,4
+Komplize,n.,der｜共犯,accomplice,4
+einschalten,v.,打開,to switch on,4
+Handschrift,n.,die｜筆跡,handwriting,4
+männlich,adj.,男性的,male,4
+Mischung,n.,die｜混合,mix,4
+Luxus,n.,der｜奢華,luxury,4
+Schwung,n.,der｜衝勁,momentum,4
+Grippe,n.,die｜流感,flu,4
+Hülle,n.,die｜外殼,cover; case,4
+Nudel,n.,die｜麵條,noodle,4
+Uhrzeit,n.,die｜時間,time (of day),4
+Zigarre,n.,die｜雪茄,cigar,4
+Tänzerin,n.,die｜女舞者,dancer (female),4
+Einkaufszentrum,n.,das｜購物中心,shopping mall,4
+Vollmond,n.,der｜滿月,full moon,4
+Rohr,n.,das｜管子,pipe,4
+Umarmung,n.,die｜擁抱,hug,4
+Spende,n.,die｜捐款,donation,4
+Gans,n.,die｜鵝,goose,4
+leuchten,v.,發光,to shine,4
+schütteln,v.,搖,to shake,4
+angespannt,adj.,緊張的,tense,4
+Auswirkung,n.,die｜影響,effect,4
+Geschlecht,n.,das｜性別,gender; sex,4
+Buchhalter,n.,der｜會計,accountant,4
+Bildung,n.,die｜教育,education,4
+aufbewahren,v.,保存,to keep; to store,4
+hinbringen,v.,帶過去,to take there,4
+Volltreffer,n.,der｜正中目標,direct hit,4
+Herrschaft,n.,die｜統治,rule,4
+verhören,v.,審問,to interrogate,4
+unverzüglich,adv.,立即,immediately,4
+unfähig,adj.,無能的,incapable,4
+ursprünglich,adv.,原本,originally,4
+Distanz,n.,die｜距離,distance,4
+verheimlichen,v.,隱瞞,to conceal,4
+verstorben,adj.,已故的,deceased,4
+Rendezvous,n.,das｜約會,rendezvous,4
+Empfehlung,n.,die｜推薦,recommendation,4
+Handgelenk,n.,das｜手腕,wrist,4
+Bote,n.,der｜信差,messenger,4
+unterzeichnen,v.,簽署,to sign,4
+belasten,v.,加重負擔,to burden,4
+Literatur,n.,die｜文學,literature,4
+quer,adv.,橫跨,across,4
+Satellit,n.,der｜衛星,satellite,4
+analysieren,v.,分析,to analyze,4
+Zuhälter,n.,der｜皮條客,pimp,4
+zutiefst,adv.,深深地,deeply,4
+schlachten,v.,屠宰,to slaughter,4
+gestalten,v.,設計,to design; to shape,4
+Stipendium,n.,das｜獎學金,scholarship,4
+Hüfte,n.,die｜臀部,hip,4
+Wurf,n.,der｜投擲,throw,4
+Maschinenraum,n.,der｜機房,engine room,4
+Inspiration,n.,die｜靈感,inspiration,4
+Samen,n.,der｜種子,seed,4
+Hinterhalt,n.,der｜埋伏,ambush,4
+Gewahrsam,n.,der｜拘留,custody,4
+einatmen,v.,吸氣,to inhale,4
+zurückhalten,v.,克制；阻止,to hold back,4
+Parfüm,n.,das｜香水,perfume,4
+Präsidentin,n.,die｜女總統,president (female),4
+Entlassung,n.,die｜解僱；出院,dismissal; discharge,4
+Todesstrafe,n.,die｜死刑,death penalty,4
+abstellen,v.,放下；關掉,to put down; to turn off,4
+Hauch,n.,der｜氣息,breath; hint,4
+Routine,n.,die｜例行公事,routine,4
+Beschwerde,n.,die｜投訴,complaint,4
+genehmigen,v.,批准,to approve,4
+erschlagen,v.,打死,to strike dead,4
+Irland,n.,das｜愛爾蘭,Ireland,4
+Ärmel,n.,der｜袖子,sleeve,4
+fließen,v.,流,to flow,4
+Arabisch,n.,das｜阿拉伯語,Arabic,4
+jucken,v.,癢,to itch,4
+zerreißen,v.,撕碎,to tear up,4
+Tausch,n.,der｜交換,exchange,4
+Schlaganfall,n.,der｜中風,stroke,4
+Popcorn,n.,das｜爆米花,popcorn,4
+Gärtner,n.,der｜園丁,gardener,4
+Garantie,n.,die｜保證,guarantee,4
+Topf,n.,der｜鍋,pot,4
+nähen,v.,縫,to sew,4
+Sprecher,n.,der｜發言人,speaker,4
+Chemie,n.,die｜化學,chemistry,4
+stumm,adj.,啞的,mute,4
+Rippe,n.,die｜肋骨,rib,4
+kühl,adj.,涼的,cool,4
+Techniker,n.,der｜技術員,technician,4
+beachten,v.,注意,to observe; to heed,4
+südlich,adj.,南方的,southern,4
+Gramm,n.,das｜公克,gram,4
+Laken,n.,das｜床單,sheet,4
+Lastwagen,n.,der｜卡車,truck,4
+Kritik,n.,die｜批評,criticism,4
+sofern,conj.,只要,provided that,4
+entsetzlich,adj.,可怕的,dreadful,4
+Ermittler,n.,der｜調查員,investigator,4
+Fälschung,n.,die｜偽造品,forgery,4
+Abschnitt,n.,der｜段落,section,4
+Hausarrest,n.,der｜禁足,house arrest; grounding,4
+sensibel,adj.,敏感的,sensitive,4
+Album,n.,das｜專輯；相簿,album,4
+Lebewesen,n.,das｜生物,living being,4
+Lösegeld,n.,das｜贖金,ransom,4
+verwechseln,v.,搞混,to confuse,4
+prügeln,v.,毆打,to beat,4
+anvertrauen,v.,託付,to entrust,4
+Kuppel,n.,die｜圓頂,dome,4
+Gewerkschaft,n.,die｜工會,trade union,4
+stärken,v.,加強,to strengthen,4
+Wrack,n.,das｜殘骸,wreck,4
+Treibstoff,n.,der｜燃料,fuel,4
+Nachkomme,n.,der｜後代,descendant,4
+verborgen,adj.,隱藏的,hidden,4
+Waisenhaus,n.,das｜孤兒院,orphanage,4
+Brasilien,n.,das｜巴西,Brazil,4
+Wurmloch,n.,das｜蟲洞,wormhole,4
+Quarantäne,n.,die｜隔離,quarantine,4
+Kommunist,n.,der｜共產黨員,communist,4
+Stiftung,n.,die｜基金會,foundation,4
+verreisen,v.,出遊,to go away,4
+süchtig,adj.,上癮的,addicted,4
+jammern,v.,抱怨,to moan,4
+Maulwurf,n.,der｜鼴鼠,mole,4
+Konflikt,n.,der｜衝突,conflict,4
+Turnier,n.,das｜錦標賽,tournament,4
+Taube,n.,die｜鴿子,pigeon,4
+Mais,n.,der｜玉米,corn,4
+Nuss,n.,die｜堅果,nut,4
+Trieb,n.,der｜衝動,drive; urge,4
+Eigenschaft,n.,die｜特性,quality,4
+Feder,n.,die｜羽毛；彈簧,feather; spring,4
+Sänger,n.,der｜歌手,singer,4
+Rathaus,n.,das｜市政廳,town hall,4
+bewirken,v.,導致,to bring about,4
+Mörderin,n.,die｜女兇手,murderer (female),4
+Wanne,n.,die｜浴缸,tub,4
+Dauer,n.,die｜持續時間,duration,4
+unerwartet,adj.,意外的,unexpected,4
+Drogendealer,n.,der｜毒販,drug dealer,4
+Fach,n.,das｜科目；格子,subject; compartment,4
+Kragen,n.,der｜衣領,collar,4
+klirren,v.,叮噹響,to clink,4
+Valentinstag,n.,der｜情人節,Valentine's Day,4
+anstelle,prep.,代替,instead of,4
+markieren,v.,標記,to mark,4
+Ehrenwort,n.,das｜誓言,word of honor,4
+Schlamm,n.,der｜泥,mud,4
+Handlung,n.,die｜情節；行為,plot; action,4
+Klassiker,n.,der｜經典,classic,4
+Stange,n.,die｜桿,pole; rod,4
+Mechaniker,n.,der｜技工,mechanic,4
+beichten,v.,懺悔,to confess,4
+Abkürzung,n.,die｜捷徑；縮寫,shortcut; abbreviation,4
+professionell,adj.,專業的,professional,4
+Begräbnis,n.,das｜葬禮,funeral,4
+verführen,v.,引誘,to seduce,4
+Dienstmädchen,n.,das｜女僕,maid,4
+Chirurg,n.,der｜外科醫生,surgeon,4
+Wal,n.,der｜鯨,whale,4
+amüsant,adj.,有趣的,amusing,4
+gerührt,adj.,感動的,moved,4
+zugleich,adv.,同時,at the same time,4
+Dimension,n.,die｜維度,dimension,4
+Wecker,n.,der｜鬧鐘,alarm clock,4
+kreischen,v.,尖叫,to shriek,4
+Laden,n.,der｜商店,shop,4
+Lobby,n.,die｜大廳,lobby,4
+Perle,n.,die｜珍珠,pearl,4
+aufziehen,v.,撫養；上發條,to raise; to wind up,4
+Herd,n.,der｜爐灶,stove,4
+Aufsicht,n.,die｜監督,supervision,4
+Gegenstand,n.,der｜物品,object,4
+Tageslicht,n.,das｜日光,daylight,4
+Sünder,n.,der｜罪人,sinner,4
+betragen,v.,總計,to amount to,4
+entwerfen,v.,設計,to design,4
+Köchin,n.,die｜女廚師,cook (female),4
+Beichte,n.,die｜懺悔,confession,4
+ausliefern,v.,交出,to hand over,4
+Wurst,n.,die｜香腸,sausage,4
+vorsprechen,v.,試鏡,to audition,4
+Antrieb,n.,der｜驅動力,drive,4
+trösten,v.,安慰,to comfort,4
+Armut,n.,die｜貧窮,poverty,4
+verbannen,v.,放逐,to banish,4
+Parade,n.,die｜遊行,parade,4
+kindisch,adj.,幼稚的,childish,4
+Krüppel,n.,der｜殘廢者,cripple,4
+Bestrafung,n.,die｜懲罰,punishment,4
+kleben,v.,黏,to stick,4
+Perücke,n.,die｜假髮,wig,4
+Hummer,n.,der｜龍蝦,lobster,4
+Drittel,n.,das｜三分之一,third,4
+Budget,n.,das｜預算,budget,4
+Lieferwagen,n.,der｜貨車,van,4
+Tierarzt,n.,der｜獸醫,vet,4
+zudem,adv.,此外,moreover,4
+Sturz,n.,der｜跌倒,fall,4
+Abkommen,n.,das｜協議,agreement,4
+erstatten,v.,退還；提出,to refund; to file,4
+verarbeiten,v.,處理,to process,4
+verfügbar,adj.,可用的,available,4
+Autobahn,n.,die｜高速公路,motorway,4
+Mandant,n.,der｜委託人,client,4
+widmen,v.,奉獻,to dedicate,4
+Sprichwort,n.,das｜諺語,proverb,4
+Vergeltung,n.,die｜報復,retaliation,4
+Schuldgefühl,n.,das｜罪惡感,guilt,4
+Schnurrbart,n.,der｜八字鬍,mustache,4
+Brötchen,n.,das｜小麵包,bread roll,4
+Flut,n.,die｜洪水；漲潮,flood; tide,4
+Haushalt,n.,der｜家務；預算,household; budget,4
+Ministerium,n.,das｜部會,ministry,4
+Anker,n.,der｜錨,anchor,4
+Qual,n.,die｜痛苦,torment,4
+Debatte,n.,die｜辯論,debate,4
+Masse,n.,die｜大眾；質量,mass,4
+Insekt,n.,das｜昆蟲,insect,4
+Rückseite,n.,die｜背面,back side,4
+Spezialität,n.,die｜特色,specialty,4
+Schimmer,n.,der｜微光,glimmer,4
+verbieten,v.,禁止,to forbid,4
+gestresst,adj.,有壓力的,stressed,4
+Zeitschrift,n.,die｜雜誌,magazine,4
+Wildnis,n.,die｜荒野,wilderness,4
+Schlamassel,n.,der｜爛攤子,mess,4
+behindert,adj.,身心障礙的,disabled,4
+Abstimmung,n.,die｜投票,vote,4
+Senat,n.,der｜參議院,senate,4
+drucken,v.,印刷,to print,4
+Segel,n.,das｜帆,sail,4
+überflüssig,adj.,多餘的,superfluous,4
+Taschentuch,n.,das｜手帕；面紙,handkerchief; tissue,4
+beschleunigen,v.,加速,to accelerate,4
+Tennis,n.,das｜網球,tennis,4
+seither,adv.,從那時起,since then,4
+Christ,n.,der｜基督徒,Christian,4
+überqueren,v.,穿越,to cross,4
+Kreuzung,n.,die｜十字路口,intersection,4
+Bucht,n.,die｜海灣,bay,4
+Bildschirm,n.,der｜螢幕,screen,4
+saufen,v.,豪飲,to booze,4
+Eminenz,n.,die｜閣下,eminence,4
+Attentat,n.,das｜暗殺,assassination,4
+Verschwendung,n.,die｜浪費,waste,4
+zischen,v.,嘶嘶響,to hiss,4
+Geschirr,n.,das｜餐具,dishes,4
+Ähnlichkeit,n.,die｜相似,similarity,4
+entwischen,v.,溜走,to slip away,4
+Vorname,n.,der｜名字,first name,4
+schwitzen,v.,流汗,to sweat,4
+annähernd,adv.,大約,approximately,4
+Gewebe,n.,das｜組織,tissue,4
+unterschätzen,v.,低估,to underestimate,4
+Eichhörnchen,n.,das｜松鼠,squirrel,4
+zerbrechen,v.,打破,to break,4
+Poker,n.,das｜撲克,poker,4
+Wechsel,n.,der｜變換,change,4
+schleichen,v.,潛行,to sneak,4
+niedrig,adj.,低的,low,4
+Klimaanlage,n.,die｜空調,air conditioning,4
+Vulkan,n.,der｜火山,volcano,4
+lesbisch,adj.,女同性戀的,lesbian,4
+Abgrund,n.,der｜深淵,abyss,4
+Zeichnung,n.,die｜繪圖,drawing,4
+sinken,v.,下沉,to sink,4
+trauern,v.,哀悼,to mourn,4
+Abreise,n.,die｜出發,departure,4
+passend,adj.,合適的,suitable,4
+Mittagspause,n.,die｜午休,lunch break,4
+Wettkampf,n.,der｜比賽,competition,4
+verschlucken,v.,吞下,to swallow,4
+beneiden,v.,羨慕,to envy,4
+erregen,v.,激起,to arouse,4
+überwältigt,adj.,不知所措的,overwhelmed,4
+benennen,v.,命名,to name,4
+trommeln,v.,打鼓,to drum,4
+fortsetzen,v.,繼續,to continue,4
+Nachname,n.,der｜姓,surname,4
+anpassen,v.,調整,to adapt,4
+altmodisch,adj.,老式的,old-fashioned,4
+Feuerzeug,n.,das｜打火機,lighter,4
+Serienmörder,n.,der｜連續殺人犯,serial killer,4
+Alkoholiker,n.,der｜酒鬼,alcoholic,4
+Element,n.,das｜元素,element,4
+Rückweg,n.,der｜回程,way back,4
+Heimweg,n.,der｜回家路,way home,4
+Menschlichkeit,n.,die｜人性,humanity,4
+Premiere,n.,die｜首映,premiere,4
+schwingen,v.,擺動,to swing,4
+Initiative,n.,die｜主動,initiative,4
+Geschäftsführer,n.,der｜總經理,managing director,4
+Strafzettel,n.,der｜罰單,ticket (fine),4
+loben,v.,稱讚,to praise,4
+Pulver,n.,das｜粉末,powder,4
+Welpe,n.,der｜小狗,puppy,4
+ansprechen,v.,搭話；提及,to address; to raise,4
+Lebewohl,n.,das｜再會,farewell,4
+durstig,adj.,口渴的,thirsty,4
+Vorwand,n.,der｜藉口,pretext,4
+genervt,adj.,煩躁的,annoyed,4
+eintreffen,v.,抵達,to arrive,4
+Trauma,n.,das｜創傷,trauma,4
+Beobachtung,n.,die｜觀察,observation,4
+dergleichen,pron.,諸如此類,such things,4
+erwachen,v.,醒來,to awaken,4
+Lebenslauf,n.,der｜履歷,CV; résumé,4
+Anrufbeantworter,n.,der｜答錄機,answering machine,4
+relativ,adv.,相對地,relatively,4
+Rücksicht,n.,die｜體諒,consideration,4
+Lamm,n.,das｜羔羊,lamb,4
+widersprechen,v.,反駁,to contradict,4
+Dachboden,n.,der｜閣樓,attic,4
+keinesfalls,adv.,絕不,on no account,4
+bislang,adv.,迄今,so far,4
+Retter,n.,der｜救星,rescuer,4
+transportieren,v.,運送,to transport,4
+spontan,adj.,自發的,spontaneous,4
+prächtig,adj.,壯麗的,magnificent,4
+Pullover,n.,der｜毛衣,sweater,4
+Spitzel,n.,der｜線民,informer,4
+Bemühung,n.,die｜努力,effort,4
+unterschiedlich,adj.,不同的,different,4
+stürmen,v.,衝；颳暴風,to storm,4
+Ferse,n.,die｜腳跟,heel,4
+Vorbereitung,n.,die｜準備,preparation,4
+fortfahren,v.,繼續,to continue,4
+Produzent,n.,der｜製作人,producer,4
+Zwischenfall,n.,der｜事件,incident,4
+Pflege,n.,die｜照護,care,4
+Nachforschung,n.,die｜調查,inquiry,4
+Kanzler,n.,der｜總理,chancellor,4
+Sahne,n.,die｜奶油,cream,4
+Zwiebel,n.,die｜洋蔥,onion,4
+Schlitten,n.,der｜雪橇,sled,4
+Erbarmen,n.,das｜憐憫,mercy,4
+verkünden,v.,宣布,to announce,4
+vorgestern,adv.,前天,the day before yesterday,4
+betreiben,v.,經營,to run; to operate,4
+bemerkenswert,adj.,值得注意的,remarkable,4
+Dinosaurier,n.,der｜恐龍,dinosaur,4
+Wahrscheinlichkeit,n.,die｜機率,probability,4
+Nachfrage,n.,die｜需求,demand,4
+unwohl,adj.,不舒服的,unwell,4
+Materie,n.,die｜物質,matter,4
+Unterwelt,n.,die｜陰間；黑社會,underworld,4
+Haustür,n.,die｜大門,front door,4
+Semester,n.,das｜學期,semester,4
+Glanz,n.,der｜光澤,shine,4
+Fähre,n.,die｜渡輪,ferry,4
+betäubt,adj.,麻醉的,stunned; anesthetized,4
+arrogant,adj.,傲慢的,arrogant,4
+Fotograf,n.,der｜攝影師,photographer,4
+Eigentümer,n.,der｜所有人,owner,4
+realistisch,adj.,現實的,realistic,4
+Kindergarten,n.,der｜幼稚園,kindergarten,4
+bedrückt,adj.,沮喪的,depressed,4
+Kassette,n.,die｜卡帶,cassette,4
+Klempner,n.,der｜水管工,plumber,4
+Spaghetti,n.,die｜義大利麵,spaghetti,4
+Franzose,n.,der｜法國人,Frenchman,4
+Schlauch,n.,der｜水管,hose,4
+gelähmt,adj.,癱瘓的,paralyzed,4
+grillen,v.,烤肉,to grill,4
+Landschaft,n.,die｜風景,landscape,4
+Funktion,n.,die｜功能,function,4
+anonym,adj.,匿名的,anonymous,4
+Veranstaltung,n.,die｜活動,event,4
+Verpflichtung,n.,die｜義務,obligation,4
+Schülerin,n.,die｜女學生,pupil (female),4
+innerlich,adv.,內心,inwardly,4
+Künstlerin,n.,die｜女藝術家,artist (female),4
+Schöpfer,n.,der｜創造者,creator,4
+aufschreiben,v.,寫下,to write down,4
+Erleichterung,n.,die｜解脫,relief,4
+Auktion,n.,die｜拍賣,auction,4
+Regal,n.,das｜架子,shelf,4
+Fakt,n.,der｜事實,fact,4
+Niveau,n.,das｜水準,level,4
+Fahndung,n.,die｜通緝,manhunt,4
+Friede,n.,der｜和平,peace,4
+erleiden,v.,遭受,to suffer,4
+Mathematik,n.,die｜數學,mathematics,4
+Matratze,n.,die｜床墊,mattress,4
+Mordwaffe,n.,die｜兇器,murder weapon,4
+finanziell,adj.,財務的,financial,4
+Band,n.,das｜帶子；die｜樂團,ribbon; band,4
+Arbeitgeber,n.,der｜雇主,employer,4
+Beruhigungsmittel,n.,das｜鎮靜劑,sedative,4
+kurzfristig,adj.,短期的,short-term,4
+erlangen,v.,獲得,to attain,4
+Weltall,n.,das｜宇宙,universe,4
+vertuschen,v.,掩蓋,to cover up,4
+Zins,n.,der｜利息,interest,4
+einpacken,v.,打包,to pack,4
+Ballon,n.,der｜氣球,balloon,4
+Rudel,n.,das｜群,pack,4
+Horizont,n.,der｜地平線,horizon,4
+zusätzlich,adj.,額外的,additional,4
+Dekan,n.,der｜院長,dean,4
+Umzug,n.,der｜搬家,move,4
+Sängerin,n.,die｜女歌手,singer (female),4
+darstellen,v.,呈現,to represent,4
+Limousine,n.,die｜轎車,limousine; sedan,4
+Fracht,n.,die｜貨物,cargo,4
+gedenken,v.,紀念,to commemorate,4
+Struktur,n.,die｜結構,structure,4
+Kerker,n.,der｜地牢,dungeon,4
+hüten,v.,看守,to guard,4
+unverschämt,adj.,無恥的,outrageous,4
+durchschauen,v.,看穿,to see through,4
+Birne,n.,die｜梨；燈泡,pear; bulb,4
+gnädig,adj.,仁慈的,merciful,4
+Predigt,n.,die｜講道,sermon,4
+versehentlich,adv.,不小心,accidentally,4
+Software,n.,die｜軟體,software,4
+abstürzen,v.,墜毀；當機,to crash,4
+tätig,adj.,活躍的；從事的,active; working,4
+Eingriff,n.,der｜干預；手術,intervention; operation,4
+Zuflucht,n.,die｜避難所,refuge,4
+Generator,n.,der｜發電機,generator,4
+ungeduldig,adj.,不耐煩的,impatient,4
+unklar,adj.,不清楚的,unclear,4
+suspendieren,v.,停職,to suspend,4
+Arbeitsplatz,n.,der｜工作場所,workplace,4
+Bruch,n.,der｜斷裂；違反,break; breach,4
+unruhig,adj.,不安的,restless,4
+Plastik,n.,das｜塑膠,plastic,4
+Leder,n.,das｜皮革,leather,4
+verfehlen,v.,錯過,to miss,4
+Schmutz,n.,der｜污垢,dirt,4
+Komitee,n.,das｜委員會,committee,4
+Prophet,n.,der｜先知,prophet,4
+Durchsage,n.,die｜廣播,announcement,4
+Stiefvater,n.,der｜繼父,stepfather,4
+Ausgabe,n.,die｜支出；版,expenditure; edition,4
+Alarmstufe,n.,die｜警戒等級,alert level,4
+übersetzen,v.,翻譯,to translate,4
+Griechenland,n.,das｜希臘,Greece,4
+Rüstung,n.,die｜盔甲；軍備,armor; armament,4
+Attentäter,n.,der｜刺客,assassin,4
+Gewohnheit,n.,die｜習慣,habit,4
+Kindermädchen,n.,das｜保母,nanny,4
+japanisch,adj.,日本的,Japanese,4
+beinhalten,v.,包含,to include,4
+abfeuern,v.,開火,to fire,4
+hinzufügen,v.,添加,to add,4
+Werwolf,n.,der｜狼人,werewolf,4
+Ehrgeiz,n.,der｜野心,ambition,4
+Aufenthaltsort,n.,der｜下落,whereabouts,4
+hinreißend,adj.,迷人的,ravishing,4
+Geige,n.,die｜小提琴,violin,4
+Fortsetzung,n.,die｜續集,sequel; continuation,4
+Archiv,n.,das｜檔案館,archive,4
+einholen,v.,趕上,to catch up with,4
+Hingabe,n.,die｜奉獻,devotion,4
+Berührung,n.,die｜觸碰,touch,4
+Sattel,n.,der｜馬鞍,saddle,4
+gelangweilt,adj.,無聊的,bored,4
+intakt,adj.,完整的,intact,4
+Poesie,n.,die｜詩歌,poetry,4
+pflegen,v.,照料,to care for,4
+Perspektive,n.,die｜觀點,perspective,4
+Sperma,n.,das｜精液,sperm,4
+Schildkröte,n.,die｜烏龜,turtle,4
+umzingeln,v.,包圍,to surround,4
+Bonus,n.,der｜獎金,bonus,4
+günstig,adj.,便宜的；有利的,cheap; favorable,4
+lebenslänglich,adj.,終身的,for life,4
+präzise,adj.,精確的,precise,4
+Sorgerecht,n.,das｜監護權,custody,4
+Gebot,n.,das｜誡命；出價,commandment; bid,4
+Ameise,n.,die｜螞蟻,ant,4
+verleihen,v.,授予；出借,to award; to lend,4
+Deckel,n.,der｜蓋子,lid,4
+Frechheit,n.,die｜無禮,cheek; impudence,4
+Gastfreundschaft,n.,die｜好客,hospitality,4
+Schwamm,n.,der｜海綿,sponge,4
+ermöglichen,v.,使可能,to enable,4
+erstellen,v.,建立,to create,4
+Leichnam,n.,der｜屍體,corpse,4
+Pilz,n.,der｜蘑菇,mushroom,4
+Erfüllung,n.,die｜實現,fulfillment,4
+Verbündete,n.,der｜盟友,ally,4
+meiden,v.,避開,to avoid,4
+isoliert,adj.,孤立的,isolated,4
+Ausschlag,n.,der｜疹子,rash,4
+fünfzehn,n.,十五,fifteen,4
+Aufruhr,n.,der｜騷亂,uproar,4
+Quittung,n.,die｜收據,receipt,4
+Portal,n.,das｜入口,portal,4
+Großeltern,n.,die｜祖父母,grandparents,4
+Investition,n.,die｜投資,investment,4
+Schweiß,n.,der｜汗,sweat,4
+Selbstvertrauen,n.,das｜自信,self-confidence,4
+Taschenlampe,n.,die｜手電筒,flashlight,4
+Justiz,n.,die｜司法,justice,4
+Heer,n.,das｜軍隊,army,4
+Schuft,n.,der｜無賴,scoundrel,4
+zünden,v.,點燃,to ignite,4
+Instrument,n.,das｜樂器,instrument,4
+Herzogin,n.,die｜公爵夫人,duchess,4
+Aktivität,n.,die｜活動,activity,4
+Gegenmittel,n.,das｜解藥,antidote,4
+Taktik,n.,die｜戰術,tactic,4
+dramatisch,adj.,戲劇性的,dramatic,4
+Potenzial,n.,das｜潛力,potential,4
+Anpassung,n.,die｜適應,adaptation,4
+Jugendliche,n.,der｜青少年,adolescent,4
+Ass,n.,das｜王牌,ace,4
+Korruption,n.,die｜腐敗,corruption,4
+Überzeugung,n.,die｜信念,conviction,4
+anmelden,v.,登記,to register,4
+Massaker,n.,das｜屠殺,massacre,4
+auspacken,v.,拆開,to unpack,4
+Heizung,n.,die｜暖氣,heating,4
+Kolonie,n.,die｜殖民地,colony,4
+Gerichtssaal,n.,der｜法庭,courtroom,4
+Studentin,n.,die｜女大學生,student (female),4
+Teich,n.,der｜池塘,pond,4
+Raubüberfall,n.,der｜搶劫,robbery,4
+Duell,n.,das｜決鬥,duel,4
+Wange,n.,die｜臉頰,cheek,4
+wiedergutmachen,v.,彌補,to make amends,4
+Festplatte,n.,die｜硬碟,hard drive,4
+Stoß,n.,der｜推；撞擊,push; impact,4
+eingreifen,v.,介入,to intervene,4
+enorm,adj.,巨大的,enormous,4
+aufsuchen,v.,拜訪,to seek out,4
+sichtbar,adj.,可見的,visible,4
+Pass,n.,der｜護照；山口,passport; pass,4
+Gehör,n.,das｜聽覺,hearing,4
+jedermann,pron.,每個人,everyone,4
+Substanz,n.,die｜物質,substance,4
+Arbeitszimmer,n.,das｜書房,study,4
+Notwehr,n.,die｜自衛,self-defense,4
+Patrouille,n.,die｜巡邏,patrol,4
+Gewitter,n.,das｜雷雨,thunderstorm,4
+Schmetterling,n.,der｜蝴蝶,butterfly,4
+förmlich,adj.,正式的,formal,4
+Baustelle,n.,die｜工地,construction site,4
+beerdigen,v.,埋葬,to bury,4
+sozial,adj.,社會的,social,4
+Abschlussball,n.,der｜畢業舞會,prom,4
+Medaille,n.,die｜獎牌,medal,4
+vielmehr,adv.,反而,rather,4
+Anschluss,n.,der｜連接,connection,4
+anzünden,v.,點燃,to light,4
+Halluzination,n.,die｜幻覺,hallucination,4
+Festnahme,n.,die｜逮捕,arrest,4
+Umwelt,n.,die｜環境,environment,4
+teilweise,adv.,部分地,partly,4
+bearbeiten,v.,處理,to work on; to edit,4
+ausstellen,v.,展出；簽發,to exhibit; to issue,4
+Änderung,n.,die｜變更,change,4
+Kapsel,n.,die｜膠囊,capsule,4
+unbewaffnet,adj.,手無寸鐵的,unarmed,4
+Internat,n.,das｜寄宿學校,boarding school,4
+Zeile,n.,die｜行,line,4
+Mühle,n.,die｜磨坊,mill,4
+Zeitalter,n.,das｜時代,age; era,4
+Prediger,n.,der｜傳道者,preacher,4
+Sessel,n.,der｜扶手椅,armchair,4
+weiterhelfen,v.,進一步幫助,to help further,4
+Gerichtsmediziner,n.,der｜法醫,coroner,4
+Bluse,n.,die｜女襯衫,blouse,4
+Gegenleistung,n.,die｜回報,return; consideration,4
+Helfer,n.,der｜幫手,helper,4
+Aufstieg,n.,der｜上升,rise,5
+verdeckt,adj.,隱蔽的,covered; undercover,5
+Abfall,n.,der｜垃圾,waste,5
+Hauptrolle,n.,die｜主角,leading role,5
+Klingel,n.,die｜門鈴,bell,5
+flirten,v.,調情,to flirt,5
+Spanier,n.,der｜西班牙人,Spaniard,5
+Taxifahrer,n.,der｜計程車司機,taxi driver,5
+Länge,n.,die｜長度,length,5
+ausschließen,v.,排除,to exclude,5
+erforschen,v.,研究,to explore,5
+Eisenbahn,n.,die｜鐵路,railway,5
+Provinz,n.,die｜省,province,5
+Pärchen,n.,das｜情侶,couple,5
+kritisch,adj.,批判的；關鍵的,critical,5
+finanzieren,v.,資助,to finance,5
+Elektrizität,n.,die｜電力,electricity,5
+Erlebnis,n.,das｜經歷,experience,5
+Vaterland,n.,das｜祖國,fatherland,5
+bitter,adj.,苦的,bitter,5
+Schleier,n.,der｜面紗,veil,5
+Notarzt,n.,der｜急診醫生,emergency doctor,5
+stopfen,v.,塞,to stuff,5
+Übergabe,n.,die｜交接,handover,5
+Effekt,n.,der｜效果,effect,5
+Verwirrung,n.,die｜混亂,confusion,5
+überschreiten,v.,超過,to exceed,5
+belassen,v.,保持原狀,to leave as is,5
+Latein,n.,das｜拉丁語,Latin,5
+Grundlage,n.,die｜基礎,basis,5
+Reihenfolge,n.,die｜順序,order; sequence,5
+Arena,n.,die｜競技場,arena,5
+Ballett,n.,das｜芭蕾,ballet,5
+Verfolgung,n.,die｜追捕,pursuit,5
+Exemplar,n.,das｜樣本；冊,specimen; copy,5
+bedauerlich,adj.,可惜的,regrettable,5
+Anstalt,n.,die｜機構,institution,5
+Pakt,n.,der｜協定,pact,5
+Damm,n.,der｜水壩,dam,5
+Laser,n.,der｜雷射,laser,5
+Tugend,n.,die｜美德,virtue,5
+Neuanfang,n.,der｜新開始,fresh start,5
+Anordnung,n.,die｜命令；排列,order; arrangement,5
+Orchester,n.,das｜管弦樂團,orchestra,5
+Senf,n.,der｜芥末,mustard,5
+Verwaltung,n.,die｜行政,administration,5
+Schwiegersohn,n.,der｜女婿,son-in-law,5
+Hörer,n.,der｜聽眾；話筒,listener; receiver,5
+Finanzen,n.,die｜財務,finances,5
+Verteidiger,n.,der｜辯護人,defender,5
+bevorzugen,v.,偏好,to prefer,5
+Belästigung,n.,die｜騷擾,harassment,5
+mysteriös,adj.,神祕的,mysterious,5
+vorausgesetzt,conj.,假設,provided,5
+profitieren,v.,獲益,to profit,5
+vorläufig,adj.,暫時的,provisional,5
+Ader,n.,die｜血管,vein,5
+Mordkommission,n.,die｜兇殺組,homicide squad,5
+Erkältung,n.,die｜感冒,cold,5
+belohnen,v.,獎賞,to reward,5
+grinsen,v.,咧嘴笑,to grin,5
+Bund,n.,der｜聯盟；聯邦,federation; bond,5
+provozieren,v.,挑釁,to provoke,5
+geschmeichelt,adj.,受寵若驚的,flattered,5
+Gehirnerschütterung,n.,die｜腦震盪,concussion,5
+lehnen,v.,倚靠,to lean,5
+Partnerschaft,n.,die｜夥伴關係,partnership,5
+Begleiter,n.,der｜同伴,companion,5
+Apokalypse,n.,die｜末日,apocalypse,5
+eingebildet,adj.,自大的,conceited,5
+Schwindler,n.,der｜騙子,swindler,5
+Rechtsanwalt,n.,der｜律師,lawyer,5
+Romantik,n.,die｜浪漫,romance,5
+Haushälterin,n.,die｜管家,housekeeper,5
+Privatdetektiv,n.,der｜私家偵探,private investigator,5
+ansteckend,adj.,傳染的,contagious,5
+nervig,adj.,煩人的,annoying,5
+niedergeschlagen,adj.,沮喪的,dejected,5
+Morphium,n.,das｜嗎啡,morphine,5
+Kooperation,n.,die｜合作,cooperation,5
+Schwerkraft,n.,die｜重力,gravity,5
+auserwählt,adj.,被選中的,chosen,5
+Söldner,n.,der｜傭兵,mercenary,5
+taugen,v.,適合；有用,to be good for,5
+Kiefer,n.,der｜下巴,jaw,5
+aufwecken,v.,叫醒,to wake up,5
+Klugscheißer,n.,der｜自作聰明者,smart aleck,5
+zaubern,v.,變魔術,to conjure,5
+Gabel,n.,die｜叉子,fork,5
+engagieren,v.,聘請,to hire,5
+vermitteln,v.,調解；傳達,to mediate; to convey,5
+Vorgehensweise,n.,die｜做法,procedure,5
+Spender,n.,der｜捐贈者,donor,5
+Gastgeber,n.,der｜主人,host,5
+Innenstadt,n.,die｜市中心,city center,5
+schwindelig,adj.,頭暈的,dizzy,5
+Scham,n.,die｜羞恥,shame,5
+intensiv,adj.,強烈的,intense,5
+defekt,adj.,故障的,defective,5
+beziehen,v.,取得；套上,to obtain; to cover,5
+talentiert,adj.,有天賦的,talented,5
+Schaufel,n.,die｜鏟子,shovel,5
+erschüttert,adj.,震驚的,shaken,5
+Vetter,n.,der｜表兄弟,cousin,5
+bestechen,v.,賄賂,to bribe,5
+Rücksitz,n.,der｜後座,back seat,5
+Magier,n.,der｜魔術師,magician,5
+Eröffnung,n.,die｜開幕,opening,5
+Grill,n.,der｜烤架,grill,5
+Würfel,n.,der｜骰子；立方體,die; cube,5
+Physik,n.,die｜物理,physics,5
+Stadion,n.,das｜體育場,stadium,5
+streben,v.,追求,to strive,5
+Streik,n.,der｜罷工,strike,5
+Plätzchen,n.,das｜餅乾,cookie,5
+Hypothek,n.,die｜房貸,mortgage,5
+Schlagzeile,n.,die｜頭條,headline,5
+Kündigung,n.,die｜解約；辭職,termination; resignation,5
+Entzug,n.,der｜戒斷,withdrawal,5
+Leibwächter,n.,der｜保鑣,bodyguard,5
+erschrocken,adj.,受驚的,frightened,5
+Seide,n.,die｜絲,silk,5
+Leinwand,n.,die｜螢幕；畫布,screen; canvas,5
+scannen,v.,掃描,to scan,5
+klatschen,v.,拍手,to clap,5
+Ohrring,n.,der｜耳環,earring,5
+Präsentation,n.,die｜簡報,presentation,5
+Zahnbürste,n.,die｜牙刷,toothbrush,5
+Blei,n.,das｜鉛,lead,5
+gönnen,v.,樂見；犒賞,to not begrudge; to treat,5
+erreichbar,adj.,可聯繫的,reachable,5
+zuverlässig,adj.,可靠的,reliable,5
+Aufprall,n.,der｜撞擊,impact,5
+Heldin,n.,die｜女英雄,heroine,5
+Flüchtling,n.,der｜難民,refugee,5
+Unterhose,n.,die｜內褲,underpants,5
+Psychopath,n.,der｜精神病態者,psychopath,5
+bezeugen,v.,作證,to testify,5
+Massage,n.,die｜按摩,massage,5
+Pudding,n.,der｜布丁,pudding,5
+Lichtjahr,n.,das｜光年,light-year,5
+zwecklos,adj.,徒勞的,futile,5
+Teilnehmer,n.,der｜參加者,participant,5
+Langeweile,n.,die｜無聊,boredom,5
+Tabak,n.,der｜菸草,tobacco,5
+ernennen,v.,任命,to appoint,5
+Kodex,n.,der｜法典,code,5
+schonen,v.,保護；愛惜,to spare; to protect,5
+machtlos,adj.,無力的,powerless,5
+einsehen,v.,領悟,to realize,5
+Mythos,n.,der｜神話,myth,5
+verantworten,v.,負責,to answer for,5
+ausschließlich,adv.,專門地,exclusively,5
+Sklaverei,n.,die｜奴隸制,slavery,5
+Haustier,n.,das｜寵物,pet,5
+Stützpunkt,n.,der｜基地,base,5
+Fernbedienung,n.,die｜遙控器,remote control,5
+verstärken,v.,加強,to reinforce,5
+Verlegenheit,n.,die｜尷尬,embarrassment,5
+Bruderschaft,n.,die｜兄弟會,brotherhood,5
+Bereitschaft,n.,die｜準備；意願,readiness,5
+Börse,n.,die｜證券交易所,stock exchange,5
+Aufsatz,n.,der｜作文,essay,5
+Untergrund,n.,der｜地下,underground,5
+versiegelt,adj.,密封的,sealed,5
+gebildet,adj.,有教養的,educated,5
+kostenlos,adj.,免費的,free of charge,5
+Ausschuss,n.,der｜委員會,committee,5
+feindlich,adj.,敵對的,hostile,5
+Feldwebel,n.,der｜中士,sergeant,5
+respektlos,adj.,無禮的,disrespectful,5
+Hengst,n.,der｜種馬,stallion,5
+Banane,n.,die｜香蕉,banana,5
+Schurke,n.,der｜惡棍,villain,5
+Geschäftspartner,n.,der｜生意夥伴,business partner,5
+Psychologie,n.,die｜心理學,psychology,5
+Belastung,n.,die｜負擔,burden,5
+Bindung,n.,die｜聯繫,bond,5
+Gespenst,n.,das｜鬼,ghost,5
+Ursprung,n.,der｜起源,origin,5
+schleppen,v.,拖,to drag,5
+Terrasse,n.,die｜露台,terrace,5
+unbesorgt,adj.,不擔心的,unconcerned,5
+Sekretär,n.,der｜祕書,secretary,5
+beruhigend,adj.,令人安心的,reassuring,5
+Impuls,n.,der｜衝動,impulse,5
+voreilig,adj.,倉促的,hasty,5
+Peitsche,n.,die｜鞭子,whip,5
+installieren,v.,安裝,to install,5
+Seemann,n.,der｜水手,sailor,5
+Rebellion,n.,die｜叛亂,rebellion,5
+Titelseite,n.,die｜頭版,front page,5
+Schwiegervater,n.,der｜岳父；公公,father-in-law,5
+abscheulich,adj.,可惡的,abominable,5
+Kompass,n.,der｜指南針,compass,5
+Yoga,n.,das｜瑜伽,yoga,5
+elektrisch,adj.,電的,electric,5
+Kaviar,n.,der｜魚子醬,caviar,5
+reiben,v.,摩擦,to rub,5
+Plage,n.,die｜災禍,plague; nuisance,5
+Streife,n.,die｜巡邏,patrol,5
+Norwegen,n.,das｜挪威,Norway,5
+Kappe,n.,die｜帽子,cap,5
+Hebel,n.,der｜槓桿,lever,5
+Urin,n.,der｜尿,urine,5
+Triumph,n.,der｜勝利,triumph,5
+begrenzt,adj.,有限的,limited,5
+Streichholz,n.,das｜火柴,match,5
+Erscheinung,n.,die｜外表；幽靈,appearance; apparition,5
+Neid,n.,der｜嫉妒,envy,5
+Tabu,n.,das｜禁忌,taboo,5
+Berechnung,n.,die｜計算,calculation,5
+Auskunft,n.,die｜資訊；服務台,information,5
+Dänemark,n.,das｜丹麥,Denmark,5
+hintergehen,v.,欺騙,to deceive,5
+Patrone,n.,die｜子彈；墨水匣,cartridge,5
+erweitern,v.,擴展,to expand,5
+Waffenstillstand,n.,der｜停火,ceasefire,5
+Astronaut,n.,der｜太空人,astronaut,5
+Kreislauf,n.,der｜循環,circulation; cycle,5
+widerfahren,v.,遭遇,to happen to,5
+Lebensunterhalt,n.,der｜生計,livelihood,5
+hintereinander,adv.,接連,in a row,5
+Außenseiter,n.,der｜局外人,outsider,5
+Nummernschild,n.,das｜車牌,license plate,5
+Steuerbord,n.,das｜右舷,starboard,5
+leidenschaftlich,adj.,熱情的,passionate,5
+auflösen,v.,溶解；解散,to dissolve,5
+verschonen,v.,饒恕,to spare,5
+Backe,n.,die｜臉頰,cheek,5
+Cafeteria,n.,die｜自助餐廳,cafeteria,5
+Schwur,n.,der｜誓言,oath,5
+höchstpersönlich,adv.,親自,in person,5
+Anrufer,n.,der｜來電者,caller,5
+Blutbad,n.,das｜大屠殺,bloodbath,5
+bankrott,adj.,破產的,bankrupt,5
+Atemzug,n.,der｜呼吸,breath,5
+Kopfgeld,n.,das｜懸賞金,bounty,5
+Papagei,n.,der｜鸚鵡,parrot,5
+Groll,n.,der｜怨恨,grudge,5
+Ketchup,n.,der｜番茄醬,ketchup,5
+stolpern,v.,絆倒,to stumble,5
+Feiertag,n.,der｜假日,holiday,5
+Spitzname,n.,der｜綽號,nickname,5
+befassen,v.,（sich）處理,to deal with,5
+grundlos,adj.,無理由的,groundless,5
+Handwerk,n.,das｜手藝,craft; trade,5
+pervers,adj.,變態的,perverted,5
+Vermieter,n.,der｜房東,landlord,5
+Truhe,n.,die｜箱子,chest,5
+moralisch,adj.,道德的,moral,5
+Blondine,n.,die｜金髮女子,blonde,5
+Scheinwerfer,n.,der｜聚光燈；車頭燈,spotlight; headlight,5
+tippen,v.,打字；猜,to type; to guess,5
+Buchhaltung,n.,die｜會計部,accounting,5
+künstlich,adj.,人造的,artificial,5
+außerordentlich,adj.,非常的,extraordinary,5
+Falke,n.,der｜獵鷹,falcon,5
+klicken,v.,點擊,to click,5
+Gattin,n.,die｜夫人,wife,5
+östlich,adj.,東方的,eastern,5
+Labyrinth,n.,das｜迷宮,labyrinth,5
+währenddessen,adv.,同時,meanwhile,5
+töricht,adj.,愚蠢的,foolish,5
+Zitat,n.,das｜引文,quote,5
+Häftling,n.,der｜囚犯,prisoner,5
+Psychiatrie,n.,die｜精神科,psychiatry,5
+Heuchler,n.,der｜偽君子,hypocrite,5
+immun,adj.,免疫的,immune,5
+Temperament,n.,das｜性情,temperament,5
+Umhang,n.,der｜斗篷,cloak,5
+Alarmanlage,n.,die｜警報系統,alarm system,5
+überfordert,adj.,力不從心的,overwhelmed,5
+Galgen,n.,der｜絞刑架,gallows,5
+verfügen,v.,擁有；支配,to have at one's disposal,5
+Aufwand,n.,der｜花費；工夫,effort; expense,5
+Klippe,n.,die｜懸崖,cliff,5
+Umweg,n.,der｜繞路,detour,5
+einberufen,v.,召集,to convene,5
+Urteilsvermögen,n.,das｜判斷力,judgment,5
+Impfstoff,n.,der｜疫苗,vaccine,5
+Bestechung,n.,die｜賄賂,bribery,5
+weigern,v.,（sich）拒絕,to refuse,5
+verschweigen,v.,隱瞞,to conceal,5
+Verlauf,n.,der｜過程,course,5
+aktuell,adj.,目前的,current,5
+veranlassen,v.,促使,to cause; to arrange,5
+Fahrkarte,n.,die｜車票,ticket,5
+äußern,v.,表達,to express,5
+Adrenalin,n.,das｜腎上腺素,adrenaline,5
+Missbrauch,n.,der｜濫用,abuse,5
+Seminar,n.,das｜研討課,seminar,5
+drittens,adv.,第三,thirdly,5
+biegen,v.,彎曲；轉彎,to bend; to turn,5
+Demonstration,n.,die｜示威,demonstration,5
+deaktivieren,v.,停用,to deactivate,5
+liebevoll,adj.,充滿愛的,loving,5
+Konversation,n.,die｜對話,conversation,5
+ausbrechen,v.,爆發；越獄,to break out,5
+Traurigkeit,n.,die｜悲傷,sadness,5
+Rechenschaft,n.,die｜交代,account,5
+Schlucht,n.,die｜峽谷,gorge,5
+kauen,v.,咀嚼,to chew,5
+Sonnenlicht,n.,das｜陽光,sunlight,5
+Angewohnheit,n.,die｜習慣,habit,5
+Darlehen,n.,das｜貸款,loan,5
+Standard,n.,der｜標準,standard,5
+Vormittag,n.,der｜上午,morning,5
+Geschwätz,n.,das｜廢話,chatter,5
+kassieren,v.,收錢,to collect,5
+Bonbon,n.,das｜糖果,candy,5
+beheben,v.,修復,to fix,5
+Beschluss,n.,der｜決議,decision,5
+Ast,n.,der｜樹枝,branch,5
+Schmerzmittel,n.,das｜止痛藥,painkiller,5
+Lappen,n.,der｜抹布,rag,5
+Unruhe,n.,die｜不安,unrest,5
+Atombombe,n.,die｜原子彈,atomic bomb,5
+missverstehen,v.,誤解,to misunderstand,5
+unterdrücken,v.,壓抑,to suppress,5
+Ausmaß,n.,das｜規模,extent,5
+Manuskript,n.,das｜手稿,manuscript,5
+freigeben,v.,釋放；開放,to release,5
+Blutgruppe,n.,die｜血型,blood type,5
+ausdrücklich,adv.,明確地,expressly,5
+reduzieren,v.,減少,to reduce,5
+ungeschickt,adj.,笨拙的,clumsy,5
+vermieten,v.,出租,to rent out,5
+ausweichen,v.,閃避,to evade,5
+Gewissheit,n.,die｜確定,certainty,5
+Verbrennung,n.,die｜燒傷；燃燒,burn; combustion,5
+Klarheit,n.,die｜清晰,clarity,5
+Abdruck,n.,der｜印痕,print,5
+gelaunt,adj.,心情…的,in a … mood,5
+Einnahme,n.,die｜收入,income,5
+zuversichtlich,adj.,有信心的,confident,5
+pumpen,v.,抽水,to pump,5
+gewillt,adj.,願意的,willing,5
+Lebensform,n.,die｜生命形式,life form,5
+betrinken,v.,（sich）喝醉,to get drunk,5
+Abgang,n.,der｜離場,exit,5
+Fußboden,n.,der｜地板,floor,5
+ernten,v.,收穫,to harvest,5
+imstande,adj.,能夠的,capable,5
+wahrhaftig,adv.,真正地,truly,5
+Besessenheit,n.,die｜著魔,obsession,5
+Lanze,n.,die｜長矛,lance,5
+erleichtern,v.,減輕,to ease,5
+Stiefmutter,n.,die｜繼母,stepmother,5
+Verein,n.,der｜社團,club; association,5
+Comic,n.,der｜漫畫,comic,5
+Metapher,n.,die｜隱喻,metaphor,5
+maximal,adv.,最多,at most,5
+starr,adj.,僵硬的,rigid,5
+Razzia,n.,die｜突襲搜查,raid,5
+Hellseher,n.,der｜通靈者,clairvoyant,5
+Putzfrau,n.,die｜清潔婦,cleaning lady,5
+Wohlstand,n.,der｜繁榮,prosperity,5
+erfreuen,v.,使高興,to delight,5
+Bordell,n.,das｜妓院,brothel,5
+Straftat,n.,die｜罪行,criminal offense,5
+entzückt,adj.,欣喜的,delighted,5
+Unterbrechung,n.,die｜中斷,interruption,5
+Gebrauch,n.,der｜使用,use,5
+zusammenleben,v.,同居,to live together,5
+Reserve,n.,die｜儲備,reserve,5
+errichten,v.,建立,to erect,5
+durchbrechen,v.,突破,to break through,5
+unzufrieden,adj.,不滿意的,dissatisfied,5
+beschämt,adj.,羞愧的,ashamed,5
+lästig,adj.,討厭的,annoying,5
+Spind,n.,der｜置物櫃,locker,5
+Unordnung,n.,die｜雜亂,mess,5
+optimistisch,adj.,樂觀的,optimistic,5
+Sekte,n.,die｜教派,sect,5
+beschlagnahmen,v.,沒收,to confiscate,5
+Einzelhaft,n.,die｜單獨監禁,solitary confinement,5
+Spezialist,n.,der｜專家,specialist,5
+Tapferkeit,n.,die｜英勇,bravery,5
+Zutat,n.,die｜材料,ingredient,5
+Resultat,n.,das｜結果,result,5
+sympathisch,adj.,討人喜歡的,likeable,5
+verwöhnt,adj.,被寵壞的,spoiled,5
+Bekanntschaft,n.,die｜相識,acquaintance,5
+joggen,v.,慢跑,to jog,5
+Träger,n.,der｜搬運工；肩帶,carrier; strap,5
+Depression,n.,die｜憂鬱症,depression,5
+weitergeben,v.,傳遞,to pass on,5
+Schnecke,n.,die｜蝸牛,snail,5
+Rind,n.,das｜牛,cattle,5
+Waise,n.,die｜孤兒,orphan,5
+chemisch,adj.,化學的,chemical,5
+Zünder,n.,der｜引信,fuse; detonator,5
+Haarschnitt,n.,der｜髮型,haircut,5
+Schneewittchen,n.,das｜白雪公主,Snow White,5
+einmalig,adj.,唯一的；絕佳的,unique; one-off,5
+depressiv,adj.,憂鬱的,depressive,5
+Schreibmaschine,n.,die｜打字機,typewriter,5
+selig,adj.,幸福的,blissful,5
+Notizbuch,n.,das｜筆記本,notebook,5
+Wechselgeld,n.,das｜找零,change,5
+obdachlos,adj.,無家可歸的,homeless,5
+göttlich,adj.,神聖的,divine,5
+entziehen,v.,撤回,to withdraw,5
+Hupe,n.,die｜喇叭,horn,5
+Festland,n.,das｜大陸,mainland,5
+Rückgrat,n.,das｜脊椎,backbone,5
+schmuggeln,v.,走私,to smuggle,5
+Knoblauch,n.,der｜大蒜,garlic,5
+Korridor,n.,der｜走廊,corridor,5
+Bettler,n.,der｜乞丐,beggar,5
+Russe,n.,der｜俄國人,Russian,5
+ausfallen,v.,取消；故障,to be cancelled; to fail,5
+Bakterie,n.,die｜細菌,bacterium,5
+Rezeption,n.,die｜接待處,reception,5
+dreizehn,n.,十三,thirteen,5
+Anflug,n.,der｜進場；一絲,approach; trace,5
+Zulassung,n.,die｜許可,admission; registration,5
+Abtreibung,n.,die｜墮胎,abortion,5
+Planung,n.,die｜規劃,planning,5
+Territorium,n.,das｜領土,territory,5
+Portemonnaie,n.,das｜錢包,wallet,5
+improvisieren,v.,即興,to improvise,5
+tanken,v.,加油,to refuel,5
+einschüchtern,v.,恐嚇,to intimidate,5
+Schleife,n.,die｜蝴蝶結；迴圈,bow; loop,5
+berechnen,v.,計算,to calculate,5
+streicheln,v.,撫摸,to stroke,5
+Speer,n.,der｜矛,spear,5
+Ablauf,n.,der｜流程,procedure,5
+Mikrofon,n.,das｜麥克風,microphone,5
+aufgewühlt,adj.,激動的,agitated,5
+Luftwaffe,n.,die｜空軍,air force,5
+Wiese,n.,die｜草地,meadow,5
+Verkleidung,n.,die｜偽裝,disguise,5
+Intensivstation,n.,die｜加護病房,intensive care unit,5
+Schlinge,n.,die｜繩套,noose; sling,5
+Handvoll,n.,die｜一把,handful,5
+Beweisstück,n.,das｜證物,piece of evidence,5
+Pfeffer,n.,der｜胡椒,pepper,5
+nachgeben,v.,讓步,to give in,5
+Stau,n.,der｜塞車,traffic jam,5
+Unsterblichkeit,n.,die｜不朽,immortality,5
+Erkenntnis,n.,die｜認知,insight,5
+Kategorie,n.,die｜類別,category,5
+überwältigend,adj.,壓倒性的,overwhelming,5
+Telefonzelle,n.,die｜電話亭,phone booth,5
+Absatz,n.,der｜段落；鞋跟,paragraph; heel,5
+Buße,n.,die｜懺悔,penance,5
+giftig,adj.,有毒的,poisonous,5
+Rausch,n.,der｜醉；狂喜,intoxication; rush,5
+Fassade,n.,die｜正面,facade,5
+Scharfschütze,n.,der｜狙擊手,sniper,5
+Anfrage,n.,die｜詢問,inquiry,5
+Ex-Mann,n.,der｜前夫,ex-husband,5
+solide,adj.,穩固的,solid,5
+Klatsch,n.,der｜八卦,gossip,5
+hartnäckig,adj.,固執的,stubborn,5
+sofortig,adj.,立即的,immediate,5
+Küstenwache,n.,die｜海岸巡防,coast guard,5
+entsetzt,adj.,驚駭的,horrified,5
+edel,adj.,高貴的,noble,5
+unbemerkt,adj.,未被察覺的,unnoticed,5
+religiös,adj.,宗教的,religious,5
+deprimierend,adj.,令人沮喪的,depressing,5
+Pol,n.,der｜極,pole,5
+Harmonie,n.,die｜和諧,harmony,5
+Kelch,n.,der｜聖杯,chalice,5
+Hüter,n.,der｜守護者,guardian,5
+Außenministerium,n.,das｜外交部,foreign ministry,5
+umstellen,v.,包圍；調整,to surround; to change over,5
+Besetzung,n.,die｜演員陣容；佔領,cast; occupation,5
+kriminell,adj.,犯罪的,criminal,5
+Praktikum,n.,das｜實習,internship,5
+Märtyrer,n.,der｜殉道者,martyr,5
+Nachtschicht,n.,die｜夜班,night shift,5
+Klebeband,n.,das｜膠帶,tape,5
+Metzger,n.,der｜屠夫,butcher,5
+Ehering,n.,der｜婚戒,wedding ring,5
+Großbritannien,n.,das｜英國,Great Britain,5
+Aufsehen,n.,das｜轟動,stir; sensation,5
+Heu,n.,das｜乾草,hay,5
+Schwarm,n.,der｜群；心上人,swarm; crush,5
+Eule,n.,die｜貓頭鷹,owl,5
+Mitteilung,n.,die｜通知,notification,5
+Erwägung,n.,die｜考慮,consideration,5
+Gunst,n.,die｜恩惠,favor,5
+Leichenschauhaus,n.,das｜停屍間,morgue,5
+widersetzen,v.,（sich）反抗,to resist,5
+Therapeut,n.,der｜治療師,therapist,5
+Dialog,n.,der｜對話,dialogue,5
+Lordschaft,n.,die｜閣下,lordship,5
+Bäckerei,n.,die｜麵包店,bakery,5
+originell,adj.,有創意的,original,5
+Sicherheitssystem,n.,das｜保全系統,security system,5
+elektronisch,adj.,電子的,electronic,5
+nahezu,adv.,幾乎,almost,5
+gehorsam,adj.,順從的,obedient,5
+Sportler,n.,der｜運動員,athlete,5
+Ski,n.,der｜滑雪板,ski,5
+Aufklärung,n.,die｜啟蒙；偵察,enlightenment; reconnaissance,5
+beantragen,v.,申請,to apply for,5
+Muschel,n.,die｜貝殼,shell; mussel,5
+Bewerbung,n.,die｜求職,job application,5
+biologisch,adj.,生物的,biological,5
+raffiniert,adj.,狡猾的；精巧的,sly; refined,5
+Protest,n.,der｜抗議,protest,5
+Argentinien,n.,das｜阿根廷,Argentina,5
+Bissen,n.,der｜一口,bite,5
+abbiegen,v.,轉彎,to turn,5
+versäumen,v.,錯過,to miss,5
+Zeitmaschine,n.,die｜時光機,time machine,5
+Verzögerung,n.,die｜延遲,delay,5
+Sprit,n.,der｜汽油（口語）,fuel,5
+Initiale,n.,die｜首字母,initial,5
+Ansprache,n.,die｜講話,address; speech,5
+recherchieren,v.,研究,to research,5
+Geschöpf,n.,das｜生物,creature,5
+unangebracht,adj.,不恰當的,inappropriate,5
+Bewährungshelfer,n.,der｜假釋官,probation officer,5
+surfen,v.,衝浪,to surf,5
+Kompromiss,n.,der｜妥協,compromise,5
+Abzeichen,n.,das｜徽章,badge,5
+mehrfach,adv.,多次,repeatedly,5
+Vorlesung,n.,die｜講課,lecture,5
+römisch,adj.,羅馬的,Roman,5
+auffällig,adj.,顯眼的,conspicuous,5
+Lenkrad,n.,das｜方向盤,steering wheel,5
+Engagement,n.,das｜投入,commitment,5
+Gründer,n.,der｜創辦人,founder,5
+Eingeweide,n.,die｜內臟,entrails,5
+Industrie,n.,die｜工業,industry,5
+Frühjahr,n.,das｜春季,spring,5
+Heiligabend,n.,der｜平安夜,Christmas Eve,5
+Stellvertreter,n.,der｜副手,deputy,5
+unvorstellbar,adj.,難以想像的,unimaginable,5
+Hähnchen,n.,das｜雞肉,chicken,5
+ehrgeizig,adj.,有野心的,ambitious,5
+verschütten,v.,灑出,to spill,5
+Atmung,n.,die｜呼吸,breathing,5
+kaltblütig,adj.,冷血的,cold-blooded,5
+Handwerker,n.,der｜工匠,craftsman,5
+andernfalls,adv.,否則,otherwise,5
+zärtlich,adj.,溫柔的,tender,5
+jüdisch,adj.,猶太的,Jewish,5
+Steuerung,n.,die｜控制,control,5
+Genesung,n.,die｜康復,recovery,5
+Auftraggeber,n.,der｜委託人,client,5
+abhören,v.,竊聽,to wiretap,5
+Zusammenbruch,n.,der｜崩潰,collapse,5
+Pumpe,n.,die｜泵,pump,5
+Logbuch,n.,das｜日誌,logbook,5
+relevant,adj.,相關的,relevant,5
+Einbildung,n.,die｜想像；自負,imagination; conceit,5
+instabil,adj.,不穩定的,unstable,5
+Fledermaus,n.,die｜蝙蝠,bat,5
+Kralle,n.,die｜爪,claw,5
+blutig,adj.,血腥的,bloody,5
+oberflächlich,adj.,膚淺的,superficial,5
+Ostern,n.,das｜復活節,Easter,5
+Orangensaft,n.,der｜柳橙汁,orange juice,5
+Exil,n.,das｜流亡,exile,5
+schmelzen,v.,融化,to melt,5
+Erdbeere,n.,die｜草莓,strawberry,5
+Ära,n.,die｜時代,era,5
+Großzügigkeit,n.,die｜慷慨,generosity,5
+einreichen,v.,提交,to submit,5
+anderswo,adv.,別處,elsewhere,5
+Trophäe,n.,die｜獎盃,trophy,5
+Kaiserin,n.,die｜皇后,empress,5
+Pfanne,n.,die｜平底鍋,pan,5
+Komma,n.,das｜逗號,comma,5
+Freundlichkeit,n.,die｜友善,friendliness,5
+Konsul,n.,der｜領事,consul,5
+unerhört,adj.,聞所未聞的,outrageous,5
+Bomber,n.,der｜轟炸機,bomber,5
+Prostitution,n.,die｜賣淫,prostitution,5
+inoffiziell,adj.,非官方的,unofficial,5
+erschreckend,adj.,驚人的,alarming,5
+isolieren,v.,隔離,to isolate,5
+Flugplatz,n.,der｜機場,airfield,5
+Lachs,n.,der｜鮭魚,salmon,5
+erkältet,adj.,感冒的,having a cold,5
+Anomalie,n.,die｜異常,anomaly,5
+Poster,n.,das｜海報,poster,5
+Strick,n.,der｜繩子,rope,5
+bewältigen,v.,應付,to cope with,5
+Lupe,n.,die｜放大鏡,magnifying glass,5
+Klima,n.,das｜氣候,climate,5
+Schöpfung,n.,die｜創造,creation,5
+befriedigen,v.,滿足,to satisfy,5
+verschlafen,v.,睡過頭,to oversleep,5
+verdoppeln,v.,加倍,to double,5
+inakzeptabel,adj.,不可接受的,unacceptable,5
+Karate,n.,das｜空手道,karate,5
+würdigen,v.,讚賞,to appreciate,5
+trocknen,v.,弄乾,to dry,5
+Bücherei,n.,die｜圖書館,library,5
+Fallschirm,n.,der｜降落傘,parachute,5
+Frachter,n.,der｜貨船,freighter,5
+Drecksarbeit,n.,die｜苦差事,dirty work,5
+Schiedsrichter,n.,der｜裁判,referee,5
+verschlüsselt,adj.,加密的,encrypted,5
+Chirurgie,n.,die｜外科,surgery,5
+hüpfen,v.,跳,to hop,5
+Matrose,n.,der｜水手,sailor,5
+Schweinerei,n.,die｜髒亂；醜事,mess; scandal,5
+schnarchen,v.,打鼾,to snore,5
+Überprüfung,n.,die｜審查,review; check,5
+Antiquität,n.,die｜古董,antique,5
+Hormon,n.,das｜荷爾蒙,hormone,5
+Nachschub,n.,der｜補給,supplies,5
+zerbrechlich,adj.,易碎的,fragile,5
+Leser,n.,der｜讀者,reader,5
+Prototyp,n.,der｜原型,prototype,5
+liebenswürdig,adj.,親切的,amiable,5
+Säure,n.,die｜酸,acid,5
+chaotisch,adj.,混亂的,chaotic,5
+Besorgnis,n.,die｜擔憂,concern,5
+Grundschule,n.,die｜小學,primary school,5
+Aufruf,n.,der｜呼籲,appeal,5
+Schwelle,n.,die｜門檻,threshold,5
+Lift,n.,der｜電梯,lift,5
+Verschluss,n.,der｜鎖扣,lock; clasp,5
+eineinhalb,n.,一個半,one and a half,5
+besetzen,v.,佔領,to occupy,5
+vortäuschen,v.,假裝,to fake,5
+Pyjama,n.,der｜睡衣,pajamas,5
+Tätowierung,n.,die｜刺青,tattoo,5
+Ruine,n.,die｜廢墟,ruin,5
+Staubsauger,n.,der｜吸塵器,vacuum cleaner,5
+kopieren,v.,複製,to copy,5
+Vorurteil,n.,das｜偏見,prejudice,5
+militärisch,adj.,軍事的,military,5
+Tablett,n.,das｜托盤,tray,5
+Beratung,n.,die｜諮詢,consultation,5
+Rabatt,n.,der｜折扣,discount,5
+Offenbarung,n.,die｜啟示,revelation,5
+Unannehmlichkeit,n.,die｜不便,inconvenience,5
+Abendbrot,n.,das｜晚餐,supper,5
+übermitteln,v.,傳送,to transmit,5
+Spielplatz,n.,der｜遊樂場,playground,5
+Gutachten,n.,das｜鑑定報告,expert report,5
+verkraften,v.,承受,to cope with,5
+endlos,adj.,無盡的,endless,5
+Kritiker,n.,der｜評論家,critic,5
+Pfleger,n.,der｜看護,nurse; carer,5
+Gummi,n.,das｜橡膠,rubber,5
+Marionette,n.,die｜木偶,marionette,5
+Backbord,n.,das｜左舷,port (side),5
+Medaillon,n.,das｜項鍊墜,locket,5
+Streifenwagen,n.,der｜巡邏車,patrol car,5
+Romanze,n.,die｜戀情,romance,5
+fluchen,v.,咒罵,to curse,5
+unterbringen,v.,安置,to accommodate,5
+Erfinder,n.,der｜發明家,inventor,5
+Kraftfeld,n.,das｜力場,force field,5
+unbesiegbar,adj.,無敵的,invincible,5
+Niete,n.,die｜廢物；鉚釘,dud; rivet,5
+Stromausfall,n.,der｜停電,power outage,5
+Zielscheibe,n.,die｜靶子,target,5
+versenken,v.,擊沉,to sink,5
+fördern,v.,促進,to promote,5
+Portier,n.,der｜門房,doorman,5
+Beobachter,n.,der｜觀察者,observer,5
+Einfahrt,n.,die｜車道入口,driveway,5
+Durchschnitt,n.,der｜平均,average,5
+Glücksspiel,n.,das｜賭博,gambling,5
+beeinträchtigen,v.,損害,to impair,5
+hinnehmen,v.,接受,to accept,5
+Hypnose,n.,die｜催眠,hypnosis,5
+konfrontieren,v.,面對,to confront,5
+murmeln,v.,喃喃,to mumble,5
+Erdnuss,n.,die｜花生,peanut,5
+Kopfgeldjäger,n.,der｜賞金獵人,bounty hunter,5
+Glatze,n.,die｜禿頭,bald head,5
+vergeblich,adv.,徒勞地,in vain,5
+entschlüsseln,v.,解碼,to decode,5
+unentschieden,adj.,平手的,tied; undecided,5
+ausverkauft,adj.,售完的,sold out,5
+Migräne,n.,die｜偏頭痛,migraine,5
+Amnesie,n.,die｜失憶,amnesia,5
+Empfänger,n.,der｜收件人,recipient,5
+Telefonbuch,n.,das｜電話簿,phone book,5
+Vorführung,n.,die｜展示；放映,demonstration; screening,5
+Hexerei,n.,die｜巫術,witchcraft,5
+Sündenbock,n.,der｜代罪羔羊,scapegoat,5
+Asien,n.,das｜亞洲,Asia,5
+Eindringling,n.,der｜入侵者,intruder,5
+Augenbraue,n.,die｜眉毛,eyebrow,5
+unverändert,adj.,不變的,unchanged,5
+Unterbewusstsein,n.,das｜潛意識,subconscious,5
+Sehne,n.,die｜肌腱,tendon,5
+Kundschaft,n.,die｜顧客群,clientele,5
+entfliehen,v.,逃離,to escape,5
+Kürbis,n.,der｜南瓜,pumpkin,5
+Kröte,n.,die｜蟾蜍,toad,5
+demütigen,v.,羞辱,to humiliate,5
+Grausamkeit,n.,die｜殘忍,cruelty,5
+Makler,n.,der｜仲介,broker,5
+Kalb,n.,das｜小牛,calf,5
+Schnur,n.,die｜繩,cord; string,5
+einleiten,v.,開始；引進,to initiate,5
+Kommandeur,n.,der｜指揮官,commander,5
+demonstrieren,v.,示範；示威,to demonstrate,5
+Kakerlake,n.,die｜蟑螂,cockroach,5
+westlich,adj.,西方的,western,5
+Waschmaschine,n.,die｜洗衣機,washing machine,5
+Vatikan,n.,der｜梵蒂岡,Vatican,5
+Krönung,n.,die｜加冕,coronation,5
+Irrsinn,n.,der｜瘋狂,madness,5
+unterhalb,prep.,在…下方,below,5
+Jackett,n.,das｜西裝外套,jacket,5
+Kessel,n.,der｜鍋爐,kettle; boiler,5
+Waffel,n.,die｜鬆餅,waffle,5
+korrupt,adj.,腐敗的,corrupt,5
+Kartell,n.,das｜卡特爾,cartel,5
+Eiscreme,n.,die｜冰淇淋,ice cream,5
+Heimweh,n.,das｜思鄉,homesickness,5
+entschärfen,v.,拆除（炸彈）,to defuse,5
+einstecken,v.,放入口袋,to pocket,5
+wiedergeboren,adj.,重生的,reborn,5
+festlegen,v.,確定,to set; to fix,5
+Wähler,n.,der｜選民,voter,5
+Bürde,n.,die｜負擔,burden,5
+Fetzen,n.,der｜碎片,scrap; shred,5
+Verleger,n.,der｜出版商,publisher,5
+Säge,n.,die｜鋸子,saw,5
+Ansatz,n.,der｜方法,approach,5
+wohlauf,adj.,健康的,well,5
+verrecken,v.,死（粗）,to croak,5
+Verstoß,n.,der｜違規,violation,5
+Treppenhaus,n.,das｜樓梯間,stairwell,5
+notieren,v.,記下,to note down,5
+erwidern,v.,回答；回報,to reply; to return,5
+Speicher,n.,der｜記憶體；閣樓,memory; attic,5
+lokalisieren,v.,定位,to locate,5
+Periode,n.,die｜時期；月經,period,5
+beschatten,v.,跟蹤,to shadow,5
+Gehirnwäsche,n.,die｜洗腦,brainwashing,5
+Gleis,n.,das｜軌道；月台,track; platform,5
+Erdnussbutter,n.,die｜花生醬,peanut butter,5
+speichern,v.,儲存,to save,5
+grauenhaft,adj.,可怕的,gruesome,5
+sinnvoll,adj.,有意義的,sensible,5
+historisch,adj.,歷史的,historical,5
+Scheich,n.,der｜酋長,sheikh,5
+Reparatur,n.,die｜修理,repair,5
+Stecker,n.,der｜插頭,plug,5
+Republikaner,n.,der｜共和黨人,Republican,5
+Gottesdienst,n.,der｜禮拜,church service,5
+Türkei,n.,die｜土耳其,Turkey,5
+Beton,n.,der｜混凝土,concrete,5
+Sabotage,n.,die｜破壞,sabotage,5
+Konsulat,n.,das｜領事館,consulate,5
+Rotwein,n.,der｜紅酒,red wine,5
+berechtigt,adj.,有權的,entitled,5
+Taschengeld,n.,das｜零用錢,pocket money,5
+Schenkel,n.,der｜大腿,thigh,5
+Herzanfall,n.,der｜心臟病發,heart attack,5
+Wirbelsäule,n.,die｜脊椎,spine,5
+Genuss,n.,der｜享受,pleasure,5
+Reservierung,n.,die｜預訂,reservation,5
+Gelübde,n.,das｜誓願,vow,5
+Notwendigkeit,n.,die｜必要,necessity,5
+rücksichtslos,adj.,不顧他人的,reckless,5
+Korn,n.,das｜穀物,grain,5
+Fülle,n.,die｜豐富,abundance,5
+Walzer,n.,der｜華爾滋,waltz,5
+verstört,adj.,心煩意亂的,distraught,5
+Zahlung,n.,die｜付款,payment,5
+Fürsorge,n.,die｜照顧,care,5
+Inspektion,n.,die｜檢查,inspection,5
+Amulett,n.,das｜護身符,amulet,5
+neuerdings,adv.,最近,recently,5
+überholen,v.,超車；檢修,to overtake; to overhaul,5
+wörtlich,adv.,字面上,literally,5
+platzieren,v.,放置,to place,5
+Kontinent,n.,der｜大陸,continent,5
+Wachs,n.,das｜蠟,wax,5
+Eintrag,n.,der｜條目,entry,5
+lindern,v.,減輕,to relieve,5
+Straßenseite,n.,die｜街道一側,side of the street,5
+ankündigen,v.,宣布,to announce,5
+aufladen,v.,充電,to charge,5
+blühen,v.,開花,to bloom,5
+sprachlos,adj.,無言的,speechless,5
+düster,adj.,陰暗的,gloomy,5
+Joghurt,n.,der｜優格,yogurt,5
+Biologie,n.,die｜生物學,biology,5
+Ellbogen,n.,der｜手肘,elbow,5
+Begrüßung,n.,die｜問候,greeting,5
+dauerhaft,adj.,持久的,lasting,5
+Blüte,n.,die｜花朵,blossom,5
+überarbeitet,adj.,過勞的,overworked,5
+ungefährlich,adj.,無危險的,harmless,5
+Versorgung,n.,die｜供應,supply,5
+Granate,n.,die｜手榴彈,grenade,5
+Tagesanbruch,n.,der｜黎明,daybreak,5
+vorziehen,v.,偏好,to prefer,5
+Türglocke,n.,die｜門鈴,doorbell,5
+Klammer,n.,die｜夾子；括號,clip; bracket,5
+beitragen,v.,貢獻,to contribute,5
+plündern,v.,掠奪,to plunder,5
+Wikinger,n.,der｜維京人,Viking,5
+beschränkt,adj.,有限的；遲鈍的,limited; dim,5
+betäuben,v.,麻醉,to anesthetize,5
+antik,adj.,古代的,ancient,5
+Mikrowelle,n.,die｜微波爐,microwave,5
+Mülleimer,n.,der｜垃圾桶,trash can,5
+definieren,v.,定義,to define,5
+ausüben,v.,從事；施加,to practice; to exert,5
+Manöver,n.,das｜演習,maneuver,5
+verlängern,v.,延長,to extend,5
+Schauspiel,n.,das｜戲劇,play; spectacle,5
+verehren,v.,崇拜,to worship,5
+Vers,n.,der｜詩句,verse,5
+Getreide,n.,das｜穀物,grain,5
+Bleistift,n.,der｜鉛筆,pencil,5
+Gänsehaut,n.,die｜雞皮疙瘩,goosebumps,5
+zurücknehmen,v.,收回,to take back,5
+magisch,adj.,魔法的,magical,5
+Trommel,n.,die｜鼓,drum,5
+Vitamin,n.,das｜維他命,vitamin,5
+örtlich,adj.,當地的,local,5
+verpfeifen,v.,告密,to rat on,5
+Blutvergießen,n.,das｜流血,bloodshed,5
+Puzzle,n.,das｜拼圖,puzzle,5
+Streitkräfte,n.,die｜武裝部隊,armed forces,5
+bedeutungslos,adj.,無意義的,meaningless,5
+Sperre,n.,die｜封鎖,barrier; ban,5
+Pfiff,n.,der｜口哨聲,whistle,5
+Abgeordnete,n.,der｜議員,member of parliament,5
+kritisieren,v.,批評,to criticize,5
+zornig,adj.,憤怒的,angry,5
+Heiratsantrag,n.,der｜求婚,marriage proposal,5
+gießen,v.,澆；倒,to pour; to water,5
+Beweismaterial,n.,das｜證據,evidence,5
+Arche,n.,die｜方舟,ark,5
+Elite,n.,die｜菁英,elite,5
+motiviert,adj.,有動力的,motivated,5
+schlank,adj.,苗條的,slim,5
+Befugnis,n.,die｜權限,authority,5
+Todesurteil,n.,das｜死刑判決,death sentence,5
+kaiserlich,adj.,帝國的,imperial,5
+rutschen,v.,滑,to slide,5
+ringen,v.,摔角；掙扎,to wrestle; to struggle,5
+austricksen,v.,騙過,to outwit,5
+Creme,n.,die｜乳霜,cream,5
+Fährte,n.,die｜蹤跡,trail,5
+Barbar,n.,der｜野蠻人,barbarian,5
+verzaubert,adj.,著迷的,enchanted,5
+rudern,v.,划船,to row,5
+Kunstwerk,n.,das｜藝術品,work of art,5
+Behinderung,n.,die｜障礙,disability,5
+Kamm,n.,der｜梳子,comb,5
+Verwandlung,n.,die｜變形,transformation,5
+Pelz,n.,der｜毛皮,fur,5
+Regenbogen,n.,der｜彩虹,rainbow,5
+zitieren,v.,引用,to quote,5
+Kippe,n.,die｜菸蒂,cigarette butt,5
+blamieren,v.,出醜,to embarrass,5
+Pate,n.,der｜教父,godfather,5
+inszenieren,v.,策劃；導演,to stage,5
+vorenthalten,v.,扣留,to withhold,5
+Differenz,n.,die｜差異,difference,5
+Mittelalter,n.,das｜中世紀,Middle Ages,5
+Skript,n.,das｜腳本,script,5
+Simulation,n.,die｜模擬,simulation,5
+Stockwerk,n.,das｜樓層,floor; story,5
+Strahl,n.,der｜光束,beam,5
+Geldbeutel,n.,der｜錢包,purse,5
+Glücksbringer,n.,der｜吉祥物,lucky charm,5
+Motivation,n.,die｜動機,motivation,5
+abwesend,adj.,缺席的,absent,5
+zerquetschen,v.,壓碎,to crush,5
+Konferenzraum,n.,der｜會議室,conference room,5
+Bündnis,n.,das｜聯盟,alliance,5
+beunruhigend,adj.,令人不安的,disturbing,5
+vernachlässigen,v.,忽略,to neglect,5
+Küken,n.,das｜小雞,chick,5
+Jacht,n.,die｜遊艇,yacht,5
+Kutscher,n.,der｜車夫,coachman,5
+Parasit,n.,der｜寄生蟲,parasite,5
+Spieß,n.,der｜叉；長矛,skewer; spear,5
+wissenschaftlich,adj.,科學的,scientific,5
+Planänderung,n.,die｜計畫變更,change of plan,5
+leichtsinnig,adj.,輕率的,reckless,5
+Aufseher,n.,der｜監督者,supervisor; warden,5
+Jugendamt,n.,das｜青少年局,youth welfare office,5
+Horde,n.,die｜群,horde,5
+Reisende,n.,der｜旅客,traveler,5
+Doppelgänger,n.,der｜長得一模一樣的人,double; lookalike,5
+Kinderzimmer,n.,das｜兒童房,children's room,5
+Gesindel,n.,das｜烏合之眾,rabble,5
+Vorwarnung,n.,die｜預警,advance warning,5
+wählerisch,adj.,挑剔的,choosy,5
+Einschätzung,n.,die｜評估,assessment,5
+Dorfbewohner,n.,der｜村民,villager,5
+Superheld,n.,der｜超級英雄,superhero,5
+Station,n.,die｜站；病房,station; ward,5
+Beihilfe,n.,die｜補助；幫兇,subsidy; aiding,5
+Unkraut,n.,das｜雜草,weed,5
+flüchtig,adj.,短暫的；逃亡的,fleeting; fugitive,5
+renovieren,v.,翻新,to renovate,5
+stützen,v.,支撐,to support,5
+nachweisen,v.,證明,to prove,5
+Ehepaar,n.,das｜夫妻,married couple,5
+objektiv,adj.,客觀的,objective,5
+Vorliebe,n.,die｜偏愛,preference,5
+Erleuchtung,n.,die｜啟發,enlightenment,5
+Vormund,n.,der｜監護人,guardian,5
+Unterhalt,n.,der｜贍養費,maintenance; support,5
+Kopfhörer,n.,der｜耳機,headphones,5
+Auster,n.,die｜牡蠣,oyster,5
+abfangen,v.,攔截,to intercept,5
+Musical,n.,das｜音樂劇,musical,5
+Appartement,n.,das｜公寓,apartment,5
+Sekt,n.,der｜氣泡酒,sparkling wine,5
+Entschädigung,n.,die｜賠償,compensation,5
+Reiz,n.,der｜魅力；刺激,appeal; stimulus,5
+Expertin,n.,die｜女專家,expert (female),5
+Überblick,n.,der｜概觀,overview,5
+Lebensstil,n.,der｜生活方式,lifestyle,5
+vertauschen,v.,調換,to swap,5
+Weltmeister,n.,der｜世界冠軍,world champion,5
+Gruft,n.,die｜墓穴,crypt,5
+steigern,v.,提高,to increase,5
+Handbuch,n.,das｜手冊,manual,5
+Perfektion,n.,die｜完美,perfection,5
+Kaufhaus,n.,das｜百貨公司,department store,5
+Fakultät,n.,die｜學院,faculty,5
+überfällig,adj.,逾期的,overdue,5
+Favorit,n.,der｜熱門人選,favorite,5
+Forderung,n.,die｜要求,demand,5
+Heft,n.,das｜本子,notebook,5
+erwürgen,v.,勒死,to strangle,5
+Organismus,n.,der｜有機體,organism,5
+Vorladung,n.,die｜傳票,summons,5
+himmlisch,adj.,天堂般的,heavenly,5
+misshandeln,v.,虐待,to mistreat,5
+erlösen,v.,拯救,to redeem,5
+Lebensversicherung,n.,die｜壽險,life insurance,5
+Meisterschaft,n.,die｜錦標賽,championship,5
+Kantine,n.,die｜食堂,canteen,5
+erkunden,v.,探索,to explore,5
+verwundbar,adj.,脆弱的,vulnerable,5
+zufügen,v.,造成,to inflict,5
+Almosen,n.,das｜施捨,alms,5
+wischen,v.,擦,to wipe,5
+Rückendeckung,n.,die｜支持；掩護,backing,5
+einigen,v.,（sich）達成一致,to agree,5
+sterblich,adj.,凡人的,mortal,5
+Esszimmer,n.,das｜飯廳,dining room,5
+sabotieren,v.,破壞,to sabotage,5
+Außenwelt,n.,die｜外界,outside world,5
+Gehaltserhöhung,n.,die｜加薪,raise,5
+verblüffend,adj.,驚人的,astonishing,5
+Erbse,n.,die｜豌豆,pea,5
+Kreuzfahrt,n.,die｜郵輪之旅,cruise,5
+Klon,n.,der｜複製體,clone,5
+Augenzeuge,n.,der｜目擊者,eyewitness,5
+ärztlich,adj.,醫生的,medical,5
+anerkennen,v.,承認,to recognize,5
+katholisch,adj.,天主教的,Catholic,5
+Schacht,n.,der｜豎井,shaft,5
+Wachstum,n.,das｜成長,growth,5
+Zufriedenheit,n.,die｜滿意,satisfaction,5
+Weide,n.,die｜牧場；柳樹,pasture; willow,5
+beitreten,v.,加入,to join,5
+Ekel,n.,der｜厭惡,disgust,5
+physisch,adj.,身體的,physical,5
+Speisekarte,n.,die｜菜單,menu,5
+enthüllen,v.,揭露,to reveal,5
+Bescheidenheit,n.,die｜謙虛,modesty,5
+hinhalten,v.,拖延,to stall,5
+Schutzengel,n.,der｜守護天使,guardian angel,5
+bewerben,v.,（sich）申請,to apply,5
+Weizen,n.,der｜小麥,wheat,5
+Gips,n.,der｜石膏,plaster; cast,5
+Siedlung,n.,die｜住宅區,settlement,5
+Hochzeitsreise,n.,die｜蜜月旅行,honeymoon,5
+Elternteil,n.,der｜家長,parent,5
+Skalpell,n.,das｜手術刀,scalpel,5
+Floß,n.,das｜木筏,raft,5
+Tournee,n.,die｜巡演,tour,5
+entzündet,adj.,發炎的,inflamed,5
+Porträt,n.,das｜肖像,portrait,5
+verachten,v.,蔑視,to despise,5
+Asyl,n.,das｜庇護,asylum,5
+schockierend,adj.,令人震驚的,shocking,5
+ausatmen,v.,呼氣,to exhale,5
+Atelier,n.,das｜工作室,studio,5
+bessern,v.,改善,to improve,5
+Pinguin,n.,der｜企鵝,penguin,5
+Festival,n.,das｜節慶,festival,5
+Notar,n.,der｜公證人,notary,5
+Kraut,n.,das｜草本,herb,5
+Kleinstadt,n.,die｜小鎮,small town,5
+Justizministerium,n.,das｜司法部,ministry of justice,5

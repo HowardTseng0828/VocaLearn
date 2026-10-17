@@ -1,0 +1,5001 @@
+word,pos,meaning,meaning_en,level
+de,prep.,的；從,of; from,1
+que,conj.,（引導子句）；比,that; than,1
+no,adv.,不；沒有,no; not,1
+a,prep.,到；向,to; at,1
+el,art.,（陽性定冠詞）,the (masc.),1
+la,art.,（陰性定冠詞）,the (fem.),1
+y,conj.,和,and,1
+ser,v.,是,to be (essential),1
+en,prep.,在…裡,in; on,1
+lo,pron.,它；他,it; him,1
+un,art.,一個（陽）,a; an (masc.),1
+una,art.,一個（陰）,a; an (fem.),1
+por,prep.,因為；經由,for; by; through,1
+qué,pron.,什麼,what,1
+me,pron.,我（受詞）,me,1
+se,pron.,自己（反身）,oneself; himself,1
+te,pron.,你（受詞）,you (object),1
+con,prep.,和；用,with,1
+para,prep.,為了；給,for; in order to,1
+estar,v.,在；處於,"to be (state, location)",1
+mi,pron.,我的,my,1
+pero,conj.,但是,but,1
+sí,adv.,是的,yes,1
+si,conj.,如果,if,1
+bien,adv.,好,well,1
+eso,pron.,那個,that,1
+su,pron.,他的；她的；您的,his; her; your (formal),1
+yo,pron.,我,I,1
+como,conj.,像；如同,like; as,1
+aquí,adv.,這裡,here,1
+tu,pron.,你的,your,1
+más,adv.,更多,more,1
+le,pron.,給他；給她,(to) him; (to) her,1
+esto,pron.,這個,this,1
+todo,pron.,全部；一切,all; everything,1
+ya,adv.,已經,already,1
+ahora,adv.,現在,now,1
+muy,adv.,很,very,1
+este,pron.,這個（陽）,this (masc.),1
+así,adv.,這樣,like this,1
+ir,v.,去,to go,1
+algo,pron.,某事,something,1
+haber,aux.,有；（完成式助動詞）,to have (auxiliary); there is,1
+bueno,adj.,好的,good,1
+tener,v.,有,to have,1
+él,pron.,他,he,1
+cuando,conj.,當…時,when,1
+saber,v.,知道,to know (facts),1
+tú,pron.,你,you,1
+nos,pron.,我們（受詞）,us,1
+nada,pron.,什麼都沒有,nothing,1
+cómo,adv.,如何,how,1
+o,conj.,或,or,1
+poder,v.,能；可以,can; to be able,1
+ella,pron.,她,she,1
+querer,v.,想要；愛,to want; to love,1
+hacer,v.,做,to do; to make,1
+gracias,int.,謝謝,thank you,1
+vez,n.,la｜次,time; occasion,1
+solo,adv.,只；單獨,only; alone,1
+porque,conj.,因為,because,1
+creer,v.,相信；認為,to believe; to think,1
+usted,pron.,您,you (formal),1
+entonces,adv.,那麼；當時,then; so,1
+hola,int.,你好,hello,1
+verdad,n.,la｜真相；真的,truth,1
+casa,n.,la｜家；房子,house; home,1
+tan,adv.,如此,so,1
+quién,pron.,誰,who,1
+tiempo,n.,el｜時間；天氣,time; weather,1
+dos,n.,二,two,1
+ese,pron.,那個（陽）,that (masc.),1
+nunca,adv.,從不,never,1
+dónde,adv.,哪裡,where,1
+favor,n.,el｜幫忙；好意,favor,1
+mucho,adv.,很多,a lot; much,1
+sentir,v.,感覺；遺憾,to feel; to be sorry,1
+señor,n.,el｜先生,sir; mister,1
+mejor,adj.,更好的,better; best,1
+decir,v.,說,to say; to tell,1
+también,adv.,也,also,1
+sobre,prep.,在…上；關於,on; about,1
+dios,n.,el｜神；上帝,god,1
+sin,prep.,沒有,without,1
+ver,v.,看,to see,1
+hombre,n.,el｜男人；人,man,1
+vida,n.,la｜生命；生活,life,1
+alguien,pron.,某人,someone,1
+cosa,n.,la｜東西；事情,thing,1
+siempre,adv.,總是,always,1
+hasta,prep.,直到,until,1
+ahí,adv.,那裡,there,1
+año,n.,el｜年,year,1
+antes,adv.,以前,before,1
+ni,conj.,也不,nor; not even,1
+poco,adv.,少；一點,little; a bit,1
+día,n.,el｜天；日,day,1
+uno,n.,一,one,1
+noche,n.,la｜晚上,night,1
+otro,adj.,另一個,other; another,1
+acuerdo,n.,el｜協議；同意,agreement,1
+trabajo,n.,el｜工作,work; job,1
+nosotros,pron.,我們,we,1
+parecer,v.,似乎；看起來,to seem,1
+gente,n.,la｜人們,people,1
+padre,n.,el｜父親,father,1
+mirar,v.,看,to look,1
+mismo,adj.,相同的,same,1
+nadie,pron.,沒有人,nobody,1
+hablar,v.,說話,to speak; to talk,1
+ellos,pron.,他們,they,1
+tal,adj.,這樣的,such,1
+pasar,v.,經過；發生,to pass; to happen,1
+fuera,adv.,外面,outside,1
+después,adv.,之後,after; later,1
+desde,prep.,從；自從,from; since,1
+dinero,n.,el｜錢,money,1
+mundo,n.,el｜世界,world,1
+claro,adj.,清楚的；當然,clear; of course,1
+momento,n.,el｜時刻,moment,1
+mañana,n.,la｜早上；明天,morning; tomorrow,1
+madre,n.,la｜母親,mother,1
+valer,v.,值得；（vale 好）,to be worth; (vale) OK,1
+lugar,n.,el｜地方,place,1
+donde,adv.,在…的地方,where,1
+seguro,adj.,確定的；安全的,sure; safe,1
+esperar,v.,等；希望,to wait; to hope,1
+nuevo,adj.,新的,new,1
+hijo,n.,el｜兒子,son,1
+allí,adv.,那裡,there,1
+menos,adv.,較少,less,1
+tipo,n.,el｜類型；傢伙,type; guy,1
+amigo,n.,el｜朋友,friend,1
+grande,adj.,大的,big; great,1
+nuestro,pron.,我們的,our,1
+mujer,n.,la｜女人；妻子,woman; wife,1
+mamá,n.,la｜媽媽,mom,1
+luego,adv.,然後；之後,then; later,1
+papá,n.,el｜爸爸,dad,1
+hoy,adv.,今天,today,1
+tres,n.,三,three,1
+necesitar,v.,需要,to need,1
+oír,v.,聽到,to hear,1
+gustar,v.,喜歡（令人喜歡）,to like (to please),1
+parte,n.,la｜部分,part,1
+nombre,n.,el｜名字,name,1
+mal,adv.,壞；不好,badly,1
+deber,v.,應該；欠,must; to owe,1
+realmente,adv.,真正地,really,1
+aún,adv.,仍然,still,1
+mío,pron.,我的（的）,mine,1
+cada,adj.,每個,each; every,1
+importar,v.,重要；進口,to matter; to import,1
+contigo,pron.,和你,with you,1
+conmigo,pron.,和我,with me,1
+razón,n.,la｜理由；道理,reason,1
+alguno,adj.,某些,some; any,1
+tanto,adv.,那麼多,so much,1
+serio,adj.,嚴肅的,serious,1
+venir,v.,來,to come,1
+idea,n.,la｜主意,idea,1
+tarde,n.,la｜下午；晚,afternoon; late,1
+problema,n.,el｜問題,problem,1
+hora,n.,la｜小時；時間,hour; time,1
+cierto,adj.,確實的；某個,certain; true,1
+quien,pron.,…的人,who,1
+demasiado,adv.,太；過多,too; too much,1
+amor,n.,el｜愛,love,1
+entre,prep.,在…之間,between; among,1
+pasado,n.,el｜過去,past,1
+familia,n.,la｜家庭,family,1
+policía,n.,la｜警察,police,1
+ustedes,pron.,你們,you (plural),1
+chica,n.,la｜女孩,girl,1
+chico,n.,el｜男孩,boy,1
+cuenta,n.,la｜帳；帳戶,bill; account,1
+todavía,adv.,還；仍,still; yet,1
+salir,v.,出去；離開,to go out; to leave,1
+hermano,n.,el｜兄弟,brother,1
+pensar,v.,想,to think,1
+cabeza,n.,la｜頭,head,1
+cariño,n.,el｜親愛的；愛意,darling; affection,1
+cualquier,adj.,任何,any,1
+forma,n.,la｜形式；方式,form; way,1
+mientras,conj.,當…的時候,while,1
+lado,n.,el｜邊,side,1
+caso,n.,el｜情況；案件,case,1
+primero,adj.,第一,first,1
+genial,adj.,太棒了,great; brilliant,1
+supuesto,adj.,假定的（por supuesto 當然）,supposed; (por supuesto) of course,1
+pues,conj.,那麼；因為,well; since,1
+adiós,int.,再見,goodbye,1
+persona,n.,la｜人,person,1
+señora,n.,la｜女士；太太,madam; Mrs.,1
+volver,v.,回來,to return,1
+quizá,adv.,也許,maybe,1
+contra,prep.,反對；對抗,against,1
+camino,n.,el｜路,road; way,1
+durante,prep.,在…期間,during,1
+manera,n.,la｜方式,manner; way,1
+muerto,adj.,死的,dead,1
+rápido,adj.,快的,fast,1
+cuál,pron.,哪個,which,1
+ayuda,n.,la｜幫助,help,1
+historia,n.,la｜歷史；故事,history; story,1
+suponer,v.,假設,to suppose,1
+entender,v.,理解,to understand,1
+dentro,adv.,在裡面,inside,1
+casi,adv.,幾乎,almost,1
+puerta,n.,la｜門,door,1
+significar,v.,意思是,to mean,1
+semana,n.,la｜週,week,1
+hacia,prep.,朝向,toward,1
+juntos,adj.,一起,together,1
+niño,n.,el｜小孩,child,1
+pronto,adv.,很快,soon,1
+tío,n.,el｜叔叔；舅舅,uncle,1
+suerte,n.,la｜運氣,luck,1
+ciudad,n.,la｜城市,city,1
+siquiera,adv.,甚至（ni siquiera 連…都不）,even,1
+feliz,adj.,快樂的,happy,1
+hija,n.,la｜女兒,daughter,1
+minuto,n.,el｜分鐘,minute,1
+cuánto,adv.,多少,how much,1
+muerte,n.,la｜死亡,death,1
+dejar,v.,留下；讓,to leave; to let,1
+realidad,n.,la｜現實,reality,1
+importante,adj.,重要的,important,1
+corazón,n.,el｜心,heart,1
+miedo,n.,el｜恐懼,fear,1
+jefe,n.,el｜老闆,boss,1
+agua,n.,el｜水（陰性名詞）,water,1
+justo,adj.,公正的；正好,fair; just,1
+esposa,n.,la｜妻子,wife,1
+mano,n.,la｜手,hand,1
+ojo,n.,el｜眼睛,eye,1
+adelante,adv.,向前,forward,1
+encontrar,v.,找到,to find,1
+cinco,n.,五,five,1
+ninguno,adj.,沒有任何,none; no,1
+cara,n.,la｜臉,face,1
+cuidado,n.,el｜小心；照顧,care; caution,1
+bajo,adj.,低的；矮的,low; short,1
+cerca,adv.,附近,near,1
+viejo,adj.,老的,old,1
+fin,n.,el｜結束,end,1
+tomar,v.,拿；喝；搭,to take; to drink,1
+único,adj.,唯一的,only; unique,1
+escuchar,v.,聽,to listen,1
+suficiente,adj.,足夠的,enough,1
+punto,n.,el｜點,point,1
+seguir,v.,跟隨；繼續,to follow; to continue,1
+equipo,n.,el｜隊；設備,team; equipment,1
+llegar,v.,到達,to arrive,1
+incluso,adv.,甚至,even,1
+doctor,n.,el｜醫生,doctor,1
+difícil,adj.,困難的,difficult,1
+aunque,conj.,雖然,although,1
+coche,n.,el｜汽車,car,1
+clase,n.,la｜課；種類,class,1
+cuatro,n.,四,four,1
+pequeño,adj.,小的,small,1
+llamar,v.,叫；打電話,to call,1
+allá,adv.,那邊,over there,1
+último,adj.,最後的,last,1
+arriba,adv.,上面,up; above,1
+tierra,n.,la｜土地；地球,land; earth,1
+guerra,n.,la｜戰爭,war,1
+igual,adj.,相同的,equal; same,1
+loco,adj.,瘋的,crazy,1
+sangre,n.,la｜血,blood,1
+vuelta,n.,la｜轉；回來,turn; return,1
+trabajar,v.,工作,to work,1
+juego,n.,el｜遊戲；比賽,game,1
+cuerpo,n.,el｜身體,body,1
+entrar,v.,進入,to enter,1
+oportunidad,n.,la｜機會,opportunity,1
+teléfono,n.,el｜電話,telephone,1
+final,n.,el｜結尾,end; final,1
+listo,adj.,準備好的；聰明的,ready; clever,1
+fiesta,n.,la｜派對,party,1
+auto,n.,el｜汽車,car,1
+dar,v.,給,to give,1
+vivir,v.,生活；住,to live,1
+posible,adj.,可能的,possible,1
+hermana,n.,la｜姊妹,sister,1
+número,n.,el｜數字；號碼,number,1
+mes,n.,el｜月,month,1
+exactamente,adv.,確切地,exactly,1
+culpa,n.,la｜過錯,fault; blame,1
+abajo,adv.,下面,down; below,1
+escuela,n.,la｜學校,school,1
+fuerte,adj.,強壯的,strong,1
+pregunta,n.,la｜問題,question,1
+atrás,adv.,後面,back; behind,1
+malo,adj.,壞的,bad,1
+capitán,n.,el｜船長；隊長,captain,1
+bebé,n.,el｜嬰兒,baby,1
+segundo,adj.,第二；秒,second,1
+mayor,adj.,較大的；年長的,older; bigger,1
+comida,n.,la｜食物；餐,food; meal,1
+morir,v.,死,to die,1
+conocer,v.,認識,"to know (people, places)",1
+fácil,adj.,容易的,easy,1
+comer,v.,吃,to eat,1
+vino,n.,el｜葡萄酒,wine,1
+probablemente,adv.,可能,probably,1
+padres,n.,los｜父母,parents,1
+habitación,n.,la｜房間,room,1
+tampoco,adv.,也不,neither,1
+joven,adj.,年輕的,young,1
+par,n.,el｜一對,pair,1
+sentido,n.,el｜意義；感覺,sense; meaning,1
+simplemente,adv.,簡單地；只是,simply,1
+medio,adj.,一半的；中間,half; middle,1
+lejos,adv.,遠,far,1
+arma,n.,el｜武器（陰性名詞）,weapon,1
+alto,adj.,高的,tall; high,1
+dólar,n.,el｜美元,dollar,1
+seis,n.,六,six,1
+seguridad,n.,la｜安全,security; safety,1
+palabra,n.,la｜字；話,word,1
+quedar,v.,留下；剩下,to stay; to remain,1
+oficina,n.,la｜辦公室,office,1
+matar,v.,殺,to kill,1
+cama,n.,la｜床,bed,1
+además,adv.,此外,besides,1
+recordar,v.,記得,to remember,1
+acerca,adv.,關於（acerca de）,about,1
+luz,n.,la｜光,light,1
+correcto,adj.,正確的,correct,1
+dormir,v.,睡覺,to sleep,1
+sitio,n.,el｜地方；網站,place; site,1
+ayudar,v.,幫助,to help,1
+conseguir,v.,得到,to get; to obtain,1
+marido,n.,el｜丈夫,husband,1
+paz,n.,la｜和平,peace,1
+idiota,n.,el｜白痴,idiot,1
+plan,n.,el｜計畫,plan,1
+peor,adj.,更糟的,worse,1
+pueblo,n.,el｜村莊；民族,town; people,1
+paso,n.,el｜步,step,1
+música,n.,la｜音樂,music,1
+anoche,adv.,昨晚,last night,1
+país,n.,el｜國家,country,1
+rey,n.,el｜國王,king,1
+perdón,n.,el｜原諒；對不起,forgiveness; sorry,1
+falta,n.,la｜缺少,lack,1
+perder,v.,失去；輸,to lose,1
+niña,n.,la｜女孩,girl,1
+señorita,n.,la｜小姐,miss,1
+diez,n.,十,ten,1
+llevar,v.,帶；穿,to carry; to wear,1
+hospital,n.,el｜醫院,hospital,1
+fuego,n.,el｜火,fire,1
+poner,v.,放,to put,1
+calle,n.,la｜街道,street,1
+acabar,v.,結束；剛剛（acabar de）,to finish; to have just,1
+prueba,n.,la｜證據；測試,proof; test,1
+increíble,adj.,難以置信的,incredible,1
+real,adj.,真實的；皇家的,real; royal,1
+libro,n.,el｜書,book,1
+orden,n.,la｜命令；el｜順序,order,1
+especial,adj.,特別的,special,1
+café,n.,el｜咖啡,coffee,1
+duro,adj.,硬的；艱難的,hard,1
+empezar,v.,開始,to begin,1
+afuera,adv.,外面,outside,1
+perro,n.,el｜狗,dog,1
+cielo,n.,el｜天空,sky; heaven,1
+puesto,n.,el｜職位；攤位,post; position; stall,1
+viaje,n.,el｜旅行,trip,1
+detrás,adv.,在後面,behind,1
+cuarto,n.,el｜房間；四分之一,room; quarter,1
+querido,adj.,親愛的,dear,1
+libre,adj.,自由的；空閒的,free,1
+buscar,v.,尋找,to look for,1
+sonar,v.,響；聽起來,to sound; to ring,1
+jugar,v.,玩；比賽,to play,1
+cambio,n.,el｜改變；零錢,change,1
+película,n.,la｜電影,movie,1
+millón,n.,el｜百萬,million,1
+llamada,n.,la｜通話,call,1
+resto,n.,el｜其餘,rest,1
+extraño,adj.,奇怪的,strange,1
+presidente,n.,el｜總統；主席,president,1
+ropa,n.,la｜衣服,clothes,1
+agente,n.,el｜探員；代理人,agent,1
+información,n.,la｜資訊,information,1
+raro,adj.,奇怪的；稀有的,weird; rare,1
+tratar,v.,試圖；對待,to try; to treat,1
+general,adj.,一般的；將軍,general,1
+trato,n.,el｜交易；對待,deal; treatment,1
+usar,v.,使用,to use,1
+perfecto,adj.,完美的,perfect,1
+derecho,n.,el｜權利；法律,right; law,1
+modo,n.,el｜方式,way; mode,1
+ayer,adv.,昨天,yesterday,1
+demás,pron.,其他的（人）,the rest; others,1
+noticia,n.,la｜新聞；消息,news,1
+asesino,n.,el｜殺手,killer,1
+control,n.,el｜控制,control,1
+odiar,v.,恨,to hate,1
+frente,n.,la｜額頭；el｜前線（frente a 面對）,forehead; front,1
+sexo,n.,el｜性,sex,1
+divertido,adj.,好玩的,fun,1
+amiga,n.,la｜女性朋友,friend (female),1
+grupo,n.,el｜團體,group,1
+asunto,n.,el｜事情,matter; affair,1
+mensaje,n.,el｜訊息,message,1
+encima,adv.,在上面,on top,1
+atención,n.,la｜注意,attention,1
+diferente,adj.,不同的,different,1
+callar,v.,閉嘴；沉默,to be quiet,1
+daño,n.,el｜傷害,harm; damage,1
+suceder,v.,發生,to happen,1
+cambiar,v.,改變,to change,1
+siguiente,adj.,下一個,next; following,1
+sino,conj.,而是,but (rather),1
+médico,n.,el｜醫生,doctor,1
+boca,n.,la｜嘴,mouth,1
+error,n.,el｜錯誤,mistake,1
+jamás,adv.,從未,never,1
+largo,adj.,長的,long,1
+pena,n.,la｜遺憾；痛苦,pity; sorrow,1
+voz,n.,la｜聲音,voice,1
+futuro,n.,el｜未來,future,1
+secreto,n.,el｜秘密,secret,1
+baño,n.,el｜浴室；洗澡,bathroom; bath,1
+mil,n.,千,thousand,1
+novia,n.,la｜女朋友；新娘,girlfriend; bride,1
+propio,adj.,自己的,own,1
+sueño,n.,el｜夢；睏,dream; sleepiness,1
+fuerza,n.,la｜力量,strength; force,1
+ambos,pron.,兩者,both,1
+dolor,n.,el｜疼痛,pain,1
+encantar,v.,非常喜歡,to love; to delight,1
+edad,n.,la｜年齡,age,1
+pie,n.,el｜腳,foot,1
+negro,adj.,黑色的,black,1
+ganar,v.,贏；賺,to win; to earn,1
+aire,n.,el｜空氣,air,1
+lamentar,v.,遺憾,to regret,1
+asesinato,n.,el｜謀殺,murder,1
+adónde,adv.,去哪裡,where (to),1
+disculpar,v.,原諒,to excuse,1
+cita,n.,la｜約會；預約,date; appointment,1
+sistema,n.,el｜系統,system,1
+gusto,n.,el｜品味；樂趣,taste; pleasure,1
+pobre,adj.,貧窮的；可憐的,poor,1
+negocio,n.,el｜生意,business,1
+mente,n.,la｜心智,mind,1
+tuyo,pron.,你的（的）,yours,1
+campo,n.,el｜田野；領域,field; countryside,1
+situación,n.,la｜情況,situation,1
+tras,prep.,在…之後,after; behind,1
+hotel,n.,el｜飯店,hotel,1
+vosotros,pron.,你們（西班牙）,"you (plural, Spain)",1
+funcionar,v.,運作,to work; to function,1
+foto,n.,la｜照片,photo,1
+abogado,n.,el｜律師,lawyer,1
+alrededor,adv.,周圍,around,1
+próximo,adj.,下一個,next,1
+terminar,v.,結束,to finish,1
+pagar,v.,付錢,to pay,1
+personal,adj.,個人的；el｜員工,personal; staff,1
+ocurrir,v.,發生,to occur,1
+mitad,n.,la｜一半,half,1
+pelo,n.,el｜頭髮,hair,1
+oficial,adj.,官方的；el｜軍官,official; officer,1
+compañía,n.,la｜公司；陪伴,company,1
+relación,n.,la｜關係,relationship,1
+montón,n.,el｜一堆,pile; a lot,1
+cena,n.,la｜晚餐,dinner,1
+través,n.,（a través de 穿過；透過）,(a través de) through,1
+accidente,n.,el｜意外,accident,1
+caja,n.,la｜盒子,box,1
+tranquilo,adj.,平靜的,calm,1
+bonito,adj.,漂亮的,pretty,1
+vista,n.,la｜視野；景色,view; sight,1
+estúpido,adj.,愚蠢的,stupid,1
+línea,n.,la｜線,line,1
+caballero,n.,el｜紳士；騎士,gentleman; knight,1
+quedarse,v.,留下,to stay,1
+tienda,n.,la｜商店,shop,1
+comprar,v.,買,to buy,1
+centro,n.,el｜中心,center,1
+salvo,prep.,除了,except,1
+sol,n.,el｜太陽,sun,1
+tonto,adj.,笨的,silly; dumb,1
+hambre,n.,el｜飢餓（陰性名詞）,hunger,1
+mesa,n.,la｜桌子,table,1
+respuesta,n.,la｜回答,answer,1
+completamente,adv.,完全地,completely,1
+carta,n.,la｜信；紙牌,letter; card,1
+totalmente,adv.,完全地,totally,1
+imposible,adj.,不可能的,impossible,1
+novio,n.,el｜男朋友；新郎,boyfriend; groom,1
+normal,adj.,正常的,normal,1
+traje,n.,el｜西裝,suit,1
+dirección,n.,la｜地址；方向,address; direction,1
+siete,n.,七,seven,1
+placer,n.,el｜樂趣,pleasure,1
+blanco,adj.,白色的,white,1
+barco,n.,el｜船,boat; ship,1
+profesor,n.,el｜老師；教授,teacher; professor,1
+servicio,n.,el｜服務,service,1
+muchacho,n.,el｜少年,boy; lad,1
+reunión,n.,la｜會議,meeting,1
+ley,n.,la｜法律,law,1
+programa,n.,el｜節目；程式,program,1
+carrera,n.,la｜賽跑；職業；學科,race; career; degree,1
+cumpleaños,n.,el｜生日,birthday,1
+canción,n.,la｜歌,song,1
+hermoso,adj.,美麗的,beautiful,1
+universidad,n.,la｜大學,university,1
+boda,n.,la｜婚禮,wedding,1
+cualquiera,pron.,任何人,anyone,1
+sala,n.,la｜廳；室,room; hall,1
+decisión,n.,la｜決定,decision,1
+necesario,adj.,必要的,necessary,1
+sal,n.,la｜鹽,salt,1
+prisa,n.,la｜匆忙,hurry,1
+embargo,n.,（sin embargo 然而）,(sin embargo) however,1
+interesante,adj.,有趣的,interesting,1
+abuela,n.,la｜祖母,grandmother,1
+detective,n.,el｜偵探,detective,1
+horrible,adj.,可怕的,horrible,1
+suelo,n.,el｜地板；土壤,floor; ground,1
+cárcel,n.,la｜監獄,jail,1
+acá,adv.,這裡,here,1
+sentarse,v.,坐下,to sit down,1
+intentar,v.,試圖,to try,1
+silencio,n.,el｜安靜,silence,1
+capaz,adj.,有能力的,capable,1
+club,n.,el｜俱樂部,club,1
+temer,v.,害怕,to fear,1
+broma,n.,la｜玩笑,joke,1
+gobierno,n.,el｜政府,government,1
+prometer,v.,承諾,to promise,1
+cámara,n.,la｜相機,camera,1
+terrible,adj.,可怕的,terrible,1
+regalo,n.,el｜禮物,gift,1
+amable,adj.,親切的,kind,1
+dulce,adj.,甜的,sweet,1
+ataque,n.,el｜攻擊,attack,1
+navidad,n.,la｜聖誕節,Christmas,1
+ocho,n.,八,eight,1
+avión,n.,el｜飛機,airplane,1
+investigación,n.,la｜調查；研究,investigation; research,1
+jurar,v.,發誓,to swear,1
+mantener,v.,維持,to maintain,1
+ejército,n.,el｜軍隊,army,1
+papel,n.,el｜紙；角色,paper; role,1
+gracioso,adj.,好笑的,funny,1
+principio,n.,el｜開始；原則,beginning; principle,1
+delante,adv.,在前面,in front,1
+teniente,n.,el｜中尉,lieutenant,1
+deseo,n.,el｜願望,wish; desire,1
+nave,n.,la｜船；太空船,ship; spaceship,1
+basura,n.,la｜垃圾,garbage,1
+contacto,n.,el｜接觸；聯絡,contact,1
+esposo,n.,el｜丈夫,husband,1
+tren,n.,el｜火車,train,1
+verdadero,adj.,真的,true; real,1
+alma,n.,el｜靈魂（陰性名詞）,soul,1
+disculpa,n.,la｜道歉,apology,1
+junto,adj.,一起的；在旁邊,together; next to,1
+andar,v.,走,to walk,1
+matrimonio,n.,el｜婚姻,marriage,1
+locura,n.,la｜瘋狂,madness,1
+oro,n.,el｜金,gold,1
+permiso,n.,el｜許可,permission,1
+director,n.,el｜主任；導演,director,1
+peligro,n.,el｜危險,danger,1
+libertad,n.,la｜自由,freedom,1
+alegrarse,v.,高興,to be glad,1
+derecha,n.,la｜右邊,right (side),1
+maravilloso,adj.,美妙的,wonderful,1
+espacio,n.,el｜空間；太空,space,1
+rato,n.,el｜一會兒,while,1
+abuelo,n.,el｜祖父,grandfather,1
+salud,n.,la｜健康,health,1
+sorpresa,n.,la｜驚喜,surprise,1
+triste,adj.,傷心的,sad,1
+maestro,n.,el｜老師；大師,teacher; master,1
+según,prep.,根據,according to,1
+infierno,n.,el｜地獄,hell,1
+tía,n.,la｜阿姨；姑姑,aunt,1
+crimen,n.,el｜罪行,crime,1
+consejo,n.,el｜建議,advice,1
+ante,prep.,在…面前,before; in front of,1
+iglesia,n.,la｜教堂,church,1
+intento,n.,el｜嘗試,attempt,1
+mayoría,n.,la｜大多數,majority,1
+escena,n.,la｜場景,scene,1
+piso,n.,el｜樓層；公寓,floor; apartment,1
+señal,n.,la｜信號,signal; sign,1
+honor,n.,el｜榮譽,honor,1
+abrir,v.,打開,to open,1
+cerebro,n.,el｜大腦,brain,1
+preguntar,v.,問,to ask,1
+cocina,n.,la｜廚房,kitchen,1
+vestido,n.,el｜洋裝,dress,1
+inteligente,adj.,聰明的,intelligent,1
+caballo,n.,el｜馬,horse,1
+bar,n.,el｜酒吧,bar,1
+corte,n.,el｜切口；la｜法院,cut; court,1
+adentro,adv.,裡面,inside,1
+droga,n.,la｜毒品；藥物,drug,1
+enseguida,adv.,立刻,right away,1
+agradable,adj.,愉快的,pleasant,1
+carne,n.,la｜肉,meat,1
+departamento,n.,el｜部門；公寓,department; apartment,1
+lindo,adj.,可愛的,cute; lovely,1
+mar,n.,el｜海,sea,1
+duda,n.,la｜懷疑,doubt,1
+edificio,n.,el｜建築物,building,1
+cargo,n.,el｜職位；負責,post; charge,1
+víctima,n.,la｜受害者,victim,1
+luna,n.,la｜月亮,moon,1
+energía,n.,la｜能量,energy,1
+frío,adj.,冷的,cold,1
+baile,n.,el｜舞蹈,dance,1
+misión,n.,la｜任務,mission,1
+izquierda,n.,la｜左邊,left (side),1
+beber,v.,喝,to drink,1
+finalmente,adv.,最後,finally,1
+simple,adj.,簡單的,simple,1
+regresar,v.,回來,to return,1
+sacar,v.,拿出,to take out,1
+opinión,n.,la｜意見,opinion,1
+apenas,adv.,幾乎不；剛剛,hardly; barely,1
+cerveza,n.,la｜啤酒,beer,1
+reina,n.,la｜女王,queen,1
+temprano,adv.,早,early,1
+tema,n.,el｜主題,topic,1
+prisión,n.,la｜監獄,prison,1
+público,adj.,公共的；el｜大眾,public,1
+salvar,v.,拯救,to save,1
+partido,n.,el｜比賽；政黨,match; party,1
+causa,n.,la｜原因,cause,1
+caliente,adj.,熱的,hot,1
+sargento,n.,el｜中士,sergeant,1
+cenar,v.,吃晚餐,to have dinner,1
+compañero,n.,el｜同伴；同事,companion; colleague,1
+banco,n.,el｜銀行；長椅,bank; bench,1
+existir,v.,存在,to exist,1
+zona,n.,la｜區域,zone,1
+destino,n.,el｜命運；目的地,destiny; destination,1
+base,n.,la｜基礎；基地,base,1
+soler,v.,通常會,to usually do,1
+cliente,n.,el｜顧客,client,1
+irse,v.,離開,to leave,1
+encuentro,n.,el｜相遇,meeting; encounter,1
+pelea,n.,la｜打架,fight,1
+norte,n.,el｜北,north,1
+coronel,n.,el｜上校,colonel,1
+apostar,v.,打賭,to bet,1
+peligroso,adj.,危險的,dangerous,1
+té,n.,el｜茶,tea,1
+excepto,prep.,除了,except,1
+juicio,n.,el｜審判；判斷,trial; judgment,1
+llave,n.,la｜鑰匙,key,1
+equivocado,adj.,錯的,wrong,1
+posición,n.,la｜位置,position,1
+espalda,n.,la｜背,back,1
+excelente,adj.,優秀的,excellent,1
+éxito,n.,el｜成功,success,1
+ventana,n.,la｜窗戶,window,1
+especie,n.,la｜物種,species; kind,1
+diferencia,n.,la｜差異,difference,1
+pedir,v.,要求；點（餐）,to ask for; to order,1
+ejemplo,n.,el｜例子,example,1
+radio,n.,la｜收音機,radio,1
+leer,v.,讀,to read,1
+calma,n.,la｜平靜,calm,1
+hogar,n.,el｜家,home,1
+fondo,n.,el｜底部；背景,bottom; background,1
+humano,adj.,人類的,human,1
+unido,adj.,團結的,united,1
+regreso,n.,el｜返回,return,1
+respecto,n.,（respecto a 關於）,(respecto a) regarding,1
+debido,adj.,應有的（debido a 由於）,due,1
+parar,v.,停,to stop,1
+lleno,adj.,滿的,full,1
+respeto,n.,el｜尊重,respect,1
+debajo,adv.,在下面,under; below,1
+escribir,v.,寫,to write,1
+estación,n.,la｜車站；季節,station; season,1
+pista,n.,la｜線索；跑道,clue; track,1
+estrella,n.,la｜星星,star,1
+enfermo,adj.,生病的,sick,1
+doler,v.,痛,to hurt,1
+ocupado,adj.,忙的,busy,1
+correr,v.,跑,to run,1
+nivel,n.,el｜程度,level,1
+experiencia,n.,la｜經驗,experience,1
+salida,n.,la｜出口,exit,1
+confiar,v.,信任,to trust,1
+zapato,n.,el｜鞋子,shoe,1
+color,n.,el｜顏色,color,1
+vistazo,n.,el｜一瞥,glance,1
+juez,n.,el｜法官,judge,1
+paciente,n.,el｜病人；adj. 有耐心的,patient,1
+bolsa,n.,la｜袋子,bag,1
+arte,n.,el｜藝術,art,1
+bailar,v.,跳舞,to dance,1
+diablo,n.,el｜魔鬼,devil,1
+sur,n.,el｜南,south,1
+banda,n.,la｜樂團；幫派,band; gang,1
+aprender,v.,學習,to learn,1
+precio,n.,el｜價格,price,1
+completo,adj.,完整的,complete,1
+santo,adj.,神聖的；el｜聖人,holy; saint,1
+culpable,adj.,有罪的,guilty,1
+ganas,n.,las｜慾望（tener ganas de 想要）,desire; urge,1
+azul,adj.,藍色的,blue,1
+comandante,n.,el｜指揮官,commander,1
+acción,n.,la｜行動,action,1
+regla,n.,la｜規則；尺,rule; ruler,1
+obra,n.,la｜作品；工程,work; play,1
+esperanza,n.,la｜希望,hope,1
+cuestión,n.,la｜問題；議題,question; issue,1
+molestar,v.,打擾,to bother,1
+informe,n.,el｜報告,report,1
+río,n.,el｜河,river,1
+bienvenido,adj.,歡迎的,welcome,1
+tocar,v.,碰；演奏,to touch; to play (music),1
+contar,v.,數；講述,to count; to tell,1
+interior,adj.,內部的,interior,1
+apartamento,n.,el｜公寓,apartment,1
+estado,n.,el｜狀態；國家；州,state,1
+preocupar,v.,擔心,to worry,1
+principal,adj.,主要的,main,1
+ojalá,int.,但願,hopefully; I wish,1
+perdonar,v.,原諒,to forgive,1
+golpe,n.,el｜打擊,blow; hit,1
+estilo,n.,el｜風格,style,1
+nueve,n.,九,nine,1
+definitivamente,adv.,肯定地,definitely,1
+bomba,n.,la｜炸彈；泵,bomb; pump,1
+guardia,n.,el｜警衛,guard,1
+pistola,n.,la｜手槍,pistol,1
+probar,v.,嘗試；試吃,to try; to taste,1
+majestad,n.,la｜陛下,majesty,1
+traer,v.,帶來,to bring,1
+marcha,n.,la｜行進,march; progress,1
+común,adj.,共同的；普通的,common,1
+aquel,pron.,那個（遠）,that (over there),1
+vuelo,n.,el｜航班；飛行,flight,1
+nota,n.,la｜筆記；成績,note; grade,1
+valor,n.,el｜價值；勇氣,value; courage,1
+suyo,pron.,他的；她的（的）,his; hers; theirs,1
+objetivo,n.,el｜目標,objective,1
+repente,n.,（de repente 突然）,(de repente) suddenly,1
+rojo,adj.,紅色的,red,1
+bromear,v.,開玩笑,to joke,1
+entrada,n.,la｜入口；門票,entrance; ticket,1
+doble,adj.,雙倍的,double,1
+evitar,v.,避免,to avoid,1
+máquina,n.,la｜機器,machine,1
+cuello,n.,el｜脖子,neck,1
+animal,n.,el｜動物,animal,1
+acaso,adv.,難道；或許,perhaps,1
+pareja,n.,la｜伴侶；一對,couple; partner,1
+verano,n.,el｜夏天,summer,1
+mentira,n.,la｜謊言,lie,1
+tarjeta,n.,la｜卡片,card,1
+preparado,adj.,準備好的,prepared,1
+flor,n.,la｜花,flower,1
+opción,n.,la｜選項,option,1
+isla,n.,la｜島,island,1
+cerrar,v.,關閉,to close,1
+piel,n.,la｜皮膚,skin,1
+enemigo,n.,el｜敵人,enemy,1
+exacto,adj.,精確的,exact,1
+justicia,n.,la｜正義,justice,1
+obviamente,adv.,顯然,obviously,1
+despertar,v.,醒來；叫醒,to wake up,1
+calor,n.,el｜熱,heat,1
+referirse,v.,指的是,to refer to,1
+batalla,n.,la｜戰鬥,battle,1
+fantástico,adj.,很棒的,fantastic,1
+brazo,n.,el｜手臂,arm,1
+absolutamente,adv.,絕對地,absolutely,1
+escapar,v.,逃跑,to escape,1
+bosque,n.,el｜森林,forest,1
+pierna,n.,la｜腿,leg,1
+visita,n.,la｜拜訪,visit,1
+movimiento,n.,el｜動作；運動,movement,1
+rico,adj.,富有的；好吃的,rich; tasty,1
+inocente,adj.,無辜的,innocent,1
+pesar,v.,稱重；（a pesar de 儘管）,to weigh; (a pesar de) despite,1
+absoluto,adj.,絕對的,absolute,1
+vacaciones,n.,las｜假期,vacation,1
+cine,n.,el｜電影院,cinema,1
+brillante,adj.,閃亮的；傑出的,brilliant,1
+confianza,n.,la｜信任,trust; confidence,1
+especialmente,adv.,特別地,especially,1
+embarazada,adj.,懷孕的,pregnant,1
+pantalones,n.,los｜褲子,trousers,1
+defensa,n.,la｜防禦,defense,1
+estupendo,adj.,極好的,great,1
+presión,n.,la｜壓力,pressure,1
+inmediatamente,adv.,立即,immediately,1
+testigo,n.,el｜證人,witness,1
+olvidar,v.,忘記,to forget,1
+soldado,n.,el｜士兵,soldier,1
+resultar,v.,結果是,to turn out,1
+depender,v.,依靠；取決於,to depend,1
+motivo,n.,el｜動機；原因,reason; motive,1
+inglés,n.,el｜英語；adj. 英國的,English,1
+estudio,n.,el｜研究；工作室,study; studio,1
+sentimiento,n.,el｜感情,feeling,1
+partir,v.,出發；分開（a partir de 從…起）,to leave; to split,1
+metro,n.,el｜公尺；地鐵,meter; subway,1
+ridículo,adj.,可笑的,ridiculous,1
+dama,n.,la｜女士,lady,1
+operación,n.,la｜手術；行動,operation,1
+empresa,n.,la｜公司,company,1
+laboratorio,n.,el｜實驗室,laboratory,1
+elección,n.,la｜選擇；選舉,choice; election,1
+menudo,adj.,（a menudo 經常）,(a menudo) often,1
+beso,n.,el｜吻,kiss,1
+copa,n.,la｜高腳杯；獎盃,glass; cup,1
+conversación,n.,la｜對話,conversation,1
+espíritu,n.,el｜精神,spirit,1
+cansado,adj.,累的,tired,1
+interesar,v.,使感興趣,to interest,1
+casado,adj.,已婚的,married,1
+enorme,adj.,巨大的,huge,1
+fe,n.,la｜信仰,faith,1
+muestra,n.,la｜樣本；展示,sample; show,1
+trampa,n.,la｜陷阱,trap,1
+memoria,n.,la｜記憶,memory,1
+contrario,adj.,相反的,contrary; opposite,1
+subir,v.,上去,to go up,1
+turno,n.,el｜輪班；輪到,turn; shift,1
+preocupado,adj.,擔心的,worried,1
+restaurante,n.,el｜餐廳,restaurant,1
+escrito,adj.,書面的,written,1
+bienvenida,n.,la｜歡迎,welcome,1
+caer,v.,掉落,to fall,1
+leche,n.,la｜牛奶,milk,1
+preferir,v.,偏好,to prefer,1
+red,n.,la｜網,net; network,1
+solamente,adv.,只,only,1
+taxi,n.,el｜計程車,taxi,1
+anillo,n.,el｜戒指,ring,1
+victoria,n.,la｜勝利,victory,1
+héroe,n.,el｜英雄,hero,1
+decidir,v.,決定,to decide,1
+responsable,adj.,負責的,responsible,1
+trago,n.,el｜一口；一杯酒,drink; sip,1
+árbol,n.,el｜樹,tree,1
+diente,n.,el｜牙齒,tooth,1
+encantado,adj.,很高興（認識你）,delighted; nice to meet you,1
+camión,n.,el｜卡車,truck,1
+vender,v.,賣,to sell,1
+luchar,v.,奮鬥；打,to fight,1
+cabo,n.,el｜下士；（al cabo 最後）,corporal; end,1
+ruido,n.,el｜噪音,noise,1
+lucha,n.,la｜鬥爭,fight; struggle,1
+reloj,n.,el｜鐘錶,clock; watch,1
+gato,n.,el｜貓,cat,1
+averiguar,v.,查明,to find out,1
+volar,v.,飛,to fly,1
+sonido,n.,el｜聲音,sound,1
+código,n.,el｜代碼,code,1
+imagen,n.,la｜圖像,image,1
+riesgo,n.,el｜風險,risk,1
+pan,n.,el｜麵包,bread,1
+hielo,n.,el｜冰,ice,1
+prensa,n.,la｜新聞界,press,1
+caminar,v.,走路,to walk,1
+televisión,n.,la｜電視,television,1
+coger,v.,拿；抓（西班牙）,to take; to catch (Spain),1
+posibilidad,n.,la｜可能性,possibility,1
+asiento,n.,el｜座位,seat,1
+herido,adj.,受傷的,injured,1
+seguramente,adv.,肯定；很可能,surely; probably,1
+proyecto,n.,el｜計畫,project,1
+pared,n.,la｜牆,wall,1
+sospechoso,n.,el｜嫌疑犯,suspect,1
+naturaleza,n.,la｜大自然,nature,1
+silla,n.,la｜椅子,chair,1
+arreglar,v.,修理；安排,to fix; to arrange,1
+sentado,adj.,坐著的,seated,1
+cantidad,n.,la｜數量,quantity,1
+llorar,v.,哭,to cry,1
+familiar,adj.,家庭的；熟悉的,family; familiar,1
+desastre,n.,el｜災難,disaster,1
+política,n.,la｜政治；政策,politics; policy,1
+enfermedad,n.,la｜疾病,illness,1
+colega,n.,el｜同事,colleague,1
+príncipe,n.,el｜王子,prince,1
+verde,adj.,綠色的,green,1
+bajar,v.,下去,to go down,1
+nervioso,adj.,緊張的,nervous,1
+inspector,n.,el｜督察,inspector,1
+servir,v.,服務；有用,to serve; to be useful,1
+playa,n.,la｜海灘,beach,1
+cantar,v.,唱,to sing,1
+velocidad,n.,la｜速度,speed,1
+total,adj.,全部的,total,1
+cabello,n.,el｜頭髮,hair,1
+huella,n.,la｜足跡；指紋,footprint; fingerprint,1
+unidad,n.,la｜單位,unit,1
+cuchillo,n.,el｜刀,knife,1
+tontería,n.,la｜蠢話；蠢事,nonsense,1
+emergencia,n.,la｜緊急情況,emergency,1
+parque,n.,el｜公園,park,1
+roto,adj.,壞的；破的,broken,1
+serie,n.,la｜系列；影集,series,1
+evidencia,n.,la｜證據,evidence,1
+botella,n.,la｜瓶子,bottle,1
+viento,n.,el｜風,wind,1
+apoyo,n.,el｜支持,support,1
+bala,n.,la｜子彈,bullet,1
+tiro,n.,el｜射擊,shot,1
+época,n.,la｜時代,era; time,1
+puente,n.,el｜橋,bridge,1
+distancia,n.,la｜距離,distance,1
+desear,v.,渴望,to wish; to desire,1
+echar,v.,扔；倒,to throw; to pour,1
+descanso,n.,el｜休息,rest; break,1
+área,n.,el｜區域（陰性名詞）,area,1
+orgulloso,adj.,驕傲的,proud,1
+dato,n.,el｜資料,data; fact,1
+espectáculo,n.,el｜表演,show,1
+magia,n.,la｜魔法,magic,1
+nacional,adj.,國家的,national,1
+universo,n.,el｜宇宙,universe,1
+nariz,n.,la｜鼻子,nose,1
+vergüenza,n.,la｜羞恥,shame; embarrassment,1
+monstruo,n.,el｜怪物,monster,1
+princesa,n.,la｜公主,princess,1
+autobús,n.,el｜公車,bus,1
+cuidar,v.,照顧,to take care of,1
+huevo,n.,el｜蛋,egg,1
+paseo,n.,el｜散步,walk; stroll,1
+detalle,n.,el｜細節,detail,1
+belleza,n.,la｜美,beauty,1
+abierto,adj.,開著的,open,1
+enviar,v.,寄送,to send,1
+ministro,n.,el｜部長,minister,1
+conducir,v.,開車,to drive,1
+aceptar,v.,接受,to accept,1
+borracho,adj.,喝醉的,drunk,1
+contrato,n.,el｜合約,contract,1
+viernes,n.,el｜星期五,Friday,1
+hecho,n.,el｜事實,fact,1
+sociedad,n.,la｜社會,society,1
+carga,n.,la｜貨物；負擔,load; cargo,1
+presente,adj.,現在的；在場的,present,1
+uso,n.,el｜使用,use,1
+dedo,n.,el｜手指,finger,1
+oferta,n.,la｜提供；特價,offer,1
+proteger,v.,保護,to protect,1
+recibir,v.,收到,to receive,1
+agradecer,v.,感謝,to thank,1
+robar,v.,偷,to steal,1
+enamorado,adj.,戀愛中的,in love,1
+oeste,n.,el｜西,west,1
+herida,n.,la｜傷口,wound,1
+despacio,adv.,慢慢地,slowly,1
+directamente,adv.,直接地,directly,1
+inmediato,adj.,立即的,immediate,1
+profesional,adj.,專業的,professional,1
+oscuro,adj.,黑暗的,dark,1
+mercado,n.,el｜市場,market,1
+cerdo,n.,el｜豬,pig,1
+líder,n.,el｜領導者,leader,1
+grave,adj.,嚴重的,serious; grave,1
+jurado,n.,el｜陪審團,jury,1
+desaparecido,adj.,失蹤的,missing,1
+últimamente,adv.,最近,lately,1
+piedra,n.,la｜石頭,stone,1
+intención,n.,la｜意圖,intention,1
+humor,n.,el｜幽默；心情,humor; mood,1
+peso,n.,el｜重量；披索,weight; peso,1
+asesinar,v.,謀殺,to murder,1
+directo,adj.,直接的,direct,1
+central,adj.,中央的,central,1
+contento,adj.,高興的,happy; pleased,1
+oscuridad,n.,la｜黑暗,darkness,1
+actuar,v.,行動；表演,to act,1
+comenzar,v.,開始,to begin,1
+privado,adj.,私人的,private,1
+mirada,n.,la｜目光,look; gaze,1
+demonio,n.,el｜惡魔,demon,1
+romper,v.,打破,to break,1
+fiscal,n.,el｜檢察官,prosecutor,1
+jardín,n.,el｜花園,garden,1
+natural,adj.,自然的,natural,1
+gratis,adv.,免費,free (of charge),1
+costar,v.,花費,to cost,1
+amenaza,n.,la｜威脅,threat,1
+marca,n.,la｜品牌；記號,brand; mark,1
+medicina,n.,la｜醫學；藥,medicine,2
+precioso,adj.,珍貴的；漂亮的,precious; lovely,2
+sexual,adj.,性的,sexual,2
+acceso,n.,el｜通道；存取,access,2
+necesidad,n.,la｜需要,need,2
+dueño,n.,el｜主人；業主,owner,2
+merecer,v.,值得,to deserve,2
+mentir,v.,說謊,to lie,2
+imaginar,v.,想像,to imagine,2
+fantasma,n.,el｜鬼,ghost,2
+pollo,n.,el｜雞肉,chicken,2
+varios,adj.,幾個,several,2
+efecto,n.,el｜效果,effect,2
+felicidad,n.,la｜幸福,happiness,2
+espada,n.,la｜劍,sword,2
+resultado,n.,el｜結果,result,2
+sombrero,n.,el｜帽子,hat,2
+menor,adj.,較小的；未成年,smaller; younger; minor,2
+limpio,adj.,乾淨的,clean,2
+correo,n.,el｜郵件,mail,2
+video,n.,el｜影片,video,2
+perfectamente,adv.,完美地,perfectly,2
+teatro,n.,el｜劇院,theater,2
+dormido,adj.,睡著的,asleep,2
+local,adj.,本地的,local,2
+lástima,n.,la｜可惜,pity,2
+responsabilidad,n.,la｜責任,responsibility,2
+búsqueda,n.,la｜搜尋,search,2
+recuerdo,n.,el｜回憶；紀念品,memory; souvenir,2
+elegir,v.,選擇,to choose,2
+oler,v.,聞,to smell,2
+almuerzo,n.,el｜午餐,lunch,2
+cien,n.,一百,hundred,2
+pago,n.,el｜付款,payment,2
+normalmente,adv.,通常,normally,2
+pastel,n.,el｜蛋糕,cake,2
+cinta,n.,la｜帶子；膠帶,tape; ribbon,2
+costa,n.,la｜海岸,coast,2
+levantarse,v.,起床；站起,to get up,2
+cerrado,adj.,關著的,closed,2
+interés,n.,el｜興趣；利息,interest,2
+enfermera,n.,la｜護士,nurse,2
+comienzo,n.,el｜開始,beginning,2
+militar,adj.,軍事的,military,2
+polvo,n.,el｜灰塵,dust,2
+bello,adj.,美麗的,beautiful,2
+voluntad,n.,la｜意志,will,2
+teoría,n.,la｜理論,theory,2
+cuento,n.,el｜故事,story; tale,2
+escenario,n.,el｜舞台,stage,2
+diario,n.,el｜日記；報紙；adj. 每日的,diary; newspaper; daily,2
+propiedad,n.,la｜財產,property,2
+agujero,n.,el｜洞,hole,2
+aspecto,n.,el｜外表；方面,appearance; aspect,2
+campamento,n.,el｜營地,camp,2
+descansar,v.,休息,to rest,2
+meter,v.,放入,to put in,2
+ángel,n.,el｜天使,angel,2
+impresionante,adj.,令人印象深刻的,impressive,2
+proceso,n.,el｜過程,process,2
+fuente,n.,la｜噴泉；來源,fountain; source,2
+alcalde,n.,el｜市長,mayor,2
+desaparecer,v.,消失,to disappear,2
+desayuno,n.,el｜早餐,breakfast,2
+débil,adj.,虛弱的,weak,2
+miembro,n.,el｜成員,member,2
+valiente,adj.,勇敢的,brave,2
+pecho,n.,el｜胸部,chest,2
+periódico,n.,el｜報紙,newspaper,2
+limpiar,v.,清潔,to clean,2
+crear,v.,創造,to create,2
+explicar,v.,解釋,to explain,2
+resolver,v.,解決,to solve,2
+guapo,adj.,好看的,handsome,2
+continuar,v.,繼續,to continue,2
+primo,n.,el｜表兄弟,cousin,2
+manejar,v.,處理；開車（拉美）,to handle; to drive,2
+acto,n.,el｜行為；幕,act,2
+kilómetro,n.,el｜公里,kilometer,2
+premio,n.,el｜獎,prize,2
+internet,n.,el｜網路,internet,2
+inútil,adj.,無用的,useless,2
+domingo,n.,el｜星期日,Sunday,2
+sensación,n.,la｜感覺,feeling; sensation,2
+alcohol,n.,el｜酒精,alcohol,2
+tercero,adj.,第三,third,2
+antiguo,adj.,古老的；前任的,old; ancient; former,2
+asustado,adj.,害怕的,scared,2
+genio,n.,el｜天才,genius,2
+recuperar,v.,恢復；取回,to recover,2
+lengua,n.,la｜舌頭；語言,tongue; language,2
+ladrón,n.,el｜小偷,thief,2
+examen,n.,el｜考試,exam,2
+deprisa,adv.,快,quickly,2
+montaña,n.,la｜山,mountain,2
+disparar,v.,開槍,to shoot,2
+entrenador,n.,el｜教練,coach,2
+queso,n.,el｜起司,cheese,2
+entero,adj.,完整的,whole,2
+modelo,n.,el｜模型；模特兒,model,2
+fútbol,n.,el｜足球,soccer; football,2
+detener,v.,阻止；逮捕,to stop; to arrest,2
+sábado,n.,el｜星期六,Saturday,2
+talento,n.,el｜才能,talent,2
+descubrir,v.,發現,to discover,2
+gordo,adj.,胖的,fat,2
+tribunal,n.,el｜法庭,court,2
+toque,n.,el｜觸碰,touch,2
+dispuesto,adj.,願意的,willing,2
+tamaño,n.,el｜大小,size,2
+invitado,n.,el｜客人,guest,2
+declaración,n.,la｜聲明,statement,2
+claramente,adv.,清楚地,clearly,2
+pérdida,n.,la｜損失,loss,2
+profundo,adj.,深的,deep,2
+gas,n.,el｜氣體；瓦斯,gas,2
+aeropuerto,n.,el｜機場,airport,2
+gloria,n.,la｜榮耀,glory,2
+instituto,n.,el｜中學；研究所,high school; institute,2
+disparo,n.,el｜槍聲,shot,2
+pertenecer,v.,屬於,to belong,2
+cadáver,n.,el｜屍體,corpse,2
+gracia,n.,la｜優雅；好笑,grace; humor,2
+amante,n.,el｜情人,lover,2
+temporada,n.,la｜季,season,2
+francés,n.,el｜法語；adj. 法國的,French,2
+techo,n.,el｜屋頂；天花板,roof; ceiling,2
+protección,n.,la｜保護,protection,2
+venganza,n.,la｜復仇,revenge,2
+discutir,v.,爭論；討論,to argue; to discuss,2
+comprender,v.,理解,to understand,2
+camisa,n.,la｜襯衫,shirt,2
+superior,adj.,上級的；較高的,superior; upper,2
+criminal,n.,el｜罪犯,criminal,2
+bote,n.,el｜小船；罐,boat; jar,2
+recoger,v.,撿起；接,to pick up,2
+truco,n.,el｜把戲,trick,2
+original,adj.,原始的,original,2
+rosa,n.,la｜玫瑰,rose,2
+sobrevivir,v.,生存,to survive,2
+rostro,n.,el｜臉,face,2
+crédito,n.,el｜信用,credit,2
+compartir,v.,分享,to share,2
+registro,n.,el｜登記；紀錄,record; register,2
+grandioso,adj.,宏偉的,grand,2
+esquina,n.,la｜轉角,corner,2
+ciento,n.,百,hundred,2
+tormenta,n.,la｜暴風雨,storm,2
+relajarse,v.,放鬆,to relax,2
+chocolate,n.,el｜巧克力,chocolate,2
+pedazo,n.,el｜塊,piece,2
+olor,n.,el｜氣味,smell,2
+ciencia,n.,la｜科學,science,2
+conexión,n.,la｜連接,connection,2
+salón,n.,el｜客廳；大廳,living room; hall,2
+sucio,adj.,髒的,dirty,2
+firma,n.,la｜簽名；公司,signature; firm,2
+casarse,v.,結婚,to get married,2
+bebida,n.,la｜飲料,drink,2
+lluvia,n.,la｜雨,rain,2
+recién,adv.,剛剛,recently; newly,2
+complicado,adj.,複雜的,complicated,2
+visión,n.,la｜視力；願景,vision,2
+americano,adj.,美國的,American,2
+diversión,n.,la｜樂趣,fun,2
+libra,n.,la｜磅,pound,2
+curso,n.,el｜課程,course,2
+disco,n.,el｜唱片；碟片,disc; record,2
+probable,adj.,可能的,probable,2
+lago,n.,el｜湖,lake,2
+parecido,adj.,相似的,similar,2
+material,n.,el｜材料,material,2
+discurso,n.,el｜演講,speech,2
+corto,adj.,短的,short,2
+lunes,n.,el｜星期一,Monday,2
+efectivo,n.,el｜現金；adj. 有效的,cash; effective,2
+cura,n.,la｜治療；el｜神父,cure; priest,2
+funeral,n.,el｜葬禮,funeral,2
+artista,n.,el｜藝術家,artist,2
+favorito,adj.,最喜歡的,favorite,2
+caer bien,phr.,讓人喜歡,to like (someone),2
+entrevista,n.,la｜面試；訪問,interview,2
+pintura,n.,la｜繪畫；油漆,painting; paint,2
+quieto,adj.,靜止的,still,2
+falso,adj.,假的,false,2
+inteligencia,n.,la｜智力；情報,intelligence,2
+destruir,v.,摧毀,to destroy,2
+helado,n.,el｜冰淇淋,ice cream,2
+felicidades,int.,恭喜,congratulations,2
+camioneta,n.,la｜小貨車,van; pickup truck,2
+mover,v.,移動,to move,2
+aparte,adv.,另外,apart; besides,2
+tumba,n.,la｜墳墓,tomb,2
+mapa,n.,el｜地圖,map,2
+tarea,n.,la｜作業；任務,homework; task,2
+móvil,n.,el｜手機,mobile phone,2
+responder,v.,回答,to answer,2
+vacío,adj.,空的,empty,2
+computadora,n.,la｜電腦（拉美）,computer (Latin America),2
+estudiante,n.,el｜學生,student,2
+construir,v.,建造,to build,2
+solución,n.,la｜解決方案,solution,2
+mundial,adj.,世界的,worldwide,2
+plato,n.,el｜盤子；菜,plate; dish,2
+famoso,adj.,有名的,famous,2
+tecnología,n.,la｜科技,technology,2
+condición,n.,la｜條件；狀況,condition,2
+dudar,v.,懷疑,to doubt,2
+rápidamente,adv.,快速地,quickly,2
+bordo,n.,（a bordo 在船／機上）,(a bordo) on board,2
+nieve,n.,la｜雪,snow,2
+fecha,n.,la｜日期,date,2
+violencia,n.,la｜暴力,violence,2
+sujeto,n.,el｜主體；傢伙,subject; guy,2
+siglo,n.,el｜世紀,century,2
+molesto,adj.,惱火的,annoyed,2
+cortar,v.,切,to cut,2
+fortuna,n.,la｜財富；運氣,fortune,2
+archivo,n.,el｜檔案,file,2
+presencia,n.,la｜存在；出席,presence,2
+aventura,n.,la｜冒險,adventure,2
+gira,n.,la｜巡迴,tour,2
+social,adj.,社會的,social,2
+comunidad,n.,la｜社區,community,2
+cero,n.,零,zero,2
+convertir,v.,轉變,to convert; to turn into,2
+pieza,n.,la｜零件；作品,piece,2
+estómago,n.,el｜胃,stomach,2
+legal,adj.,合法的,legal,2
+reino,n.,el｜王國,kingdom,2
+alegría,n.,la｜快樂,joy,2
+barrio,n.,el｜社區,neighborhood,2
+granja,n.,la｜農場,farm,2
+esfuerzo,n.,el｜努力,effort,2
+tesoro,n.,el｜寶藏,treasure,2
+empleo,n.,el｜就業；工作,job; employment,2
+cirugía,n.,la｜手術,surgery,2
+clave,n.,la｜關鍵；密碼,key; code,2
+aparentemente,adv.,顯然,apparently,2
+controlar,v.,控制,to control,2
+mostrar,v.,展示,to show,2
+piloto,n.,el｜飛行員,pilot,2
+bolso,n.,el｜手提包,handbag,2
+respirar,v.,呼吸,to breathe,2
+aparecer,v.,出現,to appear,2
+campaña,n.,la｜活動；運動,campaign,2
+amistad,n.,la｜友誼,friendship,2
+corriente,n.,la｜電流；水流,current,2
+hueso,n.,el｜骨頭,bone,2
+planta,n.,la｜植物；工廠,plant,2
+ritmo,n.,el｜節奏,rhythm,2
+socio,n.,el｜合夥人,partner,2
+motor,n.,el｜引擎,engine,2
+mono,n.,el｜猴子,monkey,2
+página,n.,la｜頁,page,2
+rogar,v.,懇求,to beg,2
+aburrido,adj.,無聊的,bored; boring,2
+paquete,n.,el｜包裹,package,2
+combate,n.,el｜戰鬥,combat,2
+útil,adj.,有用的,useful,2
+castillo,n.,el｜城堡,castle,2
+bola,n.,la｜球,ball,2
+asistente,n.,el｜助理,assistant,2
+tirar,v.,丟,to throw,2
+honesto,adj.,誠實的,honest,2
+carro,n.,el｜車（拉美）,car (Latin America),2
+venta,n.,la｜銷售,sale,2
+huir,v.,逃跑,to flee,2
+compromiso,n.,el｜承諾；訂婚,commitment; engagement,2
+asegurar,v.,確保,to assure; to ensure,2
+ira,n.,la｜憤怒,anger,2
+promesa,n.,la｜承諾,promise,2
+compra,n.,la｜購物,purchase,2
+importancia,n.,la｜重要性,importance,2
+lección,n.,la｜課,lesson,2
+personalmente,adv.,親自,personally,2
+bolsillo,n.,el｜口袋,pocket,2
+enojado,adj.,生氣的,angry,2
+desgracia,n.,la｜不幸,misfortune,2
+artículo,n.,el｜文章；物品,article,2
+labio,n.,el｜嘴唇,lip,2
+cola,n.,la｜尾巴；隊伍,tail; queue,2
+taza,n.,la｜杯子,cup,2
+pelota,n.,la｜球,ball,2
+chaqueta,n.,la｜外套,jacket,2
+interesado,adj.,感興趣的,interested,2
+atrapado,adj.,被困住的,trapped,2
+obvio,adj.,明顯的,obvious,2
+entrenamiento,n.,el｜訓練,training,2
+pescado,n.,el｜魚（食物）,fish (food),2
+abrigo,n.,el｜大衣,coat,2
+estudiar,v.,讀書,to study,2
+sonrisa,n.,la｜微笑,smile,2
+cobarde,n.,el｜懦夫,coward,2
+secundaria,n.,la｜中學,secondary school,2
+charla,n.,la｜聊天,chat,2
+bruja,n.,la｜女巫,witch,2
+celular,n.,el｜手機（拉美）,cell phone,2
+veinte,n.,二十,twenty,2
+encargar,v.,委託；訂購,to entrust; to order,2
+palacio,n.,el｜宮殿,palace,2
+firme,adj.,堅定的,firm,2
+sorprender,v.,使驚訝,to surprise,2
+alemán,n.,el｜德語；adj. 德國的,German,2
+milagro,n.,el｜奇蹟,miracle,2
+soportar,v.,忍受,to bear,2
+moda,n.,la｜時尚,fashion,2
+despacho,n.,el｜辦公室,office,2
+vecino,n.,el｜鄰居,neighbor,2
+vaso,n.,el｜玻璃杯,glass,2
+explosión,n.,la｜爆炸,explosion,2
+copia,n.,la｜副本,copy,2
+viajar,v.,旅行,to travel,2
+cadena,n.,la｜鏈條；頻道,chain; channel,2
+fábrica,n.,la｜工廠,factory,2
+educación,n.,la｜教育,education,2
+fumar,v.,抽菸,to smoke,2
+encantador,adj.,迷人的,charming,2
+madera,n.,la｜木頭,wood,2
+grado,n.,el｜度；年級,degree; grade,2
+tratamiento,n.,el｜治療,treatment,2
+anterior,adj.,以前的,previous,2
+pizza,n.,la｜披薩,pizza,2
+milla,n.,la｜英里,mile,2
+cumplir,v.,履行；滿（歲）,to fulfill; to turn (age),2
+plata,n.,la｜銀；錢（拉美）,silver; money,2
+lío,n.,el｜麻煩,mess; trouble,2
+agencia,n.,la｜機構,agency,2
+humanidad,n.,la｜人類,humanity,2
+parada,n.,la｜站牌,stop,2
+levantar,v.,舉起,to lift,2
+escalera,n.,la｜樓梯,stairs,2
+salvaje,adj.,野生的,wild,2
+ambulancia,n.,la｜救護車,ambulance,2
+traducción,n.,la｜翻譯,translation,2
+básicamente,adv.,基本上,basically,2
+mentiroso,n.,el｜騙子,liar,2
+conocimiento,n.,el｜知識,knowledge,2
+armario,n.,el｜衣櫥,closet,2
+lobo,n.,el｜狼,wolf,2
+ciertamente,adv.,當然,certainly,2
+permitir,v.,允許,to allow,2
+tráfico,n.,el｜交通,traffic,2
+uniforme,n.,el｜制服,uniform,2
+suave,adj.,柔軟的,soft,2
+invierno,n.,el｜冬天,winter,2
+conductor,n.,el｜司機,driver,2
+arena,n.,la｜沙,sand,2
+licencia,n.,la｜執照,license,2
+espejo,n.,el｜鏡子,mirror,2
+marina,n.,la｜海軍,navy,2
+ser humano,n.,el｜人類,human being,2
+coincidencia,n.,la｜巧合,coincidence,2
+análisis,n.,el｜分析,analysis,2
+azúcar,n.,el｜糖,sugar,2
+sótano,n.,el｜地下室,basement,2
+ocasión,n.,la｜場合；機會,occasion,2
+cheque,n.,el｜支票,check,2
+revisar,v.,檢查,to check,2
+acusado,n.,el｜被告,defendant,2
+conciencia,n.,la｜良心；意識,conscience; awareness,2
+pesadilla,n.,la｜惡夢,nightmare,2
+sopa,n.,la｜湯,soup,2
+saltar,v.,跳,to jump,2
+suicidio,n.,el｜自殺,suicide,2
+divorcio,n.,el｜離婚,divorce,2
+miel,n.,la｜蜂蜜,honey,2
+particular,adj.,特別的；私人的,particular; private,2
+frontera,n.,la｜邊界,border,2
+ventaja,n.,la｜優勢,advantage,2
+alerta,n.,la｜警報,alert,2
+piscina,n.,la｜游泳池,swimming pool,2
+comportamiento,n.,el｜行為,behavior,2
+revista,n.,la｜雜誌,magazine,2
+canal,n.,el｜頻道；運河,channel; canal,2
+paciencia,n.,la｜耐心,patience,2
+crisis,n.,la｜危機,crisis,2
+vigilancia,n.,la｜監視,surveillance,2
+desierto,n.,el｜沙漠,desert,2
+cuerda,n.,la｜繩子,rope,2
+gobernador,n.,el｜州長,governor,2
+sección,n.,la｜部分,section,2
+oso,n.,el｜熊,bear,2
+curiosidad,n.,la｜好奇心,curiosity,2
+impresión,n.,la｜印象,impression,2
+pez,n.,el｜魚（活的）,fish (live),2
+torre,n.,la｜塔,tower,2
+pasillo,n.,el｜走廊,corridor,2
+arresto,n.,el｜逮捕,arrest,2
+sencillo,adj.,簡單的,simple,2
+ruta,n.,la｜路線,route,2
+documento,n.,el｜文件,document,2
+apuesta,n.,la｜賭注,bet,2
+virus,n.,el｜病毒,virus,2
+alarma,n.,la｜警報,alarm,2
+identidad,n.,la｜身分,identity,2
+aviso,n.,el｜通知；警告,notice; warning,2
+caza,n.,la｜狩獵,hunt,2
+permanecer,v.,保持；留下,to remain,2
+orgullo,n.,el｜驕傲,pride,2
+altura,n.,la｜高度,height,2
+fácilmente,adv.,容易地,easily,2
+criatura,n.,la｜生物,creature,2
+precisamente,adv.,正是,precisely,2
+máximo,adj.,最大的,maximum,2
+ilegal,adj.,非法的,illegal,2
+versión,n.,la｜版本,version,2
+incendio,n.,el｜火災,fire,2
+gritar,v.,喊叫,to shout,2
+concierto,n.,el｜音樂會,concert,2
+casualidad,n.,la｜巧合,chance; coincidence,2
+excusa,n.,la｜藉口,excuse,2
+rodilla,n.,la｜膝蓋,knee,2
+cruz,n.,la｜十字架,cross,2
+cómodo,adj.,舒適的,comfortable,2
+cruel,adj.,殘忍的,cruel,2
+sofá,n.,el｜沙發,sofa,2
+sombra,n.,la｜影子,shadow,2
+firmar,v.,簽名,to sign,2
+escritorio,n.,el｜書桌,desk,2
+muñeca,n.,la｜洋娃娃；手腕,doll; wrist,2
+rastro,n.,el｜痕跡,trace,2
+gigante,adj.,巨大的,giant,2
+pájaro,n.,el｜鳥,bird,2
+ducha,n.,la｜淋浴,shower,2
+recompensa,n.,la｜報酬,reward,2
+doce,n.,十二,twelve,2
+actor,n.,el｜演員,actor,2
+actitud,n.,la｜態度,attitude,2
+salsa,n.,la｜醬汁,sauce,2
+personaje,n.,el｜角色,character,2
+entregar,v.,交付,to deliver; to hand over,2
+comercial,adj.,商業的,commercial,2
+tribu,n.,la｜部落,tribe,2
+puro,adj.,純的,pure,2
+voto,n.,el｜票,vote,2
+amar,v.,愛,to love,2
+poderoso,adj.,強大的,powerful,2
+fresco,adj.,新鮮的；涼爽的,fresh; cool,2
+guardar,v.,保存；保管,to keep; to save,2
+campeón,n.,el｜冠軍,champion,2
+adorable,adj.,可愛的,adorable,2
+ciego,adj.,瞎的,blind,2
+bestia,n.,la｜野獸,beast,2
+alteza,n.,la｜殿下,highness,2
+episodio,n.,el｜集；事件,episode,2
+celda,n.,la｜牢房,cell,2
+aguantar,v.,忍受,to put up with,2
+jueves,n.,el｜星期四,Thursday,2
+medianoche,n.,la｜午夜,midnight,2
+garganta,n.,la｜喉嚨,throat,2
+sesión,n.,la｜會議；節,session,2
+circunstancia,n.,la｜情況,circumstance,2
+veneno,n.,el｜毒藥,poison,2
+primavera,n.,la｜春天,spring,2
+martes,n.,el｜星期二,Tuesday,2
+feo,adj.,醜的,ugly,2
+virgen,n.,la｜處女；聖母,virgin,2
+distrito,n.,el｜區,district,2
+reputación,n.,la｜名聲,reputation,2
+socorro,int.,救命,help!,2
+castigo,n.,el｜懲罰,punishment,2
+límite,n.,el｜限制,limit,2
+junta,n.,la｜會議；董事會,board; meeting,2
+audiencia,n.,la｜觀眾；聽證會,audience; hearing,2
+nacer,v.,出生,to be born,2
+jugador,n.,el｜球員,player,2
+humo,n.,el｜煙,smoke,2
+popular,adj.,受歡迎的,popular,2
+nación,n.,la｜國家,nation,2
+tropa,n.,la｜部隊,troop,2
+explicación,n.,la｜解釋,explanation,2
+presentar,v.,介紹；提出,to introduce; to present,2
+celebrar,v.,慶祝,to celebrate,2
+competencia,n.,la｜比賽；競爭,competition,2
+biblioteca,n.,la｜圖書館,library,2
+fila,n.,la｜排,row; line,2
+misterio,n.,el｜謎,mystery,2
+ganador,n.,el｜贏家,winner,2
+puerto,n.,el｜港口,port,2
+vehículo,n.,el｜車輛,vehicle,2
+julio,n.,el｜七月,July,2
+lograr,v.,達成,to achieve,2
+patio,n.,el｜庭院,courtyard,2
+pecado,n.,el｜罪,sin,2
+comité,n.,el｜委員會,committee,2
+emocionante,adj.,令人興奮的,exciting,2
+rescate,n.,el｜救援；贖金,rescue; ransom,2
+título,n.,el｜標題；學位,title; degree,2
+adivinar,v.,猜,to guess,2
+pánico,n.,el｜恐慌,panic,2
+pasión,n.,la｜熱情,passion,2
+preparar,v.,準備,to prepare,2
+demostrar,v.,證明,to prove; to show,2
+elegante,adj.,優雅的,elegant,2
+visitar,v.,拜訪,to visit,2
+ambiente,n.,el｜環境；氣氛,environment; atmosphere,2
+urgente,adj.,緊急的,urgent,2
+impuesto,n.,el｜稅,tax,2
+distinto,adj.,不同的,different,2
+adecuado,adj.,適當的,appropriate,2
+abandonar,v.,放棄；拋棄,to abandon,2
+apestar,v.,發臭,to stink,2
+curioso,adj.,好奇的；奇特的,curious,2
+caro,adj.,貴的,expensive,2
+asco,n.,el｜噁心,disgust,2
+océano,n.,el｜海洋,ocean,2
+nuevamente,adv.,再次,again,2
+federal,adj.,聯邦的,federal,2
+terapia,n.,la｜治療,therapy,2
+lágrima,n.,la｜眼淚,tear,2
+terreno,n.,el｜土地,land; terrain,2
+autoridad,n.,la｜權威；當局,authority,2
+roca,n.,la｜岩石,rock,2
+superficie,n.,la｜表面,surface,2
+hierba,n.,la｜草,grass,2
+crecer,v.,成長,to grow,2
+mental,adj.,心理的,mental,2
+extranjero,adj.,外國的,foreign,2
+lento,adj.,慢的,slow,2
+dirigir,v.,指揮；導演,to direct; to lead,2
+chino,n.,el｜中文；adj. 中國的,Chinese,2
+meta,n.,la｜目標,goal,2
+soltar,v.,放開,to let go,2
+despedida,n.,la｜告別,farewell,2
+pasta,n.,la｜義大利麵,pasta,2
+cristal,n.,el｜玻璃；水晶,glass; crystal,2
+literalmente,adv.,字面上,literally,2
+apreciar,v.,欣賞；感激,to appreciate,2
+fotografía,n.,la｜攝影；照片,photography; photo,2
+patrón,n.,el｜老闆；模式,boss; pattern,2
+desafío,n.,el｜挑戰,challenge,2
+asombroso,adj.,驚人的,amazing,2
+clínica,n.,la｜診所,clinic,2
+atrapar,v.,抓住,to catch,2
+experto,n.,el｜專家,expert,2
+medida,n.,la｜措施；尺寸,measure; size,2
+desagradable,adj.,令人不快的,unpleasant,2
+custodia,n.,la｜監護,custody,2
+anuncio,n.,el｜廣告；公告,ad; announcement,2
+física,n.,la｜物理,physics,2
+fiebre,n.,la｜發燒,fever,2
+organización,n.,la｜組織,organization,2
+mina,n.,la｜礦,mine,2
+honestamente,adv.,老實說,honestly,2
+deuda,n.,la｜債務,debt,2
+transporte,n.,el｜交通運輸,transport,2
+cocinar,v.,煮,to cook,2
+delicioso,adj.,美味的,delicious,2
+habilidad,n.,la｜技能,skill,2
+nadar,v.,游泳,to swim,2
+admitir,v.,承認,to admit,2
+templo,n.,el｜寺廟,temple,2
+maravilla,n.,la｜奇蹟,wonder,2
+quitar,v.,拿走；脫下,to remove; to take off,2
+piano,n.,el｜鋼琴,piano,2
+pantalla,n.,la｜螢幕,screen,2
+civil,adj.,民事的；平民的,civil,2
+gasolina,n.,la｜汽油,gasoline,2
+tripulación,n.,la｜機組人員,crew,2
+arrestar,v.,逮捕,to arrest,2
+cruzar,v.,穿越,to cross,2
+guía,n.,el｜導遊；la｜指南,guide,2
+enseñar,v.,教,to teach,2
+conferencia,n.,la｜會議；講座,conference; lecture,2
+galleta,n.,la｜餅乾,cookie,2
+delito,n.,el｜犯罪,offense,2
+atacar,v.,攻擊,to attack,2
+objeto,n.,el｜物體,object,2
+museo,n.,el｜博物館,museum,2
+rueda,n.,la｜輪子,wheel,2
+recientemente,adv.,最近,recently,2
+sufrir,v.,受苦,to suffer,2
+disponible,adj.,可用的,available,2
+práctica,n.,la｜練習,practice,2
+pastilla,n.,la｜藥片,pill,2
+cable,n.,el｜電線,cable,2
+nacimiento,n.,el｜出生,birth,2
+consciente,adj.,意識到的,conscious; aware,2
+alcance,n.,el｜範圍,reach; scope,2
+evento,n.,el｜活動,event,2
+alquiler,n.,el｜租金,rent,2
+ordenador,n.,el｜電腦（西班牙）,computer (Spain),2
+incidente,n.,el｜事件,incident,2
+pensamiento,n.,el｜想法,thought,2
+maleta,n.,la｜行李箱,suitcase,2
+condado,n.,el｜郡,county,2
+kilo,n.,el｜公斤,kilo,2
+español,n.,el｜西班牙語；adj. 西班牙的,Spanish,2
+renunciar,v.,辭職；放棄,to resign; to give up,2
+actuación,n.,la｜表演,performance,2
+refugio,n.,el｜避難所,shelter,2
+harto,adj.,厭倦的,fed up,2
+reacción,n.,la｜反應,reaction,2
+paliza,n.,la｜痛打,beating,2
+chef,n.,el｜主廚,chef,2
+amanecer,n.,el｜黎明,dawn,2
+rumor,n.,el｜謠言,rumor,2
+celoso,adj.,嫉妒的,jealous,2
+utilizar,v.,使用,to use,2
+territorio,n.,el｜領土,territory,2
+prácticamente,adv.,幾乎,practically,2
+disfrutar,v.,享受,to enjoy,2
+collar,n.,el｜項鍊；項圈,necklace; collar,2
+cercano,adj.,附近的；親近的,nearby; close,2
+fondos,n.,los｜資金,funds,2
+montar,v.,騎；組裝,to ride; to assemble,2
+instrucción,n.,la｜指示,instruction,2
+treinta,n.,三十,thirty,2
+cigarrillo,n.,el｜香菸,cigarette,2
+emperador,n.,el｜皇帝,emperor,2
+mortal,adj.,致命的,deadly; mortal,2
+ronda,n.,la｜一輪,round,2
+metal,n.,el｜金屬,metal,2
+botón,n.,el｜按鈕；鈕扣,button,2
+tono,n.,el｜語氣；音調,tone,2
+espía,n.,el｜間諜,spy,2
+empleado,n.,el｜員工,employee,2
+crema,n.,la｜奶油；乳霜,cream,2
+contestar,v.,回答,to answer,2
+mandar,v.,命令；寄,to order; to send,2
+prisionero,n.,el｜囚犯,prisoner,2
+flota,n.,la｜艦隊,fleet,2
+cometer,v.,犯（錯）,to commit,2
+golpear,v.,打,to hit,2
+igualmente,adv.,同樣地,equally; likewise,2
+ayudante,n.,el｜助手,assistant,2
+cultura,n.,la｜文化,culture,2
+revolución,n.,la｜革命,revolution,2
+hombro,n.,el｜肩膀,shoulder,2
+bota,n.,la｜靴子,boot,2
+adorar,v.,崇拜；非常喜愛,to adore,2
+biblia,n.,la｜聖經,Bible,2
+saludo,n.,el｜問候,greeting,2
+adulto,n.,el｜成人,adult,2
+serpiente,n.,la｜蛇,snake,2
+romántico,adj.,浪漫的,romantic,2
+posiblemente,adv.,可能,possibly,2
+enfrente,adv.,在對面,opposite; in front,2
+capacidad,n.,la｜能力；容量,capacity; ability,2
+aliento,n.,el｜呼吸；鼓勵,breath; encouragement,2
+placa,n.,la｜板；徽章,plate; badge,2
+rata,n.,la｜老鼠,rat,2
+cuadro,n.,el｜畫,painting,2
+afortunado,adj.,幸運的,lucky,2
+división,n.,la｜分隔；部門,division,2
+bicicleta,n.,la｜腳踏車,bicycle,2
+pesado,adj.,重的；煩人的,heavy; annoying,2
+sugerir,v.,建議,to suggest,2
+espacial,adj.,太空的,space,2
+mejorar,v.,改善,to improve,2
+concurso,n.,el｜比賽,contest,2
+comisaría,n.,la｜警察局,police station,2
+sincero,adj.,真誠的,sincere,2
+centavo,n.,el｜分（錢）,cent,2
+naturalmente,adv.,自然地,naturally,2
+recurso,n.,el｜資源,resource,2
+raza,n.,la｜種族；品種,race; breed,2
+imaginación,n.,la｜想像力,imagination,2
+ceremonia,n.,la｜典禮,ceremony,2
+almacén,n.,el｜倉庫,warehouse,2
+sabor,n.,el｜味道,flavor,2
+unión,n.,la｜聯盟；結合,union,2
+reserva,n.,la｜預訂；儲備,reservation; reserve,2
+encanto,n.,el｜魅力,charm,2
+calidad,n.,la｜品質,quality,2
+escondido,adj.,隱藏的,hidden,2
+aceite,n.,el｜油,oil,2
+punta,n.,la｜尖端,tip; point,2
+cinturón,n.,el｜腰帶,belt,2
+chiste,n.,el｜笑話,joke,2
+consecuencia,n.,la｜後果,consequence,2
+sinceramente,adv.,真誠地,sincerely,2
+vaca,n.,la｜牛,cow,2
+investigar,v.,調查,to investigate,2
+apellido,n.,el｜姓,surname,2
+actual,adj.,目前的,current,2
+instante,n.,el｜瞬間,instant,2
+emoción,n.,la｜情緒,emotion,2
+dormitorio,n.,el｜臥室,bedroom,2
+pulso,n.,el｜脈搏,pulse,2
+atreverse,v.,敢,to dare,2
+frase,n.,la｜句子,sentence; phrase,2
+partida,n.,la｜離開；一局,departure; game (match),2
+excelencia,n.,la｜卓越；閣下,excellence,2
+despedir,v.,告別；解僱,to say goodbye; to fire,2
+moral,adj.,道德的,moral,2
+asalto,n.,el｜搶劫；攻擊,assault; robbery,2
+decente,adj.,體面的,decent,2
+asustar,v.,嚇,to scare,2
+combustible,n.,el｜燃料,fuel,2
+discusión,n.,la｜爭論；討論,argument; discussion,2
+pata,n.,la｜（動物的）腳,paw; leg (animal),2
+requerir,v.,需要,to require,2
+comunicación,n.,la｜溝通,communication,2
+manzana,n.,la｜蘋果；街區,apple; block,2
+sed,n.,la｜口渴,thirst,2
+joya,n.,la｜珠寶,jewel,2
+noble,adj.,高貴的,noble,2
+traidor,n.,el｜叛徒,traitor,2
+letra,n.,la｜字母；歌詞,letter; lyrics,2
+vía,n.,la｜道路；途徑,way; track,2
+sacerdote,n.,el｜神父,priest,2
+resistencia,n.,la｜抵抗；耐力,resistance; endurance,2
+arroz,n.,el｜米,rice,2
+desconocido,adj.,陌生的,unknown,2
+mínimo,adj.,最小的,minimum,2
+bandera,n.,la｜旗子,flag,2
+plaza,n.,la｜廣場,square,2
+imperio,n.,el｜帝國,empire,2
+cartera,n.,la｜錢包,wallet,2
+depósito,n.,el｜存款；倉庫,deposit; storage,2
+periodista,n.,el｜記者,journalist,2
+comprobar,v.,核對,to check; to verify,2
+forense,adj.,法醫的,forensic,2
+tensión,n.,la｜緊張,tension,2
+involucrado,adj.,涉及的,involved,2
+abandonado,adj.,被遺棄的,abandoned,2
+ruso,n.,el｜俄語；adj. 俄國的,Russian,2
+círculo,n.,el｜圓圈,circle,2
+judío,adj.,猶太的,Jewish,2
+grito,n.,el｜喊叫,shout; scream,2
+ascensor,n.,el｜電梯,elevator,2
+helicóptero,n.,el｜直升機,helicopter,2
+escape,n.,el｜逃脫,escape,2
+limpieza,n.,la｜清潔,cleaning,2
+magnífico,adj.,壯麗的,magnificent,2
+trabajador,n.,el｜工人；adj. 勤勞的,worker; hard-working,2
+caída,n.,la｜跌落,fall,2
+temperatura,n.,la｜溫度,temperature,2
+ejercicio,n.,el｜運動；練習,exercise,2
+lealtad,n.,la｜忠誠,loyalty,2
+ala,n.,el｜翅膀（陰性名詞）,wing,2
+invitación,n.,la｜邀請,invitation,2
+diamante,n.,el｜鑽石,diamond,2
+leyenda,n.,la｜傳說,legend,2
+paraíso,n.,el｜天堂,paradise,2
+costumbre,n.,la｜習慣；習俗,custom; habit,2
+cabaña,n.,la｜小屋,cabin,2
+secretaria,n.,la｜祕書,secretary,2
+lentamente,adv.,慢慢地,slowly,2
+ensayo,n.,el｜排練；論文,rehearsal; essay,2
+gimnasio,n.,el｜健身房,gym,2
+negativo,adj.,負面的,negative,2
+lenguaje,n.,el｜語言（表達）,language,2
+garaje,n.,el｜車庫,garage,2
+palo,n.,el｜棍子,stick,2
+león,n.,el｜獅子,lion,2
+oído,n.,el｜耳朵（內耳）；聽覺,ear; hearing,2
+científico,n.,el｜科學家,scientist,2
+incluir,v.,包括,to include,2
+actividad,n.,la｜活動,activity,2
+dragón,n.,el｜龍,dragon,2
+generación,n.,la｜世代,generation,2
+apetecer,v.,想要（令人想）,to feel like,2
+capital,n.,la｜首都；el｜資本,capital,2
+barato,adj.,便宜的,cheap,2
+fingir,v.,假裝,to pretend,2
+miércoles,n.,el｜星期三,Wednesday,2
+escritor,n.,el｜作家,writer,2
+solitario,adj.,孤獨的,lonely,2
+recibo,n.,el｜收據,receipt,2
+salto,n.,el｜跳躍,jump,2
+publicidad,n.,la｜廣告,advertising,2
+temporal,adj.,暫時的,temporary,2
+antecedentes,n.,los｜前科；背景,record; background,2
+atractivo,adj.,有吸引力的,attractive,2
+barra,n.,la｜吧檯；棒,bar,2
+aniversario,n.,el｜週年紀念,anniversary,2
+niñera,n.,la｜保母,nanny,2
+quince,n.,十五,fifteen,2
+muro,n.,el｜牆,wall,2
+lucir,v.,看起來；展示,to look; to show off,2
+prima,n.,la｜表姊妹,cousin (female),2
+cubierto,adj.,覆蓋的,covered,2
+reír,v.,笑,to laugh,2
+producto,n.,el｜產品,product,2
+abrazo,n.,el｜擁抱,hug,2
+gafas,n.,las｜眼鏡,glasses,2
+sobrino,n.,el｜姪子；外甥,nephew,2
+demanda,n.,la｜需求；訴訟,demand; lawsuit,2
+construcción,n.,la｜建設,construction,2
+internacional,adj.,國際的,international,2
+perfil,n.,el｜側面；個人資料,profile,2
+trozo,n.,el｜塊,piece,2
+actriz,n.,la｜女演員,actress,2
+repetir,v.,重複,to repeat,2
+bendecir,v.,祝福,to bless,2
+vecindario,n.,el｜社區,neighborhood,2
+razonable,adj.,合理的,reasonable,2
+gerente,n.,el｜經理,manager,2
+sensible,adj.,敏感的,sensitive,2
+izquierdo,adj.,左邊的,left,2
+personalidad,n.,la｜個性,personality,2
+secretario,n.,el｜祕書,secretary,2
+sorprendido,adj.,驚訝的,surprised,2
+profundamente,adv.,深深地,deeply,2
+grano,n.,el｜穀粒；青春痘,grain; pimple,2
+moneda,n.,la｜硬幣；貨幣,coin; currency,2
+piedad,n.,la｜憐憫,mercy,2
+ciudadano,n.,el｜公民,citizen,2
+encerrado,adj.,被關起來的,locked up,2
+borde,n.,el｜邊緣,edge,2
+expresión,n.,la｜表達；表情,expression,2
+escándalo,n.,el｜醜聞,scandal,2
+nervio,n.,el｜神經,nerve,2
+oficialmente,adv.,正式地,officially,2
+perdedor,n.,el｜失敗者,loser,2
+rumbo,n.,el｜方向,course; direction,2
+valle,n.,el｜山谷,valley,2
+juventud,n.,la｜青春,youth,2
+preocupación,n.,la｜擔憂,worry,2
+desnudo,adj.,裸的,naked,2
+guion,n.,el｜劇本,script,2
+mayo,n.,el｜五月,May,2
+caos,n.,el｜混亂,chaos,2
+alternativa,n.,la｜替代方案,alternative,2
+estupidez,n.,la｜愚蠢,stupidity,2
+sorprendente,adj.,驚人的,surprising,2
+egoísta,adj.,自私的,selfish,2
+verdaderamente,adv.,真正地,truly,2
+enhorabuena,int.,恭喜,congratulations,2
+ánimo,n.,el｜精神；鼓勵,spirit; cheer up,2
+lujo,n.,el｜奢華,luxury,2
+religión,n.,la｜宗教,religion,2
+risa,n.,la｜笑,laughter,2
+despejado,adj.,晴朗的；清醒的,clear,2
+miserable,adj.,悲慘的,miserable,2
+hierro,n.,el｜鐵,iron,2
+corona,n.,la｜王冠,crown,2
+dispositivo,n.,el｜裝置,device,2
+mencionar,v.,提及,to mention,2
+inmunidad,n.,la｜免疫；豁免,immunity,2
+grabación,n.,la｜錄音,recording,2
+producción,n.,la｜生產,production,2
+nuclear,adj.,核的,nuclear,2
+clima,n.,el｜氣候,climate,2
+carácter,n.,el｜性格,character,2
+máscara,n.,la｜面具,mask,2
+alegre,adj.,開朗的,cheerful,2
+alianza,n.,la｜聯盟,alliance,2
+positivo,adj.,正面的,positive,2
+desafortunadamente,adv.,不幸地,unfortunately,2
+guitarra,n.,la｜吉他,guitar,2
+estrategia,n.,la｜策略,strategy,2
+frecuencia,n.,la｜頻率,frequency,2
+prohibido,adj.,禁止的,forbidden,2
+arruinar,v.,毀掉,to ruin,2
+masa,n.,la｜麵團；大眾,dough; mass,2
+existencia,n.,la｜存在,existence,2
+túnel,n.,el｜隧道,tunnel,2
+industria,n.,la｜產業,industry,2
+trasero,adj.,後面的,rear,2
+colección,n.,la｜收藏,collection,2
+fatal,adj.,致命的；糟糕的,fatal; awful,2
+expediente,n.,el｜檔案,file; record,2
+petición,n.,la｜請求,request,2
+presentación,n.,la｜介紹；簡報,presentation,2
+cerebral,adj.,大腦的,cerebral,2
+coraje,n.,el｜勇氣,courage,2
+rubio,adj.,金髮的,blond,2
+almorzar,v.,吃午餐,to have lunch,2
+caridad,n.,la｜慈善,charity,2
+llegada,n.,la｜到達,arrival,2
+capítulo,n.,el｜章,chapter,2
+gasto,n.,el｜花費,expense,2
+tarta,n.,la｜蛋糕；派,cake; tart,2
+breve,adj.,簡短的,brief,2
+acero,n.,el｜鋼,steel,2
+camarada,n.,el｜同志,comrade,2
+confesión,n.,la｜坦白,confession,2
+coartada,n.,la｜不在場證明,alibi,2
+payaso,n.,el｜小丑,clown,2
+rayo,n.,el｜光線；閃電,ray; lightning,2
+político,adj.,政治的；el｜政治人物,political; politician,2
+diseño,n.,el｜設計,design,2
+condenado,adj.,被判刑的,convicted; doomed,2
+convencido,adj.,確信的,convinced,2
+italiano,n.,el｜義大利語；adj. 義大利的,Italian,2
+camiseta,n.,la｜T恤,T-shirt,2
+impacto,n.,el｜衝擊,impact,2
+equipaje,n.,el｜行李,luggage,2
+sufrimiento,n.,el｜苦難,suffering,2
+adolescente,n.,el｜青少年,teenager,2
+soltero,adj.,單身的,single,2
+influencia,n.,la｜影響,influence,2
+oxígeno,n.,el｜氧氣,oxygen,2
+experimento,n.,el｜實驗,experiment,2
+absurdo,adj.,荒謬的,absurd,2
+devolver,v.,歸還,to return (something),2
+propuesta,n.,la｜提議,proposal,2
+cantante,n.,el｜歌手,singer,2
+traición,n.,la｜背叛,betrayal,2
+cementerio,n.,el｜墓地,cemetery,2
+pozo,n.,el｜井,well,2
+patrulla,n.,la｜巡邏,patrol,2
+tragedia,n.,la｜悲劇,tragedy,2
+procedimiento,n.,el｜程序,procedure,2
+fantasía,n.,la｜幻想,fantasy,2
+billete,n.,el｜票；鈔票,ticket; banknote,2
+secuestro,n.,el｜綁架,kidnapping,2
+prestar,v.,借出,to lend,2
+béisbol,n.,el｜棒球,baseball,2
+conejo,n.,el｜兔子,rabbit,2
+significado,n.,el｜意義,meaning,2
+cincuenta,n.,五十,fifty,2
+apropiado,adj.,適當的,appropriate,2
+robot,n.,el｜機器人,robot,2
+considerar,v.,考慮,to consider,2
+alcanzar,v.,達到；趕上,to reach,2
+patata,n.,la｜馬鈴薯（西班牙）,potato (Spain),2
+continuación,n.,la｜繼續（a continuación 接下來）,continuation,2
+tradición,n.,la｜傳統,tradition,2
+ocultar,v.,隱藏,to hide,2
+electricidad,n.,la｜電,electricity,2
+reto,n.,el｜挑戰,challenge,2
+aldea,n.,la｜村莊,village,2
+nube,n.,la｜雲,cloud,2
+circo,n.,el｜馬戲團,circus,2
+tanque,n.,el｜坦克；水箱,tank,2
+uña,n.,la｜指甲,nail (finger),2
+terrorista,n.,el｜恐怖分子,terrorist,2
+agradecido,adj.,感激的,grateful,2
+terror,n.,el｜恐怖,terror,2
+sacrificio,n.,el｜犧牲,sacrifice,2
+destrucción,n.,la｜破壞,destruction,2
+texto,n.,el｜文本,text,2
+liga,n.,la｜聯盟,league,2
+olvido,n.,el｜遺忘,oblivion,2
+colina,n.,la｜山丘,hill,2
+sano,adj.,健康的,healthy,2
+musical,adj.,音樂的,musical,2
+pastor,n.,el｜牧羊人；牧師,shepherd; pastor,2
+naranja,n.,la｜柳橙；adj. 橙色的,orange,2
+batería,n.,la｜電池；鼓,battery; drums,2
+figura,n.,la｜形狀；人物,figure,2
+callejón,n.,el｜小巷,alley,2
+técnica,n.,la｜技術,technique,2
+notar,v.,注意到,to notice,2
+maquillaje,n.,el｜化妝,makeup,2
+lanzar,v.,投擲；發射,to throw; to launch,2
+cubrir,v.,覆蓋,to cover,2
+policial,adj.,警方的,police,2
+fase,n.,la｜階段,phase,2
+armada,n.,la｜海軍,navy,2
+superar,v.,超越；克服,to overcome,2
+sueldo,n.,el｜薪水,salary,2
+testimonio,n.,el｜證詞,testimony,2
+incómodo,adj.,不舒服的,uncomfortable,2
+costado,n.,el｜側邊,side,2
+apagar,v.,關掉,to turn off,2
+pasaporte,n.,el｜護照,passport,2
+infancia,n.,la｜童年,childhood,2
+reverendo,n.,el｜牧師,reverend,2
+mediodía,n.,el｜中午,noon,2
+plástico,n.,el｜塑膠,plastic,2
+barba,n.,la｜鬍子,beard,2
+mago,n.,el｜魔術師,magician,2
+hoja,n.,la｜葉子；紙張,leaf; sheet,2
+hallar,v.,找到,to find,2
+mantequilla,n.,la｜奶油,butter,2
+lidiar,v.,應付,to deal with,2
+sentencia,n.,la｜判決,sentence (court),2
+ideal,adj.,理想的,ideal,2
+residencia,n.,la｜住所,residence,2
+francamente,adv.,坦白說,frankly,2
+guerrero,n.,el｜戰士,warrior,2
+engañar,v.,欺騙,to deceive; to cheat,2
+guante,n.,el｜手套,glove,2
+recepción,n.,la｜接待處,reception,2
+comisión,n.,la｜佣金；委員會,commission,2
+vampiro,n.,el｜吸血鬼,vampire,2
+docena,n.,la｜一打,dozen,2
+lanzamiento,n.,el｜發射；發布,launch,2
+fallar,v.,失敗；失誤,to fail; to miss,2
+técnicamente,adv.,技術上,technically,2
+físico,adj.,身體的；物理的,physical,2
+multitud,n.,la｜人群,crowd,2
+potencial,adj.,潛在的,potential,2
+rutina,n.,la｜例行公事,routine,2
+progreso,n.,el｜進步,progress,2
+fascinante,adj.,迷人的,fascinating,2
+ensalada,n.,la｜沙拉,salad,2
+tubo,n.,el｜管子,tube,2
+interrumpir,v.,打斷,to interrupt,2
+representar,v.,代表,to represent,2
+novela,n.,la｜小說,novel,2
+herramienta,n.,la｜工具,tool,2
+septiembre,n.,el｜九月,September,2
+festival,n.,el｜節慶,festival,2
+auxilio,n.,el｜救援,help; aid,2
+fracaso,n.,el｜失敗,failure,2
+cañón,n.,el｜大砲；峽谷,cannon; canyon,2
+votar,v.,投票,to vote,2
+infantil,adj.,兒童的,children's,2
+estacionamiento,n.,el｜停車場,parking lot,2
+ofrecer,v.,提供,to offer,2
+esclavo,n.,el｜奴隸,slave,2
+academia,n.,la｜學院,academy,2
+viuda,n.,la｜寡婦,widow,2
+reporte,n.,el｜報告,report,3
+jugo,n.,el｜果汁（拉美）,juice (Latin America),3
+advertencia,n.,la｜警告,warning,3
+pico,n.,el｜山峰；鳥嘴,peak; beak,3
+amarillo,adj.,黃色的,yellow,3
+encargado,n.,el｜負責人,person in charge,3
+drama,n.,el｜戲劇,drama,3
+confundido,adj.,困惑的,confused,3
+inconsciente,adj.,無意識的,unconscious,3
+estadounidense,adj.,美國的,American (US),3
+informado,adj.,知情的,informed,3
+resuelto,adj.,解決的；果斷的,solved; determined,3
+cueva,n.,la｜洞穴,cave,3
+patético,adj.,可悲的,pathetic,3
+abril,n.,el｜四月,April,3
+matemáticas,n.,las｜數學,mathematics,3
+eliminar,v.,消除,to eliminate,3
+causar,v.,造成,to cause,3
+vigilar,v.,監視,to watch over,3
+función,n.,la｜功能；演出,function; show,3
+solar,adj.,太陽的,solar,3
+lectura,n.,la｜閱讀,reading,3
+camarero,n.,el｜服務生,waiter,3
+cabina,n.,la｜駕駛艙；亭,cabin; booth,3
+deporte,n.,el｜運動,sport,3
+fuga,n.,la｜逃跑；洩漏,escape; leak,3
+champán,n.,el｜香檳,champagne,3
+formar,v.,形成,to form,3
+oreja,n.,la｜耳朵,ear,3
+obligado,adj.,被迫的,forced; obliged,3
+testamento,n.,el｜遺囑,will; testament,3
+extremadamente,adv.,極度地,extremely,3
+materia,n.,la｜物質；科目,matter; subject,3
+casco,n.,el｜頭盔,helmet,3
+agenda,n.,la｜行事曆,planner; agenda,3
+fabuloso,adj.,極好的,fabulous,3
+enterarse,v.,得知,to find out,3
+junio,n.,el｜六月,June,3
+realizar,v.,實現；進行,to carry out,3
+hechizo,n.,el｜咒語,spell,3
+respiración,n.,la｜呼吸,breathing,3
+extremo,adj.,極端的,extreme,3
+historial,n.,el｜紀錄,record; history,3
+extraordinario,adj.,非凡的,extraordinary,3
+tigre,n.,el｜老虎,tiger,3
+fianza,n.,la｜保釋金,bail,3
+auténtico,adj.,真正的,authentic,3
+romance,n.,el｜戀情,romance,3
+increíblemente,adv.,難以置信地,incredibly,3
+seco,adj.,乾的,dry,3
+sagrado,adj.,神聖的,sacred,3
+monte,n.,el｜山,mount,3
+juguete,n.,el｜玩具,toy,3
+pasajero,n.,el｜乘客,passenger,3
+debilidad,n.,la｜弱點,weakness,3
+corbata,n.,la｜領帶,tie,3
+cuartel,n.,el｜總部；軍營,headquarters; barracks,3
+cazar,v.,打獵,to hunt,3
+convencer,v.,說服,to convince,3
+rollo,n.,el｜捲；麻煩事,roll; hassle,3
+pescar,v.,釣魚,to fish,3
+mezcla,n.,la｜混合,mixture,3
+condicional,adj.,有條件的,conditional,3
+giro,n.,el｜轉彎；轉折,turn; twist,3
+gris,adj.,灰色的,gray,3
+refuerzo,n.,el｜增援,reinforcement,3
+colgar,v.,掛；掛電話,to hang; to hang up,3
+plazo,n.,el｜期限,deadline; term,3
+gravedad,n.,la｜重力；嚴重性,gravity; seriousness,3
+lata,n.,la｜罐頭,can,3
+vela,n.,la｜蠟燭；帆,candle; sail,3
+símbolo,n.,el｜符號,symbol,3
+reconocimiento,n.,el｜認可,recognition,3
+típico,adj.,典型的,typical,3
+conducta,n.,la｜行為,conduct,3
+participar,v.,參與,to participate,3
+vendedor,n.,el｜銷售員,salesperson,3
+estrés,n.,el｜壓力,stress,3
+horario,n.,el｜時刻表,schedule,3
+identificar,v.,識別,to identify,3
+alfombra,n.,la｜地毯,carpet,3
+preciso,adj.,精確的；必要的,precise; necessary,3
+fan,n.,el｜粉絲,fan,3
+papa,n.,la｜馬鈴薯（拉美）；el｜教宗,potato (Latin America); pope,3
+anciano,n.,el｜老人,elderly person,3
+petróleo,n.,el｜石油,oil; petroleum,3
+rango,n.,el｜等級,rank,3
+malvado,adj.,邪惡的,evil,3
+defender,v.,保衛,to defend,3
+jaula,n.,la｜籠子,cage,3
+comentario,n.,el｜評論,comment,3
+dosis,n.,la｜劑量,dose,3
+cartel,n.,el｜海報；販毒集團,poster; cartel,3
+cargar,v.,裝載；充電,to load; to charge,3
+aproximadamente,adv.,大約,approximately,3
+postre,n.,el｜甜點,dessert,3
+escala,n.,la｜規模；比例,scale,3
+pavo,n.,el｜火雞,turkey,3
+origen,n.,el｜起源,origin,3
+fiel,adj.,忠實的,faithful,3
+embajador,n.,el｜大使,ambassador,3
+tatuaje,n.,el｜刺青,tattoo,3
+población,n.,la｜人口,population,3
+pandilla,n.,la｜幫派,gang,3
+agradar,v.,使高興,to please,3
+onda,n.,la｜波,wave,3
+duque,n.,el｜公爵,duke,3
+trono,n.,el｜王位,throne,3
+canto,n.,el｜歌唱,singing,3
+aumento,n.,el｜增加；加薪,increase; raise,3
+esconder,v.,藏,to hide,3
+taller,n.,el｜工作坊；修車廠,workshop; garage,3
+practicar,v.,練習,to practice,3
+armado,adj.,武裝的,armed,3
+atender,v.,照料；接待,to attend to,3
+soñar,v.,做夢,to dream,3
+juzgado,n.,el｜法院,court,3
+gallina,n.,la｜母雞,hen,3
+octubre,n.,el｜十月,October,3
+besar,v.,親吻,to kiss,3
+lavar,v.,洗,to wash,3
+cuyo,pron.,其；…的,whose,3
+emocional,adj.,情感的,emotional,3
+prometido,n.,el｜未婚夫,fiancé,3
+molestia,n.,la｜麻煩,bother; nuisance,3
+agarrar,v.,抓,to grab,3
+condena,n.,la｜刑期；譴責,sentence; condemnation,3
+cafetería,n.,la｜咖啡館,café,3
+instinto,n.,el｜本能,instinct,3
+emocionado,adj.,激動的,excited,3
+villa,n.,la｜別墅；小鎮,villa; town,3
+potencia,n.,la｜力量；強國,power,3
+receta,n.,la｜食譜；處方,recipe; prescription,3
+norma,n.,la｜規範,rule; norm,3
+cocaína,n.,la｜古柯鹼,cocaine,3
+congreso,n.,el｜國會；大會,congress,3
+capa,n.,la｜層；斗篷,layer; cape,3
+mágico,adj.,神奇的,magic,3
+período,n.,el｜期間,period,3
+corredor,n.,el｜走廊；跑者,corridor; runner,3
+nieto,n.,el｜孫子,grandson,3
+fraude,n.,el｜詐欺,fraud,3
+sector,n.,el｜部門,sector,3
+furgoneta,n.,la｜廂型車,van,3
+beneficio,n.,el｜利益,benefit; profit,3
+graduación,n.,la｜畢業,graduation,3
+complejo,adj.,複雜的,complex,3
+columna,n.,la｜柱子；專欄,column,3
+bienes,n.,los｜財產,goods; assets,3
+clásico,adj.,古典的,classic,3
+hígado,n.,el｜肝臟,liver,3
+mueble,n.,el｜家具,piece of furniture,3
+célula,n.,la｜細胞,cell,3
+presa,n.,la｜獵物；水壩,prey; dam,3
+llenar,v.,填滿,to fill,3
+ordenar,v.,命令；整理,to order; to tidy,3
+presupuesto,n.,el｜預算,budget,3
+ubicación,n.,la｜位置,location,3
+etapa,n.,la｜階段,stage,3
+idioma,n.,el｜語言,language,3
+fruta,n.,la｜水果,fruit,3
+reconocer,v.,認出；承認,to recognize; to admit,3
+bendición,n.,la｜祝福,blessing,3
+compasión,n.,la｜同情,compassion,3
+desarrollo,n.,el｜發展,development,3
+vomitar,v.,嘔吐,to vomit,3
+cazador,n.,el｜獵人,hunter,3
+pesca,n.,la｜釣魚；漁業,fishing,3
+arco,n.,el｜弓；拱門,bow; arch,3
+fama,n.,la｜名聲,fame,3
+plano,n.,el｜平面圖；adj. 平的,plan; flat,3
+maíz,n.,el｜玉米,corn,3
+remedio,n.,el｜療法,remedy,3
+acostumbrado,adj.,習慣的,used to,3
+disfraz,n.,el｜偽裝；服裝,disguise; costume,3
+química,n.,la｜化學,chemistry,3
+muelle,n.,el｜碼頭,dock; pier,3
+tiroteo,n.,el｜槍戰,shooting,3
+enterrar,v.,埋葬,to bury,3
+acento,n.,el｜口音；重音,accent,3
+psiquiatra,n.,el｜精神科醫師,psychiatrist,3
+escoger,v.,挑選,to choose,3
+indicar,v.,指出,to indicate,3
+desayunar,v.,吃早餐,to have breakfast,3
+ingeniero,n.,el｜工程師,engineer,3
+cráneo,n.,el｜頭骨,skull,3
+desesperado,adj.,絕望的,desperate,3
+separado,adj.,分開的,separated,3
+queja,n.,la｜抱怨,complaint,3
+jugada,n.,la｜一步棋；招,move; play,3
+signo,n.,el｜符號；跡象,sign,3
+descripción,n.,la｜描述,description,3
+estructura,n.,la｜結構,structure,3
+rehén,n.,el｜人質,hostage,3
+bombero,n.,el｜消防員,firefighter,3
+horno,n.,el｜烤箱,oven,3
+préstamo,n.,el｜貸款,loan,3
+autopsia,n.,la｜驗屍,autopsy,3
+propietario,n.,el｜所有者,owner,3
+cuarenta,n.,四十,forty,3
+profesión,n.,la｜職業,profession,3
+británico,adj.,英國的,British,3
+agosto,n.,el｜八月,August,3
+logro,n.,el｜成就,achievement,3
+representante,n.,el｜代表,representative,3
+infeliz,adj.,不快樂的,unhappy,3
+generoso,adj.,慷慨的,generous,3
+brindis,n.,el｜乾杯,toast,3
+actualmente,adv.,目前,currently,3
+rifle,n.,el｜步槍,rifle,3
+casino,n.,el｜賭場,casino,3
+celos,n.,los｜嫉妒,jealousy,3
+estable,adj.,穩定的,stable,3
+escuadrón,n.,el｜中隊,squadron,3
+sospecha,n.,la｜懷疑,suspicion,3
+violento,adj.,暴力的,violent,3
+relacionado,adj.,相關的,related,3
+negar,v.,否認,to deny,3
+macho,n.,el｜雄性；adj. 有男子氣概的,male; macho,3
+constantemente,adv.,不斷地,constantly,3
+alivio,n.,el｜解脫,relief,3
+trauma,n.,el｜創傷,trauma,3
+exposición,n.,la｜展覽；暴露,exhibition; exposure,3
+negociar,v.,談判,to negotiate,3
+región,n.,la｜地區,region,3
+lógica,n.,la｜邏輯,logic,3
+sangrar,v.,流血,to bleed,3
+deberes,n.,los｜作業,homework,3
+engaño,n.,el｜欺騙,deception,3
+acusación,n.,la｜指控,accusation,3
+cirujano,n.,el｜外科醫生,surgeon,3
+ceniza,n.,la｜灰燼,ash,3
+retraso,n.,el｜延誤,delay,3
+solicitud,n.,la｜申請,application; request,3
+prioridad,n.,la｜優先,priority,3
+dibujo,n.,el｜畫,drawing,3
+almirante,n.,el｜海軍上將,admiral,3
+gastar,v.,花費,to spend,3
+conjunto,n.,el｜整體；組合,set; whole,3
+alumno,n.,el｜學生,pupil,3
+informar,v.,通知,to inform,3
+noviembre,n.,el｜十一月,November,3
+invisible,adj.,隱形的,invisible,3
+economía,n.,la｜經濟,economy,3
+combinación,n.,la｜組合,combination,3
+conectado,adj.,連接的,connected,3
+asumir,v.,承擔；假設,to assume; to take on,3
+habitual,adj.,習慣的,usual,3
+posesión,n.,la｜擁有,possession,3
+ministerio,n.,el｜部,ministry,3
+saludable,adj.,健康的,healthy,3
+liberar,v.,釋放,to free,3
+toro,n.,el｜公牛,bull,3
+pintar,v.,畫；塗漆,to paint,3
+eternidad,n.,la｜永恆,eternity,3
+similar,adj.,相似的,similar,3
+sobrina,n.,la｜姪女；外甥女,niece,3
+tortura,n.,la｜酷刑,torture,3
+pulmón,n.,el｜肺,lung,3
+ratón,n.,el｜老鼠；滑鼠,mouse,3
+eléctrico,adj.,電的,electric,3
+productor,n.,el｜製作人,producer,3
+reciente,adj.,最近的,recent,3
+enfrentar,v.,面對,to face,3
+apariencia,n.,la｜外表,appearance,3
+ave,n.,el｜鳥（陰性名詞）,bird,3
+radiación,n.,la｜輻射,radiation,3
+advertir,v.,警告,to warn,3
+quemar,v.,燒,to burn,3
+síntoma,n.,el｜症狀,symptom,3
+japonés,n.,el｜日語；adj. 日本的,Japanese,3
+juzgar,v.,評判,to judge,3
+marzo,n.,el｜三月,March,3
+gatillo,n.,el｜扳機,trigger,3
+azar,n.,el｜偶然,chance,3
+soledad,n.,la｜孤獨,loneliness,3
+método,n.,el｜方法,method,3
+afectar,v.,影響,to affect,3
+excepción,n.,la｜例外,exception,3
+dignidad,n.,la｜尊嚴,dignity,3
+pasear,v.,散步,to stroll,3
+autorización,n.,la｜授權,authorization,3
+concepto,n.,el｜概念,concept,3
+pato,n.,el｜鴨子,duck,3
+padrino,n.,el｜教父,godfather,3
+generalmente,adv.,通常,generally,3
+contratar,v.,雇用,to hire,3
+administración,n.,la｜管理,administration,3
+inusual,adj.,不尋常的,unusual,3
+feria,n.,la｜市集,fair,3
+mancha,n.,la｜污漬,stain,3
+leal,adj.,忠誠的,loyal,3
+transmisión,n.,la｜傳輸；轉播,transmission; broadcast,3
+asociación,n.,la｜協會,association,3
+parto,n.,el｜分娩,childbirth,3
+poesía,n.,la｜詩,poetry,3
+intercambio,n.,el｜交換,exchange,3
+constante,adj.,持續的,constant,3
+selva,n.,la｜叢林,jungle,3
+presentimiento,n.,el｜預感,hunch,3
+raíz,n.,la｜根,root,3
+perspectiva,n.,la｜觀點,perspective,3
+escolar,adj.,學校的,school,3
+digno,adj.,有尊嚴的；值得的,worthy; dignified,3
+quinto,adj.,第五,fifth,3
+campana,n.,la｜鐘,bell,3
+juramento,n.,el｜誓言,oath,3
+ilusión,n.,la｜幻想；期待,illusion; excitement,3
+vencer,v.,戰勝,to defeat,3
+rezar,v.,祈禱,to pray,3
+tristeza,n.,la｜悲傷,sadness,3
+doloroso,adj.,痛苦的,painful,3
+medicamento,n.,el｜藥物,medication,3
+protocolo,n.,el｜協定,protocol,3
+unirse,v.,加入,to join,3
+otoño,n.,el｜秋天,autumn,3
+estatal,adj.,國家的；州的,state,3
+candidato,n.,el｜候選人,candidate,3
+autor,n.,el｜作者,author,3
+aéreo,adj.,空中的,air,3
+huelga,n.,la｜罷工,strike,3
+rabia,n.,la｜憤怒；狂犬病,rage; rabies,3
+grosero,adj.,粗魯的,rude,3
+rancho,n.,el｜牧場,ranch,3
+conflicto,n.,el｜衝突,conflict,3
+conspiración,n.,la｜陰謀,conspiracy,3
+comando,n.,el｜指令；突擊隊,command; commando,3
+gota,n.,la｜滴,drop,3
+colonia,n.,la｜殖民地；古龍水,colony; cologne,3
+medalla,n.,la｜獎牌,medal,3
+contactar,v.,聯繫,to contact,3
+cabra,n.,la｜山羊,goat,3
+pariente,n.,el｜親戚,relative,3
+dieta,n.,la｜飲食；節食,diet,3
+correctamente,adv.,正確地,correctly,3
+elemento,n.,el｜元素,element,3
+diciembre,n.,el｜十二月,December,3
+contener,v.,包含,to contain,3
+permanente,adj.,永久的,permanent,3
+comercio,n.,el｜貿易,trade,3
+grasa,n.,la｜脂肪,fat; grease,3
+infección,n.,la｜感染,infection,3
+satisfecho,adj.,滿意的,satisfied,3
+desfile,n.,el｜遊行,parade,3
+suma,n.,la｜總和,sum,3
+conclusión,n.,la｜結論,conclusion,3
+cajón,n.,el｜抽屜,drawer,3
+ejecución,n.,la｜執行；處決,execution,3
+misterioso,adj.,神祕的,mysterious,3
+sándwich,n.,el｜三明治,sandwich,3
+fortaleza,n.,la｜堡壘；力量,fortress; strength,3
+furioso,adj.,憤怒的,furious,3
+hamburguesa,n.,la｜漢堡,hamburger,3
+salario,n.,el｜薪資,salary,3
+pleno,adj.,完全的,full,3
+cuero,n.,el｜皮革,leather,3
+temor,n.,el｜恐懼,fear,3
+comedor,n.,el｜飯廳,dining room,3
+aclarar,v.,澄清,to clarify,3
+valioso,adj.,有價值的,valuable,3
+aguja,n.,la｜針,needle,3
+observar,v.,觀察,to observe,3
+sello,n.,el｜郵票；印章,stamp; seal,3
+deshacerse,v.,擺脫,to get rid of,3
+tiburón,n.,el｜鯊魚,shark,3
+decepcionado,adj.,失望的,disappointed,3
+autopista,n.,la｜高速公路,highway,3
+evidente,adj.,明顯的,evident,3
+global,adj.,全球的,global,3
+confirmar,v.,確認,to confirm,3
+pendiente,adj.,待處理的；la｜斜坡,pending; slope,3
+toalla,n.,la｜毛巾,towel,3
+creación,n.,la｜創造,creation,3
+gusano,n.,el｜蟲,worm,3
+atmósfera,n.,la｜大氣；氣氛,atmosphere,3
+reunir,v.,聚集,to gather,3
+espiritual,adj.,精神的,spiritual,3
+pensión,n.,la｜退休金；民宿,pension; guesthouse,3
+sabio,adj.,有智慧的,wise,3
+república,n.,la｜共和國,republic,3
+embajada,n.,la｜大使館,embassy,3
+poema,n.,el｜詩,poem,3
+tenis,n.,el｜網球,tennis,3
+civilización,n.,la｜文明,civilization,3
+patada,n.,la｜踢,kick,3
+pluma,n.,la｜羽毛；筆,feather; pen,3
+fallo,n.,el｜錯誤；判決,failure; ruling,3
+aparato,n.,el｜器具,device; appliance,3
+modales,n.,los｜禮貌,manners,3
+horror,n.,el｜恐怖,horror,3
+estatua,n.,la｜雕像,statue,3
+siesta,n.,la｜午睡,nap,3
+ausencia,n.,la｜缺席,absence,3
+maletín,n.,el｜公事包,briefcase,3
+perfume,n.,el｜香水,perfume,3
+grabar,v.,錄製,to record,3
+duelo,n.,el｜哀悼；決鬥,mourning; duel,3
+organizar,v.,組織,to organize,3
+encender,v.,點燃；打開,to light; to turn on,3
+seriamente,adv.,嚴肅地,seriously,3
+probabilidad,n.,la｜機率,probability,3
+micrófono,n.,el｜麥克風,microphone,3
+margen,n.,el｜邊緣；餘地,margin,3
+gesto,n.,el｜手勢,gesture,3
+embarazo,n.,el｜懷孕,pregnancy,3
+encajar,v.,吻合,to fit,3
+consuelo,n.,el｜安慰,comfort,3
+sabiduría,n.,la｜智慧,wisdom,3
+terriblemente,adv.,非常地,terribly,3
+susto,n.,el｜驚嚇,fright,3
+hada,n.,la｜仙女,fairy,3
+vidrio,n.,el｜玻璃,glass,3
+término,n.,el｜術語；期限,term,3
+desorden,n.,el｜混亂,mess,3
+alimentar,v.,餵養,to feed,3
+boleto,n.,el｜票（拉美）,ticket (Latin America),3
+confusión,n.,la｜混亂,confusion,3
+facultad,n.,la｜學院；能力,faculty,3
+mochila,n.,la｜背包,backpack,3
+satélite,n.,el｜衛星,satellite,3
+independiente,adj.,獨立的,independent,3
+enero,n.,el｜一月,January,3
+diosa,n.,la｜女神,goddess,3
+nocturno,adj.,夜間的,nocturnal,3
+timbre,n.,el｜門鈴,doorbell,3
+establecer,v.,建立,to establish,3
+araña,n.,la｜蜘蛛,spider,3
+martillo,n.,el｜鎚子,hammer,3
+eterno,adj.,永恆的,eternal,3
+inicio,n.,el｜開始,start,3
+impresionado,adj.,印象深刻的,impressed,3
+álbum,n.,el｜相簿；專輯,album,3
+ola,n.,la｜浪,wave,3
+retrato,n.,el｜肖像,portrait,3
+repugnante,adj.,噁心的,disgusting,3
+confesar,v.,坦白,to confess,3
+ganancia,n.,la｜收益,profit; gain,3
+comedia,n.,la｜喜劇,comedy,3
+inversión,n.,la｜投資,investment,3
+gemelo,n.,el｜雙胞胎,twin,3
+malentendido,n.,el｜誤會,misunderstanding,3
+avergonzado,adj.,羞愧的,ashamed,3
+cobrar,v.,收費,to charge,3
+dificultad,n.,la｜困難,difficulty,3
+lápiz,n.,el｜鉛筆,pencil,3
+avenida,n.,la｜大道,avenue,3
+explosivo,n.,el｜炸藥,explosive,3
+ataúd,n.,el｜棺材,coffin,3
+cancelar,v.,取消,to cancel,3
+coro,n.,el｜合唱團,choir,3
+urgencias,n.,las｜急診,emergency room,3
+manual,n.,el｜手冊,manual,3
+privacidad,n.,la｜隱私,privacy,3
+recuperación,n.,la｜恢復,recovery,3
+semejante,adj.,相似的,similar,3
+paro,n.,el｜失業；罷工,unemployment; strike,3
+nido,n.,el｜巢,nest,3
+plataforma,n.,la｜平台,platform,3
+afortunadamente,adv.,幸運地,fortunately,3
+objeción,n.,la｜異議,objection,3
+vital,adj.,重要的；生命的,vital,3
+pañuelo,n.,el｜手帕,handkerchief,3
+preso,n.,el｜囚犯,prisoner,3
+durar,v.,持續,to last,3
+saludar,v.,打招呼,to greet,3
+niebla,n.,la｜霧,fog,3
+rodeado,adj.,被包圍的,surrounded,3
+invitar,v.,邀請,to invite,3
+goma,n.,la｜橡皮；橡膠,eraser; rubber,3
+talla,n.,la｜尺寸,size,3
+oración,n.,la｜祈禱；句子,prayer; sentence,3
+cómplice,n.,el｜共犯,accomplice,3
+licor,n.,el｜烈酒,liquor,3
+ídolo,n.,el｜偶像,idol,3
+sindicato,n.,el｜工會,union,3
+globo,n.,el｜氣球；地球,balloon; globe,3
+audición,n.,la｜試鏡；聽力,audition; hearing,3
+almohada,n.,la｜枕頭,pillow,3
+rehabilitación,n.,la｜復健,rehabilitation,3
+galaxia,n.,la｜星系,galaxy,3
+curar,v.,治癒,to cure,3
+elefante,n.,el｜大象,elephant,3
+guardián,n.,el｜守護者,guardian,3
+tejido,n.,el｜組織；布料,tissue; fabric,3
+tabla,n.,la｜板；表格,board; table,3
+escudo,n.,el｜盾,shield,3
+bañera,n.,la｜浴缸,bathtub,3
+moderno,adj.,現代的,modern,3
+interrogatorio,n.,el｜審問,interrogation,3
+asistencia,n.,la｜協助；出席,assistance; attendance,3
+novato,n.,el｜新手,rookie,3
+avisar,v.,通知,to notify,3
+hemorragia,n.,la｜出血,hemorrhage,3
+convenir,v.,適合；有利,to suit; to be advisable,3
+fenómeno,n.,el｜現象,phenomenon,3
+lotería,n.,la｜樂透,lottery,3
+certificado,n.,el｜證書,certificate,3
+bigote,n.,el｜八字鬍,mustache,3
+bondad,n.,la｜善良,kindness,3
+aterrizar,v.,降落,to land,3
+misil,n.,el｜飛彈,missile,3
+avance,n.,el｜進展,advance,3
+tumor,n.,el｜腫瘤,tumor,3
+herencia,n.,la｜遺產,inheritance,3
+vaquero,n.,el｜牛仔,cowboy,3
+patria,n.,la｜祖國,homeland,3
+rastrear,v.,追蹤,to track,3
+campeonato,n.,el｜錦標賽,championship,3
+técnico,n.,el｜技師；adj. 技術的,technician; technical,3
+injusto,adj.,不公平的,unfair,3
+activo,adj.,活躍的,active,3
+galería,n.,la｜畫廊,gallery,3
+editor,n.,el｜編輯,editor,3
+liberación,n.,la｜解放,liberation,3
+resistir,v.,抵抗,to resist,3
+arriesgado,adj.,冒險的,risky,3
+volumen,n.,el｜音量；體積,volume,3
+bailarina,n.,la｜舞者,dancer,3
+edición,n.,la｜版本,edition,3
+debate,n.,el｜辯論,debate,3
+poeta,n.,el｜詩人,poet,3
+manta,n.,la｜毯子,blanket,3
+competir,v.,競爭,to compete,3
+dentista,n.,el｜牙醫,dentist,3
+menú,n.,el｜菜單,menu,3
+necesariamente,adv.,必然地,necessarily,3
+descubrimiento,n.,el｜發現,discovery,3
+apetito,n.,el｜食慾,appetite,3
+ángulo,n.,el｜角度,angle,3
+inferior,adj.,下面的；較差的,lower; inferior,3
+incapaz,adj.,無能力的,incapable,3
+volante,n.,el｜方向盤,steering wheel,3
+abuso,n.,el｜濫用；虐待,abuse,3
+celebración,n.,la｜慶祝,celebration,3
+humilde,adj.,謙虛的,humble,3
+disposición,n.,la｜安排；處置,disposal; arrangement,3
+lámpara,n.,la｜燈,lamp,3
+huésped,n.,el｜客人,guest,3
+determinar,v.,決定,to determine,3
+ópera,n.,la｜歌劇,opera,3
+mansión,n.,la｜豪宅,mansion,3
+equilibrio,n.,el｜平衡,balance,3
+culpar,v.,責怪,to blame,3
+certeza,n.,la｜確定,certainty,3
+supervivencia,n.,la｜生存,survival,3
+aterrizaje,n.,el｜降落,landing,3
+girar,v.,旋轉,to turn,3
+danza,n.,la｜舞蹈,dance,3
+hambriento,adj.,飢餓的,hungry,3
+calcetín,n.,el｜襪子,sock,3
+confuso,adj.,混亂的,confusing,3
+tabaco,n.,el｜菸草,tobacco,3
+balón,n.,el｜球,ball,3
+lentes,n.,los｜眼鏡（拉美）,glasses (Latin America),3
+consejero,n.,el｜顧問,counselor,3
+coordenadas,n.,las｜座標,coordinates,3
+vergonzoso,adj.,丟臉的,shameful,3
+mensajero,n.,el｜信差,messenger,3
+cortesía,n.,la｜禮貌,courtesy,3
+impulso,n.,el｜衝動；推動,impulse,3
+ajedrez,n.,el｜西洋棋,chess,3
+crítica,n.,la｜批評,criticism,3
+cordero,n.,el｜羔羊,lamb,3
+democracia,n.,la｜民主,democracy,3
+cubo,n.,el｜桶；立方體,bucket; cube,3
+judicial,adj.,司法的,judicial,3
+masaje,n.,el｜按摩,massage,3
+beca,n.,la｜獎學金,scholarship,3
+miseria,n.,la｜貧困,misery,3
+contenido,n.,el｜內容,content,3
+ritual,n.,el｜儀式,ritual,3
+aliado,n.,el｜盟友,ally,3
+orina,n.,la｜尿,urine,3
+ofender,v.,冒犯,to offend,3
+hilo,n.,el｜線,thread,3
+mascota,n.,la｜寵物,pet,3
+ascenso,n.,el｜升遷,promotion,3
+delicado,adj.,細緻的；脆弱的,delicate,3
+empujar,v.,推,to push,3
+telegrama,n.,el｜電報,telegram,3
+avanzar,v.,前進,to advance,3
+mercancía,n.,la｜商品,merchandise,3
+localizar,v.,找出位置,to locate,3
+choque,n.,el｜碰撞,crash,3
+águila,n.,el｜老鷹（陰性名詞）,eagle,3
+líquido,n.,el｜液體,liquid,3
+carbón,n.,el｜煤,coal,3
+cocinero,n.,el｜廚師,cook,3
+ácido,n.,el｜酸,acid,3
+agresión,n.,la｜侵略,aggression,3
+consulta,n.,la｜諮詢；診間,consultation,3
+órgano,n.,el｜器官,organ,3
+barro,n.,el｜泥,mud,3
+múltiple,adj.,多重的,multiple,3
+multa,n.,la｜罰款,fine,3
+quirófano,n.,el｜手術室,operating room,3
+misa,n.,la｜彌撒,Mass,3
+riqueza,n.,la｜財富,wealth,3
+tonelada,n.,la｜噸,ton,3
+asistir,v.,參加,to attend,3
+voluntario,n.,el｜志工,volunteer,3
+puñado,n.,el｜一把,handful,3
+profundidad,n.,la｜深度,depth,3
+ligero,adj.,輕的,light,3
+añadir,v.,添加,to add,3
+músculo,n.,el｜肌肉,muscle,3
+depresión,n.,la｜憂鬱,depression,3
+afueras,n.,las｜郊區,outskirts,3
+sordo,adj.,聾的,deaf,3
+brigada,n.,la｜旅；隊,brigade,3
+bahía,n.,la｜海灣,bay,3
+ayuntamiento,n.,el｜市政府,city hall,3
+acceder,v.,進入；同意,to access; to agree,3
+comprometido,adj.,訂婚的；投入的,engaged; committed,3
+ansioso,adj.,焦慮的；渴望的,anxious; eager,3
+suplicar,v.,懇求,to plead,3
+pacífico,adj.,和平的,peaceful,3
+obligación,n.,la｜義務,obligation,3
+espectacular,adj.,壯觀的,spectacular,3
+filosofía,n.,la｜哲學,philosophy,3
+simpático,adj.,親切的,nice; friendly,3
+contraseña,n.,la｜密碼,password,3
+veredicto,n.,el｜裁決,verdict,3
+supuestamente,adv.,據說,supposedly,3
+jabón,n.,el｜肥皂,soap,3
+concentración,n.,la｜專注,concentration,3
+factura,n.,la｜發票；帳單,invoice; bill,3
+submarino,n.,el｜潛水艇,submarine,3
+afecto,n.,el｜感情,affection,3
+sonreír,v.,微笑,to smile,3
+invasión,n.,la｜入侵,invasion,3
+solucionar,v.,解決,to solve,3
+especialista,n.,el｜專家,specialist,3
+tapa,n.,la｜蓋子；小菜,lid; tapa,3
+votación,n.,la｜投票,vote; voting,3
+heredero,n.,el｜繼承人,heir,3
+atravesar,v.,穿過,to cross,3
+arrogante,adj.,傲慢的,arrogant,3
+entrenar,v.,訓練,to train,3
+insecto,n.,el｜昆蟲,insect,3
+corresponder,v.,對應；屬於,to correspond,3
+costilla,n.,la｜肋骨,rib,3
+retirado,adj.,退休的,retired,3
+astuto,adj.,狡猾的,cunning,3
+hueco,n.,el｜洞；空隙,hole; gap,3
+oficio,n.,el｜行業,trade; occupation,3
+tejado,n.,el｜屋頂,roof,3
+dorado,adj.,金色的,golden,3
+marinero,n.,el｜水手,sailor,3
+torneo,n.,el｜錦標賽,tournament,3
+hacha,n.,el｜斧頭（陰性名詞）,axe,3
+burro,n.,el｜驢子,donkey,3
+etiqueta,n.,la｜標籤,label,3
+referencia,n.,la｜參考,reference,3
+maldad,n.,la｜邪惡,evil,3
+costo,n.,el｜費用,cost,3
+reducir,v.,減少,to reduce,3
+bodega,n.,la｜酒窖；倉庫,cellar; warehouse,3
+traficante,n.,el｜販子,dealer; trafficker,3
+renta,n.,la｜租金；收入,rent; income,3
+tímido,adj.,害羞的,shy,3
+conveniente,adj.,方便的,convenient,3
+inocencia,n.,la｜無辜,innocence,3
+estadio,n.,el｜體育場,stadium,3
+marrón,adj.,棕色的,brown,3
+individuo,n.,el｜個人,individual,3
+adicto,adj.,上癮的,addicted,3
+derrota,n.,la｜失敗,defeat,3
+orilla,n.,la｜岸邊,shore; bank,3
+chimenea,n.,la｜壁爐；煙囪,fireplace; chimney,3
+febrero,n.,el｜二月,February,3
+confidencial,adj.,機密的,confidential,3
+pirata,n.,el｜海盜,pirate,3
+reparar,v.,修理,to repair,3
+cicatriz,n.,la｜疤痕,scar,3
+borrar,v.,刪除,to erase,3
+fundación,n.,la｜基金會,foundation,3
+iniciar,v.,開始,to start,3
+justamente,adv.,正好,precisely,3
+sábana,n.,la｜床單,sheet,3
+argumento,n.,el｜論點；劇情,argument; plot,3
+tradicional,adj.,傳統的,traditional,3
+cobertura,n.,la｜涵蓋；報導,coverage,3
+escritura,n.,la｜書寫,writing,3
+billetera,n.,la｜皮夾,wallet,3
+vapor,n.,el｜蒸氣,steam,3
+cosecha,n.,la｜收成,harvest,3
+cuñado,n.,el｜姊夫；妹夫,brother-in-law,3
+tranquilidad,n.,la｜寧靜,tranquility,3
+furia,n.,la｜狂怒,fury,3
+tortuga,n.,la｜烏龜,turtle,3
+ficción,n.,la｜虛構,fiction,3
+oveja,n.,la｜綿羊,sheep,3
+granero,n.,el｜穀倉,barn,3
+disciplina,n.,la｜紀律,discipline,3
+privilegio,n.,el｜特權,privilege,3
+secuencia,n.,la｜順序,sequence,3
+semilla,n.,la｜種子,seed,3
+aprovechar,v.,利用,to take advantage of,3
+falda,n.,la｜裙子,skirt,3
+circuito,n.,el｜電路；賽道,circuit,3
+aprobación,n.,la｜批准,approval,3
+impedir,v.,阻止,to prevent,3
+inspiración,n.,la｜靈感,inspiration,3
+aterrador,adj.,嚇人的,terrifying,3
+mecánico,n.,el｜技工,mechanic,3
+gripe,n.,la｜流感,flu,3
+inevitable,adj.,不可避免的,inevitable,3
+claridad,n.,la｜清晰,clarity,3
+chofer,n.,el｜司機,driver; chauffeur,3
+occidental,adj.,西方的,western,3
+ejecutivo,n.,el｜主管,executive,3
+aumentar,v.,增加,to increase,3
+torpe,adj.,笨拙的,clumsy,3
+delgado,adj.,瘦的,thin,3
+denuncia,n.,la｜檢舉；報案,complaint; report,3
+apoyar,v.,支持,to support,3
+perímetro,n.,el｜周邊,perimeter,3
+intenso,adj.,強烈的,intense,3
+portátil,n.,el｜筆電；adj. 可攜的,laptop; portable,3
+investigador,n.,el｜研究員,researcher,3
+suministro,n.,el｜供應,supply,3
+vicepresidente,n.,el｜副總統,vice president,3
+transferencia,n.,la｜轉帳,transfer,3
+garantía,n.,la｜保證,guarantee,3
+pegar,v.,貼；打,to stick; to hit,3
+linterna,n.,la｜手電筒,flashlight,3
+colocar,v.,放置,to place,3
+gorra,n.,la｜鴨舌帽,cap,3
+revisión,n.,la｜檢查,review; check,3
+senado,n.,el｜參議院,senate,3
+baloncesto,n.,el｜籃球,basketball,3
+pacto,n.,el｜協定,pact,3
+vientre,n.,el｜腹部,belly,3
+tomate,n.,el｜番茄,tomato,3
+césped,n.,el｜草坪,lawn,3
+aplauso,n.,el｜掌聲,applause,3
+centímetro,n.,el｜公分,centimeter,3
+ingresos,n.,los｜收入,income,3
+declarar,v.,宣布；作證,to declare; to testify,3
+respetar,v.,尊重,to respect,3
+rana,n.,la｜青蛙,frog,3
+mosca,n.,la｜蒼蠅,fly,3
+ansiedad,n.,la｜焦慮,anxiety,3
+puño,n.,el｜拳頭,fist,3
+rama,n.,la｜樹枝,branch,3
+curva,n.,la｜彎道,curve,3
+algodón,n.,el｜棉花,cotton,3
+crítico,adj.,關鍵的；el｜評論家,critical; critic,3
+entusiasmo,n.,el｜熱情,enthusiasm,3
+cohete,n.,el｜火箭,rocket,3
+fórmula,n.,la｜公式,formula,3
+limón,n.,el｜檸檬,lemon,3
+jamón,n.,el｜火腿,ham,3
+esencia,n.,la｜本質,essence,3
+instrumento,n.,el｜樂器；工具,instrument,3
+revelar,v.,揭露,to reveal,3
+sugerencia,n.,la｜建議,suggestion,3
+promedio,n.,el｜平均,average,3
+tela,n.,la｜布,fabric,3
+especialidad,n.,la｜專長,specialty,3
+conservar,v.,保存,to preserve,3
+crucero,n.,el｜郵輪,cruise,3
+esencial,adj.,必要的,essential,3
+cerradura,n.,la｜鎖,lock,3
+récord,n.,el｜紀錄,record,3
+supermercado,n.,el｜超市,supermarket,3
+manada,n.,la｜獸群,herd; pack,3
+bienestar,n.,el｜福祉,well-being,3
+expresar,v.,表達,to express,3
+tierno,adj.,溫柔的；嫩的,tender,3
+agotado,adj.,筋疲力盡的,exhausted,3
+herir,v.,傷害,to hurt,3
+inyección,n.,la｜注射,injection,3
+flecha,n.,la｜箭,arrow,3
+armadura,n.,la｜盔甲,armor,3
+cortina,n.,la｜窗簾,curtain,3
+cruce,n.,el｜十字路口,crossing,3
+músico,n.,el｜音樂家,musician,3
+nevera,n.,la｜冰箱,refrigerator,3
+farmacia,n.,la｜藥局,pharmacy,3
+obispo,n.,el｜主教,bishop,3
+lamentablemente,adv.,遺憾地,unfortunately,3
+específico,adj.,特定的,specific,3
+salchicha,n.,la｜香腸,sausage,3
+electrónico,adj.,電子的,electronic,3
+delincuente,n.,el｜罪犯,criminal; offender,3
+fotógrafo,n.,el｜攝影師,photographer,3
+crecimiento,n.,el｜成長,growth,3
+mantenimiento,n.,el｜維修,maintenance,3
+envidia,n.,la｜羨慕,envy,3
+literatura,n.,la｜文學,literature,3
+década,n.,la｜十年,decade,3
+órbita,n.,la｜軌道,orbit,3
+eventualmente,adv.,最終；偶爾,eventually,3
+flujo,n.,el｜流動,flow,3
+misericordia,n.,la｜慈悲,mercy,3
+cometa,n.,el｜彗星；la｜風箏,comet; kite,3
+diagnóstico,n.,el｜診斷,diagnosis,3
+completar,v.,完成,to complete,3
+síndrome,n.,el｜症候群,syndrome,3
+legado,n.,el｜遺產,legacy,3
+testificar,v.,作證,to testify,3
+ingeniería,n.,la｜工程學,engineering,3
+rincón,n.,el｜角落,corner,3
+chaleco,n.,el｜背心,vest,3
+subasta,n.,la｜拍賣,auction,3
+categoría,n.,la｜類別,category,3
+dimensión,n.,la｜維度,dimension,3
+tobillo,n.,el｜腳踝,ankle,3
+bloque,n.,el｜塊；街區,block,3
+producir,v.,生產,to produce,3
+ciclo,n.,el｜週期,cycle,3
+descuento,n.,el｜折扣,discount,3
+infarto,n.,el｜心臟病發作,heart attack,3
+refrigerador,n.,el｜冰箱,refrigerator,3
+calendario,n.,el｜日曆,calendar,3
+deprimido,adj.,沮喪的,depressed,3
+zapatilla,n.,la｜運動鞋；拖鞋,sneaker; slipper,3
+supervisor,n.,el｜主管,supervisor,3
+servidor,n.,el｜伺服器,server,3
+altar,n.,el｜祭壇,altar,3
+formal,adj.,正式的,formal,3
+vestíbulo,n.,el｜大廳,lobby,3
+racista,adj.,種族主義的,racist,3
+pobreza,n.,la｜貧窮,poverty,3
+ambición,n.,la｜野心,ambition,3
+visitante,n.,el｜訪客,visitor,3
+rival,n.,el｜對手,rival,3
+persecución,n.,la｜追捕,chase; persecution,3
+frágil,adj.,脆弱的,fragile,3
+tinta,n.,la｜墨水,ink,3
+cepillo,n.,el｜刷子,brush,3
+propina,n.,la｜小費,tip,3
+caravana,n.,la｜車隊,caravan,3
+explorar,v.,探索,to explore,3
+perfección,n.,la｜完美,perfection,3
+consentimiento,n.,el｜同意,consent,3
+ahorrar,v.,節省,to save,3
+regular,adj.,一般的；規律的,regular; so-so,3
+vestir,v.,穿衣,to dress,3
+vena,n.,la｜靜脈,vein,3
+evaluación,n.,la｜評估,evaluation,3
+describir,v.,描述,to describe,3
+orquesta,n.,la｜管弦樂團,orchestra,3
+hábito,n.,el｜習慣,habit,3
+integridad,n.,la｜正直,integrity,3
+hembra,n.,la｜雌性,female,3
+primaria,n.,la｜小學,primary school,3
+ignorar,v.,忽視,to ignore,3
+seguidor,n.,el｜追隨者,follower,3
+picante,adj.,辣的,spicy,3
+árabe,n.,el｜阿拉伯語；adj. 阿拉伯的,Arabic; Arab,3
+contrabando,n.,el｜走私,smuggling,3
+boxeo,n.,el｜拳擊,boxing,3
+pintor,n.,el｜畫家,painter,3
+turista,n.,el｜觀光客,tourist,3
+lesión,n.,la｜傷,injury,3
+litro,n.,el｜公升,liter,3
+acoso,n.,el｜騷擾,harassment,3
+remoto,adj.,遙遠的,remote,3
+conectar,v.,連接,to connect,3
+cuerno,n.,el｜角,horn,3
+gallo,n.,el｜公雞,rooster,3
+mojado,adj.,濕的,wet,3
+vínculo,n.,el｜聯繫,bond; link,3
+básico,adj.,基本的,basic,3
+munición,n.,la｜彈藥,ammunition,3
+evolución,n.,la｜演化,evolution,3
+sudor,n.,el｜汗,sweat,3
+desesperación,n.,la｜絕望,despair,3
+mito,n.,el｜神話,myth,3
+rencor,n.,el｜怨恨,grudge,3
+trágico,adj.,悲慘的,tragic,3
+generador,n.,el｜發電機,generator,3
+riñón,n.,el｜腎臟,kidney,3
+navaja,n.,la｜折疊刀,pocketknife,3
+protesta,n.,la｜抗議,protest,3
+ruina,n.,la｜廢墟；破產,ruin,3
+gratitud,n.,la｜感激,gratitude,3
+plaga,n.,la｜瘟疫；害蟲,plague,3
+sobredosis,n.,la｜過量,overdose,3
+revólver,n.,el｜左輪手槍,revolver,3
+independencia,n.,la｜獨立,independence,3
+exceso,n.,el｜過量,excess,3
+santuario,n.,el｜聖所,sanctuary,3
+barrera,n.,la｜障礙,barrier,3
+estándar,adj.,標準的,standard,3
+perseguir,v.,追趕,to chase,3
+supremo,adj.,最高的,supreme,3
+lavandería,n.,la｜洗衣店,laundry,3
+automático,adj.,自動的,automatic,3
+químico,adj.,化學的,chemical,3
+tijeras,n.,las｜剪刀,scissors,3
+dominio,n.,el｜統治；網域,domain; control,3
+demostración,n.,la｜示範,demonstration,3
+rompecabezas,n.,el｜拼圖,puzzle,3
+separación,n.,la｜分離,separation,3
+sostener,v.,支撐；握住,to hold; to support,3
+dado,n.,el｜骰子,die (dice),3
+atento,adj.,專心的；體貼的,attentive,3
+inesperado,adj.,意外的,unexpected,3
+indicado,adj.,合適的,suitable; indicated,3
+carnicero,n.,el｜屠夫,butcher,3
+triunfo,n.,el｜勝利,triumph,3
+ballena,n.,la｜鯨魚,whale,3
+corrupción,n.,la｜腐敗,corruption,3
+terremoto,n.,el｜地震,earthquake,3
+aparcamiento,n.,el｜停車場,parking,3
+resumen,n.,el｜摘要,summary,3
+ahorros,n.,los｜積蓄,savings,3
+explotar,v.,爆炸；剝削,to explode; to exploit,3
+flotar,v.,漂浮,to float,3
+demente,adj.,瘋狂的,insane,3
+automóvil,n.,el｜汽車,automobile,3
+contenedor,n.,el｜貨櫃,container,3
+barril,n.,el｜桶,barrel,3
+adopción,n.,la｜收養,adoption,3
+satisfacción,n.,la｜滿足,satisfaction,3
+inmortal,adj.,不朽的,immortal,3
+varón,n.,el｜男性,male,3
+cooperación,n.,la｜合作,cooperation,3
+patear,v.,踢,to kick,3
+combatir,v.,戰鬥,to fight,3
+accidentalmente,adv.,意外地,accidentally,3
+insoportable,adj.,無法忍受的,unbearable,3
+iniciativa,n.,la｜主動,initiative,3
+regimiento,n.,el｜團（軍）,regiment,3
+orfanato,n.,el｜孤兒院,orphanage,3
+anual,adj.,每年的,annual,3
+encubierto,adj.,臥底的,undercover,3
+aborto,n.,el｜墮胎；流產,abortion; miscarriage,3
+diseñar,v.,設計,to design,3
+cacería,n.,la｜狩獵,hunt,3
+selección,n.,la｜選擇；國家隊,selection; national team,3
+honestidad,n.,la｜誠實,honesty,3
+culto,n.,el｜崇拜；adj. 有教養的,cult; cultured,3
+amabilidad,n.,la｜親切,kindness,3
+inestable,adj.,不穩定的,unstable,3
+manga,n.,la｜袖子,sleeve,3
+lava,n.,la｜岩漿,lava,3
+congelado,adj.,冷凍的,frozen,3
+madrugada,n.,la｜凌晨,early morning,3
+bicho,n.,el｜蟲子,bug,3
+residente,n.,el｜居民,resident,3
+derrotar,v.,擊敗,to defeat,3
+cavar,v.,挖,to dig,3
+sólido,adj.,堅固的,solid,3
+mariposa,n.,la｜蝴蝶,butterfly,3
+provocar,v.,引起；挑釁,to cause; to provoke,3
+recomendar,v.,推薦,to recommend,3
+provisiones,n.,las｜補給,supplies,3
+temblar,v.,發抖,to tremble,3
+ferrocarril,n.,el｜鐵路,railway,3
+trofeo,n.,el｜獎盃,trophy,3
+espeluznante,adj.,毛骨悚然的,creepy,3
+cifra,n.,la｜數字,figure; number,3
+cachorro,n.,el｜小狗,puppy,3
+fractura,n.,la｜骨折,fracture,3
+pañal,n.,el｜尿布,diaper,3
+apuro,n.,el｜困境,predicament,3
+opuesto,adj.,相反的,opposite,3
+sesenta,n.,六十,sixty,3
+balcón,n.,el｜陽台,balcony,3
+llover,v.,下雨,to rain,3
+paloma,n.,la｜鴿子,dove; pigeon,3
+ático,n.,el｜閣樓,attic,3
+homicida,n.,el｜殺人犯,murderer,3
+dañado,adj.,損壞的,damaged,3
+cálculo,n.,el｜計算,calculation,3
+granada,n.,la｜手榴彈；石榴,grenade; pomegranate,3
+baúl,n.,el｜行李箱；後車廂,trunk,3
+inventar,v.,發明,to invent,3
+sirviente,n.,el｜僕人,servant,3
+rechazar,v.,拒絕,to reject,3
+instalación,n.,la｜設施；安裝,facility; installation,3
+verificar,v.,確認,to verify,3
+bruto,adj.,粗魯的,brute; rough,3
+separar,v.,分開,to separate,3
+publicar,v.,出版；發布,to publish,3
+afectado,adj.,受影響的,affected,3
+verdura,n.,la｜蔬菜,vegetable,3
+digital,adj.,數位的,digital,3
+imperial,adj.,帝國的,imperial,3
+emboscada,n.,la｜埋伏,ambush,3
+finanzas,n.,las｜財務,finances,3
+soga,n.,la｜繩子,rope,3
+mudo,adj.,啞的,mute,3
+apodo,n.,el｜綽號,nickname,3
+intelectual,adj.,智力的,intellectual,3
+paisaje,n.,el｜風景,landscape,3
+surgir,v.,出現,to arise,3
+excepcional,adj.,傑出的,exceptional,3
+suicidarse,v.,自殺,to commit suicide,3
+entorno,n.,el｜環境,environment,3
+expectativa,n.,la｜期望,expectation,3
+bastón,n.,el｜手杖,cane,3
+armar,v.,組裝；武裝,to assemble; to arm,3
+preparación,n.,la｜準備,preparation,3
+neumático,n.,el｜輪胎,tire,3
+participación,n.,la｜參與,participation,4
+garra,n.,la｜爪,claw,4
+lamentable,adj.,可悲的,regrettable,4
+promoción,n.,la｜促銷；升遷,promotion,4
+televisor,n.,el｜電視機,TV set,4
+masacre,n.,la｜大屠殺,massacre,4
+desperdicio,n.,el｜浪費,waste,4
+peluca,n.,la｜假髮,wig,4
+inspección,n.,la｜檢查,inspection,4
+cosquillas,n.,las｜癢,tickling,4
+factor,n.,el｜因素,factor,4
+trece,n.,十三,thirteen,4
+violín,n.,el｜小提琴,violin,4
+navegar,v.,航行；上網,to sail; to browse,4
+picnic,n.,el｜野餐,picnic,4
+examinar,v.,檢查,to examine,4
+lazo,n.,el｜蝴蝶結；連結,bow; tie; bond,4
+chantaje,n.,el｜勒索,blackmail,4
+alquilar,v.,租,to rent,4
+negativa,n.,la｜拒絕,refusal,4
+melodía,n.,la｜旋律,melody,4
+entierro,n.,el｜葬禮,burial,4
+urgencia,n.,la｜緊急,urgency,4
+plomo,n.,el｜鉛,lead,4
+únicamente,adv.,僅僅,solely,4
+bufete,n.,el｜律師事務所,law firm,4
+localización,n.,la｜位置,location,4
+envuelto,adj.,包裹的；捲入的,wrapped; involved,4
+dinamita,n.,la｜炸藥,dynamite,4
+avanzado,adj.,先進的,advanced,4
+maduro,adj.,成熟的,mature; ripe,4
+constitución,n.,la｜憲法,constitution,4
+cuñada,n.,la｜嫂嫂；姑嫂,sister-in-law,4
+tronco,n.,el｜樹幹,trunk,4
+aplicación,n.,la｜應用程式；應用,application; app,4
+todopoderoso,adj.,全能的,almighty,4
+monja,n.,la｜修女,nun,4
+campesino,n.,el｜農民,peasant; farmer,4
+zoológico,n.,el｜動物園,zoo,4
+insistir,v.,堅持,to insist,4
+creador,n.,el｜創造者,creator,4
+monje,n.,el｜僧侶,monk,4
+parlamento,n.,el｜國會,parliament,4
+clavo,n.,el｜釘子,nail,4
+informante,n.,el｜線人,informant,4
+artificial,adj.,人造的,artificial,4
+terrorismo,n.,el｜恐怖主義,terrorism,4
+arrancar,v.,拔出；啟動,to pull out; to start,4
+masculino,adj.,男性的,masculine,4
+soporte,n.,el｜支架；支援,support,4
+pólvora,n.,la｜火藥,gunpowder,4
+documental,n.,el｜紀錄片,documentary,4
+gol,n.,el｜進球,goal,4
+institución,n.,la｜機構,institution,4
+intimidad,n.,la｜親密；隱私,intimacy; privacy,4
+rescatar,v.,救援,to rescue,4
+incorrecto,adj.,錯誤的,incorrect,4
+invertir,v.,投資,to invest,4
+morfina,n.,la｜嗎啡,morphine,4
+creencia,n.,la｜信念,belief,4
+banquete,n.,el｜宴會,banquet,4
+enfoque,n.,el｜焦點；方法,focus; approach,4
+gancho,n.,el｜鉤子,hook,4
+intervención,n.,la｜干預,intervention,4
+conquistar,v.,征服,to conquer,4
+capilla,n.,la｜小教堂,chapel,4
+espléndido,adj.,壯麗的,splendid,4
+reflejo,n.,el｜倒影；反射,reflection; reflex,4
+suavemente,adv.,輕柔地,gently,4
+contador,n.,el｜會計師；計數器,accountant; counter,4
+carruaje,n.,el｜馬車,carriage,4
+lote,n.,el｜批；地塊,lot; batch,4
+palomitas,n.,las｜爆米花,popcorn,4
+registrar,v.,登記；搜查,to register; to search,4
+agresivo,adj.,好鬥的,aggressive,4
+zumo,n.,el｜果汁（西班牙）,juice (Spain),4
+velo,n.,el｜面紗,veil,4
+virtud,n.,la｜美德,virtue,4
+nuez,n.,la｜核桃,walnut,4
+soda,n.,la｜汽水,soda,4
+matón,n.,el｜惡霸,thug; bully,4
+continente,n.,el｜大陸,continent,4
+congresista,n.,el｜國會議員,congressman,4
+financiero,adj.,金融的,financial,4
+eco,n.,el｜回音,echo,4
+oriental,adj.,東方的,eastern,4
+karma,n.,el｜業報,karma,4
+fraternidad,n.,la｜兄弟會；友愛,fraternity,4
+expedición,n.,la｜探險,expedition,4
+industrial,adj.,工業的,industrial,4
+chicle,n.,el｜口香糖,chewing gum,4
+tocino,n.,el｜培根,bacon,4
+respetable,adj.,可敬的,respectable,4
+federación,n.,la｜聯邦；聯合會,federation,4
+obligar,v.,強迫,to force,4
+descarga,n.,la｜下載；放電,download; discharge,4
+leña,n.,la｜柴,firewood,4
+religioso,adj.,宗教的,religious,4
+analizar,v.,分析,to analyze,4
+estreno,n.,el｜首映,premiere,4
+peste,n.,la｜瘟疫；臭味,plague; stench,4
+software,n.,el｜軟體,software,4
+freno,n.,el｜煞車,brake,4
+experimentar,v.,體驗；實驗,to experience; to experiment,4
+paja,n.,la｜稻草；吸管,straw,4
+caballería,n.,la｜騎兵,cavalry,4
+puñetazo,n.,el｜一拳,punch,4
+psicología,n.,la｜心理學,psychology,4
+calzoncillos,n.,los｜內褲（男）,underpants,4
+definición,n.,la｜定義,definition,4
+difunto,adj.,已故的,deceased,4
+fugitivo,n.,el｜逃犯,fugitive,4
+artillería,n.,la｜砲兵,artillery,4
+panel,n.,el｜面板；小組,panel,4
+desarrollar,v.,發展,to develop,4
+asesor,n.,el｜顧問,advisor,4
+séptimo,adj.,第七,seventh,4
+bando,n.,el｜陣營,side; faction,4
+resfriado,n.,el｜感冒,cold,4
+tablero,n.,el｜板；棋盤,board,4
+seso,n.,el｜腦,brain,4
+ética,n.,la｜倫理,ethics,4
+táctica,n.,la｜戰術,tactic,4
+coma,n.,el｜昏迷；la｜逗號,coma; comma,4
+millonario,n.,el｜百萬富翁,millionaire,4
+sobreviviente,n.,el｜倖存者,survivor,4
+amenazar,v.,威脅,to threaten,4
+bandido,n.,el｜強盜,bandit,4
+provecho,n.,el｜好處（buen provecho 請慢用）,benefit; enjoy your meal,4
+rechazo,n.,el｜拒絕,rejection,4
+donante,n.,el｜捐贈者,donor,4
+exhibición,n.,la｜展覽,exhibition,4
+genética,n.,la｜遺傳學,genetics,4
+paranoico,adj.,偏執的,paranoid,4
+silencioso,adj.,安靜的,silent,4
+insignificante,adj.,微不足道的,insignificant,4
+doncella,n.,la｜少女；侍女,maiden; maid,4
+conserje,n.,el｜管理員,janitor; concierge,4
+letal,adj.,致命的,lethal,4
+hormiga,n.,la｜螞蟻,ant,4
+escolta,n.,la｜護衛,escort,4
+mayordomo,n.,el｜管家,butler,4
+deportivo,adj.,運動的,sports,4
+arquitecto,n.,el｜建築師,architect,4
+morder,v.,咬,to bite,4
+establo,n.,el｜馬廄,stable,4
+aislamiento,n.,el｜隔離,isolation,4
+perla,n.,la｜珍珠,pearl,4
+cargamento,n.,el｜貨物,shipment,4
+alrededores,n.,los｜周邊,surroundings,4
+corporal,adj.,身體的,bodily,4
+realista,adj.,現實的,realistic,4
+embarazoso,adj.,尷尬的,embarrassing,4
+incumbencia,n.,la｜職責,business; concern,4
+admirador,n.,el｜仰慕者,admirer,4
+prudente,adj.,謹慎的,prudent,4
+fenomenal,adj.,極好的,phenomenal,4
+acusar,v.,指控,to accuse,4
+barbacoa,n.,la｜烤肉,barbecue,4
+decepción,n.,la｜失望,disappointment,4
+representación,n.,la｜表演；代表,performance; representation,4
+carbono,n.,el｜碳,carbon,4
+arder,v.,燃燒,to burn,4
+semestre,n.,el｜學期,semester,4
+hacienda,n.,la｜莊園；財政,estate; treasury,4
+género,n.,el｜性別；類型,gender; genre,4
+refresco,n.,el｜汽水,soft drink,4
+interruptor,n.,el｜開關,switch,4
+halcón,n.,el｜鷹,hawk,4
+mudarse,v.,搬家,to move (house),4
+codo,n.,el｜手肘,elbow,4
+valentía,n.,la｜勇氣,bravery,4
+pipa,n.,la｜菸斗,pipe,4
+sustancia,n.,la｜物質,substance,4
+posterior,adj.,後來的,later; posterior,4
+brisa,n.,la｜微風,breeze,4
+reparto,n.,el｜分配；演員陣容,distribution; cast,4
+taberna,n.,la｜酒館,tavern,4
+comunicado,n.,el｜公報,statement,4
+seguimiento,n.,el｜追蹤,follow-up,4
+discreción,n.,la｜謹慎,discretion,4
+pulgar,n.,el｜拇指,thumb,4
+comprensión,n.,la｜理解,understanding,4
+retroceder,v.,後退,to back off,4
+frasco,n.,el｜瓶罐,jar,4
+planear,v.,計畫,to plan,4
+convento,n.,el｜修道院,convent,4
+regalar,v.,送禮,to give (a gift),4
+insulto,n.,el｜侮辱,insult,4
+vigilante,n.,el｜警衛,watchman,4
+gabinete,n.,el｜內閣；櫃子,cabinet,4
+excursión,n.,la｜遠足,excursion,4
+filete,n.,el｜牛排；魚片,steak; fillet,4
+mecanismo,n.,el｜機制,mechanism,4
+invento,n.,el｜發明,invention,4
+exitoso,adj.,成功的,successful,4
+mostrador,n.,el｜櫃檯,counter,4
+precisión,n.,la｜精確,precision,4
+manicomio,n.,el｜精神病院,asylum,4
+hondo,adj.,深的,deep,4
+basurero,n.,el｜垃圾桶；垃圾場,trash can; dump,4
+infiel,adj.,不忠的,unfaithful,4
+cualidad,n.,la｜特質,quality,4
+comprador,n.,el｜買家,buyer,4
+domicilio,n.,el｜住址,address; residence,4
+obedecer,v.,服從,to obey,4
+quemadura,n.,la｜燒傷,burn,4
+juntar,v.,聚集,to put together,4
+arrepentirse,v.,後悔,to regret,4
+bóveda,n.,la｜金庫；穹頂,vault,4
+gimnasia,n.,la｜體操,gymnastics,4
+antepasado,n.,el｜祖先,ancestor,4
+confirmación,n.,la｜確認,confirmation,4
+dibujar,v.,畫,to draw,4
+emocionalmente,adv.,情感上,emotionally,4
+violar,v.,強暴；違反,to rape; to violate,4
+cangrejo,n.,el｜螃蟹,crab,4
+burbuja,n.,la｜泡泡,bubble,4
+ignorante,adj.,無知的,ignorant,4
+comparación,n.,la｜比較,comparison,4
+ligeramente,adv.,稍微,slightly,4
+ejecutar,v.,執行,to execute,4
+provenir,v.,來自,to come from,4
+parcial,adj.,部分的；偏頗的,partial,4
+empacar,v.,打包,to pack,4
+católico,adj.,天主教的,Catholic,4
+mocoso,n.,el｜小鬼,brat,4
+chatarra,n.,la｜廢鐵,scrap,4
+pascua,n.,la｜復活節,Easter,4
+afirmar,v.,斷言,to affirm,4
+hostil,adj.,敵對的,hostile,4
+calvo,adj.,禿頭的,bald,4
+cintura,n.,la｜腰,waist,4
+sincronización,n.,la｜同步,synchronization,4
+barriga,n.,la｜肚子,belly,4
+despegar,v.,起飛,to take off,4
+monitor,n.,el｜螢幕；監視器,monitor,4
+vagón,n.,el｜車廂,wagon; carriage,4
+régimen,n.,el｜政權；飲食控制,regime; diet,4
+huracán,n.,el｜颶風,hurricane,4
+cera,n.,la｜蠟,wax,4
+aroma,n.,el｜香味,aroma,4
+interpretar,v.,詮釋；口譯,to interpret,4
+paraguas,n.,el｜雨傘,umbrella,4
+bloqueado,adj.,被封鎖的,blocked,4
+irónico,adj.,諷刺的,ironic,4
+paradero,n.,el｜下落,whereabouts,4
+aprobado,adj.,通過的,approved; passed,4
+desesperadamente,adv.,拚命地,desperately,4
+felicitar,v.,祝賀,to congratulate,4
+agacharse,v.,蹲下,to crouch,4
+apretado,adj.,緊的,tight,4
+catorce,n.,十四,fourteen,4
+liderazgo,n.,el｜領導力,leadership,4
+sensacional,adj.,轟動的,sensational,4
+olla,n.,la｜鍋,pot,4
+ocupación,n.,la｜職業；佔領,occupation,4
+obstáculo,n.,el｜障礙,obstacle,4
+inodoro,n.,el｜馬桶,toilet,4
+terraza,n.,la｜露台,terrace,4
+eternamente,adv.,永遠,eternally,4
+estancia,n.,la｜停留,stay,4
+éxtasis,n.,el｜狂喜,ecstasy,4
+tranquilamente,adv.,平靜地,calmly,4
+colchón,n.,el｜床墊,mattress,4
+formulario,n.,el｜表格,form,4
+profeta,n.,el｜先知,prophet,4
+espuma,n.,la｜泡沫,foam,4
+cuarentena,n.,la｜隔離檢疫,quarantine,4
+pala,n.,la｜鏟子,shovel,4
+exagerar,v.,誇大,to exaggerate,4
+recorrer,v.,走遍,to travel through,4
+interpretación,n.,la｜詮釋,interpretation,4
+impaciente,adj.,不耐煩的,impatient,4
+carretera,n.,la｜公路,road; highway,4
+precaución,n.,la｜預防,precaution,4
+administrador,n.,el｜管理員,administrator,4
+latín,n.,el｜拉丁語,Latin,4
+francotirador,n.,el｜狙擊手,sniper,4
+interferir,v.,干擾,to interfere,4
+garantizar,v.,保證,to guarantee,4
+cuchara,n.,la｜湯匙,spoon,4
+billar,n.,el｜撞球,billiards,4
+desprecio,n.,el｜輕蔑,contempt,4
+peinado,n.,el｜髮型,hairstyle,4
+juvenil,adj.,青少年的,youth,4
+derribar,v.,推倒,to knock down,4
+anfitrión,n.,el｜主人（宴會）,host,4
+tutor,n.,el｜監護人；家教,guardian; tutor,4
+inicial,adj.,最初的,initial,4
+fino,adj.,細的；精緻的,fine; thin,4
+bolos,n.,los｜保齡球,bowling,4
+ingenioso,adj.,機智的,ingenious,4
+cuaderno,n.,el｜筆記本,notebook,4
+coincidir,v.,一致,to coincide,4
+asado,n.,el｜烤肉,roast,4
+resaca,n.,la｜宿醉,hangover,4
+cadera,n.,la｜臀部,hip,4
+mérito,n.,el｜功績,merit,4
+santidad,n.,la｜神聖,holiness,4
+deprimente,adj.,令人沮喪的,depressing,4
+defensor,n.,el｜辯護者,defender,4
+villano,n.,el｜反派,villain,4
+universitario,adj.,大學的,university,4
+optimista,adj.,樂觀的,optimistic,4
+reemplazar,v.,取代,to replace,4
+anteojos,n.,los｜眼鏡（拉美）,glasses (Latin America),4
+yate,n.,el｜遊艇,yacht,4
+estropeado,adj.,壞掉的,broken; ruined,4
+cobre,n.,el｜銅,copper,4
+mejilla,n.,la｜臉頰,cheek,4
+proceder,v.,進行,to proceed,4
+palanca,n.,la｜槓桿,lever,4
+cooperar,v.,合作,to cooperate,4
+tramar,v.,密謀,to plot,4
+atrevido,adj.,大膽的,daring,4
+práctico,adj.,實用的,practical,4
+forzado,adj.,被迫的,forced,4
+consideración,n.,la｜考量,consideration,4
+cebolla,n.,la｜洋蔥,onion,4
+limusina,n.,la｜禮車,limousine,4
+superficial,adj.,膚淺的,superficial,4
+rebelión,n.,la｜叛亂,rebellion,4
+motocicleta,n.,la｜摩托車,motorcycle,4
+sede,n.,la｜總部,headquarters,4
+póquer,n.,el｜撲克,poker,4
+medir,v.,測量,to measure,4
+exclusivo,adj.,獨家的,exclusive,4
+tentación,n.,la｜誘惑,temptation,4
+sermón,n.,el｜講道,sermon,4
+dramático,adj.,戲劇性的,dramatic,4
+sutil,adj.,微妙的,subtle,4
+fanático,n.,el｜狂熱者,fanatic,4
+sillón,n.,el｜扶手椅,armchair,4
+confiable,adj.,可靠的,reliable,4
+estrictamente,adv.,嚴格地,strictly,4
+trigo,n.,el｜小麥,wheat,4
+comunicarse,v.,溝通,to communicate,4
+recomendación,n.,la｜推薦,recommendation,4
+escáner,n.,el｜掃描器,scanner,4
+nudo,n.,el｜結,knot,4
+ingrediente,n.,el｜材料,ingredient,4
+concejal,n.,el｜市議員,councilor,4
+dental,adj.,牙齒的,dental,4
+suspendido,adj.,暫停的；不及格,suspended; failed,4
+suéter,n.,el｜毛衣,sweater,4
+dinosaurio,n.,el｜恐龍,dinosaur,4
+perpetuo,adj.,永久的,perpetual,4
+arroyo,n.,el｜小溪,stream,4
+abuelita,n.,la｜奶奶,granny,4
+evacuación,n.,la｜疏散,evacuation,4
+suero,n.,el｜血清；點滴,serum; IV,4
+tenso,adj.,緊張的,tense,4
+ofendido,adj.,被冒犯的,offended,4
+posada,n.,la｜旅店,inn,4
+tremendo,adj.,巨大的,tremendous,4
+píldora,n.,la｜藥丸,pill,4
+creativo,adj.,有創意的,creative,4
+sacrificar,v.,犧牲,to sacrifice,4
+casamiento,n.,el｜婚禮,wedding,4
+crucial,adj.,關鍵的,crucial,4
+filme,n.,el｜影片,film,4
+dominar,v.,支配；精通,to dominate; to master,4
+infinito,adj.,無限的,infinite,4
+culpabilidad,n.,la｜罪惡感,guilt,4
+marqués,n.,el｜侯爵,marquis,4
+astronauta,n.,el｜太空人,astronaut,4
+pimienta,n.,la｜胡椒,pepper,4
+mandíbula,n.,la｜下巴,jaw,4
+langosta,n.,la｜龍蝦,lobster,4
+notable,adj.,顯著的,notable,4
+cultural,adj.,文化的,cultural,4
+previamente,adv.,事先,previously,4
+fideo,n.,el｜麵條,noodle,4
+relevante,adj.,相關的,relevant,4
+oponente,n.,el｜對手,opponent,4
+decano,n.,el｜院長,dean,4
+hipócrita,n.,el｜偽君子,hypocrite,4
+bailarín,n.,el｜舞者,dancer,4
+apretar,v.,擠壓；按,to squeeze; to press,4
+ancho,adj.,寬的,wide,4
+ajo,n.,el｜大蒜,garlic,4
+angustia,n.,la｜痛苦；焦慮,anguish,4
+consistir,v.,在於,to consist,4
+definitivo,adj.,最終的,definitive,4
+relleno,n.,el｜餡,filling,4
+documentación,n.,la｜文件,documentation,4
+zombi,n.,el｜殭屍,zombie,4
+quiebra,n.,la｜破產,bankruptcy,4
+obrero,n.,el｜工人,worker,4
+fundamental,adj.,根本的,fundamental,4
+universal,adj.,普遍的,universal,4
+terrestre,adj.,陸地的；地球的,terrestrial,4
+hipoteca,n.,la｜房貸,mortgage,4
+jardinero,n.,el｜園丁,gardener,4
+condón,n.,el｜保險套,condom,4
+facilidad,n.,la｜容易,ease,4
+reja,n.,la｜欄杆,bars; railing,4
+harina,n.,la｜麵粉,flour,4
+batallón,n.,el｜營（軍）,battalion,4
+histórico,adj.,歷史的,historic,4
+refugiado,n.,el｜難民,refugee,4
+prevenir,v.,預防,to prevent,4
+despido,n.,el｜解僱,dismissal,4
+padrastro,n.,el｜繼父,stepfather,4
+blusa,n.,la｜女襯衫,blouse,4
+inmigración,n.,la｜移民,immigration,4
+colapso,n.,el｜崩潰,collapse,4
+defecto,n.,el｜缺點,defect,4
+fragmento,n.,el｜碎片,fragment,4
+menta,n.,la｜薄荷,mint,4
+internado,n.,el｜寄宿學校,boarding school,4
+aconsejar,v.,勸告,to advise,4
+cápsula,n.,la｜膠囊,capsule,4
+acelerar,v.,加速,to accelerate,4
+lodo,n.,el｜泥,mud,4
+sospechar,v.,懷疑,to suspect,4
+aislado,adj.,孤立的,isolated,4
+exigir,v.,要求,to demand,4
+libremente,adv.,自由地,freely,4
+tránsito,n.,el｜交通,traffic; transit,4
+musulmán,adj.,穆斯林的,Muslim,4
+viviente,adj.,活的,living,4
+funcionamiento,n.,el｜運作,operation; functioning,4
+adjunto,adj.,附加的,attached,4
+demora,n.,la｜延遲,delay,4
+aficionado,n.,el｜愛好者,fan; amateur,4
+burla,n.,la｜嘲笑,mockery,4
+pésimo,adj.,極差的,terrible,4
+hongo,n.,el｜蘑菇；真菌,mushroom; fungus,4
+gorila,n.,el｜大猩猩,gorilla,4
+facial,adj.,臉部的,facial,4
+calabaza,n.,la｜南瓜,pumpkin,4
+autógrafo,n.,el｜簽名,autograph,4
+topo,n.,el｜鼴鼠；內奸,mole,4
+penal,adj.,刑事的,criminal; penal,4
+agregar,v.,添加,to add,4
+atentamente,adv.,專心地,attentively,4
+violador,n.,el｜強暴犯,rapist,4
+respaldo,n.,el｜支持；椅背,backing; backrest,4
+ofensiva,n.,la｜攻勢,offensive,4
+inconveniente,n.,el｜不便,inconvenience,4
+legítimo,adj.,合法的,legitimate,4
+calabozo,n.,el｜地牢,dungeon,4
+corporación,n.,la｜企業,corporation,4
+chispa,n.,la｜火花,spark,4
+grandeza,n.,la｜偉大,greatness,4
+envenenado,adj.,中毒的,poisoned,4
+salvavidas,n.,el｜救生員；救生圈,lifeguard; life preserver,4
+retorno,n.,el｜返回,return,4
+abeja,n.,la｜蜜蜂,bee,4
+pulgada,n.,la｜英吋,inch,4
+gasolinera,n.,la｜加油站,gas station,4
+tasa,n.,la｜比率,rate,4
+pijama,n.,el｜睡衣,pajamas,4
+corrupto,adj.,腐敗的,corrupt,4
+ausente,adj.,缺席的,absent,4
+sensual,adj.,感性的,sensual,4
+naval,adj.,海軍的,naval,4
+distante,adj.,遙遠的,distant,4
+lecho,n.,el｜床；河床,bed; riverbed,4
+sinceridad,n.,la｜真誠,sincerity,4
+acontecimiento,n.,el｜事件,event,4
+jinete,n.,el｜騎手,rider,4
+traslado,n.,el｜轉移,transfer,4
+camello,n.,el｜駱駝,camel,4
+húmedo,adj.,潮濕的,humid; damp,4
+caminata,n.,la｜健行,hike,4
+guardería,n.,la｜托兒所,daycare,4
+ochenta,n.,八十,eighty,4
+daga,n.,la｜匕首,dagger,4
+adicción,n.,la｜成癮,addiction,4
+cartero,n.,el｜郵差,mail carrier,4
+labor,n.,la｜勞動,labor; work,4
+matanza,n.,la｜屠殺,slaughter,4
+doscientos,n.,兩百,two hundred,4
+fax,n.,el｜傳真,fax,4
+conmoción,n.,la｜騷動；腦震盪,commotion; concussion,4
+atardecer,n.,el｜黃昏,dusk,4
+continuamente,adv.,不斷地,continuously,4
+jurisdicción,n.,la｜管轄權,jurisdiction,4
+humillante,adj.,丟臉的,humiliating,4
+sumamente,adv.,極其,extremely,4
+residuo,n.,el｜殘留物,residue,4
+oposición,n.,la｜反對,opposition,4
+intruso,n.,el｜入侵者,intruder,4
+maní,n.,el｜花生（拉美）,peanut,4
+sendero,n.,el｜小徑,path; trail,4
+artefacto,n.,el｜器物,artifact; device,4
+cancha,n.,la｜球場,court; field,4
+limonada,n.,la｜檸檬水,lemonade,4
+laberinto,n.,el｜迷宮,maze,4
+paracaídas,n.,el｜降落傘,parachute,4
+ardilla,n.,la｜松鼠,squirrel,4
+horizonte,n.,el｜地平線,horizon,4
+despegue,n.,el｜起飛,takeoff,4
+cajero,n.,el｜收銀員；提款機,cashier; ATM,4
+atún,n.,el｜鮪魚,tuna,4
+inapropiado,adj.,不恰當的,inappropriate,4
+negociación,n.,la｜談判,negotiation,4
+abandono,n.,el｜放棄；遺棄,abandonment,4
+yerno,n.,el｜女婿,son-in-law,4
+ingenuo,adj.,天真的,naive,4
+rol,n.,el｜角色,role,4
+armonía,n.,la｜和諧,harmony,4
+satisfacer,v.,滿足,to satisfy,4
+salmón,n.,el｜鮭魚,salmon,4
+arteria,n.,la｜動脈,artery,4
+despreciable,adj.,可鄙的,despicable,4
+escalar,v.,攀登,to climb,4
+cigarro,n.,el｜雪茄；香菸,cigar; cigarette,4
+correa,n.,la｜皮帶；狗繩,strap; leash,4
+feroz,adj.,兇猛的,fierce,4
+contexto,n.,el｜脈絡,context,4
+aparición,n.,la｜出現,appearance,4
+racha,n.,la｜連續（好運等）,streak,4
+distribución,n.,la｜分配,distribution,4
+repentino,adj.,突然的,sudden,4
+humillación,n.,la｜羞辱,humiliation,4
+ensayar,v.,排練,to rehearse,4
+veterinario,n.,el｜獸醫,veterinarian,4
+faro,n.,el｜燈塔；車燈,lighthouse; headlight,4
+aceptable,adj.,可接受的,acceptable,4
+reconstruir,v.,重建,to rebuild,4
+taxista,n.,el｜計程車司機,taxi driver,4
+tos,n.,la｜咳嗽,cough,4
+propaganda,n.,la｜宣傳,propaganda,4
+iluminación,n.,la｜照明,lighting,4
+vacuna,n.,la｜疫苗,vaccine,4
+deshacer,v.,拆開；取消,to undo,4
+ironía,n.,la｜諷刺,irony,4
+tregua,n.,la｜休戰,truce,4
+subterráneo,adj.,地下的,underground,4
+complicación,n.,la｜併發症；複雜,complication,4
+soborno,n.,el｜賄賂,bribe,4
+volcán,n.,el｜火山,volcano,4
+consumo,n.,el｜消費,consumption,4
+presionar,v.,施壓；按,to pressure; to press,4
+antídoto,n.,el｜解藥,antidote,4
+atraco,n.,el｜搶劫,robbery,4
+ciervo,n.,el｜鹿,deer,4
+intervenir,v.,介入,to intervene,4
+generosidad,n.,la｜慷慨,generosity,4
+caña,n.,la｜甘蔗；釣竿,cane; fishing rod,4
+rodaje,n.,el｜拍攝,filming,4
+radical,adj.,激進的,radical,4
+cemento,n.,el｜水泥,cement,4
+montaje,n.,el｜組裝；剪輯,assembly; editing,4
+suposición,n.,la｜假設,assumption,4
+donación,n.,la｜捐贈,donation,4
+formidable,adj.,了不起的,formidable,4
+leve,adj.,輕微的,slight; mild,4
+estanque,n.,el｜池塘,pond,4
+acudir,v.,前往；求助,to go; to turn to,4
+bolígrafo,n.,el｜原子筆,pen,4
+adrenalina,n.,la｜腎上腺素,adrenaline,4
+alojamiento,n.,el｜住宿,accommodation,4
+inventario,n.,el｜庫存,inventory,4
+navegación,n.,la｜航行,navigation,4
+contable,n.,el｜會計（西班牙）,accountant (Spain),4
+interrogar,v.,審問,to interrogate,4
+repentinamente,adv.,突然地,suddenly,4
+eficiente,adj.,有效率的,efficient,4
+seminario,n.,el｜研討會,seminar,4
+pelirrojo,adj.,紅髮的,red-haired,4
+pantalón,n.,el｜褲子,trousers,4
+celestial,adj.,天上的,celestial,4
+sonda,n.,la｜探測器,probe,4
+secundario,adj.,次要的,secondary,4
+ingreso,n.,el｜入院；收入,admission; income,4
+esclavitud,n.,la｜奴隸制,slavery,4
+cesta,n.,la｜籃子,basket,4
+adoptar,v.,收養；採用,to adopt,4
+cuervo,n.,el｜烏鴉,crow,4
+fijamente,adv.,目不轉睛地,fixedly,4
+orientación,n.,la｜方向；指導,orientation; guidance,4
+apocalipsis,n.,el｜末日,apocalypse,4
+duquesa,n.,la｜公爵夫人,duchess,4
+alucinante,adj.,令人驚嘆的,amazing,4
+adicional,adj.,額外的,additional,4
+frijol,n.,el｜豆子（拉美）,bean,4
+cebo,n.,el｜誘餌,bait,4
+contabilidad,n.,la｜會計,accounting,4
+redada,n.,la｜突襲搜捕,raid,4
+oportuno,adj.,適時的,timely,4
+suegra,n.,la｜岳母；婆婆,mother-in-law,4
+apuntar,v.,瞄準；記下,to aim; to note down,4
+ceder,v.,讓步,to yield,4
+hospitalidad,n.,la｜好客,hospitality,4
+atleta,n.,el｜運動員,athlete,4
+poste,n.,el｜柱子,post; pole,4
+mermelada,n.,la｜果醬,jam,4
+injusticia,n.,la｜不公,injustice,4
+ficha,n.,la｜籌碼；卡片,token; card,4
+gobernar,v.,統治,to govern,4
+inauguración,n.,la｜開幕,inauguration,4
+podrido,adj.,腐爛的,rotten,4
+mula,n.,la｜騾子,mule,4
+variedad,n.,la｜多樣,variety,4
+azotea,n.,la｜屋頂平台,rooftop,4
+cóctel,n.,el｜雞尾酒,cocktail,4
+tripa,n.,la｜腸子；肚子,gut; belly,4
+biología,n.,la｜生物學,biology,4
+luto,n.,el｜哀悼,mourning,4
+reactor,n.,el｜反應爐,reactor,4
+bono,n.,el｜債券；優惠券,bond; voucher,4
+apestoso,adj.,臭的,stinky,4
+acera,n.,la｜人行道,sidewalk,4
+potente,adj.,強大的,powerful,4
+bombardeo,n.,el｜轟炸,bombing,4
+irrelevante,adj.,無關的,irrelevant,4
+guarida,n.,la｜巢穴,lair,4
+tendencia,n.,la｜趨勢,tendency; trend,4
+descifrar,v.,破解,to decipher,4
+brazalete,n.,el｜手鐲,bracelet,4
+profecía,n.,la｜預言,prophecy,4
+insensible,adj.,冷漠的,insensitive,4
+extensión,n.,la｜延伸；分機,extension,4
+niñez,n.,la｜童年,childhood,4
+voluntariamente,adv.,自願地,voluntarily,4
+parrilla,n.,la｜烤架,grill,4
+pegamento,n.,el｜膠水,glue,4
+anochecer,n.,el｜傍晚,nightfall,4
+porcentaje,n.,el｜百分比,percentage,4
+dañar,v.,損害,to damage,4
+pálido,adj.,蒼白的,pale,4
+veterano,n.,el｜老兵,veteran,4
+sensibilidad,n.,la｜敏感,sensitivity,4
+golfo,n.,el｜海灣,gulf,4
+desacuerdo,n.,el｜分歧,disagreement,4
+modesto,adj.,謙虛的,modest,4
+atajo,n.,el｜捷徑,shortcut,4
+rapidez,n.,la｜迅速,speed,4
+fibra,n.,la｜纖維,fiber,4
+granjero,n.,el｜農夫,farmer,4
+suciedad,n.,la｜污垢,dirt,4
+deliberadamente,adv.,故意地,deliberately,4
+plasma,n.,el｜電漿；血漿,plasma,4
+demandar,v.,控告,to sue,4
+llanto,n.,el｜哭泣,crying,4
+sustituto,n.,el｜代替者,substitute,4
+soplón,n.,el｜告密者,snitch,4
+remolque,n.,el｜拖車,trailer,4
+reclamar,v.,要求；投訴,to claim; to complain,4
+infantería,n.,la｜步兵,infantry,4
+nuca,n.,la｜後頸,nape,4
+aprendiz,n.,el｜學徒,apprentice,4
+trueno,n.,el｜雷,thunder,4
+discreto,adj.,低調的,discreet,4
+anónimo,adj.,匿名的,anonymous,4
+molino,n.,el｜磨坊,mill,4
+alcohólico,adj.,含酒精的；el｜酒鬼,alcoholic,4
+hábil,adj.,靈巧的,skillful,4
+suspensión,n.,la｜暫停,suspension,4
+expulsar,v.,驅逐,to expel,4
+médula,n.,la｜骨髓,marrow,4
+blando,adj.,軟的,soft,4
+librería,n.,la｜書店,bookstore,4
+trío,n.,el｜三人組,trio,4
+finca,n.,la｜莊園,estate; farm,4
+asamblea,n.,la｜集會,assembly,4
+porche,n.,el｜門廊,porch,4
+náuseas,n.,las｜噁心,nausea,4
+amuleto,n.,el｜護身符,amulet,4
+simpatía,n.,la｜好感,sympathy; liking,4
+actualidad,n.,la｜現今,present time,4
+púrpura,adj.,紫色的,purple,4
+cumbre,n.,la｜高峰；峰會,summit,4
+calefacción,n.,la｜暖氣,heating,4
+mostaza,n.,la｜芥末,mustard,4
+psiquiátrico,adj.,精神病的,psychiatric,4
+desperdiciar,v.,浪費,to waste,4
+reaccionar,v.,反應,to react,4
+estadística,n.,la｜統計,statistic,4
+lateral,adj.,側面的,lateral,4
+humedad,n.,la｜濕度,humidity,4
+intuición,n.,la｜直覺,intuition,4
+erección,n.,la｜勃起,erection,4
+marcador,n.,el｜記分板；麥克筆,scoreboard; marker,4
+rabino,n.,el｜拉比,rabbi,4
+infectado,adj.,受感染的,infected,4
+arca,n.,el｜方舟（陰性名詞）,ark,4
+comerciante,n.,el｜商人,merchant,4
+utilidad,n.,la｜用處,usefulness,4
+exilio,n.,el｜流亡,exile,4
+inaceptable,adj.,不可接受的,unacceptable,4
+enmienda,n.,la｜修正案,amendment,4
+pulsera,n.,la｜手環,bracelet,4
+doblar,v.,折；轉彎；配音,to fold; to turn; to dub,4
+gramo,n.,el｜公克,gram,4
+maniobra,n.,la｜操作；機動,maneuver,4
+compensar,v.,補償,to compensate,4
+detectar,v.,偵測,to detect,4
+banana,n.,la｜香蕉,banana,4
+tesis,n.,la｜論文,thesis,4
+enojo,n.,el｜憤怒,anger,4
+acelerador,n.,el｜油門,accelerator,4
+repuesto,n.,el｜備品,spare part,4
+alucinación,n.,la｜幻覺,hallucination,4
+biológico,adj.,生物的,biological,4
+organismo,n.,el｜生物；機構,organism; body,4
+acostarse,v.,躺下；就寢,to lie down; to go to bed,4
+abismo,n.,el｜深淵,abyss,4
+prostitución,n.,la｜賣淫,prostitution,4
+picado,adj.,切碎的,chopped,4
+ambicioso,adj.,有野心的,ambitious,4
+camarote,n.,el｜船艙,cabin (ship),4
+determinación,n.,la｜決心,determination,4
+bofetada,n.,la｜耳光,slap,4
+elevador,n.,el｜電梯（拉美）,elevator (Latin America),4
+estafador,n.,el｜騙子,con artist,4
+felizmente,adv.,幸福地,happily,4
+noción,n.,la｜概念,notion,4
+corazonada,n.,la｜直覺,hunch,4
+castigar,v.,懲罰,to punish,4
+resolución,n.,la｜決議；解析度,resolution,4
+cordón,n.,el｜繩；鞋帶,cord; shoelace,4
+relajado,adj.,放鬆的,relaxed,4
+arrastrar,v.,拖,to drag,4
+tolerar,v.,容忍,to tolerate,4
+aliviar,v.,減輕,to relieve,4
+racional,adj.,理性的,rational,4
+espionaje,n.,el｜間諜活動,espionage,4
+electrónica,n.,la｜電子學,electronics,4
+homenaje,n.,el｜致敬,tribute,4
+infernal,adj.,地獄般的,infernal,4
+apartado,adj.,偏僻的,remote; secluded,4
+temporalmente,adv.,暫時地,temporarily,4
+peluche,n.,el｜絨毛玩具,stuffed toy,4
+económico,adj.,經濟的；便宜的,economic; cheap,4
+espectro,n.,el｜光譜；幽靈,spectrum; specter,4
+pabellón,n.,el｜展館；病房,pavilion; ward,4
+mecánica,n.,la｜力學；機械,mechanics,4
+abdomen,n.,el｜腹部,abdomen,4
+banca,n.,la｜銀行業,banking,4
+retrete,n.,el｜廁所,toilet,4
+tazón,n.,el｜碗,bowl,4
+activar,v.,啟動,to activate,4
+panqueque,n.,el｜鬆餅,pancake,4
+cuadrado,adj.,方的；el｜正方形,square,4
+transición,n.,la｜轉變,transition,4
+boxeador,n.,el｜拳擊手,boxer,4
+uva,n.,la｜葡萄,grape,4
+sudar,v.,流汗,to sweat,4
+congelador,n.,el｜冷凍庫,freezer,4
+atentado,n.,el｜襲擊,attack,4
+batido,n.,el｜奶昔,milkshake,4
+canasta,n.,la｜籃子,basket,4
+monumento,n.,el｜紀念碑,monument,4
+antorcha,n.,la｜火炬,torch,4
+antena,n.,la｜天線,antenna,4
+colaboración,n.,la｜合作,collaboration,4
+solicitar,v.,申請,to request; to apply,4
+taquilla,n.,la｜售票處；票房,ticket office; box office,4
+insignia,n.,la｜徽章,badge,4
+banquero,n.,el｜銀行家,banker,4
+artístico,adj.,藝術的,artistic,4
+coser,v.,縫,to sew,4
+temperamento,n.,el｜脾氣,temperament,4
+flaco,adj.,瘦的,skinny,4
+esteroide,n.,el｜類固醇,steroid,4
+cuota,n.,la｜配額；費用,quota; fee,4
+venda,n.,la｜繃帶,bandage,4
+secuestrar,v.,綁架,to kidnap,4
+avergonzar,v.,使羞愧,to embarrass,4
+arriesgarse,v.,冒險,to take a risk,4
+ostra,n.,la｜牡蠣,oyster,4
+procesar,v.,處理；起訴,to process; to prosecute,4
+tacón,n.,el｜鞋跟,heel,4
+igualdad,n.,la｜平等,equality,4
+saliva,n.,la｜唾液,saliva,4
+carnaval,n.,el｜嘉年華,carnival,4
+rasguño,n.,el｜抓痕,scratch,4
+transmisor,n.,el｜發射器,transmitter,4
+dieciséis,n.,十六,sixteen,4
+ingresar,v.,進入；存入,to enter; to deposit,4
+empeorar,v.,惡化,to worsen,4
+quejarse,v.,抱怨,to complain,4
+canciller,n.,el｜總理；外交部長,chancellor,4
+revelación,n.,la｜揭示,revelation,4
+disturbio,n.,el｜騷亂,riot,4
+divorciado,adj.,離婚的,divorced,4
+noventa,n.,九十,ninety,4
+élite,n.,la｜菁英,elite,4
+trastorno,n.,el｜失調；混亂,disorder,4
+explorador,n.,el｜探險家,explorer,4
+estribor,n.,el｜右舷,starboard,4
+operadora,n.,la｜接線員,operator,4
+puré,n.,el｜泥（食物）,purée; mash,4
+ejemplar,adj.,模範的；el｜一冊,exemplary; copy,4
+bloquear,v.,封鎖,to block,4
+rodeo,n.,el｜繞路；牛仔競技,detour; rodeo,4
+individual,adj.,個人的,individual,4
+pertenencias,n.,las｜個人物品,belongings,4
+fuertemente,adv.,強烈地,strongly,4
+noroeste,n.,el｜西北,northwest,4
+vegetal,n.,el｜植物；蔬菜,vegetable; plant,4
+frustrante,adj.,令人沮喪的,frustrating,4
+aplicar,v.,應用；塗抹,to apply,4
+triángulo,n.,el｜三角形,triangle,4
+funcionario,n.,el｜公務員,civil servant,4
+titular,n.,el｜標題；持有人,headline; holder,4
+catástrofe,n.,la｜大災難,catastrophe,4
+plantar,v.,種植,to plant,4
+amplio,adj.,寬廣的,wide; ample,4
+filmación,n.,la｜拍攝,filming,4
+discutido,adj.,有爭議的,controversial,4
+secuestrador,n.,el｜綁匪,kidnapper,4
+tambor,n.,el｜鼓,drum,4
+crudo,adj.,生的,raw,4
+ceja,n.,la｜眉毛,eyebrow,4
+alambre,n.,el｜鐵絲,wire,4
+recorte,n.,el｜剪報；削減,clipping; cut,4
+testículo,n.,el｜睪丸,testicle,4
+suegro,n.,el｜岳父；公公,father-in-law,4
+brindar,v.,乾杯；提供,to toast; to offer,4
+escalofrío,n.,el｜寒顫,shiver; chill,4
+ingenio,n.,el｜機智,wit; ingenuity,4
+grúa,n.,la｜起重機；拖吊車,crane; tow truck,4
+manipular,v.,操縱,to manipulate,4
+percepción,n.,la｜感知,perception,4
+sangrado,n.,el｜出血,bleeding,4
+supervisión,n.,la｜監督,supervision,4
+decoración,n.,la｜裝飾,decoration,4
+compuesto,adj.,組成的；el｜化合物,composed; compound,4
+maligno,adj.,惡性的,malignant,4
+acantilado,n.,el｜懸崖,cliff,4
+arrojar,v.,扔,to throw,4
+mareado,adj.,頭暈的,dizzy,4
+aburrimiento,n.,el｜無聊,boredom,4
+improbable,adj.,不太可能的,unlikely,4
+tacto,n.,el｜觸覺；圓滑,touch; tact,4
+predicador,n.,el｜傳教士,preacher,4
+presidencial,adj.,總統的,presidential,4
+audio,n.,el｜音訊,audio,4
+epidemia,n.,la｜流行病,epidemic,4
+moción,n.,la｜動議,motion,4
+imitación,n.,la｜模仿,imitation,4
+casual,adj.,偶然的,casual; chance,4
+aprobar,v.,批准；及格,to approve; to pass,4
+barca,n.,la｜小船,small boat,4
+vainilla,n.,la｜香草,vanilla,4
+vil,adj.,卑鄙的,vile,4
+estrecho,adj.,窄的,narrow,4
+cruzada,n.,la｜十字軍,crusade,4
+anormal,adj.,不正常的,abnormal,4
+disputa,n.,la｜爭執,dispute,4
+manguera,n.,la｜水管,hose,4
+condolencias,n.,las｜慰問,condolences,4
+sofisticado,adj.,精緻的,sophisticated,4
+sirena,n.,la｜警笛；美人魚,siren; mermaid,4
+manifestación,n.,la｜示威,demonstration,4
+devoción,n.,la｜虔誠,devotion,4
+espectador,n.,el｜觀眾,spectator,4
+mango,n.,el｜芒果；把手,mango; handle,4
+honrar,v.,尊敬,to honor,4
+extracción,n.,la｜提取,extraction,4
+proveedor,n.,el｜供應商,supplier,4
+característica,n.,la｜特徵,characteristic,4
+eliminación,n.,la｜淘汰；消除,elimination,4
+visible,adj.,可見的,visible,4
+transformación,n.,la｜轉變,transformation,4
+himno,n.,el｜國歌；讚美詩,anthem; hymn,4
+municipal,adj.,市立的,municipal,4
+calentar,v.,加熱,to heat,4
+murciélago,n.,el｜蝙蝠,bat,4
+dactilar,adj.,手指的（huella dactilar 指紋）,finger (fingerprint),4
+atómico,adj.,原子的,atomic,4
+expreso,n.,el｜快車；濃縮咖啡,express; espresso,4
+jarra,n.,la｜壺,jug; pitcher,4
+amistoso,adj.,友好的,friendly,4
+gelatina,n.,la｜果凍,jelly,4
+chisme,n.,el｜八卦,gossip,4
+estrellarse,v.,撞毀,to crash,4
+corregir,v.,改正,to correct,4
+exagerado,adj.,誇張的,exaggerated,4
+balance,n.,el｜平衡；結算,balance,4
+usual,adj.,平常的,usual,4
+exponer,v.,展示；暴露,to expose; to exhibit,4
+sensato,adj.,明智的,sensible,4
+circulación,n.,la｜循環；交通,circulation,4
+conquista,n.,la｜征服,conquest,4
+extraer,v.,提取,to extract,4
+hoguera,n.,la｜篝火,bonfire,4
+celebridad,n.,la｜名人,celebrity,4
+diputado,n.,el｜議員,deputy; MP,4
+polaco,adj.,波蘭的,Polish,4
+complacer,v.,使滿意,to please,4
+resonancia,n.,la｜共振；磁振造影,resonance; MRI,4
+severo,adj.,嚴厲的,severe,4
+tornado,n.,el｜龍捲風,tornado,4
+pizca,n.,la｜一點點,pinch,4
+concentrado,adj.,專心的,focused,4
+atlántico,adj.,大西洋的,Atlantic,4
+bancarrota,n.,la｜破產,bankruptcy,4
+yarda,n.,la｜碼,yard,4
+monasterio,n.,el｜修道院,monastery,4
+válvula,n.,la｜閥,valve,4
+oral,adj.,口頭的,oral,4
+bancario,adj.,銀行的,bank,4
+labial,adj.,唇的（lápiz labial 口紅）,lip (lipstick),4
+predecir,v.,預測,to predict,4
+abrazar,v.,擁抱,to hug,4
+anzuelo,n.,el｜魚鉤,fishhook,4
+carné,n.,el｜證件,ID card,4
+rebaño,n.,el｜羊群,flock,4
+alimentación,n.,la｜飲食；餵養,nutrition; feeding,4
+grieta,n.,la｜裂縫,crack,4
+reportero,n.,el｜記者,reporter,4
+escoba,n.,la｜掃帚,broom,4
+recado,n.,el｜口信；差事,message; errand,4
+hipótesis,n.,la｜假設,hypothesis,4
+desmayarse,v.,昏倒,to faint,4
+porción,n.,la｜份,portion,4
+tostada,n.,la｜吐司,toast,4
+reportaje,n.,el｜報導,report; feature,4
+redención,n.,la｜救贖,redemption,4
+cosmos,n.,el｜宇宙,cosmos,4
+ramo,n.,el｜花束,bouquet,4
+antigüedad,n.,la｜古董；古代,antique; antiquity,4
+útero,n.,el｜子宮,uterus,4
+mayormente,adv.,主要地,mostly,4
+apelación,n.,la｜上訴,appeal,4
+comprensible,adj.,可理解的,understandable,4
+pino,n.,el｜松樹,pine,4
+carrito,n.,el｜推車,cart,4
+índice,n.,el｜索引；食指,index; index finger,4
+aplastar,v.,壓扁,to crush,4
+audaz,adj.,大膽的,bold,4
+descargar,v.,下載；卸貨,to download; to unload,4
+apuñalar,v.,刺,to stab,4
+animado,adj.,活潑的；動畫的,lively; animated,4
+norteamericano,adj.,北美的；美國的,North American,4
+metáfora,n.,la｜隱喻,metaphor,4
+redondo,adj.,圓的,round,4
+derrame,n.,el｜溢出；中風,spill; stroke,4
+espina,n.,la｜刺；魚刺,thorn; fishbone,4
+frontal,adj.,正面的,frontal,4
+tramposo,n.,el｜作弊者,cheat,4
+ferry,n.,el｜渡輪,ferry,4
+apasionado,adj.,熱情的,passionate,4
+rendimiento,n.,el｜表現；產量,performance; yield,4
+ajustar,v.,調整,to adjust,4
+escombros,n.,los｜瓦礫,rubble,4
+señalar,v.,指出,to point out,4
+tercio,n.,el｜三分之一,third,4
+ahogado,adj.,淹死的,drowned,4
+regazo,n.,el｜膝上,lap,4
+preparativos,n.,los｜準備工作,preparations,4
+poción,n.,la｜藥水,potion,4
+diálogo,n.,el｜對話,dialogue,4
+amargo,adj.,苦的,bitter,4
+motivación,n.,la｜動機,motivation,4
+arrogancia,n.,la｜傲慢,arrogance,4
+presidencia,n.,la｜總統職位,presidency,4
+peculiar,adj.,奇特的,peculiar,4
+entusiasmado,adj.,興奮的,enthusiastic,4
+distraído,adj.,分心的,distracted,4
+carreta,n.,la｜馬車,cart,4
+mentor,n.,el｜導師,mentor,4
+ajuste,n.,el｜調整,adjustment,4
+consciencia,n.,la｜意識,consciousness,4
+observador,n.,el｜觀察者,observer,4
+mediano,adj.,中等的,medium,4
+inmigrante,n.,el｜移民,immigrant,4
+diseñador,n.,el｜設計師,designer,4
+encerrar,v.,關起來,to lock up,4
+alérgico,adj.,過敏的,allergic,4
+pila,n.,la｜電池；一堆,battery; pile,4
+antibiótico,n.,el｜抗生素,antibiotic,4
+pasto,n.,el｜牧草,pasture; grass,4
+ilegalmente,adv.,非法地,illegally,4
+tractor,n.,el｜拖拉機,tractor,4
+compensación,n.,la｜補償,compensation,4
+víbora,n.,la｜毒蛇,viper,4
+inmenso,adj.,巨大的,immense,4
+aspirina,n.,la｜阿斯匹靈,aspirin,4
+previo,adj.,事先的,previous,4
+asociado,n.,el｜合夥人,associate,4
+tubería,n.,la｜管道,pipe,4
+ordinario,adj.,普通的,ordinary,4
+exploración,n.,la｜探索,exploration,4
+sueco,adj.,瑞典的,Swedish,4
+arquitectura,n.,la｜建築,architecture,4
+proponer,v.,提議,to propose,4
+veinticinco,n.,二十五,twenty-five,4
+afirmativo,adj.,肯定的,affirmative,4
+carpa,n.,la｜帳篷；鯉魚,tent; carp,4
+comportarse,v.,表現；守規矩,to behave,4
+intercambiar,v.,交換,to exchange,4
+superintendente,n.,el｜督察長,superintendent,4
+empate,n.,el｜平手,tie; draw,4
+inspirado,adj.,受啟發的,inspired,4
+genético,adj.,遺傳的,genetic,4
+mutuo,adj.,相互的,mutual,4
+reparación,n.,la｜修理,repair,4
+desvío,n.,el｜繞道,detour,4
+mezclar,v.,混合,to mix,4
+afeitar,v.,刮鬍子,to shave,4
+conducto,n.,el｜管道,duct,4
+kárate,n.,el｜空手道,karate,5
+pirámide,n.,la｜金字塔,pyramid,5
+morada,n.,la｜住所,dwelling,5
+familiarizado,adj.,熟悉的,familiar,5
+funeraria,n.,la｜殯儀館,funeral home,5
+mercurio,n.,el｜水銀,mercury,5
+acta,n.,el｜紀錄；證書（陰性名詞）,minutes; certificate,5
+dieciocho,n.,十八,eighteen,5
+sexto,adj.,第六,sixth,5
+diligencia,n.,la｜勤奮,diligence,5
+creíble,adj.,可信的,credible,5
+bronce,n.,el｜青銅,bronze,5
+gravemente,adv.,嚴重地,seriously,5
+editorial,n.,la｜出版社,publisher,5
+recurrir,v.,求助,to resort to,5
+disfrazado,adj.,偽裝的,disguised,5
+travieso,adj.,頑皮的,naughty,5
+trapo,n.,el｜抹布,rag,5
+cortés,adj.,有禮貌的,polite,5
+barbilla,n.,la｜下巴,chin,5
+diplomático,n.,el｜外交官,diplomat,5
+definir,v.,定義,to define,5
+agonía,n.,la｜痛苦,agony,5
+ternera,n.,la｜小牛肉,veal,5
+huérfano,n.,el｜孤兒,orphan,5
+prototipo,n.,el｜原型,prototype,5
+consultar,v.,諮詢,to consult,5
+peón,n.,el｜工人；兵（棋）,laborer; pawn,5
+acampar,v.,露營,to camp,5
+exigente,adj.,要求高的,demanding,5
+chupar,v.,吸,to suck,5
+justificar,v.,辯解,to justify,5
+madrastra,n.,la｜繼母,stepmother,5
+autoestima,n.,la｜自尊,self-esteem,5
+psicológico,adj.,心理的,psychological,5
+preparatoria,n.,la｜高中（墨西哥）,high school (Mexico),5
+programación,n.,la｜程式設計；節目表,programming; schedule,5
+árbitro,n.,el｜裁判,referee,5
+interferencia,n.,la｜干擾,interference,5
+radiante,adj.,燦爛的,radiant,5
+altitud,n.,la｜海拔,altitude,5
+fiarse,v.,信任,to trust,5
+erupción,n.,la｜爆發；疹子,eruption; rash,5
+puntual,adj.,準時的,punctual,5
+brujería,n.,la｜巫術,witchcraft,5
+excitar,v.,使興奮,to excite,5
+impecable,adj.,無瑕的,impeccable,5
+casillero,n.,el｜置物櫃,locker,5
+presentir,v.,預感,to have a feeling,5
+bocadillo,n.,el｜三明治；點心,sandwich; snack,5
+pasatiempo,n.,el｜嗜好,hobby,5
+opinar,v.,認為,to think; to give an opinion,5
+rastreador,n.,el｜追蹤器,tracker,5
+sanguíneo,adj.,血液的,blood,5
+realeza,n.,la｜皇室,royalty,5
+agotador,adj.,累人的,exhausting,5
+sorprendentemente,adv.,令人驚訝地,surprisingly,5
+pesa,n.,la｜啞鈴；秤砣,weight,5
+pizarra,n.,la｜黑板,blackboard,5
+vitamina,n.,la｜維他命,vitamin,5
+panza,n.,la｜肚子,belly,5
+chistoso,adj.,好笑的,funny,5
+neutral,adj.,中立的,neutral,5
+extinción,n.,la｜滅絕,extinction,5
+pedido,n.,el｜訂單,order,5
+repartir,v.,分配,to distribute,5
+escotilla,n.,la｜艙口,hatch,5
+trineo,n.,el｜雪橇,sled,5
+foco,n.,el｜焦點；燈泡,focus; light bulb,5
+considerable,adj.,相當大的,considerable,5
+comunitario,adj.,社區的,community,5
+encendedor,n.,el｜打火機,lighter,5
+nochebuena,n.,la｜平安夜,Christmas Eve,5
+catedral,n.,la｜大教堂,cathedral,5
+atrasado,adj.,遲的；落後的,late; behind,5
+peluquería,n.,la｜理髮店,hair salon,5
+concha,n.,la｜貝殼,shell,5
+higiénico,adj.,衛生的（papel higiénico 衛生紙）,hygienic (toilet paper),5
+maratón,n.,el｜馬拉松,marathon,5
+consultorio,n.,el｜診所,doctor's office,5
+relámpago,n.,el｜閃電,lightning,5
+esponja,n.,la｜海綿,sponge,5
+públicamente,adv.,公開地,publicly,5
+intensidad,n.,la｜強度,intensity,5
+mudanza,n.,la｜搬家,move (house),5
+tinto,adj.,紅（葡萄酒）,red (wine),5
+expansión,n.,la｜擴張,expansion,5
+reposo,n.,el｜休息,rest,5
+revolucionario,adj.,革命的,revolutionary,5
+estima,n.,la｜尊重,esteem,5
+codicia,n.,la｜貪婪,greed,5
+adecuadamente,adv.,適當地,adequately,5
+convicto,n.,el｜罪犯,convict,5
+decencia,n.,la｜體面,decency,5
+reventar,v.,爆裂,to burst,5
+calificación,n.,la｜成績；資格,grade; qualification,5
+originalmente,adv.,原本,originally,5
+conmovedor,adj.,感人的,moving,5
+aprendizaje,n.,el｜學習,learning,5
+pinzas,n.,las｜鉗子；夾子,tweezers; pliers,5
+histérico,adj.,歇斯底里的,hysterical,5
+alférez,n.,el｜少尉,ensign,5
+carnada,n.,la｜誘餌,bait,5
+emperatriz,n.,la｜女皇,empress,5
+bárbaro,adj.,野蠻的；超棒的,barbaric; awesome,5
+esfera,n.,la｜球體,sphere,5
+decena,n.,la｜十個,ten (approximately),5
+abiertamente,adv.,公開地,openly,5
+anestesia,n.,la｜麻醉,anesthesia,5
+alcaide,n.,el｜典獄長,warden,5
+arsenal,n.,el｜軍火庫,arsenal,5
+marcial,adj.,軍事的（artes marciales 武術）,martial,5
+monseñor,n.,el｜主教閣下,monsignor,5
+composición,n.,la｜組成；作文,composition,5
+dilema,n.,el｜兩難,dilemma,5
+íntimo,adj.,親密的,intimate,5
+espiar,v.,偵察,to spy,5
+manuscrito,n.,el｜手稿,manuscript,5
+comodidad,n.,la｜舒適,comfort,5
+eje,n.,el｜軸,axis,5
+transferir,v.,轉移,to transfer,5
+estropear,v.,弄壞,to ruin; to spoil,5
+compadre,n.,el｜老兄；教父,buddy; godfather,5
+legión,n.,la｜軍團,legion,5
+vivienda,n.,la｜住宅,housing,5
+limitado,adj.,有限的,limited,5
+sellado,adj.,密封的,sealed,5
+entendimiento,n.,el｜理解,understanding,5
+interrupción,n.,la｜中斷,interruption,5
+credibilidad,n.,la｜可信度,credibility,5
+cereal,n.,el｜穀物；麥片,cereal,5
+preliminar,adj.,初步的,preliminary,5
+detonador,n.,el｜雷管,detonator,5
+puntuación,n.,la｜分數；標點,score; punctuation,5
+víspera,n.,la｜前夕,eve,5
+penique,n.,el｜便士,penny,5
+amnesia,n.,la｜失憶,amnesia,5
+lujuria,n.,la｜色慾,lust,5
+lancha,n.,la｜快艇,motorboat,5
+fundador,n.,el｜創辦人,founder,5
+contribución,n.,la｜貢獻,contribution,5
+agricultura,n.,la｜農業,agriculture,5
+terco,adj.,固執的,stubborn,5
+paramédico,n.,el｜醫護人員,paramedic,5
+tarifa,n.,la｜費率,rate; fare,5
+parroquia,n.,la｜教區,parish,5
+sapo,n.,el｜蟾蜍,toad,5
+trompeta,n.,la｜小號,trumpet,5
+transportar,v.,運輸,to transport,5
+donar,v.,捐贈,to donate,5
+republicano,adj.,共和的,republican,5
+zanahoria,n.,la｜胡蘿蔔,carrot,5
+creciente,adj.,增長的,growing,5
+automáticamente,adv.,自動地,automatically,5
+búfalo,n.,el｜水牛,buffalo,5
+vengar,v.,報仇,to avenge,5
+horca,n.,la｜絞刑架,gallows,5
+narrador,n.,el｜旁白,narrator,5
+intacto,adj.,完整的,intact,5
+preservar,v.,保存,to preserve,5
+occidente,n.,el｜西方,the West,5
+trance,n.,el｜恍惚,trance,5
+recipiente,n.,el｜容器,container,5
+negación,n.,la｜否認,denial,5
+entretenido,adj.,有趣的,entertaining,5
+silbato,n.,el｜哨子,whistle,5
+plátano,n.,el｜香蕉；大蕉,banana; plantain,5
+instructor,n.,el｜教練,instructor,5
+cursi,adj.,俗氣的,cheesy,5
+cereza,n.,la｜櫻桃,cherry,5
+inversor,n.,el｜投資者,investor,5
+ventilador,n.,el｜電扇,fan,5
+ofensivo,adj.,冒犯的,offensive,5
+falsificación,n.,la｜偽造,forgery,5
+armamento,n.,el｜武器裝備,weaponry,5
+látigo,n.,el｜鞭子,whip,5
+admisión,n.,la｜錄取,admission,5
+subtitulado,adj.,附字幕的,subtitled,5
+europeo,adj.,歐洲的,European,5
+cariñoso,adj.,深情的,affectionate,5
+fluir,v.,流動,to flow,5
+madrina,n.,la｜教母,godmother,5
+fabricar,v.,製造,to manufacture,5
+doctorado,n.,el｜博士學位,doctorate,5
+pureza,n.,la｜純潔,purity,5
+entrante,adj.,即將到來的,incoming,5
+jacuzzi,n.,el｜按摩浴缸,hot tub,5
+agudo,adj.,尖銳的；敏銳的,sharp; acute,5
+longitud,n.,la｜長度,length,5
+portarse,v.,表現（行為）,to behave,5
+sabroso,adj.,美味的,tasty,5
+eficaz,adj.,有效的,effective,5
+operador,n.,el｜操作員,operator,5
+etcétera,adv.,等等,et cetera,5
+grifo,n.,el｜水龍頭,tap,5
+psíquico,adj.,心靈的,psychic,5
+votante,n.,el｜選民,voter,5
+remordimiento,n.,el｜悔恨,remorse,5
+sultán,n.,el｜蘇丹,sultan,5
+anular,v.,取消,to cancel,5
+ventanilla,n.,la｜窗口,window (counter),5
+carpeta,n.,la｜文件夾,folder,5
+hundido,adj.,沉沒的,sunk,5
+siniestro,adj.,陰森的,sinister,5
+opio,n.,el｜鴉片,opium,5
+hidrógeno,n.,el｜氫,hydrogen,5
+significativo,adj.,重要的,significant,5
+telescopio,n.,el｜望遠鏡,telescope,5
+jaque,n.,el｜將軍（棋）,check (chess),5
+alterar,v.,改變,to alter,5
+frustrado,adj.,挫折的,frustrated,5
+flauta,n.,la｜長笛,flute,5
+estante,n.,el｜架子,shelf,5
+milicia,n.,la｜民兵,militia,5
+trasplante,n.,el｜移植,transplant,5
+módulo,n.,el｜模組,module,5
+convencional,adj.,傳統的,conventional,5
+desarmado,adj.,手無寸鐵的,unarmed,5
+enseñanza,n.,la｜教學,teaching,5
+contestador,n.,el｜答錄機,answering machine,5
+raya,n.,la｜條紋；線,stripe; line,5
+rellenar,v.,填寫,to fill in,5
+verdugo,n.,el｜劊子手,executioner,5
+cúpula,n.,la｜圓頂,dome,5
+veto,n.,el｜否決,veto,5
+póliza,n.,la｜保單,policy (insurance),5
+retener,v.,保留,to retain,5
+jubilación,n.,la｜退休,retirement,5
+mineral,n.,el｜礦物,mineral,5
+fluido,n.,el｜液體；adj. 流暢的,fluid; fluent,5
+estofado,n.,el｜燉菜,stew,5
+capucha,n.,la｜兜帽,hood,5
+maternidad,n.,la｜母性；產科,maternity,5
+resurrección,n.,la｜復活,resurrection,5
+muslo,n.,el｜大腿,thigh,5
+pecador,n.,el｜罪人,sinner,5
+avena,n.,la｜燕麥,oats,5
+popa,n.,la｜船尾,stern,5
+ruidoso,adj.,吵的,noisy,5
+disgustado,adj.,不悅的,upset,5
+reforma,n.,la｜改革,reform,5
+recreo,n.,el｜下課休息,recess,5
+anomalía,n.,la｜異常,anomaly,5
+cucaracha,n.,la｜蟑螂,cockroach,5
+caviar,n.,el｜魚子醬,caviar,5
+abordar,v.,登上；處理,to board; to tackle,5
+chocar,v.,相撞,to crash,5
+buscador,n.,el｜搜尋引擎,search engine,5
+celeste,adj.,天藍色的,sky blue,5
+descenso,n.,el｜下降,descent,5
+brote,n.,el｜嫩芽；爆發,sprout; outbreak,5
+tributo,n.,el｜貢品；致敬,tribute,5
+arterial,adj.,動脈的,arterial,5
+filtro,n.,el｜濾器,filter,5
+denunciar,v.,檢舉,to report,5
+maquinaria,n.,la｜機械,machinery,5
+reglamento,n.,el｜規章,regulations,5
+invencible,adj.,無敵的,invincible,5
+masivo,adj.,大量的,massive,5
+extrañamente,adv.,奇怪地,strangely,5
+bikini,n.,el｜比基尼,bikini,5
+fidelidad,n.,la｜忠誠,fidelity,5
+nuera,n.,la｜媳婦,daughter-in-law,5
+farol,n.,el｜燈籠；虛張聲勢,lantern; bluff,5
+alergia,n.,la｜過敏,allergy,5
+impostor,n.,el｜冒充者,impostor,5
+convoy,n.,el｜車隊,convoy,5
+equivalente,adj.,相等的,equivalent,5
+balística,n.,la｜彈道學,ballistics,5
+brújula,n.,la｜指南針,compass,5
+contaminación,n.,la｜污染,pollution,5
+irritante,adj.,惱人的,irritating,5
+insolente,adj.,無禮的,insolent,5
+cobro,n.,el｜收費,charge; collection,5
+minero,n.,el｜礦工,miner,5
+secta,n.,la｜教派,sect; cult,5
+gitano,n.,el｜吉普賽人,Gypsy; Roma,5
+graduado,n.,el｜畢業生,graduate,5
+diarrea,n.,la｜腹瀉,diarrhea,5
+sangriento,adj.,血腥的,bloody,5
+prejuicio,n.,el｜偏見,prejudice,5
+permanentemente,adv.,永久地,permanently,5
+pese,prep.,（pese a 儘管）,(pese a) despite,5
+roble,n.,el｜橡樹,oak,5
+quinientos,n.,五百,five hundred,5
+fresa,n.,la｜草莓,strawberry,5
+regularmente,adv.,定期地,regularly,5
+zumbido,n.,el｜嗡嗡聲,buzzing,5
+bribón,n.,el｜無賴,rascal,5
+cólera,n.,la｜憤怒；el｜霍亂,anger; cholera,5
+magistrado,n.,el｜法官,magistrate,5
+reconstrucción,n.,la｜重建,reconstruction,5
+vara,n.,la｜棍子,rod; stick,5
+discoteca,n.,la｜迪斯可舞廳,nightclub,5
+fastidio,n.,el｜煩人事,nuisance,5
+lavadora,n.,la｜洗衣機,washing machine,5
+proyección,n.,la｜放映；投影,projection; screening,5
+atropellar,v.,撞到（車禍）,to run over,5
+mendigo,n.,el｜乞丐,beggar,5
+fosa,n.,la｜墳坑,pit; grave,5
+ecuación,n.,la｜方程式,equation,5
+nostalgia,n.,la｜懷舊,nostalgia,5
+resistente,adj.,耐用的,resistant,5
+apropiadamente,adv.,適當地,appropriately,5
+vago,adj.,懶惰的；模糊的,lazy; vague,5
+diecisiete,n.,十七,seventeen,5
+natación,n.,la｜游泳,swimming,5
+fabricante,n.,el｜製造商,manufacturer,5
+peludo,adj.,多毛的,hairy,5
+cuestionar,v.,質疑,to question,5
+décimo,adj.,第十,tenth,5
+estricto,adj.,嚴格的,strict,5
+cuadrante,n.,el｜象限,quadrant,5
+criado,n.,el｜僕人,servant,5
+aprisa,adv.,快,quickly,5
+carpintero,n.,el｜木匠,carpenter,5
+delfín,n.,el｜海豚,dolphin,5
+coreano,adj.,韓國的,Korean,5
+asma,n.,el｜氣喘（陰性名詞）,asthma,5
+cartón,n.,el｜紙板,cardboard,5
+rima,n.,la｜押韻,rhyme,5
+tortilla,n.,la｜蛋餅；玉米餅,omelette; tortilla,5
+sexualidad,n.,la｜性取向,sexuality,5
+merced,n.,la｜恩惠（a merced de 任由）,mercy,5
+anticuado,adj.,過時的,old-fashioned,5
+camarón,n.,el｜蝦,shrimp,5
+descartar,v.,排除,to rule out,5
+impotente,adj.,無力的,powerless,5
+callejero,adj.,街頭的,street,5
+hacker,n.,el｜駭客,hacker,5
+despiadado,adj.,無情的,ruthless,5
+delantero,adj.,前面的；el｜前鋒,front; forward,5
+agitado,adj.,激動的,agitated,5
+nobleza,n.,la｜貴族；高尚,nobility,5
+metálico,adj.,金屬的,metallic,5
+relato,n.,el｜故事,story; account,5
+sujetador,n.,el｜胸罩,bra,5
+carnicería,n.,la｜肉舖,butcher shop,5
+retorcido,adj.,扭曲的,twisted,5
+nalga,n.,la｜屁股,buttock,5
+vocación,n.,la｜天職,vocation,5
+estresante,adj.,有壓力的,stressful,5
+ajustado,adj.,貼身的,tight,5
+alce,n.,el｜駝鹿,moose,5
+aposento,n.,el｜房間,chamber,5
+diccionario,n.,el｜字典,dictionary,5
+firmemente,adv.,堅定地,firmly,5
+laguna,n.,la｜潟湖,lagoon,5
+moretón,n.,el｜瘀青,bruise,5
+mandato,n.,el｜任期；命令,mandate; term,5
+folleto,n.,el｜小冊子,brochure,5
+yeso,n.,el｜石膏,plaster,5
+catálogo,n.,el｜目錄,catalog,5
+sastre,n.,el｜裁縫,tailor,5
+proyectar,v.,投射；計畫,to project,5
+marketing,n.,el｜行銷,marketing,5
+estresado,adj.,有壓力的,stressed,5
+empujón,n.,el｜推,push,5
+negligencia,n.,la｜疏忽,negligence,5
+compositor,n.,el｜作曲家,composer,5
+chequeo,n.,el｜健康檢查,checkup,5
+diabetes,n.,la｜糖尿病,diabetes,5
+establecimiento,n.,el｜機構；商店,establishment,5
+generar,v.,產生,to generate,5
+reportar,v.,報告,to report,5
+recepcionista,n.,el｜接待員,receptionist,5
+pisar,v.,踩,to step on,5
+holandés,adj.,荷蘭的,Dutch,5
+duende,n.,el｜小精靈,elf; goblin,5
+canguro,n.,el｜袋鼠,kangaroo,5
+mutante,n.,el｜突變體,mutant,5
+vanidad,n.,la｜虛榮,vanity,5
+emisión,n.,la｜廣播；排放,broadcast; emission,5
+infiltrado,n.,el｜臥底,infiltrator,5
+estacionado,adj.,停著的,parked,5
+liberal,adj.,自由的,liberal,5
+proa,n.,la｜船首,bow (ship),5
+lector,n.,el｜讀者,reader,5
+aluminio,n.,el｜鋁,aluminum,5
+lona,n.,la｜帆布,canvas,5
+quebrado,adj.,破碎的,broken,5
+loro,n.,el｜鸚鵡,parrot,5
+creyente,n.,el｜信徒,believer,5
+inspirar,v.,啟發,to inspire,5
+tolerancia,n.,la｜寬容,tolerance,5
+agresor,n.,el｜侵略者,aggressor,5
+sobrenatural,adj.,超自然的,supernatural,5
+innecesario,adj.,不必要的,unnecessary,5
+legendario,adj.,傳奇的,legendary,5
+restaurar,v.,修復,to restore,5
+balsa,n.,la｜木筏,raft,5
+cofre,n.,el｜箱子,chest,5
+puntería,n.,la｜準頭,aim,5
+aperitivo,n.,el｜開胃菜,appetizer,5
+fijar,v.,固定,to fix; to set,5
+accidental,adj.,意外的,accidental,5
+paternidad,n.,la｜父親身分,paternity,5
+inmune,adj.,免疫的,immune,5
+tacaño,adj.,小氣的,stingy,5
+presumir,v.,炫耀,to show off,5
+indicio,n.,el｜跡象,sign; indication,5
+criterio,n.,el｜標準,criterion,5
+doméstico,adj.,家庭的,domestic,5
+latido,n.,el｜心跳,heartbeat,5
+dominante,adj.,主導的,dominant,5
+poseer,v.,擁有,to possess,5
+parásito,n.,el｜寄生蟲,parasite,5
+motín,n.,el｜叛變,mutiny; riot,5
+honorarios,n.,los｜酬金,fees,5
+contratista,n.,el｜承包商,contractor,5
+matriz,n.,la｜矩陣；子宮,matrix; womb,5
+fascista,adj.,法西斯的,fascist,5
+proteína,n.,la｜蛋白質,protein,5
+estatus,n.,el｜地位,status,5
+prometedor,adj.,有前途的,promising,5
+inquieto,adj.,不安的,restless,5
+recordatorio,n.,el｜提醒,reminder,5
+flexible,adj.,彈性的,flexible,5
+esquí,n.,el｜滑雪,skiing,5
+virtual,adj.,虛擬的,virtual,5
+delantal,n.,el｜圍裙,apron,5
+pianista,n.,el｜鋼琴家,pianist,5
+choza,n.,la｜茅屋,hut,5
+bocina,n.,la｜喇叭,horn,5
+altavoz,n.,el｜擴音器,loudspeaker,5
+plancha,n.,la｜熨斗,iron (clothes),5
+plegaria,n.,la｜祈禱,prayer,5
+colaborar,v.,合作,to collaborate,5
+flojo,adj.,鬆的；懶的,loose; lazy,5
+renacimiento,n.,el｜復興,rebirth; Renaissance,5
+infame,adj.,可恥的,infamous,5
+ternura,n.,la｜溫柔,tenderness,5
+capricho,n.,el｜任性,whim,5
+imán,n.,el｜磁鐵,magnet,5
+directiva,n.,la｜指令；董事會,directive; board,5
+canela,n.,la｜肉桂,cinnamon,5
+pulga,n.,la｜跳蚤,flea,5
+caldo,n.,el｜湯；高湯,broth,5
+vicio,n.,el｜惡習,vice,5
+visa,n.,la｜簽證,visa,5
+mismísimo,adj.,正是,very same,5
+asiático,adj.,亞洲的,Asian,5
+empeño,n.,el｜努力；典當,effort; pawn,5
+continuo,adj.,連續的,continuous,5
+cultivar,v.,耕種,to cultivate,5
+seno,n.,el｜胸部；懷抱,breast; bosom,5
+relativamente,adv.,相對地,relatively,5
+bacteria,n.,la｜細菌,bacterium,5
+consulado,n.,el｜領事館,consulate,5
+caloría,n.,la｜卡路里,calorie,5
+dedicación,n.,la｜奉獻,dedication,5
+precedente,n.,el｜先例,precedent,5
+parche,n.,el｜補丁,patch,5
+cultivo,n.,el｜作物；栽培,crop; cultivation,5
+elegancia,n.,la｜優雅,elegance,5
+fachada,n.,la｜外觀,facade,5
+perezoso,adj.,懶惰的,lazy,5
+revivir,v.,復活,to revive,5
+planificación,n.,la｜規劃,planning,5
+receso,n.,el｜休會,recess,5
+coordinación,n.,la｜協調,coordination,5
+diploma,n.,el｜文憑,diploma,5
+fiable,adj.,可靠的,reliable,5
+hechicero,n.,el｜巫師,sorcerer,5
+bistec,n.,el｜牛排,steak,5
+receptor,n.,el｜接收器,receiver,5
+recuento,n.,el｜計數,count,5
+matrimonial,adj.,婚姻的,marital,5
+capataz,n.,el｜工頭,foreman,5
+experimental,adj.,實驗性的,experimental,5
+hangar,n.,el｜機庫,hangar,5
+invadir,v.,入侵,to invade,5
+acosar,v.,騷擾,to harass,5
+africano,adj.,非洲的,African,5
+atuendo,n.,el｜服裝,outfit,5
+mártir,n.,el｜烈士,martyr,5
+inclusive,adv.,包括,inclusive,5
+tinieblas,n.,las｜黑暗,darkness,5
+inscripción,n.,la｜登記；銘文,registration; inscription,5
+pulpo,n.,el｜章魚,octopus,5
+esmoquin,n.,el｜燕尾服,tuxedo,5
+panadería,n.,la｜麵包店,bakery,5
+estabilidad,n.,la｜穩定,stability,5
+clasificado,adj.,機密的,classified,5
+bitácora,n.,la｜航海日誌,logbook,5
+jarrón,n.,el｜花瓶,vase,5
+grueso,adj.,厚的,thick,5
+paralizado,adj.,癱瘓的,paralyzed,5
+calcular,v.,計算,to calculate,5
+estufa,n.,la｜爐子,stove,5
+obstrucción,n.,la｜阻礙,obstruction,5
+irresistible,adj.,無法抗拒的,irresistible,5
+suburbio,n.,el｜郊區,suburb,5
+enigma,n.,el｜謎,enigma,5
+regional,adj.,地區的,regional,5
+corral,n.,el｜畜欄,corral; pen,5
+charco,n.,el｜水窪,puddle,5
+introducir,v.,引入,to introduce,5
+noveno,adj.,第九,ninth,5
+informal,adj.,非正式的,informal,5
+boletín,n.,el｜公報,bulletin,5
+asignación,n.,la｜分配,assignment,5
+heterosexual,adj.,異性戀的,heterosexual,5
+castor,n.,el｜海狸,beaver,5
+demencia,n.,la｜失智,dementia,5
+vals,n.,el｜華爾滋,waltz,5
+recaudación,n.,la｜募款,fundraising,5
+envejecer,v.,變老,to age,5
+implacable,adj.,無情的,relentless,5
+revancha,n.,la｜復仇賽,rematch,5
+auxiliar,adj.,輔助的,auxiliary,5
+prohibición,n.,la｜禁令,prohibition,5
+maníaco,n.,el｜瘋子,maniac,5
+entusiasta,adj.,熱衷的,enthusiastic,5
+reproducción,n.,la｜繁殖；播放,reproduction; playback,5
+sabelotodo,n.,el｜萬事通,know-it-all,5
+escalofriante,adj.,令人發毛的,chilling,5
+fogata,n.,la｜營火,campfire,5
+abundancia,n.,la｜豐富,abundance,5
+equipamiento,n.,el｜裝備,equipment,5
+filo,n.,el｜刀刃,edge; blade,5
+camerino,n.,el｜化妝室,dressing room,5
+umbral,n.,el｜門檻,threshold,5
+transacción,n.,la｜交易,transaction,5
+piña,n.,la｜鳳梨,pineapple,5
+dinastía,n.,la｜王朝,dynasty,5
+vegetariano,adj.,素食的,vegetarian,5
+caluroso,adj.,炎熱的,hot,5
+animación,n.,la｜動畫；熱鬧,animation; liveliness,5
+acre,n.,el｜英畝,acre,5
+externo,adj.,外部的,external,5
+ganga,n.,la｜便宜貨,bargain,5
+encuesta,n.,la｜調查,survey,5
+recluta,n.,el｜新兵,recruit,5
+ascender,v.,上升；晉升,to rise; to be promoted,5
+tristemente,adv.,悲傷地,sadly,5
+intestino,n.,el｜腸,intestine,5
+tornillo,n.,el｜螺絲,screw,5
+mordisco,n.,el｜一口,bite,5
+terciopelo,n.,el｜天鵝絨,velvet,5
+orar,v.,祈禱,to pray,5
+cordura,n.,la｜理智,sanity,5
+coste,n.,el｜成本,cost,5
+colisión,n.,la｜碰撞,collision,5
+abusar,v.,濫用；虐待,to abuse,5
+suplente,n.,el｜替補,substitute,5
+pocilga,n.,la｜豬圈,pigsty,5
+imprimir,v.,列印,to print,5
+aula,n.,el｜教室（陰性名詞）,classroom,5
+emocionar,v.,使感動,to move; to excite,5
+feto,n.,el｜胎兒,fetus,5
+suspender,v.,暫停；不及格,to suspend; to fail,5
+enfado,n.,el｜生氣,anger,5
+copiar,v.,複製,to copy,5
+frenar,v.,煞車,to brake,5
+ocasionalmente,adv.,偶爾,occasionally,5
+inmoral,adj.,不道德的,immoral,5
+financiar,v.,資助,to finance,5
+sabotaje,n.,el｜破壞,sabotage,5
+carril,n.,el｜車道,lane,5
+borrador,n.,el｜草稿；板擦,draft; eraser,5
+cuchilla,n.,la｜刀片,blade,5
+clemencia,n.,la｜寬恕,clemency,5
+comunión,n.,la｜聖餐,communion,5
+exclusivamente,adv.,專門地,exclusively,5
+eclipse,n.,el｜蝕,eclipse,5
+restricción,n.,la｜限制,restriction,5
+comunismo,n.,el｜共產主義,communism,5
+suizo,adj.,瑞士的,Swiss,5
+pronóstico,n.,el｜預報；預後,forecast; prognosis,5
+recaudar,v.,募集,to raise (funds),5
+almacenamiento,n.,el｜儲存,storage,5
+sarcasmo,n.,el｜諷刺,sarcasm,5
+casualmente,adv.,碰巧,by chance,5
+tragar,v.,吞,to swallow,5
+brevemente,adv.,簡短地,briefly,5
+leopardo,n.,el｜豹,leopard,5
+muscular,adj.,肌肉的,muscular,5
+filósofo,n.,el｜哲學家,philosopher,5
+barbero,n.,el｜理髮師,barber,5
+embarque,n.,el｜登機,boarding,5
+lente,n.,la｜鏡片,lens,5
+herrero,n.,el｜鐵匠,blacksmith,5
+librar,v.,解救,to free; to spare,5
+invención,n.,la｜發明,invention,5
+colmo,n.,el｜極點,the limit; height,5
+cafeína,n.,la｜咖啡因,caffeine,5
+prenda,n.,la｜衣物,garment,5
+latino,adj.,拉丁的,Latin,5
+pulmonar,adj.,肺的,pulmonary,5
+descendiente,n.,el｜後代,descendant,5
+contribuir,v.,貢獻,to contribute,5
+uranio,n.,el｜鈾,uranium,5
+dinámica,n.,la｜動態,dynamics,5
+precipicio,n.,el｜懸崖,precipice,5
+aldeano,n.,el｜村民,villager,5
+usuario,n.,el｜使用者,user,5
+obsequio,n.,el｜贈品,gift,5
+aparente,adj.,表面的,apparent,5
+porcelana,n.,la｜瓷器,porcelain,5
+tomografía,n.,la｜斷層掃描,CT scan,5
+rendición,n.,la｜投降,surrender,5
+comestible,adj.,可食用的,edible,5
+descarado,adj.,厚臉皮的,shameless,5
+depredador,n.,el｜掠食者,predator,5
+sonriente,adj.,微笑的,smiling,5
+mapache,n.,el｜浣熊,raccoon,5
+tentador,adj.,誘人的,tempting,5
+creatividad,n.,la｜創造力,creativity,5
+llanta,n.,la｜輪胎（拉美）,tire (Latin America),5
+arbusto,n.,el｜灌木,bush,5
+estéril,adj.,不孕的；無菌的,sterile,5
+margarita,n.,la｜雛菊,daisy,5
+distribuidor,n.,el｜經銷商,distributor,5
+captar,v.,捕捉；理解,to capture; to grasp,5
+remo,n.,el｜槳,oar,5
+cínico,adj.,憤世嫉俗的,cynical,5
+frecuentemente,adv.,經常,frequently,5
+aparcado,adj.,停著的（車）,parked,5
+participante,n.,el｜參加者,participant,5
+informática,n.,la｜資訊科技,computer science,5
+suspiro,n.,el｜嘆氣,sigh,5
+rienda,n.,la｜韁繩,rein,5
+yogur,n.,el｜優格,yogurt,5
+cadete,n.,el｜軍校生,cadet,5
+vocabulario,n.,el｜詞彙,vocabulary,5
+magnético,adj.,磁性的,magnetic,5
+coleccionista,n.,el｜收藏家,collector,5
+racial,adj.,種族的,racial,5
+competente,adj.,稱職的,competent,5
+escalón,n.,el｜台階,step,5
+manía,n.,la｜癖好,mania; quirk,5
+aspirante,n.,el｜候選人,applicant,5
+cascada,n.,la｜瀑布,waterfall,5
+asteroide,n.,el｜小行星,asteroid,5
+condescendiente,adj.,居高臨下的,condescending,5
+contagioso,adj.,傳染性的,contagious,5
+violeta,adj.,紫羅蘭色的,violet,5
+civilizado,adj.,文明的,civilized,5
+cónsul,n.,el｜領事,consul,5
+suceso,n.,el｜事件,event,5
+académico,adj.,學術的,academic,5
+ético,adj.,道德的,ethical,5
+vaciar,v.,清空,to empty,5
+festín,n.,el｜盛宴,feast,5
+extender,v.,延伸,to extend,5
+ofrenda,n.,la｜供品,offering,5
+adversario,n.,el｜對手,adversary,5
+lasaña,n.,la｜千層麵,lasagna,5
+navideño,adj.,聖誕的,Christmas,5
+muralla,n.,la｜城牆,wall (city),5
+ártico,adj.,北極的,Arctic,5
+moribundo,adj.,垂死的,dying,5
+estirar,v.,伸展,to stretch,5
+testarudo,adj.,固執的,stubborn,5
+madurar,v.,成熟,to mature; to ripen,5
+matadero,n.,el｜屠宰場,slaughterhouse,5
+publicación,n.,la｜出版物,publication,5
+prado,n.,el｜草地,meadow,5
+jengibre,n.,el｜薑,ginger,5
+buitre,n.,el｜禿鷹,vulture,5
+funda,n.,la｜套子,cover; case,5
+taladro,n.,el｜電鑽,drill,5
+semáforo,n.,el｜紅綠燈,traffic light,5
+acuario,n.,el｜水族館,aquarium,5
+sediento,adj.,口渴的,thirsty,5
+accesorio,n.,el｜配件,accessory,5
+animadora,n.,la｜啦啦隊員,cheerleader,5
+parálisis,n.,la｜癱瘓,paralysis,5
+subida,n.,la｜上升；上坡,rise; climb,5
+mención,n.,la｜提及,mention,5
+progresar,v.,進步,to progress,5
+rabo,n.,el｜尾巴,tail,5
+verso,n.,el｜詩句,verse,5
+refrescante,adj.,清爽的,refreshing,5
+cumplido,n.,el｜讚美,compliment,5
+simulacro,n.,el｜演習,drill; simulation,5
+escarabajo,n.,el｜甲蟲,beetle,5
+camisón,n.,el｜睡袍,nightgown,5
+asfixia,n.,la｜窒息,asphyxia,5
+criticar,v.,批評,to criticize,5
+capitolio,n.,el｜國會大廈,capitol,5
+proporcionar,v.,提供,to provide,5
+portavoz,n.,el｜發言人,spokesperson,5
+socialista,adj.,社會主義的,socialist,5
+dardo,n.,el｜飛鏢,dart,5
+confortable,adj.,舒適的,comfortable,5
+recital,n.,el｜獨奏會,recital,5
+bronca,n.,la｜爭吵,row; scolding,5
+aparcar,v.,停車,to park,5
+bombón,n.,el｜巧克力糖,chocolate (candy),5
+formalidad,n.,la｜手續,formality,5
+escupir,v.,吐,to spit,5
+jaguar,n.,el｜美洲豹,jaguar,5
+golpearse,v.,撞到,to hit oneself,5
+perverso,adj.,邪惡的,perverse,5
+cabalgar,v.,騎馬,to ride (horse),5
+tirano,n.,el｜暴君,tyrant,5
+resplandor,n.,el｜光輝,glow,5
+exquisito,adj.,精緻的,exquisite,5
+plantación,n.,la｜種植園,plantation,5
+estatura,n.,la｜身高,height,5
+carecer,v.,缺乏,to lack,5
+teclado,n.,el｜鍵盤,keyboard,5
+brutalmente,adv.,殘暴地,brutally,5
+lanzador,n.,el｜投手,pitcher,5
+franqueza,n.,la｜坦率,frankness,5
+trayecto,n.,el｜路程,journey,5
+aceptación,n.,la｜接受,acceptance,5
+excitación,n.,la｜興奮,excitement,5
+ocular,adj.,眼睛的,ocular,5
+independientemente,adv.,獨立地,independently,5
+higiene,n.,la｜衛生,hygiene,5
+acercamiento,n.,el｜接近,approach,5
+clon,n.,el｜複製人,clone,5
+remover,v.,攪拌；移除,to stir; to remove,5
+caracol,n.,el｜蝸牛,snail,5
+hipo,n.,el｜打嗝,hiccups,5
+molde,n.,el｜模具,mold,5
+candado,n.,el｜掛鎖,padlock,5
+ahogar,v.,淹死；窒息,to drown; to choke,5
+bromista,n.,el｜愛開玩笑的人,joker,5
+políticamente,adv.,政治上,politically,5
+beneficencia,n.,la｜慈善,charity,5
+obligatorio,adj.,強制的,compulsory,5
+frecuente,adj.,頻繁的,frequent,5
+soberano,adj.,主權的,sovereign,5
+invernadero,n.,el｜溫室,greenhouse,5
+anhelo,n.,el｜渴望,longing,5
+picar,v.,叮；切碎,to sting; to chop,5
+arándano,n.,el｜藍莓,blueberry,5
+implante,n.,el｜植入物,implant,5
+patente,n.,la｜專利,patent,5
+ahorro,n.,el｜儲蓄,saving,5
+estiércol,n.,el｜糞肥,manure,5
+desventaja,n.,la｜劣勢,disadvantage,5
+mafioso,n.,el｜黑手黨成員,mobster,5
+extravagante,adj.,奇特的,extravagant,5
+derramar,v.,灑出,to spill,5
+ancestral,adj.,祖傳的,ancestral,5
+genéticamente,adv.,遺傳上,genetically,5
+imitar,v.,模仿,to imitate,5
+mareo,n.,el｜頭暈,dizziness,5
+brutalidad,n.,la｜殘暴,brutality,5
+cupón,n.,el｜優惠券,coupon,5
+colmillo,n.,el｜犬齒；獠牙,fang,5
+decisivo,adj.,決定性的,decisive,5
+colono,n.,el｜殖民者,settler,5
+susurrar,v.,低語,to whisper,5
+abatido,adj.,沮喪的,dejected,5
+búho,n.,el｜貓頭鷹,owl,5
+patinaje,n.,el｜溜冰,skating,5
+adorno,n.,el｜裝飾品,ornament,5
+cocodrilo,n.,el｜鱷魚,crocodile,5
+acorde,n.,el｜和弦,chord,5
+cliché,n.,el｜陳腔濫調,cliché,5
+escasez,n.,la｜短缺,shortage,5
+delegado,n.,el｜代表,delegate,5
+convicción,n.,la｜信念,conviction,5
+memorial,n.,el｜紀念,memorial,5
+fertilidad,n.,la｜生育力,fertility,5
+duración,n.,la｜持續時間,duration,5
+apto,adj.,適合的,fit; suitable,5
+coyote,n.,el｜郊狼,coyote,5
+finalizar,v.,結束,to finalize,5
+táctico,adj.,戰術的,tactical,5
+suspenso,n.,el｜懸疑；不及格,suspense; fail,5
+disgusto,n.,el｜不快,upset; displeasure,5
+emisora,n.,la｜電台,radio station,5
+vidente,n.,el｜通靈者,psychic,5
+vejiga,n.,la｜膀胱,bladder,5
+siervo,n.,el｜奴僕,servant,5
+directorio,n.,el｜目錄；指南,directory,5
+penitencia,n.,la｜懺悔,penance,5
+foro,n.,el｜論壇,forum,5
+urgentemente,adv.,緊急地,urgently,5
+trinchera,n.,la｜壕溝,trench,5
+orgánico,adj.,有機的,organic,5
+dedicar,v.,奉獻,to dedicate,5
+principiante,n.,el｜初學者,beginner,5
+huerto,n.,el｜菜園,orchard; vegetable garden,5
+indemnización,n.,la｜賠償,compensation,5
+céntimo,n.,el｜分（歐元）,cent,5
+anatomía,n.,la｜解剖學,anatomy,5
+destornillador,n.,el｜螺絲起子,screwdriver,5
+prender,v.,點燃；打開,to light; to turn on,5
+imperdonable,adj.,不可原諒的,unforgivable,5
+sobresaliente,adj.,傑出的,outstanding,5
+teatral,adj.,戲劇的,theatrical,5
+posponer,v.,延後,to postpone,5
+desagüe,n.,el｜排水管,drain,5
+tirón,n.,el｜拉扯,tug,5
+germen,n.,el｜細菌,germ,5
+buceo,n.,el｜潛水,diving,5
+obediencia,n.,la｜服從,obedience,5
+fracasar,v.,失敗,to fail,5
+anticipo,n.,el｜預付款,advance,5
+calavera,n.,la｜骷髏,skull,5
+comunicar,v.,傳達,to communicate,5
+remotamente,adv.,一點點,remotely,5
+charlatán,n.,el｜騙子；話多的人,charlatan,5
+sable,n.,el｜軍刀,saber,5
+heroico,adj.,英勇的,heroic,5
+reliquia,n.,la｜遺物,relic,5
+preocupante,adj.,令人擔憂的,worrying,5
+formalmente,adv.,正式地,formally,5
+medieval,adj.,中世紀的,medieval,5
+cáscara,n.,la｜殼；皮,shell; peel,5
+vejez,n.,la｜老年,old age,5
+congregación,n.,la｜會眾,congregation,5
+delicadeza,n.,la｜細膩,delicacy,5
+ruleta,n.,la｜輪盤,roulette,5
+galán,n.,el｜帥哥；男主角,heartthrob; leading man,5
+adulterio,n.,el｜通姦,adultery,5
+ración,n.,la｜份,ration; portion,5
+secretamente,adv.,祕密地,secretly,5
+credencial,n.,la｜證件,credential,5
+anuario,n.,el｜年鑑,yearbook,5
+limosna,n.,la｜施捨,alms,5
+auxilios,n.,los｜救助（primeros auxilios 急救）,aid (first aid),5
+consumir,v.,消耗,to consume,5
+golosina,n.,la｜糖果,sweet; candy,5
+mezquita,n.,la｜清真寺,mosque,5
+defunción,n.,la｜死亡,death,5
+torrente,n.,el｜激流,torrent,5
+grial,n.,el｜聖杯,grail,5
+irrumpir,v.,闖入,to burst in,5
+financiación,n.,la｜融資,financing,5
+caimán,n.,el｜短吻鱷,alligator,5
+quimioterapia,n.,la｜化療,chemotherapy,5
+diabólico,adj.,魔鬼般的,diabolical,5
+copiloto,n.,el｜副駕駛,copilot,5
+radiografía,n.,la｜X光,X-ray,5
+controlador,n.,el｜控制器,controller,5
+devoto,adj.,虔誠的,devout,5
+reservación,n.,la｜預約,reservation,5
+pasarela,n.,la｜伸展台；天橋,catwalk; walkway,5
+cuántico,adj.,量子的,quantum,5
+biopsia,n.,la｜切片檢查,biopsy,5
+tremendamente,adv.,極其,tremendously,5
+remate,n.,el｜結尾；射門,finish; shot,5
+modificar,v.,修改,to modify,5
+apartar,v.,移開,to move away,5
+ahorcado,adj.,吊死的,hanged,5
+intermediario,n.,el｜中間人,intermediary,5
+granuja,n.,el｜流氓,rascal,5
+melón,n.,el｜哈密瓜,melon,5
+torso,n.,el｜軀幹,torso,5
+gaseosa,n.,la｜汽水,soda,5
+tarro,n.,el｜罐子,jar,5
+racismo,n.,el｜種族主義,racism,5
+fósforo,n.,el｜火柴；磷,match; phosphorus,5
+lencería,n.,la｜內衣,lingerie,5
+desecho,n.,el｜廢棄物,waste,5
+drenaje,n.,el｜排水,drainage,5
+colgante,n.,el｜吊墜,pendant,5
+penetrar,v.,穿透,to penetrate,5
+mazo,n.,el｜木槌；一副（牌）,mallet; deck,5
+presenciar,v.,目睹,to witness,5
+macarrones,n.,los｜通心粉,macaroni,5
+irregular,adj.,不規則的,irregular,5
+bufé,n.,el｜自助餐,buffet,5
+cacahuete,n.,el｜花生（西班牙）,peanut (Spain),5
+magnitud,n.,la｜規模,magnitude,5
+hedor,n.,el｜惡臭,stench,5
+duramente,adv.,嚴厲地,harshly,5
+afirmación,n.,la｜斷言,statement,5
+idéntico,adj.,相同的,identical,5
+noticiero,n.,el｜新聞節目,newscast,5
+retaguardia,n.,la｜後衛,rearguard,5
+satisfactorio,adj.,令人滿意的,satisfactory,5
+mosquito,n.,el｜蚊子,mosquito,5
+reclutamiento,n.,el｜招募,recruitment,5
+tóxico,adj.,有毒的,toxic,5
+arzobispo,n.,el｜大主教,archbishop,5
+celo,n.,el｜熱忱；發情,zeal; heat,5
+compatible,adj.,相容的,compatible,5
+soplar,v.,吹,to blow,5
+egipcio,adj.,埃及的,Egyptian,5
+afilado,adj.,鋒利的,sharp,5
+tetera,n.,la｜茶壺,teapot,5
+sensor,n.,el｜感測器,sensor,5
+delicia,n.,la｜美味；樂事,delight,5
+mesera,n.,la｜女服務生（拉美）,waitress (Latin America),5
+ovni,n.,el｜幽浮,UFO,5
+botiquín,n.,el｜急救箱,first-aid kit,5
+peine,n.,el｜梳子,comb,5
+singular,adj.,單一的；獨特的,singular,5
+microscopio,n.,el｜顯微鏡,microscope,5
+arruga,n.,la｜皺紋,wrinkle,5
+saturación,n.,la｜飽和,saturation,5
+lápida,n.,la｜墓碑,tombstone,5
+intérprete,n.,el｜口譯員,interpreter,5
+amateur,adj.,業餘的,amateur,5
+manicura,n.,la｜美甲,manicure,5
+consultor,n.,el｜顧問,consultant,5
+lisiado,adj.,殘廢的,crippled,5
+semanal,adj.,每週的,weekly,5
+venenoso,adj.,有毒的,poisonous,5
+curación,n.,la｜治癒,healing,5
+olimpiadas,n.,las｜奧運,Olympics,5
+sequía,n.,la｜乾旱,drought,5
+cuerdo,adj.,神智清醒的,sane,5
+excavación,n.,la｜挖掘,excavation,5
+monto,n.,el｜金額,amount,5
+mero,adj.,僅僅的,mere,5
+pepinillo,n.,el｜醃黃瓜,pickle,5
+colectivo,adj.,集體的,collective,5
+persistente,adj.,持續的,persistent,5
+incisión,n.,la｜切口,incision,5
+reclamo,n.,el｜投訴,claim; complaint,5
+computador,n.,el｜電腦（拉美）,computer (Latin America),5
+repleto,adj.,塞滿的,packed,5
+idiotez,n.,la｜蠢事,idiocy,5
+indicación,n.,la｜指示,instruction,5
+decreto,n.,el｜法令,decree,5
+bachillerato,n.,el｜高中,high school,5
+sacudir,v.,搖動,to shake,5
+desactivar,v.,停用；拆除,to deactivate; to defuse,5
+torpedo,n.,el｜魚雷,torpedo,5
+zurdo,adj.,左撇子的,left-handed,5
+vello,n.,el｜汗毛,body hair,5
+milenio,n.,el｜千年,millennium,5
+réplica,n.,la｜複製品；餘震,replica; aftershock,5
+mugre,n.,la｜污垢,grime,5
+destreza,n.,la｜技巧,skill,5
+lujoso,adj.,豪華的,luxurious,5
+comino,n.,el｜孜然,cumin,5
+inmobiliaria,n.,la｜房地產公司,real estate agency,5
+molécula,n.,la｜分子,molecule,5
+insulina,n.,la｜胰島素,insulin,5
+entretener,v.,娛樂,to entertain,5
+liderar,v.,領導,to lead,5
+enfermar,v.,生病,to get sick,5
+censura,n.,la｜審查,censorship,5
+genuino,adj.,真正的,genuine,5
+abstinencia,n.,la｜戒斷,withdrawal; abstinence,5
+musa,n.,la｜繆思,muse,5
+válido,adj.,有效的,valid,5
+sardina,n.,la｜沙丁魚,sardine,5
+rocío,n.,el｜露水,dew,5
+decorado,n.,el｜布景,set; scenery,5
+peluquero,n.,el｜美髮師,hairdresser,5
+salado,adj.,鹹的,salty,5
+miligramo,n.,el｜毫克,milligram,5
+anulación,n.,la｜取消,annulment,5
+mezquino,adj.,小氣的,petty,5
+procurador,n.,el｜代理人,attorney,5
+pinchazo,n.,el｜刺痛；爆胎,prick; puncture,5
+bufón,n.,el｜小丑,jester,5
+discípulo,n.,el｜門徒,disciple,5
+descomposición,n.,la｜分解,decomposition,5
+pradera,n.,la｜草原,prairie,5
+marfil,n.,el｜象牙,ivory,5
+madurez,n.,la｜成熟,maturity,5
+traducir,v.,翻譯,to translate,5
+blindado,adj.,裝甲的,armored,5
+contramaestre,n.,el｜水手長,boatswain,5
+ombligo,n.,el｜肚臍,navel,5
+pingüino,n.,el｜企鵝,penguin,5
+rural,adj.,鄉村的,rural,5
+sanidad,n.,la｜衛生；醫療,health; healthcare,5
+vanguardia,n.,la｜前衛,vanguard,5
+repetición,n.,la｜重複,repetition,5
+presentador,n.,el｜主持人,presenter,5
+bambú,n.,el｜竹子,bamboo,5
+nata,n.,la｜鮮奶油,cream,5
+nupcial,adj.,婚禮的,nuptial,5
+poblado,n.,el｜村落,village,5
+talón,n.,el｜腳跟,heel,5
+festejar,v.,慶祝,to celebrate,5
+limitación,n.,la｜限制,limitation,5
+anunciar,v.,宣布,to announce,5
+vertedero,n.,el｜垃圾場,landfill,5
+foso,n.,el｜護城河,moat,5
+capitalismo,n.,el｜資本主義,capitalism,5
+portugués,n.,el｜葡萄牙語,Portuguese,5
+pegajoso,adj.,黏的,sticky,5
+unicornio,n.,el｜獨角獸,unicorn,5
+rosquilla,n.,la｜甜甜圈,doughnut,5
+solidaridad,n.,la｜團結,solidarity,5
+cláusula,n.,la｜條款,clause,5
+maleducado,adj.,沒禮貌的,rude,5
+indefenso,adj.,無防備的,defenseless,5
+ambiental,adj.,環境的,environmental,5
+híbrido,adj.,混合的,hybrid,5
+mujeriego,n.,el｜花花公子,womanizer,5
+flotante,adj.,漂浮的,floating,5
+ametralladora,n.,la｜機關槍,machine gun,5
+desempleo,n.,el｜失業,unemployment,5
+azafata,n.,la｜空服員,flight attendant,5
+astilla,n.,la｜碎片,splinter,5
+abdominal,adj.,腹部的,abdominal,5
+garfio,n.,el｜鉤,hook,5
+erótico,adj.,情色的,erotic,5
+crujiente,adj.,酥脆的,crunchy,5
+matemático,n.,el｜數學家,mathematician,5
+hipnosis,n.,la｜催眠,hypnosis,5
+horroroso,adj.,可怕的,horrible,5
+coronación,n.,la｜加冕,coronation,5

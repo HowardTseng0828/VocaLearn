@@ -14,6 +14,9 @@
     "db:baseline:remote": "wrangler d1 execute vocalearn-db --remote --file=./scripts/baseline-d1-migrations.sql",
     "db:seed:local": "wrangler d1 execute vocalearn-db --local --file=./data/seed-words.sql && wrangler d1 execute vocalearn-db --local --file=./scripts/reindex-words.sql",
     "db:seed:remote": "wrangler d1 execute vocalearn-db --remote --file=./data/seed-words.sql && wrangler d1 execute vocalearn-db --remote --file=./scripts/reindex-words.sql",
+    "seed:courses": "node scripts/build-course-seeds.mjs",
+    "db:seed:courses:local": "wrangler d1 execute vocalearn-db --local --file=./data/seed-courses.sql && wrangler d1 execute vocalearn-db --local --file=./scripts/reindex-words.sql",
+    "db:seed:courses:remote": "wrangler d1 execute vocalearn-db --remote --file=./data/seed-courses.sql && wrangler d1 execute vocalearn-db --remote --file=./scripts/reindex-words.sql",
     "db:backup:remote": "wrangler d1 export vocalearn-db --remote --output=./backup-remote.sql",
     "preview": "npm run build && wrangler pages dev out",
     "deploy": "npm run build && wrangler pages deploy out"

@@ -154,6 +154,28 @@ Turnstile 驗證端點與網站網址分別使用 `TURNSTILE_VERIFY_URL`、`APP_
 - **釋義語言**：`words.meaning` 是課程預設釋義；其他介面語言的釋義放在 `word_meanings`，沒有翻譯時退回預設釋義。
 - **時區**：使用者時區由瀏覽器自動同步，連續天數與熱力圖依使用者當地日期計算。
 
+### 外語課程題庫（日 / 韓 / 西 / 德 / 法）
+
+題庫放在 `data/courses/<語言>.csv`（`word,pos,meaning,meaning_en,level`）。`meaning` 是繁中釋義，`meaning_en` 會存進 `word_meanings`（English 介面用）。
+
+```bash
+npm run seed:courses              # CSV → data/seed-courses.sql
+npm run db:seed:courses:local     # 匯入本機 D1
+npm run db:seed:courses:remote    # 匯入正式 D1（會覆蓋同一單字的釋義與等級）
+```
+
+| 課程 | 字數 | 等級 | 詞表來源 |
+|------|------|------|----------|
+| 日文 | 2,893 | 1=N5、2=N4、3=N3 | Jonathan Waller（tanos.co.uk）JLPT 詞表，CC BY |
+| 韓文 | 5,543 | 1=初級、2=中級、3=高級 | 國立國語院〈한국어 학습용 어휘 목록〉，公共누리 第 1 類（需標示出處） |
+| 西文 | 5,000 | 依頻率每 1,000 字一級，1–5 | Hermit Dave FrequencyWords（OpenSubtitles 2018），CC BY-SA 4.0 |
+| 德文 | 5,000 | 同上 | 同上 |
+| 法文 | 4,984 | 同上 | 同上 |
+
+- 日文釋義格式為「讀音｜中文」；西 / 德 / 法名詞會把冠詞放在釋義前面（例如 `der｜狗`、`la｜房子`、`l'(m.)｜男人`），方便記住性別。
+- 頻率表只提供單字順序；詞形還原、人名與粗話過濾、繁中與英文釋義都是由 Claude（AI）整理，可能有錯，歡迎回報修正。
+- 這些題庫以原授權條件提供，僅用於本專案的免費公益教學。CC BY-SA 部分若再散布，衍生的詞表需沿用 CC BY-SA 4.0。
+
 ## CSV 匯入格式
 
 於 App 內「單字庫 → 匯入 CSV」上傳，或貼上文字（僅管理員）。先選課程與內容類型。自動跳過重複單字、自動略過標題列：

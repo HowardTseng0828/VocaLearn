@@ -1,0 +1,5544 @@
+word,pos,meaning,meaning_en,level
+경복궁,n.,景福宮,Gyeongbokgung Palace,1
+경주,n.,慶州,Gyeongju (city),1
+구십,n.,九十,ninety,1
+남대문,n.,南大門,Namdaemun (South Gate),1
+남대문시장,n.,南大門市場,Namdaemun Market,1
+독일,n.,德國,Germany,1
+러시아,n.,俄羅斯,Russia,1
+미국,n.,美國,the United States,1
+부산,n.,釜山,Busan,1
+서울,n.,首爾,Seoul,1
+서울역,n.,首爾車站,Seoul Station,1
+설악산,n.,雪嶽山,Seoraksan Mountain,1
+영국,n.,英國,the United Kingdom,1
+인천,n.,仁川,Incheon,1
+일본,n.,日本,Japan,1
+제주도,n.,濟州島,Jeju Island,1
+중국,n.,中國,China,1
+캐나다,n.,加拿大,Canada,1
+프랑스,n.,法國,France,1
+한강,n.,漢江,Han River,1
+한국,n.,韓國,Korea,1
+호주,n.,澳洲,Australia,1
+것,n.,東西；…的（依存名詞）,thing; the fact that,1
+하다,v.,做；說,to do,1
+있다,v.,有；在,to be; to have; to exist,1
+되다,v.,成為；可以,to become; to be done,1
+수,n.,方法；可能；數,way; possibility; number,1
+나,pron.,我,I; me,1
+그,pron.,他；那個,he; that,1
+없다,adj.,沒有；不在,to not exist; to not have,1
+않다,v.,不（否定）,to not (do),1
+사람,n.,人,person,1
+우리,pron.,我們,we; our,1
+이,n.,牙齒；這；二,tooth; this; two,1
+아니다,adj.,不是,to not be,1
+보다,v.,看；比,to see; than,1
+때,n.,時候；污垢,time; dirt,1
+거,n.,東西（것的口語）,thing (casual),1
+같다,adj.,一樣；好像,to be the same; to seem,1
+주다,v.,給,to give,1
+가다,v.,去,to go,1
+년,n.,年,year,1
+한,phr.,一（個）；恨；限度,one; resentment; limit,1
+말,n.,話；馬；末,speech; horse; end,1
+일,n.,事情；一；日,work; one; day,1
+때문,n.,因為；緣故,because of,1
+말하다,v.,說話,to speak; to say,1
+그러나,adv.,但是,however,1
+오다,v.,來,to come,1
+알다,v.,知道,to know,1
+씨,n.,種子；先生/小姐,seed; Mr./Ms.,1
+그렇다,adj.,是那樣,to be so,1
+크다,adj.,大的；長大,to be big; to grow,1
+또,adv.,又；再,again; also,1
+많다,adj.,多,to be many,1
+안,n.,裡面；不；方案,inside; not; plan,1
+좋다,adj.,好,to be good,1
+더,adv.,更,more,1
+받다,v.,收到；接受,to receive,1
+그것,pron.,那個,that (thing),1
+집,n.,家；房子,house; home,1
+나오다,v.,出來,to come out,1
+그리고,adv.,而且；然後,and; and then,1
+문제,n.,問題,problem; question,1
+살다,v.,活；住,to live,1
+저,pron.,我（謙稱）；那個,I (humble); that,1
+못하다,v.,不能；不如,to be unable; to be worse,1
+생각하다,v.,想,to think,1
+모르다,v.,不知道,to not know,1
+속,n.,裡面,inside,1
+만들다,v.,製作,to make,1
+두,phr.,兩（個）,two,1
+앞,n.,前面,front,1
+어떤,phr.,什麼樣的；某,what kind of; some,1
+잘,adv.,好好地,well,1
+먹다,v.,吃,to eat,1
+원,n.,韓元；圓,won (currency); circle,1
+생각,n.,想法,thought,1
+어떻다,adj.,怎麼樣,to be how,1
+명,n.,名（人數）,counter for people,1
+다시,adv.,再；重新,again,1
+다른,phr.,別的,other; different,1
+이런,phr.,這樣的,this kind of,1
+여자,n.,女人,woman,1
+개,n.,狗；個,dog; counter for things,1
+뒤,n.,後面,back; behind,1
+듣다,v.,聽,to listen,1
+다,adv.,全部；都,all,1
+좀,adv.,一點；請,a little; please,1
+들다,v.,進入；拿；花費,to enter; to hold; to cost,1
+싶다,v.,想要（做）,to want to,1
+가지다,v.,擁有；拿,to have; to take,1
+함께,adv.,一起,together,1
+아이,n.,小孩,child,1
+많이,adv.,很多地,a lot,1
+시간,n.,時間；小時,time; hour,1
+너,pron.,你,you,1
+나다,v.,出現；發生,to come out; to occur,1
+이렇다,adj.,是這樣,to be like this,1
+어머니,n.,母親,mother,1
+눈,n.,眼睛；雪,eye; snow,1
+뭐,pron.,什麼,what,1
+다음,n.,下一個,next,1
+누구,pron.,誰,who,1
+전,n.,前；全,before; whole,1
+곳,n.,地方,place,1
+여러,phr.,好幾個,several; various,1
+하나,n.,一；一個,one,1
+버리다,v.,丟掉；（做）完,to throw away; to end up,1
+위,n.,上面；位；胃,above; rank; stomach,1
+운동,n.,運動,exercise; movement,1
+퍼센트,n.,百分比,percent,1
+학교,n.,學校,school,1
+가장,adv.,最；家長,most; head of a family,1
+시작하다,v.,開始,to start,1
+바로,adv.,正是；立刻,exactly; right away,1
+어느,phr.,哪個,which,1
+그래서,adv.,所以,so; therefore,1
+무엇,pron.,什麼,what,1
+모든,phr.,所有的,all; every,1
+번,n.,次；號,time; number,1
+그거,pron.,那個（口語）,that (casual),1
+돈,n.,錢,money,1
+그런데,adv.,可是；對了,but; by the way,1
+날,n.,天；日子,day,1
+여기,pron.,這裡,here,1
+모두,adv.,全部；都,all; everyone,1
+친구,n.,朋友,friend,1
+마음,n.,心,heart; mind,1
+후,n.,之後,after,1
+놓다,v.,放,to put,1
+아버지,n.,父親,father,1
+남자,n.,男人,man,1
+어디,pron.,哪裡,where,1
+몸,n.,身體,body,1
+얼굴,n.,臉,face,1
+들어가다,v.,進去,to go in,1
+왜,adv.,為什麼,why,1
+말다,v.,停止；不要（做）,to stop; to not do,1
+다르다,adj.,不同,to be different,1
+물,n.,水,water,1
+만나다,v.,見面,to meet,1
+내다,v.,交出；付；發出,to hand in; to pay; to make,1
+쓰다,v.,寫；戴；用；苦的,to write; to wear; to use; bitter,1
+이것,pron.,這個,this (thing),1
+이번,n.,這次,this time,1
+길,n.,路,road; way,1
+생활,n.,生活,life; living,1
+지금,n.,現在,now,1
+사이,n.,之間；關係,between; relationship,1
+우리나라,n.,我國（韓國）,our country (Korea),1
+앉다,v.,坐,to sit,1
+처음,n.,第一次；起初,first time; beginning,1
+손,n.,手,hand,1
+몇,n.,幾,how many; some,1
+그때,n.,那時,then; at that time,1
+찾다,v.,找；領取,to look for; to find,1
+시,n.,市；點（時間）；詩,city; o'clock; poem,1
+나가다,v.,出去,to go out,1
+이야기,n.,故事；談話,story; talk,1
+사다,v.,買,to buy,1
+아직,adv.,還；尚未,still; not yet,1
+잡다,v.,抓,to catch; to hold,1
+같이,adv.,一起；像…一樣,together; like,1
+선생님,n.,老師,teacher,1
+서다,v.,站,to stand,1
+못,n.,釘子；不能,nail; cannot,1
+역사,n.,歷史,history,1
+읽다,v.,讀,to read,1
+이제,adv.,現在；如今,now,1
+물론,adv.,當然,of course,1
+동안,n.,期間,during; period,1
+책,n.,書,book,1
+일어나다,v.,起來；發生,to get up; to happen,1
+시장,n.,市場；市長,market; mayor,1
+넣다,v.,放入,to put in,1
+중요하다,adj.,重要,to be important,1
+무슨,phr.,什麼,what (kind of),1
+어렵다,adj.,難,to be difficult,1
+힘,n.,力氣,strength,1
+너무,adv.,太,too; very,1
+나라,n.,國家,country,1
+부르다,v.,叫；唱；（肚子）飽,to call; to sing; to be full,1
+자리,n.,位子,seat; place,1
+죽다,v.,死,to die,1
+쪽,n.,邊；頁,side; page,1
+얘기,n.,話；故事（口語）,talk; story,1
+학생,n.,學生,student,1
+엄마,n.,媽媽,mom,1
+이름,n.,名字,name,1
+내리다,v.,下（雨、車）,to fall; to get off,1
+쉽다,adj.,容易,to be easy,1
+필요하다,adj.,需要,to be necessary,1
+생기다,v.,產生；長得,to arise; to look like,1
+사용하다,v.,使用,to use,1
+남편,n.,丈夫,husband,1
+들어오다,v.,進來,to come in,1
+밖,n.,外面,outside,1
+작다,adj.,小,to be small,1
+타다,v.,搭乘；燃燒,to ride; to burn,1
+대학,n.,大學,university,1
+가운데,n.,中間,middle,1
+보내다,v.,寄；送；度過,to send; to spend (time),1
+아주,adv.,非常,very,1
+밤,n.,夜晚；栗子,night; chestnut,1
+높다,adj.,高,to be high,1
+컴퓨터,n.,電腦,computer,1
+먼저,adv.,先,first,1
+다니다,v.,往來；上（學、班）,to attend; to go around,1
+얼마나,adv.,多少；多麼,how much; how,1
+열다,v.,打開,to open,1
+머리,n.,頭；頭髮,head; hair,1
+묻다,v.,問；埋；沾,to ask; to bury; to be stained,1
+거기,pron.,那裡,there,1
+아들,n.,兒子,son,1
+아,int.,啊,ah,1
+기다리다,v.,等待,to wait,1
+분,n.,位（敬稱）；分鐘,person (honorific); minute,1
+곧,adv.,馬上,soon,1
+오늘,n.,今天,today,1
+서로,adv.,互相,each other,1
+이거,pron.,這個（口語）,this (casual),1
+방,n.,房間,room,1
+아침,n.,早上；早餐,morning; breakfast,1
+웃다,v.,笑,to laugh; to smile,1
+떠나다,v.,離開,to leave,1
+그래,int.,好；是嗎,okay; is that so,1
+아름답다,adj.,美麗,to be beautiful,1
+끝,n.,結束；末端,end,1
+입,n.,嘴,mouth,1
+영화,n.,電影,movie,1
+필요,n.,必要,need,1
+하늘,n.,天空,sky,1
+정말,adv.,真的,really,1
+밥,n.,飯,rice; meal,1
+입다,v.,穿,to wear,1
+네,int.,是,yes,1
+그림,n.,畫,picture,1
+마시다,v.,喝,to drink,1
+치다,v.,打；彈,to hit; to play (instrument),1
+혼자,n.,獨自,alone,1
+교수,n.,教授,professor,1
+술,n.,酒；匙,alcohol; spoonful,1
+사랑,n.,愛,love,1
+전화,n.,電話,telephone,1
+끝나다,v.,結束,to end,1
+돌아오다,v.,回來,to come back,1
+아빠,n.,爸爸,dad,1
+한번,n.,一次,once,1
+커피,n.,咖啡,coffee,1
+가슴,n.,胸,chest,1
+길다,adj.,長,to be long,1
+회사,n.,公司,company,1
+맛,n.,味道,taste,1
+매우,adv.,非常,very,1
+오르다,v.,上升；爬,to rise; to climb,1
+음식,n.,食物,food,1
+꼭,adv.,一定；緊緊地,surely; tightly,1
+요즘,n.,最近,these days,1
+계획,n.,計畫,plan,1
+얼마,n.,多少（錢）,how much,1
+계속,adv.,繼續,continuously,1
+아내,n.,妻子,wife,1
+가족,n.,家人,family,1
+세,phr.,三（個）；歲,three; years old,1
+차,n.,車；茶；次,car; tea; time,1
+놀다,v.,玩,to play,1
+도시,n.,都市,city,1
+나이,n.,年齡,age,1
+바꾸다,v.,換,to change,1
+좋아하다,v.,喜歡,to like,1
+그리다,v.,畫,to draw,1
+배우다,v.,學習,to learn,1
+옆,n.,旁邊,side; next to,1
+어,int.,喔；咦,oh,1
+예,int.,是；例子,yes; example,1
+아래,n.,下面,below,1
+그럼,adv.,那麼,then; well,1
+배,n.,肚子；船；梨；倍,stomach; boat; pear; times,1
+산,n.,山,mountain,1
+새,n.,鳥；新的,bird; new,1
+하지만,adv.,但是,but,1
+문,n.,門,door,1
+꽃,n.,花,flower,1
+그동안,n.,那段期間,meanwhile,1
+갑자기,adv.,突然,suddenly,1
+바람,n.,風；願望,wind; wish,1
+잘하다,v.,做得好；擅長,to do well,1
+노래,n.,歌,song,1
+바다,n.,海,sea,1
+힘들다,adj.,辛苦,to be hard,1
+공부,n.,讀書,study,1
+언니,n.,姊姊（女性稱）,older sister (of a female),1
+불,n.,火；燈,fire; light,1
+학년,n.,年級,school year; grade,1
+신문,n.,報紙,newspaper,1
+이해하다,v.,理解,to understand,1
+선생,n.,老師；先生,teacher; sir,1
+돌아가다,v.,回去,to go back,1
+기분,n.,心情,mood; feeling,1
+옷,n.,衣服,clothes,1
+꿈,n.,夢,dream,1
+할머니,n.,奶奶,grandmother,1
+회의,n.,會議,meeting,1
+이야기하다,v.,談話,to talk,1
+나무,n.,樹,tree,1
+자다,v.,睡覺,to sleep,1
+걷다,v.,走路；捲起；收,to walk; to roll up; to collect,1
+이때,n.,這時,at this time,1
+물건,n.,東西,thing; goods,1
+발,n.,腳,foot,1
+빨리,adv.,快,quickly,1
+시작되다,v.,開始（被動）,to begin,1
+둘,n.,二；兩個,two,1
+설명하다,v.,說明,to explain,1
+살,n.,肉；歲,flesh; years old,1
+음악,n.,音樂,music,1
+아프다,adj.,痛；生病,to hurt; to be sick,1
+적다,v.,記下；少,to write down; to be few,1
+비,n.,雨；碑,rain; monument,1
+고향,n.,故鄉,hometown,1
+놀라다,v.,吃驚,to be surprised,1
+울다,v.,哭,to cry,1
+은행,n.,銀行,bank,1
+지내다,v.,過日子,to get along; to spend,1
+결혼,n.,結婚,marriage,1
+동생,n.,弟弟；妹妹,younger sibling,1
+오후,n.,下午,afternoon,1
+빠르다,adj.,快,to be fast,1
+아기,n.,嬰兒,baby,1
+아저씨,n.,叔叔；大叔,uncle; mister,1
+옛날,n.,從前,old days,1
+달,n.,月亮；月,moon; month,1
+참,adv.,真；實在,really; truly,1
+이곳,pron.,這裡,this place,1
+딸,n.,女兒,daughter,1
+마지막,n.,最後,last,1
+병원,n.,醫院,hospital,1
+경찰,n.,警察,police,1
+저녁,n.,晚上；晚餐,evening; dinner,1
+그러면,adv.,那麼,then; if so,1
+넓다,adj.,寬,to be wide,1
+시험,n.,考試,exam,1
+잠,n.,睡眠,sleep,1
+건강,n.,健康,health,1
+가깝다,adj.,近,to be close,1
+건물,n.,建築物,building,1
+외국,n.,外國,foreign country,1
+밑,n.,下面；底,bottom; under,1
+어른,n.,大人,adult,1
+팔다,v.,賣,to sell,1
+열심히,adv.,努力地,diligently,1
+일하다,v.,工作,to work,1
+조금,adv.,一點,a little,1
+팀,n.,隊伍,team,1
+부모,n.,父母,parents,1
+올라가다,v.,上去,to go up,1
+그날,n.,那天,that day,1
+자주,adv.,經常,often,1
+약,n.,藥；大約,medicine; about,1
+담배,n.,香菸,cigarette,1
+할아버지,n.,爺爺,grandfather,1
+태어나다,v.,出生,to be born,1
+벌써,adv.,已經,already,1
+환자,n.,患者,patient,1
+재미있다,adj.,有趣,to be fun,1
+가르치다,v.,教,to teach,1
+대화,n.,對話,conversation,1
+올해,n.,今年,this year,1
+형,n.,哥哥（男性稱）；型,older brother (of a male); type,1
+걸다,v.,掛；打（電話）,to hang; to make (a call),1
+멀다,adj.,遠,to be far,1
+버스,n.,公車,bus,1
+잠시,n.,暫時；一會兒,a moment,1
+사진,n.,照片,photo,1
+제일,adv.,第一；最,first; most,1
+아마,adv.,也許,probably,1
+얘기하다,v.,聊天；說,to talk,1
+다리,n.,腿；橋,leg; bridge,1
+아무,pron.,任何（人）,anyone; any,1
+항상,adv.,總是,always,1
+해,n.,太陽；年；害,sun; year; harm,1
+잃다,v.,失去,to lose,1
+비슷하다,adj.,相似,to be similar,1
+달러,n.,美元,dollar,1
+사랑하다,v.,愛,to love,1
+아니,adv.,不；不是,no; not,1
+여름,n.,夏天,summer,1
+싫다,adj.,討厭,to dislike,1
+그러니까,adv.,所以說,so; that's why,1
+값,n.,價格,price,1
+언제나,adv.,總是,always,1
+자동차,n.,汽車,car,1
+개월,n.,個月,months,1
+어린이,n.,兒童,child,1
+공부하다,v.,讀書,to study,1
+닦다,v.,擦；刷,to wipe; to brush,1
+만,n.,萬；只；滿,ten thousand; only; full,1
+말씀,n.,話（敬語）,words (honorific),1
+괜찮다,adj.,沒關係；不錯,to be okay,1
+눈물,n.,眼淚,tears,1
+주인,n.,主人,owner,1
+드리다,v.,給（敬語）,to give (honorific),1
+반,n.,一半；班,half; class,1
+귀,n.,耳朵,ear,1
+미터,n.,公尺,meter,1
+어떠하다,adj.,怎麼樣,to be how,1
+아파트,n.,公寓,apartment,1
+가끔,adv.,偶爾,sometimes,1
+짧다,adj.,短,to be short,1
+고맙다,adj.,感謝,to be thankful,1
+그곳,pron.,那裡,that place,1
+달다,v.,掛；甜,to hang; to be sweet,1
+바쁘다,adj.,忙,to be busy,1
+나쁘다,adj.,壞,to be bad,1
+게임,n.,遊戲,game,1
+잔,n.,杯,cup; glass,1
+언제,adv.,什麼時候,when,1
+내려오다,v.,下來,to come down,1
+손님,n.,客人,guest; customer,1
+뉴스,n.,新聞,news,1
+수업,n.,上課,class,1
+겨울,n.,冬天,winter,1
+층,n.,樓層,floor; story,1
+장,n.,張；章,sheet; chapter,1
+식사,n.,用餐,meal,1
+안다,v.,抱,to hug,1
+잊다,v.,忘記,to forget,1
+텔레비전,n.,電視,television,1
+씻다,v.,洗,to wash,1
+늦다,adj.,晚；遲,to be late,1
+편지,n.,信,letter,1
+센티미터,n.,公分,centimeter,1
+팔,n.,手臂；八,arm; eight,1
+설명,n.,說明,explanation,1
+티브이,n.,電視,TV,1
+봄,n.,春天,spring,1
+낮다,adj.,低,to be low,1
+어깨,n.,肩膀,shoulder,1
+부부,n.,夫婦,married couple,1
+오래,adv.,很久,for a long time,1
+여행,n.,旅行,travel,1
+공,n.,球,ball,1
+오월,n.,五月,May,1
+쉬다,v.,休息；呼吸,to rest; to breathe,1
+과,n.,科；課,department; lesson,1
+오빠,n.,哥哥（女性稱）,older brother (of a female),1
+즐겁다,adj.,愉快,to be pleasant,1
+사월,n.,四月,April,1
+싸우다,v.,吵架；打架,to fight,1
+예쁘다,adj.,漂亮,to be pretty,1
+나중,n.,以後,later,1
+맛있다,adj.,好吃,to be delicious,1
+며칠,n.,幾天；幾號,a few days; what date,1
+작년,n.,去年,last year,1
+내려가다,v.,下去,to go down,1
+쓰레기,n.,垃圾,garbage,1
+고기,n.,肉,meat,1
+가져오다,v.,帶來,to bring,1
+남녀,n.,男女,men and women,1
+준비,n.,準備,preparation,1
+구월,n.,九月,September,1
+맑다,adj.,晴朗；清澈,to be clear,1
+유월,n.,六月,June,1
+허리,n.,腰,waist,1
+영어,n.,英語,English,1
+대답하다,v.,回答,to answer,1
+벗다,v.,脫,to take off,1
+준비하다,v.,準備,to prepare,1
+돕다,v.,幫助,to help,1
+사장,n.,社長；老闆,company president,1
+삼월,n.,三月,March,1
+그렇지만,adv.,但是,but,1
+키,n.,身高,height,1
+걱정,n.,擔心,worry,1
+결혼하다,v.,結婚,to marry,1
+누나,n.,姊姊（男性稱）,older sister (of a male),1
+질문,n.,問題,question,1
+거리,n.,街道；距離,street; distance,1
+근처,n.,附近,nearby,1
+부모님,n.,父母（敬語）,parents (honorific),1
+계시다,v.,在（敬語）,to be (honorific),1
+마리,n.,隻（動物）,counter for animals,1
+비행기,n.,飛機,airplane,1
+뜨겁다,adj.,燙,to be hot,1
+낮,n.,白天,daytime,1
+일찍,adv.,早,early,1
+찍다,v.,拍；蓋（章）,to take (a photo); to stamp,1
+가볍다,adj.,輕,to be light,1
+오전,n.,上午,morning,1
+가게,n.,商店,store,1
+약속,n.,約定,promise; appointment,1
+인사,n.,打招呼；人事,greeting; personnel,1
+소금,n.,鹽,salt,1
+자전거,n.,腳踏車,bicycle,1
+목,n.,脖子；喉嚨,neck; throat,1
+피우다,v.,抽（菸）；開（花）,to smoke; to bloom,1
+교통,n.,交通,traffic,1
+불다,v.,吹,to blow,1
+한글,n.,韓文字母,Hangeul (Korean alphabet),1
+가을,n.,秋天,autumn,1
+내일,n.,明天,tomorrow,1
+매일,n.,每天,every day,1
+손가락,n.,手指,finger,1
+급,n.,級,grade; level,1
+날씨,n.,天氣,weather,1
+동물,n.,動物,animal,1
+의사,n.,醫生；意思,doctor; intention,1
+건강하다,adj.,健康,to be healthy,1
+여러분,pron.,各位,everyone,1
+왜냐하면,adv.,因為,because,1
+도착하다,v.,到達,to arrive,1
+병,n.,病；瓶子,illness; bottle,1
+따뜻하다,adj.,溫暖,to be warm,1
+축구,n.,足球,soccer,1
+밝다,adj.,明亮,to be bright,1
+장소,n.,場所,place,1
+코,n.,鼻子,nose,1
+고등학교,n.,高中,high school,1
+교실,n.,教室,classroom,1
+별,n.,星星；特別的,star; special,1
+복잡하다,adj.,複雜,to be complicated,1
+색,n.,顏色,color,1
+똑같다,adj.,一模一樣,to be exactly the same,1
+말씀하다,v.,說（敬語）,to say (honorific),1
+보통,n.,普通；通常,usual; ordinary,1
+식당,n.,餐廳,restaurant,1
+소개하다,v.,介紹,to introduce,1
+칠월,n.,七月,July,1
+십이월,n.,十二月,December,1
+컵,n.,杯子,cup,1
+종이,n.,紙,paper,1
+재미,n.,樂趣,fun,1
+떡,n.,年糕,rice cake,1
+끝내다,v.,結束,to finish,1
+대답,n.,回答,answer,1
+시작,n.,開始,start,1
+일주일,n.,一週,one week,1
+춤,n.,舞蹈,dance,1
+깨끗하다,adj.,乾淨,to be clean,1
+물어보다,v.,詢問,to ask,1
+미안하다,adj.,抱歉,to be sorry,1
+스트레스,n.,壓力,stress,1
+과일,n.,水果,fruit,1
+시월,n.,十月,October,1
+박물관,n.,博物館,museum,1
+어서,adv.,快；請,quickly; please,1
+팔월,n.,八月,August,1
+가방,n.,包包,bag,1
+호,n.,號,number,1
+그릇,n.,碗；器皿,bowl; dish,1
+라디오,n.,收音機,radio,1
+방학,n.,放假（學校）,school vacation,1
+남쪽,n.,南邊,south,1
+색깔,n.,顏色,color,1
+요리,n.,料理,cooking; dish,1
+유명하다,adj.,有名,to be famous,1
+외국인,n.,外國人,foreigner,1
+부인,n.,夫人；婦人,wife; lady,1
+뛰다,v.,跑；跳,to run; to jump,1
+숙제,n.,作業,homework,1
+우산,n.,雨傘,umbrella,1
+지난달,n.,上個月,last month,1
+책상,n.,書桌,desk,1
+춥다,adj.,冷,to be cold,1
+둘째,n.,第二,second,1
+무겁다,adj.,重,to be heavy,1
+역,n.,車站；角色,station; role,1
+침대,n.,床,bed,1
+권,n.,本（書）,counter for books,1
+시계,n.,時鐘；手錶,clock; watch,1
+잎,n.,葉子,leaf,1
+천천히,adv.,慢慢地,slowly,1
+스포츠,n.,運動,sports,1
+저기,pron.,那裡,over there,1
+교회,n.,教會,church,1
+화,n.,火氣；生氣,anger,1
+일월,n.,一月,January,1
+첫째,n.,第一,first,1
+도서관,n.,圖書館,library,1
+선물,n.,禮物,gift,1
+아주머니,n.,阿姨；大嬸,ma'am; auntie,1
+위험,n.,危險,danger,1
+지하,n.,地下,underground,1
+지하철,n.,地鐵,subway,1
+사무실,n.,辦公室,office,1
+이월,n.,二月,February,1
+일요일,n.,星期日,Sunday,1
+강,n.,江；河,river,1
+비싸다,adj.,貴,to be expensive,1
+열,n.,十；熱,ten; fever,1
+왼쪽,n.,左邊,left,1
+택시,n.,計程車,taxi,1
+시원하다,adj.,涼爽,to be cool; refreshing,1
+잡지,n.,雜誌,magazine,1
+댁,n.,府上（敬語）,home (honorific),1
+반갑다,adj.,高興（見到）,to be glad (to see),1
+다녀오다,v.,去了回來,to go and come back,1
+비디오,n.,錄影,video,1
+이쪽,pron.,這邊,this way,1
+연습,n.,練習,practice,1
+오른쪽,n.,右邊,right,1
+지도,n.,地圖；指導,map; guidance,1
+화장실,n.,洗手間,restroom,1
+주말,n.,週末,weekend,1
+내년,n.,明年,next year,1
+대학생,n.,大學生,university student,1
+닫다,v.,關,to close,1
+생일,n.,生日,birthday,1
+걸어가다,v.,走過去,to walk,1
+백화점,n.,百貨公司,department store,1
+안녕하다,adj.,平安；你好,to be well; hello,1
+출발하다,v.,出發,to depart,1
+고양이,n.,貓,cat,1
+중학교,n.,國中,middle school,1
+흰색,n.,白色,white,1
+가수,n.,歌手,singer,1
+저쪽,pron.,那邊,that way,1
+창문,n.,窗戶,window,1
+우유,n.,牛奶,milk,1
+표,n.,票；表格,ticket; table,1
+십일월,n.,十一月,November,1
+싸다,adj.,便宜；包,to be cheap; to wrap,1
+거울,n.,鏡子,mirror,1
+빵,n.,麵包,bread,1
+어제,n.,昨天,yesterday,1
+위험하다,adj.,危險,to be dangerous,1
+졸업하다,v.,畢業,to graduate,1
+부엌,n.,廚房,kitchen,1
+북쪽,n.,北邊,north,1
+쇠고기,n.,牛肉,beef,1
+주,n.,週；主要的,week; main,1
+카드,n.,卡片,card,1
+단어,n.,單字,word,1
+도와주다,v.,幫忙,to help,1
+신발,n.,鞋子,shoes,1
+김치,n.,泡菜,kimchi,1
+날다,v.,飛,to fly,1
+설탕,n.,砂糖,sugar,1
+점심,n.,午餐,lunch,1
+칼,n.,刀,knife,1
+슬프다,adj.,悲傷,to be sad,1
+의자,n.,椅子,chair,1
+카메라,n.,相機,camera,1
+토요일,n.,星期六,Saturday,1
+경찰관,n.,警察,police officer,1
+극장,n.,劇院；電影院,theater,1
+오랜만,n.,好久,a long time (since),1
+백,n.,百,hundred,1
+아줌마,n.,大嬸,auntie; ma'am (casual),1
+추다,v.,跳（舞）,to dance,1
+켜다,v.,打開（電器）,to turn on,1
+공항,n.,機場,airport,1
+군인,n.,軍人,soldier,1
+아니요,int.,不是,no,1
+치마,n.,裙子,skirt,1
+호텔,n.,飯店,hotel,1
+깎다,v.,削；剪；殺價,to peel; to cut; to haggle,1
+청소,n.,打掃,cleaning,1
+걱정하다,v.,擔心,to worry,1
+구름,n.,雲,cloud,1
+끄다,v.,關掉,to turn off,1
+계절,n.,季節,season,1
+운동장,n.,運動場,playground,1
+동쪽,n.,東邊,east,1
+잠깐,adv.,一下子,for a moment,1
+요즈음,n.,最近,these days,1
+잃어버리다,v.,弄丟,to lose,1
+조용하다,adj.,安靜,to be quiet,1
+한복,n.,韓服,hanbok,1
+라면,n.,泡麵,ramen,1
+바지,n.,褲子,pants,1
+싫어하다,v.,討厭,to dislike,1
+테이블,n.,桌子,table,1
+피곤하다,adj.,疲倦,to be tired,1
+한국어,n.,韓語,Korean (language),1
+한자,n.,漢字,Chinese characters,1
+사전,n.,字典；事前,dictionary; beforehand,1
+안경,n.,眼鏡,glasses,1
+약속하다,v.,約定,to promise,1
+취미,n.,興趣,hobby,1
+덥다,adj.,熱,to be hot,1
+야구,n.,棒球,baseball,1
+구경,n.,觀賞；參觀,sightseeing; watching,1
+그분,pron.,那位,that person (honorific),1
+신다,v.,穿（鞋、襪）,to wear (shoes),1
+죄송하다,adj.,抱歉（敬語）,to be sorry (polite),1
+셋,n.,三,three,1
+생선,n.,魚（食物）,fish (food),1
+지우다,v.,擦掉,to erase,1
+셋째,n.,第三,third,1
+졸업,n.,畢業,graduation,1
+닭,n.,雞,chicken,1
+맥주,n.,啤酒,beer,1
+교과서,n.,教科書,textbook,1
+돼지,n.,豬,pig,1
+수영,n.,游泳,swimming,1
+잊어버리다,v.,忘掉,to forget,1
+기차,n.,火車,train,1
+식탁,n.,餐桌,dining table,1
+공원,n.,公園,park,1
+안되다,v.,不行；可憐,to not work; to feel sorry,1
+날짜,n.,日期,date,1
+샌드위치,n.,三明治,sandwich,1
+그쪽,pron.,那邊,that side,1
+검은색,n.,黑色,black,1
+여보세요,int.,喂（電話）,hello (on the phone),1
+천,n.,千；布,thousand; cloth,1
+서쪽,n.,西邊,west,1
+짜다,adj.,鹹；擰,to be salty; to wring,1
+경찰서,n.,警察局,police station,1
+구두,n.,皮鞋,dress shoes,1
+사과,n.,蘋果；道歉,apple; apology,1
+여학생,n.,女學生,female student,1
+냉장고,n.,冰箱,refrigerator,1
+감기,n.,感冒,cold,1
+결혼식,n.,婚禮,wedding,1
+노래하다,v.,唱歌,to sing,1
+연필,n.,鉛筆,pencil,1
+운전,n.,駕駛,driving,1
+불고기,n.,烤肉,bulgogi,1
+목욕,n.,洗澡,bath,1
+전화번호,n.,電話號碼,phone number,1
+감사하다,v.,感謝,to thank,1
+지갑,n.,錢包,wallet,1
+친절하다,adj.,親切,to be kind,1
+저거,pron.,那個（口語）,that (casual),1
+걸어오다,v.,走過來,to walk (here),1
+모자,n.,帽子,hat,1
+소파,n.,沙發,sofa,1
+스무,phr.,二十,twenty,1
+인사하다,v.,打招呼,to greet,1
+여권,n.,護照,passport,1
+열쇠,n.,鑰匙,key,1
+오렌지,n.,柳橙,orange,1
+번호,n.,號碼,number,1
+저것,pron.,那個,that (thing),1
+수박,n.,西瓜,watermelon,1
+과자,n.,餅乾,snack; cookie,1
+대학교,n.,大學,university,1
+돼지고기,n.,豬肉,pork,1
+안녕히,adv.,平安地,in peace (farewell),1
+전화하다,v.,打電話,to call,1
+수건,n.,毛巾,towel,1
+양복,n.,西裝,suit,1
+잠자다,v.,睡覺,to sleep,1
+젓가락,n.,筷子,chopsticks,1
+피아노,n.,鋼琴,piano,1
+축하하다,v.,祝賀,to congratulate,1
+기숙사,n.,宿舍,dormitory,1
+산책,n.,散步,walk; stroll,1
+운동하다,v.,運動,to exercise,1
+월요일,n.,星期一,Monday,1
+주소,n.,地址,address,1
+파티,n.,派對,party,1
+청소하다,v.,打掃,to clean,1
+등산,n.,登山,hiking,1
+메뉴,n.,菜單,menu,1
+외국어,n.,外語,foreign language,1
+자장면,n.,炸醬麵,jajangmyeon,1
+중학생,n.,國中生,middle school student,1
+휴일,n.,假日,holiday,1
+달력,n.,月曆,calendar,1
+소풍,n.,郊遊,picnic; outing,1
+춤추다,v.,跳舞,to dance,1
+테니스,n.,網球,tennis,1
+공책,n.,筆記本,notebook,1
+똑바로,adv.,直直地；正確地,straight; correctly,1
+서점,n.,書店,bookstore,1
+양말,n.,襪子,socks,1
+초대하다,v.,邀請,to invite,1
+연습하다,v.,練習,to practice,1
+오,n.,五；喔,five; oh,1
+경치,n.,景色,scenery,1
+발음,n.,發音,pronunciation,1
+재미없다,adj.,無聊,to be boring,1
+주스,n.,果汁,juice,1
+콜라,n.,可樂,cola,1
+남학생,n.,男學生,male student,1
+식사하다,v.,用餐,to have a meal,1
+우체국,n.,郵局,post office,1
+고프다,adj.,（肚子）餓,to be hungry,1
+대사관,n.,大使館,embassy,1
+배고프다,adj.,肚子餓,to be hungry,1
+삼,n.,三,three,1
+여행하다,v.,旅行,to travel,1
+정류장,n.,公車站,bus stop,1
+맵다,adj.,辣,to be spicy,1
+여동생,n.,妹妹,younger sister,1
+오래간만,n.,好久不見,a long time since,1
+점심시간,n.,午餐時間,lunchtime,1
+휴지,n.,衛生紙,tissue; toilet paper,1
+넷째,n.,第四,fourth,1
+태권도,n.,跆拳道,taekwondo,1
+햄버거,n.,漢堡,hamburger,1
+감사,n.,感謝,thanks,1
+슈퍼마켓,n.,超市,supermarket,1
+비누,n.,肥皂,soap,1
+세수,n.,洗臉,washing one's face,1
+찌개,n.,燉湯,stew,1
+넥타이,n.,領帶,necktie,1
+월,n.,月,month,1
+잡수시다,v.,吃（敬語）,to eat (honorific),1
+한국말,n.,韓國話,Korean language,1
+계란,n.,雞蛋,egg,1
+넷,n.,四,four,1
+에어컨,n.,冷氣,air conditioner,1
+초대,n.,邀請,invitation,1
+실례,n.,失禮,rudeness; excuse me,1
+안녕,int.,你好；再見,hi; bye,1
+약국,n.,藥局,pharmacy,1
+지난주,n.,上週,last week,1
+간호사,n.,護理師,nurse,1
+고등학생,n.,高中生,high school student,1
+다섯,n.,五,five,1
+닭고기,n.,雞肉,chicken (meat),1
+숟가락,n.,湯匙,spoon,1
+요일,n.,星期,day of the week,1
+질문하다,v.,提問,to ask a question,1
+치약,n.,牙膏,toothpaste,1
+구,n.,九；區,nine; district,1
+금요일,n.,星期五,Friday,1
+김밥,n.,紫菜飯捲,gimbap,1
+바나나,n.,香蕉,banana,1
+수요일,n.,星期三,Wednesday,1
+운전하다,v.,開車,to drive,1
+노트,n.,筆記本,notebook,1
+딸기,n.,草莓,strawberry,1
+초콜릿,n.,巧克力,chocolate,1
+피자,n.,披薩,pizza,1
+노란색,n.,黃色,yellow,1
+이분,pron.,這位,this person (honorific),1
+칫솔,n.,牙刷,toothbrush,1
+포도,n.,葡萄,grape,1
+공중전화,n.,公共電話,public phone,1
+배부르다,adj.,吃飽,to be full,1
+샤워,n.,淋浴,shower,1
+세탁기,n.,洗衣機,washing machine,1
+남동생,n.,弟弟,younger brother,1
+도착,n.,到達,arrival,1
+쇼핑,n.,購物,shopping,1
+스키,n.,滑雪,skiing,1
+운동화,n.,運動鞋,sneakers,1
+초등학교,n.,小學,elementary school,1
+공휴일,n.,國定假日,public holiday,1
+마흔,n.,四十,forty,1
+볼펜,n.,原子筆,ballpoint pen,1
+빨간색,n.,紅色,red,1
+스물,n.,二十,twenty,1
+청바지,n.,牛仔褲,jeans,1
+핸드폰,n.,手機,cell phone,1
+휴지통,n.,垃圾桶,trash can,1
+칠판,n.,黑板,blackboard,1
+크리스마스,n.,聖誕節,Christmas,1
+목요일,n.,星期四,Thursday,1
+지우개,n.,橡皮擦,eraser,1
+사,n.,四,four,1
+수영장,n.,游泳池,swimming pool,1
+일본어,n.,日語,Japanese (language),1
+갈비,n.,排骨,ribs; galbi,1
+서른,n.,三十,thirty,1
+아홉,n.,九,nine,1
+장미,n.,玫瑰,rose,1
+파란색,n.,藍色,blue,1
+냉면,n.,冷麵,cold noodles,1
+비빔밥,n.,拌飯,bibimbap,1
+여든,n.,八十,eighty,1
+일흔,n.,七十,seventy,1
+화요일,n.,星期二,Tuesday,1
+선물하다,v.,送禮,to give a gift,1
+아이스크림,n.,冰淇淋,ice cream,1
+요리하다,v.,做菜,to cook,1
+칠,n.,七,seven,1
+다섯째,n.,第五,fifth,1
+맛없다,adj.,不好吃,to taste bad,1
+사십,n.,四十,forty,1
+실례하다,v.,失禮；打擾,to be rude; to excuse oneself,1
+여섯,n.,六,six,1
+육,n.,六,six,1
+일곱,n.,七,seven,1
+삼십,n.,三十,thirty,1
+오십,n.,五十,fifty,1
+중국어,n.,中文,Chinese (language),1
+칠십,n.,七十,seventy,1
+사탕,n.,糖果,candy,1
+예순,n.,六十,sixty,1
+십,n.,十,ten,1
+쉰,n.,五十,fifty,1
+육십,n.,六十,sixty,1
+팔십,n.,八十,eighty,1
+여덟,n.,八,eight,1
+아흔,n.,九十,ninety,1
+이십,n.,二十,twenty,1
+저곳,pron.,那裡,that place over there,1
+강원도,n.,江原道,Gangwon Province,2
+경기도,n.,京畿道,Gyeonggi Province,2
+경상도,n.,慶尚道,Gyeongsang Province,2
+광주,n.,光州,Gwangju,2
+그렇게,adv.,那樣地,like that; so,2
+김포공항,n.,金浦機場,Gimpo Airport,2
+남산,n.,南山,Namsan Mountain,2
+뉴욕,n.,紐約,New York,2
+대구,n.,大邱,Daegu,2
+대전,n.,大田,Daejeon,2
+대한민국,n.,大韓民國,Republic of Korea,2
+덕수궁,n.,德壽宮,Deoksugung Palace,2
+도쿄,n.,東京,Tokyo,2
+동대문,n.,東大門,Dongdaemun (East Gate),2
+동대문시장,n.,東大門市場,Dongdaemun Market,2
+런던,n.,倫敦,London,2
+베이징,n.,北京,Beijing,2
+북한,n.,北韓,North Korea,2
+아시아,n.,亞洲,Asia,2
+아프리카,n.,非洲,Africa,2
+울산,n.,蔚山,Ulsan,2
+유럽,n.,歐洲,Europe,2
+이렇게,adv.,這樣地,like this,2
+인천공항,n.,仁川機場,Incheon Airport,2
+저렇게,adv.,那樣地,like that,2
+전라도,n.,全羅道,Jeolla Province,2
+종로,n.,鍾路,Jongno,2
+충청도,n.,忠清道,Chungcheong Province,2
+파리,n.,巴黎；蒼蠅,Paris; fly,2
+한라산,n.,漢拏山,Hallasan Mountain,2
+등,n.,背；等等,back; etc.,2
+대하다,v.,對待；關於,to treat; regarding,2
+위하다,v.,為了,to be for,2
+사회,n.,社會,society,2
+따르다,v.,跟隨；倒（水）,to follow; to pour,2
+그런,phr.,那樣的,such; that kind of,2
+데,n.,地方；情況,place; case,2
+경우,n.,情況,case; situation,2
+중,n.,中；之中,middle; among,2
+자신,n.,自身；自信,oneself; confidence,2
+문화,n.,文化,culture,2
+통하다,v.,通；相通,to go through; to communicate,2
+소리,n.,聲音,sound,2
+정도,n.,程度,degree; about,2
+보이다,v.,看得見；給…看,to be seen; to show,2
+지나다,v.,經過,to pass,2
+인간,n.,人類,human,2
+사실,n.,事實,fact; actually,2
+점,n.,點；分,point; dot,2
+의하다,v.,依據,to be based on,2
+시대,n.,時代,era,2
+이러하다,adj.,這樣,to be like this,2
+세계,n.,世界,world,2
+자기,pron.,自己,oneself,2
+대통령,n.,總統,president,2
+가지,n.,種；樹枝,kind; branch,2
+국가,n.,國家,nation,2
+여성,n.,女性,woman,2
+관계,n.,關係,relationship,2
+나타나다,v.,出現,to appear,2
+지역,n.,地區,region,2
+모습,n.,樣子,appearance,2
+없이,adv.,沒有地,without,2
+뿐,n.,只有,only,2
+방법,n.,方法,method,2
+갖다,v.,擁有（가지다縮寫）,to have,2
+특히,adv.,特別,especially,2
+이상,n.,以上；理想；異常,more than; ideal; abnormality,2
+교육,n.,教育,education,2
+경제,n.,經濟,economy,2
+예술,n.,藝術,art,2
+결과,n.,結果,result,2
+내용,n.,內容,content,2
+당신,pron.,你；您,you,2
+느끼다,v.,感覺,to feel,2
+의미,n.,意義,meaning,2
+밝히다,v.,闡明；照亮,to reveal; to light up,2
+이미,adv.,已經,already,2
+정치,n.,政治,politics,2
+국민,n.,國民,citizens,2
+연구,n.,研究,research,2
+및,adv.,及；和,and; as well as,2
+짓다,v.,建造；做（飯）；取（名）,to build; to cook; to name,2
+또한,adv.,而且,also,2
+이유,n.,理由,reason,2
+또는,adv.,或者,or,2
+글,n.,文章,writing,2
+세상,n.,世上,the world,2
+두다,v.,放置,to put; to leave,2
+즉,adv.,即,namely,2
+이후,n.,以後,after; since,2
+문학,n.,文學,literature,2
+지방,n.,地方；脂肪,region; fat,2
+최근,n.,最近,recently,2
+환경,n.,環境,environment,2
+자체,n.,本身,itself,2
+남다,v.,剩下,to remain,2
+부분,n.,部分,part,2
+변화,n.,變化,change,2
+뜻,n.,意思,meaning,2
+떨어지다,v.,掉落；落榜,to fall; to fail,2
+관하다,v.,關於,to be about,2
+그냥,adv.,就那樣；只是,just; as it is,2
+나누다,v.,分；分享,to divide; to share,2
+이용하다,v.,利用,to use,2
+거의,adv.,幾乎,almost,2
+중심,n.,中心,center,2
+활동,n.,活動,activity,2
+관심,n.,關心；興趣,interest,2
+역시,adv.,果然；也,as expected; also,2
+애,n.,小孩；心力,child; effort,2
+광고,n.,廣告,advertisement,2
+정신,n.,精神,mind; spirit,2
+이르다,v.,到達；說；早,to reach; to tell; to be early,2
+땅,n.,土地,land,2
+이루다,v.,實現；形成,to achieve; to form,2
+기술,n.,技術,technology; skill,2
+전체,n.,全體,whole,2
+얻다,v.,得到,to get,2
+민족,n.,民族,ethnic group; nation,2
+간,n.,鹹淡；肝；之間,seasoning; liver; between,2
+조사,n.,調查,investigation,2
+그대로,adv.,原樣,as it is,2
+줄,n.,繩子；行；方法,rope; line; how to,2
+년대,n.,年代,decade (the -s),2
+과학,n.,科學,science,2
+자연,n.,自然,nature,2
+결국,n.,結果；終究,in the end,2
+프로그램,n.,節目；程式,program,2
+이루어지다,v.,實現；組成,to be achieved; to consist of,2
+남,n.,別人；男；南,others; male; south,2
+하루,n.,一天,one day,2
+적,n.,…的時候；敵人,time (experience); enemy,2
+터,n.,場地；打算,site; intention,2
+맞다,v.,對；迎接；挨打,to be correct; to greet; to be hit,2
+걸리다,v.,被掛；花（時間）；得病,to hang; to take (time); to catch,2
+지키다,v.,守護；遵守,to protect; to keep,2
+바라보다,v.,眺望；看著,to look at,2
+대부분,n.,大部分,most,2
+표정,n.,表情,facial expression,2
+일부,n.,一部分,part,2
+느낌,n.,感覺,feeling,2
+고개,n.,頭；山坡,head; hill,2
+성격,n.,性格,personality,2
+세기,n.,世紀,century,2
+세우다,v.,立起；建立；停（車）,to stand up; to build; to stop,2
+현재,n.,現在,present,2
+발전,n.,發展；發電,development; power generation,2
+향하다,v.,朝向,to face; to head,2
+관련,n.,關聯,relation,2
+각,phr.,各,each,2
+분위기,n.,氣氛,atmosphere,2
+그러하다,adj.,那樣,to be so,2
+우선,adv.,首先,first of all,2
+믿다,v.,相信,to believe,2
+낳다,v.,生（孩子）,to give birth,2
+정보,n.,資訊,information,2
+열리다,v.,被打開；結（果）,to be opened; to bear (fruit),2
+만큼,n.,程度；…那樣,as much as,2
+역할,n.,角色,role,2
+행동,n.,行動,action,2
+국내,n.,國內,domestic,2
+나서다,v.,出面；站出來,to step forward,2
+흐르다,v.,流,to flow,2
+깊다,adj.,深,to be deep,2
+모양,n.,樣子；形狀,shape; appearance,2
+조건,n.,條件,condition,2
+넘다,v.,超過；越過,to exceed; to cross,2
+마을,n.,村莊,village,2
+어리다,adj.,年幼,to be young,2
+대표,n.,代表,representative,2
+가능성,n.,可能性,possibility,2
+방향,n.,方向,direction,2
+대회,n.,大會；比賽,competition; convention,2
+목소리,n.,嗓音,voice,2
+움직이다,v.,動,to move,2
+노력,n.,努力,effort,2
+전혀,adv.,完全（不）,not at all,2
+단체,n.,團體,group,2
+알려지다,v.,被知道,to become known,2
+가능하다,adj.,可能,to be possible,2
+능력,n.,能力,ability,2
+주장하다,v.,主張,to claim,2
+자식,n.,子女,children; offspring,2
+돌리다,v.,轉動,to turn,2
+모으다,v.,收集,to gather; to collect,2
+자료,n.,資料,data; material,2
+제품,n.,產品,product,2
+사업,n.,事業；生意,business,2
+지난해,n.,去年,last year,2
+표현,n.,表現,expression,2
+대,n.,代；台；對,generation; counter for machines; versus,2
+젊다,adj.,年輕,to be young,2
+동시,n.,同時,same time,2
+순간,n.,瞬間,moment,2
+전쟁,n.,戰爭,war,2
+방송,n.,廣播,broadcast,2
+마찬가지,n.,一樣,the same,2
+과거,n.,過去；科舉,past; state exam,2
+현대,n.,現代,modern times,2
+살펴보다,v.,仔細看,to examine,2
+차이,n.,差異,difference,2
+풀다,v.,解開,to untie; to solve,2
+시절,n.,時期,days; period,2
+직접,adv.,直接,directly,2
+개인,n.,個人,individual,2
+근데,adv.,可是（口語）,but; by the way,2
+작가,n.,作家,writer,2
+효과,n.,效果,effect,2
+불교,n.,佛教,Buddhism,2
+끌다,v.,拉；吸引,to pull; to attract,2
+마치,adv.,好像,as if,2
+바라다,v.,希望,to hope,2
+강하다,adj.,強,to be strong,2
+경험,n.,經驗,experience,2
+최고,n.,最高；最棒,best; highest,2
+나타내다,v.,表示,to show; to express,2
+다양하다,adj.,多樣,to be various,2
+법,n.,法律；方法,law; way,2
+소설,n.,小說,novel,2
+질서,n.,秩序,order,2
+담다,v.,裝；盛,to put in; to fill,2
+모이다,v.,聚集,to gather,2
+시민,n.,市民,citizen,2
+회장,n.,會長,chairperson,2
+스스로,adv.,自己,by oneself,2
+이날,n.,這天,this day,2
+제대로,adv.,好好地；正常地,properly,2
+던지다,v.,丟；投,to throw,2
+공간,n.,空間,space,2
+벌이다,v.,展開；舉辦,to start; to hold,2
+강조하다,v.,強調,to emphasize,2
+맡다,v.,負責；聞,to take charge; to smell,2
+한편,adv.,另一方面,on the other hand,2
+기자,n.,記者,reporter,2
+주로,adv.,主要,mainly,2
+훨씬,adv.,…得多,much more,2
+통일,n.,統一,unification,2
+들어서다,v.,走進；進入,to step in,2
+시설,n.,設施,facilities,2
+주변,n.,周邊,surroundings,2
+대신,n.,代替,instead,2
+차례,n.,順序,order; turn,2
+군,n.,軍；郡；君,army; county; Mr. (young),2
+재산,n.,財產,property,2
+약간,adv.,稍微,slightly,2
+요구하다,v.,要求,to demand,2
+첫,phr.,第一（個）,first,2
+기간,n.,期間,period,2
+일으키다,v.,引起；扶起,to cause; to raise,2
+공장,n.,工廠,factory,2
+즐기다,v.,享受,to enjoy,2
+지,n.,（…以來）時間,since (time),2
+변하다,v.,變,to change,2
+사고,n.,事故；思考,accident; thinking,2
+그래도,adv.,即使那樣,even so,2
+아무리,adv.,無論怎樣,no matter how,2
+맞추다,v.,對準；配合,to fit; to adjust,2
+쌀,n.,米,rice (uncooked),2
+일반,n.,一般,general,2
+막다,v.,阻擋,to block,2
+붙이다,v.,貼,to attach; to stick,2
+늘,adv.,總是,always,2
+전국,n.,全國,nationwide,2
+마치다,v.,結束,to finish,2
+도움,n.,幫助,help,2
+가정,n.,家庭；假定,home; assumption,2
+빠지다,v.,掉；陷入,to fall out; to fall into,2
+오늘날,n.,現今,nowadays,2
+농업,n.,農業,agriculture,2
+식,n.,式；方式,style; way,2
+의견,n.,意見,opinion,2
+표현하다,v.,表達,to express,2
+이상하다,adj.,奇怪,to be strange,2
+붙다,v.,黏；考上,to stick; to pass (an exam),2
+경기,n.,比賽；景氣,game; economy,2
+목적,n.,目的,purpose,2
+태도,n.,態度,attitude,2
+남성,n.,男性,man,2
+주위,n.,周圍,surroundings,2
+그만,adv.,到此為止,that's enough; stop,2
+발생하다,v.,發生,to occur,2
+어쩌다,adv.,偶然；怎麼會,by chance; how come,2
+재료,n.,材料,material; ingredient,2
+각각,adv.,各自,each,2
+옮기다,v.,搬；轉移,to move,2
+자유,n.,自由,freedom,2
+책임,n.,責任,responsibility,2
+바뀌다,v.,被改變,to change,2
+심하다,adj.,嚴重,to be severe,2
+자라다,v.,成長,to grow,2
+구체적,n.,具體的,concrete; specific,2
+기회,n.,機會,opportunity,2
+지구,n.,地球；地區,the earth; district,2
+번째,n.,第…次,-th (ordinal),2
+소비자,n.,消費者,consumer,2
+기준,n.,基準,standard,2
+반드시,adv.,一定,certainly,2
+받아들이다,v.,接受,to accept,2
+꺼내다,v.,拿出,to take out,2
+노동자,n.,勞工,worker,2
+동네,n.,社區,neighborhood,2
+완전히,adv.,完全,completely,2
+전하다,v.,傳達,to convey,2
+별로,adv.,（不）怎麼,not particularly,2
+정하다,v.,決定,to decide,2
+대중,n.,大眾,the public,2
+늘어나다,v.,增加,to increase,2
+각종,n.,各種,various kinds,2
+빛,n.,光,light,2
+야,int.,喂；呀,hey,2
+발견하다,v.,發現,to discover,2
+특징,n.,特徵,characteristic,2
+선수,n.,選手,athlete,2
+마련하다,v.,準備；籌措,to prepare; to arrange,2
+발표하다,v.,發表,to announce; to present,2
+주제,n.,主題,topic; theme,2
+기본,n.,基本,basics,2
+사라지다,v.,消失,to disappear,2
+감정,n.,感情,emotion,2
+기억,n.,記憶,memory,2
+인기,n.,人氣,popularity,2
+관리,n.,管理；官吏,management; official,2
+들리다,v.,聽得到,to be heard,2
+달리다,v.,跑；掛著,to run; to hang,2
+이전,n.,以前,before; previous,2
+자,n.,尺；字；者,ruler; letter; person,2
+시키다,v.,使；叫（做）；點（餐）,to make (someone do); to order,2
+국제,n.,國際,international,2
+그룹,n.,團體,group,2
+인생,n.,人生,life,2
+전통,n.,傳統,tradition,2
+기르다,v.,養；培養,to raise; to grow,2
+조사하다,v.,調查,to investigate,2
+커다랗다,adj.,巨大,to be huge,2
+시인,n.,詩人,poet,2
+외,n.,以外,besides; except,2
+위치,n.,位置,location,2
+줄이다,v.,減少；縮短,to reduce,2
+가격,n.,價格,price,2
+달라지다,v.,改變,to change,2
+원하다,v.,希望；想要,to want,2
+통신,n.,通訊,communication,2
+확인하다,v.,確認,to confirm,2
+모임,n.,聚會,gathering,2
+웃음,n.,笑,laughter,2
+기계,n.,機器,machine,2
+아나운서,n.,播報員,announcer,2
+펴다,v.,攤開；展開,to spread; to unfold,2
+종교,n.,宗教,religion,2
+자연스럽다,adj.,自然,to be natural,2
+돌다,v.,轉；繞,to turn; to go around,2
+이해,n.,理解；利害,understanding; interests,2
+혹은,adv.,或者,or,2
+편,n.,邊；班次；篇,side; service; volume,2
+노력하다,v.,努力,to make an effort,2
+보호,n.,保護,protection,2
+이웃,n.,鄰居,neighbor,2
+공동,n.,共同,joint; common,2
+까닭,n.,緣故,reason,2
+소녀,n.,少女,girl,2
+지나가다,v.,經過,to pass by,2
+상품,n.,商品,goods,2
+훌륭하다,adj.,優秀；了不起,to be excellent,2
+새로,adv.,重新；新,newly,2
+종류,n.,種類,kind; type,2
+키우다,v.,養；培育,to raise,2
+눕다,v.,躺,to lie down,2
+발달하다,v.,發達,to develop,2
+발전하다,v.,發展,to develop,2
+죽음,n.,死亡,death,2
+고통,n.,痛苦,pain,2
+듯이,n.,好像,as if,2
+어울리다,v.,相配；合群,to suit; to get along,2
+알리다,v.,告知,to inform,2
+차다,v.,踢；滿；戴；冷,to kick; to be full; to wear; to be cold,2
+멀리,adv.,遠遠地,far away,2
+빼다,v.,拔；減去,to pull out; to subtract,2
+예정,n.,預定,plan; schedule,2
+흔히,adv.,常常,commonly,2
+느껴지다,v.,感覺到,to be felt,2
+전문,n.,專門,specialty,2
+정확하다,adj.,正確,to be accurate,2
+찾아오다,v.,來訪,to come to see,2
+사용,n.,使用,use,2
+결정하다,v.,決定,to decide,2
+경영,n.,經營,management,2
+목표,n.,目標,goal,2
+숲,n.,森林,forest,2
+없어지다,v.,不見,to disappear,2
+떠오르다,v.,浮現；升起,to come to mind; to rise,2
+미치다,v.,發瘋；達到,to go crazy; to reach,2
+새벽,n.,凌晨,dawn,2
+얼른,adv.,趕快,quickly,2
+임금,n.,國王；工資,king; wages,2
+무섭다,adj.,可怕,to be scary,2
+직장,n.,職場,workplace,2
+참다,v.,忍耐,to endure,2
+크기,n.,大小,size,2
+남기다,v.,留下,to leave behind,2
+서양,n.,西洋,the West,2
+주요,n.,主要,main,2
+지나치다,v.,過度；經過,to be excessive; to pass by,2
+냄새,n.,氣味,smell,2
+부드럽다,adj.,柔軟,to be soft,2
+공연,n.,公演,performance,2
+내놓다,v.,拿出,to put out,2
+떼다,v.,拿下；撕下,to remove; to detach,2
+만들어지다,v.,被做成,to be made,2
+속도,n.,速度,speed,2
+심각하다,adj.,嚴重,to be serious,2
+계속되다,v.,持續,to continue,2
+소년,n.,少年,boy,2
+소식,n.,消息,news,2
+그중,n.,其中,among them,2
+노인,n.,老人,elderly person,2
+벌다,v.,賺（錢）,to earn,2
+살리다,v.,救活；發揮,to save; to make use of,2
+결정,n.,決定,decision,2
+썰다,v.,切,to slice,2
+이미지,n.,形象,image,2
+업무,n.,業務,work; duty,2
+청소년,n.,青少年,teenager,2
+응,int.,嗯,yeah,2
+이기다,v.,贏,to win,2
+찾아보다,v.,找找看；查,to look up,2
+취하다,v.,採取；喝醉,to take; to get drunk,2
+선배,n.,前輩；學長姐,senior,2
+구하다,v.,尋求；救,to seek; to save,2
+그러므로,adv.,因此,therefore,2
+포함하다,v.,包含,to include,2
+만약,n.,萬一；如果,if,2
+바르다,v.,塗；端正,to apply; to be upright,2
+숨,n.,呼吸,breath,2
+행사,n.,活動；行使,event; exercise (of rights),2
+신,n.,鞋；神；興致,shoes; god; excitement,2
+왕,n.,王,king,2
+점점,adv.,漸漸,gradually,2
+특별,n.,特別,special,2
+판단,n.,判斷,judgment,2
+해결하다,v.,解決,to solve,2
+계속하다,v.,繼續,to continue,2
+그치다,v.,停止,to stop,2
+너무나,adv.,太；非常,so; too,2
+높이다,v.,提高,to raise,2
+막,adv.,剛剛；胡亂,just now; carelessly,2
+수출,n.,出口,export,2
+자르다,v.,剪；切,to cut,2
+데리다,v.,帶（人）,to take (someone),2
+무척,adv.,非常,very,2
+비용,n.,費用,cost,2
+옳다,adj.,對；正確,to be right,2
+원래,n.,原來,originally,2
+최초,n.,最初,first,2
+놀이,n.,遊戲,play; game,2
+뿌리,n.,根,root,2
+수입,n.,收入；進口,income; import,2
+초,n.,秒；初,second; beginning,2
+직원,n.,職員,employee,2
+상대,n.,對方,counterpart,2
+피부,n.,皮膚,skin,2
+가득,adv.,滿滿地,fully,2
+벽,n.,牆,wall,2
+장군,n.,將軍,general,2
+무역,n.,貿易,trade,2
+쳐다보다,v.,仰望；盯著看,to look up at; to stare,2
+충분히,adv.,充分地,sufficiently,2
+신체,n.,身體,body,2
+에너지,n.,能量,energy,2
+정리하다,v.,整理,to organize,2
+집안,n.,家裡；家族,family; household,2
+배경,n.,背景,background,2
+죽이다,v.,殺,to kill,2
+단순하다,adj.,單純,to be simple,2
+반대,n.,反對；相反,opposition; opposite,2
+푸르다,adj.,藍；綠,to be blue; to be green,2
+걔,pron.,那個孩子（口語）,that kid (casual),2
+발표,n.,發表,announcement; presentation,2
+흔들다,v.,搖,to shake; to wave,2
+기초,n.,基礎,foundation,2
+드라마,n.,連續劇,drama,2
+뽑다,v.,拔；選,to pull out; to select,2
+미리,adv.,事先,in advance,2
+부족하다,adj.,不足,to be lacking,2
+저희,pron.,我們（謙稱）,we (humble),2
+진행되다,v.,進行,to proceed,2
+오랜,phr.,長久的,long (time),2
+젊은이,n.,年輕人,young person,2
+과제,n.,課題；作業,task; assignment,2
+기록하다,v.,記錄,to record,2
+다가오다,v.,靠近,to approach,2
+종합,n.,綜合,synthesis; overall,2
+개발하다,v.,開發,to develop,2
+떨다,v.,發抖,to tremble,2
+자유롭다,adj.,自由,to be free,2
+적극적,n.,積極的,active,2
+판매,n.,販賣,sales,2
+길이,n.,長度,length,2
+점차,adv.,逐漸,gradually,2
+톤,n.,噸,ton,2
+관련되다,v.,相關,to be related,2
+나머지,n.,剩下的,the rest,2
+미래,n.,未來,future,2
+인구,n.,人口,population,2
+기대하다,v.,期待,to expect,2
+흘리다,v.,流；灑,to shed; to spill,2
+주인공,n.,主角,main character,2
+당연하다,adj.,理所當然,to be natural; obvious,2
+따로,adv.,另外；分開,separately,2
+빌리다,v.,借,to borrow,2
+형님,n.,哥哥（敬稱）,older brother (honorific),2
+놓이다,v.,被放著,to be placed,2
+당장,n.,當場；馬上,immediately,2
+무렵,n.,時候,around the time,2
+사물,n.,事物,object; thing,2
+일반적,n.,一般的,general,2
+곱다,adj.,美好；細,to be lovely; to be fine,2
+바닥,n.,地板；底,floor; bottom,2
+새끼,n.,幼崽；繩子,young (animal); rope,2
+생각되다,v.,被認為,to be thought,2
+서비스,n.,服務,service,2
+선택하다,v.,選擇,to choose,2
+심다,v.,種植,to plant,2
+간단하다,adj.,簡單,to be simple,2
+견디다,v.,忍受,to endure,2
+기사,n.,報導；技師,article; technician,2
+막히다,v.,堵塞,to be blocked,2
+뿌리다,v.,灑,to sprinkle,2
+어쩌면,adv.,也許,perhaps,2
+비밀,n.,秘密,secret,2
+쓰이다,v.,被寫；被使用,to be written; to be used,2
+아까,adv.,剛才,a while ago,2
+알맞다,adj.,合適,to be suitable,2
+희다,adj.,白,to be white,2
+가리키다,v.,指,to point at,2
+모시다,v.,陪同；侍奉,to accompany; to serve,2
+발달,n.,發達,development,2
+수많다,adj.,許多,to be numerous,2
+잘못,n.,錯誤,mistake; wrongly,2
+평화,n.,和平,peace,2
+공사,n.,工程,construction,2
+돌,n.,石頭；週歲,stone; first birthday,2
+박사,n.,博士,doctor (Ph.D.),2
+성,n.,姓；性；城,surname; sex; castle,2
+전문가,n.,專家,expert,2
+단지,adv.,只是；園區,merely; complex,2
+무용,n.,舞蹈,dance,2
+불리다,v.,被叫；泡,to be called; to soak,2
+싸움,n.,打架；爭吵,fight,2
+자꾸,adv.,一直；老是,repeatedly,2
+차리다,v.,準備（飯菜）；開（店）,to set (a table); to open (a shop),2
+해외,n.,海外,overseas,2
+그리,adv.,那樣；（不）太,so; not very,2
+뜨다,v.,浮；升起；睜開,to float; to rise; to open (eyes),2
+미소,n.,微笑,smile,2
+의미하다,v.,意味著,to mean,2
+체육,n.,體育,physical education,2
+땀,n.,汗,sweat,2
+잘되다,v.,順利,to go well,2
+쌓이다,v.,堆積,to pile up,2
+이익,n.,利益,profit,2
+쥐다,v.,握,to grip,2
+게다가,adv.,而且,moreover,2
+끓이다,v.,煮,to boil,2
+논문,n.,論文,thesis,2
+멈추다,v.,停止,to stop,2
+사용되다,v.,被使用,to be used,2
+오랫동안,n.,長時間,for a long time,2
+찾아가다,v.,去拜訪,to visit,2
+늘다,v.,增加；進步,to increase; to improve,2
+양,n.,羊；量；兩,sheep; amount; both,2
+진짜,adv.,真的,really; real,2
+공기,n.,空氣；飯碗,air; rice bowl,2
+닿다,v.,碰到；到達,to touch; to reach,2
+속하다,v.,屬於,to belong,2
+올림픽,n.,奧運,the Olympics,2
+이외,n.,以外,except,2
+제공하다,v.,提供,to provide,2
+기대,n.,期待,expectation,2
+식물,n.,植物,plant,2
+옛,phr.,從前的,old; former,2
+적어도,adv.,至少,at least,2
+편하다,adj.,舒服；方便,to be comfortable,2
+어려움,n.,困難,difficulty,2
+분명히,adv.,分明；確實,clearly,2
+아무것,n.,任何東西,anything,2
+온,phr.,全部的,whole; all,2
+젖다,v.,濕,to get wet,2
+최대,n.,最大,maximum,2
+평소,n.,平時,usually,2
+농사,n.,農事,farming,2
+더구나,adv.,再加上,besides,2
+어둠,n.,黑暗,darkness,2
+어둡다,adj.,暗,to be dark,2
+주택,n.,住宅,house,2
+고장,n.,故障；地方,breakdown; locality,2
+관련하다,v.,有關,to be related,2
+밀다,v.,推,to push,2
+음,int.,嗯,hmm,2
+고려하다,v.,考慮,to consider,2
+농촌,n.,農村,farm village,2
+올라오다,v.,上來,to come up,2
+챙기다,v.,收拾；照顧,to pack; to take care of,2
+고르다,v.,挑選；均勻,to choose; to be even,2
+벌어지다,v.,裂開；發生,to open up; to happen,2
+포기하다,v.,放棄,to give up,2
+고치다,v.,修理；改正,to fix,2
+그림자,n.,影子,shadow,2
+다하다,v.,盡；用完,to do one's best; to run out,2
+마침내,adv.,終於,finally,2
+비교하다,v.,比較,to compare,2
+커지다,v.,變大,to get bigger,2
+한쪽,n.,一邊,one side,2
+검사,n.,檢查；檢察官,inspection; prosecutor,2
+맡기다,v.,託付,to entrust,2
+소문,n.,傳聞,rumor,2
+싣다,v.,裝載；刊登,to load; to publish,2
+쌓다,v.,堆；累積,to pile; to build up,2
+제목,n.,題目,title,2
+짓,n.,行為；舉動,act; behavior,2
+하얗다,adj.,雪白,to be white,2
+희망,n.,希望,hope,2
+군대,n.,軍隊,army,2
+그만큼,adv.,那麼多,that much,2
+무어,pron.,什麼,what,2
+상대방,n.,對方,the other party,2
+시골,n.,鄉下,countryside,2
+실수,n.,失誤,mistake,2
+잘못되다,v.,出錯,to go wrong,2
+치료,n.,治療,treatment,2
+폭,n.,寬度；幅,width,2
+내밀다,v.,伸出,to stick out,2
+시리즈,n.,系列,series,2
+임신,n.,懷孕,pregnancy,2
+잡히다,v.,被抓,to be caught,2
+그램,n.,公克,gram,2
+밭,n.,旱田,field,2
+분석하다,v.,分析,to analyze,2
+식구,n.,家人,family member,2
+울리다,v.,響；使哭,to ring; to make cry,2
+확실하다,adj.,確實,to be certain,2
+글자,n.,文字,letter; character,2
+연구하다,v.,研究,to research,2
+착하다,adj.,善良,to be good-natured,2
+부동산,n.,不動產,real estate,2
+직업,n.,職業,occupation,2
+조상,n.,祖先,ancestor,2
+검다,adj.,黑,to be black,2
+곁,n.,身邊,side,2
+너희,pron.,你們,you (plural),2
+따다,v.,摘；取得,to pick; to obtain,2
+문제점,n.,問題點,problem,2
+불가능하다,adj.,不可能,to be impossible,2
+인제,adv.,現在,now,2
+충격,n.,衝擊,shock,2
+금방,adv.,馬上；剛剛,soon; just now,2
+누르다,v.,按；壓,to press,2
+미술,n.,美術,art,2
+꽤,adv.,相當,quite,2
+한참,n.,好一陣子,for a long while,2
+끊다,v.,切斷；戒,to cut; to quit,2
+넘어가다,v.,越過；倒下,to go over; to fall,2
+담기다,v.,被裝,to be contained,2
+서두르다,v.,趕快,to hurry,2
+충분하다,adj.,充分,to be enough,2
+기쁘다,adj.,高興,to be glad,2
+기쁨,n.,喜悅,joy,2
+깊이,n.,深度；深深地,depth; deeply,2
+꾸미다,v.,裝飾；編造,to decorate; to make up,2
+늘리다,v.,增加,to increase,2
+무릎,n.,膝蓋,knee,2
+발견되다,v.,被發現,to be discovered,2
+이용,n.,利用,use,2
+지르다,v.,叫喊,to shout,2
+걸음,n.,步伐,step,2
+겨우,adv.,好不容易；僅僅,barely; only,2
+마르다,v.,乾；瘦,to dry; to be thin,2
+비교적,adv.,比較,relatively,2
+높아지다,v.,變高,to become higher,2
+늙다,v.,變老,to grow old,2
+상상,n.,想像,imagination,2
+스타,n.,明星,star,2
+입술,n.,嘴唇,lips,2
+중간,n.,中間,middle,2
+몹시,adv.,非常,very; extremely,2
+특별하다,adj.,特別,to be special,2
+가까이,adv.,靠近,near; closely,2
+낫다,v.,痊癒；更好,to recover; to be better,2
+넘어서다,v.,越過,to go beyond,2
+볶다,v.,炒,to stir-fry,2
+언젠가,adv.,總有一天,someday,2
+예술가,n.,藝術家,artist,2
+가만히,adv.,靜靜地,quietly; still,2
+한두,phr.,一兩個,one or two,2
+흙,n.,土,soil,2
+가난하다,adj.,貧窮,to be poor,2
+고객,n.,顧客,customer,2
+과학자,n.,科學家,scientist,2
+관광,n.,觀光,tourism,2
+수술,n.,手術,surgery,2
+식품,n.,食品,food,2
+연기,n.,演技；煙；延期,acting; smoke; postponement,2
+회원,n.,會員,member,2
+들려오다,v.,傳來,to be heard,2
+조금씩,adv.,一點一點地,little by little,2
+풀리다,v.,解開；緩和,to be untied; to ease,2
+들여다보다,v.,往裡看,to look into,2
+마늘,n.,大蒜,garlic,2
+습관,n.,習慣,habit,2
+활용하다,v.,活用,to make use of,2
+가꾸다,v.,栽培；打扮,to cultivate; to groom,2
+고민,n.,煩惱,worry,2
+떠올리다,v.,想起,to recall,2
+맨,phr.,最；光著,the very; bare,2
+상처,n.,傷口,wound,2
+좁다,adj.,窄,to be narrow,2
+집다,v.,夾；撿,to pick up,2
+대표적,n.,代表性的,representative,2
+만일,n.,萬一,if; in case,2
+사회적,n.,社會的,social,2
+생겨나다,v.,產生,to come into being,2
+주부,n.,主婦,housewife,2
+태양,n.,太陽,sun,2
+틀림없다,adj.,沒錯,to be certain,2
+프로,n.,節目；專業；百分比,program; professional; percent,2
+피다,v.,開（花）,to bloom,2
+도로,n.,道路；反而,road; back again,2
+지다,v.,輸；落下；背,to lose; to set; to carry on the back,2
+채우다,v.,填滿,to fill,2
+부족,n.,不足；部族,shortage; tribe,2
+더하다,v.,加,to add,2
+총장,n.,校長（大學）,university president,2
+단순히,adv.,單純地,simply,2
+달려가다,v.,跑過去,to run to,2
+방문,n.,訪問；房門,visit; room door,2
+불만,n.,不滿,dissatisfaction,2
+불편하다,adj.,不方便；不舒服,to be uncomfortable,2
+실제,n.,實際,reality; actually,2
+종,n.,鐘；種,bell; species,2
+피,n.,血,blood,2
+관객,n.,觀眾,audience,2
+밀리미터,n.,公釐,millimeter,2
+숫자,n.,數字,number,2
+계산,n.,計算；結帳,calculation; payment,2
+놀랍다,adj.,驚人,to be surprising,2
+예전,n.,以前,former times,2
+전기,n.,電；傳記；前期,electricity; biography; first half,2
+틀리다,v.,錯,to be wrong,2
+모델,n.,模特兒；型號,model,2
+붓다,v.,腫；倒（水）,to swell; to pour,2
+고모,n.,姑姑,aunt (father's sister),2
+궁금하다,adj.,好奇,to be curious,2
+딱,adv.,正好；突然,exactly; suddenly,2
+약하다,adj.,弱,to be weak,2
+잘못하다,v.,做錯,to do wrong,2
+공무원,n.,公務員,civil servant,2
+그만두다,v.,停止；辭職,to quit; to stop,2
+행복하다,adj.,幸福,to be happy,2
+굽다,v.,烤,to grill; to bake,2
+기름,n.,油,oil,2
+쏟아지다,v.,傾瀉；湧出,to pour out,2
+기억하다,v.,記得,to remember,2
+토론,n.,討論,discussion,2
+고급,n.,高級,high-class,2
+고생,n.,辛苦,hardship,2
+밟다,v.,踩,to step on,2
+섞다,v.,混合,to mix,2
+없애다,v.,消除,to get rid of,2
+이뤄지다,v.,實現,to be achieved,2
+정상,n.,正常；頂峰,normal; summit,2
+화장품,n.,化妝品,cosmetics,2
+굵다,adj.,粗,to be thick,2
+깨끗이,adv.,乾淨地,cleanly,2
+낡다,adj.,舊；破舊,to be old; worn,2
+눈앞,n.,眼前,before one's eyes,2
+방문하다,v.,訪問,to visit,2
+붉다,adj.,紅,to be red,2
+순서,n.,順序,order,2
+아무래도,adv.,無論如何；看來,after all; it seems,2
+연구소,n.,研究所,research institute,2
+이사,n.,搬家；董事,moving; director,2
+들르다,v.,順道去,to drop by,2
+섬,n.,島,island,2
+이하,n.,以下,below,2
+참석하다,v.,出席,to attend,2
+해결,n.,解決,solution,2
+행복,n.,幸福,happiness,2
+근로자,n.,勞工,worker,2
+글쎄,int.,這個嘛,well; let me see,2
+변화하다,v.,變化,to change,2
+결정되다,v.,被決定,to be decided,2
+불안,n.,不安,anxiety,2
+여유,n.,餘裕,leeway; spare,2
+킬로미터,n.,公里,kilometer,2
+파도,n.,波浪,wave,2
+단,n.,階段；單一,step; single,2
+방송국,n.,電視台,broadcasting station,2
+숨다,v.,躲藏,to hide,2
+예금,n.,存款,deposit,2
+입학,n.,入學,admission (school),2
+물다,v.,咬；叼,to bite; to hold in the mouth,2
+어느새,adv.,不知不覺,before one knows it,2
+치즈,n.,起司,cheese,2
+반대하다,v.,反對,to oppose,2
+아이고,int.,哎呀,oh my,2
+조용히,adv.,安靜地,quietly,2
+가스,n.,瓦斯,gas,2
+구멍,n.,洞,hole,2
+만화,n.,漫畫,comics,2
+먹이다,v.,餵,to feed,2
+무시하다,v.,無視,to ignore,2
+살짝,adv.,輕輕地；悄悄地,lightly; secretly,2
+생각나다,v.,想起來,to come to mind,2
+인상,n.,印象；上漲；長相,impression; increase; appearance,2
+차갑다,adj.,冰冷,to be cold,2
+관찰하다,v.,觀察,to observe,2
+괜히,adv.,白白地；無故,in vain; for no reason,2
+끼다,v.,籠罩；夾；戴,to be cloudy; to be caught; to wear (ring),2
+날개,n.,翅膀,wing,2
+녀석,n.,傢伙,guy; fellow,2
+눈빛,n.,眼神,look in one's eyes,2
+물속,n.,水中,underwater,2
+성공하다,v.,成功,to succeed,2
+소나무,n.,松樹,pine tree,2
+여기저기,n.,到處,here and there,2
+머무르다,v.,停留,to stay,2
+형제,n.,兄弟,brothers; siblings,2
+화려하다,adj.,華麗,to be splendid,2
+딴,phr.,別的,other,2
+몇몇,phr.,幾個,some; a few,2
+세계적,n.,世界性的,global,2
+안전,n.,安全,safety,2
+양파,n.,洋蔥,onion,2
+촬영,n.,拍攝,filming,2
+틀다,v.,打開（機器）；扭,to turn on; to twist,2
+감다,v.,閉（眼）；洗（頭）；纏,to close (eyes); to wash (hair); to wind,2
+고추,n.,辣椒,chili pepper,2
+규칙,n.,規則,rule,2
+아마도,adv.,大概,probably,2
+안방,n.,主臥室,master bedroom,2
+앓다,v.,患病,to be ill,2
+오직,adv.,只有,only,2
+포함되다,v.,被包含,to be included,2
+호랑이,n.,老虎,tiger,2
+덜,adv.,較少；不夠,less,2
+둥글다,adj.,圓,to be round,2
+본래,n.,本來,originally,2
+세금,n.,稅金,tax,2
+입구,n.,入口,entrance,2
+잔뜩,adv.,滿滿地,fully,2
+적극,n.,積極,positiveness,2
+최소한,n.,最低限度,minimum; at least,2
+펼쳐지다,v.,展開,to unfold,2
+경험하다,v.,經歷,to experience,2
+넘치다,v.,溢出,to overflow,2
+놓치다,v.,錯過,to miss,2
+돌아보다,v.,回頭看,to look back,2
+또다시,adv.,再次,once again,2
+머릿속,n.,腦海,in one's head,2
+불안하다,adj.,不安,to be anxious,2
+위반,n.,違反,violation,2
+평생,n.,一生,lifetime,2
+굉장히,adv.,非常,tremendously,2
+덮다,v.,蓋,to cover,2
+몰다,v.,駕駛；趕,to drive; to herd,2
+배우,n.,演員,actor,2
+알,n.,蛋；顆粒,egg; grain,2
+앞서다,v.,領先,to go ahead,2
+오래전,n.,很久以前,long ago,2
+자격,n.,資格,qualification,2
+계단,n.,樓梯,stairs,2
+끄덕이다,v.,點頭,to nod,2
+낯설다,adj.,陌生,to be unfamiliar,2
+높이,n.,高度；高高地,height; high,2
+닮다,v.,像,to resemble,2
+마음속,n.,心裡,in one's heart,2
+뼈,n.,骨頭,bone,2
+연결되다,v.,連接,to be connected,2
+장사,n.,生意,business; trade,2
+제한,n.,限制,limit,2
+콩,n.,豆子,bean,2
+한숨,n.,嘆氣；一口氣,sigh; a breath,2
+헤어지다,v.,分手；分開,to break up; to part,2
+너머,n.,那邊；對面,beyond,2
+동기,n.,動機；同期,motive; classmate,2
+순수하다,adj.,純粹,to be pure,2
+스타일,n.,風格,style,2
+집중,n.,集中,concentration,2
+큰일,n.,大事；糟糕,big trouble; important matter,2
+거짓말,n.,謊話,lie,2
+대단하다,adj.,了不起,to be great,2
+대단히,adv.,非常,very,2
+마주,adv.,面對面,face to face,2
+온통,adv.,全部,entirely,2
+자세히,adv.,仔細地,in detail,2
+정확히,adv.,正確地,exactly,2
+지치다,v.,疲憊,to be exhausted,2
+청년,n.,青年,young man,2
+혀,n.,舌頭,tongue,2
+확대하다,v.,擴大,to expand,2
+후춧가루,n.,胡椒粉,ground pepper,2
+마침,adv.,正好,just in time,2
+신용,n.,信用,credit; trust,2
+온몸,n.,全身,whole body,2
+정,n.,情,affection,2
+정신적,n.,精神上的,mental,2
+증상,n.,症狀,symptom,2
+출연하다,v.,演出,to appear (on a show),2
+한꺼번에,adv.,一次全部,all at once,2
+강제,n.,強制,compulsion,2
+건너다,v.,渡過；穿越,to cross,2
+깨다,v.,醒；打破,to wake up; to break,2
+낚시,n.,釣魚,fishing,2
+다가가다,v.,走近,to approach,2
+뛰어들다,v.,跳進,to jump into,2
+신부,n.,新娘；神父,bride; priest,2
+오징어,n.,魷魚,squid,2
+요금,n.,費用,fee; fare,2
+용돈,n.,零用錢,allowance,2
+음료,n.,飲料,beverage,2
+전자,n.,電子；前者,electronic; the former,2
+전해지다,v.,流傳,to be passed down,2
+편리하다,adj.,便利,to be convenient,2
+현금,n.,現金,cash,2
+활발하다,adj.,活潑,to be active,2
+가리다,v.,遮；分辨；挑,to cover; to distinguish; to be picky,2
+껍질,n.,皮；殼,peel; shell,2
+명령,n.,命令,order,2
+몰래,adv.,偷偷地,secretly,2
+무조건,adv.,無條件,unconditionally,2
+반장,n.,班長,class leader,2
+부근,n.,附近,vicinity,2
+선택,n.,選擇,choice,2
+역사가,n.,歷史學家,historian,2
+연구자,n.,研究者,researcher,2
+정리,n.,整理,arrangement,2
+조그맣다,adj.,小小的,to be small,2
+줄기,n.,莖；（水）流,stem; stream,2
+찾아내다,v.,找出,to find out,2
+권하다,v.,勸,to recommend; to offer,2
+끝내,adv.,終究,in the end,2
+대문,n.,大門,front gate,2
+시내,n.,市區,downtown,2
+실내,n.,室內,indoors,2
+쏟다,v.,倒出；灑,to pour; to spill,2
+연결하다,v.,連接,to connect,2
+외교,n.,外交,diplomacy,2
+주머니,n.,口袋,pocket,2
+계약,n.,契約,contract,2
+과장,n.,課長；誇張,section chief; exaggeration,2
+부끄럽다,adj.,害羞,to be shy; ashamed,2
+성공,n.,成功,success,2
+신청,n.,申請,application,2
+아픔,n.,痛,pain,2
+알아듣다,v.,聽懂,to understand (by hearing),2
+이동,n.,移動,movement,2
+기온,n.,氣溫,temperature,2
+날아가다,v.,飛走,to fly away,2
+많아지다,v.,變多,to increase,2
+바위,n.,岩石,rock,2
+버릇,n.,習慣；禮貌,habit; manners,2
+비판하다,v.,批判,to criticize,2
+빨갛다,adj.,紅,to be red,2
+세워지다,v.,被建立,to be built,2
+술집,n.,酒館,bar; pub,2
+전체적,n.,整體的,overall,2
+절반,n.,一半,half,2
+편안하다,adj.,舒適；安穩,to be comfortable,2
+풍경,n.,風景,scenery,2
+확실히,adv.,確實地,certainly,2
+갈다,v.,換；磨,to change; to grind,2
+교류,n.,交流,exchange,2
+글쓰기,n.,寫作,writing,2
+내내,adv.,始終,all along,2
+대기업,n.,大企業,large corporation,2
+도구,n.,工具,tool,2
+매력,n.,魅力,charm,2
+보험,n.,保險,insurance,2
+부럽다,adj.,羨慕,to be envious,2
+부장,n.,部長,department head,2
+섞이다,v.,混合,to be mixed,2
+소,n.,牛,cow,2
+심리,n.,心理,psychology,2
+쏘다,v.,射,to shoot,2
+위치하다,v.,位於,to be located,2
+이틀,n.,兩天,two days,2
+전달하다,v.,傳達,to deliver,2
+정말로,adv.,真的,truly,2
+코너,n.,角落；專區,corner,2
+행동하다,v.,行動,to act,2
+감동,n.,感動,being moved,2
+굳이,adv.,硬要,insistently,2
+그늘,n.,陰影；樹蔭,shade,2
+급하다,adj.,急,to be urgent,2
+달걀,n.,雞蛋,egg,2
+대중문화,n.,大眾文化,pop culture,2
+마련되다,v.,被準備好,to be prepared,2
+마루,n.,地板；客廳,wooden floor,2
+무게,n.,重量,weight,2
+성적,n.,成績；性的,grades; sexual,2
+솔직히,adv.,坦白說,frankly,2
+시도하다,v.,嘗試,to try,2
+예절,n.,禮節,etiquette,2
+인터넷,n.,網路,internet,2
+적용하다,v.,適用,to apply,2
+전통적,n.,傳統的,traditional,2
+참가하다,v.,參加,to participate,2
+친척,n.,親戚,relative,2
+그다지,adv.,（不）怎麼,not very,2
+긴장,n.,緊張,tension,2
+따라가다,v.,跟著去,to follow,2
+부처,n.,佛陀；部會,Buddha; government ministry,2
+숙이다,v.,低（頭）,to bow (one's head),2
+아가씨,n.,小姐,young lady,2
+온도,n.,溫度,temperature,2
+이마,n.,額頭,forehead,2
+절대로,adv.,絕對,absolutely; never,2
+지붕,n.,屋頂,roof,2
+짙다,adj.,濃,to be dark; thick,2
+창밖,n.,窗外,outside the window,2
+햇살,n.,陽光,sunlight,2
+경제적,n.,經濟的,economic,2
+담당하다,v.,擔任,to be in charge of,2
+벗기다,v.,脫下；剝,to take off; to peel,2
+불빛,n.,燈光,light,2
+시청자,n.,觀眾,viewer,2
+완벽하다,adj.,完美,to be perfect,2
+절,n.,寺廟；鞠躬；節,temple; bow; section,2
+종업원,n.,員工,employee,2
+학기,n.,學期,semester,2
+한동안,n.,一段時間,for a while,2
+만지다,v.,摸,to touch,2
+목사,n.,牧師,pastor,2
+바늘,n.,針,needle,2
+부,n.,部；富,department; wealth,2
+양쪽,n.,兩邊,both sides,2
+짐,n.,行李,luggage; burden,2
+풀,n.,草；漿糊,grass; glue,2
+해마다,adv.,每年,every year,2
+후배,n.,後輩；學弟妹,junior,2
+휴가,n.,休假,vacation,2
+국회의원,n.,國會議員,member of the National Assembly,2
+뻗다,v.,伸展,to stretch,2
+생활하다,v.,生活,to live,2
+솔직하다,adj.,坦率,to be frank,2
+안타깝다,adj.,可惜；令人心疼,to be regrettable,2
+젓다,v.,攪拌；划,to stir; to row,2
+축제,n.,慶典,festival,2
+터뜨리다,v.,弄破；爆發,to burst,2
+학습,n.,學習,learning,2
+당연히,adv.,當然,naturally,2
+떨리다,v.,發抖,to tremble,2
+마구,adv.,胡亂地,recklessly,2
+만남,n.,相遇,meeting,2
+미디어,n.,媒體,media,2
+복도,n.,走廊,hallway,2
+수상,n.,首相；得獎,prime minister; winning a prize,2
+영상,n.,影像；零上,video; above zero,2
+자랑스럽다,adj.,驕傲,to be proud,2
+적당하다,adj.,適當,to be appropriate,2
+진행하다,v.,進行,to proceed,2
+곳곳,n.,到處,everywhere,2
+금지,n.,禁止,prohibition,2
+내지,adv.,乃至,to; or,2
+달려오다,v.,跑過來,to run toward,2
+둘러보다,v.,環顧,to look around,2
+비교,n.,比較,comparison,2
+역사적,n.,歷史性的,historic,2
+열차,n.,列車,train,2
+유난히,adv.,格外,unusually,2
+잠들다,v.,入睡,to fall asleep,2
+정식,n.,正式；套餐,formal; set meal,2
+즉시,n.,立即,immediately,2
+최선,n.,最好；盡力,best,2
+탑,n.,塔,tower; pagoda,2
+활동하다,v.,活動,to be active,2
+건축,n.,建築,architecture,2
+귀엽다,adj.,可愛,to be cute,2
+답답하다,adj.,悶；鬱悶,to be stuffy; frustrated,2
+당황하다,v.,驚慌,to be flustered,2
+떨어뜨리다,v.,弄掉,to drop,2
+똑같이,adv.,一樣地,equally,2
+밀가루,n.,麵粉,flour,2
+바깥,n.,外面,outside,2
+벌리다,v.,張開,to open; to spread,2
+보고서,n.,報告書,report,2
+보관하다,v.,保管,to keep; to store,2
+부딪치다,v.,撞上,to bump into,2
+빨래,n.,洗衣服,laundry,2
+상하다,v.,腐壞；受傷,to go bad; to be hurt,2
+식용유,n.,食用油,cooking oil,2
+겁,n.,害怕,fear,2
+산소,n.,氧氣；墳墓,oxygen; grave,2
+석유,n.,石油,petroleum,2
+소리치다,v.,喊叫,to shout,2
+신선하다,adj.,新鮮,to be fresh,2
+조심하다,v.,小心,to be careful,2
+질,n.,品質,quality,2
+찌르다,v.,刺,to stab; to poke,2
+책임자,n.,負責人,person in charge,2
+확대되다,v.,被擴大,to be expanded,2
+거실,n.,客廳,living room,2
+바보,n.,傻瓜,fool,2
+보람,n.,價值；成就感,worth; fulfillment,2
+부작용,n.,副作用,side effect,2
+신고,n.,申報,report; declaration,2
+어떡하다,v.,怎麼辦,what to do,2
+예상,n.,預想,expectation,2
+주먹,n.,拳頭,fist,2
+털다,v.,撣；抖,to shake off; to dust,2
+과목,n.,科目,subject,2
+근무,n.,上班；工作,work; duty,2
+달아나다,v.,逃跑,to run away,2
+묶다,v.,綁,to tie,2
+소스,n.,醬汁,sauce,2
+우리말,n.,我們的語言（韓語）,our language (Korean),2
+유교,n.,儒教,Confucianism,2
+이불,n.,被子,blanket; comforter,2
+이성,n.,理性；異性,reason; opposite sex,2
+일상,n.,日常,daily life,2
+자동,n.,自動,automatic,2
+장래,n.,將來,future,2
+중요성,n.,重要性,importance,2
+탤런트,n.,演員；藝人,TV actor,2
+특별히,adv.,特別地,especially,2
+과학적,n.,科學的,scientific,2
+봉투,n.,信封；袋子,envelope; bag,2
+분명,adv.,分明,clearly,2
+추억,n.,回憶,memory,2
+하여튼,adv.,總之,anyway,2
+함부로,adv.,隨便地,carelessly,2
+향기,n.,香氣,fragrance,2
+현지,n.,當地,local,2
+가늘다,adj.,細,to be thin,2
+개인적,n.,個人的,personal,2
+겉,n.,外表,outside; surface,2
+근무하다,v.,工作,to work,2
+깜짝,adv.,嚇一跳,with a start,2
+넓히다,v.,擴大,to widen,2
+떠들다,v.,吵鬧,to make noise,2
+매년,adv.,每年,every year,2
+발생,n.,發生,occurrence,2
+소주,n.,燒酒,soju,2
+손바닥,n.,手掌,palm,2
+승용차,n.,轎車,passenger car,2
+어색하다,adj.,尷尬,to be awkward,2
+얹다,v.,放上,to put on top,2
+장점,n.,優點,strength; merit,2
+적당히,adv.,適當地,moderately,2
+줍다,v.,撿,to pick up,2
+진출,n.,進入；進軍,advance; entry,2
+킬로그램,n.,公斤,kilogram,2
+평범하다,adj.,平凡,to be ordinary,2
+확인,n.,確認,confirmation,2
+가루,n.,粉,powder,2
+건지다,v.,撈起,to scoop out,2
+깨지다,v.,破碎,to break,2
+들,n.,原野；…們,field; plural marker,2
+방금,adv.,剛剛,just now,2
+슬픔,n.,悲傷,sadness,2
+아무렇다,adj.,隨便；怎樣都,to be any way,2
+이용되다,v.,被利用,to be used,2
+이튿날,n.,第二天,the next day,2
+임시,n.,臨時,temporary,2
+줄다,v.,減少,to decrease,2
+참기름,n.,麻油,sesame oil,2
+통,n.,桶；封（信）,bucket; counter for letters,2
+팬,n.,粉絲；平底鍋,fan; pan,2
+합치다,v.,合併,to combine,2
+골목,n.,巷子,alley,2
+기운,n.,力氣；氣息,energy; sign,2
+돌아서다,v.,轉身,to turn around,2
+동화,n.,童話,fairy tale,2
+두껍다,adj.,厚,to be thick,2
+맞서다,v.,對抗,to confront,2
+모자라다,v.,不夠,to be short of,2
+상상하다,v.,想像,to imagine,2
+안전하다,adj.,安全,to be safe,2
+유학,n.,留學；儒學,studying abroad; Confucianism,2
+정치적,n.,政治的,political,2
+카페,n.,咖啡廳,café,2
+콤플렉스,n.,自卑感,complex,2
+그다음,n.,那之後,next; after that,2
+끓다,v.,沸騰,to boil,2
+날아오다,v.,飛來,to fly in,2
+농담,n.,玩笑,joke,2
+담임,n.,班導師,homeroom teacher,2
+도중,n.,途中,on the way,2
+모래,n.,沙子,sand,2
+신호,n.,信號,signal,2
+아버님,n.,父親（敬稱）,father (honorific),2
+의심하다,v.,懷疑,to doubt,2
+자랑하다,v.,炫耀,to boast,2
+출발,n.,出發,departure,2
+허용하다,v.,允許,to allow,2
+각국,n.,各國,each country,2
+그려지다,v.,被描繪,to be drawn,2
+꾸준히,adv.,持續地,steadily,2
+년도,n.,年度,year,2
+다수,n.,多數,majority,2
+덕분,n.,多虧,thanks to,2
+두드리다,v.,敲,to knock,2
+물음,n.,問題,question,2
+빌다,v.,祈求,to pray; to wish,2
+스님,n.,和尚,Buddhist monk,2
+썩다,v.,腐爛,to rot,2
+어머님,n.,母親（敬稱）,mother (honorific),2
+엉뚱하다,adj.,離譜；出人意料,to be absurd; unexpected,2
+여보,int.,老公；老婆（稱呼）,honey (between spouses),2
+조각,n.,碎片；雕刻,piece; sculpture,2
+태우다,v.,燒；載,to burn; to give a ride,2
+해석,n.,解釋；解析,interpretation; analysis,2
+계산하다,v.,計算；結帳,to calculate; to pay,2
+담그다,v.,浸泡；醃,to soak; to pickle,2
+마음대로,adv.,隨心所欲,as one pleases,2
+며느리,n.,媳婦,daughter-in-law,2
+믿음,n.,信任；信仰,trust; faith,2
+발견,n.,發現,discovery,2
+보고,n.,報告,report,2
+부탁하다,v.,拜託,to ask a favor,2
+사용자,n.,使用者,user,2
+실패하다,v.,失敗,to fail,2
+영원하다,adj.,永遠,to be eternal,2
+우연히,adv.,偶然地,by chance,2
+정해지다,v.,被決定,to be decided,2
+칭찬,n.,稱讚,praise,2
+튼튼하다,adj.,結實；健壯,to be sturdy,2
+햇빛,n.,陽光,sunlight,2
+긍정적,n.,肯定的；正面的,positive,2
+논의하다,v.,討論,to discuss,2
+돌보다,v.,照顧,to take care of,2
+뒤집다,v.,翻過來,to turn over,2
+먼지,n.,灰塵,dust,2
+바닷가,n.,海邊,beach,2
+반하다,v.,迷戀；違反,to fall for; to go against,2
+사원,n.,職員；寺院,employee; temple,2
+씹다,v.,嚼,to chew,2
+아무튼,adv.,總之,anyway,2
+왠지,adv.,不知為何,somehow,2
+욕심,n.,貪心,greed; desire,2
+우승,n.,冠軍,championship,2
+익다,v.,熟,to ripen; to be cooked,2
+제출하다,v.,提交,to submit,2
+조심스럽다,adj.,小心翼翼,to be cautious,2
+피시,n.,個人電腦,PC,2
+흘러나오다,v.,流出,to flow out,2
+가구,n.,家具；戶,furniture; household,2
+간단히,adv.,簡單地,simply,2
+강물,n.,江水,river water,2
+되게,adv.,非常（口語）,very (casual),2
+리듬,n.,節奏,rhythm,2
+모니터,n.,螢幕,monitor,2
+삶다,v.,水煮,to boil,2
+서류,n.,文件,documents,2
+요청,n.,請求,request,2
+운,n.,運氣,luck,2
+일상생활,n.,日常生活,daily life,2
+진하다,adj.,濃,to be strong; thick,2
+회복하다,v.,恢復,to recover,2
+흘러가다,v.,流去,to flow by,2
+흥미,n.,興趣,interest,2
+꾸다,v.,做（夢）；借（錢）,to dream; to borrow,2
+내려다보다,v.,俯視,to look down,2
+눈썹,n.,眉毛,eyebrow,2
+디자인,n.,設計,design,2
+비닐,n.,塑膠袋；塑膠,plastic (vinyl),2
+오래되다,v.,很久了；舊,to be old,2
+채소,n.,蔬菜,vegetable,2
+털,n.,毛,hair; fur,2
+판매하다,v.,販賣,to sell,2
+고생하다,v.,吃苦,to have a hard time,2
+기타,n.,其他；吉他,others; guitar,2
+꿈꾸다,v.,夢想,to dream,2
+수표,n.,支票,check,2
+얘,int.,喂；這孩子,hey; this kid,2
+어머,int.,哎呀（女性）,oh my,2
+일정,n.,日程,schedule,2
+저렇다,adj.,那樣,to be like that,2
+테이프,n.,膠帶,tape,2
+간장,n.,醬油,soy sauce,2
+고민하다,v.,煩惱,to worry,2
+교환,n.,交換,exchange,2
+국어,n.,國語,national language,2
+노랗다,adj.,黃,to be yellow,2
+다치다,v.,受傷,to get hurt,2
+동양,n.,東洋,the East,2
+상,n.,桌子；獎；上,table; prize; upper,2
+악기,n.,樂器,musical instrument,2
+연말,n.,年底,year end,2
+올려놓다,v.,放上去,to put on,2
+치우다,v.,收拾,to clear away,2
+피로,n.,疲勞,fatigue,2
+당기다,v.,拉,to pull,2
+박수,n.,拍手,applause,2
+부자,n.,有錢人,rich person,2
+사흘,n.,三天,three days,2
+손자,n.,孫子,grandson,2
+신랑,n.,新郎,groom,2
+제법,adv.,相當,quite,2
+화가,n.,畫家,painter,2
+구경하다,v.,觀賞,to look around; to watch,2
+국물,n.,湯汁,soup; broth,2
+말씀드리다,v.,稟告（敬語）,to tell (humble),2
+멀어지다,v.,變遠,to grow distant,2
+불쌍하다,adj.,可憐,to be pitiful,2
+실력,n.,實力,ability,2
+야채,n.,蔬菜,vegetables,2
+울음,n.,哭聲,crying,2
+전부,n.,全部,all,2
+즐거움,n.,樂趣,pleasure,2
+친하다,adj.,親近,to be close,2
+곧바로,adv.,立刻,immediately,2
+나뭇가지,n.,樹枝,branch,2
+답하다,v.,回答,to answer,2
+더위,n.,炎熱,heat,2
+서너,phr.,三四個,three or four,2
+실패,n.,失敗,failure,2
+웃기다,v.,逗笑；好笑,to make laugh; to be funny,2
+유리,n.,玻璃,glass,2
+쥐,n.,老鼠,mouse,2
+턱,n.,下巴,chin,2
+팔리다,v.,被賣出,to be sold,2
+하하,adv.,哈哈,haha,2
+형부,n.,姊夫（女性稱）,brother-in-law (older sister's husband),2
+금년,n.,今年,this year,2
+까맣다,adj.,漆黑,to be black,2
+대학원,n.,研究所,graduate school,2
+더럽다,adj.,髒,to be dirty,2
+등록,n.,註冊,registration,2
+무늬,n.,花紋,pattern,2
+문장,n.,句子,sentence,2
+변호사,n.,律師,lawyer,2
+지점,n.,分店；地點,branch; spot,2
+귀국하다,v.,回國,to return home (to one's country),2
+기뻐하다,v.,高興,to be pleased,2
+내려놓다,v.,放下,to put down,2
+당근,n.,紅蘿蔔,carrot,2
+불행하다,adj.,不幸,to be unhappy,2
+외롭다,adj.,孤單,to be lonely,2
+지난번,n.,上次,last time,2
+파일,n.,檔案,file,2
+화분,n.,花盆,flowerpot,2
+갈색,n.,褐色,brown,2
+반찬,n.,小菜,side dish,2
+소개되다,v.,被介紹,to be introduced,2
+안쪽,n.,內側,inside,2
+오가다,v.,來來往往,to come and go,2
+전날,n.,前一天,the day before,2
+계산기,n.,計算機,calculator,2
+그렇지,int.,對吧；就是,right; that's it,2
+세다,v.,數；強,to count; to be strong,2
+소개,n.,介紹,introduction,2
+수화기,n.,話筒,telephone receiver,2
+애인,n.,戀人,lover,2
+얇다,adj.,薄,to be thin,2
+양념,n.,調味料,seasoning,2
+웬일,n.,怎麼回事,what's the matter,2
+일기,n.,日記；天氣,diary; weather,2
+절대,adv.,絕對,absolutely,2
+창고,n.,倉庫,warehouse,2
+파,n.,蔥,green onion,2
+학원,n.,補習班,private academy,2
+버터,n.,奶油,butter,2
+유치원,n.,幼稚園,kindergarten,2
+전공,n.,主修,major,2
+종일,n.,整天,all day,2
+좋아지다,v.,變好,to get better,2
+추위,n.,寒冷,cold,2
+토마토,n.,番茄,tomato,2
+파랗다,adj.,藍,to be blue,2
+가져가다,v.,帶走,to take away,2
+감자,n.,馬鈴薯,potato,2
+괴롭다,adj.,痛苦,to be distressed,2
+교통사고,n.,車禍,traffic accident,2
+군데,n.,處；地方,place (counter),2
+메시지,n.,訊息,message,2
+뺨,n.,臉頰,cheek,2
+영원히,adv.,永遠,forever,2
+월급,n.,月薪,monthly salary,2
+유행,n.,流行,trend,2
+이리,adv.,這邊,this way,2
+제발,adv.,拜託,please,2
+가득하다,adj.,充滿,to be full,2
+각자,n.,各自,each,2
+물고기,n.,魚,fish,2
+부탁,n.,拜託,favor; request,2
+상자,n.,箱子,box,2
+새해,n.,新年,new year,2
+얼음,n.,冰,ice,2
+점수,n.,分數,score,2
+통장,n.,存摺,bankbook,2
+결심하다,v.,下決心,to decide,2
+경기장,n.,體育場,stadium,2
+도시락,n.,便當,lunch box,2
+요새,n.,最近,these days,2
+자꾸만,adv.,一直,repeatedly,2
+짜증,n.,煩躁,irritation,2
+첫날,n.,第一天,first day,2
+무,n.,蘿蔔；無,radish; nothing,2
+밉다,adj.,討厭；醜,to be hateful,2
+익숙하다,adj.,熟悉,to be familiar,2
+잔치,n.,宴會,feast; party,2
+치료하다,v.,治療,to treat,2
+관광객,n.,觀光客,tourist,2
+국,n.,湯,soup,2
+미술관,n.,美術館,art gallery,2
+여름철,n.,夏季,summertime,2
+저런,phr.,那樣的；哎呀,such; oh dear,2
+그해,n.,那年,that year,2
+꺼지다,v.,熄滅,to go out,2
+꼭대기,n.,頂端,top,2
+끊어지다,v.,斷掉,to be cut off,2
+만족하다,v.,滿足,to be satisfied,2
+쇼,n.,秀；表演,show,2
+수학,n.,數學,mathematics,2
+시어머니,n.,婆婆,mother-in-law (husband's mother),2
+시집,n.,婆家；詩集,husband's family; poetry collection,2
+그립다,adj.,想念,to miss,2
+긴장하다,v.,緊張,to be nervous,2
+느리다,adj.,慢,to be slow,2
+똑똑하다,adj.,聰明,to be smart,2
+사촌,n.,堂（表）兄弟姊妹,cousin,2
+수입하다,v.,進口,to import,2
+식다,v.,變涼,to cool down,2
+카운터,n.,櫃台,counter,2
+하숙집,n.,寄宿處,boarding house,2
+가슴속,n.,心中,in one's heart,2
+다행히,adv.,幸好,fortunately,2
+동아리,n.,社團,club,2
+따라오다,v.,跟著來,to follow,2
+명절,n.,節日,holiday (traditional),2
+바이올린,n.,小提琴,violin,2
+준비물,n.,準備物品,things to prepare,2
+출입,n.,出入,entry and exit,2
+회색,n.,灰色,gray,2
+고교,n.,高中,high school,2
+글씨,n.,字跡,handwriting,2
+노래방,n.,KTV,karaoke room,2
+매다,v.,繫,to tie,2
+머리카락,n.,頭髮,hair (strand),2
+벌레,n.,蟲,bug,2
+성인,n.,成人；聖人,adult; saint,2
+익숙해지다,v.,變熟悉,to get used to,2
+저축,n.,儲蓄,savings,2
+증세,n.,症狀,symptom,2
+콩나물,n.,豆芽,bean sprouts,2
+갈아입다,v.,換（衣服）,to change clothes,2
+거짓,n.,虛假,falsehood,2
+나물,n.,涼拌野菜,seasoned vegetables,2
+대도시,n.,大都市,big city,2
+도둑,n.,小偷,thief,2
+신입생,n.,新生,freshman,2
+어린아이,n.,小孩,young child,2
+어쩐지,adv.,怪不得,no wonder,2
+연락하다,v.,聯絡,to contact,2
+규칙적,n.,規律的,regular,2
+글쎄요,int.,這個嘛（敬語）,well (polite),2
+배추,n.,白菜,napa cabbage,2
+센터,n.,中心,center,2
+수염,n.,鬍鬚,beard,2
+아아,int.,啊啊,ah,2
+장남,n.,長子,eldest son,2
+포도주,n.,葡萄酒,wine,2
+독서,n.,讀書,reading,2
+앞뒤,n.,前後,front and back,2
+접시,n.,盤子,plate,2
+체중,n.,體重,body weight,2
+포장,n.,包裝,packaging,2
+현관,n.,玄關,front door; entrance,2
+호수,n.,湖,lake,2
+건너가다,v.,過去；渡過,to cross over,2
+껌,n.,口香糖,chewing gum,2
+녹색,n.,綠色,green,2
+막내,n.,老么,youngest child,2
+악수,n.,握手,handshake,2
+인원,n.,人員,number of people,2
+인터뷰,n.,訪問,interview,2
+입학하다,v.,入學,to enter school,2
+정문,n.,正門,main gate,2
+켜지다,v.,亮起,to be turned on,2
+팩,n.,包；面膜,pack,2
+표시하다,v.,標示,to mark; to indicate,2
+감상하다,v.,欣賞,to appreciate,2
+넘어지다,v.,跌倒,to fall down,2
+단점,n.,缺點,weakness,2
+들려주다,v.,說給…聽,to tell; to let hear,2
+뚜껑,n.,蓋子,lid,2
+반복하다,v.,反覆,to repeat,2
+암,n.,癌,cancer,2
+엔,n.,日圓,yen,2
+인분,n.,人份,portion (per person),2
+죽,n.,粥,porridge,2
+향수,n.,香水；鄉愁,perfume; nostalgia,2
+김,n.,海苔；水蒸氣,seaweed; steam,2
+닫히다,v.,被關上,to be closed,2
+밥그릇,n.,飯碗,rice bowl,2
+병들다,v.,生病,to fall ill,2
+불꽃,n.,火花,flame; fireworks,2
+소설가,n.,小說家,novelist,2
+좌석,n.,座位,seat,2
+출근,n.,上班,going to work,2
+푹,adv.,充分地；深深地,deeply; thoroughly,2
+개구리,n.,青蛙,frog,2
+동전,n.,硬幣,coin,2
+얼다,v.,結冰,to freeze,2
+여,n.,女,female,2
+토끼,n.,兔子,rabbit,2
+길가,n.,路邊,roadside,2
+남매,n.,兄妹；姊弟,brother and sister,2
+발가락,n.,腳趾,toe,2
+뵙다,v.,拜見（敬語）,to see (humble),2
+부치다,v.,寄,to send,2
+안주,n.,下酒菜,snacks with drinks,2
+어린애,n.,小孩,child,2
+인형,n.,娃娃,doll,2
+전철,n.,電車,subway train,2
+가짜,n.,假的,fake,2
+강도,n.,強盜；強度,robber; intensity,2
+곰,n.,熊,bear,2
+빗물,n.,雨水,rainwater,2
+사위,n.,女婿,son-in-law,2
+설날,n.,春節,Lunar New Year's Day,2
+손톱,n.,指甲,fingernail,2
+식빵,n.,吐司,bread loaf,2
+외우다,v.,背誦,to memorize,2
+운전자,n.,駕駛人,driver,2
+유리창,n.,玻璃窗,windowpane,2
+찬물,n.,冷水,cold water,2
+태풍,n.,颱風,typhoon,2
+햇볕,n.,陽光,sunshine,2
+금지하다,v.,禁止,to prohibit,2
+나뭇잎,n.,樹葉,leaf,2
+넓어지다,v.,變寬,to widen,2
+미팅,n.,聯誼；會議,group blind date; meeting,2
+시끄럽다,adj.,吵,to be noisy,2
+어때,phr.,怎麼樣,how is it,2
+엘리베이터,n.,電梯,elevator,2
+연휴,n.,連假,long weekend,2
+이모,n.,阿姨（母親的姊妹）,aunt (mother's sister),2
+조카,n.,姪子；外甥,nephew; niece,2
+철,n.,季節；懂事；鐵,season; maturity; iron,2
+취직,n.,就業,getting a job,2
+계획하다,v.,計畫,to plan,2
+냄비,n.,鍋子,pot,2
+뱀,n.,蛇,snake,2
+뵈다,v.,拜見,to see (humble),2
+아니야,int.,不是,no (casual),2
+우수하다,adj.,優秀,to be excellent,2
+유명,n.,有名,fame,2
+헌,phr.,舊的,old; used,2
+가까워지다,v.,變近,to get closer,2
+꿀,n.,蜂蜜,honey,2
+된장,n.,大醬,soybean paste,2
+손발,n.,手腳,hands and feet,2
+안내하다,v.,引導,to guide,2
+영하,n.,零下,below zero,2
+외교관,n.,外交官,diplomat,2
+유행하다,v.,流行,to be popular,2
+으응,int.,嗯嗯,uh-huh,2
+한잔,n.,一杯,a drink,2
+가죽,n.,皮革,leather,2
+데려가다,v.,帶去,to take (someone),2
+도자기,n.,陶瓷,pottery,2
+뒤쪽,n.,後面,back side,2
+삼촌,n.,叔叔,uncle,2
+속옷,n.,內衣,underwear,2
+손목,n.,手腕,wrist,2
+신문지,n.,報紙（紙）,newspaper (paper),2
+양보하다,v.,讓步；讓座,to yield,2
+자라나다,v.,成長,to grow up,2
+주차장,n.,停車場,parking lot,2
+포스터,n.,海報,poster,2
+후회하다,v.,後悔,to regret,2
+가이드,n.,導遊,guide,2
+고속도로,n.,高速公路,highway,2
+렌즈,n.,鏡片,lens,2
+멋있다,adj.,帥；好看,to be cool; stylish,2
+발목,n.,腳踝,ankle,2
+밤늦다,adj.,深夜,to be late at night,2
+빨다,v.,洗；吸,to wash; to suck,2
+여우,n.,狐狸,fox,2
+와,int.,哇,wow,2
+외출,n.,外出,going out,2
+웨이터,n.,服務生,waiter,2
+자가용,n.,自用車,private car,2
+정원,n.,庭院,garden,2
+패션,n.,時尚,fashion,2
+감,n.,柿子；感覺,persimmon; feeling,2
+금,n.,金；線,gold; line,2
+낙엽,n.,落葉,fallen leaves,2
+동창,n.,同學,schoolmate,2
+맞은편,n.,對面,opposite side,2
+멋,n.,風采；品味,style; charm,2
+새우,n.,蝦,shrimp,2
+심해지다,v.,變嚴重,to get worse,2
+씨름,n.,韓式摔角,ssireum (Korean wrestling),2
+앞길,n.,前方道路；前途,road ahead; future,2
+어젯밤,n.,昨晚,last night,2
+여관,n.,旅館,inn,2
+여쭈다,v.,請問（敬語）,to ask (humble),2
+주문하다,v.,訂購；點餐,to order,2
+주사,n.,打針,injection,2
+채널,n.,頻道,channel,2
+출근하다,v.,上班,to go to work,2
+취소하다,v.,取消,to cancel,2
+건너편,n.,對面,the other side,2
+두세,phr.,兩三個,two or three,2
+봉지,n.,袋子,bag,2
+비서,n.,秘書,secretary,2
+술잔,n.,酒杯,wine glass,2
+신문사,n.,報社,newspaper company,2
+열흘,n.,十天,ten days,2
+옥수수,n.,玉米,corn,2
+이웃집,n.,鄰居家,neighbor's house,2
+준비되다,v.,準備好,to be ready,2
+플라스틱,n.,塑膠,plastic,2
+두부,n.,豆腐,tofu,2
+부러워하다,v.,羨慕,to envy,2
+시청,n.,市政府；收看,city hall; watching,2
+오른손,n.,右手,right hand,2
+이것저것,n.,這個那個,this and that,2
+저자,n.,作者,author,2
+출장,n.,出差,business trip,2
+퇴근,n.,下班,leaving work,2
+회화,n.,會話；繪畫,conversation; painting,2
+가져다주다,v.,拿給,to bring to,2
+골프,n.,高爾夫,golf,2
+귀국,n.,回國,return to one's country,2
+목욕탕,n.,澡堂,public bath,2
+바닷물,n.,海水,seawater,2
+사무,n.,事務,office work,2
+우울하다,adj.,憂鬱,to be depressed,2
+주무시다,v.,睡（敬語）,to sleep (honorific),2
+흐리다,adj.,陰；模糊,to be cloudy; blurry,2
+걱정스럽다,adj.,令人擔心,to be worrying,2
+금연,n.,禁菸,no smoking,2
+꿈속,n.,夢中,in a dream,2
+나비,n.,蝴蝶,butterfly,2
+레스토랑,n.,西餐廳,restaurant,2
+버섯,n.,香菇,mushroom,2
+비키다,v.,讓開,to step aside,2
+사모님,n.,師母；夫人,madam,2
+중요,n.,重要,importance,2
+챔피언,n.,冠軍,champion,2
+축하,n.,祝賀,congratulations,2
+취소,n.,取消,cancellation,2
+커튼,n.,窗簾,curtain,2
+겨울철,n.,冬季,wintertime,2
+고추장,n.,辣椒醬,red pepper paste,2
+골프장,n.,高爾夫球場,golf course,2
+국수,n.,麵條,noodles,2
+달빛,n.,月光,moonlight,2
+뒷산,n.,後山,hill behind (the house),2
+땜,n.,因為（口語）,because of (casual),2
+메다,v.,背；扛,to carry on the shoulder,2
+미인,n.,美女,beautiful woman,2
+반지,n.,戒指,ring,2
+비타민,n.,維他命,vitamin,2
+빌딩,n.,大樓,building,2
+산속,n.,山中,in the mountains,2
+송이,n.,朵；串,cluster; counter for flowers,2
+식초,n.,醋,vinegar,2
+심부름,n.,跑腿,errand,2
+야외,n.,戶外,outdoors,2
+옆집,n.,隔壁,next door,2
+오래도록,adv.,長久地,for a long time,2
+이빨,n.,牙齒（口語）,tooth (casual),2
+장학금,n.,獎學金,scholarship,2
+쟤,pron.,那孩子（口語）,that kid (casual),2
+초밥,n.,壽司,sushi,2
+출구,n.,出口,exit,2
+출입문,n.,出入口,entrance door,2
+필름,n.,底片,film,2
+호선,n.,號線,subway line number,2
+가위,n.,剪刀,scissors,2
+고속,n.,高速,high speed,2
+도망가다,v.,逃跑,to run away,2
+땅콩,n.,花生,peanut,2
+신호등,n.,紅綠燈,traffic light,2
+신혼여행,n.,蜜月旅行,honeymoon,2
+씩씩하다,adj.,堅強；有朝氣,to be brave; spirited,2
+월드컵,n.,世界盃,World Cup,2
+입원,n.,住院,hospitalization,2
+잘살다,v.,過得好；富裕,to live well,2
+장가,n.,娶妻,(a man) marrying,2
+졸업생,n.,畢業生,graduate,2
+친절,n.,親切,kindness,2
+침실,n.,臥室,bedroom,2
+나빠지다,v.,變壞,to get worse,2
+두통,n.,頭痛,headache,2
+설거지,n.,洗碗,dishwashing,2
+수년,n.,數年,several years,2
+수출하다,v.,出口,to export,2
+숙소,n.,住處,accommodation,2
+한잔하다,v.,喝一杯,to have a drink,2
+가요,n.,歌謠,pop song,2
+감상,n.,欣賞；感想,appreciation; impressions,2
+공짜,n.,免費,free of charge,2
+그만하다,adj.,差不多那樣,to be about that,2
+모기,n.,蚊子,mosquito,2
+볼일,n.,要辦的事,errand; business,2
+부끄러움,n.,羞恥,shame,2
+스웨터,n.,毛衣,sweater,2
+여행사,n.,旅行社,travel agency,2
+왼손,n.,左手,left hand,2
+유학생,n.,留學生,international student,2
+잘생기다,adj.,長得好看,to be good-looking,2
+저리,adv.,那邊,that way,2
+절약하다,v.,節約,to save,2
+합격,n.,合格,passing (an exam),2
+기도,n.,祈禱,prayer,2
+길거리,n.,街頭,street,2
+꽃잎,n.,花瓣,petal,2
+돌려주다,v.,歸還,to give back,2
+라이터,n.,打火機,lighter,2
+생활환경,n.,生活環境,living environment,2
+오리,n.,鴨子,duck,2
+입원하다,v.,住院,to be hospitalized,2
+장난감,n.,玩具,toy,2
+전기밥솥,n.,電鍋,electric rice cooker,2
+하품,n.,哈欠,yawn,2
+교문,n.,校門,school gate,2
+권투,n.,拳擊,boxing,2
+받침,n.,收音；墊子,final consonant; support,2
+북,n.,北；鼓,north; drum,2
+수고하다,v.,辛苦了,to work hard,2
+아뇨,int.,不,no,2
+아래쪽,n.,下面,lower side,2
+액세서리,n.,飾品,accessory,2
+염려하다,v.,擔心,to worry,2
+오이,n.,小黃瓜,cucumber,2
+외삼촌,n.,舅舅,uncle (mother's brother),2
+위쪽,n.,上面,upper side,2
+음료수,n.,飲料,beverage,2
+캠퍼스,n.,校園,campus,2
+터널,n.,隧道,tunnel,2
+환갑,n.,六十大壽,60th birthday,2
+건너오다,v.,過來,to come across,2
+관광지,n.,觀光地,tourist spot,2
+교포,n.,僑胞,overseas Korean,2
+등록금,n.,學費,tuition,2
+뛰어다니다,v.,跑來跑去,to run around,2
+메모,n.,筆記,memo,2
+몇십,phr.,幾十,dozens,2
+몸무게,n.,體重,weight,2
+배달,n.,外送,delivery,2
+번역,n.,翻譯,translation,2
+비닐봉지,n.,塑膠袋,plastic bag,2
+서랍,n.,抽屜,drawer,2
+소나기,n.,陣雨,shower (rain),2
+손잡이,n.,把手,handle,2
+연하다,adj.,嫩；淡,to be tender; light,2
+원숭이,n.,猴子,monkey,2
+이혼,n.,離婚,divorce,2
+일회용,n.,一次性,disposable,2
+전화기,n.,電話機,telephone,2
+진달래,n.,杜鵑花,azalea,2
+찌다,v.,蒸；變胖,to steam; to gain weight,2
+차남,n.,次子,second son,2
+팬티,n.,內褲,underpants,2
+편히,adv.,舒服地,comfortably,2
+개나리,n.,迎春花,forsythia,2
+골목길,n.,巷弄,alley,2
+기억나다,v.,想起,to remember,2
+기침,n.,咳嗽,cough,2
+노랫소리,n.,歌聲,singing voice,2
+대학교수,n.,大學教授,university professor,2
+레몬,n.,檸檬,lemon,2
+배꼽,n.,肚臍,belly button,2
+사랑스럽다,adj.,可愛；惹人愛,to be lovely,2
+술병,n.,酒瓶,liquor bottle,2
+엽서,n.,明信片,postcard,2
+욕실,n.,浴室,bathroom,2
+운전기사,n.,司機,driver,2
+장마,n.,梅雨,rainy season,2
+짧아지다,v.,變短,to get shorter,2
+책가방,n.,書包,school bag,2
+놀이터,n.,遊樂場,playground,2
+다녀가다,v.,來過,to stop by,2
+답장,n.,回信,reply,2
+때때로,adv.,有時,sometimes,2
+발등,n.,腳背,top of the foot,2
+블라우스,n.,女用襯衫,blouse,2
+사이좋다,adj.,感情好,to get along well,2
+슬퍼하다,v.,悲傷,to grieve,2
+쓰레기통,n.,垃圾桶,trash can,2
+앞쪽,n.,前面,front side,2
+왼발,n.,左腳,left foot,2
+저번,n.,上次,last time,2
+정답,n.,正確答案,correct answer,2
+졸다,v.,打瞌睡,to doze,2
+코피,n.,鼻血,nosebleed,2
+할인,n.,折扣,discount,2
+고구마,n.,地瓜,sweet potato,2
+국기,n.,國旗,national flag,2
+대화하다,v.,對話,to talk,2
+미워하다,v.,恨,to hate,2
+밥맛,n.,胃口；飯的味道,appetite,2
+복사,n.,影印,copy,2
+볶음밥,n.,炒飯,fried rice,2
+성별,n.,性別,gender,2
+세탁,n.,洗衣,laundry,2
+소문나다,v.,傳開,to be rumored,2
+소용없다,adj.,沒用,to be useless,2
+손수건,n.,手帕,handkerchief,2
+송아지,n.,小牛,calf,2
+수돗물,n.,自來水,tap water,2
+술자리,n.,酒局,drinking party,2
+어린이날,n.,兒童節,Children's Day,2
+오른발,n.,右腳,right foot,2
+이사하다,v.,搬家,to move,2
+일등,n.,第一名,first place,2
+작아지다,v.,變小,to get smaller,2
+줄무늬,n.,條紋,stripe,2
+터미널,n.,轉運站,terminal,2
+한국적,n.,韓國式的,Korean-style,2
+환영,n.,歡迎,welcome,2
+간식,n.,點心,snack,2
+네거리,n.,十字路口,crossroads,2
+녹음하다,v.,錄音,to record,2
+등산로,n.,登山步道,hiking trail,2
+마사지,n.,按摩,massage,2
+먹히다,v.,被吃,to be eaten,2
+몸살,n.,全身痠痛,body aches,2
+무더위,n.,悶熱,sweltering heat,2
+박스,n.,箱子,box,2
+밥솥,n.,飯鍋,rice cooker,2
+베개,n.,枕頭,pillow,2
+벨트,n.,皮帶,belt,2
+복사하다,v.,影印,to copy,2
+사계절,n.,四季,four seasons,2
+사과하다,v.,道歉,to apologize,2
+여대생,n.,女大學生,female college student,2
+외할머니,n.,外婆,maternal grandmother,2
+음악가,n.,音樂家,musician,2
+인삼,n.,人參,ginseng,2
+점원,n.,店員,clerk,2
+찻잔,n.,茶杯,teacup,2
+큰길,n.,大馬路,main road,2
+홈페이지,n.,網頁,homepage,2
+횡단보도,n.,斑馬線,crosswalk,2
+강당,n.,禮堂,auditorium,2
+고모부,n.,姑丈,uncle (father's sister's husband),2
+녹음,n.,錄音,recording,2
+마중,n.,迎接,meeting (someone),2
+밤중,n.,半夜,midnight,2
+배드민턴,n.,羽毛球,badminton,2
+버튼,n.,按鈕,button,2
+서투르다,adj.,笨拙,to be clumsy,2
+손뼉,n.,手掌（拍手）,clap of hands,2
+송편,n.,松糕,songpyeon (rice cake),2
+신혼부부,n.,新婚夫婦,newlyweds,2
+싱겁다,adj.,淡；乏味,to be bland,2
+옛날이야기,n.,古老故事,old tale,2
+오븐,n.,烤箱,oven,2
+와인,n.,葡萄酒,wine,2
+우승하다,v.,奪冠,to win the championship,2
+웃어른,n.,長輩,elders,2
+인사말,n.,問候語,greeting,2
+자판기,n.,販賣機,vending machine,2
+저녁때,n.,傍晚,evening time,2
+적어지다,v.,變少,to become fewer,2
+치과,n.,牙科,dentist's,2
+테스트,n.,測試,test,2
+퇴근하다,v.,下班,to leave work,2
+피로하다,adj.,疲勞,to be tired,2
+화나다,v.,生氣,to get angry,2
+가로,n.,橫,horizontal; width,2
+갈아타다,v.,轉乘,to transfer,2
+단맛,n.,甜味,sweet taste,2
+담요,n.,毯子,blanket,2
+밤새다,v.,熬夜,to stay up all night,2
+부잣집,n.,有錢人家,rich family,2
+사진기,n.,相機,camera,2
+상추,n.,生菜,lettuce,2
+섭씨,n.,攝氏,Celsius,2
+소시지,n.,香腸,sausage,2
+스케줄,n.,行程,schedule,2
+시외,n.,市外,suburbs,2
+양배추,n.,高麗菜,cabbage,2
+얕다,adj.,淺,to be shallow,2
+어두워지다,v.,變暗,to get dark,2
+엊그제,adv.,前幾天,a few days ago,2
+여고생,n.,女高中生,high school girl,2
+예약,n.,預約,reservation,2
+이곳저곳,n.,到處,here and there,2
+일회용품,n.,一次性用品,disposable goods,2
+읽히다,v.,被讀,to be read,2
+점심때,n.,中午,lunchtime,2
+즐거워하다,v.,高興,to enjoy,2
+초보,n.,初學,beginner level,2
+해외여행,n.,海外旅行,overseas trip,2
+깜빡,adv.,一閃；忘記,in a flash; forgetfully,2
+대중교통,n.,大眾運輸,public transportation,2
+데려오다,v.,帶來,to bring (someone),2
+뛰어오다,v.,跑過來,to come running,2
+명함,n.,名片,business card,2
+사자,n.,獅子,lion,2
+새소리,n.,鳥叫聲,birdsong,2
+시부모,n.,公婆,parents-in-law (husband's),2
+실수하다,v.,失誤,to make a mistake,2
+외출하다,v.,外出,to go out,2
+위아래,n.,上下,up and down,2
+이발소,n.,理髮店,barbershop,2
+재작년,n.,前年,the year before last,2
+재채기,n.,噴嚏,sneeze,2
+정거장,n.,車站,stop; station,2
+존댓말,n.,敬語,honorific speech,2
+초보자,n.,初學者,beginner,2
+초청장,n.,邀請函,invitation card,2
+카레,n.,咖哩,curry,2
+킬로,n.,公斤；公里,kilo,2
+티셔츠,n.,T恤,T-shirt,2
+한둘,n.,一兩個,one or two,2
+고춧가루,n.,辣椒粉,red pepper powder,2
+국립,n.,國立,national,2
+농구,n.,籃球,basketball,2
+디자이너,n.,設計師,designer,2
+뛰어나가다,v.,跑出去,to run out,2
+밤낮,n.,日夜,day and night,2
+배구,n.,排球,volleyball,2
+부지런하다,adj.,勤勞,to be diligent,2
+선풍기,n.,電風扇,electric fan,2
+세로,n.,縱,vertical; length,2
+싫어지다,v.,變得討厭,to grow to dislike,2
+여직원,n.,女職員,female employee,2
+옆방,n.,隔壁房間,next room,2
+오피스텔,n.,商住兩用公寓,studio apartment (officetel),2
+원피스,n.,連身裙,one-piece dress,2
+이혼하다,v.,離婚,to divorce,2
+종이컵,n.,紙杯,paper cup,2
+코끼리,n.,大象,elephant,2
+콘서트,n.,演唱會,concert,2
+큰소리,n.,大聲,loud voice,2
+평일,n.,平日,weekday,2
+걱정되다,v.,擔心,to be worried,2
+된장찌개,n.,大醬湯,soybean paste stew,2
+목걸이,n.,項鍊,necklace,2
+스키장,n.,滑雪場,ski resort,2
+책방,n.,書店,bookstore,2
+나흘,n.,四天,four days,2
+다이어트,n.,減肥,diet,2
+중국집,n.,中式餐館,Chinese restaurant,2
+지하도,n.,地下道,underpass,2
+고속버스,n.,客運,express bus,2
+뚱뚱하다,adj.,胖,to be fat,2
+소포,n.,包裹,parcel,2
+손녀,n.,孫女,granddaughter,2
+아래층,n.,樓下,downstairs,2
+잠옷,n.,睡衣,pajamas,2
+장갑,n.,手套,gloves,2
+동물원,n.,動物園,zoo,2
+모레,n.,後天,the day after tomorrow,2
+생신,n.,生日（敬語）,birthday (honorific),2
+시내버스,n.,市區公車,city bus,2
+우표,n.,郵票,postage stamp,2
+독일어,n.,德語,German (language),2
+떡볶이,n.,辣炒年糕,tteokbokki,2
+이따가,adv.,待會兒,later,2
+강아지,n.,小狗,puppy,2
+닷새,n.,五天,five days,2
+주차,n.,停車,parking,2
+홍차,n.,紅茶,black tea,2
+연락처,n.,聯絡方式,contact information,2
+연세,n.,年紀（敬語）,age (honorific),2
+위층,n.,樓上,upstairs,2
+인삼차,n.,人參茶,ginseng tea,2
+초록색,n.,綠色,green,2
+축구공,n.,足球（球）,soccer ball,2
+김치찌개,n.,泡菜鍋,kimchi stew,2
+녹차,n.,綠茶,green tea,2
+만두,n.,餃子,dumpling,2
+발음하다,v.,發音,to pronounce,2
+복습하다,v.,複習,to review,2
+스케이트,n.,溜冰,skating,2
+복습,n.,複習,review,2
+성함,n.,姓名（敬語）,name (honorific),2
+세탁소,n.,洗衣店,laundry shop,2
+운동복,n.,運動服,sportswear,2
+주차하다,v.,停車,to park,2
+청소기,n.,吸塵器,vacuum cleaner,2
+필통,n.,鉛筆盒,pencil case,2
+학생증,n.,學生證,student ID,2
+공항버스,n.,機場巴士,airport bus,2
+메일,n.,郵件,email,2
+빗,n.,梳子,comb,2
+설렁탕,n.,牛骨湯,seolleongtang (ox bone soup),2
+까만색,n.,黑色,black,2
+시아버지,n.,公公,father-in-law (husband's father),2
+예매하다,v.,預購,to book in advance,2
+억,n.,億,hundred million,2
+갈비탕,n.,排骨湯,galbitang (short rib soup),2
+검정색,n.,黑色,black,2
+하얀색,n.,白色,white,2
+고구려,n.,高句麗,Goguryeo (ancient kingdom),3
+고려,n.,高麗,Goryeo (dynasty),3
+금강산,n.,金剛山,Geumgangsan Mountain,3
+깍두기,n.,蘿蔔泡菜,cubed radish kimchi,3
+남미,n.,南美,South America,3
+대학로,n.,大學路,Daehangno (Seoul),3
+백두산,n.,白頭山,Baekdusan Mountain,3
+백제,n.,百濟,Baekje (ancient kingdom),3
+세종대왕,n.,世宗大王,King Sejong the Great,3
+신라,n.,新羅,Silla (ancient kingdom),3
+안동,n.,安東,Andong,3
+전주,n.,全州,Jeonju,3
+조선,n.,朝鮮,Joseon (dynasty),3
+지리산,n.,智異山,Jirisan Mountain,3
+평양,n.,平壤,Pyongyang,3
+한반도,n.,朝鮮半島,Korean Peninsula,3
+그녀,pron.,她,she,3
+그러다,v.,那樣做,to do so,3
+정부,n.,政府,government,3
+새롭다,adj.,新,to be new,3
+과정,n.,過程；課程,process; course,3
+삶,n.,生活；人生,life,3
+생명,n.,生命,life,3
+사건,n.,事件,incident,3
+작품,n.,作品,work (of art),3
+상황,n.,狀況,situation,3
+따라서,adv.,因此,therefore,3
+상태,n.,狀態,condition,3
+당시,n.,當時,at that time,3
+더욱,adv.,更加,even more,3
+채,n.,棟；就那樣,counter for houses; as it is,3
+현실,n.,現實,reality,3
+기업,n.,企業,company,3
+선거,n.,選舉,election,3
+현상,n.,現象,phenomenon,3
+듯,n.,好像,as if,3
+듯하다,v.,好像,to seem,3
+구조,n.,構造；救助,structure; rescue,3
+오히려,adv.,反而,rather,3
+의식,n.,意識；儀式,consciousness; ceremony,3
+알아보다,v.,打聽；認出,to find out; to recognize,3
+산업,n.,產業,industry,3
+형태,n.,形態,form,3
+작업,n.,作業,work,3
+바,n.,所…的；酒吧,what; bar,3
+비하다,v.,比較,to compare,3
+기관,n.,機關,institution,3
+입장,n.,立場；入場,position; entrance,3
+만하다,v.,值得,to be worth,3
+방식,n.,方式,method,3
+영향,n.,影響,influence,3
+내,n.,內,within,3
+단계,n.,階段,stage,3
+올리다,v.,提高；舉起,to raise; to lift,3
+교사,n.,教師,teacher,3
+지니다,v.,持有,to possess,3
+의원,n.,議員,legislator,3
+주민,n.,居民,resident,3
+존재,n.,存在,existence,3
+분야,n.,領域,field,3
+행위,n.,行為,act,3
+수준,n.,水準,level,3
+기능,n.,功能；技能,function; skill,3
+연극,n.,話劇,play,3
+노동,n.,勞動,labor,3
+가치,n.,價值,value,3
+집단,n.,集團,group,3
+장관,n.,部長；壯觀,minister; spectacle,3
+대로,n.,照著；大路,as; boulevard,3
+우주,n.,宇宙,universe,3
+시기,n.,時期；時機,period; timing,3
+생산,n.,生產,production,3
+농민,n.,農民,farmer,3
+드러나다,v.,顯露,to be revealed,3
+자세,n.,姿勢；態度,posture; attitude,3
+면,n.,面；棉；面（行政區）,side; cotton; township,3
+원인,n.,原因,cause,3
+언어,n.,語言,language,3
+감독,n.,導演；監督,director; supervisor,3
+당하다,v.,遭受,to suffer,3
+삼다,v.,當作,to make (someone) into,3
+일단,adv.,首先；一旦,first; once,3
+조직,n.,組織,organization,3
+달리,adv.,不同地,differently,3
+인물,n.,人物,person; figure,3
+다만,adv.,只是,only; however,3
+대다,v.,貼近；碰,to put against; to touch,3
+무대,n.,舞台,stage,3
+주장,n.,主張；隊長,claim; captain,3
+인하다,v.,因為,to be due to,3
+잇다,v.,連接,to connect,3
+대책,n.,對策,countermeasure,3
+결코,adv.,絕（不）,never,3
+경쟁,n.,競爭,competition,3
+회,n.,次；回,time; round,3
+실시하다,v.,實施,to carry out,3
+규모,n.,規模,scale,3
+셈,n.,算是；計算,counting; as good as,3
+갖추다,v.,具備,to be equipped with,3
+현장,n.,現場,site; scene,3
+건설,n.,建設,construction,3
+존재하다,v.,存在,to exist,3
+한마디,n.,一句話,a word,3
+유지하다,v.,維持,to maintain,3
+이데올로기,n.,意識形態,ideology,3
+피하다,v.,避開,to avoid,3
+거치다,v.,經過,to go through,3
+나아가다,v.,前進,to advance,3
+지식,n.,知識,knowledge,3
+여전히,adv.,仍然,still,3
+선,n.,線,line,3
+인류,n.,人類,humankind,3
+형식,n.,形式,form; format,3
+걸치다,v.,披上；跨越,to drape; to span,3
+겪다,v.,經歷,to go through,3
+관점,n.,觀點,point of view,3
+놈,n.,傢伙（粗俗）,guy (rough),3
+구성,n.,構成,composition,3
+실제로,adv.,實際上,in fact,3
+비롯하다,v.,以…為首,to begin with; including,3
+과연,adv.,果然；究竟,indeed; really,3
+인정하다,v.,承認,to admit,3
+중앙,n.,中央,center,3
+불구하다,v.,不顧；儘管,despite,3
+평가,n.,評價,evaluation,3
+비다,v.,空,to be empty,3
+삼국,n.,三國,three kingdoms,3
+물질,n.,物質,substance,3
+살아가다,v.,生活下去,to live on,3
+제시하다,v.,提出,to present,3
+불과하다,adj.,不過,to be only,3
+엄청나다,adj.,驚人,to be enormous,3
+파악하다,v.,掌握,to grasp,3
+실천,n.,實踐,practice,3
+방안,n.,方案,plan; measure,3
+분명하다,adj.,分明,to be clear,3
+분석,n.,分析,analysis,3
+관계자,n.,相關人士,person concerned,3
+이어지다,v.,接續,to be continued,3
+지적하다,v.,指出,to point out,3
+요구,n.,要求,demand,3
+등장하다,v.,登場,to appear,3
+한계,n.,界限,limit,3
+바탕,n.,基礎；底色,basis; background,3
+갈등,n.,矛盾；糾葛,conflict,3
+의지,n.,意志；依靠,will; reliance,3
+초기,n.,初期,early stage,3
+신경,n.,神經,nerve,3
+미,n.,美,beauty,3
+시선,n.,視線,gaze,3
+아무런,phr.,任何,any,3
+언론,n.,言論；媒體,the press,3
+투자,n.,投資,investment,3
+지원,n.,支援；志願,support; application,3
+성장,n.,成長,growth,3
+피해,n.,受害,damage,3
+여기다,v.,認為,to consider,3
+작용,n.,作用,action; effect,3
+골,n.,球門；進球,goal,3
+공업,n.,工業,industry,3
+출신,n.,出身,origin,3
+경향,n.,傾向,tendency,3
+기록,n.,記錄,record,3
+나름,n.,各自的方式,in one's own way,3
+반면,n.,反之,on the other hand,3
+움직임,n.,動作；動向,movement,3
+터지다,v.,爆炸；破裂,to burst; to explode,3
+특성,n.,特性,characteristic,3
+교장,n.,校長,principal,3
+입시,n.,入學考試,entrance exam,3
+다루다,v.,處理,to handle,3
+업체,n.,業者,company,3
+국회,n.,國會,National Assembly,3
+세월,n.,歲月,time; years,3
+깨닫다,v.,領悟,to realize,3
+부정,n.,否定；不正,denial; injustice,3
+사정,n.,情況；緣由,circumstances,3
+도대체,adv.,到底,on earth,3
+처리,n.,處理,handling,3
+꼴,n.,樣子（貶）,shape; sight,3
+그리하여,adv.,於是,thus,3
+내부,n.,內部,interior,3
+다소,adv.,多少；稍微,somewhat,3
+그저,adv.,只是,just; merely,3
+도,n.,度；道,degree; province; the Way,3
+부담,n.,負擔,burden,3
+위원,n.,委員,committee member,3
+법칙,n.,法則,law; rule,3
+오염,n.,污染,pollution,3
+참여하다,v.,參與,to participate,3
+탓,n.,緣故；怪罪,fault; blame,3
+범죄,n.,犯罪,crime,3
+논리,n.,邏輯,logic,3
+감각,n.,感覺,sense,3
+기구,n.,器具；機構,equipment; organization,3
+후보,n.,候選人,candidate,3
+근거,n.,根據,basis,3
+시각,n.,時刻；視角,time; viewpoint,3
+이끌다,v.,帶領,to lead,3
+수단,n.,手段,means,3
+형성,n.,形成,formation,3
+기울이다,v.,傾斜；傾注,to tilt; to devote,3
+장면,n.,場面,scene,3
+더불다,v.,一起,to be together with,3
+개방,n.,開放,opening,3
+앞서,adv.,事先；之前,beforehand,3
+소프트웨어,n.,軟體,software,3
+반응,n.,反應,reaction,3
+비판,n.,批判,criticism,3
+세대,n.,世代,generation,3
+공개,n.,公開,disclosure,3
+매체,n.,媒體,medium,3
+영역,n.,領域,area; domain,3
+체험,n.,體驗,experience,3
+구속,n.,拘束；拘留,restraint; arrest,3
+때로,adv.,有時,sometimes,3
+극복하다,v.,克服,to overcome,3
+불법,n.,非法,illegality,3
+일정하다,adj.,一定,to be constant,3
+다지다,v.,夯實；剁碎,to firm up; to mince,3
+밝혀지다,v.,被查明,to be revealed,3
+이념,n.,理念,ideology,3
+치르다,v.,支付；舉行,to pay; to hold,3
+문화재,n.,文化遺產,cultural property,3
+이래,n.,以來,since,3
+구성되다,v.,由…構成,to be composed of,3
+독특하다,adj.,獨特,to be unique,3
+사례,n.,事例；謝禮,case; reward,3
+추진하다,v.,推動,to push forward,3
+틀,n.,框架,frame,3
+평균,n.,平均,average,3
+훈련,n.,訓練,training,3
+흐름,n.,流動；趨勢,flow; trend,3
+위기,n.,危機,crisis,3
+정당,n.,政黨,political party,3
+폭력,n.,暴力,violence,3
+혹시,adv.,或許；萬一,by any chance,3
+절차,n.,程序,procedure,3
+증가하다,v.,增加,to increase,3
+외치다,v.,喊叫,to shout,3
+평,n.,坪；評論,pyeong (area unit); review,3
+권리,n.,權利,right,3
+자원,n.,資源；自願,resources; volunteering,3
+넘기다,v.,翻；轉交；越過,to turn over; to hand over,3
+물체,n.,物體,object,3
+시위,n.,示威,demonstration,3
+제외하다,v.,除外,to exclude,3
+견해,n.,見解,opinion,3
+안정,n.,安定,stability,3
+어쨌든,adv.,總之,anyway,3
+눈길,n.,目光；雪路,gaze; snowy road,3
+주어지다,v.,被給予,to be given,3
+널리,adv.,廣泛地,widely,3
+소재,n.,素材；所在,material; location,3
+전망,n.,展望,outlook,3
+형성되다,v.,形成,to be formed,3
+결론,n.,結論,conclusion,3
+들이다,v.,放進；花費,to let in; to spend,3
+자녀,n.,子女,children,3
+판결,n.,判決,ruling,3
+비로소,adv.,才,only then,3
+서구,n.,西歐,the West,3
+소유,n.,所有,ownership,3
+부문,n.,部門,sector,3
+규정,n.,規定,regulation,3
+아예,adv.,根本；乾脆,at all; from the start,3
+어찌,adv.,怎麼,how; why,3
+작용하다,v.,起作用,to act; to work,3
+개선,n.,改善,improvement,3
+바람직하다,adj.,理想；可取,to be desirable,3
+마련,n.,準備；必然,preparation; bound to,3
+신화,n.,神話,myth,3
+거두다,v.,收穫；取得,to harvest; to achieve,3
+범위,n.,範圍,range,3
+철학,n.,哲學,philosophy,3
+근본적,n.,根本的,fundamental,3
+대형,n.,大型,large-sized,3
+본격적,n.,正式的；全面的,full-scale,3
+퍼지다,v.,擴散,to spread,3
+백성,n.,百姓,the people,3
+상당히,adv.,相當,considerably,3
+자네,pron.,你（對晚輩）,you (to a junior),3
+기,n.,氣；旗,energy; flag,3
+군사,n.,軍事；士兵,military; soldier,3
+마당,n.,院子,yard,3
+지적,n.,指出；智力的,pointing out; intellectual,3
+짝,n.,一對；伴,pair; partner,3
+참으로,adv.,真的,truly,3
+앞두다,v.,面臨,to have ahead,3
+예산,n.,預算,budget,3
+온갖,phr.,各種,all kinds of,3
+우려,n.,憂慮,concern,3
+보호하다,v.,保護,to protect,3
+시스템,n.,系統,system,3
+참여,n.,參與,participation,3
+애쓰다,v.,努力,to strive,3
+올바르다,adj.,正確,to be right,3
+흔하다,adj.,常見,to be common,3
+단위,n.,單位,unit,3
+뛰어나다,adj.,出色,to be outstanding,3
+소득,n.,所得,income,3
+수도,n.,首都；自來水,capital; water supply,3
+인식하다,v.,認識到,to recognize,3
+맺다,v.,結（果）；締結,to bear (fruit); to conclude,3
+수요,n.,需求,demand,3
+지도자,n.,領導者,leader,3
+구성하다,v.,構成,to compose,3
+대체로,adv.,大致上,generally,3
+때리다,v.,打,to hit,3
+문득,adv.,忽然,suddenly,3
+위원장,n.,委員長,chairperson,3
+효과적,n.,有效的,effective,3
+생산하다,v.,生產,to produce,3
+의도,n.,意圖,intention,3
+저지르다,v.,犯（錯）,to commit,3
+줄어들다,v.,減少,to decrease,3
+건,n.,件,case; counter for matters,3
+대개,adv.,大概；大多,mostly,3
+외부,n.,外部,outside,3
+한때,n.,一時,once; at one time,3
+살아오다,v.,生活過來,to have lived,3
+상대적,n.,相對的,relative,3
+조,n.,組；條；兆,group; article; trillion,3
+조미료,n.,調味料,seasoning,3
+강력하다,adj.,強力,to be powerful,3
+법률,n.,法律,law,3
+현,phr.,現任,current,3
+화면,n.,畫面,screen,3
+이어,adv.,接著,then; next,3
+진리,n.,真理,truth,3
+공급,n.,供給,supply,3
+동료,n.,同事,colleague,3
+균형,n.,均衡,balance,3
+기본적,n.,基本的,basic,3
+접근,n.,接近,approach,3
+지켜보다,v.,注視,to watch,3
+개성,n.,個性,individuality,3
+띄다,v.,顯眼,to catch (the eye),3
+무너지다,v.,倒塌,to collapse,3
+이러다,v.,這樣做,to do like this,3
+일어서다,v.,站起來,to stand up,3
+죄,n.,罪,sin; crime,3
+핵심,n.,核心,core,3
+후반,n.,後半,latter half,3
+동작,n.,動作,movement,3
+뜻하다,v.,意味；打算,to mean; to intend,3
+중세,n.,中世紀,the Middle Ages,3
+통합,n.,統合,integration,3
+꼬리,n.,尾巴,tail,3
+양식,n.,樣式；西餐,style; Western food,3
+주식,n.,股票；主食,stock; staple food,3
+끊임없이,adv.,不斷地,constantly,3
+상식,n.,常識,common sense,3
+상표,n.,商標,brand,3
+아니하다,v.,不（做）,to not do,3
+의식하다,v.,意識到,to be conscious of,3
+둘러싸다,v.,圍繞,to surround,3
+민주화,n.,民主化,democratization,3
+보도,n.,報導；人行道,report; sidewalk,3
+살피다,v.,察看,to examine,3
+거부하다,v.,拒絕,to refuse,3
+실시,n.,實施,implementation,3
+운명,n.,命運,fate,3
+재정,n.,財政,finance,3
+차라리,adv.,寧可,rather,3
+학자,n.,學者,scholar,3
+대규모,n.,大規模,large scale,3
+동,n.,同；棟,same; building,3
+민간,n.,民間,private; civilian,3
+법원,n.,法院,court,3
+사실상,adv.,事實上,in effect,3
+아끼다,v.,珍惜；節省,to cherish; to save,3
+지대,n.,地帶,zone,3
+판단하다,v.,判斷,to judge,3
+실천하다,v.,實踐,to put into practice,3
+용어,n.,用語,term,3
+익히다,v.,煮熟；熟練,to cook; to master,3
+지위,n.,地位,status,3
+풍부하다,adj.,豐富,to be abundant,3
+식량,n.,糧食,food supply,3
+실험,n.,實驗,experiment,3
+용기,n.,勇氣；容器,courage; container,3
+핵,n.,核,nucleus; nuclear,3
+상당하다,adj.,相當,to be considerable,3
+수석,n.,首席,top; chief,3
+적절하다,adj.,恰當,to be appropriate,3
+제사,n.,祭祀,ancestral rites,3
+지혜,n.,智慧,wisdom,3
+참새,n.,麻雀,sparrow,3
+농산물,n.,農產品,farm produce,3
+올,n.,今年,this year,3
+위대하다,adj.,偉大,to be great,3
+지배하다,v.,支配,to rule,3
+틈,n.,縫隙；空閒,gap; spare time,3
+가령,adv.,假如,for example; supposing,3
+거대하다,adj.,巨大,to be huge,3
+드물다,adj.,罕見,to be rare,3
+매달리다,v.,懸掛；纏著,to hang; to cling,3
+토대,n.,基礎,foundation,3
+목숨,n.,性命,life,3
+빠져나가다,v.,溜出；逃脫,to slip out,3
+여론,n.,輿論,public opinion,3
+의복,n.,衣服,clothing,3
+체조,n.,體操,gymnastics,3
+현실적,n.,現實的,realistic,3
+화제,n.,話題,topic,3
+공격,n.,攻擊,attack,3
+물가,n.,物價,prices,3
+민주주의,n.,民主主義,democracy,3
+소중하다,adj.,珍貴,to be precious,3
+의문,n.,疑問,question; doubt,3
+빛나다,v.,發光,to shine,3
+실리다,v.,被裝載；被刊登,to be loaded; to be published,3
+압력,n.,壓力,pressure,3
+예상되다,v.,預計,to be expected,3
+증권,n.,證券,securities,3
+직후,n.,之後立刻,right after,3
+차량,n.,車輛,vehicle,3
+출산,n.,生產（分娩）,childbirth,3
+선진국,n.,先進國家,developed country,3
+재판,n.,審判,trial,3
+제자,n.,弟子,disciple; student,3
+회복,n.,恢復,recovery,3
+구역,n.,區域,zone,3
+대응,n.,應對,response,3
+발휘하다,v.,發揮,to display,3
+소비,n.,消費,consumption,3
+심장,n.,心臟,heart,3
+중소기업,n.,中小企業,small business,3
+직접적,n.,直接的,direct,3
+진실,n.,真實,truth,3
+필자,n.,筆者,the writer,3
+협력,n.,合作,cooperation,3
+계층,n.,階層,class,3
+담당,n.,負責,charge,3
+보도하다,v.,報導,to report,3
+철저하다,adj.,徹底,to be thorough,3
+태아,n.,胎兒,fetus,3
+두르다,v.,圍上,to wrap around,3
+드디어,adv.,終於,finally,3
+민주,n.,民主,democracy,3
+여인,n.,女人,woman,3
+운영하다,v.,經營,to operate,3
+평가하다,v.,評價,to evaluate,3
+필요성,n.,必要性,necessity,3
+감추다,v.,隱藏,to hide,3
+모,phr.,某,certain; a,3
+부위,n.,部位,part (of body),3
+비우다,v.,清空,to empty,3
+설치하다,v.,設置,to install,3
+아울러,adv.,同時；並且,in addition,3
+지시,n.,指示,instruction,3
+형성하다,v.,形成,to form,3
+덧붙이다,v.,附加,to add,3
+무기,n.,武器,weapon,3
+일종,n.,一種,a kind,3
+처지,n.,處境,situation,3
+형편,n.,情況；家境,circumstances,3
+본질,n.,本質,essence,3
+비치다,v.,照；映,to shine; to be reflected,3
+서서히,adv.,慢慢地,slowly,3
+스승,n.,老師；恩師,teacher; mentor,3
+신분,n.,身分,identity; status,3
+실시되다,v.,被實施,to be carried out,3
+증거,n.,證據,evidence,3
+초점,n.,焦點,focus,3
+강화하다,v.,強化,to strengthen,3
+공포,n.,恐怖；公布,fear; proclamation,3
+권위,n.,權威,authority,3
+미루다,v.,推遲,to postpone,3
+실정,n.,實情,actual state,3
+영양,n.,營養,nutrition,3
+육체,n.,肉體,body,3
+그이,pron.,他（那位）,he; that person,3
+대기,n.,大氣；等待,atmosphere; waiting,3
+독립,n.,獨立,independence,3
+해당하다,v.,相當於,to correspond to,3
+간부,n.,幹部,executive,3
+관념,n.,觀念,concept,3
+도입,n.,導入,introduction,3
+비추다,v.,照；映照,to shine on; to reflect,3
+여건,n.,條件,conditions,3
+통제,n.,控制,control,3
+못지않다,adj.,不亞於,to be no less than,3
+반영하다,v.,反映,to reflect,3
+성장하다,v.,成長,to grow,3
+소속,n.,所屬,affiliation,3
+제작,n.,製作,production,3
+추진,n.,推動,promotion; drive,3
+구입하다,v.,購買,to purchase,3
+선장,n.,船長,captain (of a ship),3
+시점,n.,時間點,point in time,3
+코드,n.,代碼；插頭,code; cord,3
+세계관,n.,世界觀,worldview,3
+의존하다,v.,依賴,to depend on,3
+건설하다,v.,建設,to build,3
+경쟁력,n.,競爭力,competitiveness,3
+연락,n.,聯絡,contact,3
+문자,n.,文字；簡訊,letter; text message,3
+비롯되다,v.,起源於,to originate,3
+여겨지다,v.,被認為,to be regarded,3
+위주,n.,為主,focus,3
+전환,n.,轉換,conversion,3
+지경,n.,地步,state; point,3
+진행,n.,進行,progress,3
+통증,n.,疼痛,pain,3
+하천,n.,河川,river,3
+화학,n.,化學,chemistry,3
+거칠다,adj.,粗糙；粗暴,to be rough,3
+그나마,adv.,好歹；連那個,even that; at least,3
+그야말로,adv.,簡直是,truly; literally,3
+남부,n.,南部,southern part,3
+연기자,n.,演員,actor,3
+워낙,adv.,本來就；非常,originally; so much,3
+더욱이,adv.,而且,moreover,3
+별도,n.,另外,separate,3
+비극,n.,悲劇,tragedy,3
+솜씨,n.,手藝,skill,3
+극,n.,劇；極,drama; extreme,3
+나란히,adv.,並排,side by side,3
+다방,n.,茶館,tearoom,3
+수행하다,v.,執行,to carry out,3
+실로,adv.,實在,truly,3
+인연,n.,緣分,fate; relationship,3
+일행,n.,一行人,party; group,3
+지식인,n.,知識分子,intellectual,3
+진지하다,adj.,真誠；認真,to be serious,3
+호흡,n.,呼吸,breathing,3
+흔들리다,v.,搖晃,to shake,3
+근본,n.,根本,root; basis,3
+일부러,adv.,故意,on purpose,3
+접근하다,v.,接近,to approach,3
+흩어지다,v.,散開,to scatter,3
+기후,n.,氣候,climate,3
+대응하다,v.,應對,to respond,3
+심정,n.,心情,feelings,3
+이룩하다,v.,實現,to accomplish,3
+형사,n.,刑警；刑事,detective; criminal,3
+희곡,n.,劇本,play script,3
+물기,n.,水分,moisture,3
+특정하다,adj.,特定,to be specific,3
+경계,n.,邊界；警戒,boundary; vigilance,3
+공식,n.,公式；正式,formula; official,3
+머물다,v.,停留,to stay,3
+명예,n.,名譽,honor,3
+뱃사람,n.,水手,sailor,3
+지원하다,v.,支援；申請,to support; to apply,3
+침묵,n.,沉默,silence,3
+텍스트,n.,文本,text,3
+표면,n.,表面,surface,3
+객관적,n.,客觀的,objective,3
+구석,n.,角落,corner,3
+둥지,n.,巢,nest,3
+부대,n.,部隊,military unit,3
+서클,n.,社團,circle; club,3
+실체,n.,實體,substance; entity,3
+엄격하다,adj.,嚴格,to be strict,3
+완전하다,adj.,完全,to be complete,3
+증가,n.,增加,increase,3
+출연,n.,演出,appearance,3
+후기,n.,後期；心得,later period; review,3
+버티다,v.,堅持；撐住,to hold out,3
+분포하다,v.,分布,to be distributed,3
+비중,n.,比重,proportion; weight,3
+아이디어,n.,點子,idea,3
+예컨대,adv.,例如,for example,3
+전개,n.,展開,development,3
+접촉,n.,接觸,contact,3
+계곡,n.,溪谷,valley,3
+다투다,v.,爭吵,to quarrel,3
+도저히,adv.,怎麼也（不）,(not) possibly,3
+앞장서다,v.,帶頭,to take the lead,3
+요청하다,v.,請求,to request,3
+일치하다,v.,一致,to agree; to match,3
+정치권,n.,政界,political circles,3
+처녀,n.,少女；處女,maiden,3
+개발되다,v.,被開發,to be developed,3
+대비하다,v.,防備；對比,to prepare for; to contrast,3
+쓰러지다,v.,倒下,to collapse,3
+영혼,n.,靈魂,soul,3
+운전사,n.,司機,driver,3
+적용되다,v.,被適用,to be applied,3
+지속적,n.,持續的,continuous,3
+차별,n.,歧視；差別,discrimination,3
+구분,n.,區分,division,3
+분노,n.,憤怒,anger,3
+소위,adv.,所謂,so-called,3
+스치다,v.,擦過,to brush past,3
+의무,n.,義務,duty,3
+동일하다,adj.,同一,to be identical,3
+설치,n.,設置,installation,3
+업종,n.,行業,type of business,3
+연출,n.,導演；演出,direction (of a play),3
+트이다,v.,開闊；暢通,to open up,3
+국제화,n.,國際化,internationalization,3
+근육,n.,肌肉,muscle,3
+깔리다,v.,被鋪,to be spread,3
+연합,n.,聯合,union,3
+인격,n.,人格,character,3
+총,n.,槍；總,gun; total,3
+품목,n.,品項,item,3
+논,n.,水田,rice paddy,3
+비난,n.,責難,criticism,3
+위협,n.,威脅,threat,3
+잠기다,v.,淹沒；鎖上,to be submerged; to be locked,3
+주고받다,v.,交換；往來,to exchange,3
+지지,n.,支持,support,3
+경고,n.,警告,warning,3
+공개하다,v.,公開,to disclose,3
+논쟁,n.,爭論,dispute,3
+성명,n.,聲明；姓名,statement; full name,3
+수십,phr.,數十,dozens of,3
+전개되다,v.,展開,to unfold,3
+품질,n.,品質,quality,3
+회견,n.,會見,press conference,3
+훔치다,v.,偷；擦,to steal; to wipe,3
+흔적,n.,痕跡,trace,3
+고전,n.,古典；苦戰,classic; hard fight,3
+구분하다,v.,區分,to distinguish,3
+뇌,n.,腦,brain,3
+사설,n.,社論；私立,editorial; private,3
+승리,n.,勝利,victory,3
+좌우,n.,左右,left and right,3
+굽히다,v.,彎曲；屈服,to bend; to yield,3
+의학,n.,醫學,medicine,3
+창조,n.,創造,creation,3
+홍보,n.,宣傳,publicity,3
+내다보다,v.,往外看；展望,to look out; to foresee,3
+대량,n.,大量,large quantity,3
+동행,n.,同行,accompanying,3
+떼,n.,群,herd; crowd,3
+마땅하다,adj.,應當；合適,to be proper,3
+바로잡다,v.,糾正,to correct,3
+박히다,v.,被釘；嵌入,to be stuck in,3
+제거하다,v.,去除,to remove,3
+특수,n.,特殊,special,3
+호기심,n.,好奇心,curiosity,3
+기획,n.,企劃,planning,3
+대충,adv.,大概；草率地,roughly,3
+박다,v.,釘,to drive in,3
+본성,n.,本性,nature,3
+생산력,n.,生產力,productivity,3
+장비,n.,裝備,equipment,3
+정치인,n.,政治人物,politician,3
+처벌,n.,處罰,punishment,3
+검토,n.,檢討,review,3
+기법,n.,技法,technique,3
+두드러지다,adj.,顯著,to be prominent,3
+살아남다,v.,存活,to survive,3
+살인,n.,殺人,murder,3
+성질,n.,性質；脾氣,nature; temper,3
+인,n.,人,person,3
+잇따르다,v.,接連,to follow one after another,3
+자판,n.,鍵盤,keyboard,3
+적용,n.,適用,application,3
+중반,n.,中期,middle stage,3
+지시하다,v.,指示,to instruct,3
+가르침,n.,教誨,teaching,3
+무리,n.,群；勉強,group; overdoing,3
+정면,n.,正面,front,3
+개국,n.,個國家,counter for countries,3
+근원,n.,根源,origin,3
+사회주의,n.,社會主義,socialism,3
+설치되다,v.,被設置,to be installed,3
+수도권,n.,首都圈,capital area,3
+자극,n.,刺激,stimulus,3
+짚다,v.,拄；指出,to lean on; to point out,3
+총리,n.,總理,prime minister,3
+대출,n.,貸款；借出,loan,3
+덕,n.,德；恩惠,virtue; benefit,3
+바치다,v.,獻上,to dedicate,3
+발표되다,v.,被發表,to be announced,3
+부정하다,v.,否定,to deny,3
+불러일으키다,v.,引起,to arouse,3
+소유자,n.,所有者,owner,3
+액수,n.,金額,amount,3
+직전,n.,即將之前,right before,3
+짐작하다,v.,推測,to guess,3
+택하다,v.,選擇,to choose,3
+거꾸로,adv.,顛倒,upside down; backwards,3
+궁극적,n.,最終的,ultimate,3
+극히,adv.,極其,extremely,3
+기여하다,v.,貢獻,to contribute,3
+대륙,n.,大陸,continent,3
+뒤따르다,v.,跟隨,to follow,3
+범인,n.,犯人,criminal,3
+변동,n.,變動,fluctuation,3
+불가피하다,adj.,不可避免,to be inevitable,3
+손해,n.,損失,loss,3
+숨지다,v.,斷氣,to die,3
+아유,int.,哎唷,ugh; oh,3
+자존심,n.,自尊心,pride,3
+주저앉다,v.,癱坐,to sink down,3
+증권사,n.,證券公司,securities firm,3
+초원,n.,草原,grassland,3
+최종,n.,最終,final,3
+대신하다,v.,代替,to replace,3
+두렵다,adj.,害怕,to be afraid,3
+등장,n.,登場,appearance,3
+마디,n.,節；句,joint; phrase,3
+미처,adv.,來不及,(not) yet; in time,3
+비율,n.,比率,ratio,3
+생물,n.,生物,living thing,3
+소음,n.,噪音,noise,3
+양국,n.,兩國,both countries,3
+얼핏,adv.,一眼；乍看,at a glance,3
+웬,phr.,怎樣的；哪來的,what sort of,3
+중부,n.,中部,central part,3
+침,n.,口水；針,saliva; needle,3
+항의,n.,抗議,protest,3
+해당,n.,相關；該,relevant,3
+확보,n.,確保,securing,3
+환경오염,n.,環境污染,environmental pollution,3
+가치관,n.,價值觀,values,3
+기원전,n.,西元前,B.C.,3
+긴급,n.,緊急,emergency,3
+꺾다,v.,折；挫,to break; to defeat,3
+무려,adv.,竟然多達,as many as,3
+묻히다,v.,被埋；沾上,to be buried; to stain,3
+실태,n.,實際狀況,actual condition,3
+아쉽다,adj.,可惜,to be a pity,3
+애정,n.,愛情,affection,3
+장르,n.,類型,genre,3
+접하다,v.,接觸,to come into contact,3
+정성,n.,誠意,sincerity,3
+제약,n.,制約；製藥,restriction; pharmaceuticals,3
+쫓다,v.,追趕,to chase,3
+추가,n.,追加,addition,3
+품,n.,懷抱；寬度,bosom; width,3
+확인되다,v.,被確認,to be confirmed,3
+가하다,v.,施加,to apply; to add,3
+강의,n.,講課,lecture,3
+동포,n.,同胞,compatriot,3
+뚫다,v.,穿；鑽,to pierce; to drill,3
+외면하다,v.,迴避,to turn away from,3
+원고,n.,原稿；原告,manuscript; plaintiff,3
+줄곧,adv.,一直,all along,3
+지출,n.,支出,expenditure,3
+향,n.,香,incense; scent,3
+개선하다,v.,改善,to improve,3
+계좌,n.,帳戶,bank account,3
+말기,n.,末期,final stage,3
+말없이,adv.,默默地,silently,3
+망하다,v.,滅亡；倒閉,to collapse; to go bankrupt,3
+문서,n.,文件,document,3
+성립되다,v.,成立,to be established,3
+실습,n.,實習,practice; training,3
+일찍이,adv.,早就,early on,3
+자율,n.,自律,autonomy,3
+집중되다,v.,集中,to be concentrated,3
+창조적,n.,創造性的,creative,3
+천장,n.,天花板,ceiling,3
+파다,v.,挖,to dig,3
+하긴,adv.,也是；倒也,"well, true",3
+해결되다,v.,被解決,to be solved,3
+향상,n.,提升,improvement,3
+가라앉다,v.,沉下；平靜,to sink; to calm down,3
+감싸다,v.,包住；袒護,to wrap; to protect,3
+고작,adv.,頂多,at most,3
+깔다,v.,鋪,to spread,3
+다짐하다,v.,下決心,to resolve,3
+대합실,n.,候車室,waiting room,3
+매장,n.,賣場；埋葬,store; burial,3
+명칭,n.,名稱,name,3
+상업,n.,商業,commerce,3
+생산되다,v.,被生產,to be produced,3
+숨기다,v.,隱藏,to hide,3
+엉덩이,n.,屁股,buttocks,3
+이달,n.,這個月,this month,3
+인체,n.,人體,human body,3
+저고리,n.,韓服上衣,jeogori (jacket),3
+진단,n.,診斷,diagnosis,3
+질병,n.,疾病,disease,3
+체력,n.,體力,physical strength,3
+헤아리다,v.,數；體諒,to count; to understand,3
+각기,adv.,各自,each,3
+관찰,n.,觀察,observation,3
+귀신,n.,鬼,ghost,3
+귀하다,adj.,珍貴,to be precious,3
+그토록,adv.,那麼,so much,3
+기초하다,v.,基於,to be based on,3
+대가,n.,代價；大師,price; master,3
+되찾다,v.,找回,to regain,3
+말리다,v.,勸阻；曬乾,to dissuade; to dry,3
+무덤,n.,墳墓,grave,3
+물결,n.,波浪,wave,3
+밥상,n.,飯桌,dining table,3
+보장하다,v.,保障,to guarantee,3
+사귀다,v.,交往,to make friends; to date,3
+솟다,v.,湧出；聳立,to rise; to soar,3
+예상하다,v.,預料,to expect,3
+예외,n.,例外,exception,3
+완전,n.,完全,completeness,3
+절대적,n.,絕對的,absolute,3
+제작하다,v.,製作,to produce,3
+최대한,n.,最大限度,as much as possible,3
+품다,v.,懷抱,to embrace; to harbor,3
+휴식,n.,休息,rest,3
+굳다,adj.,硬；堅定,to be hard; firm,3
+굳어지다,v.,變硬,to harden,3
+굶다,v.,挨餓,to starve,3
+기기,n.,機器,device,3
+나침반,n.,指南針,compass,3
+농부,n.,農夫,farmer,3
+도달하다,v.,到達,to reach,3
+뒤늦다,adj.,遲來,to be belated,3
+뒤지다,v.,翻找；落後,to rummage; to fall behind,3
+디스크,n.,磁碟；椎間盤,disk,3
+맛보다,v.,品嚐,to taste,3
+상상력,n.,想像力,imagination,3
+영업,n.,營業,business; sales,3
+예방,n.,預防,prevention,3
+완성,n.,完成,completion,3
+유리하다,adj.,有利,to be advantageous,3
+자연환경,n.,自然環境,natural environment,3
+증명하다,v.,證明,to prove,3
+지적되다,v.,被指出,to be pointed out,3
+철저히,adv.,徹底地,thoroughly,3
+코스,n.,路線；課程,course,3
+학부모,n.,學生家長,parents (of students),3
+합리적,n.,合理的,rational,3
+해석하다,v.,解釋,to interpret,3
+힘쓰다,v.,努力,to strive,3
+거듭,adv.,反覆,repeatedly,3
+날리다,v.,放飛；吹走,to fly; to blow away,3
+덜다,v.,減輕,to lessen,3
+뛰어넘다,v.,跳過；超越,to jump over; to surpass,3
+마누라,n.,老婆（口語）,wife (casual),3
+맞이하다,v.,迎接,to welcome,3
+신고하다,v.,申報；報案,to report,3
+연속,n.,連續,succession,3
+욕,n.,髒話；辱罵,swear word; insult,3
+원장,n.,院長,director,3
+유물,n.,遺物,relic,3
+저절로,adv.,自然而然,by itself,3
+정비,n.,整修,maintenance,3
+주의,n.,注意；主義,attention; -ism,3
+집어넣다,v.,放進去,to put in,3
+통계,n.,統計,statistics,3
+판,n.,局；板；版,round; board; edition,3
+피해자,n.,受害者,victim,3
+필수적,n.,必要的,essential,3
+학용품,n.,文具,school supplies,3
+환하다,adj.,明亮,to be bright,3
+강남,n.,江南,Gangnam,3
+구속되다,v.,被拘留,to be detained,3
+돌아다니다,v.,到處走,to wander around,3
+등등,n.,等等,etc.,3
+멋지다,adj.,帥；棒,to be wonderful,3
+반발,n.,反彈,backlash,3
+방지,n.,防止,prevention,3
+배다,v.,滲透,to soak in,3
+보장,n.,保障,guarantee,3
+빠져나오다,v.,擺脫,to get out,3
+새다,v.,漏,to leak,3
+억울하다,adj.,冤枉,to feel wronged,3
+요구되다,v.,被要求,to be required,3
+음성,n.,聲音；陰性,voice; negative,3
+이윽고,adv.,不久,soon after,3
+장식,n.,裝飾,decoration,3
+전개하다,v.,展開,to develop,3
+전반적,n.,全面的,overall,3
+척하다,v.,假裝,to pretend,3
+풍습,n.,風俗,custom,3
+한가운데,n.,正中央,very center,3
+한정되다,v.,被限定,to be limited,3
+해내다,v.,完成,to accomplish,3
+흉내,n.,模仿,imitation,3
+감옥,n.,監獄,prison,3
+갚다,v.,償還,to repay,3
+건전하다,adj.,健全,to be sound,3
+광장,n.,廣場,square; plaza,3
+꽉,adv.,緊緊地,tightly,3
+끼우다,v.,插入；夾,to insert,3
+다듬다,v.,修整,to trim; to polish,3
+다름없다,adj.,無異,to be no different,3
+당당하다,adj.,堂堂正正,to be confident,3
+댐,n.,水壩,dam,3
+덩어리,n.,塊,lump,3
+두뇌,n.,頭腦,brain,3
+모처럼,adv.,難得,after a long time,3
+물리학,n.,物理學,physics,3
+벌,n.,套；蜜蜂；懲罰,suit (counter); bee; punishment,3
+부정적,n.,負面的,negative,3
+북부,n.,北部,northern part,3
+분리,n.,分離,separation,3
+상당,n.,相當,considerable,3
+애초,n.,起初,the very beginning,3
+에,int.,欸,eh,3
+오염되다,v.,被污染,to be polluted,3
+오해,n.,誤會,misunderstanding,3
+의지하다,v.,依靠,to depend on,3
+제한하다,v.,限制,to restrict,3
+존중하다,v.,尊重,to respect,3
+책임지다,v.,負責,to take responsibility,3
+청춘,n.,青春,youth,3
+초반,n.,初期,early stage,3
+트럭,n.,卡車,truck,3
+폭넓다,adj.,廣泛,to be wide-ranging,3
+표현되다,v.,被表現,to be expressed,3
+학번,n.,學號；入學年,student number; class year,3
+허가,n.,許可,permission,3
+헤매다,v.,徘徊；迷路,to wander,3
+곡,n.,曲子,song; tune,3
+곡식,n.,穀物,grain,3
+꽂다,v.,插,to insert,3
+두려움,n.,恐懼,fear,3
+망설이다,v.,猶豫,to hesitate,3
+별다르다,adj.,特別不同,to be particularly different,3
+보편적,n.,普遍的,universal,3
+부품,n.,零件,part,3
+뻔하다,adj.,明顯；差點,to be obvious; to nearly,3
+뽑히다,v.,被選；被拔,to be selected; to be pulled out,3
+상담,n.,諮詢,consultation,3
+서부,n.,西部,western part,3
+속담,n.,俗語,proverb,3
+시중,n.,市面；服侍,market; attendance,3
+심사,n.,審查,examination,3
+앞세우다,v.,讓…走在前面,to put in front,3
+유사하다,adj.,類似,to be similar,3
+의욕,n.,熱情；意欲,motivation,3
+인근,n.,鄰近,vicinity,3
+일반인,n.,一般人,ordinary people,3
+작성하다,v.,撰寫,to write up,3
+정기,n.,定期,regular,3
+제의,n.,提議,proposal,3
+차림,n.,打扮,attire,3
+창조하다,v.,創造,to create,3
+펴내다,v.,出版,to publish,3
+하드웨어,n.,硬體,hardware,3
+화장,n.,化妝；火葬,makeup; cremation,3
+강렬하다,adj.,強烈,to be intense,3
+되풀이하다,v.,重複,to repeat,3
+리,n.,里,ri (unit of distance),3
+면하다,v.,免除；面對,to avoid; to face,3
+모색하다,v.,摸索,to seek,3
+붙잡다,v.,抓住,to seize,3
+빛깔,n.,色彩,color,3
+사방,n.,四方,all directions,3
+살림,n.,家務；生計,housekeeping; living,3
+실현,n.,實現,realization,3
+아냐,int.,不是（口語）,no (casual),3
+연예인,n.,藝人,entertainer,3
+이내,adv.,以內；立刻,within; soon,3
+차츰,adv.,漸漸,gradually,3
+투표,n.,投票,vote,3
+파괴하다,v.,破壞,to destroy,3
+하느님,n.,上帝,God,3
+해당되다,v.,相當於,to apply to,3
+홀로,adv.,獨自,alone,3
+감히,adv.,竟敢,dare,3
+강요하다,v.,強迫,to force,3
+개미,n.,螞蟻,ant,3
+관습,n.,慣例,custom,3
+광경,n.,光景,scene,3
+금세,adv.,馬上,in no time,3
+낮추다,v.,降低,to lower,3
+내주다,v.,交出；讓出,to hand over,3
+명의,n.,名義；名醫,name; famous doctor,3
+물러나다,v.,退下,to step back,3
+밀접하다,adj.,密切,to be close,3
+분량,n.,分量,amount,3
+불과,adv.,不過,only,3
+소박하다,adj.,樸素,to be simple,3
+수없이,adv.,無數地,countlessly,3
+승진,n.,升遷,promotion,3
+열매,n.,果實,fruit,3
+적히다,v.,被寫上,to be written,3
+제한되다,v.,被限制,to be restricted,3
+지속되다,v.,持續,to last,3
+쫓기다,v.,被追,to be chased,3
+쭉,adv.,一直,straight; all along,3
+평가되다,v.,被評價,to be evaluated,3
+하도,adv.,太；實在,so much,3
+한창,adv.,正盛,at its height,3
+해안,n.,海岸,coast,3
+호박,n.,南瓜,pumpkin,3
+흑인,n.,黑人,Black person,3
+갇히다,v.,被關,to be locked up,3
+근로,n.,勞動,labor,3
+눈동자,n.,瞳孔,pupil (eye),3
+닥치다,v.,臨頭,to approach; to befall,3
+뜯다,v.,撕；拆,to tear; to open,3
+몸짓,n.,手勢；姿態,gesture,3
+부담하다,v.,負擔,to bear (a cost),3
+부회장,n.,副會長,vice chairperson,3
+빼앗다,v.,奪取,to take away,3
+삼키다,v.,吞,to swallow,3
+성실하다,adj.,誠實,to be sincere,3
+스튜디오,n.,攝影棚,studio,3
+이상적,n.,理想的,ideal,3
+일쑤,n.,經常,habitually,3
+일체,n.,一切,all; entirely,3
+잦다,adj.,頻繁,to be frequent,3
+절망,n.,絕望,despair,3
+접다,v.,摺,to fold,3
+제시되다,v.,被提出,to be presented,3
+주방,n.,廚房,kitchen,3
+진출하다,v.,進軍,to advance into,3
+통과하다,v.,通過,to pass,3
+투명하다,adj.,透明,to be transparent,3
+확산되다,v.,擴散,to spread,3
+경력,n.,經歷,career,3
+고통스럽다,adj.,痛苦,to be painful,3
+곤란하다,adj.,困難,to be difficult,3
+공중,n.,空中；公眾,the air; the public,3
+공해,n.,公害,pollution,3
+귀찮다,adj.,麻煩,to be bothersome,3
+기대다,v.,倚靠,to lean on,3
+깨어나다,v.,醒來,to wake up,3
+꼽히다,v.,被列為,to be counted among,3
+대다수,n.,大多數,majority,3
+듯싶다,v.,好像,to seem,3
+먹이,n.,飼料,feed,3
+무료,n.,免費,free of charge,3
+발레,n.,芭蕾,ballet,3
+상징하다,v.,象徵,to symbolize,3
+실현하다,v.,實現,to realize,3
+아깝다,adj.,可惜,to be a waste,3
+안정되다,v.,穩定,to be stable,3
+어리석다,adj.,愚蠢,to be foolish,3
+엎드리다,v.,趴下,to lie face down,3
+여럿,n.,好幾個,several,3
+연설,n.,演說,speech,3
+염려,n.,擔心,concern,3
+우습다,adj.,好笑,to be funny,3
+일자,n.,日期,date,3
+전달되다,v.,被傳達,to be delivered,3
+칸,n.,格；間,compartment; space,3
+갈수록,adv.,越來越,increasingly,3
+갖가지,n.,各種,all kinds,3
+거절하다,v.,拒絕,to refuse,3
+구별하다,v.,區別,to distinguish,3
+다행,n.,幸運,good fortune,3
+동의,n.,同意,agreement,3
+마무리,n.,收尾,finishing,3
+마주치다,v.,碰見,to run into,3
+막상,adv.,真到了…時,when it actually comes to,3
+몸통,n.,軀幹,torso,3
+묘사하다,v.,描寫,to describe,3
+베다,v.,割；枕,to cut; to rest one's head on,3
+보장되다,v.,被保障,to be guaranteed,3
+볼,n.,臉頰,cheek,3
+부분적,n.,部分的,partial,3
+불행,n.,不幸,misfortune,3
+비명,n.,尖叫,scream,3
+순수,n.,純粹,purity,3
+실질적,n.,實質的,substantial,3
+안개,n.,霧,fog,3
+오로지,adv.,只,solely,3
+완성하다,v.,完成,to complete,3
+이런저런,phr.,這樣那樣的,this and that,3
+임무,n.,任務,mission,3
+자연히,adv.,自然地,naturally,3
+장난,n.,玩笑；惡作劇,prank; joke,3
+전용,n.,專用,exclusive use,3
+지극히,adv.,極其,extremely,3
+청하다,v.,請求,to ask for,3
+확정,n.,確定,confirmation,3
+가상,n.,假想,virtual,3
+간혹,adv.,偶爾,occasionally,3
+개방하다,v.,開放,to open,3
+관계되다,v.,相關,to be related,3
+국산,n.,國產,domestic product,3
+리그,n.,聯賽,league,3
+마이크,n.,麥克風,microphone,3
+메우다,v.,填滿,to fill up,3
+면적,n.,面積,area,3
+반성,n.,反省,reflection,3
+벌떡,adv.,猛地（起身）,abruptly (getting up),3
+보상,n.,補償,compensation,3
+분리되다,v.,分離,to be separated,3
+빚,n.,債,debt,3
+새기다,v.,雕刻；銘記,to carve; to engrave,3
+서민,n.,平民,ordinary people,3
+석,phr.,三；席,three; seat,3
+선정하다,v.,選定,to select,3
+소수,n.,少數；小數,minority; decimal,3
+연간,n.,年間,annual,3
+영화제,n.,電影節,film festival,3
+예측하다,v.,預測,to predict,3
+용도,n.,用途,use,3
+의심,n.,懷疑,doubt,3
+이동하다,v.,移動,to move,3
+자극하다,v.,刺激,to stimulate,3
+재빨리,adv.,迅速地,quickly,3
+적합하다,adj.,適合,to be suitable,3
+조절하다,v.,調節,to adjust,3
+조정,n.,調整,adjustment,3
+중얼거리다,v.,喃喃自語,to mutter,3
+지급하다,v.,支付,to pay,3
+확장,n.,擴張,expansion,3
+힘차다,adj.,有力,to be powerful,3
+건조,n.,乾燥；建造,dryness; construction,3
+고요하다,adj.,寂靜,to be still,3
+그대,pron.,你（文雅）,you (literary),3
+긋다,v.,劃（線）,to draw (a line),3
+기둥,n.,柱子,pillar,3
+날카롭다,adj.,尖銳,to be sharp,3
+논하다,v.,論述,to discuss,3
+도덕,n.,道德,morality,3
+동부,n.,東部,eastern part,3
+뒷모습,n.,背影,appearance from behind,3
+만만하다,adj.,好對付,to be easy (to deal with),3
+못되다,adj.,壞,to be bad,3
+보고하다,v.,報告,to report,3
+사무소,n.,事務所,office,3
+상인,n.,商人,merchant,3
+선언하다,v.,宣布,to declare,3
+소원,n.,心願,wish,3
+엿보다,v.,偷看,to peek,3
+완성되다,v.,完成,to be completed,3
+유적,n.,遺跡,ruins,3
+일생,n.,一生,lifetime,3
+입히다,v.,給…穿；造成,to dress; to inflict,3
+잡아먹다,v.,捕食,to prey on,3
+정보화,n.,資訊化,informatization,3
+종종,adv.,常常,often,3
+창작,n.,創作,creation,3
+축소,n.,縮小,reduction,3
+취향,n.,喜好,taste,3
+탄생하다,v.,誕生,to be born,3
+학급,n.,班級,class,3
+해군,n.,海軍,navy,3
+효율적,n.,有效率的,efficient,3
+간판,n.,招牌,signboard,3
+건드리다,v.,碰；招惹,to touch; to provoke,3
+관리하다,v.,管理,to manage,3
+괴로움,n.,痛苦,suffering,3
+근거하다,v.,根據,to be based on,3
+금액,n.,金額,amount of money,3
+달래다,v.,安撫,to soothe,3
+맘,n.,心（口語）,mind (casual),3
+밝혀내다,v.,查明,to find out,3
+부서지다,v.,破碎,to break,3
+비행,n.,飛行；不良行為,flight; delinquency,3
+상관없다,adj.,無關,to not matter,3
+성립하다,v.,成立,to be established,3
+수명,n.,壽命,lifespan,3
+시즌,n.,季節；賽季,season,3
+신기하다,adj.,神奇,to be amazing,3
+업다,v.,背（人）,to carry on one's back,3
+예감,n.,預感,premonition,3
+음식물,n.,食物,food,3
+자신감,n.,自信心,confidence,3
+죄인,n.,罪人,criminal,3
+주의하다,v.,注意,to be careful,3
+쾌감,n.,快感,pleasure,3
+탄생,n.,誕生,birth,3
+튀다,v.,濺；彈,to splash; to bounce,3
+하필,adv.,偏偏,of all things,3
+활용,n.,活用,utilization,3
+거액,n.,巨額,large sum,3
+고집하다,v.,堅持,to insist,3
+곧잘,adv.,常常；相當好,often; quite well,3
+골짜기,n.,山谷,valley,3
+교훈,n.,教訓,lesson,3
+구르다,v.,滾,to roll,3
+단편,n.,短篇,short story,3
+대처하다,v.,應對,to cope with,3
+명확하다,adj.,明確,to be clear,3
+발걸음,n.,腳步,step,3
+발길,n.,腳步；足跡,footsteps,3
+빼앗기다,v.,被奪走,to be robbed of,3
+생산자,n.,生產者,producer,3
+선진,n.,先進,advanced,3
+소매,n.,袖子；零售,sleeve; retail,3
+시멘트,n.,水泥,cement,3
+신규,n.,新的,new,3
+신청하다,v.,申請,to apply,3
+실은,adv.,其實,actually,3
+심판,n.,裁判,referee,3
+안기다,v.,被抱；讓抱,to be hugged,3
+양심,n.,良心,conscience,3
+이사장,n.,董事長,chairperson of the board,3
+이자,n.,利息,interest,3
+자세하다,adj.,詳細,to be detailed,3
+제비,n.,燕子；籤,swallow; lot,3
+제안,n.,提案,proposal,3
+제안하다,v.,提議,to propose,3
+지난날,n.,過去,past days,3
+진급,n.,晉級,promotion,3
+튀어나오다,v.,跳出來,to pop out,3
+표준,n.,標準,standard,3
+항구,n.,港口,harbor,3
+허용,n.,允許,permission,3
+헬기,n.,直升機,helicopter,3
+간신히,adv.,好不容易,barely,3
+같이하다,v.,共同,to share,3
+거품,n.,泡沫,bubble,3
+공군,n.,空軍,air force,3
+기술자,n.,技術人員,technician,3
+년생,n.,年生,born in (year),3
+달리기,n.,賽跑,running,3
+도전,n.,挑戰,challenge,3
+보조,n.,輔助；步調,aid; pace,3
+불리하다,adj.,不利,to be disadvantageous,3
+불편,n.,不便,inconvenience,3
+비비다,v.,搓；拌,to rub; to mix,3
+살아나다,v.,復活,to revive,3
+속이다,v.,欺騙,to deceive,3
+수면,n.,睡眠；水面,sleep; water surface,3
+수천,phr.,數千,thousands of,3
+승부,n.,勝負,victory or defeat,3
+신념,n.,信念,belief,3
+여간,adv.,不一般,not ordinarily,3
+영향력,n.,影響力,influence,3
+예의,n.,禮儀,courtesy,3
+이리저리,adv.,到處,here and there,3
+인간적,n.,人性的,humane,3
+잘나다,adj.,了不起；長得好,to be outstanding,3
+재능,n.,才能,talent,3
+지불하다,v.,支付,to pay,3
+파출소,n.,派出所,police box,3
+한문,n.,漢文,Classical Chinese,3
+건네주다,v.,遞給,to hand over,3
+결승,n.,決賽,final,3
+공공,n.,公共,public,3
+교양,n.,教養,culture; refinement,3
+국왕,n.,國王,king,3
+극복,n.,克服,overcoming,3
+내려지다,v.,被下達,to be issued,3
+냉동,n.,冷凍,freezing,3
+녹다,v.,融化,to melt,3
+수집하다,v.,收集,to collect,3
+승객,n.,乘客,passenger,3
+싱싱하다,adj.,新鮮,to be fresh,3
+외모,n.,外貌,appearance,3
+인공,n.,人工,artificial,3
+잠자리,n.,床鋪；蜻蜓,bed; dragonfly,3
+저마다,adv.,各自,each,3
+전국적,n.,全國性的,nationwide,3
+전반,n.,全般；前半,overall; first half,3
+제자리,n.,原位,original place,3
+지루하다,adj.,無聊,to be boring,3
+척,n.,假裝；艘,pretense; counter for ships,3
+학술,n.,學術,academic,3
+혈액,n.,血液,blood,3
+화살,n.,箭,arrow,3
+화재,n.,火災,fire,3
+가르다,v.,分開；切開,to divide; to cut,3
+간격,n.,間隔,interval,3
+고함,n.,喊叫,shout,3
+공격하다,v.,攻擊,to attack,3
+그놈,pron.,那傢伙,that guy,3
+기록되다,v.,被記錄,to be recorded,3
+끝없다,adj.,無盡,to be endless,3
+끼어들다,v.,插嘴；插隊,to cut in,3
+노선,n.,路線,route; line,3
+답,n.,答案,answer,3
+대사,n.,台詞；大使,line (in a play); ambassador,3
+도망치다,v.,逃走,to flee,3
+동의하다,v.,同意,to agree,3
+딱딱하다,adj.,硬；生硬,to be hard; stiff,3
+땅속,n.,地底,underground,3
+벌금,n.,罰款,fine,3
+복,n.,福,fortune,3
+봉사,n.,服務；志工,service; volunteering,3
+부서,n.,部門,department,3
+소형,n.,小型,small-sized,3
+신인,n.,新人,newcomer,3
+악몽,n.,惡夢,nightmare,3
+안내,n.,引導；介紹,guidance,3
+언덕,n.,山坡,hill,3
+열정,n.,熱情,passion,3
+오페라,n.,歌劇,opera,3
+입맛,n.,胃口,appetite,3
+재즈,n.,爵士樂,jazz,3
+적응하다,v.,適應,to adapt,3
+제공,n.,提供,provision,3
+참가,n.,參加,participation,3
+추석,n.,中秋節,Chuseok (Korean Thanksgiving),3
+충돌,n.,衝突,collision,3
+통로,n.,通道,passage,3
+해소,n.,消除,resolution; relief,3
+행해지다,v.,被實行,to be carried out,3
+현대인,n.,現代人,modern people,3
+혜택,n.,優惠；恩惠,benefit,3
+확,adv.,猛然,suddenly,3
+골고루,adv.,均勻地,evenly,3
+구석구석,n.,每個角落,every corner,3
+그제서야,adv.,直到那時才,only then,3
+등록증,n.,登記證,registration card,3
+반복되다,v.,反覆,to be repeated,3
+방해,n.,妨礙,interference,3
+벼,n.,稻子,rice plant,3
+본인,n.,本人,oneself,3
+상점,n.,商店,store,3
+수백,phr.,數百,hundreds of,3
+실장,n.,室長,office manager,3
+쓸쓸하다,adj.,冷清；孤寂,to be lonely,3
+어지럽다,adj.,頭暈；亂,to be dizzy; messy,3
+어찌하다,v.,怎麼做,to do what,3
+예정되다,v.,預定,to be scheduled,3
+이중,n.,雙重,double,3
+인정받다,v.,受到認可,to be recognized,3
+자랑,n.,驕傲；炫耀,pride; boasting,3
+착각,n.,錯覺,illusion,3
+창,n.,窗戶；槍,window; spear,3
+친정,n.,娘家,wife's parents' home,3
+타입,n.,類型,type,3
+행하다,v.,實行,to carry out,3
+활짝,adv.,大大地（開）,wide open,3
+개별,n.,個別,individual,3
+공식적,n.,正式的,official,3
+그런대로,adv.,還算,fairly; so-so,3
+기독교,n.,基督教,Christianity,3
+깨달음,n.,領悟,enlightenment,3
+눈부시다,adj.,耀眼,to be dazzling,3
+마음먹다,v.,決心,to make up one's mind,3
+목록,n.,目錄,list,3
+반성하다,v.,反省,to reflect on,3
+별명,n.,綽號,nickname,3
+보전,n.,保全,preservation,3
+불어오다,v.,吹來,to blow in,3
+소유하다,v.,擁有,to own,3
+스위치,n.,開關,switch,3
+신세,n.,處境；恩惠,situation; indebtedness,3
+알아내다,v.,查出,to find out,3
+야단,n.,責罵；騷動,scolding; fuss,3
+연결,n.,連接,connection,3
+연관,n.,關聯,relation,3
+용서하다,v.,原諒,to forgive,3
+우정,n.,友情,friendship,3
+육군,n.,陸軍,army,3
+음식점,n.,餐館,restaurant,3
+의논하다,v.,商量,to discuss,3
+주요하다,adj.,主要,to be major,3
+차마,adv.,不忍心,could not bear to,3
+참조,n.,參照,reference,3
+타고나다,v.,天生,to be born with,3
+허용되다,v.,被允許,to be allowed,3
+가입,n.,加入,joining,3
+교체,n.,交替,replacement,3
+꼬마,n.,小鬼,little kid,3
+끝없이,adv.,無止境地,endlessly,3
+나르다,v.,搬運,to carry,3
+놀리다,v.,戲弄,to tease,3
+늘어놓다,v.,排列；嘮叨,to spread out; to ramble,3
+대표하다,v.,代表,to represent,3
+두려워하다,v.,害怕,to fear,3
+뜻밖,n.,意外,unexpectedness,3
+막걸리,n.,米酒,makgeolli (rice wine),3
+미스,n.,失誤；小姐,mistake; Miss,3
+밀리다,v.,被推；積壓,to be pushed; to be behind,3
+부러지다,v.,折斷,to break,3
+상대성,n.,相對性,relativity,3
+설문,n.,問卷,survey,3
+쓸다,v.,掃,to sweep,3
+안팎,n.,內外,inside and outside,3
+예방하다,v.,預防,to prevent,3
+유의하다,v.,留意,to pay attention to,3
+이해되다,v.,被理解,to be understood,3
+인하,n.,調降,reduction,3
+작성,n.,撰寫,writing; drawing up,3
+잘리다,v.,被剪；被開除,to be cut; to be fired,3
+전달,n.,傳達,delivery,3
+전시회,n.,展覽會,exhibition,3
+전환하다,v.,轉換,to convert,3
+정치학,n.,政治學,political science,3
+주문,n.,訂購；咒語,order; spell,3
+집안일,n.,家務,housework,3
+체계적,n.,系統的,systematic,3
+크림,n.,奶油；乳霜,cream,3
+탁월하다,adj.,卓越,to be excellent,3
+텅,adv.,空蕩蕩,completely (empty),3
+토하다,v.,吐,to vomit,3
+한순간,n.,一瞬間,an instant,3
+가사,n.,歌詞；家事,lyrics; housework,3
+가입자,n.,加入者,subscriber,3
+감소하다,v.,減少,to decrease,3
+결과적,n.,結果上的,consequential,3
+괴롭히다,v.,折磨,to bother; to torment,3
+구별,n.,區別,distinction,3
+깨우다,v.,叫醒,to wake up (someone),3
+끈,n.,繩子,string,3
+끊기다,v.,中斷,to be cut off,3
+끊임없다,adj.,不斷,to be continuous,3
+넉넉하다,adj.,充裕,to be plentiful,3
+두어,phr.,兩個左右,about two,3
+마약,n.,毒品,drug,3
+밑바닥,n.,底層,bottom,3
+보도되다,v.,被報導,to be reported,3
+보리,n.,大麥,barley,3
+본부,n.,總部,headquarters,3
+성숙하다,v.,成熟,to mature,3
+소극적,n.,消極的,passive,3
+소용,n.,用處,use,3
+손질하다,v.,修整,to trim; to take care of,3
+순식간,n.,轉瞬間,an instant,3
+시도,n.,嘗試,attempt,3
+아무개,pron.,某某,so-and-so,3
+약점,n.,弱點,weakness,3
+어째서,adv.,為什麼,why,3
+연령,n.,年齡,age,3
+예비,n.,預備,preliminary,3
+울음소리,n.,哭聲,crying sound,3
+이놈,pron.,這傢伙,this guy,3
+이력서,n.,履歷表,résumé,3
+인정되다,v.,被認定,to be recognized,3
+주년,n.,週年,anniversary,3
+중단하다,v.,中斷,to stop,3
+중대하다,adj.,重大,to be serious,3
+중심지,n.,中心地,center,3
+집중적,n.,集中的,intensive,3
+참되다,adj.,真正,to be true,3
+초청,n.,邀請,invitation,3
+출판사,n.,出版社,publisher,3
+탁자,n.,桌子,table,3
+퍽,adv.,相當,quite,3
+풍속,n.,風俗；風速,customs; wind speed,3
+핑계,n.,藉口,excuse,3
+한층,adv.,更加,even more,3
+행운,n.,幸運,good luck,3
+가로막다,v.,阻擋,to block,3
+간섭,n.,干涉,interference,3
+갈증,n.,口渴,thirst,3
+갑작스럽다,adj.,突然,to be sudden,3
+교환하다,v.,交換,to exchange,3
+그래야,adv.,那樣才,only then,3
+기원,n.,起源；祈願,origin; prayer,3
+난리,n.,亂子；戰亂,chaos; war,3
+내버리다,v.,丟棄,to throw away,3
+달리하다,v.,不同,to differ,3
+뛰어가다,v.,跑去,to run,3
+미사일,n.,飛彈,missile,3
+보존,n.,保存,preservation,3
+보호되다,v.,被保護,to be protected,3
+상관,n.,相關；上司,relation; superior,3
+설명되다,v.,被說明,to be explained,3
+섭섭하다,adj.,捨不得；失落,to be sad; disappointed,3
+세련되다,adj.,洗練,to be refined,3
+손쉽다,adj.,容易,to be easy,3
+열기,n.,熱氣,heat; enthusiasm,3
+옷차림,n.,穿著,attire,3
+위로하다,v.,安慰,to comfort,3
+이같이,adv.,如此,like this,3
+일치,n.,一致,agreement,3
+재생,n.,再生；播放,regeneration; playback,3
+찢어지다,v.,被撕破,to be torn,3
+철학자,n.,哲學家,philosopher,3
+컬러,n.,彩色,color,3
+통화,n.,通話；貨幣,phone call; currency,3
+특이하다,adj.,特異,to be unusual,3
+필연적,n.,必然的,inevitable,3
+하룻밤,n.,一夜,one night,3
+흘러내리다,v.,流下,to flow down,3
+급히,adv.,急忙地,hastily,3
+기념,n.,紀念,commemoration,3
+나아지다,v.,好轉,to improve,3
+넘어오다,v.,越過來,to come over,3
+되돌리다,v.,恢復；退回,to turn back,3
+띄우다,v.,使浮起；寄出,to float; to send,3
+매너,n.,禮貌,manners,3
+민속,n.,民俗,folk customs,3
+버려지다,v.,被丟棄,to be abandoned,3
+설득하다,v.,說服,to persuade,3
+손질,n.,修整,care; trimming,3
+아르바이트,n.,打工,part-time job,3
+외로움,n.,孤獨,loneliness,3
+입대,n.,入伍,enlistment,3
+적성,n.,性向,aptitude,3
+전망하다,v.,展望,to forecast,3
+집단적,n.,集體的,collective,3
+차이점,n.,差異點,difference,3
+철도,n.,鐵路,railroad,3
+총각,n.,單身漢,bachelor,3
+캠페인,n.,宣傳活動,campaign,3
+한눈,n.,一眼；分心,a glance; inattention,3
+홍수,n.,洪水,flood,3
+가뭄,n.,乾旱,drought,3
+간접,n.,間接,indirect,3
+강력히,adv.,強力地,strongly,3
+개선되다,v.,被改善,to be improved,3
+건네다,v.,遞；搭話,to hand; to speak to,3
+게,n.,螃蟹,crab,3
+결심,n.,決心,determination,3
+곧장,adv.,直接；立刻,straight; right away,3
+교직,n.,教職,teaching profession,3
+구속하다,v.,拘束,to restrain; to arrest,3
+귀중하다,adj.,貴重,to be precious,3
+긁다,v.,抓；刮,to scratch,3
+내쉬다,v.,吐氣,to breathe out,3
+늘어지다,v.,下垂；變長,to sag; to stretch,3
+단독,n.,單獨,alone,3
+마음껏,adv.,盡情地,to one's heart's content,3
+몰려들다,v.,湧進,to flock,3
+바퀴,n.,輪子；圈,wheel; lap,3
+발자국,n.,腳印,footprint,3
+뱉다,v.,吐出,to spit,3
+보너스,n.,獎金,bonus,3
+생기,n.,生氣；活力,vitality,3
+서적,n.,書籍,books,3
+소화,n.,消化；滅火,digestion; fire extinguishing,3
+수험생,n.,考生,examinee,3
+신세대,n.,新世代,new generation,3
+어기다,v.,違反,to break (a rule),3
+연구원,n.,研究員；研究院,researcher; research institute,3
+연애,n.,戀愛,romance,3
+요약하다,v.,摘要,to summarize,3
+위성,n.,衛星,satellite,3
+의외로,adv.,意外地,unexpectedly,3
+자살,n.,自殺,suicide,3
+제시,n.,提示,presentation,3
+제외되다,v.,被排除,to be excluded,3
+찍히다,v.,被拍；被蓋章,to be photographed; to be stamped,3
+타락,n.,墮落,corruption,3
+틀림없이,adv.,一定,certainly,3
+회관,n.,會館,hall,3
+공연장,n.,表演場地,concert hall,3
+국적,n.,國籍,nationality,3
+근래,n.,近來,recently,3
+나뉘다,v.,被分,to be divided,3
+낱말,n.,單字,word,3
+내외,n.,內外；夫婦,inside and out; married couple,3
+늑대,n.,狼,wolf,3
+늘어서다,v.,排列,to line up,3
+다정하다,adj.,多情；親切,to be affectionate,3
+달려들다,v.,撲上去,to rush at,3
+망원경,n.,望遠鏡,telescope,3
+모범,n.,模範,model; example,3
+무리하다,adj.,勉強；過度,to be excessive,3
+묶이다,v.,被綁,to be tied,3
+방해하다,v.,妨礙,to disturb,3
+상류,n.,上流,upper stream; upper class,3
+선명하다,adj.,鮮明,to be vivid,3
+선호하다,v.,偏好,to prefer,3
+성공적,n.,成功的,successful,3
+소규모,n.,小規模,small scale,3
+수시로,adv.,隨時,at any time,3
+시야,n.,視野,field of view,3
+실현되다,v.,實現,to be realized,3
+어느덧,adv.,不知不覺,before one knows it,3
+오르내리다,v.,上下,to go up and down,3
+왕자,n.,王子,prince,3
+유형,n.,類型,type,3
+으레,adv.,理所當然；照例,as usual,3
+일상적,n.,日常的,everyday,3
+일일이,adv.,一一,one by one,3
+전공하다,v.,主修,to major in,3
+전후,n.,前後,before and after,3
+정상적,n.,正常的,normal,3
+질적,n.,質的,qualitative,3
+충격적,n.,衝擊性的,shocking,3
+치아,n.,牙齒,teeth,3
+편의,n.,便利,convenience,3
+폐지,n.,廢除；廢紙,abolition; wastepaper,3
+해설,n.,解說,commentary,3
+흑백,n.,黑白,black and white,3
+희생,n.,犧牲,sacrifice,3
+경비,n.,經費；警衛,expenses; guard,3
+경제력,n.,經濟力,economic power,3
+금하다,v.,禁止,to forbid,3
+기대되다,v.,令人期待,to be expected,3
+깊숙이,adv.,深深地,deeply,3
+넘어뜨리다,v.,推倒,to knock down,3
+농사짓다,v.,務農,to farm,3
+단단하다,adj.,堅硬,to be hard; solid,3
+담당자,n.,負責人,person in charge,3
+답변,n.,答覆,answer,3
+대비,n.,防備；對比,preparation; contrast,3
+대체,adv.,到底,on earth,3
+더욱더,adv.,更加,even more,3
+도심,n.,市中心,city center,3
+둘러싸이다,v.,被包圍,to be surrounded,3
+마찰,n.,摩擦,friction,3
+마크,n.,標誌,mark,3
+만족,n.,滿足,satisfaction,3
+망치다,v.,搞砸,to ruin,3
+모금,n.,一口；募款,a sip; fundraising,3
+묘사,n.,描寫,description,3
+문화적,n.,文化的,cultural,3
+미혼,n.,未婚,unmarried,3
+발전되다,v.,發展,to be developed,3
+방송사,n.,電視台,broadcaster,3
+방지하다,v.,防止,to prevent,3
+사표,n.,辭呈,resignation letter,3
+삼가다,v.,節制；謹慎,to refrain from,3
+생방송,n.,直播,live broadcast,3
+소홀히,adv.,疏忽地,carelessly,3
+쌍둥이,n.,雙胞胎,twins,3
+앉히다,v.,讓坐下,to seat,3
+옆구리,n.,側腹,side (of the body),3
+웬만하다,adj.,還可以；差不多,to be fairly good,3
+이어서,adv.,接著,subsequently,3
+자정,n.,午夜,midnight,3
+종합하다,v.,綜合,to sum up,3
+최후,n.,最後,the last,3
+취재,n.,採訪,news gathering,3
+테러,n.,恐怖攻擊,terrorism,3
+토론회,n.,討論會,debate,3
+호주머니,n.,口袋,pocket,3
+가난,n.,貧窮,poverty,3
+관계없이,adv.,無論,regardless of,3
+기다,v.,爬,to crawl,3
+다툼,n.,爭吵,quarrel,3
+대낮,n.,大白天,broad daylight,3
+돌멩이,n.,石子,pebble,3
+되돌아오다,v.,返回,to come back,3
+두께,n.,厚度,thickness,3
+모조리,adv.,全部,all; entirely,3
+변경,n.,變更；邊境,change; frontier,3
+부지런히,adv.,勤快地,diligently,3
+사슴,n.,鹿,deer,3
+상당수,n.,相當數量,a considerable number,3
+손실,n.,損失,loss,3
+슬쩍,adv.,悄悄地,stealthily,3
+시나리오,n.,劇本,scenario,3
+실컷,adv.,盡情,to one's heart's content,3
+엔진,n.,引擎,engine,3
+용,n.,龍,dragon,3
+운행,n.,運行,operation (of vehicles),3
+이대로,adv.,就這樣,as it is,3
+인간성,n.,人性,humanity,3
+인상적,n.,令人印象深刻的,impressive,3
+전시,n.,展示；戰時,exhibition; wartime,3
+조그마하다,adj.,小小的,to be small,3
+주한,n.,駐韓,stationed in Korea,3
+중년,n.,中年,middle age,3
+찌꺼기,n.,殘渣,dregs,3
+포함,n.,包含,inclusion,3
+형식적,n.,形式上的,formal; perfunctory,3
+호남,n.,湖南（全羅道地區）,Honam region,3
+가입하다,v.,加入,to join,3
+감소,n.,減少,decrease,3
+구분되다,v.,被區分,to be divided,3
+구입,n.,購買,purchase,3
+기여,n.,貢獻,contribution,3
+기호,n.,符號；嗜好,symbol; preference,3
+꾸리다,v.,打包；經營,to pack; to run,3
+낭비,n.,浪費,waste,3
+대략,adv.,大略,roughly,3
+덮이다,v.,被覆蓋,to be covered,3
+도리어,adv.,反而,on the contrary,3
+라인,n.,線,line,3
+멸치,n.,小魚乾,anchovy,3
+방울,n.,滴；鈴鐺,drop; bell,3
+보관,n.,保管,storage,3
+보살피다,v.,照料,to look after,3
+보완하다,v.,補充,to supplement,3
+보존하다,v.,保存,to preserve,3
+빼놓다,v.,遺漏；拿出來,to leave out,3
+사상,n.,思想；史上,thought; in history,3
+사춘기,n.,青春期,puberty,3
+상반기,n.,上半年,first half of the year,3
+선전,n.,宣傳,propaganda; advertising,3
+설립하다,v.,設立,to establish,3
+수집,n.,收集,collection,3
+수필,n.,隨筆,essay,3
+신비,n.,神秘,mystery,3
+신설,n.,新設,establishment,3
+실감,n.,真實感,realization,3
+실망,n.,失望,disappointment,3
+쓰다듬다,v.,撫摸,to stroke,3
+알루미늄,n.,鋁,aluminum,3
+알아주다,v.,賞識,to appreciate,3
+유발하다,v.,誘發,to cause,3
+유지되다,v.,被維持,to be maintained,3
+잡아당기다,v.,拉,to pull,3
+점검,n.,檢查,inspection,3
+조기,n.,早期；黃魚,early stage; croaker,3
+존경하다,v.,尊敬,to respect,3
+종소리,n.,鐘聲,bell sound,3
+중순,n.,中旬,middle of the month,3
+지각,n.,遲到；知覺,lateness; perception,3
+직선,n.,直線,straight line,3
+참외,n.,香瓜,Korean melon,3
+체하다,v.,假裝,to pretend,3
+체험하다,v.,體驗,to experience,3
+칭찬하다,v.,稱讚,to praise,3
+코치,n.,教練,coach,3
+통일하다,v.,統一,to unify,3
+프린터,n.,印表機,printer,3
+피디,n.,製作人,producer (PD),3
+하나하나,n.,一個一個,one by one,3
+학위,n.,學位,degree,3
+가로등,n.,路燈,streetlight,3
+개개인,n.,每個人,each individual,3
+고집,n.,固執,stubbornness,3
+급격히,adv.,急劇地,rapidly,3
+기막히다,adj.,驚人；令人無言,to be amazing; dumbfounding,3
+나누어지다,v.,被分開,to be divided,3
+넘겨주다,v.,移交,to hand over,3
+논리적,n.,邏輯的,logical,3
+다가서다,v.,靠近,to step closer,3
+대기하다,v.,待命,to wait,3
+대접,n.,招待；大碗,hospitality; bowl,3
+두리번거리다,v.,東張西望,to look around,3
+박,n.,泊；葫蘆,night (stay); gourd,3
+밤하늘,n.,夜空,night sky,3
+변명,n.,辯解,excuse,3
+보자기,n.,包袱巾,wrapping cloth,3
+부상,n.,受傷,injury,3
+분리하다,v.,分離,to separate,3
+붙들다,v.,抓住,to hold on to,3
+사들이다,v.,購入,to buy up,3
+상관없이,adv.,不管,regardless,3
+선원,n.,船員,sailor,3
+설사,adv.,即使；腹瀉,even if; diarrhea,3
+실망하다,v.,失望,to be disappointed,3
+아쉬움,n.,遺憾,regret,3
+약해지다,v.,變弱,to weaken,3
+엉망,n.,一團糟,mess,3
+연출하다,v.,導演,to direct,3
+열중하다,v.,熱衷,to be absorbed in,3
+영웅,n.,英雄,hero,3
+유산,n.,遺產；流產,inheritance; miscarriage,3
+의도적,n.,故意的,intentional,3
+이따금,adv.,偶爾,occasionally,3
+임신부,n.,孕婦,pregnant woman,3
+장기적,n.,長期的,long-term,3
+재주,n.,才能,talent,3
+전설,n.,傳說,legend,3
+젖,n.,乳汁,milk (breast),3
+조르다,v.,纏著要；勒緊,to pester; to tighten,3
+지겹다,adj.,厭煩,to be tedious,3
+짐작,n.,推測,guess,3
+쫓겨나다,v.,被趕出,to be kicked out,3
+찢다,v.,撕,to tear,3
+취업,n.,就業,employment,3
+칠하다,v.,塗；漆,to paint,3
+타오르다,v.,燃燒起來,to blaze,3
+탁,adv.,啪地；豁然,with a snap,3
+평화롭다,adj.,和平,to be peaceful,3
+표시,n.,表示；標示,indication; mark,3
+하반기,n.,下半年,second half of the year,3
+한구석,n.,一角,a corner,3
+한하다,v.,限於,to be limited to,3
+해답,n.,解答,answer,3
+해소하다,v.,消除,to relieve,3
+허락하다,v.,允許,to permit,3
+확립하다,v.,確立,to establish,3
+확신하다,v.,確信,to be convinced,3
+흥분,n.,興奮,excitement,3
+흥분하다,v.,興奮,to get excited,3
+힘겹다,adj.,吃力,to be strenuous,3
+감수성,n.,感受性,sensitivity,3
+거들다,v.,幫忙；插嘴,to help; to chime in,3
+급속히,adv.,迅速地,rapidly,3
+급증하다,v.,急增,to surge,3
+깔끔하다,adj.,整潔,to be neat,3
+꼼꼼하다,adj.,仔細,to be meticulous,3
+낮아지다,v.,變低,to become lower,3
+단순,n.,單純,simplicity,3
+매,n.,鞭子；老鷹,whip; hawk,3
+먹고살다,v.,謀生,to make a living,3
+멎다,v.,停止,to stop,3
+면담,n.,面談,interview,3
+모집,n.,招募,recruitment,3
+모퉁이,n.,轉角,corner,3
+바구니,n.,籃子,basket,3
+바싹,adv.,緊貼；乾透,closely; completely dry,3
+발달되다,v.,發達,to be developed,3
+보름,n.,十五天；十五日,fifteen days; full moon day,3
+부딪히다,v.,被撞,to be bumped,3
+비상,n.,緊急,emergency,3
+뿌리치다,v.,甩開,to shake off,3
+사업자,n.,業者,business operator,3
+상대편,n.,對方,the other side,3
+세트,n.,套,set,3
+소망,n.,願望,wish,3
+수동적,n.,被動的,passive,3
+슬그머니,adv.,悄悄地,stealthily,3
+시청률,n.,收視率,ratings,3
+여군,n.,女兵,female soldier,3
+연인,n.,戀人,lover,3
+연장,n.,延長；工具,extension; tool,3
+예선,n.,預賽,preliminary round,3
+은행나무,n.,銀杏樹,ginkgo tree,3
+자부심,n.,自豪感,pride,3
+장차,adv.,將來,in the future,3
+저편,pron.,那邊,the other side,3
+정신과,n.,精神科,psychiatry,3
+제도적,n.,制度上的,institutional,3
+조절,n.,調節,adjustment,3
+주거,n.,居住,residence,3
+중단되다,v.,中斷,to be stopped,3
+중요시하다,v.,重視,to value,3
+진단하다,v.,診斷,to diagnose,3
+편견,n.,偏見,prejudice,3
+환율,n.,匯率,exchange rate,3
+활기,n.,活力,vitality,3
+강사,n.,講師,instructor,3
+강수량,n.,降雨量,precipitation,3
+교대,n.,交替,shift; rotation,3
+구청,n.,區公所,district office,3
+국내외,n.,國內外,home and abroad,3
+금지되다,v.,被禁止,to be prohibited,3
+기도하다,v.,祈禱；企圖,to pray; to attempt,3
+기성,n.,既成,established; ready-made,3
+깨뜨리다,v.,打破,to break,3
+꼼짝,adv.,一動也（不動）,(not) budging,3
+농사일,n.,農活,farm work,3
+농장,n.,農場,farm,3
+데이트,n.,約會,date,3
+되돌아가다,v.,返回,to go back,3
+들이켜다,v.,一口喝下,to gulp down,3
+따라다니다,v.,跟著到處走,to follow around,3
+라운드,n.,回合,round,3
+마음가짐,n.,心態,attitude,3
+머리칼,n.,頭髮,hair,3
+번개,n.,閃電,lightning,3
+변화되다,v.,被改變,to be changed,3
+부재,n.,不在,absence,3
+사망,n.,死亡,death,3
+생,n.,生；生命,life,3
+서늘하다,adj.,涼,to be cool,3
+성경,n.,聖經,the Bible,3
+소요되다,v.,需要（花費）,to be required,3
+소화하다,v.,消化,to digest,3
+순간적,n.,瞬間的,momentary,3
+시집가다,v.,出嫁,(a woman) to get married,3
+싶어지다,v.,變得想要,to come to want,3
+씌우다,v.,給…戴上；蓋上,to put on; to cover,3
+야간,n.,夜間,nighttime,3
+엇갈리다,v.,錯開；分歧,to cross; to differ,3
+엷다,adj.,淡；薄,to be light; thin,3
+오락,n.,娛樂,entertainment,3
+우아하다,adj.,優雅,to be elegant,3
+이슬,n.,露水,dew,3
+인간관계,n.,人際關係,human relationships,3
+장기간,n.,長期間,long period,3
+전선,n.,電線；戰線,electric wire; front line,3
+정지,n.,停止,stop,3
+제의하다,v.,提議,to propose,3
+조명,n.,照明,lighting,3
+조화되다,v.,協調,to be in harmony,3
+줄거리,n.,情節大綱,plot; outline,3
+중단,n.,中斷,interruption,3
+차선,n.,車道,lane,3
+착각하다,v.,誤以為,to mistake,3
+초상화,n.,肖像畫,portrait,3
+쿠데타,n.,政變,coup d'état,3
+특수성,n.,特殊性,peculiarity,3
+항공기,n.,飛機,aircraft,3
+활발히,adv.,活躍地,actively,3
+흥미롭다,adj.,有趣,to be interesting,3
+각오,n.,覺悟,resolution,3
+개방되다,v.,被開放,to be opened,3
+겨자,n.,芥末,mustard,3
+경고하다,v.,警告,to warn,3
+경제학,n.,經濟學,economics,3
+관심사,n.,關心的事,matter of interest,3
+구별되다,v.,被區別,to be distinguished,3
+국사,n.,國史,national history,3
+굳히다,v.,使凝固；鞏固,to harden; to solidify,3
+그간,n.,那段期間,meanwhile,3
+그럴듯하다,adj.,像樣；似乎有理,to be plausible,3
+극작가,n.,劇作家,playwright,3
+기울다,v.,傾斜,to tilt,3
+기적,n.,奇蹟,miracle,3
+끌리다,v.,被吸引,to be drawn to,3
+내보내다,v.,送出；放出,to send out,3
+담,n.,牆,wall,3
+동서,n.,東西,east and west,3
+들여놓다,v.,搬進,to bring in,3
+따스하다,adj.,溫暖,to be warm,3
+말투,n.,語氣,way of speaking,3
+명령어,n.,指令,command,3
+미끄러지다,v.,滑倒,to slip,3
+변신,n.,變身,transformation,3
+부친,n.,父親,father,3
+붙잡히다,v.,被抓住,to be caught,3
+브랜드,n.,品牌,brand,3
+사소하다,adj.,瑣碎,to be trivial,3
+상쾌하다,adj.,爽快,to be refreshing,3
+손길,n.,手；援手,touch; helping hand,3
+순위,n.,名次,ranking,3
+쌍,n.,雙；對,pair,3
+썰렁하다,adj.,冷清；冷場,to be chilly; awkward,3
+암시,n.,暗示,hint,3
+앞날,n.,未來,future,3
+역사상,n.,歷史上,in history,3
+연주,n.,演奏,performance,3
+육상,n.,田徑；陸上,track and field; on land,3
+음주,n.,飲酒,drinking,3
+이별,n.,離別,farewell,3
+인재,n.,人才,talented person,3
+인종,n.,人種,race,3
+일시적,n.,一時的,temporary,3
+재밌다,adj.,有趣（口語）,to be fun (casual),3
+전문적,n.,專業的,professional,3
+젊음,n.,青春,youth,3
+점잖다,adj.,穩重,to be dignified,3
+조개,n.,貝殼,clam,3
+중계방송,n.,轉播,relay broadcast,3
+중독,n.,中毒,addiction; poisoning,3
+지급,n.,支付,payment,3
+진실하다,adj.,真誠,to be sincere,3
+차창,n.,車窗,car window,3
+초청하다,v.,邀請,to invite,3
+출발점,n.,起點,starting point,3
+출판,n.,出版,publication,3
+출현하다,v.,出現,to appear,3
+클럽,n.,俱樂部,club,3
+키스,n.,親吻,kiss,3
+탈출하다,v.,逃脫,to escape,3
+판사,n.,法官,judge,3
+허락,n.,許可,permission,3
+확신,n.,確信,conviction,3
+건설되다,v.,被建設,to be built,3
+그제야,adv.,直到那時才,only then,3
+기성세대,n.,上一代,older generation,3
+기술하다,v.,記述,to describe,3
+까치,n.,喜鵲,magpie,3
+남북,n.,南北,north and south,3
+납득하다,v.,理解；信服,to be convinced,3
+독창적,n.,獨創的,original,3
+되풀이되다,v.,重複,to be repeated,3
+떠나가다,v.,離去,to leave,3
+떠들썩하다,adj.,喧鬧,to be noisy,3
+뜻대로,adv.,如意,as one wishes,3
+로봇,n.,機器人,robot,3
+만점,n.,滿分,perfect score,3
+매달,adv.,每月,every month,3
+모여들다,v.,聚集過來,to gather,3
+묵다,v.,住宿；陳舊,to stay; to get old,3
+바깥쪽,n.,外側,outside,3
+보수,n.,保守；報酬；修補,conservatism; pay; repair,3
+보안,n.,保安,security,3
+비웃다,v.,嘲笑,to sneer,3
+사나이,n.,男子漢,man,3
+상징적,n.,象徵性的,symbolic,3
+색다르다,adj.,別緻,to be unusual,3
+세미나,n.,研討會,seminar,3
+세제,n.,洗潔劑,detergent,3
+속삭이다,v.,低語,to whisper,3
+시일,n.,時日,time; date,3
+시합,n.,比賽,match,3
+신속하다,adj.,迅速,to be quick,3
+신제품,n.,新產品,new product,3
+신중하다,adj.,慎重,to be careful,3
+썩,adv.,很；立刻,very; at once,3
+암컷,n.,雌性,female (animal),3
+예고하다,v.,預告,to announce in advance,3
+위반하다,v.,違反,to violate,3
+윗몸,n.,上半身,upper body,3
+은은하다,adj.,隱約；柔和,to be subtle,3
+이해관계,n.,利害關係,interests,3
+일대,phr.,一大,a great,3
+입력,n.,輸入,input,3
+자연현상,n.,自然現象,natural phenomenon,3
+정신없이,adv.,忙得不可開交,frantically,3
+정직하다,adj.,正直,to be honest,3
+조정하다,v.,調整,to adjust,3
+주름,n.,皺紋,wrinkle,3
+최신,n.,最新,latest,3
+캐릭터,n.,角色,character,3
+해롭다,adj.,有害,to be harmful,3
+현관문,n.,大門,front door,3
+활발해지다,v.,變活躍,to become active,3
+회복되다,v.,恢復,to be restored,3
+희생하다,v.,犧牲,to sacrifice,3
+가능해지다,v.,變得可能,to become possible,3
+공연히,adv.,白白地,in vain,3
+국제적,n.,國際的,international,3
+그루,n.,棵,counter for trees,3
+그전,n.,以前,before that,3
+금고,n.,保險箱,safe,3
+꾸중,n.,責罵,scolding,3
+끌어당기다,v.,拉過來,to pull toward,3
+끼,n.,餐；才氣,meal; flair,3
+능동적,n.,主動的,active,3
+당분간,adv.,暫時,for the time being,3
+도움말,n.,建議,advice,3
+되살리다,v.,恢復,to revive,3
+몰려오다,v.,蜂擁而來,to flock in,3
+물질적,n.,物質的,material,3
+믿어지다,v.,被相信,to be believed,3
+반죽,n.,麵團,dough,3
+배치,n.,配置,arrangement,3
+백인,n.,白人,white person,3
+본,phr.,本,this; the said,3
+본사,n.,總公司,head office,3
+불평등하다,adj.,不平等,to be unequal,3
+빠뜨리다,v.,遺漏；掉入,to leave out; to drop into,3
+새로이,adv.,重新,anew,3
+서양인,n.,西方人,Westerner,3
+소지품,n.,隨身物品,belongings,3
+쇠,n.,鐵,iron,3
+수컷,n.,雄性,male (animal),3
+승리하다,v.,勝利,to win,3
+씨앗,n.,種子,seed,3
+얻어먹다,v.,討吃；蹭飯,to get (food) for free,3
+엄숙하다,adj.,嚴肅,to be solemn,3
+여가,n.,閒暇,leisure,3
+연상하다,v.,聯想,to associate,3
+올려다보다,v.,仰望,to look up,3
+외다,v.,背誦,to recite,3
+외침,n.,喊聲,cry; shout,3
+일손,n.,人手,hands; workforce,3
+잠바,n.,夾克,jacket,3
+잠수함,n.,潛水艇,submarine,3
+장수,n.,商販；長壽,vendor; longevity,3
+재다,v.,量,to measure,3
+지도하다,v.,指導,to guide,3
+진로,n.,出路,career path,3
+진행자,n.,主持人,host,3
+찾아다니다,v.,到處找,to look around for,3
+책임감,n.,責任感,sense of responsibility,3
+체온,n.,體溫,body temperature,3
+통과,n.,通過,passing,3
+포장마차,n.,路邊攤,street food tent,3
+푸다,v.,舀,to scoop,3
+피망,n.,青椒,bell pepper,3
+한결,adv.,更加；格外,much more,3
+한여름,n.,盛夏,midsummer,3
+항공,n.,航空,aviation,3
+회전,n.,旋轉,rotation,3
+가려지다,v.,被遮住,to be covered,3
+곧다,adj.,直；正直,to be straight; upright,3
+골치,n.,頭痛（麻煩）,headache (trouble),3
+그때그때,adv.,每次那時,each time,3
+내달,n.,下個月,next month,3
+놔두다,v.,放著,to leave alone,3
+늦어지다,v.,變晚,to be delayed,3
+독하다,adj.,烈；狠,to be strong; harsh,3
+뜰,n.,庭院,yard,3
+뜻밖에,adv.,意外地,unexpectedly,3
+명단,n.,名單,list of names,3
+무의미하다,adj.,無意義,to be meaningless,3
+문구,n.,文句；文具,phrase; stationery,3
+뭣,pron.,什麼,what,3
+미만,n.,未滿,under; less than,3
+백색,n.,白色,white,3
+비바람,n.,風雨,wind and rain,3
+사기,n.,士氣；詐欺,morale; fraud,3
+사망하다,v.,死亡,to die,3
+사무직,n.,文職,office job,3
+소질,n.,天分,aptitude,3
+솜,n.,棉花,cotton,3
+시디롬,n.,光碟,CD-ROM,3
+식생활,n.,飲食生活,eating habits,3
+실,n.,線,thread,3
+연구실,n.,研究室,laboratory,3
+유머,n.,幽默,humor,3
+의류,n.,衣物,clothing,3
+잊혀지다,v.,被遺忘,to be forgotten,3
+적응,n.,適應,adaptation,3
+정리되다,v.,被整理,to be organized,3
+창피하다,adj.,丟臉,to be embarrassed,3
+토론하다,v.,討論,to debate,3
+합하다,v.,合併,to combine,3
+핸드백,n.,手提包,handbag,3
+가정교사,n.,家教,tutor,3
+공통적,n.,共同的,common,3
+교육자,n.,教育者,educator,3
+교재,n.,教材,teaching materials,3
+길어지다,v.,變長,to get longer,3
+깨소금,n.,芝麻鹽,sesame salt,3
+놓아두다,v.,放著,to leave,3
+대접하다,v.,招待,to treat; to host,3
+뛰어내리다,v.,跳下,to jump down,3
+무궁화,n.,木槿花,rose of Sharon,3
+바이러스,n.,病毒,virus,3
+방바닥,n.,房間地板,floor (of a room),3
+번거롭다,adj.,繁瑣,to be cumbersome,3
+사냥,n.,打獵,hunting,3
+사회생활,n.,社會生活,social life,3
+심리적,n.,心理的,psychological,3
+위로,n.,安慰,comfort,3
+이용자,n.,使用者,user,3
+입력하다,v.,輸入,to input,3
+자격증,n.,證照,certificate,3
+진료,n.,診療,medical treatment,3
+창가,n.,窗邊,by the window,3
+초조하다,adj.,焦躁,to be nervous,3
+함께하다,v.,一同,to be together,3
+합격하다,v.,合格,to pass,3
+화장지,n.,衛生紙,toilet paper,3
+힘껏,adv.,盡力,with all one's strength,3
+공통되다,v.,共通,to be common,3
+나들이,n.,出遊,outing,3
+녹이다,v.,融化,to melt,3
+눈가,n.,眼角,around the eyes,3
+도망,n.,逃亡,escape,3
+미니,n.,迷你,mini,3
+방면,n.,方面,direction; field,3
+법적,n.,法律上的,legal,3
+벤치,n.,長椅,bench,3
+빗줄기,n.,雨絲,streaks of rain,3
+사회학,n.,社會學,sociology,3
+순진하다,adj.,天真,to be naive,3
+심심하다,adj.,無聊,to be bored,3
+어려워지다,v.,變難,to become difficult,3
+올라서다,v.,站上,to step up,3
+은,n.,銀,silver,3
+장애인,n.,身心障礙者,disabled person,3
+재활용품,n.,回收物,recyclables,3
+저러다,v.,那樣做,to do like that,3
+정반대,n.,正相反,exact opposite,3
+진동,n.,振動,vibration,3
+추천,n.,推薦,recommendation,3
+학점,n.,學分,credit,3
+한가하다,adj.,空閒,to be free,3
+환영하다,v.,歡迎,to welcome,3
+간접적,n.,間接的,indirect,3
+경영하다,v.,經營,to manage,3
+그리움,n.,思念,longing,3
+그사이,n.,那期間,in the meantime,3
+기념하다,v.,紀念,to commemorate,3
+대강,adv.,大致,roughly,3
+독립하다,v.,獨立,to become independent,3
+들이마시다,v.,吸入,to inhale,3
+뛰어오르다,v.,跳上,to jump up,3
+문밖,n.,門外,outside the door,3
+방송하다,v.,廣播,to broadcast,3
+보충하다,v.,補充,to supplement,3
+불완전하다,adj.,不完全,to be incomplete,3
+불평,n.,不平；抱怨,complaint,3
+붐비다,v.,擁擠,to be crowded,3
+서명,n.,簽名,signature,3
+손등,n.,手背,back of the hand,3
+역사학,n.,歷史學,history (discipline),3
+영,adv.,完全；零,completely; zero,3
+요리사,n.,廚師,cook; chef,3
+원서,n.,申請書；原文書,application; original text,3
+이론적,n.,理論的,theoretical,3
+이제야,adv.,現在才,only now,3
+임신하다,v.,懷孕,to get pregnant,3
+자취,n.,痕跡；自炊,trace; living alone,3
+잠그다,v.,鎖,to lock,3
+장례,n.,葬禮,funeral,3
+지금껏,adv.,至今,until now,3
+지름길,n.,捷徑,shortcut,3
+지진,n.,地震,earthquake,3
+참석자,n.,出席者,attendee,3
+창구,n.,窗口,window; counter,3
+최저,n.,最低,lowest,3
+코미디,n.,喜劇,comedy,3
+튀기다,v.,炸；濺,to fry; to splash,3
+필수,n.,必須,essential,3
+횟수,n.,次數,number of times,3
+가능,n.,可能,possibility,3
+값싸다,adj.,便宜,to be cheap,3
+긴장감,n.,緊張感,tension,3
+뒤편,n.,後方,back side,3
+매달다,v.,掛；吊,to hang,3
+매주,adv.,每週,every week,3
+문제되다,v.,成為問題,to be a problem,3
+불이익,n.,不利,disadvantage,3
+불필요하다,adj.,不必要,to be unnecessary,3
+산부인과,n.,婦產科,obstetrics and gynecology,3
+새우다,v.,熬（夜）,to stay up (all night),3
+서명하다,v.,簽名,to sign,3
+쓸데없다,adj.,沒用,to be useless,3
+아스팔트,n.,柏油,asphalt,3
+아하,int.,啊哈,aha,3
+알코올,n.,酒精,alcohol,3
+요,phr.,這（小）,this (small),3
+웃음소리,n.,笑聲,laughter,3
+인쇄,n.,印刷,printing,3
+잔디,n.,草坪,lawn,3
+전세,n.,全租（韓國租屋制度）,jeonse (key-money lease),3
+조깅,n.,慢跑,jogging,3
+퇴직금,n.,退休金,severance pay,3
+가만있다,v.,待著不動,to stay still,3
+간편하다,adj.,簡便,to be convenient,3
+감동적,n.,感人的,moving,3
+교복,n.,校服,school uniform,3
+귀가하다,v.,回家,to return home,3
+날아다니다,v.,飛來飛去,to fly around,3
+더더욱,adv.,更加,all the more,3
+마음씨,n.,心地,nature; heart,3
+몸매,n.,身材,figure,3
+무관심,n.,漠不關心,indifference,3
+반짝이다,v.,閃爍,to twinkle,3
+분주하다,adj.,忙碌,to be busy,3
+비판적,n.,批判性的,critical,3
+뺏다,v.,搶奪,to take away,3
+소중히,adv.,珍惜地,preciously,3
+수도꼭지,n.,水龍頭,faucet,3
+싸구려,n.,便宜貨,cheap stuff,3
+어찌나,adv.,多麼,so (very),3
+엉터리,n.,胡來；荒唐,nonsense; sham,3
+위법,n.,違法,illegality,3
+육체적,n.,肉體的,physical,3
+음력,n.,農曆,lunar calendar,3
+잔디밭,n.,草地,lawn,3
+전문직,n.,專業職,professional job,3
+제출,n.,提交,submission,3
+채점,n.,評分,grading,3
+침착하다,adj.,沉著,to be calm,3
+캄캄하다,adj.,漆黑,to be pitch-dark,3
+타자기,n.,打字機,typewriter,3
+포인트,n.,重點；點數,point,3
+포크,n.,叉子,fork,3
+한밤중,n.,半夜,midnight,3
+효도,n.,孝道,filial piety,3
+관람객,n.,觀眾,spectator,3
+귀가,n.,回家,returning home,3
+그리워하다,v.,思念,to miss,3
+뒷문,n.,後門,back door,3
+딸아이,n.,女兒,daughter,3
+만족스럽다,adj.,滿意,to be satisfactory,3
+미움,n.,憎恨,hatred,3
+바가지,n.,瓢；敲竹槓,gourd bowl; rip-off,3
+발끝,n.,腳尖,tiptoe,3
+병실,n.,病房,hospital room,3
+봉사하다,v.,服務；做志工,to serve; to volunteer,3
+비행장,n.,機場,airfield,3
+습기,n.,濕氣,humidity,3
+예보,n.,預報,forecast,3
+용감하다,adj.,勇敢,to be brave,3
+위험성,n.,危險性,danger,3
+재학,n.,在學,enrollment,3
+전시하다,v.,展示,to exhibit,3
+정기적,n.,定期的,regular,3
+종교적,n.,宗教的,religious,3
+주관적,n.,主觀的,subjective,3
+직장인,n.,上班族,office worker,3
+진심,n.,真心,sincerity,3
+천국,n.,天國,heaven,3
+큰절,n.,大禮（跪拜）,deep bow,3
+학과,n.,科系,department,3
+후회,n.,後悔,regret,3
+강조,n.,強調,emphasis,3
+게시판,n.,布告欄,bulletin board,3
+공통점,n.,共同點,common ground,3
+과외,n.,課外；家教,private tutoring,3
+교내,n.,校內,on campus,3
+내적,n.,內在的,internal,3
+마라톤,n.,馬拉松,marathon,3
+매스컴,n.,大眾媒體,mass media,3
+밤새,n.,整夜,overnight,3
+별일,n.,特別的事,unusual thing,3
+보내오다,v.,寄來,to send (to me),3
+부채,n.,扇子；負債,fan; debt,3
+사업가,n.,企業家,businessperson,3
+세상에,int.,天啊,oh my god,3
+수고,n.,辛苦,effort; trouble,3
+시금치,n.,菠菜,spinach,3
+신청서,n.,申請書,application form,3
+아랫사람,n.,晚輩；部下,subordinate,3
+앨범,n.,相簿；專輯,album,3
+여전하다,adj.,依舊,to be as before,3
+영남,n.,嶺南（慶尚道地區）,Yeongnam region,3
+옥상,n.,屋頂,rooftop,3
+일자리,n.,工作職位,job,3
+자매,n.,姊妹,sisters,3
+전시장,n.,展場,exhibition hall,3
+절약,n.,節約,saving,3
+정오,n.,正午,noon,3
+제대하다,v.,退伍,to be discharged (military),3
+즉석,n.,即席；當場,instant; on the spot,3
+차차,adv.,漸漸,gradually,3
+추측,n.,推測,guess,3
+충고,n.,忠告,advice,3
+팩시밀리,n.,傳真,facsimile,3
+한낮,n.,大白天,midday,3
+가득히,adv.,滿滿地,fully,3
+간호,n.,看護,nursing,3
+갑,n.,盒；包,pack; box,3
+건너,n.,對面,across,3
+겁나다,v.,害怕,to be scared,3
+금메달,n.,金牌,gold medal,3
+눈감다,v.,閉眼；去世,to close one's eyes; to die,3
+눈뜨다,v.,睜眼；覺醒,to open one's eyes; to awaken,3
+대입,n.,大學入學,college entrance,3
+도마,n.,砧板,cutting board,3
+동화책,n.,童話書,storybook,3
+땅바닥,n.,地面,ground,3
+모집하다,v.,招募,to recruit,3
+밤색,n.,栗色,chestnut brown,3
+배우자,n.,配偶,spouse,3
+속상하다,adj.,難過；傷心,to be upset,3
+수만,phr.,數萬,tens of thousands,3
+수입되다,v.,被進口,to be imported,3
+수입품,n.,進口貨,imported goods,3
+식기,n.,餐具,tableware,3
+싼값,n.,低價,low price,3
+안부,n.,問候,regards,3
+양주,n.,洋酒,liquor; whiskey,3
+영화배우,n.,電影演員,movie actor,3
+용서,n.,原諒,forgiveness,3
+우편,n.,郵件,mail,3
+정장,n.,正裝,formal suit,3
+좁히다,v.,縮小,to narrow,3
+좋아,int.,好,good; OK,3
+지워지다,v.,被擦掉,to be erased,3
+지저분하다,adj.,髒亂,to be messy,3
+진통,n.,陣痛,labor pains,3
+찬성하다,v.,贊成,to agree,3
+참석,n.,出席,attendance,3
+최고급,n.,最高級,top quality,3
+최상,n.,最上,best,3
+최악,n.,最糟,worst,3
+출국,n.,出國,departure (from a country),3
+친해지다,v.,變親近,to become close,3
+코끝,n.,鼻尖,tip of the nose,3
+햄,n.,火腿,ham,3
+가로수,n.,行道樹,roadside tree,3
+개다,v.,放晴；折疊,to clear up; to fold,3
+고급스럽다,adj.,高級,to be luxurious,3
+고소하다,adj.,香（芝麻般）,to be nutty; savory,3
+공주,n.,公主,princess,3
+깨어지다,v.,破碎,to break,3
+대여섯,phr.,五六個,five or six,3
+되돌아보다,v.,回顧,to look back,3
+무용가,n.,舞蹈家,dancer,3
+반기다,v.,歡迎,to welcome,3
+사투리,n.,方言,dialect,3
+상금,n.,獎金,prize money,3
+수저,n.,湯匙和筷子,spoon and chopsticks,3
+식욕,n.,食慾,appetite,3
+앞바다,n.,近海,offshore waters,3
+얄밉다,adj.,討人厭,to be hateful,3
+양상추,n.,萵苣,lettuce,3
+연기하다,v.,延期；演戲,to postpone; to act,3
+온라인,n.,線上,online,3
+외갓집,n.,外婆家,maternal grandparents' house,3
+유능하다,adj.,有能力,to be capable,3
+유적지,n.,遺址,historic site,3
+응답하다,v.,回應,to respond,3
+이롭다,adj.,有益,to be beneficial,3
+입사,n.,進公司,joining a company,3
+재활용,n.,回收再利用,recycling,3
+제삿날,n.,祭祀日,memorial service day,3
+주름살,n.,皺紋,wrinkle,3
+참고하다,v.,參考,to refer to,3
+철학적,n.,哲學的,philosophical,3
+추천하다,v.,推薦,to recommend,3
+판매되다,v.,被販賣,to be sold,3
+포근하다,adj.,溫暖；柔軟,to be cozy,3
+하나님,n.,上帝,God,3
+학력,n.,學歷,educational background,3
+한정하다,v.,限定,to limit,3
+향상되다,v.,提升,to improve,3
+가톨릭,n.,天主教,Catholic,3
+건조하다,adj.,乾燥,to be dry,3
+걷기,n.,走路,walking,3
+공통,n.,共通,common,3
+국가적,n.,國家的,national,3
+귓속,n.,耳朵裡,inside the ear,3
+그래픽,n.,圖形,graphics,3
+근교,n.,近郊,suburbs,3
+기초적,n.,基礎的,basic,3
+다양성,n.,多樣性,diversity,3
+대상자,n.,對象者,subject; target person,3
+동그라미,n.,圓圈,circle,3
+떠나오다,v.,離開來到,to leave and come,3
+레이저,n.,雷射,laser,3
+보수적,n.,保守的,conservative,3
+불확실하다,adj.,不確定,to be uncertain,3
+비만,n.,肥胖,obesity,3
+빗방울,n.,雨滴,raindrop,3
+사회자,n.,主持人,emcee,3
+손수,adv.,親手,personally,3
+시들다,v.,枯萎,to wither,3
+시디,n.,CD,CD,3
+신사,n.,紳士,gentleman,3
+쓸데없이,adv.,無謂地,needlessly,3
+야하다,adj.,暴露；俗豔,to be racy,3
+어쩌다가,adv.,偶然；不知怎麼,by chance,3
+온종일,n.,整天,all day,3
+왕비,n.,王妃,queen (consort),3
+운반,n.,搬運,transport,3
+장모님,n.,岳母（敬稱）,mother-in-law (wife's mother),3
+저울,n.,秤,scale,3
+지폐,n.,紙幣,banknote,3
+진실로,adv.,真心地,truly,3
+촛불,n.,燭光,candlelight,3
+출퇴근,n.,上下班,commute,3
+통역,n.,口譯,interpretation,3
+하,n.,下,lower; bottom,3
+한데,adv.,一起；可是,together; but,3
+혼잣말,n.,自言自語,talking to oneself,3
+효도하다,v.,孝順,to be dutiful to parents,3
+힘없이,adv.,無力地,weakly,3
+건넌방,n.,對面房間,room across the hall,3
+곧이어,adv.,緊接著,right after,3
+굉장하다,adj.,驚人；了不起,to be amazing,3
+기업인,n.,企業家,business leader,3
+긴장되다,v.,緊張,to be nervous,3
+깨끗해지다,v.,變乾淨,to become clean,3
+낚싯대,n.,釣竿,fishing rod,3
+냇물,n.,溪水,stream,3
+단골,n.,常客,regular customer,3
+더러워지다,v.,變髒,to get dirty,3
+데우다,v.,加熱,to heat up,3
+동그랗다,adj.,圓,to be round,3
+뛰어나오다,v.,跑出來,to run out,3
+레저,n.,休閒,leisure,3
+로터리,n.,圓環,rotary; roundabout,3
+무덥다,adj.,悶熱,to be sultry,3
+뭘,int.,哪裡（客氣）,not at all,3
+반대편,n.,對面；反對方,opposite side,3
+발바닥,n.,腳底,sole of the foot,3
+발톱,n.,腳趾甲,toenail,3
+밝아지다,v.,變亮,to brighten,3
+분명해지다,v.,變明確,to become clear,3
+산길,n.,山路,mountain path,3
+심각해지다,v.,變嚴重,to become serious,3
+싹,adv.,全部；乾淨,completely,3
+씻기다,v.,被沖洗；給…洗,to be washed; to wash (someone),3
+안심하다,v.,安心,to be relieved,3
+약수,n.,藥泉水,mineral spring water,3
+약품,n.,藥品,medicine,3
+양보,n.,讓步,concession,3
+양옆,n.,兩側,both sides,3
+어쩜,adv.,怎麼會這麼,how (so),3
+여왕,n.,女王,queen,3
+연기되다,v.,被延期,to be postponed,3
+올라타다,v.,搭上,to get on,3
+이다음,n.,下次,next time,3
+잡수다,v.,吃（敬語）,to eat (honorific),3
+장사꾼,n.,商人,merchant,3
+주일,n.,週；主日,week; Sunday,3
+집중하다,v.,集中,to concentrate,3
+짜증스럽다,adj.,煩躁,to be annoying,3
+천재,n.,天才,genius,3
+초여름,n.,初夏,early summer,3
+초저녁,n.,傍晚,early evening,3
+충돌하다,v.,衝突,to collide,3
+코트,n.,球場；大衣,court; coat,3
+피곤,n.,疲勞,fatigue,3
+학비,n.,學費,tuition,3
+효자,n.,孝子,devoted son,3
+감소되다,v.,減少,to be reduced,3
+강변,n.,江邊,riverside,3
+공연되다,v.,被演出,to be performed,3
+괴로워하다,v.,痛苦,to suffer,3
+교시,n.,節（課）,class period,3
+그리로,adv.,往那裡,that way,3
+까먹다,v.,忘記；剝來吃,to forget; to peel and eat,3
+깡패,n.,流氓,gangster,3
+낚시꾼,n.,釣客,angler,3
+다양해지다,v.,變多樣,to diversify,3
+등록하다,v.,登記；註冊,to register,3
+뛰놀다,v.,奔跑玩耍,to romp,3
+라켓,n.,球拍,racket,3
+리터,n.,公升,liter,3
+마요네즈,n.,美乃滋,mayonnaise,3
+만세,n.,萬歲,hurrah,3
+만화가,n.,漫畫家,cartoonist,3
+맘대로,adv.,隨意,as one likes,3
+머리말,n.,序言,preface,3
+면접,n.,面試,interview,3
+몸속,n.,體內,inside the body,3
+무책임하다,adj.,不負責任,to be irresponsible,3
+반짝거리다,v.,閃閃發光,to sparkle,3
+밤새우다,v.,熬夜,to stay up all night,3
+번지,n.,門牌號,lot number,3
+사립,n.,私立,private,3
+사생활,n.,私生活,private life,3
+사이사이,n.,之間,in between,3
+생활수준,n.,生活水準,standard of living,3
+서툴다,adj.,生疏,to be clumsy,3
+석사,n.,碩士,master's degree,3
+성당,n.,天主堂,cathedral,3
+속마음,n.,內心,inner feelings,3
+손잡다,v.,牽手；合作,to hold hands; to team up,3
+숙녀,n.,淑女,lady,3
+순하다,adj.,溫順；溫和,to be gentle; mild,3
+시댁,n.,婆家,husband's family,3
+신체적,n.,身體的,physical,3
+쓴맛,n.,苦味,bitter taste,3
+야옹,adv.,喵,meow,3
+얼마간,n.,若干,some,3
+올여름,n.,今年夏天,this summer,3
+외제,n.,外國製,foreign-made,3
+욕하다,v.,罵,to curse,3
+음반,n.,唱片,record; album,3
+의논,n.,商量,discussion,3
+이래서,adv.,因此（這樣）,because of this,3
+자살하다,v.,自殺,to commit suicide,3
+자연적,n.,自然的,natural,3
+장례식,n.,葬禮,funeral,3
+재수,n.,運氣；重考,luck; retaking an exam,3
+전구,n.,燈泡,light bulb,3
+전문점,n.,專賣店,specialty store,3
+전통문화,n.,傳統文化,traditional culture,3
+주전자,n.,水壺,kettle,3
+찬성,n.,贊成,approval,3
+촌스럽다,adj.,土氣,to be unfashionable,3
+컨디션,n.,狀態,condition,3
+코스모스,n.,大波斯菊,cosmos (flower),3
+토론자,n.,討論者,debater,3
+튼튼히,adv.,結實地,firmly,3
+페인트,n.,油漆,paint,3
+평상시,n.,平時,ordinary times,3
+학교생활,n.,學校生活,school life,3
+해물,n.,海鮮,seafood,3
+혼나다,v.,挨罵,to get scolded,3
+가만,adv.,靜靜地；等等,quietly; wait,3
+감정적,n.,情緒化的,emotional,3
+강북,n.,江北,north of the river,3
+고무신,n.,膠鞋,rubber shoes,3
+관람,n.,觀賞,viewing,3
+교외,n.,郊外,suburbs,3
+교육비,n.,教育費,education expenses,3
+기억되다,v.,被記住,to be remembered,3
+까다,v.,剝,to peel,3
+꽃씨,n.,花種子,flower seed,3
+꾸준하다,adj.,持之以恆,to be steady,3
+난방,n.,暖氣,heating,3
+내용물,n.,內容物,contents,3
+녹화,n.,錄影,recording,3
+뒷골목,n.,後巷,back alley,3
+들어주다,v.,答應；聽取,to grant; to listen,3
+따로따로,adv.,各自分開,separately,3
+뛰어놀다,v.,跑跳玩耍,to play around,3
+라이벌,n.,對手,rival,3
+매번,adv.,每次,every time,3
+무관심하다,adj.,漠不關心,to be indifferent,3
+무사하다,adj.,平安無事,to be safe,3
+번역하다,v.,翻譯,to translate,3
+병아리,n.,小雞,chick,3
+부피,n.,體積,volume,3
+비기다,v.,打平,to tie,3
+생활용품,n.,生活用品,household goods,3
+섹시하다,adj.,性感,to be sexy,3
+소비하다,v.,消費,to consume,3
+수리하다,v.,修理,to repair,3
+식료품,n.,食品,groceries,3
+식히다,v.,使冷卻,to cool down,3
+얼리다,v.,冷凍,to freeze,3
+올가을,n.,今年秋天,this fall,3
+와이셔츠,n.,襯衫,dress shirt,3
+윗사람,n.,長輩；上司,superior; elder,3
+이민,n.,移民,immigration,3
+입사하다,v.,進公司,to join a company,3
+재우다,v.,哄睡；醃,to put to sleep; to marinate,3
+전시되다,v.,被展示,to be exhibited,3
+졸리다,v.,睏,to be sleepy,3
+졸음,n.,睏意,drowsiness,3
+지능,n.,智能,intelligence,3
+쩔쩔매다,v.,手足無措,to be at a loss,3
+추가되다,v.,被追加,to be added,3
+치료법,n.,療法,treatment,3
+큰아들,n.,長子,eldest son,3
+특급,n.,特級；特快,special class; express,3
+풀어지다,v.,解開；鬆弛,to come loose,3
+한겨울,n.,隆冬,midwinter,3
+한평생,n.,一輩子,lifetime,3
+해수욕장,n.,海水浴場,beach,3
+허허,adv.,呵呵,ha ha,3
+호실,n.,號房,room number,3
+흐려지다,v.,變模糊；轉陰,to become cloudy; blurry,3
+희망하다,v.,希望,to hope,3
+힘들어하다,v.,覺得吃力,to have a hard time,3
+강의하다,v.,講課,to lecture,3
+공연하다,v.,演出,to perform,3
+귤,n.,橘子,tangerine,3
+내과,n.,內科,internal medicine,3
+무지개,n.,彩虹,rainbow,3
+문법,n.,文法,grammar,3
+볶음,n.,炒菜,stir-fry,3
+볼링,n.,保齡球,bowling,3
+비둘기,n.,鴿子,pigeon,3
+생활비,n.,生活費,living expenses,3
+시대적,n.,時代的,of the era,3
+앞문,n.,前門,front door,3
+인도,n.,人行道；印度；引導,sidewalk; India; guidance,3
+추가하다,v.,追加,to add,3
+탁구,n.,桌球,table tennis,3
+현대적,n.,現代的,modern,3
+늦가을,n.,晚秋,late autumn,3
+못생기다,adj.,醜,to be ugly,3
+영화관,n.,電影院,movie theater,3
+예술적,n.,藝術的,artistic,3
+장모,n.,岳母,mother-in-law (wife's mother),3
+튀김,n.,炸物,fried food,3
+고궁,n.,古宮,old palace,3
+단추,n.,鈕扣,button,3
+대중적,n.,大眾的,popular,3
+미역,n.,海帶,seaweed,3
+반말,n.,半語（非敬語）,casual speech,3
+분홍색,n.,粉紅色,pink,3
+작은아버지,n.,叔叔,uncle (father's younger brother),3
+초순,n.,上旬,early part of the month,3
+퇴원하다,v.,出院,to leave the hospital,3
+하순,n.,下旬,last part of the month,3
+기혼,n.,已婚,married,3
+도장,n.,印章,seal; stamp,3
+삼계탕,n.,蔘雞湯,ginseng chicken soup,3
+예약하다,v.,預約,to reserve,3
+천둥,n.,雷,thunder,3
+퇴원,n.,出院,discharge from hospital,3
+게으르다,adj.,懶惰,to be lazy,3
+기념품,n.,紀念品,souvenir,3
+단풍,n.,楓葉；紅葉,autumn leaves,3
+문학적,n.,文學的,literary,3
+미끄럽다,adj.,滑,to be slippery,3
+복숭아,n.,桃子,peach,3
+외아들,n.,獨子,only son,3
+장인,n.,岳父；工匠,father-in-law; craftsman,3
+동서남북,n.,東西南北,all directions,3
+외할아버지,n.,外公,maternal grandfather,3
+입국,n.,入境,entry (into a country),3
+체육관,n.,體育館,gym,3
+최소,n.,最小,minimum,3
+칼국수,n.,刀切麵,knife-cut noodles,3
+큰아버지,n.,伯父,uncle (father's elder brother),3
+국민적,n.,全民的,national,3
+국제선,n.,國際線,international flight,3
+동양인,n.,東方人,Asian person,3
+안과,n.,眼科,ophthalmology,3
+예식장,n.,禮堂,wedding hall,3
+월세,n.,月租,monthly rent,3
+진찰,n.,診察,medical examination,3
+큰딸,n.,長女,eldest daughter,3
+결석,n.,缺席,absence,3
+독감,n.,流感,flu,3
+보라색,n.,紫色,purple,3
+연두색,n.,淺綠色,light green,3
+온돌,n.,暖炕,ondol (floor heating),3
+출입국,n.,出入境,immigration,3
+클래식,n.,古典音樂,classical music,3
+팝송,n.,流行歌,pop song,3
+팩스,n.,傳真,fax,3
+국내선,n.,國內線,domestic flight,3
+떡국,n.,年糕湯,rice cake soup,3
+시외버스,n.,長途巴士,intercity bus,3
+야구장,n.,棒球場,baseball stadium,3
+작은아들,n.,小兒子,younger son,3
+형수,n.,嫂嫂,elder brother's wife,3
+관광버스,n.,觀光巴士,tour bus,3
+그저께,n.,前天,the day before yesterday,3
+냉방,n.,冷氣,air conditioning,3
+눈병,n.,眼疾,eye disease,3
+배추김치,n.,白菜泡菜,napa cabbage kimchi,3
+색연필,n.,色鉛筆,colored pencil,3
+소아과,n.,小兒科,pediatrics,3
+양력,n.,國曆,solar calendar,3
+작은어머니,n.,嬸嬸,aunt (wife of father's younger brother),3
+축구장,n.,足球場,soccer field,3
+한글날,n.,韓文日,Hangul Day,3
+한식,n.,韓式料理,Korean food,3
+넉,phr.,四（個）,four,3
+복사기,n.,影印機,copier,3
+아드님,n.,令郎,son (honorific),3
+결석하다,v.,缺席,to be absent,3
+기념일,n.,紀念日,anniversary,3
+내후년,n.,大後年,three years from now,3
+따님,n.,令嬡,daughter (honorific),3
+식품점,n.,食品店,grocery store,3
+약혼녀,n.,未婚妻,fiancée,3
+어저께,n.,昨天,yesterday,3
+예습,n.,預習,preview (study),3
+예습하다,v.,預習,to prepare lessons,3
+출석하다,v.,出席,to attend,3
+큰어머니,n.,伯母,aunt (wife of father's elder brother),3
+멍멍,adv.,汪汪,woof,3
+분필,n.,粉筆,chalk,3
+약혼자,n.,未婚夫（妻）,fiancé(e),3
+외과,n.,外科,surgery,3
+제과점,n.,麵包店,bakery,3
+중식,n.,中餐；午餐,Chinese food; lunch,3
+케첩,n.,番茄醬,ketchup,3
+편의점,n.,便利商店,convenience store,3
+미용실,n.,美容院,hair salon,3
+일식,n.,日式料理；日蝕,Japanese food; solar eclipse,3
+작은딸,n.,小女兒,younger daughter,3
+초등학생,n.,小學生,elementary school student,3
