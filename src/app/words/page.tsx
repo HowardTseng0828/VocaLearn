@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { api, type WordItem } from "@/lib/api";
 import { formatPartOfSpeech, LOCALES, type Locale } from "@/lib/i18n";
 import { SpeakButton } from "@/components/SpeakButton";
@@ -9,7 +9,12 @@ import { useApp } from "@/lib/store";
 export default function WordsPage() {
   const { user, t, locale, course } = useApp();
   const [q, setQ] = useState("");
-  const [page, setPage] = useState(1);
+  const [search, setSearch] = useState({ text: "", page: 1 });
+  const page = search.page;
+  const setPage = (nextPage: number | ((page: number) => number)) => setSearch((current) => ({
+    ...current, page: typeof nextPage === "function" ? nextPage(current.page) : nextPage,
+  }));
+  const requestId = useRef(0);
   const [items, setItems] = useState<WordItem[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -17,16 +22,18 @@ export default function WordsPage() {
   const size = 50;
 
   const load = useCallback(
-    (query: string, p: number) => {
+    (query: string, p: number, fresh = false) => {
+      const currentRequest = ++requestId.current;
       setLoading(true);
       api
-        .words(query, p, size)
+        .words(query, p, size, fresh)
         .then((r) => {
+          if (currentRequest !== requestId.current) return;
           setItems(r.items);
           setTotal(r.total);
         })
-        .catch(() => setItems([]))
-        .finally(() => setLoading(false));
+        .catch(() => { if (currentRequest === requestId.current) setItems([]); })
+        .finally(() => { if (currentRequest === requestId.current) setLoading(false); });
     },
     []
   );
@@ -34,24 +41,23 @@ export default function WordsPage() {
   // Debounced search.
   useEffect(() => {
     const t = setTimeout(() => {
-      setPage(1);
-      load(q, 1);
+      const text = q.trim();
+      setSearch((current) => current.text === text ? current : { text, page: 1 });
     }, 300);
     return () => clearTimeout(t);
-  }, [q, load]);
+  }, [q]);
 
   useEffect(() => {
-    load(q, page);
-    // Reload when the page or the course / meaning language changes.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page, user?.targetLang, locale]);
+    load(search.text, search.page);
+    return () => { requestId.current++; };
+  }, [search, user?.targetLang, locale, load]);
 
   const pages = Math.max(Math.ceil(total / size), 1);
 
   return (
-    <div className="space-y-4 animate-fade-in">
-      <div className="flex items-center justify-between">
-        <h1 className="text-xl font-extrabold">{t("words.title")}{course ? ` · ${course.name}` : ""}</h1>
+    <div className="flex h-full flex-col gap-3 animate-fade-in sm:gap-4">
+      <div className="flex items-center justify-between gap-2">
+        <h1 className="page-title min-w-0 truncate">{t("words.title")}{course ? ` · ${course.name}` : ""}</h1>
         {user?.role === "admin" && <button
           onClick={() => setShowImport((s) => !s)}
           className="btn btn-ghost !py-2 text-xs"
@@ -60,7 +66,7 @@ export default function WordsPage() {
         </button>}
       </div>
 
-      {showImport && user?.role === "admin" && <ImportPanel onDone={() => load(q, page)} />}
+      {showImport && user?.role === "admin" && <ImportPanel onDone={() => load(search.text, page, true)} />}
 
       <input
         className="input"
@@ -78,7 +84,7 @@ export default function WordsPage() {
           <div className="h-9 w-9 animate-spin rounded-full border-4 border-brand-500 border-t-transparent" />
         </div>
       ) : (
-        <ul className="grid gap-2 sm:grid-cols-2">
+        <ul className="-mx-1 grid min-h-0 flex-1 content-start gap-2 overflow-y-auto overscroll-contain px-1 pb-1 sm:grid-cols-2">
           {items.map((w) => (
             <li key={w.id} className="card flex items-start justify-between gap-2 p-3">
               <div className="min-w-0">
@@ -106,7 +112,7 @@ export default function WordsPage() {
       )}
 
       {pages > 1 && (
-        <div className="flex items-center justify-center gap-3 pt-2">
+        <div className="flex shrink-0 items-center justify-center gap-3">
           <button
             className="btn btn-ghost !py-2"
             disabled={page <= 1}

@@ -3,15 +3,44 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+/* Native dropdowns must follow the app theme, including before hover. */
+select option,
+select optgroup {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.dark select option,
+.dark select optgroup {
+  @apply bg-slate-800 text-slate-100;
+}
+
+select option:disabled {
+  @apply text-slate-500;
+}
+
+.dark select option:disabled {
+  @apply text-slate-400;
 }
 
 html {
   -webkit-tap-highlight-color: transparent;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   @apply bg-slate-50 text-slate-900 antialiased;
+  overscroll-behavior-y: none;
   font-feature-settings: "ss01";
 }
 
@@ -32,7 +61,7 @@ body {
 /* ---------- 3D 立體按鈕 ---------- */
 /* 底部有實心陰影、按下時往下壓，模擬實體按鍵手感 */
 .btn {
-  @apply inline-flex select-none items-center justify-center gap-2 rounded-2xl border-2 border-transparent px-5 py-3 text-sm font-extrabold uppercase tracking-wide transition-all;
+  @apply inline-flex min-h-11 select-none items-center justify-center gap-2 rounded-2xl border-2 border-transparent px-5 py-3 text-sm font-extrabold uppercase tracking-wide transition-all;
   transition-property: transform, box-shadow, background-color, filter;
   transition-duration: 100ms;
 }
@@ -90,6 +119,17 @@ body {
   box-shadow: 0 1px 0 0 #1387c4;
 }
 
+/* ---------- 字級：頁標題 / 區段標題 / 小標籤 ---------- */
+.page-title {
+  @apply text-2xl font-extrabold tracking-tight;
+}
+.section-title {
+  @apply text-lg font-extrabold;
+}
+.stat-label {
+  @apply text-sm font-bold text-slate-500 dark:text-slate-400;
+}
+
 /* ---------- 輸入框 ---------- */
 .input {
   @apply w-full rounded-2xl border-2 border-slate-200 bg-slate-50 px-4 py-3 text-sm font-medium outline-none transition focus:border-brand-400 focus:bg-white focus:ring-4 focus:ring-brand-100;
@@ -113,7 +153,7 @@ body {
 
 /* ---------- 選項卡（練習多選題用）：未選 / 選中 / 對 / 錯 ---------- */
 .choice {
-  @apply rounded-2xl border-2 border-slate-200 bg-white px-4 py-4 text-left text-base font-bold text-slate-700 transition-all;
+  @apply rounded-2xl border-2 border-slate-200 bg-white px-5 py-4 text-left text-base font-bold text-slate-700 transition-all;
   box-shadow: 0 3px 0 0 rgb(226 232 240);
 }
 .choice:hover:not(:disabled):not(.choice-locked) {

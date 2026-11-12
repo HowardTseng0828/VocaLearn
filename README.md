@@ -164,6 +164,16 @@ npm run db:seed:courses:local     # 匯入本機 D1
 npm run db:seed:courses:remote    # 匯入正式 D1（會覆蓋同一單字的釋義與等級）
 ```
 
+免費 D1 的寫入額度是整個帳號每日共用 100,000 筆，索引也會計入。首次匯入全部外語題庫再重排索引實測約需 187,000 筆寫入，應依當日剩餘額度分語言、分日匯入。例如先產生並匯入日文：
+
+```bash
+npm run seed:courses -- --lang ja
+npx wrangler d1 execute vocalearn-db --remote --file=./data/seed-courses-ja.sql
+npx wrangler d1 execute vocalearn-db --remote --file=./scripts/reindex-words.sql
+```
+
+`--lang` 支援 `ja / ko / es / de / fr`。內容未變更的題庫、翻譯與索引重跑會略過寫入；這不會免除初次新增資料的成本。單字庫的公開詞條會在各邊緣節點快取 5 分鐘，個人學習紀錄仍即時查詢。新增單字造成課程字數變動時，快取會立即換新；管理員在介面匯入後會強制刷新目前頁面，其他既有詞條的修改最多延遲 5 分鐘顯示。
+
 | 課程 | 字數 | 等級 | 詞表來源 |
 |------|------|------|----------|
 | 日文 | 2,893 | 1=N5、2=N4、3=N3 | Jonathan Waller（tanos.co.uk）JLPT 詞表，CC BY |

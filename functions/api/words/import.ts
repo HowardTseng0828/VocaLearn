@@ -89,7 +89,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
         ? env.DB.prepare(
             `INSERT INTO word_meanings (word_id, locale, meaning)
              SELECT id, ?, ? FROM words WHERE lang = ? AND word = ?
-             ON CONFLICT(word_id, locale) DO UPDATE SET meaning = excluded.meaning`
+             ON CONFLICT(word_id, locale) DO UPDATE SET meaning = excluded.meaning
+             WHERE word_meanings.meaning IS NOT excluded.meaning`
           ).bind(meaningLocale, w.meaning, language.code, w.word)
         : env.DB.prepare(
             "INSERT OR IGNORE INTO words (lang, word, pos, meaning, level, source) VALUES (?, ?, ?, ?, ?, ?)"

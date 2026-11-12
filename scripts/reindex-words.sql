@@ -3,4 +3,5 @@
 UPDATE words SET word_index = o.rn
   FROM (SELECT id, ROW_NUMBER() OVER (PARTITION BY lang ORDER BY COALESCE(level, 99), id) - 1 AS rn FROM words) AS o
  WHERE words.id = o.id AND words.word_index IS NOT o.rn;
-UPDATE languages SET word_count = (SELECT COUNT(*) FROM words WHERE words.lang = languages.code);
+UPDATE languages SET word_count = (SELECT COUNT(*) FROM words WHERE words.lang = languages.code)
+ WHERE word_count IS NOT (SELECT COUNT(*) FROM words WHERE words.lang = languages.code);

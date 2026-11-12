@@ -24,33 +24,33 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="space-y-6 animate-fade-in">
+    <div className="flex h-full flex-col gap-3 animate-fade-in sm:gap-6">
       {/* Hero */}
-      <section className="card relative overflow-hidden border-0 !p-0">
-        <div className="relative bg-gradient-to-br from-brand-400 via-brand-500 to-brand-600 p-6 text-white">
+      <section className="card relative shrink-0 overflow-hidden border-0 !p-0">
+        <div className="relative bg-gradient-to-br from-brand-400 via-brand-500 to-brand-600 p-4 text-white sm:p-6">
           {/* 裝飾圓 */}
           <div className="pointer-events-none absolute -right-8 -top-8 h-32 w-32 rounded-full bg-white/10" />
           <div className="pointer-events-none absolute -bottom-10 right-16 h-24 w-24 rounded-full bg-white/10" />
 
           <div className="relative flex items-start justify-between gap-3">
             <div>
-              <p className="text-sm font-bold opacity-90">{t("home.welcome")}</p>
-              <h1 className="text-2xl font-extrabold">{user?.displayName || t("home.defaultName")} 👋</h1>
-              <p className="mt-1 text-sm font-medium opacity-90">{t("home.cta")}</p>
-              {course && <p className="mt-1 text-xs font-bold opacity-80">{t("home.course", { name: course.name })}</p>}
+              <p className="text-base font-bold opacity-90">{t("home.welcome")}</p>
+              <h1 className="text-3xl font-extrabold tracking-tight">{user?.displayName || t("home.defaultName")} 👋</h1>
+              <p className="mt-1 hidden text-sm font-medium opacity-90 sm:block">{t("home.cta")}</p>
+              {course && <p className="mt-1 text-sm font-bold opacity-90">{t("home.course", { name: course.name })}</p>}
             </div>
             {stats && stats.streak > 0 && (
               <div className="flex shrink-0 flex-col items-center rounded-2xl bg-white/15 px-3 py-2 backdrop-blur">
                 <span className="animate-flame text-2xl">🔥</span>
                 <span className="text-lg font-extrabold leading-none">{stats.streak}</span>
-                <span className="text-[10px] font-bold opacity-90">{t("home.streak")}</span>
+                <span className="text-xs font-bold opacity-90">{t("home.streak")}</span>
               </div>
             )}
           </div>
 
           <Link
             href="/practice?mode=random&daily=1"
-            className="mt-5 inline-flex items-center gap-2 rounded-2xl bg-white px-6 py-3 text-sm font-extrabold uppercase tracking-wide text-brand-600 shadow-[0_4px_0_0_rgba(0,0,0,0.12)] transition active:translate-y-0.5"
+            className="mt-3 flex w-full items-center justify-center gap-2 rounded-2xl bg-white px-5 py-3.5 text-lg font-extrabold tracking-wide sm:mt-5 sm:inline-flex sm:w-auto sm:px-6 sm:py-3 text-brand-600 shadow-[0_4px_0_0_rgba(0,0,0,0.12)] transition active:translate-y-0.5"
           >
             {t("home.startDaily")}
           </Link>
@@ -62,39 +62,39 @@ export default function HomePage() {
       )}
 
       {/* Quick stats */}
-      <section className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <section className="grid shrink-0 grid-cols-4 gap-2 sm:gap-3">
         <StatCard icon="📖" label={t("home.learned")} value={stats?.seen} suffix={`/${stats?.totalWords ?? "—"}`} />
         <StatCard icon="⭐" label={t("home.mastered")} value={stats?.mastered} accent />
         <StatCard icon="🎯" label={t("home.accuracy")} value={stats ? `${stats.accuracy}%` : undefined} />
-        <StatCard icon="🔁" label={t("home.toReview")} value={stats?.openWrong} warn />
+        <StatCard icon="🔁" label={t("home.toReview")} value={stats?.openWrong} warn href={stats && stats.openWrong > 0 ? "/practice?mode=random&review=1" : undefined} />
       </section>
 
       {/* Practice modes */}
-      <section>
-        <h2 className="mb-3 text-lg font-extrabold">{t("home.chooseMode")}</h2>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="flex min-h-0 flex-1 flex-col">
+        <h2 className="section-title mb-2 shrink-0 sm:mb-3">{t("home.chooseMode")}</h2>
+        <div className="grid flex-1 auto-rows-fr grid-cols-2 gap-3 lg:grid-cols-3">
           {MODES.map((m) => (
             <Link
               key={m.key}
               href={`/practice?mode=${m.key}`}
-              className="card group flex items-center gap-4 p-4 transition active:translate-y-0.5"
+              className="card group flex min-h-[4.5rem] min-w-0 flex-col items-center justify-center gap-2 p-3 text-center transition active:translate-y-0.5 sm:flex-row sm:justify-start sm:gap-4 sm:p-4 sm:text-left"
             >
               <span
-                className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl text-2xl transition group-hover:scale-105"
+                className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl text-2xl transition group-hover:scale-105 sm:h-14 sm:w-14"
                 style={{ backgroundColor: m.color, boxShadow: `0 4px 0 0 ${m.shadow}` }}
               >
                 {m.icon}
               </span>
-              <div>
-                <div className="font-extrabold">{t(`mode.${m.key}`)}</div>
-                <div className="text-sm font-medium text-slate-500 dark:text-slate-400">{t(`mode.${m.key}.desc`)}</div>
+              <div className="min-w-0">
+                <div className="truncate text-lg font-extrabold">{t(`mode.${m.key}`)}</div>
+                <div className="line-clamp-2 text-xs font-medium text-slate-500 dark:text-slate-400 sm:text-sm">{t(`mode.${m.key}.desc`)}</div>
               </div>
             </Link>
           ))}
           {stats && stats.openWrong > 0 && (
             <Link
               href="/practice?mode=random&review=1"
-              className="card group flex items-center gap-4 border-amber-200 bg-amber-50/60 p-4 transition active:translate-y-0.5 dark:border-amber-900/50 dark:bg-amber-950/20"
+              className="card group hidden items-center gap-4 border-amber-200 bg-amber-50/60 p-4 transition active:translate-y-0.5 dark:border-amber-900/50 dark:bg-amber-950/20 sm:flex"
             >
               <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-mode-gold text-2xl shadow-[0_4px_0_0_#d4a700] transition group-hover:scale-105">
                 🔁
@@ -120,6 +120,7 @@ function StatCard({
   suffix,
   accent,
   warn,
+  href,
 }: {
   icon: string;
   label: string;
@@ -127,15 +128,16 @@ function StatCard({
   suffix?: string;
   accent?: boolean;
   warn?: boolean;
+  href?: string;
 }) {
-  return (
-    <div className="card p-4">
-      <div className="flex items-center gap-1.5 text-xs font-bold text-slate-400">
-        <span>{icon}</span>
-        {label}
+  const body = (
+    <>
+      <div className="stat-label flex flex-col items-center gap-0.5 sm:flex-row sm:gap-1.5">
+        <span className="text-base">{icon}</span>
+        <span className="max-w-full truncate">{label}</span>
       </div>
       <div
-        className={`mt-1 text-2xl font-extrabold ${
+        className={`mt-0.5 truncate text-2xl font-extrabold ${
           accent
             ? "text-brand-500"
             : warn
@@ -144,8 +146,10 @@ function StatCard({
         }`}
       >
         {value ?? "—"}
-        {suffix && <span className="text-sm font-bold text-slate-400">{suffix}</span>}
+        {suffix && <span className="hidden text-sm font-bold text-slate-400 sm:inline">{suffix}</span>}
       </div>
-    </div>
+    </>
   );
+  const className = "card min-w-0 px-1 py-2.5 text-center sm:p-4 sm:text-left";
+  return href ? <Link href={href} className={className}>{body}</Link> : <div className={className}>{body}</div>;
 }

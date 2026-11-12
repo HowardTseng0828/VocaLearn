@@ -11,11 +11,18 @@ export const metadata: Metadata = {
     icon: "/icon.svg",
     apple: "/apple-icon.png",
   },
+  appleWebApp: {
+    capable: true,
+    title: "VocaLearn",
+    statusBarStyle: "default",
+  },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  // Lets the standalone PWA use the safe-area insets the Shell pads for.
+  viewportFit: "cover",
   themeColor: "#58cc02",
 };
 

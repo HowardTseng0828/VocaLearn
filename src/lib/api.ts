@@ -112,9 +112,9 @@ export const api = {
       body: JSON.stringify({ id }),
     }),
 
-  words: (q: string, page: number, size = 50) =>
+  words: (q: string, page: number, size = 50, fresh = false) =>
     request<{ items: WordItem[]; total: number; page: number; size: number }>(
-      `/words/list?q=${encodeURIComponent(q)}&page=${page}&size=${size}`
+      `/words/list?q=${encodeURIComponent(q)}&page=${page}&size=${size}${fresh ? "&fresh=1" : ""}`
     ),
   importCsv: (csv: string, lang: string, locale?: Locale) =>
     request<{ parsed: number; imported: number; skipped: number; total: number }>(

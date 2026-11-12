@@ -57,13 +57,16 @@ export default function ProfilePage() {
   const label = "mb-1 block text-sm font-extrabold text-slate-500 dark:text-slate-400";
 
   return (
-    <div className="mx-auto max-w-xl space-y-5 animate-fade-in">
-      <div className="card p-6 sm:p-8">
-        <h1 className="text-2xl font-extrabold">{t("profile.title")}</h1>
-        <p className="mt-2 text-sm font-medium text-slate-500 dark:text-slate-400">
+    <div className="mx-auto max-w-xl space-y-3 animate-fade-in sm:space-y-5">
+      <div className="card p-4 sm:p-8">
+        <div className="flex items-center justify-between gap-3">
+          <h1 className="page-title">{t("profile.title")}</h1>
+          <button type="button" onClick={logout} className="btn btn-ghost !px-3 !py-1.5 text-xs">{t("nav.logout")}</button>
+        </div>
+        <p className="mt-1 hidden text-sm sm:mt-2 sm:block font-medium text-slate-500 dark:text-slate-400">
           {t("profile.subtitle")}
         </p>
-        <form onSubmit={saveName} className="mt-6 space-y-4">
+        <form onSubmit={saveName} className="mt-3 space-y-3 sm:mt-6 sm:space-y-4">
           <div>
             <label htmlFor="profile-email" className={label}>{t("profile.email")}</label>
             <input id="profile-email" className="input opacity-70" value={user.email} readOnly />
@@ -87,7 +90,7 @@ export default function ProfilePage() {
           </div>
         </form>
 
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+        <div className="mt-3 grid grid-cols-2 gap-3 sm:mt-6 sm:gap-4">
           <div>
             <label htmlFor="profile-locale" className={label}>{t("profile.locale")}</label>
             <select
@@ -115,13 +118,12 @@ export default function ProfilePage() {
               ))}
             </select>
           </div>
-          <div className="sm:col-span-2">
-            <label htmlFor="profile-tz" className={label}>{t("profile.timezone")}</label>
-            <input id="profile-tz" className="input opacity-70" value={user.timezone} readOnly />
-          </div>
+          <p className="col-span-2 text-xs font-bold text-slate-400">
+            {t("profile.timezone")}：{user.timezone}
+          </p>
         </div>
 
-        <label className="mt-6 flex cursor-pointer items-start gap-3">
+        <label className="mt-3 flex cursor-pointer items-start gap-3 sm:mt-6">
           <input
             type="checkbox"
             className="mt-1 h-5 w-5 accent-brand-500"
@@ -139,26 +141,28 @@ export default function ProfilePage() {
         {error && <p className="mt-4 text-sm font-bold text-red-500">{error}</p>}
       </div>
 
-      <form onSubmit={deleteAccount} className="card border-red-200 p-6 dark:border-red-900/50 sm:p-8">
-        <h2 className="text-lg font-extrabold text-red-600 dark:text-red-400">{t("profile.deleteTitle")}</h2>
-        <p className="mt-2 text-sm font-medium text-slate-500 dark:text-slate-400">{t("profile.deleteHint")}</p>
-        <input
-          className="input mt-4"
-          type="email"
-          value={confirmEmail}
-          onChange={(event) => setConfirmEmail(event.target.value)}
-          placeholder={user.email}
-          autoComplete="off"
-        />
-        <button
-          type="submit"
-          className="btn mt-3 w-full bg-red-600 text-white hover:bg-red-700"
-          disabled={deleting || confirmEmail.trim().toLowerCase() !== user.email.toLowerCase()}
-        >
-          {deleting ? t("profile.deleting") : t("profile.deleteButton")}
-        </button>
-        {deleteError && <p className="mt-3 text-sm font-bold text-red-500">{deleteError}</p>}
-      </form>
+      <details className="card border-red-200 p-4 dark:border-red-900/50 sm:p-8">
+        <summary className="cursor-pointer font-extrabold text-red-600 dark:text-red-400 sm:text-lg">{t("profile.deleteTitle")}</summary>
+        <form onSubmit={deleteAccount}>
+          <p className="mt-2 text-sm font-medium text-slate-500 dark:text-slate-400">{t("profile.deleteHint")}</p>
+          <input
+            className="input mt-4"
+            type="email"
+            value={confirmEmail}
+            onChange={(event) => setConfirmEmail(event.target.value)}
+            placeholder={user.email}
+            autoComplete="off"
+          />
+          <button
+            type="submit"
+            className="btn mt-3 w-full bg-red-600 text-white hover:bg-red-700"
+            disabled={deleting || confirmEmail.trim().toLowerCase() !== user.email.toLowerCase()}
+          >
+            {deleting ? t("profile.deleting") : t("profile.deleteButton")}
+          </button>
+          {deleteError && <p className="mt-3 text-sm font-bold text-red-500">{deleteError}</p>}
+        </form>
+      </details>
     </div>
   );
 }

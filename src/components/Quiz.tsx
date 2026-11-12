@@ -163,17 +163,28 @@ export function Quiz() {
 
   if (phase === "empty") {
     return (
-      <div className="card mx-auto max-w-md p-8 text-center animate-bounce-in">
-        <div className="text-5xl">🎉</div>
-        <h2 className="mt-3 text-xl font-extrabold">
-          {review ? t("quiz.emptyReviewTitle") : t("quiz.emptyTitle")}
+      <div className="card mx-auto max-w-md p-6 text-center animate-bounce-in sm:p-8">
+        <div className="text-5xl">{reviewCorrect ? "📚" : "🎉"}</div>
+        <h2 className="mt-3 text-2xl font-extrabold">
+          {reviewCorrect ? t("quiz.emptyCorrectTitle") : review ? t("quiz.emptyReviewTitle") : t("quiz.emptyTitle")}
         </h2>
-        <p className="mt-1 text-sm font-medium text-slate-500 dark:text-slate-400">
-          {review ? t("quiz.emptyReviewBody") : t("quiz.emptyBody")}
+        <p className="mt-2 text-base font-medium text-slate-500 dark:text-slate-400">
+          {reviewCorrect ? t("quiz.emptyCorrectBody") : review ? t("quiz.emptyReviewBody") : t("quiz.emptyBody")}
         </p>
-        <Link href="/" className="btn btn-primary mt-5">
-          {t("common.backHome")}
-        </Link>
+        {review || reviewCorrect ? (
+          <div className="mt-6 grid gap-3">
+            <Link href="/practice?mode=random" className="btn btn-primary w-full !py-4 text-base">
+              {t("quiz.startPractice")}
+            </Link>
+            <Link href="/notebook" className="btn btn-ghost w-full !py-4 text-base">
+              {t("quiz.backReview")}
+            </Link>
+          </div>
+        ) : (
+          <Link href="/" className="btn btn-primary mt-6 w-full !py-4 text-base">
+            {t("common.backHome")}
+          </Link>
+        )}
       </div>
     );
   }
@@ -181,7 +192,7 @@ export function Quiz() {
   if (phase === "done") {
     const pct = Math.round((score / questions.length) * 100);
     return (
-      <div className="card mx-auto max-w-md p-8 text-center animate-bounce-in">
+      <div className="card mx-auto max-w-md p-6 text-center animate-bounce-in sm:p-8">
         <div className="text-6xl">{pct >= 80 ? "🏆" : pct >= 50 ? "🎉" : "💪"}</div>
         <h2 className="mt-3 text-2xl font-extrabold">{t("quiz.done")}</h2>
         {error && <p className="mt-2 text-sm font-bold text-red-500">{error}</p>}
@@ -194,9 +205,9 @@ export function Quiz() {
             {t("quiz.accuracy", { pct })}
           </div>
         </div>
-        <div className="mt-6 flex gap-3">
+        <div className="mt-6 flex flex-wrap gap-2 sm:gap-3">
           {nextChapter && (
-            <Link href={`/practice?mode=${chapterMode(nextChapter)}&chapter=${nextChapter}`} className="btn btn-primary flex-1">
+            <Link href={`/practice?mode=${chapterMode(nextChapter)}&chapter=${nextChapter}`} className="btn btn-primary w-full sm:w-auto sm:flex-1">
               {t("quiz.nextChapter")}
             </Link>
           )}
@@ -234,10 +245,10 @@ export function Quiz() {
   const progress = ((index + (phase === "feedback" ? 1 : 0)) / questions.length) * 100;
 
   return (
-    <div className="mx-auto max-w-xl">
+    <div className="mx-auto flex h-full max-w-xl flex-col">
       {/* Progress header */}
-      <div className="mb-4 flex items-center justify-between text-sm">
-        <Link href="/" className="text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
+      <div className="mb-2 flex shrink-0 items-center justify-between text-sm sm:mb-4">
+        <Link href="/" className="-ml-2 rounded-xl px-2 py-2 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">
           {t("quiz.leave")}
         </Link>
         <span className="font-medium">
@@ -248,11 +259,11 @@ export function Quiz() {
           {index + 1} / {questions.length}
         </span>
       </div>
-      <div className="progress-track shimmer mb-6">
+      <div className="progress-track shimmer mb-3 shrink-0 sm:mb-6">
         <div className="progress-fill" style={{ width: `${progress}%` }} />
       </div>
 
-      <div key={index} className="animate-fade-in">
+      <div key={index} className="flex min-h-0 flex-1 flex-col animate-fade-in">
       <QuestionBody
           q={current}
           phase={phase}
@@ -315,8 +326,8 @@ function QuestionBody({
   // Multiple choice (en2zh: word -> meaning, zh2en: meaning -> word)
   if (q.mode === "en2zh" || q.mode === "zh2en") {
     return (
-      <div>
-        <div className="card mb-5 p-8 text-center">
+      <div className="flex flex-1 flex-col">
+        <div className="card mb-3 flex min-h-[7rem] flex-1 flex-col items-center justify-center p-5 text-center sm:mb-5 sm:p-8">
           <div className="flex flex-wrap items-center justify-center gap-3">
             {q.mode === "en2zh" ? <PronunciationText text={q.word ?? ""} className="text-3xl font-extrabold" /> : <div className="text-3xl font-extrabold break-words">{q.meaning}</div>}
           </div>
@@ -327,7 +338,7 @@ function QuestionBody({
             <div className="mt-1 text-sm font-bold text-slate-400">{t("quiz.chooseWord")}</div>
           )}
         </div>
-        <div className="grid gap-3">
+        <div className="grid shrink-0 gap-3">
           {q.choices?.map((choice) => {
             const isExpected = locked && choice === result?.expected;
             const isWrongPick =
@@ -381,8 +392,8 @@ function QuestionBody({
 
   // Cloze (AI sentence with a blank)
   return (
-    <div>
-      <div className="card mb-5 border-pink-200 p-6 dark:border-pink-900/40">
+    <div className="flex flex-1 flex-col">
+      <div className="card mb-3 flex flex-1 flex-col justify-center border-pink-200 p-4 sm:mb-5 sm:p-6 dark:border-pink-900/40">
         <div className="mb-2 flex items-center gap-2 text-xs font-extrabold text-mode-pink">
           <span>{t("quiz.clozeTitle")}</span>
           {aiCard?.source === "mock" && (
@@ -536,17 +547,17 @@ function SpeechPrompt({ q, locked, submitting, onSubmit, onSwitchMode }: {
   const verdict = speechRate === null ? "" : speechRate >= 3 ? t("quiz.rateFast") : speechRate >= 1.2 ? t("quiz.rateOk") : t("quiz.rateSlow");
 
   return (
-    <div className="card p-8 text-center">
+    <div className="card flex flex-1 flex-col justify-center p-5 text-center sm:p-8">
       <div className="text-sm font-bold text-slate-400">{t("quiz.speechPrompt")}</div>
       <PronunciationText text={q.word ?? ""} className="mt-3 text-4xl font-extrabold" />
       <div className="mt-2 text-sm font-medium text-slate-500 dark:text-slate-400">{q.pos ? `${formatPartOfSpeech(q.pos, locale)} · ` : ""}{q.meaning}</div>
-      <div className="mt-6 flex justify-center gap-3">
-        <button type="button" className="btn btn-primary" disabled={locked || submitting} onClick={isListening ? stopListening : startListening}>
+      <div className="mt-4 flex justify-center gap-3 sm:mt-6">
+        <button type="button" className="btn btn-primary w-full !py-4 text-base sm:w-auto" disabled={locked || submitting} onClick={isListening ? stopListening : startListening}>
           {isListening ? t("quiz.listening") : t("quiz.startSpeaking")}
         </button>
       </div>
       {onSwitchMode && <button type="button" className="btn btn-ghost mt-3 !py-2 text-xs" onClick={onSwitchMode}>{t("quiz.speechSwitch")}</button>}
-      <div className="mt-5 rounded-2xl bg-slate-50 p-4 text-left dark:bg-slate-800">
+      <div className="mt-4 rounded-2xl bg-slate-50 p-3 text-left dark:bg-slate-800 sm:mt-5 sm:p-4">
         <div className="text-xs font-extrabold text-slate-400">{t("quiz.preview")}</div>
         <p className="mt-2 min-h-6 text-lg font-bold text-slate-700 dark:text-slate-200">{transcriptPreview || t("quiz.previewPlaceholder")}</p>
         {speechRate !== null && <p className="mt-2 text-xs font-bold text-slate-500 dark:text-slate-400">{t("quiz.speechRate", { rate: speechRate.toFixed(1), verdict })}</p>}
@@ -575,8 +586,8 @@ function TypePrompt(props: HintProps & {
   onSubmit: (a: string) => void;
 }) {
   return (
-    <div>
-      <div className="card mb-5 p-8 text-center">
+    <div className="flex flex-1 flex-col">
+      <div className="card mb-3 flex min-h-[7rem] flex-1 flex-col items-center justify-center p-5 text-center sm:mb-5 sm:p-8">
         <div className="text-2xl font-extrabold break-words">{props.title}</div>
         <div className="mt-1 text-sm font-bold text-slate-400">{props.subtitle}</div>
       </div>
@@ -624,7 +635,7 @@ function InlineTypeInput({
     >
       <input
         ref={inputRef}
-        className="input flex-1 text-center text-lg"
+        className="input flex-1 !py-4 text-center text-lg"
         value={typed}
         onChange={(e) => setTyped(e.target.value)}
         placeholder={placeholder}
@@ -635,7 +646,7 @@ function InlineTypeInput({
       />
       <button
         type="submit"
-        className="btn btn-primary"
+        className="btn btn-primary !px-6 text-base"
         disabled={locked || submitting || !typed.trim()}
       >
         {t("quiz.submit")}
@@ -656,10 +667,10 @@ function Feedback({
   const { t } = useApp();
   return (
     <div
-      className={`mt-5 rounded-2xl border-2 p-5 animate-fade-in ${
+      className={`fixed inset-x-0 bottom-0 z-30 rounded-t-3xl border-t-2 p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] shadow-[0_-8px_24px_rgba(0,0,0,0.08)] animate-fade-in [&>*]:mx-auto [&>*]:max-w-lg md:static md:mt-5 md:rounded-2xl md:border-2 md:p-5 md:shadow-none md:[&>*]:max-w-none ${
         result.correct
-          ? "border-brand-200 bg-brand-50 dark:border-brand-900/50 dark:bg-brand-950/20"
-          : "border-red-200 bg-red-50 dark:border-red-900/50 dark:bg-red-950/20"
+          ? "border-brand-200 bg-brand-50 dark:border-brand-900/50 dark:bg-slate-900 md:dark:bg-brand-950/20"
+          : "border-red-200 bg-red-50 dark:border-red-900/50 dark:bg-slate-900 md:dark:bg-red-950/20"
       }`}
     >
       <div className="flex items-center gap-2">
@@ -694,11 +705,12 @@ function Feedback({
           </div>
         )}
       </div>
-      <div className="mt-4 flex gap-3">
-        {!result.correct && <button onClick={onRetry} className="btn btn-ghost flex-1">{t("quiz.retry")}</button>}
-      <button onClick={onNext} className="btn btn-primary mt-4 flex-1">
-        {t("quiz.next")}
-      </button></div>
+      <div className="mt-3 flex gap-3 md:mt-4">
+        {!result.correct && <button onClick={onRetry} className="btn btn-ghost flex-1 !py-4 text-base">{t("quiz.retry")}</button>}
+        <button onClick={onNext} className="btn btn-primary flex-1 !py-4 text-base">
+          {t("quiz.next")}
+        </button>
+      </div>
     </div>
   );
 }

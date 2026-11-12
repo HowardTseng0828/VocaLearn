@@ -42,16 +42,16 @@ export function Shell({ children }: { children: ReactNode }) {
   if (!user) return <AuthScreen />;
 
   return (
-    <div className="min-h-screen pb-24 md:pb-0">
+    <div className="flex h-[100dvh] flex-col overflow-hidden md:block md:h-auto md:min-h-screen md:overflow-visible">
       {/* Top bar */}
-      <header className="sticky top-0 z-20 border-b-2 border-slate-100 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+      <header className="z-20 shrink-0 border-b-2 pt-[env(safe-area-inset-top)] md:sticky md:top-0 border-slate-100 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
+        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-2 md:py-3">
           <Link href="/" className="flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center overflow-hidden rounded-2xl bg-brand-500 text-[0px] shadow-[0_3px_0_0_#46a302]">
+            <span className="grid h-8 w-8 place-items-center overflow-hidden rounded-2xl md:h-9 md:w-9 bg-brand-500 text-[0px] shadow-[0_3px_0_0_#46a302]">
               <img src="/icon.svg" alt="VocaLearn" className="h-full w-full" />
               🦉
             </span>
-            <span className="text-xl font-extrabold tracking-tight">
+            <span className="text-lg font-extrabold tracking-tight md:text-xl">
               VocaLearn
             </span>
           </Link>
@@ -91,7 +91,7 @@ export function Shell({ children }: { children: ReactNode }) {
             <ThemeToggle />
             <button
               onClick={logout}
-              className="btn btn-ghost !px-3 !py-2 text-xs"
+              className="btn btn-ghost !hidden !px-3 !py-2 text-xs sm:!inline-flex"
               title={t("nav.logout")}
             >
               {t("nav.logout")}
@@ -100,10 +100,10 @@ export function Shell({ children }: { children: ReactNode }) {
         </div>
       </header>
 
-      <main className="mx-auto max-w-5xl px-4 py-6">{children}</main>
+      <main className="mx-auto min-h-0 w-full max-w-lg flex-1 overflow-y-auto overflow-x-hidden overscroll-contain px-4 py-3 md:max-w-5xl md:overflow-visible md:py-6">{children}</main>
 
       {/* Bottom nav (mobile) */}
-      <nav className="fixed inset-x-0 bottom-0 z-20 border-t-2 border-slate-100 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 md:hidden">
+      <nav className="z-20 shrink-0 border-t-2 pb-[env(safe-area-inset-bottom)] border-slate-100 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 md:hidden">
         <div className="mx-auto grid max-w-5xl grid-cols-5">
           {PRIMARY_NAV.map((item) => {
             const active =
@@ -114,10 +114,10 @@ export function Shell({ children }: { children: ReactNode }) {
               <Link
                 key={item.href}
                 href={item.href}
-                className="flex flex-col items-center gap-0.5 py-2.5 text-[11px] font-bold"
+                className="flex flex-col items-center gap-0.5 py-2 text-xs font-bold"
               >
                 <span
-                  className={`grid h-9 w-12 place-items-center rounded-xl text-lg transition ${
+                  className={`grid h-9 w-14 place-items-center rounded-xl text-lg transition ${
                     active
                       ? "bg-brand-100 dark:bg-brand-900/40"
                       : "opacity-60"
